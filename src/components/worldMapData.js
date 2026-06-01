@@ -1,69 +1,109 @@
 // Geographic Lookup Data for Interactive Vector Atlas
 export const codeToCountries = {
+  "ae": [
+    "United Arab Emirates"
+  ],
   "af": [
     "Afghanistan"
-  ],
-  "al": [
-    "Albania"
-  ],
-  "dz": [
-    "Algeria"
-  ],
-  "ao": [
-    "Angola"
   ],
   "ag": [
     "Antigua"
   ],
+  "al": [
+    "Albania"
+  ],
+  "am": [
+    "Armenia"
+  ],
+  "ao": [
+    "Angola"
+  ],
   "ar": [
     "Argentina"
-  ],
-  "au": [
-    "Australia"
   ],
   "at": [
     "Austria"
   ],
+  "au": [
+    "Australia"
+  ],
   "az": [
     "Azerbaijan"
-  ],
-  "bd": [
-    "Bangladesh"
-  ],
-  "bb": [
-    "Barbados"
-  ],
-  "by": [
-    "Belarus"
-  ],
-  "be": [
-    "Belgium"
-  ],
-  "bj": [
-    "Benin"
   ],
   "ba": [
     "Bosnia"
   ],
-  "bw": [
-    "Botswana"
+  "bb": [
+    "Barbados"
+  ],
+  "bd": [
+    "Bangladesh"
+  ],
+  "be": [
+    "Belgium"
+  ],
+  "bf": [
+    "Burkina Faso"
+  ],
+  "bg": [
+    "Bulgaria"
+  ],
+  "bi": [
+    "Burundi"
+  ],
+  "bj": [
+    "Benin"
+  ],
+  "bn": [
+    "Brunei"
+  ],
+  "bo": [
+    "Bolivia"
   ],
   "br": [
     "Brazil"
   ],
-  "mm": [
-    "Burma",
-    "Myanmar/Burma"
+  "bs": [
+    "Bahamas"
   ],
-  "cm": [
-    "Cameroon"
+  "bt": [
+    "Bhutan"
+  ],
+  "bw": [
+    "Botswana"
+  ],
+  "by": [
+    "Belarus"
+  ],
+  "bz": [
+    "Belize"
   ],
   "ca": [
     "Canada",
     "French Canada"
   ],
+  "cd": [
+    "DR Congo",
+    "Congo"
+  ],
+  "cf": [
+    "Central African Republic"
+  ],
+  "cg": [
+    "Congo-Brazzaville",
+    "Congo"
+  ],
+  "ch": [
+    "Switzerland"
+  ],
+  "ci": [
+    "Ivory Coast"
+  ],
   "cl": [
     "Chile"
+  ],
+  "cm": [
+    "Cameroon"
   ],
   "cn": [
     "China"
@@ -71,20 +111,26 @@ export const codeToCountries = {
   "co": [
     "Colombia"
   ],
-  "cg": [
-    "Congo-Brazzaville"
-  ],
-  "hr": [
-    "Croatia"
+  "cr": [
+    "Costa Rica"
   ],
   "cu": [
     "Cuba"
   ],
   "cw": [
-    "Cura\u00e7ao"
+    "Curaçao"
+  ],
+  "cy": [
+    "Cyprus"
   ],
   "cz": [
     "Czechia"
+  ],
+  "de": [
+    "Germany"
+  ],
+  "dj": [
+    "Djibouti"
   ],
   "dk": [
     "Denmark"
@@ -92,23 +138,26 @@ export const codeToCountries = {
   "dm": [
     "Dominica"
   ],
+  "do": [
+    "Dominican Republic"
+  ],
+  "dz": [
+    "Algeria"
+  ],
   "ec": [
     "Ecuador"
+  ],
+  "ee": [
+    "Estonia"
   ],
   "eg": [
     "Egypt"
   ],
-  "sv": [
-    "El Salvador"
+  "er": [
+    "Eritrea"
   ],
-  "gb": [
-    "England",
-    "Scotland",
-    "Wales",
-    "Northern Ireland"
-  ],
-  "ee": [
-    "Estonia"
+  "es": [
+    "Spain"
   ],
   "et": [
     "Ethiopia"
@@ -116,35 +165,68 @@ export const codeToCountries = {
   "fi": [
     "Finland"
   ],
+  "fj": [
+    "Fiji"
+  ],
+  "fk": [
+    "Falkland Islands"
+  ],
   "fr": [
     "France"
+  ],
+  "ga": [
+    "Gabon"
+  ],
+  "gb": [
+    "England",
+    "Scotland",
+    "Wales",
+    "Northern Ireland"
+  ],
+  "gd": [
+    "Grenada"
   ],
   "ge": [
     "Georgia"
   ],
-  "de": [
-    "Germany"
+  "gf": [
+    "French Guiana"
   ],
   "gh": [
     "Ghana"
   ],
-  "gr": [
-    "Greece"
+  "gl": [
+    "Greenland"
+  ],
+  "gm": [
+    "Gambia"
+  ],
+  "gn": [
+    "Guinea"
   ],
   "gp": [
     "Guadeloupe"
   ],
+  "gq": [
+    "Equatorial Guinea"
+  ],
+  "gr": [
+    "Greece"
+  ],
   "gt": [
     "Guatemala"
-  ],
-  "gn": [
-    "Guinea"
   ],
   "gw": [
     "Guinea Bissau"
   ],
   "gy": [
     "Guyana"
+  ],
+  "hn": [
+    "Honduras"
+  ],
+  "hr": [
+    "Croatia"
   ],
   "ht": [
     "Haiti",
@@ -153,56 +235,74 @@ export const codeToCountries = {
   "hu": [
     "Hungary"
   ],
-  "is": [
-    "Iceland"
-  ],
-  "in": [
-    "India"
-  ],
   "id": [
     "Indonesia"
-  ],
-  "ir": [
-    "Iran"
-  ],
-  "iq": [
-    "Iraq"
   ],
   "ie": [
     "Ireland"
   ],
+  "il": [
+    "Israel"
+  ],
+  "in": [
+    "India"
+  ],
+  "iq": [
+    "Iraq"
+  ],
+  "ir": [
+    "Iran"
+  ],
+  "is": [
+    "Iceland"
+  ],
   "it": [
     "Italy"
-  ],
-  "ci": [
-    "Ivory Coast"
   ],
   "jm": [
     "Jamaica"
   ],
-  "jp": [
-    "Japan"
-  ],
   "jo": [
     "Jordan"
   ],
-  "kz": [
-    "Kazakhstan"
+  "jp": [
+    "Japan"
   ],
   "ke": [
     "Kenya"
   ],
-  "kr": [
-    "Korea"
-  ],
   "kg": [
     "Kyrgyzstan"
   ],
-  "lv": [
-    "Latvia"
+  "kh": [
+    "Cambodia"
+  ],
+  "kp": [
+    "North Korea"
+  ],
+  "kr": [
+    "Korea"
+  ],
+  "kw": [
+    "Kuwait"
+  ],
+  "kz": [
+    "Kazakhstan"
+  ],
+  "la": [
+    "Laos"
   ],
   "lb": [
     "Lebanon"
+  ],
+  "lc": [
+    "Saint Lucia"
+  ],
+  "lk": [
+    "Sri Lanka"
+  ],
+  "lr": [
+    "Liberia"
   ],
   "ls": [
     "Lesotho"
@@ -210,77 +310,134 @@ export const codeToCountries = {
   "lt": [
     "Lithuania"
   ],
-  "my": [
-    "Malaysia"
+  "lv": [
+    "Latvia"
   ],
-  "ml": [
-    "Mali"
-  ],
-  "mh": [
-    "Marshall Islands"
-  ],
-  "mq": [
-    "Martinique"
-  ],
-  "mu": [
-    "Mauritius"
-  ],
-  "mx": [
-    "Mexico"
-  ],
-  "mn": [
-    "Mongolia"
+  "ly": [
+    "Libya",
+    "Lybia",
+    "Líbia"
   ],
   "ma": [
     "Morocco"
   ],
+  "md": [
+    "Moldova"
+  ],
+  "mg": [
+    "Madagascar"
+  ],
+  "mh": [
+    "Marshall Islands"
+  ],
+  "mk": [
+    "North Macedonia"
+  ],
+  "ml": [
+    "Mali"
+  ],
+  "mm": [
+    "Burma",
+    "Myanmar/Burma"
+  ],
+  "mn": [
+    "Mongolia"
+  ],
+  "mq": [
+    "Martinique"
+  ],
+  "mr": [
+    "Mauritania"
+  ],
+  "mt": [
+    "Malta"
+  ],
+  "mu": [
+    "Mauritius"
+  ],
+  "mw": [
+    "Malawi"
+  ],
+  "mx": [
+    "Mexico"
+  ],
+  "my": [
+    "Malaysia"
+  ],
   "mz": [
     "Mozambique"
   ],
-  "np": [
-    "Nepal"
+  "na": [
+    "Namibia"
   ],
-  "nl": [
-    "Netherlands"
+  "nc": [
+    "New Caledonia"
   ],
-  "nz": [
-    "New Zealand"
-  ],
-  "ni": [
-    "Nicaragua"
+  "ne": [
+    "Niger"
   ],
   "ng": [
     "Nigeria"
   ],
+  "ni": [
+    "Nicaragua"
+  ],
+  "nl": [
+    "Netherlands"
+  ],
   "no": [
     "Norway"
+  ],
+  "np": [
+    "Nepal"
+  ],
+  "nz": [
+    "New Zealand"
   ],
   "om": [
     "Oman"
   ],
-  "pk": [
-    "Pakistan"
-  ],
-  "ps": [
-    "Palestine"
-  ],
-  "py": [
-    "Paraguay"
+  "pa": [
+    "Panama"
   ],
   "pe": [
     "Peru"
   ],
+  "pf": [
+    "Tahiti"
+  ],
+  "pg": [
+    "Papua New Guinea"
+  ],
   "ph": [
     "Philippines"
+  ],
+  "pk": [
+    "Pakistan"
   ],
   "pl": [
     "Poland"
   ],
+  "pr": [
+    "Puerto Rico"
+  ],
+  "ps": [
+    "Palestine"
+  ],
   "pt": [
     "Portugal"
   ],
+  "py": [
+    "Paraguay"
+  ],
+  "qa": [
+    "Qatar"
+  ],
   "ro": [
     "Romania"
+  ],
+  "rs": [
+    "Serbia"
   ],
   "ru": [
     "Russia"
@@ -288,81 +445,93 @@ export const codeToCountries = {
   "rw": [
     "Rwanda"
   ],
-  "ws": [
-    "Samoa"
+  "sa": [
+    "Saudi Arabia"
   ],
-  "sn": [
-    "Senegal"
-  ],
-  "rs": [
-    "Serbia"
-  ],
-  "sg": [
-    "Singapore"
-  ],
-  "so": [
-    "Somalia"
-  ],
-  "za": [
-    "South Africa"
-  ],
-  "es": [
-    "Spain"
-  ],
-  "lk": [
-    "Sri Lanka"
+  "sb": [
+    "Solomon Islands"
   ],
   "sd": [
     "Sudan"
   ],
-  "sr": [
-    "Suriname"
-  ],
   "se": [
     "Sweden"
   ],
-  "ch": [
-    "Switzerland"
+  "sg": [
+    "Singapore"
+  ],
+  "si": [
+    "Slovenia"
+  ],
+  "sj": [
+    "Svalbard"
+  ],
+  "sk": [
+    "Slovakia"
+  ],
+  "sl": [
+    "Sierra Leone"
+  ],
+  "sn": [
+    "Senegal"
+  ],
+  "so": [
+    "Somalia"
+  ],
+  "sr": [
+    "Suriname"
+  ],
+  "sv": [
+    "El Salvador"
   ],
   "sy": [
     "Syria"
   ],
-  "pf": [
-    "Tahiti"
+  "sz": [
+    "Eswatini"
   ],
-  "tj": [
-    "Tajikistan"
+  "td": [
+    "Chad"
   ],
-  "tz": [
-    "Tanzania"
+  "tg": [
+    "Togo"
   ],
   "th": [
     "Thailand"
   ],
-  "to": [
-    "Tonga"
-  ],
-  "tt": [
-    "Trinidad"
-  ],
-  "tn": [
-    "Tunisia"
-  ],
-  "tr": [
-    "Turkey"
+  "tj": [
+    "Tajikistan"
   ],
   "tm": [
     "Turkmenistan"
   ],
-  "us": [
-    "USA",
-    "Haiti / United States"
+  "tn": [
+    "Tunisia"
+  ],
+  "to": [
+    "Tonga"
+  ],
+  "tr": [
+    "Turkey"
+  ],
+  "tt": [
+    "Trinidad"
+  ],
+  "tw": [
+    "Taiwan"
+  ],
+  "tz": [
+    "Tanzania"
+  ],
+  "ua": [
+    "Ukraine"
   ],
   "ug": [
     "Uganda"
   ],
-  "ua": [
-    "Ukraine"
+  "us": [
+    "USA",
+    "Haiti / United States"
   ],
   "uy": [
     "Uruguay"
@@ -376,6 +545,18 @@ export const codeToCountries = {
   "vn": [
     "Vietnam"
   ],
+  "ws": [
+    "Samoa"
+  ],
+  "ye": [
+    "Yemen"
+  ],
+  "za": [
+    "South Africa"
+  ],
+  "zm": [
+    "Zambia"
+  ],
   "zw": [
     "Zimbabwe"
   ]
@@ -388,47 +569,73 @@ export const countryToCode = {
   "Angola": "ao",
   "Antigua": "ag",
   "Argentina": "ar",
+  "Armenia": "am",
+  "Astec Empire": "mx",
   "Australia": "au",
   "Austria": "at",
   "Azerbaijan": "az",
+  "Bahamas": "bs",
   "Bangladesh": "bd",
   "Barbados": "bb",
   "Belarus": "by",
   "Belgium": "be",
+  "Belize": "bz",
   "Benin": "bj",
+  "Bhutan": "bt",
+  "Bolivia": "bo",
   "Bosnia": "ba",
   "Botswana": "bw",
   "Brazil": "br",
+  "Brunei": "bn",
+  "Bulgaria": "bg",
+  "Burkina Faso": "bf",
   "Burma": "mm",
-  "Myanmar/Burma": "mm",
+  "Burundi": "bi",
+  "Cambodia": "kh",
   "Cameroon": "cm",
   "Canada": "ca",
-  "French Canada": "ca",
+  "Central African Republic": "cf",
+  "Chad": "td",
   "Chile": "cl",
   "China": "cn",
   "Colombia": "co",
+  "Congo": "cg",
   "Congo-Brazzaville": "cg",
+  "Costa Rica": "cr",
   "Croatia": "hr",
   "Cuba": "cu",
-  "Cura\u00e7ao": "cw",
+  "Curaçao": "cw",
+  "Cyprus": "cy",
+  "Czech Republic": "cz",
   "Czechia": "cz",
+  "DR Congo": "cd",
   "Denmark": "dk",
+  "Djibouti": "dj",
   "Dominica": "dm",
+  "Dominican Republic": "do",
   "Ecuador": "ec",
   "Egypt": "eg",
   "El Salvador": "sv",
   "England": "gb",
-  "Scotland": "gb",
-  "Wales": "gb",
-  "Northern Ireland": "gb",
+  "Equatorial Guinea": "gq",
+  "Eritrea": "er",
   "Estonia": "ee",
+  "Eswatini": "sz",
   "Ethiopia": "et",
+  "Falkland Islands": "fk",
+  "Fiji": "fj",
   "Finland": "fi",
   "France": "fr",
+  "French Canada": "ca",
+  "French Guiana": "gf",
+  "Gabon": "ga",
+  "Gambia": "gm",
   "Georgia": "ge",
   "Germany": "de",
   "Ghana": "gh",
   "Greece": "gr",
+  "Greenland": "gl",
+  "Grenada": "gd",
   "Guadeloupe": "gp",
   "Guatemala": "gt",
   "Guinea": "gn",
@@ -436,6 +643,7 @@ export const countryToCode = {
   "Guyana": "gy",
   "Haiti": "ht",
   "Haiti / United States": "us",
+  "Honduras": "hn",
   "Hungary": "hu",
   "Iceland": "is",
   "India": "in",
@@ -443,6 +651,7 @@ export const countryToCode = {
   "Iran": "ir",
   "Iraq": "iq",
   "Ireland": "ie",
+  "Israel": "il",
   "Italy": "it",
   "Ivory Coast": "ci",
   "Jamaica": "jm",
@@ -451,65 +660,104 @@ export const countryToCode = {
   "Kazakhstan": "kz",
   "Kenya": "ke",
   "Korea": "kr",
+  "Kuwait": "kw",
   "Kyrgyzstan": "kg",
+  "Laos": "la",
   "Latvia": "lv",
   "Lebanon": "lb",
   "Lesotho": "ls",
+  "Liberia": "lr",
+  "Libya": "ly",
   "Lithuania": "lt",
+  "Lybia": "ly",
+  "Líbia": "ly",
+  "Madagascar": "mg",
+  "Malawi": "mw",
   "Malaysia": "my",
   "Mali": "ml",
+  "Malta": "mt",
   "Marshall Islands": "mh",
   "Martinique": "mq",
+  "Mauritania": "mr",
   "Mauritius": "mu",
   "Mexico": "mx",
+  "Moldova": "md",
   "Mongolia": "mn",
   "Morocco": "ma",
   "Mozambique": "mz",
+  "Myanmar/Burma": "mm",
+  "Namibia": "na",
   "Nepal": "np",
   "Netherlands": "nl",
+  "New Caledonia": "nc",
   "New Zealand": "nz",
   "Nicaragua": "ni",
+  "Niger": "ne",
   "Nigeria": "ng",
+  "North Korea": "kp",
+  "North Macedonia": "mk",
+  "Northern Ireland": "gb",
   "Norway": "no",
   "Oman": "om",
   "Pakistan": "pk",
   "Palestine": "ps",
+  "Panama": "pa",
+  "Papua New Guinea": "pg",
   "Paraguay": "py",
   "Peru": "pe",
   "Philippines": "ph",
   "Poland": "pl",
   "Portugal": "pt",
+  "Puerto Rico": "pr",
+  "Qatar": "qa",
   "Romania": "ro",
   "Russia": "ru",
   "Rwanda": "rw",
+  "Saint Lucia": "lc",
   "Samoa": "ws",
+  "Saudi Arabia": "sa",
+  "Scotland": "gb",
   "Senegal": "sn",
   "Serbia": "rs",
+  "Sierra Leone": "sl",
   "Singapore": "sg",
+  "Slovakia": "sk",
+  "Slovenia": "si",
+  "Solomon Islands": "sb",
   "Somalia": "so",
   "South Africa": "za",
+  "South Korea": "kr",
   "Spain": "es",
   "Sri Lanka": "lk",
   "Sudan": "sd",
   "Suriname": "sr",
+  "Svalbard": "sj",
   "Sweden": "se",
   "Switzerland": "ch",
   "Syria": "sy",
   "Tahiti": "pf",
+  "Taiwan": "tw",
   "Tajikistan": "tj",
   "Tanzania": "tz",
   "Thailand": "th",
+  "Togo": "tg",
   "Tonga": "to",
   "Trinidad": "tt",
+  "Trinidad and Tobago": "tt",
   "Tunisia": "tn",
   "Turkey": "tr",
   "Turkmenistan": "tm",
   "USA": "us",
   "Uganda": "ug",
   "Ukraine": "ua",
+  "United Arab Emirates": "ae",
   "Uruguay": "uy",
   "Uzbekistan": "uz",
   "Venezuela": "ve",
   "Vietnam": "vn",
-  "Zimbabwe": "zw"
+  "Wales": "gb",
+  "Yemen": "ye",
+  "Zambia": "zm",
+  "Zimbabwe": "zw",
+  "Índia": "in"
 };
