@@ -178,9 +178,9 @@ export default function BookTable({
       </div>
 
       {/* Table */}
-      <div className="table-responsive">
+      <div className="table-responsive" style={{ maxHeight: 'calc(100vh - 280px)', minHeight: '400px', overflowY: 'auto' }}>
         <table className="table table-hover align-middle mb-0" style={{ fontSize: '0.85rem' }}>
-          <thead className="table-light">
+          <thead className="table-light sticky-top" style={{ zIndex: 10 }}>
             <tr>
               <th className="ps-3" style={{ width: '40px' }}></th>
               <th className="cursor-pointer py-3" onClick={() => handleSort('title')}>
@@ -207,28 +207,32 @@ export default function BookTable({
           <tbody>
             {visibleBooks.map(b => (
               <React.Fragment key={b.id}>
-                <tr className={expandedBookId === b.id ? 'table-primary' : ''}>
-                  <td className="ps-3">
+                <tr 
+                  className={expandedBookId === b.id ? 'table-active' : ''}
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => setExpandedBookId(expandedBookId === b.id ? null : b.id)}
+                >
+                  <td className="ps-3" onClick={(e) => e.stopPropagation()} style={{ cursor: 'default' }}>
                     <input 
                       type="checkbox" 
-                      className="form-check-input" 
+                      className="form-check-input cursor-pointer" 
                       checked={b.read} 
                       onChange={() => onToggleRead(b.id)} 
                     />
                   </td>
-                  <td className="fw-bold cursor-pointer" onClick={() => setExpandedBookId(expandedBookId === b.id ? null : b.id)}>
+                  <td className="fw-bold">
                     {b.title}
                   </td>
                   <td className="text-muted">{b.author}</td>
                   <td className="d-none d-lg-table-cell">{b.year}</td>
-                  <td className="d-none d-md-table-cell">
+                  <td className="d-none d-md-table-cell" onClick={(e) => e.stopPropagation()}>
                     <span className="badge border border-secondary text-secondary badge-interactive" onClick={() => onCountryFilterChange(b.country)}>
                       {b.country}
                     </span>
                   </td>
                   <td className="d-none d-lg-table-cell text-muted">{b.pages}</td>
                   <td className="d-none d-xl-table-cell text-muted">{b.region}</td>
-                  <td className="text-end pe-3">
+                  <td className="text-end pe-3" onClick={(e) => e.stopPropagation()}>
                     <div className="btn-group btn-group-sm">
                       <button 
                         className="btn btn-outline-secondary border-0" 

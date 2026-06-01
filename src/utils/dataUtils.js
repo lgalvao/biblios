@@ -51,6 +51,50 @@ const countryAliases = {
   'guinea bissau': 'Guinea-Bissau'
 };
 
+const langMap = {
+  'portugues': 'Portuguese',
+  'ingles': 'English',
+  'frances': 'French',
+  'alemao': 'German',
+  'espanhol': 'Spanish',
+  'italiano': 'Italian',
+  'russo': 'Russian',
+  'japones': 'Japanese',
+  'chines': 'Chinese',
+  'arabe': 'Arabic',
+  'grego': 'Greek',
+  'holandes': 'Dutch',
+  'polones': 'Polish',
+  'turco': 'Turkish',
+  'sueco': 'Swedish',
+  'dinamarques': 'Danish',
+  'noruegues': 'Norwegian',
+  'coreano': 'Korean',
+  'vietnamita': 'Vietnamese',
+  'tcheco': 'Czech',
+  'hungaro': 'Hungarian',
+  'finlandes': 'Finnish',
+  'romeno': 'Romanian',
+  'bengali': 'Bengali',
+  'persa': 'Persian',
+  'hebraico': 'Hebrew',
+  'hindi': 'Hindi',
+  'urdu': 'Urdu',
+  'swahili': 'Swahili',
+  'islandes': 'Icelandic',
+  'irlandes': 'Irish',
+  'latim': 'Latin',
+  'ingles (antigo)': 'Old English',
+  'frances (antigo)': 'Old French',
+  'castelhano': 'Spanish'
+};
+
+export const translateLanguageToEnglish = (lang) => {
+  if (!lang) return 'English';
+  const normalized = lang.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  return langMap[normalized] || lang.trim();
+};
+
 export const getGeoInfo = (countryName) => {
   if (!countryName) return { region: '', continent: '' };
   const name = countryName.toLowerCase().trim();
@@ -172,7 +216,7 @@ export const mapCsvToBooks = (rows) => {
         region: mapping.region !== -1 && row[mapping.region] ? row[mapping.region].trim() : geo.region,
         continent: mapping.continent !== -1 && row[mapping.continent] ? row[mapping.continent].trim() : geo.continent,
         read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
-        originalLanguage: mapping.lang !== -1 ? row[mapping.lang]?.trim() || 'English' : 'English',
+        originalLanguage: mapping.lang !== -1 ? translateLanguageToEnglish(row[mapping.lang]) : 'English',
         pages: mapping.pages !== -1 ? parseInt(row[mapping.pages], 10) || 250 : 250,
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
       };
@@ -234,7 +278,7 @@ export const repairBooksList = (loadedBooks, referenceData) => {
       }
       if (b.originalLanguage === undefined || b.originalLanguage === 'English') {
         if (b.originalLanguage !== freshSource.originalLanguage) {
-          updated.originalLanguage = freshSource.originalLanguage;
+          updated.originalLanguage = translateLanguageToEnglish(freshSource.originalLanguage);
           isUpdated = true;
         }
       }
@@ -262,6 +306,13 @@ export const repairBooksList = (loadedBooks, referenceData) => {
     }
 
     if (isUpdated) {
+      needsRepair = true;
+    }
+
+    // Traduzir idioma para inglês em todos os casos
+    const finalLang = translateLanguageToEnglish(updated.originalLanguage);
+    if (updated.originalLanguage !== finalLang) {
+      updated.originalLanguage = finalLang;
       needsRepair = true;
     }
 

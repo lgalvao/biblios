@@ -42,16 +42,16 @@ export default function Dashboard({ books }) {
   }, [books]);
 
   const eraData = useMemo(() => {
-    const eras = { 'Ancient': 0, '19th C': 0, '1900-1949': 0, '1950-1999': 0, 'Modern': 0 };
+    const eras = { 'Pre-1800': 0, '1800s': 0, '1900-1949': 0, '1950-1999': 0, '2000+': 0 };
     books.forEach(b => {
       const yrMatch = String(b.year || '').match(/\d+/);
       const yr = yrMatch ? parseInt(yrMatch[0], 10) : null;
       
-      if (!yr || yr < 1800) eras['Ancient']++;
-      else if (yr < 1900) eras['19th C']++;
+      if (!yr || yr < 1800) eras['Pre-1800']++;
+      else if (yr < 1900) eras['1800s']++;
       else if (yr < 1950) eras['1900-1949']++;
       else if (yr < 2000) eras['1950-1999']++;
-      else eras['Modern']++;
+      else eras['2000+']++;
     });
     return Object.entries(eras).map(([name, count]) => ({ name, count }));
   }, [books]);
