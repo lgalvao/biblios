@@ -6,8 +6,8 @@ import path from 'path'
 
 // Custom plugin for real-time filesystem synchronization
 const localDatabasePlugin = () => {
-  const jsonPath = path.resolve(process.cwd(), 'src/data/initialData.json');
-  const csvPath = path.resolve(process.cwd(), 'list.csv');
+  const jsonPath = path.resolve(process.cwd(), 'src/data/data.json');
+  const csvPath = path.resolve(process.cwd(), 'data.csv');
 
   const escapeCSVField = (val) => {
     if (val === null || val === undefined) return '';
@@ -19,8 +19,82 @@ const localDatabasePlugin = () => {
     return str;
   };
 
+  const parseCSV = (content) => {
+    const lines = [];
+    let row = [""];
+    let inQuotes = false;
+    for (let i = 0; i < content.length; i++) {
+      const char = content[i];
+      const nextChar = content[i + 1];
+      if (char === '"') {
+        if (inQuotes && nextChar === '"') {
+          row[row.length - 1] += '"';
+          i++;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (char === ',' && !inQuotes) {
+        row.push("");
+      } else if ((char === '\r' || char === '\n') && !inQuotes) {
+        if (char === '\r' && nextChar === '\n') i++;
+        if (row.length > 1 || row[0] !== "") lines.push(row);
+        row = [""];
+      } else {
+        row[row.length - 1] += char;
+      }
+    }
+    if (row.length > 1 || row[0] !== "") lines.push(row);
+    return lines;
+  };
+
+  const syncOnStart = () => {
+    try {
+      if (!fs.existsSync(csvPath)) return;
+      
+      const csvContent = fs.readFileSync(csvPath, 'utf-8').replace(/^\uFEFF/, '');
+      const rows = parseCSV(csvContent);
+      if (rows.length < 2) return;
+
+      const headers = rows[0].map(h => h.trim().toLowerCase());
+      const mapping = {
+        title: headers.indexOf('title'),
+        author: headers.indexOf('author'),
+        year: headers.indexOf('year'),
+        country: headers.indexOf('country'),
+        region: headers.indexOf('region'),
+        continent: headers.indexOf('continent'),
+        read: headers.indexOf('read'),
+        lang: headers.indexOf('originallanguage'),
+        pages: headers.indexOf('pages'),
+        desc: headers.indexOf('description')
+      };
+
+      const books = rows.slice(1).filter(row => row[mapping.title] && row[mapping.author]).map((row, idx) => ({
+        id: idx + 1,
+        title: row[mapping.title]?.trim() || '',
+        author: row[mapping.author]?.trim() || '',
+        year: mapping.year !== -1 ? row[mapping.year]?.trim() || '' : '',
+        country: mapping.country !== -1 ? row[mapping.country]?.trim() || '' : '',
+        region: mapping.region !== -1 ? row[mapping.region]?.trim() || '' : '',
+        continent: mapping.continent !== -1 ? row[mapping.continent]?.trim() || '' : '',
+        read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
+        originalLanguage: mapping.lang !== -1 ? row[mapping.lang]?.trim() || 'English' : 'English',
+        pages: mapping.pages !== -1 ? parseInt(row[mapping.pages], 10) || 250 : 250,
+        description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
+      }));
+
+      fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
+      console.log(`[Vite] Startup Sync: Loaded ${books.length} books from list.csv into initialData.json`);
+    } catch (err) {
+      console.error("[Vite] Failed to sync CSV on startup:", err);
+    }
+  };
+
   return {
     name: 'vite-plugin-local-database',
+    buildStart() {
+      syncOnStart();
+    },
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
         if (req.url === '/api/books' && req.method === 'GET') {
@@ -51,7 +125,7 @@ const localDatabasePlugin = () => {
               fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
 
               // 2. Overwrite list.csv (with UTF-8 BOM)
-              const headers = ["Title", "Author", "Year", "Country", "Continent", "Read", "OriginalLanguage", "Pages", "Description"];
+              const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description"];
               const csvRows = [headers.join(',')];
               
               books.forEach(b => {
@@ -60,6 +134,7 @@ const localDatabasePlugin = () => {
                   escapeCSVField(b.author),
                   escapeCSVField(b.year),
                   escapeCSVField(b.country),
+                  escapeCSVField(b.region),
                   escapeCSVField(b.continent),
                   b.read ? '1' : '', // '1' matches read status checked standard, empty if unread
                   escapeCSVField(b.originalLanguage),
@@ -94,6 +169,11 @@ export default defineConfig({
   plugins: [react(), localDatabasePlugin()],
   server: {
     host: true
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.js',
   }
 })
 

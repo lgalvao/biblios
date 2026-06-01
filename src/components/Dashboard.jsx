@@ -1,347 +1,138 @@
 import { useMemo } from 'react';
-import { 
-  ResponsiveContainer, 
-  PieChart, 
-  Pie, 
-  Cell, 
-  Tooltip, 
-  BarChart, 
-  Bar, 
-  XAxis, 
-  YAxis, 
-  CartesianGrid, 
-  Legend 
-} from 'recharts';
+import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend } from 'recharts';
 import { Book, CheckCircle, Compass, Globe, Languages, FileText } from 'lucide-react';
 
 export default function Dashboard({ books }) {
-  // 1. Calculate KPI Statistics
   const stats = useMemo(() => {
     const total = books.length;
-    if (total === 0) return { total: 0, read: 0, percent: 0, topContinent: 'N/A', countryCount: 0, totalPageCount: 0, readPageCount: 0, pagesPercent: 0, languageCount: 0 };
-    
+    if (total === 0) return null;
     const read = books.filter(b => b.read).length;
-    const percent = Math.round((read / total) * 100);
-    
-    // Most prolific continent
     const continentCounts = {};
-    let topContinent = 'N/A';
-    let maxCount = 0;
-    
-    books.forEach(b => {
-      if (b.continent) {
-        continentCounts[b.continent] = (continentCounts[b.continent] || 0) + 1;
-        if (continentCounts[b.continent] > maxCount) {
-          maxCount = continentCounts[b.continent];
-          topContinent = b.continent;
-        }
-      }
-    });
-
-    // Unique countries count
+    const regionCounts = {};
     const countrySet = new Set();
-    books.forEach(b => {
-      if (b.country) {
-        countrySet.add(b.country.trim().toLowerCase());
-      }
-    });
-    const countryCount = countrySet.size;
-
-    // Total page count metrics
-    let totalPageCount = 0;
-    let readPageCount = 0;
-    books.forEach(b => {
-      const p = intValue(b.pages) || 250;
-      totalPageCount += p;
-      if (b.read) {
-        readPageCount += p;
-      }
-    });
-    const pagesPercent = totalPageCount > 0 ? Math.round((readPageCount / totalPageCount) * 100) : 0;
-
-    // Unique languages
     const langSet = new Set();
+    let totalPages = 0;
+    let readPages = 0;
+
     books.forEach(b => {
-      if (b.originalLanguage) {
-        langSet.add(b.originalLanguage.trim().toLowerCase());
-      }
+      if (b.continent) continentCounts[b.continent] = (continentCounts[b.continent] || 0) + 1;
+      if (b.region) regionCounts[b.region] = (regionCounts[b.region] || 0) + 1;
+      if (b.country) countrySet.add(b.country.trim().toLowerCase());
+      if (b.originalLanguage) langSet.add(b.originalLanguage.trim().toLowerCase());
+      const p = parseInt(b.pages, 10) || 250;
+      totalPages += p;
+      if (b.read) readPages += p;
     });
-    const languageCount = langSet.size || 1;
+
+    const topContinent = Object.entries(continentCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || 'N/A';
+    const regionCount = Object.keys(regionCounts).length;
 
     return {
-      total,
-      read,
-      percent,
-      topContinent,
-      countryCount,
-      totalPageCount,
-      readPageCount,
-      pagesPercent,
-      languageCount
+      total, read, percent: Math.round((read / total) * 100),
+      topContinent, regionCount, countryCount: countrySet.size,
+      totalPages, readPages, pagesPercent: Math.round((readPages / totalPages) * 100),
+      languageCount: langSet.size
     };
   }, [books]);
 
-  // Safe helper to convert values to integer
-  function intValue(val) {
-    if (typeof val === 'number') return val;
-    if (!val) return 0;
-    const parsed = parseInt(val, 10);
-    return isNaN(parsed) ? 0 : parsed;
-  }
-
-  // 2. Prepare Continent Chart Data
-  const continentData = useMemo(() => {
-    const counts = {};
-    books.forEach(b => {
-      if (b.continent) {
-        counts[b.continent] = (counts[b.continent] || 0) + 1;
-      }
-    });
-    return Object.entries(counts).map(([name, value]) => ({ name, value }));
+  const chartData = useMemo(() => {
+    const continents = {};
+    books.forEach(b => { if (b.continent) continents[b.continent] = (continents[b.continent] || 0) + 1; });
+    return Object.entries(continents).map(([name, value]) => ({ name, value }));
   }, [books]);
 
-  // Premium colors matching our theme HSL tokens
-  const COLORS = ['#6366f1', '#06b6d4', '#10b981', '#f59e0b', '#ef4444', '#ec4899', '#8b5cf6'];
-
-  // 3. Prepare Chronological Era Chart Data
   const eraData = useMemo(() => {
-    const eras = {
-      'Pre-1800': 0,
-      '1800-1899 (19th C)': 0,
-      '1900-1949': 0,
-      '1950-1979': 0,
-      '1980-1999': 0,
-      '2000-Present': 0
-    };
-
+    const eras = { 'Ancient': 0, '19th C': 0, '1900-1949': 0, '1950-1999': 0, 'Modern': 0 };
     books.forEach(b => {
-      const yearStr = b.year;
-      const numMatch = yearStr.match(/\d+/);
-      if (numMatch) {
-        const yr = parseInt(numMatch[0]);
-        if (yr < 1800) eras['Pre-1800']++;
-        else if (yr < 1900) eras['1800-1899 (19th C)']++;
-        else if (yr < 1950) eras['1900-1949']++;
-        else if (yr < 1980) eras['1950-1979']++;
-        else if (yr < 2000) eras['1980-1999']++;
-        else eras['2000-Present']++;
-      } else if (yearStr.toLowerCase().includes("17th") || yearStr.toLowerCase().includes("13th") || yearStr.toLowerCase().includes("2nd")) {
-        eras['Pre-1800']++;
-      } else {
-        eras['2000-Present']++;
-      }
+      const yrMatch = String(b.year || '').match(/\d+/);
+      const yr = yrMatch ? parseInt(yrMatch[0], 10) : null;
+      
+      if (!yr || yr < 1800) eras['Ancient']++;
+      else if (yr < 1900) eras['19th C']++;
+      else if (yr < 1950) eras['1900-1949']++;
+      else if (yr < 2000) eras['1950-1999']++;
+      else eras['Modern']++;
     });
-
-    return Object.entries(eras).map(([name, Count]) => ({ name, Count }));
+    return Object.entries(eras).map(([name, count]) => ({ name, count }));
   }, [books]);
+
+  if (!stats) return null;
+
+  const COLORS = ['#0d6efd', '#6610f2', '#6f42c1', '#d63384', '#dc3545', '#fd7e14', '#ffc107', '#198754', '#20c997', '#0dcaf0'];
 
   return (
-    <div className="container-fluid px-0 animate-fade">
+    <div className="animate-fade">
       
-      {/* 4. KPI Stat Row */}
+      {/* KPI Cards */}
       <div className="row g-3 mb-4">
-        
-        {/* KPI 1: Total Books */}
-        <div className="col-12 col-sm-6 col-lg-4">
-          <div className="card glass-card h-100 border-0 p-3 d-flex flex-row align-items-center gap-3">
-            <div className="icon-container p-3 rounded-3 d-flex align-items-center justify-content-center" style={{ background: 'rgba(99, 102, 241, 0.15)', color: '#6366f1' }}>
-              <Book size={24} />
-            </div>
-            <div>
-              <p className="small text-muted mb-0 fw-semibold">Total Books</p>
-              <h3 className="h3 mb-0 fw-extrabold">{stats.total}</h3>
-            </div>
-          </div>
-        </div>
-
-        {/* KPI 2: Reading Progress */}
-        <div className="col-12 col-sm-6 col-lg-4">
-          <div className="card glass-card h-100 border-0 p-3 d-flex flex-row align-items-center gap-3">
-            <div className="icon-container p-3 rounded-3 d-flex align-items-center justify-content-center" style={{ background: 'rgba(16, 185, 129, 0.15)', color: '#10b981' }}>
-              <CheckCircle size={24} />
-            </div>
-            <div className="flex-grow-1">
-              <p className="small text-muted mb-0 fw-semibold">Reading Progress</p>
-              <div className="d-flex align-items-baseline gap-2">
-                <h3 className="h3 mb-0 fw-extrabold">{stats.percent}%</h3>
-                <span className="small text-muted">({stats.read} / {stats.total})</span>
-              </div>
-              <div className="progress mt-2" style={{ height: '6px' }}>
-                <div 
-                  className="progress-bar bg-success" 
-                  role="progressbar" 
-                  style={{ width: `${stats.percent}%`, transition: 'width 0.8s ease' }} 
-                  aria-valuenow={stats.percent} 
-                  aria-valuemin="0" 
-                  aria-valuemax="100"
-                ></div>
+        {[
+          { label: 'Total Books', value: stats.total, icon: <Book size={20}/>, color: 'primary' },
+          { label: 'Read Books', value: `${stats.read} (${stats.percent}%)`, icon: <CheckCircle size={20}/>, color: 'success' },
+          { label: 'Pages Read', value: `${stats.readPages.toLocaleString()} / ${stats.totalPages.toLocaleString()}`, icon: <FileText size={20}/>, color: 'info' },
+          { label: 'Countries', value: stats.countryCount, icon: <Globe size={20}/>, color: 'warning' },
+          { label: 'Regions', value: stats.regionCount, icon: <Compass size={20}/>, color: 'danger' },
+          { label: 'Languages', value: stats.languageCount, icon: <Languages size={20}/>, color: 'secondary' },
+        ].map((kpi, i) => (
+          <div key={i} className="col-12 col-sm-6 col-lg-4">
+            <div className="card shadow-sm border-0 h-100 p-3">
+              <div className="d-flex align-items-center gap-3">
+                <div className={`bg-${kpi.color} bg-opacity-10 text-${kpi.color} p-3 rounded`}>
+                  {kpi.icon}
+                </div>
+                <div>
+                  <p className="text-muted small mb-0 fw-bold text-uppercase">{kpi.label}</p>
+                  <h4 className="fw-bold mb-0">{kpi.value}</h4>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        {/* KPI 5: Total Pages Read */}
-        <div className="col-12 col-sm-6 col-lg-4">
-          <div className="card glass-card h-100 border-0 p-3 d-flex flex-row align-items-center gap-3">
-            <div className="icon-container p-3 rounded-3 d-flex align-items-center justify-content-center" style={{ background: 'rgba(139, 92, 246, 0.15)', color: '#8b5cf6' }}>
-              <FileText size={24} />
-            </div>
-            <div className="flex-grow-1 min-w-0">
-              <p className="small text-muted mb-0 fw-semibold">Pages Read</p>
-              <div className="d-flex align-items-baseline gap-1 flex-wrap">
-                <h3 className="h3 mb-0 fw-extrabold">{stats.readPageCount.toLocaleString()}</h3>
-                <span className="small text-muted text-truncate">
-                  / {stats.totalPageCount.toLocaleString()} p. ({stats.pagesPercent}%)
-                </span>
-              </div>
-              <div className="progress mt-2" style={{ height: '6px' }}>
-                <div 
-                  className="progress-bar" 
-                  role="progressbar" 
-                  style={{ width: `${stats.pagesPercent}%`, background: '#8b5cf6', transition: 'width 0.8s ease' }} 
-                  aria-valuenow={stats.pagesPercent} 
-                  aria-valuemin="0" 
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* KPI 6: Language Diversity */}
-        <div className="col-12 col-sm-6 col-lg-4">
-          <div className="card glass-card h-100 border-0 p-3 d-flex flex-row align-items-center gap-3">
-            <div className="icon-container p-3 rounded-3 d-flex align-items-center justify-content-center" style={{ background: 'rgba(236, 72, 153, 0.15)', color: '#ec4899' }}>
-              <Languages size={24} />
-            </div>
-            <div>
-              <p className="small text-muted mb-0 fw-semibold">Language Diversity</p>
-              <h3 className="h3 mb-0 fw-extrabold">{stats.languageCount}</h3>
-              <span className="small text-muted">Unique Languages</span>
-            </div>
-          </div>
-        </div>
-
-        {/* KPI 3: Top Continent */}
-        <div className="col-12 col-sm-6 col-lg-4">
-          <div className="card glass-card h-100 border-0 p-3 d-flex flex-row align-items-center gap-3">
-            <div className="icon-container p-3 rounded-3 d-flex align-items-center justify-content-center" style={{ background: 'rgba(6, 182, 212, 0.15)', color: '#06b6d4' }}>
-              <Compass size={24} />
-            </div>
-            <div className="min-w-0">
-              <p className="small text-muted mb-0 fw-semibold">Top Continent</p>
-              <h3 className="h4 mb-0 fw-extrabold text-truncate" title={stats.topContinent}>{stats.topContinent}</h3>
-            </div>
-          </div>
-        </div>
-
-        {/* KPI 4: Countries Represented */}
-        <div className="col-12 col-sm-6 col-lg-4">
-          <div className="card glass-card h-100 border-0 p-3 d-flex flex-row align-items-center gap-3">
-            <div className="icon-container p-3 rounded-3 d-flex align-items-center justify-content-center" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b' }}>
-              <Globe size={24} />
-            </div>
-            <div className="min-w-0">
-              <p className="small text-muted mb-0 fw-semibold">Countries Represented</p>
-              <h3 className="h3 mb-0 fw-extrabold">{stats.countryCount}</h3>
-              <span className="small text-muted">Different Nations</span>
-            </div>
-          </div>
-        </div>
-
+        ))}
       </div>
 
-      {/* 5. Chart Layout Row */}
-      <div className="row g-4 mt-2">
-        
-        {/* Continent Donut Card */}
+      {/* Charts */}
+      <div className="row g-4">
         <div className="col-12 col-xl-6">
-          <div className="card glass-card h-100 border-0 p-4 d-flex flex-column" style={{ minHeight: '380px' }}>
-            <h4 className="h5 fw-bold mb-3">Geographic Distribution (Continents)</h4>
-            <div className="flex-grow-1 w-100" style={{ minHeight: '260px' }}>
-              <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
+          <div className="card shadow-sm border-0 p-4 h-100 d-flex flex-column" style={{ minHeight: '450px' }}>
+            <h5 className="fw-bold mb-4 text-uppercase small text-muted">Continents Distribution</h5>
+            <div style={{ width: '100%', height: '350px' }}>
+              <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
-                  <Pie
-                    data={continentData}
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={65}
-                    outerRadius={95}
-                    paddingAngle={3}
-                    dataKey="value"
+                  <Pie 
+                    data={chartData} 
+                    dataKey="value" 
+                    nameKey="name" 
+                    cx="50%" 
+                    cy="50%" 
+                    innerRadius={60} 
+                    outerRadius={100} 
+                    paddingAngle={2}
+                    animationDuration={800}
                   >
-                    {continentData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                    ))}
+                    {chartData.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
                   </Pie>
-                  <Tooltip 
-                    contentStyle={{ 
-                      background: 'var(--card-bg)', 
-                      borderColor: 'var(--card-border)', 
-                      borderRadius: '0.5rem', 
-                      color: 'var(--text-main)',
-                      backdropFilter: 'blur(10px)'
-                    }} 
-                  />
-                  <Legend 
-                    layout="horizontal" 
-                    verticalAlign="bottom" 
-                    align="center"
-                    wrapperStyle={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}
-                  />
+                  <Tooltip />
+                  <Legend verticalAlign="bottom" height={36}/>
                 </PieChart>
               </ResponsiveContainer>
             </div>
           </div>
         </div>
-
-        {/* Timeline Bar Chart */}
         <div className="col-12 col-xl-6">
-          <div className="card glass-card h-100 border-0 p-4 d-flex flex-column" style={{ minHeight: '380px' }}>
-            <h4 className="h5 fw-bold mb-3">Chronological Distribution (Eras)</h4>
-            <div className="flex-grow-1 w-100" style={{ minHeight: '260px' }}>
-              <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
-                <BarChart data={eraData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="var(--border-light)" />
-                  <XAxis 
-                    dataKey="name" 
-                    stroke="var(--text-muted)" 
-                    fontSize={10} 
-                    tickLine={false} 
-                  />
-                  <YAxis 
-                    stroke="var(--text-muted)" 
-                    fontSize={10} 
-                    tickLine={false} 
-                  />
-                  <Tooltip 
-                    contentStyle={{ 
-                      background: 'var(--card-bg)', 
-                      borderColor: 'var(--card-border)', 
-                      borderRadius: '0.5rem', 
-                      color: 'var(--text-main)',
-                      backdropFilter: 'blur(10px)'
-                    }} 
-                  />
-                  <Bar dataKey="Count" radius={[6, 6, 0, 0]}>
-                    {eraData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill="url(#barGradient)" />
-                    ))}
-                  </Bar>
-                  
-                  {/* SVG Gradient definition */}
-                  <defs>
-                    <linearGradient id="barGradient" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" stopColor="#8b5cf6" stopOpacity={0.9}/>
-                      <stop offset="100%" stopColor="#06b6d4" stopOpacity={0.6}/>
-                    </linearGradient>
-                  </defs>
+          <div className="card shadow-sm border-0 p-4 h-100 d-flex flex-column" style={{ minHeight: '450px' }}>
+            <h5 className="fw-bold mb-4 text-uppercase small text-muted">Chronology of Works</h5>
+            <div style={{ width: '100%', height: '350px' }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={eraData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} strokeOpacity={0.1} />
+                  <XAxis dataKey="name" axisLine={false} tickLine={false} fontSize={11} />
+                  <YAxis axisLine={false} tickLine={false} fontSize={11} />
+                  <Tooltip cursor={{fill: 'rgba(0,0,0,0.05)'}} />
+                  <Bar dataKey="count" fill="#0d6efd" radius={[4, 4, 0, 0]} animationDuration={1000} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
         </div>
-
       </div>
 
     </div>

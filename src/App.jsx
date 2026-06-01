@@ -1,10 +1,16 @@
 import { useState, useEffect, useRef } from 'react';
-import initialData from './data/initialData.json';
+import data from './data/data.json';
 import Dashboard from './components/Dashboard';
 import BookTable from './components/BookTable';
 import BookModal from './components/BookModal';
-import Reports from './components/Reports';
 import MapView from './components/MapView';
+import Stats from './components/Stats';
+import { 
+  repairBooksList, 
+  parseCSVText, 
+  escapeCSVField,
+  mapCsvToBooks 
+} from './utils/dataUtils';
 import './App.css';
 
 import { 
@@ -16,107 +22,22 @@ import {
   BookOpen, 
   CheckCircle2, 
   AlertCircle, 
-  Info,
-  Layers,
-  BarChart3,
-  List,
-  Globe
+  Info
 } from 'lucide-react';
-
-// Auto-repair any historical bad data (e.g. continent === country) and sync with initial data source
-function repairBooksList(loadedBooks, referenceData) {
-  let needsRepair = false;
-  const repaired = loadedBooks.map(b => {
-    let isUpdated = false;
-    const updated = { ...b };
-    
-    if (b.continent === 'Ireland') {
-      updated.continent = 'Europe';
-      isUpdated = true;
-    } else if (b.continent === 'India') {
-      updated.continent = 'Asia';
-      isUpdated = true;
-    } else if (b.continent === 'Japan') {
-      updated.continent = 'Asia';
-      isUpdated = true;
-    }
-    
-    if (['Nicaragua', 'El Salvador', 'Guatemala'].includes(b.country) && b.continent !== 'Central America') {
-      updated.continent = 'Central America';
-      isUpdated = true;
-    }
-    
-    if (b.country === 'French Canada') {
-      updated.country = 'Canada';
-      isUpdated = true;
-    }
-
-    // Sync browser cache entries with authentic referenceData values for new fields
-    const freshSource = referenceData.find(item => 
-      item.title.toLowerCase().trim() === b.title.toLowerCase().trim() && 
-      item.author.toLowerCase().trim() === b.author.toLowerCase().trim()
-    );
-
-    if (freshSource) {
-      // Force sync pages to the authentic database values if they differ
-      if (b.pages === undefined || parseInt(b.pages, 10) !== parseInt(freshSource.pages, 10)) {
-        updated.pages = freshSource.pages;
-        isUpdated = true;
-      }
-      if (b.originalLanguage === undefined || b.originalLanguage === 'English') {
-        if (b.originalLanguage !== freshSource.originalLanguage) {
-          updated.originalLanguage = freshSource.originalLanguage;
-          isUpdated = true;
-        }
-      }
-      // Force sync descriptions to the new highly-diverse hashed templates if they differ
-      if (b.description === undefined || b.description === '' || b.description !== freshSource.description) {
-        updated.description = freshSource.description;
-        isUpdated = true;
-      }
-      // Force sync publication year if the cache has the 1950 default placeholder but the source has the true year
-      if ((b.year === '1950' || b.year === 1950) && freshSource.year !== '1950') {
-        updated.year = freshSource.year;
-        isUpdated = true;
-      }
-    } else {
-      // Safe fallbacks for user's custom-added books
-      if (b.originalLanguage === undefined) {
-        updated.originalLanguage = 'English';
-        isUpdated = true;
-      }
-      if (b.pages === undefined) {
-        updated.pages = 250;
-        isUpdated = true;
-      }
-      if (b.description === undefined) {
-        updated.description = `A book from ${b.country || 'world literature'}.`;
-        isUpdated = true;
-      }
-    }
-
-    if (isUpdated) {
-      needsRepair = true;
-    }
-    return updated;
-  });
-
-  return { repaired, needsRepair };
-}
 
 function App() {
   const [books, setBooks] = useState(() => {
     const saved = localStorage.getItem('books_library_master');
-    let loadedBooks = initialData;
+    let loadedBooks = data;
     if (saved) {
       try {
         loadedBooks = JSON.parse(saved);
       } catch (e) {
-        console.error("Failed to load books from localStorage, fallback to initialData", e);
+        console.error("Failed to load books from localStorage, fallback to data", e);
       }
     }
     
-    const { repaired } = repairBooksList(loadedBooks, initialData);
+    const { repaired } = repairBooksList(loadedBooks, data);
     return repaired;
   });
 
@@ -152,9 +73,9 @@ function App() {
     }, 4500);
   };
 
-  // Sync theme to root element
+  // Sync theme to root element using Bootstrap 5.3+ standard attribute
   useEffect(() => {
-    document.documentElement.setAttribute('theme', theme);
+    document.documentElement.setAttribute('data-bs-theme', theme);
     localStorage.setItem('books_library_theme', theme);
   }, [theme]);
 
@@ -199,7 +120,7 @@ function App() {
     if (saved) {
       try {
         const loadedBooks = JSON.parse(saved);
-        const { repaired, needsRepair } = repairBooksList(loadedBooks, initialData);
+        const { repaired, needsRepair } = repairBooksList(loadedBooks, data);
         if (needsRepair) {
           localStorage.setItem('books_library_master', JSON.stringify(repaired));
         }
@@ -235,7 +156,7 @@ function App() {
         if (b.id === id) {
           const nextRead = !b.read;
           showToast(
-            nextRead ? `"${b.title}" marked as read! Keep it up! 📖` : `"${b.title}" marked as unread.`,
+            nextRead ? `"${b.title}" marked as read!` : `"${b.title}" marked as unread.`,
             nextRead ? 'success' : 'info'
           );
           return { ...b, read: nextRead };
@@ -253,13 +174,13 @@ function App() {
       updateBooksAndSync(prevBooks => 
         prevBooks.map(b => b.id === savedBook.id ? savedBook : b)
       );
-      showToast(`Successfully updated "${savedBook.title}" in the library catalog.`);
+      showToast(`Updated "${savedBook.title}".`);
     } else {
       // Add new
       const nextId = books.length > 0 ? Math.max(...books.map(b => b.id)) + 1 : 1;
       const newBook = { ...savedBook, id: nextId };
       updateBooksAndSync(prevBooks => [newBook, ...prevBooks]);
-      showToast(`Added "${newBook.title}" as a new masterwork! ✨`);
+      showToast(`Added "${newBook.title}".`);
     }
     setIsModalOpen(false);
     setEditingBook(null);
@@ -272,8 +193,6 @@ function App() {
 
     setLastDeletedBook(targetBook);
     updateBooksAndSync(prevBooks => prevBooks.filter(b => b.id !== id));
-    
-    // Toast with custom action string (we will render an inline undo button)
     showToast(`Deleted "${targetBook.title}".`, 'danger');
   };
 
@@ -283,24 +202,13 @@ function App() {
       const restoredBook = lastDeletedBook;
       updateBooksAndSync(prevBooks => [restoredBook, ...prevBooks]);
       setLastDeletedBook(null);
-      showToast(`Restored "${restoredBook.title}" back to library catalog!`, 'success');
+      showToast(`Restored "${restoredBook.title}".`, 'success');
     }
   };
 
   // 4. Export CSV Utility
-  const handleExportCSV = (bookList = books, filename = 'books_library_master.csv') => {
-    const headers = ['Title', 'Author', 'Year', 'Country', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description'];
-    
-    const escapeCSVField = (val) => {
-      if (val === null || val === undefined) return '';
-      let str = String(val);
-      if (str.includes(',') || str.includes('"') || str.includes('\n') || str.includes('\r')) {
-        str = str.replace(/"/g, '""');
-        return `"${str}"`;
-      }
-      return str;
-    };
-
+  const handleExportCSV = (bookList = books, filename = 'data.csv') => {
+    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description'];
     const csvRows = [headers.join(',')];
     
     bookList.forEach(b => {
@@ -309,8 +217,9 @@ function App() {
         escapeCSVField(b.author),
         escapeCSVField(b.year),
         escapeCSVField(b.country),
+        escapeCSVField(b.region),
         escapeCSVField(b.continent),
-        b.read ? '1' : '', // match user checked standard ("1" or empty)
+        b.read ? '1' : '',
         escapeCSVField(b.originalLanguage),
         escapeCSVField(b.pages),
         escapeCSVField(b.description)
@@ -319,7 +228,7 @@ function App() {
     });
 
     const csvString = csvRows.join('\r\n');
-    const blob = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csvString], { type: 'text/csv;charset=utf-8;' }); // includes BOM for Excel compatibility
+    const blob = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csvString], { type: 'text/csv;charset=utf-8;' });
     
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
@@ -329,11 +238,9 @@ function App() {
     link.click();
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
-    
-    showToast(`Successfully downloaded "${filename}" containing ${bookList.length} items.`, 'success');
   };
 
-  // 5. Import CSV Utility & Parsing Engine
+  // 5. Import CSV Utility
   const handleImportCSV = (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -341,256 +248,105 @@ function App() {
     const reader = new FileReader();
     reader.onload = (event) => {
       const text = event.target.result;
-      
-      // Parse CSV logic
       try {
         const rows = parseCSVText(text);
-        if (rows.length < 2) {
-          showToast('Invalid CSV format. File is empty or lacks data rows.', 'danger');
-          return;
-        }
-
-        const headers = rows[0].map(h => h.trim().toLowerCase());
-        const titleIndex = headers.indexOf('title');
-        const authorIndex = headers.indexOf('author');
-        const yearIndex = headers.indexOf('year');
-        const countryIndex = headers.indexOf('country');
-        const continentIndex = headers.indexOf('continent');
-        const readIndex = headers.indexOf('read');
-        const langIndex = headers.indexOf('originallanguage');
-        const pagesIndex = headers.indexOf('pages');
-        const descIndex = headers.indexOf('description');
-
-        if (titleIndex === -1 || authorIndex === -1) {
-          showToast('Failed to import. Missing required columns: "Title" and "Author".', 'danger');
-          return;
-        }
-
-        const parsedBooks = [];
-        let indexId = 1;
-
-        for (let i = 1; i < rows.length; i++) {
-          const row = rows[i];
-          // Skip empty lines
-          if (row.length === 0 || (row.length === 1 && row[0] === '')) continue;
-
-          const title = row[titleIndex] || '';
-          const author = row[authorIndex] || '';
-          if (!title.trim() || !author.trim()) continue; // skip records lacking basic details
-
-          const year = yearIndex !== -1 ? row[yearIndex] || '' : '';
-          const country = countryIndex !== -1 ? row[countryIndex] || '' : '';
-          const continent = continentIndex !== -1 ? row[continentIndex] || '' : '';
-          
-          let read = false;
-          if (readIndex !== -1 && row[readIndex]) {
-            const val = row[readIndex].trim();
-            read = val === '1' || val.toLowerCase() === 'true';
-          }
-
-          const originalLanguage = langIndex !== -1 ? row[langIndex] || '' : '';
-          const pages = pagesIndex !== -1 ? parseInt(row[pagesIndex], 10) || 250 : 250;
-          const description = descIndex !== -1 ? row[descIndex] || '' : '';
-
-          parsedBooks.push({
-            id: indexId++,
-            title: title.trim(),
-            author: author.trim(),
-            year: year.trim(),
-            country: country.trim(),
-            continent: continent.trim(),
-            read: read,
-            originalLanguage: originalLanguage.trim() || 'English',
-            pages: pages,
-            description: description.trim() || `A book from ${country || 'world literature'}.`
-          });
-        }
-
+        const parsedBooks = mapCsvToBooks(rows);
         if (parsedBooks.length === 0) {
-          showToast('No valid book entries could be parsed from the CSV file.', 'danger');
+          showToast('No valid book entries found.', 'danger');
           return;
         }
-
         updateBooksAndSync(parsedBooks);
-        showToast(`Successfully loaded library catalog with ${parsedBooks.length} items from CSV!`, 'success');
-        // Reset file input
+        showToast(`Loaded ${parsedBooks.length} books.`, 'success');
         e.target.value = null;
       } catch (err) {
-        console.error("Import processing error:", err);
-        showToast('Error parsing file. Ensure it is a standard comma-separated CSV.', 'danger');
+        showToast('Error parsing file.', 'danger');
       }
     };
     reader.readAsText(file);
   };
 
-  // Robust CSV parser supporting quotes and escaped quotes
-  const parseCSVText = (text) => {
-    const lines = [];
-    let row = [""];
-    let inQuotes = false;
-
-    for (let i = 0; i < text.length; i++) {
-      const char = text[i];
-      const nextChar = text[i + 1];
-
-      if (char === '"') {
-        if (inQuotes && nextChar === '"') {
-          row[row.length - 1] += '"';
-          i++; // skip next quote
-        } else {
-          inQuotes = !inQuotes;
-        }
-      } else if (char === ',' && !inQuotes) {
-        row.push("");
-      } else if ((char === '\r' || char === '\n') && !inQuotes) {
-        if (char === '\r' && nextChar === '\n') {
-          i++; // skip \n
-        }
-        lines.push(row);
-        row = [""];
-      } else {
-        row[row.length - 1] += char;
-      }
-    }
-    if (row.length > 1 || row[0] !== "") {
-      lines.push(row);
-    }
-    return lines;
-  };
-
   return (
     <div className="app-container container-xl py-4">
       
-      {/* 1. Glassmorphic Navigation Sticky Header */}
-      <header className="navbar navbar-expand-lg glass-card p-3 mb-4 d-flex justify-content-between align-items-center">
-        
-        {/* Brand Label */}
-        <div className="d-flex align-items-center gap-3 flex-wrap">
-          <div className="brand-icon p-2 rounded-3 text-white" style={{ background: 'linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%)' }}>
-            <BookOpen size={24} />
+      {/* Header Area */}
+      <header className="navbar border rounded shadow-sm p-3 mb-4 d-flex justify-content-between align-items-center bg-light">
+        <div className="d-flex align-items-center gap-3">
+          <div className="text-primary">
+            <BookOpen size={28} />
           </div>
-          <div className="brand-title">
-            <h1 className="h4 m-0 fw-extrabold" style={{ background: 'linear-gradient(90deg, var(--text-main) 0%, var(--primary) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-              Bibliophile
-            </h1>
-            <p className="small text-muted m-0 fw-semibold text-uppercase tracking-wider" style={{ fontSize: '0.65rem' }}>
-              Library Index & tracker
-            </p>
+          <div>
+            <h1 className="h4 m-0 fw-bold">Biblios</h1>
+            <p className="small text-muted m-0 text-uppercase" style={{ fontSize: '0.6rem', letterSpacing: '0.1em' }}>Library Tracker</p>
           </div>
-          
-          {/* Sync Status Badge */}
-          <div className={`sync-status-badge sync-${syncStatus} ms-md-2`} title="Local Database Synchronization Status">
+          <div className={`sync-status-badge sync-${syncStatus} ms-2`}>
             <div className="sync-dot"></div>
-            <span>
-              {syncStatus === 'synced' && 'Filesystem Synced'}
-              {syncStatus === 'saving' && 'Saving...'}
-              {syncStatus === 'error' && 'Offline (Saved Locally)'}
+            <span style={{ fontSize: '0.7rem', fontWeight: 600 }}>
+              {syncStatus === 'synced' ? 'SYNCED' : syncStatus === 'saving' ? 'SAVING...' : 'OFFLINE'}
             </span>
           </div>
         </div>
 
-        {/* Global Catalog Controls */}
-        <div className="d-flex align-items-center gap-2 flex-wrap mt-3 mt-lg-0">
-          
-          {/* CSV Import */}
-          <label className="btn btn-outline-secondary d-inline-flex align-items-center gap-2 file-import-label" title="Import an external CSV book backup">
-            <Upload size={16} />
-            <span>Import Backup CSV</span>
-            <input 
-              type="file" 
-              accept=".csv" 
-              className="file-import-input" 
-              onChange={handleImportCSV} 
-            />
+        <div className="d-flex align-items-center gap-2">
+          <label className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-2 m-0 cursor-pointer">
+            <Upload size={14} />
+            <span className="d-none d-md-inline">Import</span>
+            <input type="file" accept=".csv" className="file-import-input" onChange={handleImportCSV} />
           </label>
 
-          {/* CSV Export */}
-          <button className="btn btn-outline-secondary d-inline-flex align-items-center gap-2" onClick={() => handleExportCSV(books, 'books_library_master.csv')} title="Backup your current book directory as a CSV file">
-            <Download size={16} />
-            <span>Backup as CSV</span>
+          <button className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-2" onClick={() => handleExportCSV(books, 'data.csv')}>
+            <Download size={14} />
+            <span className="d-none d-md-inline">Backup</span>
           </button>
 
-          {/* Add Book shortcut */}
-          <button className="btn btn-primary d-inline-flex align-items-center gap-2" onClick={() => { setEditingBook(null); setIsModalOpen(true); }}>
-            <Plus size={16} />
+          <button className="btn btn-sm btn-primary d-flex align-items-center gap-2" onClick={() => { setEditingBook(null); setIsModalOpen(true); }}>
+            <Plus size={14} />
             <span>Add Book</span>
           </button>
 
-          {/* Theme switcher */}
           <button 
-            className="btn btn-outline-secondary rounded-circle p-2 d-inline-flex align-items-center justify-content-center"
-            style={{ width: '38px', height: '38px' }}
+            className="btn btn-sm text-secondary border-0 p-1"
+            style={{ width: '32px', height: '32px' }}
             onClick={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
-            title="Toggle Visual Theme"
           >
             {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-
         </div>
-
       </header>
 
-      {/* 2. Visual Navigation Tabs bar */}
-      <div className="nav nav-pills gap-2 p-2 rounded mb-4 bg-dark bg-opacity-10 border border-secondary border-opacity-10">
-        <button 
-          className={`nav-link d-inline-flex align-items-center gap-2 ${activeTab === 'dashboard' ? 'active' : ''}`}
-          onClick={() => setActiveTab('dashboard')}
-        >
-          <BarChart3 size={16} />
-          Analytics Dashboard
-        </button>
-        <button 
-          className={`nav-link d-inline-flex align-items-center gap-2 ${activeTab === 'list' ? 'active' : ''}`}
-          onClick={() => setActiveTab('list')}
-        >
-          <List size={16} />
-          Book Directory
-        </button>
-        <button 
-          className={`nav-link d-inline-flex align-items-center gap-2 ${activeTab === 'map' ? 'active' : ''}`}
-          onClick={() => setActiveTab('map')}
-        >
-          <Globe size={16} />
-          Interactive Atlas
-        </button>
-        <button 
-          className={`nav-link d-inline-flex align-items-center gap-2 ${activeTab === 'reports' ? 'active' : ''}`}
-          onClick={() => setActiveTab('reports')}
-        >
-          <Layers size={16} />
-          Curation & Reports
-        </button>
-      </div>
+      {/* Navigation Pills */}
+      <ul className="nav nav-pills mb-4 gap-2 bg-light p-1 rounded border shadow-sm">
+        {['dashboard', 'list', 'map', 'stats'].map(tab => (
+          <li key={tab} className="nav-item">
+            <button 
+              className={`nav-link text-uppercase fw-bold px-3 py-2 ${activeTab === tab ? 'active' : 'text-muted'}`}
+              style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab === 'list' ? 'Library' : tab}
+            </button>
+          </li>
+        ))}
+      </ul>
 
-      {/* 3. Main Dynamic Content Window */}
-      <main className="tab-content" style={{ minHeight: '400px' }}>
+      {/* Main Content Area */}
+      <main className="animate-fade">
         {books.length === 0 ? (
-          <div className="card glass-card empty-library p-5 text-center d-flex flex-column align-items-center gap-3">
-            <div className="empty-library-icon p-4 rounded-circle bg-opacity-10 bg-secondary text-secondary">
-              <BookOpen size={48} />
+          <div className="card shadow-sm p-5 text-center border-0">
+            <div className="mb-3 text-muted opacity-25">
+              <BookOpen size={64} />
             </div>
-            <h2 className="fw-bold mt-2">Your Book Library is Empty</h2>
-            <p className="text-muted" style={{ maxWidth: '450px' }}>
-              Add a book manually, import your standard CSV database file, or reset back to default.
+            <h2 className="h4 fw-bold">Library is Empty</h2>
+            <p className="text-muted mx-auto mb-4" style={{ maxWidth: '400px' }}>
+              Your collection is currently empty. You can restore the default catalog or import a CSV file.
             </p>
-            <div className="d-flex gap-2">
-              <button className="btn btn-primary d-flex align-items-center gap-2" onClick={() => updateBooksAndSync(initialData)}>
+            <div className="d-flex justify-content-center gap-2">
+              <button className="btn btn-primary" onClick={() => updateBooksAndSync(data)}>
                 Restore Default Catalog
               </button>
-              <label className="btn btn-outline-secondary d-flex align-items-center gap-2 file-import-label">
-                <Upload size={16} />
-                Upload CSV File
-                <input 
-                  type="file" 
-                  accept=".csv" 
-                  className="file-import-input" 
-                  onChange={handleImportCSV} 
-                />
-              </label>
             </div>
           </div>
         ) : (
-          <>
+          <div>
             {activeTab === 'dashboard' && <Dashboard books={books} />}
             {activeTab === 'list' && (
               <BookTable 
@@ -607,26 +363,13 @@ function App() {
                 onLanguageFilterChange={setSelectedLanguage}
               />
             )}
-            {activeTab === 'map' && (
-              <MapView 
-                books={books}
-                onToggleRead={handleToggleRead}
-                onExportFilteredCSV={handleExportCSV}
-              />
-            )}
-            {activeTab === 'reports' && (
-              <Reports 
-                books={books} 
-                onToggleRead={handleToggleRead}
-                onExportFilteredCSV={handleExportCSV}
-                onFilterByText={handleFilterByText}
-              />
-            )}
-          </>
+            {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
+            {activeTab === 'stats' && <Stats books={books} />}
+          </div>
         )}
       </main>
 
-      {/* 4. Sliding Glassmorphic Modal Form */}
+      {/* Modal Overlay */}
       {isModalOpen && (
         <BookModal 
           key={editingBook ? editingBook.id : 'new'}
@@ -636,25 +379,16 @@ function App() {
         />
       )}
 
-      {/* 5. Fluid Micro-Animated Toast Notification */}
+      {/* Toast Notifications */}
       {toast && (
-        <div className={`toast-notification toast-${toast.type} d-flex align-items-center gap-2 p-3 border rounded shadow`}>
-          {toast.type === 'success' && <CheckCircle2 size={18} className="text-success" />}
-          {toast.type === 'danger' && <AlertCircle size={18} className="text-danger" />}
-          {toast.type === 'info' && <Info size={18} className="text-info" />}
-          
-          <span className="fw-semibold small flex-grow-1">
-            {toast.message}
-          </span>
-
+        <div 
+          className={`toast-notification alert alert-${toast.type === 'danger' ? 'danger' : 'primary'} shadow border-0 d-flex align-items-center justify-content-between p-3 rounded-3`}
+        >
+          <div className="d-flex align-items-center gap-2">
+            <span className="small fw-bold text-uppercase">{toast.message}</span>
+          </div>
           {toast.type === 'danger' && lastDeletedBook && (
-            <button 
-              onClick={handleUndoDelete} 
-              className="btn btn-link text-primary fw-bold p-0 text-decoration-underline ms-2"
-              style={{ fontSize: '0.85rem' }}
-            >
-              Undo
-            </button>
+            <button onClick={handleUndoDelete} className="btn btn-sm btn-link text-decoration-none fw-bold p-0 ms-3 text-uppercase" style={{ fontSize: '0.7rem' }}>Undo</button>
           )}
         </div>
       )}

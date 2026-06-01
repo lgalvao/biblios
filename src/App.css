@@ -1,412 +1,112 @@
-/* Premium Bibliophile Library Tracker Styles */
+/* Simplified Biblios Styles */
 
-/* Navigation Header */
-.app-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.25rem 2rem;
-  margin-bottom: 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-}
-
-.brand-section {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-}
-
-.brand-icon {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-  color: white;
-  padding: 0.75rem;
-  border-radius: 1rem;
-  display: flex;
-  box-shadow: 0 4px 15px -3px var(--accent-glow);
-}
-
-.brand-title h1 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  background: linear-gradient(90deg, var(--text-main) 0%, var(--primary) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.brand-title p {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-/* Tabs Navigation */
-.navigation-bar {
-  display: flex;
-  gap: 0.5rem;
-  padding: 0.4rem;
-  border-radius: 1rem;
-  background: rgba(148, 163, 184, 0.06);
-  border: 1px solid var(--border-light);
-  margin-bottom: 2.25rem;
-}
-
-.nav-tab {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  padding: 0.65rem 1.5rem;
-  border-radius: 0.75rem;
-  color: var(--text-muted);
-  font-family: var(--font-heading);
-  font-weight: 600;
-  font-size: 0.9rem;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.nav-tab:hover {
-  color: var(--text-main);
-  background: rgba(148, 163, 184, 0.08);
-}
-
-.nav-tab.active {
-  color: var(--text-on-primary);
-  background: var(--primary);
-  box-shadow: 0 4px 14px -3px var(--accent-glow);
-}
-
-/* Float-in Notification Banner */
-.toast-notification {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  padding: 1rem 1.5rem;
-  border-radius: 1rem;
-  background: var(--card-bg);
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
-  border: 1px solid var(--card-border);
-  box-shadow: var(--shadow-lg);
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-  z-index: 10000;
-  animation: toastSlideIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-@keyframes toastSlideIn {
-  from { opacity: 0; transform: translateY(30px) scale(0.9); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
-}
-
-.toast-success {
-  border-left: 4px solid var(--success);
-}
-
-.toast-info {
-  border-left: 4px solid var(--secondary);
-}
-
-.toast-danger {
-  border-left: 4px solid var(--danger);
-}
-
-/* Theme Toggle Button */
-.theme-btn {
-  background: rgba(148, 163, 184, 0.08);
-  border: 1px solid var(--card-border);
-  color: var(--text-main);
-  padding: 0.65rem;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  transition: var(--transition);
-}
-
-.theme-btn:hover {
-  background: rgba(148, 163, 184, 0.15);
-  transform: rotate(15deg) scale(1.05);
-}
-
-/* Extra table layouts */
-.book-row:hover {
-  background: rgba(148, 163, 184, 0.03) !important;
-}
-
-/* Import file button overlay styling */
-.file-import-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  cursor: pointer;
-}
-
-.file-import-input {
-  display: none;
-}
-
-/* Empty Library Layout */
-.empty-library {
-  padding: 5rem 2rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.empty-library-icon {
-  background: rgba(148, 163, 184, 0.05);
-  padding: 2rem;
-  border-radius: 50%;
-  color: var(--text-muted);
-  display: inline-flex;
-}
-
-/* Custom Scrollbar for list scroll */
-.custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
-}
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.2);
-  border-radius: 99px;
-}
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.4);
-}
-
-/* Responsive Overrides */
-@media (max-width: 768px) {
-  .app-header {
-    flex-direction: column;
-    gap: 1.25rem;
-    align-items: stretch;
-    padding: 1.25rem 1rem;
-  }
-  .header-actions {
-    justify-content: space-between;
-  }
-  .navigation-bar {
-    flex-wrap: wrap;
-  }
-  .nav-tab {
-    flex: 1 1 auto;
-    justify-content: center;
-  }
-}
-
-/* Interactive Vector World Map Styles */
-.interactive-svg-map {
-  display: block;
-  max-height: 530px;
-  width: 100%;
+.app-container {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.map-country {
-  fill: rgba(148, 163, 184, 0.07);
-  stroke: rgba(148, 163, 184, 0.2);
-  stroke-width: 0.5px;
-  transition: fill 0.3s ease, stroke 0.3s ease, stroke-width 0.3s ease, filter 0.3s ease;
-  cursor: default;
-}
-
-/* Countries that contain books in our library */
-.map-country.has-books {
-  fill: hsla(263, 70%, 50%, 0.16);
-  stroke: hsla(263, 70%, 50%, 0.3);
-  cursor: pointer;
-}
-
-.map-country.has-books:hover {
-  fill: hsla(263, 75%, 50%, 0.55);
-  stroke: hsl(263, 75%, 50%);
-  stroke-width: 1px;
-}
-
-/* Light theme adjustments */
-:root[theme="light"] .map-country {
-  fill: rgba(15, 23, 42, 0.05);
-  stroke: rgba(15, 23, 42, 0.15);
-}
-
-:root[theme="light"] .map-country.has-books {
-  fill: hsla(263, 70%, 50%, 0.12);
-  stroke: hsla(263, 70%, 50%, 0.25);
-}
-
-:root[theme="light"] .map-country.has-books:hover {
-  fill: hsla(263, 70%, 50%, 0.45);
-  stroke: hsl(263, 70%, 50%);
-}
-
-/* Currently selected country highlight */
-.map-country.selected {
-  fill: hsl(190, 90%, 45%) !important;
-  stroke: hsl(190, 90%, 45%) !important;
-  stroke-width: 1.5px !important;
-  filter: drop-shadow(0 0 12px rgba(6, 182, 212, 0.6));
-}
-
-:root[theme="light"] .map-country.selected {
-  fill: hsl(263, 70%, 50%) !important;
-  stroke: hsl(263, 70%, 50%) !important;
-  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4));
-}
-
-/* Sortable Headers Hover */
-.sortable-header {
-  transition: background-color 0.25s ease, color 0.25s ease;
-}
-.sortable-header:hover {
-  background: rgba(148, 163, 184, 0.08) !important;
-  color: var(--text-main) !important;
-}
-
-/* Spinner Animation for Infinite Scroll */
-.animate-spin {
-  animation: spin 0.8s linear infinite;
-}
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-/* Details Drawer Opening Animation */
-@keyframes expandSlide {
-  from {
-    opacity: 0;
-    transform: translateY(-8px) scale(0.985);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-/* Column Resizing Handles */
-.resizer-handle:hover,
-.resizer-handle:active {
-  background: var(--primary) !important;
-  box-shadow: 0 0 8px var(--accent-glow);
-}
-
-/* Interactive Badges/Pills */
-.badge-interactive {
-  cursor: pointer;
-  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 0.2s, box-shadow 0.2s, filter 0.2s, border-color 0.2s;
-  user-select: none;
-  border: 1px solid transparent;
-}
-.badge-interactive:hover {
-  transform: translateY(-1.5px) scale(1.06);
-  box-shadow: 0 4px 10px -2px var(--accent-glow);
-  filter: brightness(1.08);
-}
-.badge-interactive:active {
-  transform: translateY(0) scale(0.96);
-  box-shadow: none;
-}
-
-/* Selected Active Badge State */
-.badge-interactive.active-badge {
-  background: var(--primary) !important;
-  color: var(--text-on-primary) !important;
-  box-shadow: 0 0 10px var(--accent-glow) !important;
-  border-color: var(--secondary) !important;
-  filter: brightness(1.1) !important;
-}
-
-/* Clear Search Button Hover Effect */
-.search-clear-btn:hover {
-  background: rgba(148, 163, 184, 0.12) !important;
-  color: var(--text-main) !important;
-}
-.search-clear-btn:active {
-  transform: translateY(-50%) scale(0.9) !important;
-}
-
-/* Real-time Filesystem Sync Status Badge */
+/* Sync Status Badge */
 .sync-status-badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 50rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.35rem 0.75rem;
-  border-radius: 99px;
-  font-size: 0.72rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  user-select: none;
-  background: rgba(148, 163, 184, 0.04);
-  border: 1px solid rgba(148, 163, 184, 0.1);
-  color: var(--text-muted);
-  margin-left: 1.2rem;
-  letter-spacing: 0.02em;
+  gap: 0.35rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .sync-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  transition: all 0.3s ease;
 }
 
-/* Synced State */
-.sync-status-badge.sync-synced {
-  background: rgba(16, 185, 129, 0.05);
-  border-color: rgba(16, 185, 129, 0.18);
-  color: #10b981;
-}
-.sync-status-badge.sync-synced .sync-dot {
-  background: #10b981;
-  box-shadow: 0 0 6px rgba(16, 185, 129, 0.65);
+.sync-synced { background-color: rgba(25, 135, 84, 0.1); color: #198754; }
+.sync-synced .sync-dot { background-color: #198754; }
+
+.sync-saving { background-color: rgba(255, 193, 7, 0.1); color: #ffc107; }
+.sync-saving .sync-dot { background-color: #ffc107; animation: pulse 1s infinite; }
+
+.sync-error { background-color: rgba(220, 53, 69, 0.1); color: #dc3545; }
+.sync-error .sync-dot { background-color: #dc3545; }
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
 }
 
-/* Saving State */
-.sync-status-badge.sync-saving {
-  background: rgba(245, 158, 11, 0.05);
-  border-color: rgba(245, 158, 11, 0.18);
-  color: #f59e0b;
-}
-.sync-status-badge.sync-saving .sync-dot {
-  background: #f59e0b;
-  animation: pulse-sync 0.8s infinite alternate;
-  box-shadow: 0 0 6px rgba(245, 158, 11, 0.65);
+.file-import-input {
+  display: none;
 }
 
-/* Error/Offline State */
-.sync-status-badge.sync-error {
-  background: rgba(99, 102, 241, 0.06);
-  border-color: rgba(99, 102, 241, 0.18);
-  color: #6366f1;
-}
-.sync-status-badge.sync-error .sync-dot {
-  background: #6366f1;
-  box-shadow: 0 0 6px rgba(99, 102, 241, 0.65);
+.book-row {
+  cursor: pointer;
 }
 
-@keyframes pulse-sync {
-  from { opacity: 0.4; transform: scale(0.85); }
-  to { opacity: 1; transform: scale(1.15); }
+.badge-interactive {
+  cursor: pointer;
+  transition: opacity 0.2s;
 }
 
-@media (max-width: 768px) {
-  .sync-status-badge {
-    margin-left: 0;
-    margin-top: 0.5rem;
-    align-self: flex-start;
-  }
+.badge-interactive:hover {
+  opacity: 0.8;
 }
 
+/* Map Styles */
+.interactive-svg-map {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+.map-country {
+  fill: #e9ecef;
+  stroke: #adb5bd;
+  stroke-width: 0.5;
+  transition: fill 0.2s;
+}
+
+[data-bs-theme="dark"] .map-country {
+  fill: #2b2b2b;
+  stroke: #444;
+}
+
+.map-country.has-books {
+  fill: #cfe2ff;
+  stroke: #0d6efd;
+}
+
+[data-bs-theme="dark"] .map-country.has-books {
+  fill: #052c65;
+  stroke: #0d6efd;
+}
+
+.map-country.has-books:hover {
+  fill: #9ec5fe;
+}
+
+.map-country.selected {
+  fill: #0d6efd !important;
+}
+
+/* Toast/Alert Notification */
+.toast-notification {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1060;
+  min-width: 250px;
+}
+
+/* Theme-aware utilities */
+[data-bs-theme="dark"] .bg-light {
+  background-color: #1a1a1a !important;
+}
+
+[data-bs-theme="dark"] .card-header.bg-white {
+  background-color: #1e1e1e !important;
+}
