@@ -328,3 +328,19 @@ export const repairBooksList = (loadedBooks, referenceData) => {
 
   return { repaired, needsRepair };
 };
+
+/**
+ * Formata e ordena uma lista de livros para exportação em Markdown.
+ * Ordena por ano de forma crescente.
+ * Formato por linha: - **Título**, Autor (País, Ano)
+ */
+export const formatMDExport = (books) => {
+  const sorted = [...books].sort((a, b) => {
+    const yearA = parseInt(a.year, 10) || 0;
+    const yearB = parseInt(b.year, 10) || 0;
+    return yearA - yearB;
+  });
+  return sorted
+    .map(b => `- **${b.title}**, ${b.author} (${b.country}, ${b.year})`)
+    .join('\n');
+};

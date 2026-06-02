@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { getGeoInfo } from '../utils/dataUtils';
 
 export default function BookModal({ book, onSave, onClose }) {
@@ -16,13 +16,14 @@ export default function BookModal({ book, onSave, onClose }) {
 
   const continents = ['Africa', 'Asia', 'Central America', 'Europe', 'North America', 'South America', 'Oceania'];
 
-  useEffect(() => {
-    if (country.trim()) {
-      const geo = getGeoInfo(country);
+  const handleCountryChange = (val) => {
+    setCountry(val);
+    if (val.trim()) {
+      const geo = getGeoInfo(val);
       if (geo.region && !region) setRegion(geo.region);
       if (geo.continent && !continent) setContinent(geo.continent);
     }
-  }, [country]);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -79,7 +80,7 @@ export default function BookModal({ book, onSave, onClose }) {
               </div>
               <div className="col-12 col-md-4">
                 <label className="form-label small fw-bold text-muted text-uppercase">Country</label>
-                <input type="text" className="form-control" value={country} onChange={e => setCountry(e.target.value)} required />
+                <input type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} required />
               </div>
               <div className="col-12 col-md-4">
                 <label className="form-label small fw-bold text-muted text-uppercase">Continent</label>

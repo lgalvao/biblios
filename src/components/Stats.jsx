@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
-import { Search, ChevronUp, ChevronDown, ArrowUpDown } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 export default function Stats({ books }) {
   const [searchTerm, setSearchQuery] = useState('');
-  const [sortConfig, setSortConfig] = useState({ key: 'count', direction: 'desc' });
+  const sortConfig = { key: 'count', direction: 'desc' };
 
   const stats = useMemo(() => {
     const data = {
@@ -56,12 +56,6 @@ export default function Stats({ books }) {
     return (s[(v - 20) % 10] || s[v] || s[0]);
   }
 
-  const handleSort = (key) => {
-    setSortConfig(prev => ({
-      key,
-      direction: prev.key === key && prev.direction === 'desc' ? 'asc' : 'desc'
-    }));
-  };
 
   const renderTable = (title, items) => {
     const filtered = items.filter(i => i.label.toLowerCase().includes(searchTerm.toLowerCase()));

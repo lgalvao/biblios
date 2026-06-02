@@ -3,7 +3,8 @@ import {
   escapeCSVField, 
   parseCSVText, 
   repairBooksList,
-  mapCsvToBooks 
+  mapCsvToBooks,
+  formatMDExport 
 } from '../dataUtils';
 
 describe('Data Utilities', () => {
@@ -130,6 +131,46 @@ describe('Data Utilities', () => {
       const books = mapCsvToBooks(rows);
       expect(books).toHaveLength(1);
       expect(books[0].title).toBe('Valid');
+    });
+  });
+
+  describe('formatMDExport', () => {
+    it('should format books as markdown list items with bold titles', () => {
+      const books = [
+        { title: 'The Hobbit', author: 'J.R.R. Tolkien', country: 'United Kingdom', year: '1937' }
+      ];
+      const result = formatMDExport(books);
+      expect(result).toBe('- **The Hobbit**, J.R.R. Tolkien (United Kingdom, 1937)');
+    });
+
+    it('should sort books ascendingly by year', () => {
+      const books = [
+        { title: '1984', author: 'George Orwell', country: 'England', year: '1949' },
+        { title: 'The Hobbit', author: 'J.R.R. Tolkien', country: 'United Kingdom', year: '1937' },
+        { title: 'Hamlet', author: 'William Shakespeare', country: 'England', year: '1603' }
+      ];
+      const result = formatMDExport(books);
+      const expected = [
+        '- **Hamlet**, William Shakespeare (England, 1603)',
+        '- **The Hobbit**, J.R.R. Tolkien (United Kingdom, 1937)',
+        '- **1984**, George Orwell (England, 1949)'
+      ].join('\n');
+      expect(result).toBe(expected);
+    });
+
+    it('should handle missing or invalid years gracefully', () => {
+      const books = [
+        { title: 'Book A', author: 'Author A', country: 'Country A', year: '1950' },
+        { title: 'Book B', author: 'Author B', country: 'Country B', year: '' },
+        { title: 'Book C', author: 'Author C', country: 'Country C', year: '1800' }
+      ];
+      const result = formatMDExport(books);
+      const expected = [
+        '- **Book B**, Author B (Country B, )',
+        '- **Book C**, Author C (Country C, 1800)',
+        '- **Book A**, Author A (Country A, 1950)'
+      ].join('\n');
+      expect(result).toBe(expected);
     });
   });
 

@@ -1,12 +1,12 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Search, Plus, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, CheckCircle2, HelpCircle } from 'lucide-react';
+import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText } from 'lucide-react';
+import { escapeCSVField, formatMDExport } from '../utils/dataUtils';
 
 export default function BookTable({ 
   books, 
   onToggleRead, 
   onEditBook, 
   onDeleteBook, 
-  onAddClick, 
   search, 
   onSearchChange,
   selectedCountry,
@@ -21,9 +21,21 @@ export default function BookTable({
   const [sortColumn, setSortColumn] = useState(null);
   const [sortDirection, setSortDirection] = useState('asc');
   const [expandedBookId, setExpandedBookId] = useState(null);
+  const [showExportDropdown, setShowExportDropdown] = useState(false);
 
   const [visibleCount, setVisibleCount] = useState(50);
   const sentinelRef = useRef(null);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowExportDropdown(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   const handleSort = (col) => {
     if (sortColumn === col) {
@@ -52,6 +64,53 @@ export default function BookTable({
       return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesFilterCountry && matchesFilterLang;
     });
   }, [books, search, filterRead, filterContinent, filterRegion, selectedCountry, selectedLanguage]);
+
+  const exportCSV = () => {
+    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description'];
+    const csvRows = [headers.join(',')];
+    
+    filteredBooks.forEach(b => {
+      const row = [
+        escapeCSVField(b.title),
+        escapeCSVField(b.author),
+        escapeCSVField(b.year),
+        escapeCSVField(b.country),
+        escapeCSVField(b.region),
+        escapeCSVField(b.continent),
+        b.read ? '1' : '',
+        escapeCSVField(b.originalLanguage),
+        escapeCSVField(b.pages),
+        escapeCSVField(b.description)
+      ];
+      csvRows.push(row.join(','));
+    });
+
+    const csvString = csvRows.join('\r\n');
+    const blob = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csvString], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'library_filtered.csv');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    setShowExportDropdown(false);
+  };
+
+  const exportMD = () => {
+    const mdString = formatMDExport(filteredBooks);
+    const blob = new Blob([mdString], { type: 'text/markdown;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'library_filtered.md');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    setShowExportDropdown(false);
+  };
 
   const sortedBooks = useMemo(() => {
     if (!sortColumn) return filteredBooks;
@@ -132,8 +191,34 @@ export default function BookTable({
               {regions.map(r => <option key={r} value={r}>{r}</option>)}
             </select>
           </div>
-          <div className="col-6 col-md-2 text-end">
+          <div className="col-6 col-md-2 d-flex align-items-center justify-content-end gap-2">
             <span className="badge bg-primary rounded-pill">{filteredBooks.length} Books</span>
+            <div className="position-relative" ref={dropdownRef}>
+              <button 
+                className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1"
+                onClick={() => setShowExportDropdown(!showExportDropdown)}
+                title="Export"
+              >
+                <Download size={14} />
+                <span className="d-none d-lg-inline">Export</span>
+              </button>
+              {showExportDropdown && (
+                <ul className="dropdown-menu show position-absolute end-0 mt-1 shadow-sm" style={{ zIndex: 1000, minWidth: '120px' }}>
+                  <li>
+                    <button className="dropdown-item d-flex align-items-center gap-2" onClick={exportCSV}>
+                      <FileText size={14} className="text-secondary" />
+                      <span>CSV</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button className="dropdown-item d-flex align-items-center gap-2" onClick={exportMD}>
+                      <FileText size={14} className="text-secondary" />
+                      <span>MD</span>
+                    </button>
+                  </li>
+                </ul>
+              )}
+            </div>
           </div>
         </div>
 

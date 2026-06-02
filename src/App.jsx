@@ -19,10 +19,7 @@ import {
   Upload, 
   Download, 
   Plus, 
-  BookOpen, 
-  CheckCircle2, 
-  AlertCircle, 
-  Info
+  BookOpen
 } from 'lucide-react';
 
 function App() {
@@ -47,10 +44,6 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
 
-  const handleFilterByText = (text) => {
-    setSelectedCountry(prev => prev.trim().toLowerCase() === text.trim().toLowerCase() ? '' : text);
-    setActiveTab('list');
-  };
 
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('books_library_theme') || 'dark';
@@ -258,7 +251,7 @@ function App() {
         updateBooksAndSync(parsedBooks);
         showToast(`Loaded ${parsedBooks.length} books.`, 'success');
         e.target.value = null;
-      } catch (err) {
+      } catch {
         showToast('Error parsing file.', 'danger');
       }
     };

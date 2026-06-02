@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import WorldMap from './WorldMap';
-import { Search, Download, List, Globe } from 'lucide-react';
+import { Search, Download } from 'lucide-react';
 import { codeToCountries } from './worldMapData';
 
 export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
