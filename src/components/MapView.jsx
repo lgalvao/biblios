@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import WorldMap from './WorldMap';
 import { Search, Download } from 'lucide-react';
 import { codeToCountries } from './worldMapData';
+import { normalizeForSearch } from '../utils/dataUtils';
 
 export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -40,10 +41,11 @@ export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
 
   const currentBooks = useMemo(() => {
     if (!stats) return [];
+    const s = normalizeForSearch(search);
     return stats.books.filter(b => 
-      !search || 
-      b.title.toLowerCase().includes(search.toLowerCase()) || 
-      b.author.toLowerCase().includes(search.toLowerCase())
+      !s || 
+      normalizeForSearch(b.title).includes(s) || 
+      normalizeForSearch(b.author).includes(s)
     );
   }, [stats, search]);
 

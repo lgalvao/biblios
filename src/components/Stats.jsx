@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
+import { normalizeForSearch } from '../utils/dataUtils';
 
 export default function Stats({ books }) {
   const [searchTerm, setSearchQuery] = useState('');
@@ -58,7 +59,8 @@ export default function Stats({ books }) {
 
 
   const renderTable = (title, items) => {
-    const filtered = items.filter(i => i.label.toLowerCase().includes(searchTerm.toLowerCase()));
+    const s = normalizeForSearch(searchTerm);
+    const filtered = items.filter(i => normalizeForSearch(i.label).includes(s));
     const sorted = [...filtered].sort((a, b) => {
       if (a[sortConfig.key] < b[sortConfig.key]) return sortConfig.direction === 'asc' ? -1 : 1;
       if (a[sortConfig.key] > b[sortConfig.key]) return sortConfig.direction === 'asc' ? 1 : -1;

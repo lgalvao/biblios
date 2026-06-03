@@ -39,7 +39,7 @@ function App() {
   });
 
   const [syncStatus, setSyncStatus] = useState('synced'); // 'synced', 'saving', 'error'
-  const [activeTab, setActiveTab] = useState('dashboard');
+  const [activeTab, setActiveTab] = useState('list');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCountry, setSelectedCountry] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');

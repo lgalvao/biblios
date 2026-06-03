@@ -130,6 +130,14 @@ export const normalizeToASCII = (str) => {
 };
 
 /**
+ * Normaliza uma string para comparações de busca (remove acentos, converte para minúsculas e remove espaços).
+ */
+export const normalizeForSearch = (str) => {
+  if (!str) return '';
+  return normalizeToASCII(str).toLowerCase().trim();
+};
+
+/**
  * Escapa um campo para o formato CSV.
  */
 export const escapeCSVField = (val) => {

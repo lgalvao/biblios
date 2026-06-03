@@ -4,7 +4,8 @@ import {
   parseCSVText, 
   repairBooksList,
   mapCsvToBooks,
-  formatMDExport 
+  formatMDExport,
+  normalizeForSearch
 } from '../dataUtils';
 
 describe('Data Utilities', () => {
@@ -103,6 +104,20 @@ describe('Data Utilities', () => {
       expect(repaired[0].pages).toBe(180);
       expect(needsRepair).toBe(true);
     });
+
+    it('should translate originalLanguage to English', () => {
+      const books = [{ title: 'Dom Casmurro', author: 'Machado de Assis', originalLanguage: 'portugues', country: 'Brazil' }];
+      const { repaired, needsRepair } = repairBooksList(books, []);
+      expect(repaired[0].originalLanguage).toBe('Portuguese');
+      expect(needsRepair).toBe(true);
+    });
+
+    it('should normalize author name to ASCII', () => {
+      const books = [{ title: 'Sanatorium Under the Sign of the Hourglass', author: 'Bruno Schulz (Ł)', originalLanguage: 'English', country: 'Poland' }];
+      const { repaired, needsRepair } = repairBooksList(books, []);
+      expect(repaired[0].author).toBe('Bruno Schulz (L)');
+      expect(needsRepair).toBe(true);
+    });
   });
 
   describe('mapCsvToBooks', () => {
@@ -171,6 +186,20 @@ describe('Data Utilities', () => {
         '- **Book A**, Author A (Country A, 1950)'
       ].join('\n');
       expect(result).toBe(expected);
+    });
+  });
+
+  describe('normalizeForSearch', () => {
+    it('should ignore accents and convert to lowercase', () => {
+      expect(normalizeForSearch('São Paulo')).toBe('sao paulo');
+      expect(normalizeForSearch('Brazil ')).toBe('brazil');
+      expect(normalizeForSearch(' Café ')).toBe('cafe');
+    });
+
+    it('should handle empty or null values', () => {
+      expect(normalizeForSearch('')).toBe('');
+      expect(normalizeForSearch(null)).toBe('');
+      expect(normalizeForSearch(undefined)).toBe('');
     });
   });
 

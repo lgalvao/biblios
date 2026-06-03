@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText } from 'lucide-react';
-import { escapeCSVField, formatMDExport } from '../utils/dataUtils';
+import { escapeCSVField, formatMDExport, normalizeForSearch } from '../utils/dataUtils';
 
 export default function BookTable({ 
   books, 
@@ -48,12 +48,12 @@ export default function BookTable({
 
   const filteredBooks = useMemo(() => {
     return books.filter(b => {
-      const s = search.toLowerCase();
-      const matchesSearch = !search || 
-        b.title.toLowerCase().includes(s) || 
-        b.author.toLowerCase().includes(s) || 
-        b.country.toLowerCase().includes(s) ||
-        b.originalLanguage.toLowerCase().includes(s);
+      const s = normalizeForSearch(search);
+      const matchesSearch = !s || 
+        normalizeForSearch(b.title).includes(s) || 
+        normalizeForSearch(b.author).includes(s) || 
+        normalizeForSearch(b.country).includes(s) ||
+        normalizeForSearch(b.originalLanguage).includes(s);
 
       const matchesRead = filterRead === 'all' || (filterRead === 'read' ? b.read : !b.read);
       const matchesContinent = filterContinent === 'all' || b.continent === filterContinent;
