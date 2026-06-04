@@ -352,3 +352,21 @@ export const formatMDExport = (books) => {
     .map(b => `- **${b.title}**, ${b.author} (${b.country}, ${b.year})`)
     .join('\n');
 };
+
+// Listas para Autocomplete
+export const allCountries = Object.values(geoscheme)
+  .flatMap(regions => regions.flatMap(regionObj => Object.values(regionObj).flat()))
+  .filter((v, i, a) => a.indexOf(v) === i)
+  .sort();
+
+export const allRegions = Object.values(geoscheme)
+  .flatMap(regions => regions.flatMap(regionObj => Object.keys(regionObj)))
+  .filter((v, i, a) => a.indexOf(v) === i)
+  .sort();
+
+export const allContinents = [
+  ...Object.keys(geoscheme).map(code => continentMap[code] || code),
+  'Central America'
+]
+  .filter((v, i, a) => a.indexOf(v) === i)
+  .sort();

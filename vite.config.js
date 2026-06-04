@@ -168,7 +168,8 @@ const localDatabasePlugin = () => {
 export default defineConfig({
   plugins: [react(), localDatabasePlugin()],
   server: {
-    host: true
+    host: true,
+    port: 3000
   },
   test: {
     globals: true,

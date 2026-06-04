@@ -5,7 +5,11 @@ import {
   repairBooksList,
   mapCsvToBooks,
   formatMDExport,
-  normalizeForSearch
+  normalizeForSearch,
+  allCountries,
+  allRegions,
+  allContinents,
+  getGeoInfo
 } from '../dataUtils';
 
 describe('Data Utilities', () => {
@@ -200,6 +204,54 @@ describe('Data Utilities', () => {
       expect(normalizeForSearch('')).toBe('');
       expect(normalizeForSearch(null)).toBe('');
       expect(normalizeForSearch(undefined)).toBe('');
+    });
+  });
+
+  describe('Autocomplete Lists', () => {
+    it('should have a sorted list of countries containing Brazil', () => {
+      expect(allCountries).toContain('Brazil');
+      expect(allCountries).toContain('United States of America');
+      expect(allCountries.length).toBeGreaterThan(150);
+      expect(allCountries).toEqual([...allCountries].sort());
+    });
+
+    it('should have a sorted list of regions containing Eastern Europe', () => {
+      expect(allRegions).toContain('Eastern Europe');
+      expect(allRegions).toContain('South America');
+      expect(allRegions.length).toBeGreaterThan(10);
+      expect(allRegions).toEqual([...allRegions].sort());
+    });
+
+    it('should have a sorted list of continents containing South America and Central America', () => {
+      expect(allContinents).toContain('South America');
+      expect(allContinents).toContain('Central America');
+      expect(allContinents).toContain('Europe');
+      expect(allContinents).toEqual([...allContinents].sort());
+    });
+  });
+
+  describe('getGeoInfo', () => {
+    it('should return empty region and continent for empty or invalid country name', () => {
+      expect(getGeoInfo(null)).toEqual({ region: '', continent: '' });
+      expect(getGeoInfo(undefined)).toEqual({ region: '', continent: '' });
+      expect(getGeoInfo('')).toEqual({ region: '', continent: '' });
+      expect(getGeoInfo('UnknownCountryX')).toEqual({ region: '', continent: '' });
+    });
+
+    it('should return correct information for exact match country name', () => {
+      expect(getGeoInfo('Brazil')).toEqual({ region: 'South America', continent: 'South America' });
+      expect(getGeoInfo('France')).toEqual({ region: 'Western Europe', continent: 'Europe' });
+    });
+
+    it('should return correct information for country alias', () => {
+      // 'usa' maps to 'United States of America'
+      expect(getGeoInfo('usa')).toEqual({ region: 'Northern America', continent: 'North America' });
+      // 'england' maps to 'United Kingdom of Great Britain and Northern Ireland'
+      expect(getGeoInfo('england')).toEqual({ region: 'Northern Europe', continent: 'Europe' });
+    });
+
+    it('should return correct information with partial matches', () => {
+      expect(getGeoInfo('United States')).toEqual({ region: 'Northern America', continent: 'North America' });
     });
   });
 

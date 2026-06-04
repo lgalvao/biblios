@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getGeoInfo } from '../utils/dataUtils';
+import { getGeoInfo, allCountries, allRegions, allContinents } from '../utils/dataUtils';
 
 export default function BookModal({ book, onSave, onClose }) {
   const [title, setTitle] = useState(book?.title || '');
@@ -14,14 +14,12 @@ export default function BookModal({ book, onSave, onClose }) {
   const [description, setDescription] = useState(book?.description || '');
   const [error, setError] = useState('');
 
-  const continents = ['Africa', 'Asia', 'Central America', 'Europe', 'North America', 'South America', 'Oceania'];
-
   const handleCountryChange = (val) => {
     setCountry(val);
     if (val.trim()) {
       const geo = getGeoInfo(val);
-      if (geo.region && !region) setRegion(geo.region);
-      if (geo.continent && !continent) setContinent(geo.continent);
+      if (geo.region) setRegion(geo.region);
+      if (geo.continent) setContinent(geo.continent);
     }
   };
 
@@ -80,18 +78,24 @@ export default function BookModal({ book, onSave, onClose }) {
               </div>
               <div className="col-12 col-md-4">
                 <label className="form-label small fw-bold text-muted text-uppercase">Country</label>
-                <input type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} required />
+                <input type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} list="country-options" required />
+                <datalist id="country-options">
+                  {allCountries.map(c => <option key={c} value={c} />)}
+                </datalist>
               </div>
               <div className="col-12 col-md-4">
                 <label className="form-label small fw-bold text-muted text-uppercase">Continent</label>
-                <select className="form-select" value={continent} onChange={e => setContinent(e.target.value)} required>
-                  <option value="">Select...</option>
-                  {continents.map(c => <option key={c} value={c}>{c}</option>)}
-                </select>
+                <input type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
+                <datalist id="continent-options">
+                  {allContinents.map(c => <option key={c} value={c} />)}
+                </datalist>
               </div>
               <div className="col-12 col-md-4">
                 <label className="form-label small fw-bold text-muted text-uppercase">Region</label>
-                <input type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} />
+                <input type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
+                <datalist id="region-options">
+                  {allRegions.map(r => <option key={r} value={r} />)}
+                </datalist>
               </div>
               <div className="col-12">
                 <label className="form-label small fw-bold text-muted text-uppercase">Description</label>
