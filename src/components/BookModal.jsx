@@ -14,6 +14,9 @@ export default function BookModal({ book, onSave, onClose }) {
   const [description, setDescription] = useState(book?.description || '');
   const [error, setError] = useState('');
 
+  const geo = getGeoInfo(country);
+  const isKnownCountry = !!(geo.continent && geo.region);
+
   const handleCountryChange = (val) => {
     setCountry(val);
     const geo = getGeoInfo(val);
@@ -46,11 +49,11 @@ export default function BookModal({ book, onSave, onClose }) {
     <div className="modal show d-block" style={{ backgroundColor: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(4px)' }}>
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content shadow-lg border-0">
-          <div className="modal-header border-bottom-0 pb-0">
+          <div className="modal-header border-bottom-0 pb-0 px-3 px-md-4 pt-3 pt-md-4">
             <h5 className="modal-title fw-bold">{book ? 'Edit Book' : 'Add New Book'}</h5>
             <button type="button" className="btn-close" onClick={onClose}></button>
           </div>
-          <form onSubmit={handleSubmit} className="modal-body p-4">
+          <form onSubmit={handleSubmit} className="modal-body p-3 p-md-4">
             {error && <div className="alert alert-danger py-2 small fw-bold mb-4">{error}</div>}
             
             <div className="row g-3">
@@ -74,27 +77,38 @@ export default function BookModal({ book, onSave, onClose }) {
                 <label className="form-label small fw-bold text-muted text-uppercase">Language</label>
                 <input type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} />
               </div>
-              <div className="col-12 col-md-4">
+              <div className={isKnownCountry || !country.trim() ? "col-12" : "col-12 col-md-4"}>
                 <label className="form-label small fw-bold text-muted text-uppercase">Country</label>
                 <input type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} list="country-options" required />
                 <datalist id="country-options">
                   {allCountries.map(c => <option key={c} value={c} />)}
                 </datalist>
+                {isKnownCountry && (
+                  <div className="form-text text-success d-flex align-items-center gap-1 mt-1 small">
+                    <span className="badge bg-success bg-opacity-10 text-success border border-success border-opacity-20 py-1.5 px-2.5 rounded-pill text-wrap text-start">
+                      ✓ Auto-detected: {continent} • {region}
+                    </span>
+                  </div>
+                )}
               </div>
-              <div className="col-12 col-md-4">
-                <label className="form-label small fw-bold text-muted text-uppercase">Continent</label>
-                <input type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
-                <datalist id="continent-options">
-                  {allContinents.map(c => <option key={c} value={c} />)}
-                </datalist>
-              </div>
-              <div className="col-12 col-md-4">
-                <label className="form-label small fw-bold text-muted text-uppercase">Region</label>
-                <input type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
-                <datalist id="region-options">
-                  {allRegions.map(r => <option key={r} value={r} />)}
-                </datalist>
-              </div>
+              {country.trim() !== '' && !isKnownCountry && (
+                <>
+                  <div className="col-12 col-md-4 animate-fade">
+                    <label className="form-label small fw-bold text-muted text-uppercase">Continent</label>
+                    <input type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
+                    <datalist id="continent-options">
+                      {allContinents.map(c => <option key={c} value={c} />)}
+                    </datalist>
+                  </div>
+                  <div className="col-12 col-md-4 animate-fade">
+                    <label className="form-label small fw-bold text-muted text-uppercase">Region</label>
+                    <input type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
+                    <datalist id="region-options">
+                      {allRegions.map(r => <option key={r} value={r} />)}
+                    </datalist>
+                  </div>
+                </>
+              )}
               <div className="col-12">
                 <label className="form-label small fw-bold text-muted text-uppercase">Description</label>
                 <textarea className="form-control" rows="3" value={description} onChange={e => setDescription(e.target.value)}></textarea>
@@ -107,7 +121,7 @@ export default function BookModal({ book, onSave, onClose }) {
               </div>
             </div>
 
-            <div className="mt-4 pt-3 border-top d-flex justify-content-end gap-2">
+            <div className="mt-4 pt-3 border-top d-flex flex-column-reverse flex-sm-row justify-content-sm-end gap-2">
               <button type="button" className="btn btn-light px-4" onClick={onClose}>Cancel</button>
               <button type="submit" className="btn btn-primary px-4">Save Book</button>
             </div>

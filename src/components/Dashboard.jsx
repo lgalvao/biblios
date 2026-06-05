@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend } from 'recharts';
+import { ResponsiveContainer, Cell, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { Book, CheckCircle, Compass, Globe, Languages, FileText, Search } from 'lucide-react';
 import { normalizeForSearch, getCountryFlag } from '../utils/dataUtils';
 

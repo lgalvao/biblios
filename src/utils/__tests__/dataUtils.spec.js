@@ -103,6 +103,12 @@ describe('Data Utilities', () => {
       expect(repaired[0].country).toBe('Canada');
     });
 
+    it('should fix country for Czech Republic', () => {
+      const books = [{ title: 'Book Czech', author: 'E', country: 'Czech Republic' }];
+      const { repaired } = repairBooksList(books, []);
+      expect(repaired[0].country).toBe('Czechia');
+    });
+
     it('should sync with reference data', () => {
       const books = [{ title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: '1950' }];
       const { repaired, needsRepair } = repairBooksList(books, mockReference);

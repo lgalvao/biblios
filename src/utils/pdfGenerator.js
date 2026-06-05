@@ -57,25 +57,7 @@ export const exportPDFReport = (books) => {
     return false;
   };
 
-  const truncateText = (text, maxLength) => {
-    if (!text) return '';
-    const str = String(text);
-    return str.length > maxLength ? str.substring(0, maxLength - 3) + '...' : str;
-  };
-
   // Vector Icon Drawing Helpers
-  const drawBookIcon = (x, y) => {
-    doc.setDrawColor(13, 110, 253); // Blue
-    doc.setLineWidth(0.25);
-    // Draw two pages of open book
-    doc.line(x, y + 0.4, x, y + 2.4); // Left edge
-    doc.line(x + 3.6, y + 0.4, x + 3.6, y + 2.4); // Right edge
-    doc.line(x + 1.8, y + 0.7, x + 1.8, y + 2.7); // Spine
-    doc.line(x, y + 0.4, x + 1.8, y + 0.7); // Left top
-    doc.line(x, y + 2.4, x + 1.8, y + 2.7); // Left bottom
-    doc.line(x + 1.8, y + 0.7, x + 3.6, y + 0.4); // Right top
-    doc.line(x + 1.8, y + 2.7, x + 3.6, y + 2.4); // Right bottom
-  };
 
   const drawAuthorIcon = (x, y) => {
     doc.setDrawColor(164, 180, 200); // Subtle light gray-blue

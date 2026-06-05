@@ -169,7 +169,10 @@ export default defineConfig({
   plugins: [react(), localDatabasePlugin()],
   server: {
     host: true,
-    port: 3000
+    port: 3000,
+    watch: {
+      ignored: ['**/src/data/data.json', '**/data.csv']
+    }
   },
   build: {
     chunkSizeWarningLimit: 1000,
