@@ -26,3 +26,4 @@ dist-ssr
 # Large database & cache files
 metadata.db
 .cache/
+coverage/

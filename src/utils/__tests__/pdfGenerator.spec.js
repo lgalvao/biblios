@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import { exportPDFReport } from '../pdfGenerator';
 
 // Mock jsPDF library
@@ -32,6 +32,35 @@ vi.mock('jspdf', () => {
 });
 
 describe('pdfGenerator', () => {
+  let originalCreateElement;
+
+  beforeEach(() => {
+    vi.clearAllMocks();
+    if (typeof document !== 'undefined') {
+      originalCreateElement = document.createElement;
+      document.createElement = vi.fn((tagName) => {
+        if (tagName === 'canvas') {
+          return {
+            getContext: vi.fn(() => ({
+              fillText: vi.fn(),
+              measureText: vi.fn(() => ({ width: 10 })),
+            })),
+            toDataURL: vi.fn(() => 'data:image/png;base64,abc'),
+            width: 0,
+            height: 0
+          };
+        }
+        return originalCreateElement.call(document, tagName);
+      });
+    }
+  });
+
+  afterEach(() => {
+    if (typeof document !== 'undefined' && originalCreateElement) {
+      document.createElement = originalCreateElement;
+    }
+  });
+
   it('should initialize jsPDF and call save with the library report filename', async () => {
     const books = [
       {
@@ -73,11 +102,48 @@ describe('pdfGenerator', () => {
 
   it('should early return and do nothing if the books list is empty or null', async () => {
     const { jsPDF } = await import('jspdf');
-    vi.clearAllMocks();
-
     exportPDFReport([]);
     exportPDFReport(null);
 
     expect(jsPDF).not.toHaveBeenCalled();
+  });
+
+  it('should handle missing metadata gracefully', async () => {
+    const books = [
+      {
+        title: 'Book Without Meta',
+        author: 'No Author',
+        country: 'Brazil',
+        continent: 'South America',
+        year: '',
+        pages: '',
+        originalLanguage: ''
+      }
+    ];
+
+    exportPDFReport(books);
+
+    const { jsPDF } = await import('jspdf');
+    const mockDoc = jsPDF.mock.results[0].value;
+    expect(mockDoc.save).toHaveBeenCalled();
+  });
+
+  it('should trigger page breaks and column switches when rendering a large catalog', async () => {
+    const books = Array.from({ length: 120 }, (_, i) => ({
+      title: `Book ${i + 1}`,
+      author: `Author ${i + 1}`,
+      year: `${1900 + i}`,
+      pages: 100 + i,
+      originalLanguage: 'English',
+      read: i % 2 === 0,
+      country: 'Brazil',
+      continent: 'South America'
+    }));
+
+    exportPDFReport(books);
+
+    const { jsPDF } = await import('jspdf');
+    const mockDoc = jsPDF.mock.results[0].value;
+    expect(mockDoc.addPage).toHaveBeenCalled();
   });
 });
