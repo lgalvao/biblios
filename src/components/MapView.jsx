@@ -2,7 +2,8 @@ import { useState, useMemo } from 'react';
 import WorldMap from './WorldMap';
 import { Search, Download } from 'lucide-react';
 import { codeToCountries } from './worldMapData';
-import { normalizeForSearch, getCountryFlag } from '../utils/dataUtils';
+import { normalizeForSearch } from '../utils/dataUtils';
+import CountryFlag from './CountryFlag';
 
 export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -70,7 +71,7 @@ export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
         <div className="card shadow-sm border-0 animate-fade">
           <div className="card-header bg-white p-3 d-flex flex-wrap justify-content-between align-items-center gap-3">
             <div>
-              <h5 className="fw-bold mb-0">{getCountryFlag(selectedCountry)} {selectedCountry}</h5>
+              <h5 className="fw-bold mb-0"><CountryFlag countryName={selectedCountry} /> {selectedCountry}</h5>
               {stats ? (
                 <p className="small text-muted mb-0">{stats.read} of {stats.count} books read</p>
               ) : (

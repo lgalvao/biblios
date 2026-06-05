@@ -1,7 +1,8 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText, Calendar } from 'lucide-react';
-import { escapeCSVField, formatMDExport, normalizeForSearch, getCountryFlag } from '../utils/dataUtils';
+import { escapeCSVField, formatMDExport, normalizeForSearch, sortBooks } from '../utils/dataUtils';
 import { exportPDFReport } from '../utils/pdfGenerator';
+import CountryFlag from './CountryFlag';
 
 export default function BookTable({ 
   books, 
@@ -142,18 +143,7 @@ export default function BookTable({
   };
 
   const sortedBooks = useMemo(() => {
-    if (!sortColumn) return filteredBooks;
-    return [...filteredBooks].sort((a, b) => {
-      let aVal = a[sortColumn];
-      let bVal = b[sortColumn];
-      if (typeof aVal === 'string') {
-        aVal = aVal.toLowerCase();
-        bVal = (bVal || '').toLowerCase();
-      }
-      if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1;
-      if (aVal > bVal) return sortDirection === 'asc' ? 1 : -1;
-      return 0;
-    });
+    return sortBooks(filteredBooks, sortColumn, sortDirection);
   }, [filteredBooks, sortColumn, sortDirection]);
 
   const visibleBooks = sortedBooks.slice(0, visibleCount);
@@ -292,7 +282,7 @@ export default function BookTable({
             
             {selectedCountry && (
               <span className="badge border border-primary text-primary d-flex align-items-center gap-2 py-2 px-3">
-                COUNTRY: {getCountryFlag(selectedCountry)} {selectedCountry}
+                COUNTRY: <CountryFlag countryName={selectedCountry} /> {selectedCountry}
                 <X size={14} className="cursor-pointer text-danger" onClick={() => onCountryFilterChange('')} />
               </span>
             )}
@@ -376,7 +366,7 @@ export default function BookTable({
                           className="country-link" 
                           onClick={(e) => { e.stopPropagation(); onCountryFilterChange(b.country); }}
                         >
-                          {getCountryFlag(b.country)} {b.country}
+                          <CountryFlag countryName={b.country} /> {b.country}
                         </span>
                       </div>
                       <div className="d-flex align-items-center gap-3 text-secondary opacity-75">
@@ -397,7 +387,7 @@ export default function BookTable({
                   <td className="d-none d-lg-table-cell">{b.year}</td>
                   <td className="d-none d-md-table-cell" onClick={(e) => e.stopPropagation()}>
                     <span className="country-link" onClick={() => onCountryFilterChange(b.country)}>
-                      {getCountryFlag(b.country)} {b.country}
+                      <CountryFlag countryName={b.country} /> {b.country}
                     </span>
                   </td>
                   <td className="d-none d-lg-table-cell text-muted">{b.pages}</td>
@@ -439,7 +429,7 @@ export default function BookTable({
                             <ul className="list-unstyled small mb-0 d-flex flex-column gap-1">
                               <li><strong>Volume:</strong> {b.pages} pages</li>
                               <li><strong>Original Language:</strong> {b.originalLanguage}</li>
-                              <li><strong>Geographic Origin:</strong> {getCountryFlag(b.country)} {b.country} ({b.region})</li>
+                              <li><strong>Geographic Origin:</strong> <CountryFlag countryName={b.country} /> {b.country} ({b.region})</li>
                               <li><strong>Continent:</strong> {b.continent}</li>
                               <li className="mt-2">
                                 <span className={`badge ${b.read ? 'bg-success-subtle text-success border border-success' : 'bg-warning-subtle text-warning border border-warning'}`}>

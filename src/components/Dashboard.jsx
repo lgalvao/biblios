@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { ResponsiveContainer, Cell, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { Book, CheckCircle, Compass, Globe, Languages, FileText, Search } from 'lucide-react';
-import { normalizeForSearch, getCountryFlag } from '../utils/dataUtils';
+import { normalizeForSearch } from '../utils/dataUtils';
+import CountryFlag from './CountryFlag';
 
 export default function Dashboard({ books }) {
   const [searchTerm, setSearchQuery] = useState('');
@@ -142,7 +143,7 @@ export default function Dashboard({ books }) {
               {sorted.map((item, idx) => (
                 <tr key={idx} className="cursor-default">
                   <td className="ps-3 fw-medium py-2">
-                    {title === 'Countries' ? `${getCountryFlag(item.label)} ${item.label}` : item.label}
+                    {title === 'Countries' ? <><CountryFlag countryName={item.label} /> {item.label}</> : item.label}
                   </td>
                   <td className="text-end pe-3 py-2">
                     <span className="badge bg-primary bg-opacity-10 text-primary fw-bold" style={{ fontSize: '0.75rem' }}>{item.count}</span>
