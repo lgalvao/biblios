@@ -1,16 +1,16 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import data from './data/data.json';
-import Dashboard from './components/Dashboard';
-import BookTable from './components/BookTable';
-import BookModal from './components/BookModal';
-import MapView from './components/MapView';
-import Stats from './components/Stats';
 import { 
   repairBooksList, 
   parseCSVText, 
   escapeCSVField,
   mapCsvToBooks 
 } from './utils/dataUtils';
+
+const Dashboard = lazy(() => import('./components/Dashboard'));
+const BookTable = lazy(() => import('./components/BookTable'));
+const BookModal = lazy(() => import('./components/BookModal'));
+const MapView = lazy(() => import('./components/MapView'));
 import './App.css';
 
 import { 
@@ -271,15 +271,22 @@ function App() {
             <h1 className="h4 m-0 fw-bold">Biblios</h1>
             <p className="small text-muted m-0 text-uppercase" style={{ fontSize: '0.6rem', letterSpacing: '0.1em' }}>Library Tracker</p>
           </div>
-          <div className={`sync-status-badge sync-${syncStatus} ms-2`}>
-            <div className="sync-dot"></div>
-            <span style={{ fontSize: '0.7rem', fontWeight: 600 }}>
-              {syncStatus === 'synced' ? 'SYNCED' : syncStatus === 'saving' ? 'SAVING...' : 'OFFLINE'}
-            </span>
-          </div>
+          {syncStatus !== 'synced' && (
+            <div className={`sync-status-badge sync-${syncStatus} ms-2`}>
+              <div className="sync-dot"></div>
+              <span style={{ fontSize: '0.7rem', fontWeight: 600 }}>
+                {syncStatus === 'saving' ? 'SAVING...' : 'OFFLINE'}
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="d-flex align-items-center gap-2">
+          <button className="btn btn-sm btn-primary d-flex align-items-center gap-2" onClick={() => { setEditingBook(null); setIsModalOpen(true); }}>
+            <Plus size={14} />
+            <span>Add Book</span>
+          </button>
+
           <label className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-2 m-0 cursor-pointer">
             <Upload size={14} />
             <span className="d-none d-md-inline">Import</span>
@@ -289,11 +296,6 @@ function App() {
           <button className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-2" onClick={() => handleExportCSV(books, 'data.csv')}>
             <Download size={14} />
             <span className="d-none d-md-inline">Backup</span>
-          </button>
-
-          <button className="btn btn-sm btn-primary d-flex align-items-center gap-2" onClick={() => { setEditingBook(null); setIsModalOpen(true); }}>
-            <Plus size={14} />
-            <span>Add Book</span>
           </button>
 
           <button 
@@ -308,14 +310,17 @@ function App() {
 
       {/* Navigation Pills */}
       <ul className="nav nav-pills mb-4 gap-2 bg-light p-1 rounded border shadow-sm">
-        {['dashboard', 'list', 'map', 'stats'].map(tab => (
+        {['list', 'dashboard', 'map'].map(tab => (
           <li key={tab} className="nav-item">
             <button 
               className={`nav-link text-uppercase fw-bold px-3 py-2 ${activeTab === tab ? 'active' : 'text-muted'}`}
               style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}
-              onClick={() => setActiveTab(tab)}
+              onClick={() => {
+                setActiveTab(tab);
+                // Reset search query/filters when changing tabs if needed, or keep them persistent
+              }}
             >
-              {tab === 'list' ? 'Library' : tab}
+              {tab === 'list' ? 'Library' : tab === 'map' ? 'Atlas' : 'Dashboard'}
             </button>
           </li>
         ))}
@@ -323,53 +328,69 @@ function App() {
 
       {/* Main Content Area */}
       <main className="animate-fade">
-        {books.length === 0 ? (
-          <div className="card shadow-sm p-5 text-center border-0">
-            <div className="mb-3 text-muted opacity-25">
-              <BookOpen size={64} />
+        <Suspense fallback={
+          <div className="card shadow-sm p-5 text-center border-0 bg-glass text-muted animate-fade">
+            <div className="spinner-border text-primary mx-auto mb-3" role="status">
+              <span className="visually-hidden">Loading...</span>
             </div>
-            <h2 className="h4 fw-bold">Library is Empty</h2>
-            <p className="text-muted mx-auto mb-4" style={{ maxWidth: '400px' }}>
-              Your collection is currently empty. You can restore the default catalog or import a CSV file.
-            </p>
-            <div className="d-flex justify-content-center gap-2">
-              <button className="btn btn-primary" onClick={() => updateBooksAndSync(data)}>
-                Restore Default Catalog
-              </button>
+            <p className="mb-0 small fw-medium text-uppercase tracking-wider">Loading Panel...</p>
+          </div>
+        }>
+          {books.length === 0 ? (
+            <div className="card shadow-sm p-5 text-center border-0">
+              <div className="mb-3 text-muted opacity-25">
+                <BookOpen size={64} />
+              </div>
+              <h2 className="h4 fw-bold">Library is Empty</h2>
+              <p className="text-muted mx-auto mb-4" style={{ maxWidth: '400px' }}>
+                Your collection is currently empty. You can restore the default catalog or import a CSV file.
+              </p>
+              <div className="d-flex justify-content-center gap-2">
+                <button className="btn btn-primary" onClick={() => updateBooksAndSync(data)}>
+                  Restore Default Catalog
+                </button>
+              </div>
             </div>
-          </div>
-        ) : (
-          <div>
-            {activeTab === 'dashboard' && <Dashboard books={books} />}
-            {activeTab === 'list' && (
-              <BookTable 
-                books={books} 
-                onToggleRead={handleToggleRead}
-                onEditBook={(book) => { setEditingBook(book); setIsModalOpen(true); }}
-                onDeleteBook={handleDeleteBook}
-                onAddClick={() => { setEditingBook(null); setIsModalOpen(true); }}
-                search={searchQuery}
-                onSearchChange={setSearchQuery}
-                selectedCountry={selectedCountry}
-                onCountryFilterChange={setSelectedCountry}
-                selectedLanguage={selectedLanguage}
-                onLanguageFilterChange={setSelectedLanguage}
-              />
-            )}
-            {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
-            {activeTab === 'stats' && <Stats books={books} />}
-          </div>
-        )}
+          ) : (
+            <div>
+              {activeTab === 'dashboard' && <Dashboard books={books} />}
+              {activeTab === 'list' && (
+                <BookTable 
+                  books={books} 
+                  onToggleRead={handleToggleRead}
+                  onEditBook={(book) => { setEditingBook(book); setIsModalOpen(true); }}
+                  onDeleteBook={handleDeleteBook}
+                  onAddClick={() => { setEditingBook(null); setIsModalOpen(true); }}
+                  search={searchQuery}
+                  onSearchChange={setSearchQuery}
+                  selectedCountry={selectedCountry}
+                  onCountryFilterChange={setSelectedCountry}
+                  selectedLanguage={selectedLanguage}
+                  onLanguageFilterChange={setSelectedLanguage}
+                />
+              )}
+              {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
+            </div>
+          )}
+        </Suspense>
       </main>
 
       {/* Modal Overlay */}
       {isModalOpen && (
-        <BookModal 
-          key={editingBook ? editingBook.id : 'new'}
-          book={editingBook} 
-          onSave={handleSaveBook} 
-          onClose={() => { setIsModalOpen(false); setEditingBook(null); }} 
-        />
+        <Suspense fallback={
+          <div className="modal-backdrop fade show d-flex align-items-center justify-content-center" style={{ zIndex: 1050 }}>
+            <div className="spinner-border text-light" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        }>
+          <BookModal 
+            key={editingBook ? editingBook.id : 'new'}
+            book={editingBook} 
+            onSave={handleSaveBook} 
+            onClose={() => { setIsModalOpen(false); setEditingBook(null); }} 
+          />
+        </Suspense>
       )}
 
       {/* Toast Notifications */}

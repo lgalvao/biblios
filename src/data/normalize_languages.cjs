@@ -10,7 +10,7 @@ const langMap = {
   'italiano': 'Italian',
   'russo': 'Russian',
   'japones': 'Japanese',
-  'chines': 'Chinese',
+  'chines': 'Mandarin',
   'arabe': 'Arabic',
   'grego': 'Greek',
   'holandes': 'Dutch',

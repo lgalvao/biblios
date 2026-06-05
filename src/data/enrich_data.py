@@ -8,8 +8,8 @@ json_path = "/Users/leonardo/books/src/data/initialData.json"
 
 # A comprehensive country-to-language mapping for accurate metadata
 country_to_lang = {
-    "China": "Chinese",
-    "Taiwan": "Chinese",
+    "China": "Mandarin",
+    "Taiwan": "Mandarin",
     "Japan": "Japanese",
     "Brazil": "Portuguese",
     "Portugal": "Portuguese",

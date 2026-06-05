@@ -1,5 +1,6 @@
-import { useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { codeToCountries, countryToCode } from './worldMapData';
+import { ZoomIn, ZoomOut, RefreshCw } from 'lucide-react';
 
 export default function WorldMap({ selectedCountry, onCountryClick, books }) {
   // 1. Calculate which country codes have books in the dataset
@@ -39,9 +40,163 @@ export default function WorldMap({ selectedCountry, onCountryClick, books }) {
     return `${name}${count > 0 ? ` (${count} book${count > 1 ? 's' : ''})` : ' (No books)'}`;
   };
 
+  const [scale, setScale] = useState(1);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  
+  const dragStart = useRef({ x: 0, y: 0 });
+  const initialPosition = useRef({ x: 0, y: 0 });
+  const hasDraggedRef = useRef(false);
+  const svgRef = useRef(null);
+  
+  const stateRef = useRef({ scale: 1, position: { x: 0, y: 0 } });
+  
+  useEffect(() => {
+    stateRef.current = { scale, position };
+  }, [scale, position]);
+
+  useEffect(() => {
+    const svgEl = svgRef.current;
+    if (!svgEl) return;
+
+    const handleWheel = (e) => {
+      e.preventDefault();
+      const currentScale = stateRef.current.scale;
+      const currentPos = stateRef.current.position;
+      
+      const zoomFactor = 1.15;
+      let nextScale = e.deltaY < 0 ? currentScale * zoomFactor : currentScale / zoomFactor;
+      nextScale = Math.max(1, Math.min(nextScale, 8));
+      
+      const rect = svgEl.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+      
+      const dx = mouseX - rect.width / 2;
+      const dy = mouseY - rect.height / 2;
+      
+      let nextX = dx - (dx - currentPos.x) * nextScale / currentScale;
+      let nextY = dy - (dy - currentPos.y) * nextScale / currentScale;
+      
+      if (nextScale === 1) {
+        nextX = 0;
+        nextY = 0;
+      } else {
+        const maxOffset = 500 * (nextScale - 1);
+        nextX = Math.max(-maxOffset, Math.min(maxOffset, nextX));
+        nextY = Math.max(-maxOffset, Math.min(maxOffset, nextY));
+      }
+      
+      setPosition({ x: nextX, y: nextY });
+      setScale(nextScale);
+    };
+
+    svgEl.addEventListener('wheel', handleWheel, { passive: false });
+    return () => {
+      svgEl.removeEventListener('wheel', handleWheel);
+    };
+  }, []);
+
+  const handleMouseDown = (e) => {
+    if (e.button !== 0) return;
+    setIsDragging(true);
+    hasDraggedRef.current = false;
+    dragStart.current = { x: e.clientX, y: e.clientY };
+    initialPosition.current = { ...position };
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    const dx = e.clientX - dragStart.current.x;
+    const dy = e.clientY - dragStart.current.y;
+    
+    if (Math.hypot(dx, dy) > 5) {
+      hasDraggedRef.current = true;
+    }
+    
+    const maxOffset = 500 * (scale - 1);
+    const newX = initialPosition.current.x + dx;
+    const newY = initialPosition.current.y + dy;
+    
+    setPosition({
+      x: scale === 1 ? 0 : Math.max(-maxOffset - 100, Math.min(maxOffset + 100, newX)),
+      y: scale === 1 ? 0 : Math.max(-maxOffset - 100, Math.min(maxOffset + 100, newY))
+    });
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+    if (scale === 1) {
+      setPosition({ x: 0, y: 0 });
+    } else {
+      const maxOffset = 500 * (scale - 1);
+      setPosition(prev => ({
+        x: Math.max(-maxOffset, Math.min(maxOffset, prev.x)),
+        y: Math.max(-maxOffset, Math.min(maxOffset, prev.y))
+      }));
+    }
+  };
+
+  const handleTouchStart = (e) => {
+    if (e.touches.length === 1) {
+      setIsDragging(true);
+      hasDraggedRef.current = false;
+      dragStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      initialPosition.current = { ...position };
+    }
+  };
+
+  const handleTouchMove = (e) => {
+    if (!isDragging || e.touches.length !== 1) return;
+    const dx = e.touches[0].clientX - dragStart.current.x;
+    const dy = e.touches[0].clientY - dragStart.current.y;
+    
+    if (Math.hypot(dx, dy) > 5) {
+      hasDraggedRef.current = true;
+    }
+    
+    const maxOffset = 500 * (scale - 1);
+    const newX = initialPosition.current.x + dx;
+    const newY = initialPosition.current.y + dy;
+    
+    setPosition({
+      x: scale === 1 ? 0 : Math.max(-maxOffset - 100, Math.min(maxOffset + 100, newX)),
+      y: scale === 1 ? 0 : Math.max(-maxOffset - 100, Math.min(maxOffset + 100, newY))
+    });
+  };
+
+  const handleTouchEnd = () => {
+    handleMouseUp();
+  };
+
+  const zoomIn = () => {
+    setScale(prev => Math.min(prev * 1.4, 8));
+  };
+
+  const zoomOut = () => {
+    setScale(prev => {
+      const next = Math.max(prev / 1.4, 1);
+      if (next === 1) setPosition({ x: 0, y: 0 });
+      return next;
+    });
+  };
+
+  const resetZoom = () => {
+    setScale(1);
+    setPosition({ x: 0, y: 0 });
+  };
+
+  const handleClickCapture = (e) => {
+    if (hasDraggedRef.current) {
+      e.stopPropagation();
+      e.preventDefault();
+    }
+  };
+
   return (
-    <div className="map-view-wrapper" style={{ position: 'relative', width: '100%', height: '100%', minHeight: '420px' }}>
+    <div className="map-view-wrapper" style={{ position: 'relative', width: '100%', height: '100%', minHeight: '420px', overflow: 'hidden' }}>
       <svg 
+        ref={svgRef}
         version="1.2" 
         baseProfile="tiny" 
         xmlns="http://www.w3.org/2000/svg"
@@ -53,10 +208,28 @@ export default function WorldMap({ selectedCountry, onCountryClick, books }) {
           borderRadius: '1rem',
           background: 'rgba(148, 163, 184, 0.02)',
           border: '1px solid var(--border-light)',
-          boxShadow: 'var(--shadow-sm)'
+          boxShadow: 'var(--shadow-sm)',
+          cursor: isDragging ? 'grabbing' : (scale > 1 ? 'grab' : 'default'),
+          touchAction: 'none'
         }}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        onClickCapture={handleClickCapture}
       >
         <rect id="bg" x="9" y="3" width="100%" height="100%" fill="transparent" />
+        
+        <g 
+          transform={`translate(${position.x}, ${position.y}) scale(${scale})`}
+          style={{
+            transformOrigin: '50% 50%',
+            transition: isDragging ? 'none' : 'transform 0.15s ease-out'
+          }}
+        >
         
         {/* Country Group Paths */}
 
@@ -95,11 +268,6 @@ export default function WorldMap({ selectedCountry, onCountryClick, books }) {
             <path d="M882.89,355.03l-0.95,0.22l-0.58,2.57l-1.82,1.18l-5.47,0.96l0.22,2.06l5.76-0.29l3.65-2.28l-0.22-3.97L882.89,355.03L882.89,355.03z"/>
             <path d="M880.48,349l-0.88,1.25l4.81,4.26l0.66,2.5l1.31-0.15l0.15-2.57l-1.46-1.32L880.48,349L880.48,349z"/>
             <path d="M889.38,359.51l1.24,3.45l2.19,2.13l0.66-0.59l-0.22-2.28l-2.48-3.01L889.38,359.51L889.38,359.51z"/>
-          </g>
-          <g key="sj" className={`map-country map-country-sj ${highlightedCodes.includes("sj") ? "has-books" : ""} ${selectedCode === "sj" ? "selected" : ""}`} onClick={() => onCountryClick("sj")}><title>{getTooltipText("sj")}</title>
-            <path d="M488.26,53.96l-1.65-1.66l-3.66,1.78h-6.72L475.17,58l3.77,3.33l1.65-0.24l2.36-4.04l2,1.43l-1.42,2.85l-0.71,4.16l1.65,2.61l3.54-5.94l4.6-5.59l-1.77-1.54L488.26,53.96L488.26,53.96z"/>
-            <path d="M490.26,46.83l-2.95,2.73l1.77,2.73h3.18l1.3,1.78l3.89,2.02l4.48-2.61l3.07-2.61l-1.06-2.14l-3.07-1.78l-2.24,2.02l-1.53-1.9l-1.18,0.12l-1.53,3.33l-2.24-2.26l-0.24-1.54L490.26,46.83L490.26,46.83z"/>
-            <path d="M496.98,59.07l-2.36,2.14l-2,1.54l0.94,1.66l1.89,0.59l3.07-1.43l1.42-1.78l-1.3-2.14L496.98,59.07L496.98,59.07z"/>
           </g>
           <g key="jp" className={`map-country map-country-jp ${highlightedCodes.includes("jp") ? "has-books" : ""} ${selectedCode === "jp" ? "selected" : ""}`} onClick={() => onCountryClick("jp")}><title>{getTooltipText("jp")}</title>
             <path d="M808.2,206.98l-4.88,5.59l0.86,1.35l2.39,0.29l4.49-3.47l3.16-0.58l2.87,3.37l2.2-0.77l0.86-3.28l4.11-0.1l4.02-4.82l-2.1-8l-0.96-4.24l2.1-1.73l-4.78-7.22l-1.24,0.1l-2.58,2.89v2.41l1.15,1.35l0.38,6.36l-2.96,3.66l-1.72-1.06l-1.34,2.99l-0.29,2.79l1.05,1.64l-0.67,1.25l-2.2-1.83h-1.53l-1.34,0.77L808.2,206.98L808.2,206.98z"/>
@@ -363,7 +531,13 @@ export default function WorldMap({ selectedCountry, onCountryClick, books }) {
           <path key="lb" d="M546.2,232.44l0.06,1.95l-0.82,2.96l2.82,0.24l0.18-4.2L546.2,232.44L546.2,232.44z" className={`map-country map-country-lb ${highlightedCodes.includes("lb") ? "has-books" : ""} ${selectedCode === "lb" ? "selected" : ""}`} onClick={() => onCountryClick("lb")}><title>{getTooltipText("lb")}</title></path>
           <path key="il" d="M545.32,238.06l-1.58,5.03l2.05,6.03l2.35-8.81v-1.89L545.32,238.06L545.32,238.06z" className={`map-country map-country-il ${highlightedCodes.includes("il") ? "has-books" : ""} ${selectedCode === "il" ? "selected" : ""}`} onClick={() => onCountryClick("il")}><title>{getTooltipText("il")}</title></path>
           <path key="cy" d="M543.21,229.84l1.23,0.89l-3.81,3.61l-1.82-0.06l-1.35-0.95l0.18-1.77l2.76-0.18L543.21,229.84L543.21,229.84z" className={`map-country map-country-cy ${highlightedCodes.includes("cy") ? "has-books" : ""} ${selectedCode === "cy" ? "selected" : ""}`} onClick={() => onCountryClick("cy")}><title>{getTooltipText("cy")}</title></path>
-          <path key="no" d="M515.46,102.14l2.02-1.48L517.3,99l-1.28-0.74l0.18-2.03h1.1v-1.11l-4.77-1.29l-7.15,0.74l-0.73,3.14L503,97.16l-1.1-1.85l-3.49,0.18L498.04,99l-1.65,0.74l-0.92-1.85l-7.34,5.91l1.47,1.66l-2.75,1.29l-6.24,12.38l-2.2,1.48l0.18,1.11l2.2,1.11l-0.55,2.4l-3.67-0.19l-1.1-1.29l-2.38,2.77l-1.47,1.11l-0.37,2.59l-1.28,0.74l-3.3,0.74l-1.65,5.18l1.1,8.5l1.28,3.88l1.47,1.48l3.3-0.18l4.77-4.62l1.83-3.14l0.55,4.62l3.12-5.54l0.18-15.53l2.54-1.6l0.76-8.57l7.7-11.09l3.67-1.29l1.65-2.03l5.5,1.29l2.75,1.66l0.92-4.62l4.59-2.77L515.46,102.14L515.46,102.14z" className={`map-country map-country-no ${highlightedCodes.includes("no") ? "has-books" : ""} ${selectedCode === "no" ? "selected" : ""}`} onClick={() => onCountryClick("no")}><title>{getTooltipText("no")}</title></path>
+          <g key="no" className={`map-country map-country-no ${highlightedCodes.includes("no") ? "has-books" : ""} ${selectedCode === "no" ? "selected" : ""}`} onClick={() => onCountryClick("no")}><title>{getTooltipText("no")}</title>
+            <path d="M515.46,102.14l2.02-1.48L517.3,99l-1.28-0.74l0.18-2.03h1.1v-1.11l-4.77-1.29l-7.15,0.74l-0.73,3.14L503,97.16l-1.1-1.85l-3.49,0.18L498.04,99l-1.65,0.74l-0.92-1.85l-7.34,5.91l1.47,1.66l-2.75,1.29l-6.24,12.38l-2.2,1.48l0.18,1.11l2.2,1.11l-0.55,2.4l-3.67-0.19l-1.1-1.29l-2.38,2.77l-1.47,1.11l-0.37,2.59l-1.28,0.74l-3.3,0.74l-1.65,5.18l1.1,8.5l1.28,3.88l1.47,1.48l3.3-0.18l4.77-4.62l1.83-3.14l0.55,4.62l3.12-5.54l0.18-15.53l2.54-1.6l0.76-8.57l7.7-11.09l3.67-1.29l1.65-2.03l5.5,1.29l2.75,1.66l0.92-4.62l4.59-2.77L515.46,102.14L515.46,102.14z"/>
+            {/* Svalbard islands */}
+            <path d="M488.26,53.96l-1.65-1.66l-3.66,1.78h-6.72L475.17,58l3.77,3.33l1.65-0.24l2.36-4.04l2,1.43l-1.42,2.85l-0.71,4.16l1.65,2.61l3.54-5.94l4.6-5.59l-1.77-1.54L488.26,53.96L488.26,53.96z"/>
+            <path d="M490.26,46.83l-2.95,2.73l1.77,2.73h3.18l1.3,1.78l3.89,2.02l4.48-2.61l3.07-2.61l-1.06-2.14l-3.07-1.78l-2.24,2.02l-1.53-1.9l-1.18,0.12l-1.53,3.33l-2.24-2.26l-0.24-1.54L490.26,46.83L490.26,46.83z"/>
+            <path d="M496.98,59.07l-2.36,2.14l-2,1.54l0.94,1.66l1.89,0.59l3.07-1.43l1.42-1.78l-1.3-2.14L496.98,59.07L496.98,59.07z"/>
+          </g>
           <g key="se" className={`map-country map-country-se ${highlightedCodes.includes("se") ? "has-books" : ""} ${selectedCode === "se" ? "selected" : ""}`} onClick={() => onCountryClick("se")}><title>{getTooltipText("se")}</title>
             <path d="M497.72,104.58l1.96,1.81h3.67l2.02,3.88l0.55,6.65l-4.95,3.51v3.51l-3.49,4.81l-2.02,0.18l-2.75,4.62l0.18,4.44l4.77,3.51l-0.37,2.03l-1.83,2.77l-2.75,2.4l0.18,7.95l-4.22,1.48l-1.47,3.14h-2.02l-1.1-5.54l-4.59-7.04l3.77-6.31l0.26-15.59l2.6-1.43l0.63-8.92l7.41-10.61L497.72,104.58L497.72,104.58z"/>
             <path d="M498.49,150.17l-2.11,1.67l1.06,2.45l1.87-1.82L498.49,150.17L498.49,150.17z"/>
@@ -396,8 +570,33 @@ export default function WorldMap({ selectedCountry, onCountryClick, books }) {
           <path key="al" d="M504.02,209.76v4.61l1.32,2.49l0.95-0.11l1.63-2.97l-0.95-1.33l-0.37-3.29l-1.26-1.17L504.02,209.76L504.02,209.76z" className={`map-country map-country-al ${highlightedCodes.includes("al") ? "has-books" : ""} ${selectedCode === "al" ? "selected" : ""}`} onClick={() => onCountryClick("al")}><title>{getTooltipText("al")}</title></path>
           <path key="mk" d="M510.92,208.01l-3.37,1.11l0.16,2.86l0.79,1.01l4-1.86L510.92,208.01L510.92,208.01z" className={`map-country map-country-mk ${highlightedCodes.includes("mk") ? "has-books" : ""} ${selectedCode === "mk" ? "selected" : ""}`} onClick={() => onCountryClick("mk")}><title>{getTooltipText("mk")}</title></path>
 
-
+        </g>
       </svg>
+      
+      {/* Zoom controls floating panel */}
+      <div className="map-controls-group">
+        <button 
+          className="map-control-btn" 
+          onClick={zoomIn} 
+          title="Zoom In"
+        >
+          <ZoomIn size={16} />
+        </button>
+        <button 
+          className="map-control-btn" 
+          onClick={zoomOut} 
+          title="Zoom Out"
+        >
+          <ZoomOut size={16} />
+        </button>
+        <button 
+          className="map-control-btn" 
+          onClick={resetZoom} 
+          title="Reset View"
+        >
+          <RefreshCw size={14} />
+        </button>
+      </div>
     </div>
   );
 }

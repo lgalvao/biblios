@@ -79,7 +79,7 @@ const localDatabasePlugin = () => {
         continent: mapping.continent !== -1 ? row[mapping.continent]?.trim() || '' : '',
         read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
         originalLanguage: mapping.lang !== -1 ? row[mapping.lang]?.trim() || 'English' : 'English',
-        pages: mapping.pages !== -1 ? parseInt(row[mapping.pages], 10) || 250 : 250,
+        pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
       }));
 
@@ -170,6 +170,30 @@ export default defineConfig({
   server: {
     host: true,
     port: 3000
+  },
+  build: {
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('scheduler') || id.includes('prop-types')) {
+              return 'vendor-react';
+            }
+            if (id.includes('recharts') || id.includes('d3') || id.includes('victory') || id.includes('internmap') || id.includes('lodash')) {
+              return 'vendor-charts';
+            }
+            if (id.includes('lucide-react')) {
+              return 'vendor-icons';
+            }
+            return 'vendor';
+          }
+          if (id.includes('src/data/data.json')) {
+            return 'initial-database';
+          }
+        }
+      }
+    }
   },
   test: {
     globals: true,

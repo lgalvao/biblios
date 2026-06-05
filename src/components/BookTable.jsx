@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText } from 'lucide-react';
-import { escapeCSVField, formatMDExport, normalizeForSearch } from '../utils/dataUtils';
+import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText, Calendar } from 'lucide-react';
+import { escapeCSVField, formatMDExport, normalizeForSearch, getCountryFlag } from '../utils/dataUtils';
+import { exportPDFReport } from '../utils/pdfGenerator';
 
 export default function BookTable({ 
   books, 
@@ -18,14 +19,37 @@ export default function BookTable({
   const [filterContinent, setFilterContinent] = useState('all');
   const [filterRegion, setFilterRegion] = useState('all');
 
-  const [sortColumn, setSortColumn] = useState(null);
+  const [sortColumn, setSortColumn] = useState('title');
   const [sortDirection, setSortDirection] = useState('asc');
   const [expandedBookId, setExpandedBookId] = useState(null);
   const [showExportDropdown, setShowExportDropdown] = useState(false);
 
   const [visibleCount, setVisibleCount] = useState(50);
+  const [deletingId, setDeletingId] = useState(null);
   const sentinelRef = useRef(null);
   const dropdownRef = useRef(null);
+  const deleteTimeoutRef = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (deleteTimeoutRef.current) clearTimeout(deleteTimeoutRef.current);
+    };
+  }, []);
+
+  const handleDeleteClick = (e, bookId) => {
+    e.stopPropagation();
+    if (deletingId === bookId) {
+      if (deleteTimeoutRef.current) clearTimeout(deleteTimeoutRef.current);
+      onDeleteBook(bookId);
+      setDeletingId(null);
+    } else {
+      setDeletingId(bookId);
+      if (deleteTimeoutRef.current) clearTimeout(deleteTimeoutRef.current);
+      deleteTimeoutRef.current = setTimeout(() => {
+        setDeletingId(null);
+      }, 3000);
+    }
+  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -112,6 +136,11 @@ export default function BookTable({
     setShowExportDropdown(false);
   };
 
+  const exportPDF = () => {
+    exportPDFReport(filteredBooks);
+    setShowExportDropdown(false);
+  };
+
   const sortedBooks = useMemo(() => {
     if (!sortColumn) return filteredBooks;
     return [...filteredBooks].sort((a, b) => {
@@ -131,13 +160,13 @@ export default function BookTable({
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
+      if (entries[0].isIntersecting && visibleCount < sortedBooks.length) {
         setVisibleCount(prev => prev + 50);
       }
     });
     if (sentinelRef.current) observer.observe(sentinelRef.current);
     return () => observer.disconnect();
-  }, [sortedBooks.length]);
+  }, [sortedBooks.length, visibleCount]);
 
   const continents = useMemo(() => [...new Set(books.map(b => b.continent))].filter(Boolean).sort(), [books]);
   const regions = useMemo(() => [...new Set(books.map(b => b.region))].filter(Boolean).sort(), [books]);
@@ -192,7 +221,6 @@ export default function BookTable({
             </select>
           </div>
           <div className="col-6 col-md-2 d-flex align-items-center justify-content-end gap-2">
-            <span className="badge bg-primary rounded-pill">{filteredBooks.length} Books</span>
             <div className="position-relative" ref={dropdownRef}>
               <button 
                 className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1"
@@ -216,10 +244,45 @@ export default function BookTable({
                       <span>MD</span>
                     </button>
                   </li>
+                  <li>
+                    <button className="dropdown-item d-flex align-items-center gap-2" onClick={exportPDF}>
+                      <FileText size={14} className="text-secondary" />
+                      <span>PDF</span>
+                    </button>
+                  </li>
                 </ul>
               )}
             </div>
+            <span className="badge bg-primary rounded-pill">{filteredBooks.length} Books</span>
           </div>
+        </div>
+
+        {/* Mobile-only Sort Bar */}
+        <div className="d-flex d-md-none align-items-center gap-2 mt-3 pt-2 border-top">
+          <span className="small text-muted fw-bold text-uppercase" style={{ fontSize: '0.65rem', letterSpacing: '0.05em' }}>Sort:</span>
+          <select 
+            className="form-select form-select-sm bg-light py-1" 
+            style={{ fontSize: '0.75rem', width: 'auto', border: '1px solid var(--bs-border-color)' }}
+            value={sortColumn} 
+            onChange={(e) => setSortColumn(e.target.value)}
+          >
+            <option value="title">Title</option>
+            <option value="author">Author</option>
+            <option value="year">Year</option>
+            <option value="country">Country</option>
+            <option value="pages">Pages</option>
+            <option value="region">Region</option>
+          </select>
+          <button 
+            className="btn btn-sm btn-outline-secondary py-1 px-2 d-flex align-items-center gap-1"
+            style={{ fontSize: '0.7rem' }}
+            onClick={() => setSortDirection(dir => dir === 'asc' ? 'desc' : 'asc')}
+          >
+            {sortDirection === 'asc' ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
+            <span className="text-uppercase" style={{ fontSize: '0.6rem', fontWeight: 600 }}>
+              {sortDirection}
+            </span>
+          </button>
         </div>
 
         {/* Active Filters Bar */}
@@ -229,7 +292,7 @@ export default function BookTable({
             
             {selectedCountry && (
               <span className="badge border border-primary text-primary d-flex align-items-center gap-2 py-2 px-3">
-                COUNTRY: {selectedCountry}
+                COUNTRY: {getCountryFlag(selectedCountry)} {selectedCountry}
                 <X size={14} className="cursor-pointer text-danger" onClick={() => onCountryFilterChange('')} />
               </span>
             )}
@@ -307,12 +370,34 @@ export default function BookTable({
                   </td>
                   <td className="fw-bold">
                     {b.title}
+                    <div className="d-block d-md-none text-muted fw-normal small mt-1">
+                      <div className="mb-1">
+                        <span 
+                          className="country-link" 
+                          onClick={(e) => { e.stopPropagation(); onCountryFilterChange(b.country); }}
+                        >
+                          {getCountryFlag(b.country)} {b.country}
+                        </span>
+                      </div>
+                      <div className="d-flex align-items-center gap-3 text-secondary opacity-75">
+                        <span className="d-inline-flex align-items-center gap-1">
+                          <FileText size={11} className="opacity-50" />
+                          <span>{b.pages}</span>
+                        </span>
+                        {b.year && (
+                          <span className="d-inline-flex align-items-center gap-1">
+                            <Calendar size={11} className="opacity-50" />
+                            <span>{b.year}</span>
+                          </span>
+                        )}
+                      </div>
+                    </div>
                   </td>
                   <td className="text-muted">{b.author}</td>
                   <td className="d-none d-lg-table-cell">{b.year}</td>
                   <td className="d-none d-md-table-cell" onClick={(e) => e.stopPropagation()}>
-                    <span className="badge border border-secondary text-secondary badge-interactive" onClick={() => onCountryFilterChange(b.country)}>
-                      {b.country}
+                    <span className="country-link" onClick={() => onCountryFilterChange(b.country)}>
+                      {getCountryFlag(b.country)} {b.country}
                     </span>
                   </td>
                   <td className="d-none d-lg-table-cell text-muted">{b.pages}</td>
@@ -328,12 +413,12 @@ export default function BookTable({
                         <Edit2 size={14} />
                       </button>
                       <button 
-                        className="btn btn-outline-secondary border-0" 
-                        style={{ padding: '0.4rem' }} 
-                        onClick={() => onDeleteBook(b.id)}
-                        title="Delete"
+                        className={`btn border-0 transition-all ${deletingId === b.id ? 'btn-danger text-white px-2 fw-bold' : 'btn-outline-secondary text-danger'}`} 
+                        style={{ padding: '0.4rem', fontSize: deletingId === b.id ? '0.7rem' : 'inherit' }} 
+                        onClick={(e) => handleDeleteClick(e, b.id)}
+                        title={deletingId === b.id ? "Confirm delete" : "Delete"}
                       >
-                        <Trash2 size={14} />
+                        {deletingId === b.id ? "Sure?" : <Trash2 size={14} />}
                       </button>
                     </div>
                   </td>
@@ -354,7 +439,7 @@ export default function BookTable({
                             <ul className="list-unstyled small mb-0 d-flex flex-column gap-1">
                               <li><strong>Volume:</strong> {b.pages} pages</li>
                               <li><strong>Original Language:</strong> {b.originalLanguage}</li>
-                              <li><strong>Geographic Origin:</strong> {b.country} ({b.region})</li>
+                              <li><strong>Geographic Origin:</strong> {getCountryFlag(b.country)} {b.country} ({b.region})</li>
                               <li><strong>Continent:</strong> {b.continent}</li>
                               <li className="mt-2">
                                 <span className={`badge ${b.read ? 'bg-success-subtle text-success border border-success' : 'bg-warning-subtle text-warning border border-warning'}`}>
@@ -371,8 +456,8 @@ export default function BookTable({
               </React.Fragment>
             ))}
             <tr ref={sentinelRef}>
-              <td colSpan={8} className="text-center p-4 text-muted small">
-                {visibleCount < sortedBooks.length ? 'Loading more...' : 'End of collection'}
+              <td colSpan={8} className="text-center p-2 text-muted small border-0">
+                {visibleCount < sortedBooks.length ? 'Loading more...' : ''}
               </td>
             </tr>
           </tbody>

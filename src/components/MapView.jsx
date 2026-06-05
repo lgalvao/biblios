@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import WorldMap from './WorldMap';
 import { Search, Download } from 'lucide-react';
 import { codeToCountries } from './worldMapData';
-import { normalizeForSearch } from '../utils/dataUtils';
+import { normalizeForSearch, getCountryFlag } from '../utils/dataUtils';
 
 export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -54,9 +54,9 @@ export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
       
       <div className="card shadow-sm border-0 mb-4 p-4">
         <div className="d-flex justify-content-between align-items-center mb-3">
-          <h5 className="fw-bold mb-0">Literary Atlas</h5>
+          <h5 className="fw-bold mb-0">Atlas</h5>
           <span className="badge bg-primary rounded-pill">
-            {Object.keys(countryStats).length} Countries Explored
+            {Object.keys(countryStats).length} Countries Read
           </span>
         </div>
         <WorldMap 
@@ -70,7 +70,7 @@ export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
         <div className="card shadow-sm border-0 animate-fade">
           <div className="card-header bg-white p-3 d-flex flex-wrap justify-content-between align-items-center gap-3">
             <div>
-              <h5 className="fw-bold mb-0">{selectedCountry}</h5>
+              <h5 className="fw-bold mb-0">{getCountryFlag(selectedCountry)} {selectedCountry}</h5>
               {stats ? (
                 <p className="small text-muted mb-0">{stats.read} of {stats.count} books read</p>
               ) : (

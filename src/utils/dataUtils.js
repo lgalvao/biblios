@@ -15,9 +15,13 @@ Object.entries(geoscheme).forEach(([continentCode, regions]) => {
   regions.forEach(regionObj => {
     Object.entries(regionObj).forEach(([regionName, countries]) => {
       countries.forEach(country => {
+        let continent = regionName === 'Central America' ? 'Central America' : continentMap[continentCode];
+        if (country.toLowerCase() === 'mexico') {
+          continent = 'North America';
+        }
         countryToRegionMap[country.toLowerCase()] = {
           region: regionName,
-          continent: continentMap[continentCode]
+          continent: continent
         };
       });
     });
@@ -43,11 +47,13 @@ const countryAliases = {
   'taiwan': 'China',
   'tanzania': 'United Republic of Tanzania',
   'syria': 'Syrian Arab Republic',
-  'macedonia': 'The former Yugoslav Republic of Macedonia',
+  'macedonia': 'North Macedonia',
+  'north macedonia': 'North Macedonia',
   'moldova': 'Republic of Moldova',
   'ivory coast': "Côte d'Ivoire",
   'turkmenistan': 'Turkmenistan',
   'uzbekistan': 'Uzbekistan',
+  'czech republic': 'Czechia',
   'guinea bissau': 'Guinea-Bissau'
 };
 
@@ -60,7 +66,7 @@ const langMap = {
   'italiano': 'Italian',
   'russo': 'Russian',
   'japones': 'Japanese',
-  'chines': 'Chinese',
+  'chines': 'Mandarin',
   'arabe': 'Arabic',
   'grego': 'Greek',
   'holandes': 'Dutch',
@@ -104,7 +110,7 @@ export const getGeoInfo = (countryName) => {
   let info = countryToRegionMap[normalizedName.toLowerCase()];
   
   // Se não encontrar, tenta busca parcial (ex: "United States" em "United States of America")
-  if (!info) {
+  if (!info && name.length >= 3) {
     const entry = Object.entries(countryToRegionMap).find(([c]) => 
       c.includes(name) || name.includes(c)
     );
@@ -126,6 +132,8 @@ export const normalizeToASCII = (str) => {
     .replace(/Ł/g, 'L')
     .replace(/ø/g, 'o')
     .replace(/Ø/g, 'O')
+    .replace(/ı/g, 'i')
+    .replace(/İ/g, 'I')
     .trim();
 };
 
@@ -225,7 +233,7 @@ export const mapCsvToBooks = (rows) => {
         continent: mapping.continent !== -1 && row[mapping.continent] ? row[mapping.continent].trim() : geo.continent,
         read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
         originalLanguage: mapping.lang !== -1 ? translateLanguageToEnglish(row[mapping.lang]) : 'English',
-        pages: mapping.pages !== -1 ? parseInt(row[mapping.pages], 10) || 250 : 250,
+        pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
       };
     });
@@ -262,15 +270,15 @@ export const repairBooksList = (loadedBooks, referenceData) => {
       isUpdated = true;
     }
     
-    if (['Nicaragua', 'El Salvador', 'Guatemala'].includes(b.country) && b.continent !== 'Central America') {
-      // Nota: O Geoscheme UN coloca estes em Central America (NA)
-      updated.continent = 'North America'; 
-      updated.region = 'Central America';
-      isUpdated = true;
-    }
+
     
     if (b.country === 'French Canada') {
       updated.country = 'Canada';
+      isUpdated = true;
+    }
+
+    if (b.country === 'Czech Republic') {
+      updated.country = 'Czechia';
       isUpdated = true;
     }
 
@@ -304,7 +312,7 @@ export const repairBooksList = (loadedBooks, referenceData) => {
         isUpdated = true;
       }
       if (b.pages === undefined) {
-        updated.pages = 250;
+        updated.pages = '';
         isUpdated = true;
       }
       if (b.description === undefined) {
@@ -340,7 +348,7 @@ export const repairBooksList = (loadedBooks, referenceData) => {
 /**
  * Formata e ordena uma lista de livros para exportação em Markdown.
  * Ordena por ano de forma crescente.
- * Formato por linha: - **Título**, Autor (País, Ano)
+ * Formato por linha: - **Título** by Autor (País, Ano)
  */
 export const formatMDExport = (books) => {
   const sorted = [...books].sort((a, b) => {
@@ -349,7 +357,7 @@ export const formatMDExport = (books) => {
     return yearA - yearB;
   });
   return sorted
-    .map(b => `- **${b.title}**, ${b.author} (${b.country}, ${b.year})`)
+    .map(b => `- ${b.title} by ${b.author} (${b.country}, ${b.year})`)
     .join('\n');
 };
 
@@ -370,3 +378,243 @@ export const allContinents = [
 ]
   .filter((v, i, a) => a.indexOf(v) === i)
   .sort();
+
+export const getCountryFlag = (countryName) => {
+  if (!countryName) return '';
+  const cleanName = countryName.toLowerCase().trim();
+  
+  // Custom flags or overrides
+  const specialFlags = {
+    'england': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    'scotland': '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    'wales': '🏴󠁧󠁢󠁷󠁬󠁳󠁿',
+    'northern ireland': '🇬🇧'
+  };
+  
+  if (specialFlags[cleanName]) {
+    return specialFlags[cleanName];
+  }
+  
+  const countryToCode = {
+    'afghanistan': 'AF',
+    'albania': 'AL',
+    'algeria': 'DZ',
+    'angola': 'AO',
+    'antigua': 'AG',
+    'antigua and barbuda': 'AG',
+    'argentina': 'AR',
+    'armenia': 'AM',
+    'australia': 'AU',
+    'austria': 'AT',
+    'azerbaijan': 'AZ',
+    'bangladesh': 'BD',
+    'barbados': 'BB',
+    'belarus': 'BY',
+    'belgium': 'BE',
+    'benin': 'BJ',
+    'bolivia': 'BO',
+    'bolivia (plurinational state of)': 'BO',
+    'bosnia': 'BA',
+    'bosnia and herzegovina': 'BA',
+    'botswana': 'BW',
+    'brazil': 'BR',
+    'bulgaria': 'BG',
+    'burkina faso': 'BF',
+    'burma': 'MM',
+    'burundi': 'BI',
+    'cameroon': 'CM',
+    'canada': 'CA',
+    'cape verde': 'CV',
+    'cabo verde': 'CV',
+    'chile': 'CL',
+    'china': 'CN',
+    'china, hong kong special administrative region': 'HK',
+    'china, macao special administrative region': 'MO',
+    'hong kong': 'HK',
+    'macao': 'MO',
+    'colombia': 'CO',
+    'comoros': 'KM',
+    'congo': 'CG',
+    'congo drc': 'CD',
+    'congo-brazzaville': 'CG',
+    'democratic republic of the congo': 'CD',
+    'costa rica': 'CR',
+    'croatia': 'HR',
+    'cuba': 'CU',
+    'curaçao': 'CW',
+    'chad': 'TD',
+    'czech republic': 'CZ',
+    'czechia': 'CZ',
+    'denmark': 'DK',
+    'djibouti': 'DJ',
+    'dominica': 'DM',
+    'dominican republic': 'DO',
+    'ecuador': 'EC',
+    'egypt': 'EG',
+    'el salvador': 'SV',
+    'equatorial guinea': 'GQ',
+    'eritrea': 'ER',
+    'estonia': 'EE',
+    'ethiopia': 'ET',
+    'faroe islands': 'FO',
+    'faeroe islands': 'FO',
+    'fiji': 'FJ',
+    'finland': 'FI',
+    'france': 'FR',
+    'french guyana': 'GF',
+    'french guiana': 'GF',
+    'gambia': 'GM',
+    'gabon': 'GA',
+    'central african republic': 'CF',
+    'georgia': 'GE',
+    'germany': 'DE',
+    'ghana': 'GH',
+    'greece': 'GR',
+    'greenland': 'GL',
+    'guadeloupe': 'GP',
+    'guatemala': 'GT',
+    'guinea': 'GN',
+    'guinea bissau': 'GW',
+    'guinea-bissau': 'GW',
+    'guyana': 'GY',
+    'haiti': 'HT',
+    'honduras': 'HN',
+    'hungary': 'HU',
+    'iceland': 'IS',
+    'india': 'IN',
+    'indonesia': 'ID',
+    'iran': 'IR',
+    'iran (islamic republic of)': 'IR',
+    'iraq': 'IQ',
+    'ireland': 'IE',
+    'israel': 'IL',
+    'italy': 'IT',
+    'ivory coast': 'CI',
+    'liberia': 'LR',
+    "cote d'ivoire": 'CI',
+    "côte d'ivoire": 'CI',
+    'jamaica': 'JM',
+    'japan': 'JP',
+    'jordan': 'JO',
+    'kazakhstan': 'KZ',
+    'kenya': 'KE',
+    'korea': 'KR',
+    'republic of korea': 'KR',
+    "democratic people's republic of korea": 'KP',
+    'north korea': 'KP',
+    'south korea': 'KR',
+    'kyrgyzstan': 'KG',
+    'latvia': 'LV',
+    'lebanon': 'LB',
+    'lesotho': 'LS',
+    'libya': 'LY',
+    'lithuania': 'LT',
+    'madagascar': 'MG',
+    'malaysia': 'MY',
+    'mali': 'ML',
+    'malta': 'MT',
+    'malawi': 'MW',
+    'mauritania': 'MR',
+    'marshall islands': 'MH',
+    'martinique': 'MQ',
+    'mauritius': 'MU',
+    'mexico': 'MX',
+    'moldova': 'MD',
+    'republic of moldova': 'MD',
+    'mongolia': 'MN',
+    'montenegro': 'ME',
+    'morocco': 'MA',
+    'mozambique': 'MZ',
+    'namibia': 'NA',
+    'nepal': 'NP',
+    'netherlands': 'NL',
+    'new zealand': 'NZ',
+    'nicaragua': 'NI',
+    'niger': 'NE',
+    'nigeria': 'NG',
+    'norway': 'NO',
+    'oman': 'OM',
+    'pakistan': 'PK',
+    'palestine': 'PS',
+    'state of palestine': 'PS',
+    'panama': 'PA',
+    'papua new guinea': 'PG',
+    'paraguay': 'PY',
+    'peru': 'PE',
+    'philippines': 'PH',
+    'poland': 'PL',
+    'portugal': 'PT',
+    'puerto rico': 'PR',
+    'reunion': 'RE',
+    'réunion': 'RE',
+    'romania': 'RO',
+    'russia': 'RU',
+    'russian federation': 'RU',
+    'rwanda': 'RW',
+    'samoa': 'WS',
+    'sao tome and principe': 'ST',
+    'são tomé and príncipe': 'ST',
+    'saudi arabia': 'SA',
+    'senegal': 'SN',
+    'serbia': 'RS',
+    'sierra leone': 'SL',
+    'singapore': 'SG',
+    'slovakia': 'SK',
+    'slovenia': 'SI',
+    'somalia': 'SO',
+    'south africa': 'ZA',
+    'south sudan': 'SS',
+    'spain': 'ES',
+    'sri lanka': 'LK',
+    'sudan': 'SD',
+    'suriname': 'SR',
+    'sweden': 'SE',
+    'switzerland': 'CH',
+    'syria': 'SY',
+    'syrian arab republic': 'SY',
+    'tahiti': 'PF',
+    'taiwan': 'TW',
+    'tajikistan': 'TJ',
+    'tanzania': 'TZ',
+    'united republic of tanzania': 'TZ',
+    'thailand': 'TH',
+    'the former yugoslav republic of macedonia': 'MK',
+    'macedonia': 'MK',
+    'north macedonia': 'MK',
+    'timor-leste': 'TL',
+    'belize': 'BZ',
+    'bhutan': 'BT',
+    'togo': 'TG',
+    'tonga': 'TO',
+    'trinidad': 'TT',
+    'trinidad and tobago': 'TT',
+    'tunisia': 'TN',
+    'turkey': 'TR',
+    'usa': 'US',
+    'united states': 'US',
+    'united states of america': 'US',
+    'united kingdom': 'GB',
+    'united kingdom of great britain and northern ireland': 'GB',
+    'uk': 'GB',
+    'uganda': 'UG',
+    'ukraine': 'UA',
+    'uruguay': 'UY',
+    'uzbekistan': 'UZ',
+    'venezuela': 'VE',
+    'venezuela (bolivarian republic of)': 'VE',
+    'vietnam': 'VN',
+    'viet nam': 'VN',
+    'yemen': 'YE',
+    'zambia': 'ZM',
+    'zimbabwe': 'ZW'
+  };
+  
+  const code = countryToCode[cleanName];
+  if (!code) return '';
+  
+  return code
+    .toUpperCase()
+    .split('')
+    .map(char => String.fromCodePoint(char.charCodeAt(0) + 127397))
+    .join('');
+};

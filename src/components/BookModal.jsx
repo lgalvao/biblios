@@ -10,17 +10,15 @@ export default function BookModal({ book, onSave, onClose }) {
   const [continent, setContinent] = useState(book?.continent || '');
   const [read, setRead] = useState(book?.read || false);
   const [originalLanguage, setOriginalLanguage] = useState(book?.originalLanguage || 'English');
-  const [pages, setPages] = useState(book?.pages || 250);
+  const [pages, setPages] = useState(book?.pages || '');
   const [description, setDescription] = useState(book?.description || '');
   const [error, setError] = useState('');
 
   const handleCountryChange = (val) => {
     setCountry(val);
-    if (val.trim()) {
-      const geo = getGeoInfo(val);
-      if (geo.region) setRegion(geo.region);
-      if (geo.continent) setContinent(geo.continent);
-    }
+    const geo = getGeoInfo(val);
+    setRegion(geo.region);
+    setContinent(geo.continent);
   };
 
   const handleSubmit = (e) => {
@@ -39,7 +37,7 @@ export default function BookModal({ book, onSave, onClose }) {
       continent,
       read,
       originalLanguage: originalLanguage.trim(),
-      pages: parseInt(pages, 10) || 250,
+      pages: pages ? parseInt(pages, 10) : '',
       description: description.trim()
     });
   };

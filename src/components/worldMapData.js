@@ -84,6 +84,8 @@ export const codeToCountries = {
   ],
   "cd": [
     "DR Congo",
+    "Congo DRC",
+    "Democratic Republic of the Congo",
     "Congo"
   ],
   "cf": [
@@ -463,9 +465,7 @@ export const codeToCountries = {
   "si": [
     "Slovenia"
   ],
-  "sj": [
-    "Svalbard"
-  ],
+
   "sk": [
     "Slovakia"
   ],
@@ -609,6 +609,8 @@ export const countryToCode = {
   "Czech Republic": "cz",
   "Czechia": "cz",
   "DR Congo": "cd",
+  "Congo DRC": "cd",
+  "Democratic Republic of the Congo": "cd",
   "Denmark": "dk",
   "Djibouti": "dj",
   "Dominica": "dm",
@@ -731,7 +733,7 @@ export const countryToCode = {
   "Sri Lanka": "lk",
   "Sudan": "sd",
   "Suriname": "sr",
-  "Svalbard": "sj",
+  "Svalbard": "no",
   "Sweden": "se",
   "Switzerland": "ch",
   "Syria": "sy",

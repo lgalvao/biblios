@@ -9,8 +9,10 @@ import {
   allCountries,
   allRegions,
   allContinents,
-  getGeoInfo
+  getGeoInfo,
+  getCountryFlag
 } from '../dataUtils';
+
 
 describe('Data Utilities', () => {
   
@@ -89,9 +91,9 @@ describe('Data Utilities', () => {
         { title: 'Book Nicaragua', author: 'C', continent: 'North America', country: 'Nicaragua' }
       ];
       const { repaired } = repairBooksList(books, []);
-      expect(repaired[0].continent).toBe('North America');
+      expect(repaired[0].continent).toBe('Central America');
       expect(repaired[0].region).toBe('Central America');
-      expect(repaired[1].continent).toBe('North America');
+      expect(repaired[1].continent).toBe('Central America');
       expect(repaired[1].region).toBe('Central America');
     });
 
@@ -154,12 +156,12 @@ describe('Data Utilities', () => {
   });
 
   describe('formatMDExport', () => {
-    it('should format books as markdown list items with bold titles', () => {
+    it('should format books as markdown list items without bold titles', () => {
       const books = [
         { title: 'The Hobbit', author: 'J.R.R. Tolkien', country: 'United Kingdom', year: '1937' }
       ];
       const result = formatMDExport(books);
-      expect(result).toBe('- **The Hobbit**, J.R.R. Tolkien (United Kingdom, 1937)');
+      expect(result).toBe('- The Hobbit by J.R.R. Tolkien (United Kingdom, 1937)');
     });
 
     it('should sort books ascendingly by year', () => {
@@ -170,9 +172,9 @@ describe('Data Utilities', () => {
       ];
       const result = formatMDExport(books);
       const expected = [
-        '- **Hamlet**, William Shakespeare (England, 1603)',
-        '- **The Hobbit**, J.R.R. Tolkien (United Kingdom, 1937)',
-        '- **1984**, George Orwell (England, 1949)'
+        '- Hamlet by William Shakespeare (England, 1603)',
+        '- The Hobbit by J.R.R. Tolkien (United Kingdom, 1937)',
+        '- 1984 by George Orwell (England, 1949)'
       ].join('\n');
       expect(result).toBe(expected);
     });
@@ -185,9 +187,9 @@ describe('Data Utilities', () => {
       ];
       const result = formatMDExport(books);
       const expected = [
-        '- **Book B**, Author B (Country B, )',
-        '- **Book C**, Author C (Country C, 1800)',
-        '- **Book A**, Author A (Country A, 1950)'
+        '- Book B by Author B (Country B, )',
+        '- Book C by Author C (Country C, 1800)',
+        '- Book A by Author A (Country A, 1950)'
       ].join('\n');
       expect(result).toBe(expected);
     });
@@ -252,6 +254,28 @@ describe('Data Utilities', () => {
 
     it('should return correct information with partial matches', () => {
       expect(getGeoInfo('United States')).toEqual({ region: 'Northern America', continent: 'North America' });
+    });
+  });
+
+  describe('getCountryFlag', () => {
+    it('should return correct flag emoji for standard countries', () => {
+      expect(getCountryFlag('Brazil')).toBe('🇧🇷');
+      expect(getCountryFlag('France')).toBe('🇫🇷');
+      expect(getCountryFlag('USA')).toBe('🇺🇸');
+      expect(getCountryFlag('united states of america')).toBe('🇺🇸');
+    });
+
+    it('should handle custom flags for UK regions', () => {
+      expect(getCountryFlag('England')).toBe('🏴󠁧󠁢󠁥󠁮󠁧󠁿');
+      expect(getCountryFlag('Scotland')).toBe('🏴󠁧󠁢󠁳󠁣󠁴󠁿');
+      expect(getCountryFlag('Wales')).toBe('🏴󠁧󠁢󠁷󠁬󠁳󠁿');
+      expect(getCountryFlag('Northern Ireland')).toBe('🇬🇧');
+    });
+
+    it('should return empty string for unknown countries or empty values', () => {
+      expect(getCountryFlag(null)).toBe('');
+      expect(getCountryFlag('')).toBe('');
+      expect(getCountryFlag('Atlantis')).toBe('');
     });
   });
 
