@@ -5,9 +5,10 @@ import re
 import os
 import html
 
-csv_path = "/Users/leonardo/books/list.csv"
-json_path = "/Users/leonardo/books/src/data/initialData.json"
-db_path = "/Users/leonardo/books/metadata.db"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.abspath(os.path.join(script_dir, "../../data.csv"))
+json_path = os.path.abspath(os.path.join(script_dir, "data.json"))
+db_path = os.path.abspath(os.path.join(script_dir, "../../metadata.db"))
 
 def clean_title(title):
     if not title:
@@ -94,10 +95,10 @@ def merge_calibre():
     calibre_rows = cursor.fetchall()
     print(f"Loaded {len(calibre_rows)} books from Calibre.")
 
-    # Load masterpieces from list.csv to preserve order, columns, and user Read ticks
+    # Load masterpieces from data.csv to preserve order, columns, and user Read ticks
     masterpieces = []
     if not os.path.exists(csv_path):
-        print(f"Error: list.csv not found at {csv_path}")
+        print(f"Error: data.csv not found at {csv_path}")
         conn.close()
         return
 
@@ -121,7 +122,7 @@ def merge_calibre():
                     "description": ext_desc.strip()
                 })
 
-    print(f"Loaded {len(masterpieces)} masterpieces from list.csv.")
+    print(f"Loaded {len(masterpieces)} masterpieces from data.csv.")
 
     # Build memory indexes for Calibre books
     calibre_books = []
@@ -241,7 +242,7 @@ def merge_calibre():
     print(f"  Fallback title-only matches: {fallback_matches}")
     print(f"  Total masterpieces successfully enriched: {enriched_count}")
 
-    # 4. Save updated masterpieces back to list.csv
+    # 4. Save updated masterpieces back to data.csv
     with open(csv_path, 'w', encoding='utf-8', newline='') as f_csv:
         writer = csv.writer(f_csv)
         writer.writerow(["Title", "Author", "Year", "Country", "Continent", "Read", "OriginalLanguage", "Pages", "Description"])
@@ -251,7 +252,7 @@ def merge_calibre():
                 b["read"], b["originalLanguage"], b["pages"], b["description"]
             ])
 
-    # 5. Save updated masterpieces back to initialData.json
+    # 5. Save updated masterpieces back to data.json
     json_records = []
     for i, b in enumerate(masterpieces, 1):
         json_records.append({
@@ -270,7 +271,7 @@ def merge_calibre():
     with open(json_path, 'w', encoding='utf-8') as f_json:
         json.dump(json_records, f_json, indent=2, ensure_ascii=False)
 
-    print("Successfully updated list.csv and initialData.json with lenient Calibre metadata!")
+    print("Successfully updated data.csv and data.json with lenient Calibre metadata!")
     conn.close()
 
 if __name__ == '__main__':

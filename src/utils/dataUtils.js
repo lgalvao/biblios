@@ -358,26 +358,38 @@ export const repairBooksList = (loadedBooks, referenceData) => {
 export const sortBooks = (books, sortColumn, sortDirection) => {
   if (!sortColumn) return books;
   
+  const isEmptyValue = (val) => {
+    if (val === null || val === undefined) return true;
+    const str = String(val).trim();
+    if (str === '' || str.toLowerCase() === 'null' || str.toLowerCase() === 'undefined' || str.toLowerCase() === 'nan') return true;
+    if (sortColumn === 'pages' && isNaN(Number(str))) return true;
+    return false;
+  };
+
   return [...books].sort((a, b) => {
     let aVal = a[sortColumn];
     let bVal = b[sortColumn];
     
-    // Always put null/undefined/empty at the bottom
-    const isEmptyA = aVal === null || aVal === undefined || aVal === '';
-    const isEmptyB = bVal === null || bVal === undefined || bVal === '';
+    const isEmptyA = isEmptyValue(aVal);
+    const isEmptyB = isEmptyValue(bVal);
     
     if (isEmptyA && isEmptyB) return 0;
-    if (isEmptyA) return 1;
-    if (isEmptyB) return -1;
+    if (isEmptyA) return sortDirection === 'asc' ? 1 : -1;
+    if (isEmptyB) return sortDirection === 'asc' ? -1 : 1;
 
-    // For numeric sorting (pages, id, year - if purely numeric)
-    if (typeof aVal === 'number' && typeof bVal === 'number') {
-      return sortDirection === 'asc' ? aVal - bVal : bVal - aVal;
+    // Try parsing as numbers if both are numeric
+    const numA = Number(aVal);
+    const numB = Number(bVal);
+    const isNumA = !isNaN(numA) && String(aVal).trim() !== '';
+    const isNumB = !isNaN(numB) && String(bVal).trim() !== '';
+
+    if (isNumA && isNumB) {
+      return sortDirection === 'asc' ? numA - numB : numB - numA;
     }
 
     // Default string-based sorting
-    const strA = String(aVal).toLowerCase();
-    const strB = String(bVal).toLowerCase();
+    const strA = String(aVal).toLowerCase().trim();
+    const strB = String(bVal).toLowerCase().trim();
     
     if (strA < strB) return sortDirection === 'asc' ? -1 : 1;
     if (strA > strB) return sortDirection === 'asc' ? 1 : -1;

@@ -84,9 +84,74 @@ const localDatabasePlugin = () => {
       }));
 
       fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
-      console.log(`[Vite] Startup Sync: Loaded ${books.length} books from list.csv into initialData.json`);
+      console.log(`[Vite] Startup Sync: Loaded ${books.length} books from data.csv into data.json`);
     } catch (err) {
       console.error("[Vite] Failed to sync CSV on startup:", err);
+    }
+  };
+
+  const requestHandler = (req, res, next) => {
+    if (req.url === '/api/books' && req.method === 'GET') {
+      fs.readFile(jsonPath, 'utf-8', (err, data) => {
+        if (err) {
+          res.statusCode = 500;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ error: 'Failed to read data.json' }));
+        } else {
+          res.statusCode = 200;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(data);
+        }
+      });
+    } else if (req.url === '/api/books/sync' && req.method === 'POST') {
+      let body = '';
+      req.on('data', chunk => {
+        body += chunk.toString();
+      });
+      req.on('end', () => {
+        try {
+          const books = JSON.parse(body);
+          if (!Array.isArray(books)) {
+            throw new Error('Data must be an array of books');
+          }
+
+          // 1. Overwrite data.json
+          fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
+
+          // 2. Overwrite data.csv (with UTF-8 BOM)
+          const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description"];
+          const csvRows = [headers.join(',')];
+          
+          books.forEach(b => {
+            const row = [
+              escapeCSVField(b.title),
+              escapeCSVField(b.author),
+              escapeCSVField(b.year),
+              escapeCSVField(b.country),
+              escapeCSVField(b.region),
+              escapeCSVField(b.continent),
+              b.read ? '1' : '', // '1' matches read status checked standard, empty if unread
+              escapeCSVField(b.originalLanguage),
+              escapeCSVField(b.pages),
+              escapeCSVField(b.description)
+            ];
+            csvRows.push(row.join(','));
+          });
+          
+          const csvContent = '\uFEFF' + csvRows.join('\r\n');
+          fs.writeFileSync(csvPath, csvContent, 'utf-8');
+
+          res.statusCode = 200;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true, count: books.length }));
+        } catch (err) {
+          res.statusCode = 400;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ error: err.message }));
+        }
+      });
+    } else {
+      next();
     }
   };
 
@@ -96,70 +161,10 @@ const localDatabasePlugin = () => {
       syncOnStart();
     },
     configureServer(server) {
-      server.middlewares.use((req, res, next) => {
-        if (req.url === '/api/books' && req.method === 'GET') {
-          fs.readFile(jsonPath, 'utf-8', (err, data) => {
-            if (err) {
-              res.statusCode = 500;
-              res.setHeader('Content-Type', 'application/json');
-              res.end(JSON.stringify({ error: 'Failed to read initialData.json' }));
-            } else {
-              res.statusCode = 200;
-              res.setHeader('Content-Type', 'application/json');
-              res.end(data);
-            }
-          });
-        } else if (req.url === '/api/books/sync' && req.method === 'POST') {
-          let body = '';
-          req.on('data', chunk => {
-            body += chunk.toString();
-          });
-          req.on('end', () => {
-            try {
-              const books = JSON.parse(body);
-              if (!Array.isArray(books)) {
-                throw new Error('Data must be an array of books');
-              }
-
-              // 1. Overwrite initialData.json
-              fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
-
-              // 2. Overwrite list.csv (with UTF-8 BOM)
-              const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description"];
-              const csvRows = [headers.join(',')];
-              
-              books.forEach(b => {
-                const row = [
-                  escapeCSVField(b.title),
-                  escapeCSVField(b.author),
-                  escapeCSVField(b.year),
-                  escapeCSVField(b.country),
-                  escapeCSVField(b.region),
-                  escapeCSVField(b.continent),
-                  b.read ? '1' : '', // '1' matches read status checked standard, empty if unread
-                  escapeCSVField(b.originalLanguage),
-                  escapeCSVField(b.pages),
-                  escapeCSVField(b.description)
-                ];
-                csvRows.push(row.join(','));
-              });
-              
-              const csvContent = '\uFEFF' + csvRows.join('\r\n');
-              fs.writeFileSync(csvPath, csvContent, 'utf-8');
-
-              res.statusCode = 200;
-              res.setHeader('Content-Type', 'application/json');
-              res.end(JSON.stringify({ success: true, count: books.length }));
-            } catch (err) {
-              res.statusCode = 400;
-              res.setHeader('Content-Type', 'application/json');
-              res.end(JSON.stringify({ error: err.message }));
-            }
-          });
-        } else {
-          next();
-        }
-      });
+      server.middlewares.use(requestHandler);
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use(requestHandler);
     }
   };
 };

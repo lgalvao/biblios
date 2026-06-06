@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, lazy, Suspense } from 'react';
+import { useState, useEffect, useRef, useMemo, lazy, Suspense } from 'react';
 import data from './data/data.json';
 import { 
   repairBooksList, 
@@ -37,6 +37,12 @@ function App() {
     const { repaired } = repairBooksList(loadedBooks, data);
     return repaired;
   });
+
+  const uniqueAuthors = useMemo(() => {
+    return [...new Set(books.map(b => b.author))]
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b));
+  }, [books]);
 
   const [syncStatus, setSyncStatus] = useState('synced'); // 'synced', 'saving', 'error'
   const [activeTab, setActiveTab] = useState('list');
@@ -367,6 +373,7 @@ function App() {
                   onCountryFilterChange={setSelectedCountry}
                   selectedLanguage={selectedLanguage}
                   onLanguageFilterChange={setSelectedLanguage}
+                  onShowToast={showToast}
                 />
               )}
               {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
@@ -387,6 +394,7 @@ function App() {
           <BookModal 
             key={editingBook ? editingBook.id : 'new'}
             book={editingBook} 
+            authors={uniqueAuthors}
             onSave={handleSaveBook} 
             onClose={() => { setIsModalOpen(false); setEditingBook(null); }} 
           />

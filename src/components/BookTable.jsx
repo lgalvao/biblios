@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText, Calendar } from 'lucide-react';
+import { Search, Edit2, Trash2, ChevronUp, ChevronDown, ArrowUpDown, X, Download, FileText, Calendar, Copy } from 'lucide-react';
 import { escapeCSVField, formatMDExport, normalizeForSearch, sortBooks } from '../utils/dataUtils';
 import { exportPDFReport } from '../utils/pdfGenerator';
 import CountryFlag from './CountryFlag';
@@ -14,7 +14,8 @@ export default function BookTable({
   selectedCountry,
   onCountryFilterChange,
   selectedLanguage,
-  onLanguageFilterChange
+  onLanguageFilterChange,
+  onShowToast
 }) {
   const [filterRead, setFilterRead] = useState('all');
   const [filterContinent, setFilterContinent] = useState('all');
@@ -137,6 +138,51 @@ export default function BookTable({
     setShowExportDropdown(false);
   };
 
+  const copyMDToClipboard = () => {
+    const mdString = formatMDExport(filteredBooks);
+    
+    const showSuccess = () => {
+      if (onShowToast) {
+        onShowToast("Markdown copied to clipboard!", "success");
+      }
+    };
+    
+    const showFailure = (err) => {
+      console.error('Failed to copy Markdown: ', err);
+      if (onShowToast) {
+        onShowToast("Failed to copy Markdown.", "danger");
+      }
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(mdString)
+        .then(showSuccess)
+        .catch(showFailure);
+    } else {
+      // Fallback method for insecure contexts
+      try {
+        const textArea = document.createElement("textarea");
+        textArea.value = mdString;
+        textArea.style.top = "0";
+        textArea.style.left = "0";
+        textArea.style.position = "fixed";
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        const successful = document.execCommand('copy');
+        document.body.removeChild(textArea);
+        if (successful) {
+          showSuccess();
+        } else {
+          showFailure("execCommand returned false");
+        }
+      } catch (err) {
+        showFailure(err);
+      }
+    }
+    setShowExportDropdown(false);
+  };
+
   const exportPDF = () => {
     exportPDFReport(filteredBooks);
     setShowExportDropdown(false);
@@ -231,7 +277,13 @@ export default function BookTable({
                   <li>
                     <button className="dropdown-item d-flex align-items-center gap-2" onClick={exportMD}>
                       <FileText size={14} className="text-secondary" />
-                      <span>MD</span>
+                      <span>MD (Download)</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button className="dropdown-item d-flex align-items-center gap-2" onClick={copyMDToClipboard}>
+                      <Copy size={14} className="text-secondary" />
+                      <span>Copy MD</span>
                     </button>
                   </li>
                   <li>
@@ -420,7 +472,7 @@ export default function BookTable({
                         <div className="row g-4">
                           <div className="col-12 col-md-8">
                             <h6 className="fw-bold text-uppercase small text-muted mb-2">Description</h6>
-                            <p className="mb-0" style={{ lineHeight: '1.6', textAlign: 'justify' }}>
+                            <p className="mb-0" style={{ lineHeight: '1.6', textAlign: 'left' }}>
                               {b.description || 'No description available for this work.'}
                             </p>
                           </div>

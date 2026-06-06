@@ -3,8 +3,9 @@ import json
 import hashlib
 import os
 
-csv_path = "/Users/leonardo/books/list.csv"
-json_path = "/Users/leonardo/books/src/data/initialData.json"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.abspath(os.path.join(script_dir, "../../data.csv"))
+json_path = os.path.abspath(os.path.join(script_dir, "data.json"))
 
 # A comprehensive country-to-language mapping for accurate metadata
 country_to_lang = {
@@ -390,7 +391,7 @@ with open(csv_path, 'r', encoding='utf-8') as f:
                 "read": row[5].strip() if len(row) >= 6 else ""
             })
 
-print(f"Loaded {len(books)} raw records from list.csv.")
+print(f"Loaded {len(books)} raw records from data.csv.")
 
 # Enrich records
 enriched_books = []
@@ -433,7 +434,7 @@ for b in books:
 
 print(f"Enriched {len(enriched_books)} records successfully.")
 
-# Write back to list.csv
+# Write back to data.csv
 new_headers = ["Title", "Author", "Year", "Country", "Continent", "Read", "OriginalLanguage", "Pages", "Description"]
 with open(csv_path, 'w', encoding='utf-8', newline='') as f_csv:
     writer = csv.writer(f_csv)
@@ -451,9 +452,9 @@ with open(csv_path, 'w', encoding='utf-8', newline='') as f_csv:
             b["description"]
         ])
 
-print("Wrote enriched records back to list.csv.")
+print("Wrote enriched records back to data.csv.")
 
-# Write back to initialData.json
+# Write back to data.json
 json_records = []
 for i, b in enumerate(enriched_books, 1):
     json_records.append({
@@ -472,5 +473,5 @@ for i, b in enumerate(enriched_books, 1):
 with open(json_path, 'w', encoding='utf-8') as f_json:
     json.dump(json_records, f_json, indent=2, ensure_ascii=False)
 
-print("Wrote enriched records back to src/data/initialData.json.")
+print("Wrote enriched records back to src/data/data.json.")
 print("=== Database Enrichment Successfully Completed! ===")

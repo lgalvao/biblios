@@ -4,8 +4,9 @@ import os
 
 # Paths
 mappings_path = "/Users/leonardo/.gemini/antigravity/brain/fa2cb1e0-ba42-427e-a609-7e3d7abcb4cf/scratch/page_mappings.json"
-json_path = "/Users/leonardo/books/src/data/initialData.json"
-csv_path = "/Users/leonardo/books/list.csv"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.abspath(os.path.join(script_dir, "data.json"))
+csv_path = os.path.abspath(os.path.join(script_dir, "../../data.csv"))
 
 def run_migration():
     print("=== Starting Page Count Migration ===")
@@ -24,15 +25,15 @@ def run_migration():
 
     mappings_norm = {k.strip().lower(): v for k, v in mappings.items()}
 
-    # 2. Update initialData.json
+    # 2. Update data.json
     if not os.path.exists(json_path):
-        print(f"Error: initialData.json not found at {json_path}")
+        print(f"Error: data.json not found at {json_path}")
         return
         
     with open(json_path, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
         
-    print(f"Loaded {len(json_data)} records from initialData.json.")
+    print(f"Loaded {len(json_data)} records from data.json.")
     
     updated_json_count = 0
     not_found_keys = []
@@ -54,10 +55,10 @@ def run_migration():
             else:
                 not_found_keys.append(key)
                 
-    # Save back initialData.json
+    # Save back data.json
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
-    print(f"Successfully updated {updated_json_count} books in initialData.json.")
+    print(f"Successfully updated {updated_json_count} books in data.json.")
     if not_found_keys:
         print(f"Warning: {len(not_found_keys)} books with page count 250 were not found in mappings (they will remain 250):")
         for k in not_found_keys[:10]:
@@ -65,9 +66,9 @@ def run_migration():
         if len(not_found_keys) > 10:
             print("  ... and others")
 
-    # 3. Update list.csv
+    # 3. Update data.csv
     if not os.path.exists(csv_path):
-        print(f"Error: list.csv not found at {csv_path}")
+        print(f"Error: data.csv not found at {csv_path}")
         return
         
     csv_rows = []
@@ -77,7 +78,7 @@ def run_migration():
         for row in reader:
             csv_rows.append(row)
             
-    print(f"Loaded {len(csv_rows)} rows from list.csv.")
+    print(f"Loaded {len(csv_rows)} rows from data.csv.")
     
     updated_csv_count = 0
     
@@ -97,13 +98,13 @@ def run_migration():
                     row[7] = str(mappings_norm[key_lower])
                     updated_csv_count += 1
                     
-    # Write back to list.csv with UTF-8 BOM
+    # Write back to data.csv with UTF-8 BOM
     with open(csv_path, 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(header)
         writer.writerows(csv_rows)
         
-    print(f"Successfully updated {updated_csv_count} rows in list.csv (using UTF-8 BOM).")
+    print(f"Successfully updated {updated_csv_count} rows in data.csv (using UTF-8 BOM).")
     print("=== Migration Successfully Completed! ===")
 
 if __name__ == "__main__":

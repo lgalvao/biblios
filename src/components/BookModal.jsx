@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getGeoInfo, allCountries, allRegions, allContinents } from '../utils/dataUtils';
 
-export default function BookModal({ book, onSave, onClose }) {
+export default function BookModal({ book, onSave, onClose, authors = [] }) {
   const [title, setTitle] = useState(book?.title || '');
   const [author, setAuthor] = useState(book?.author || '');
   const [year, setYear] = useState(book?.year || '');
@@ -63,7 +63,10 @@ export default function BookModal({ book, onSave, onClose }) {
               </div>
               <div className="col-12 col-md-6">
                 <label className="form-label small fw-bold text-muted text-uppercase">Author</label>
-                <input type="text" className="form-control" value={author} onChange={e => setAuthor(e.target.value)} required />
+                <input type="text" className="form-control" value={author} onChange={e => setAuthor(e.target.value)} list="author-options" required />
+                <datalist id="author-options">
+                  {authors.map(a => <option key={a} value={a} />)}
+                </datalist>
               </div>
               <div className="col-6 col-md-3">
                 <label className="form-label small fw-bold text-muted text-uppercase">Year</label>

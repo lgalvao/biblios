@@ -34,6 +34,47 @@ describe('Regression Tests', () => {
       expect(sorted[3].year).toBe(undefined);
     });
 
+    it('should sort Pages descending and put empty at top', () => {
+      const sorted = sortBooks(mockBooks, 'pages', 'desc');
+      expect(sorted[0].pages).toBe(null);
+      expect(sorted[1].pages).toBe(200);
+      expect(sorted[2].pages).toBe(150);
+      expect(sorted[3].pages).toBe(50);
+    });
+
+    it('should handle mixed page types (strings/numbers), whitespace, and NaN robustly', () => {
+      const mixedBooks = [
+        { id: 1, title: 'Book 1', pages: 300 },
+        { id: 2, title: 'Book 2', pages: '50' }, // string number
+        { id: 3, title: 'Book 3', pages: '   ' }, // empty spaces string
+        { id: 4, title: 'Book 4', pages: 'NaN' }, // string NaN
+        { id: 5, title: 'Book 5', pages: 150 },
+        { id: 6, title: 'Book 6', pages: '' }    // empty string
+      ];
+
+      // Test ascending sort
+      const sortedAsc = sortBooks(mixedBooks, 'pages', 'asc');
+      // Numbers should be sorted numerically (50, 150, 300), empty-like values ('   ', 'NaN', '') should be at the bottom
+      expect(sortedAsc[0].pages).toBe('50');
+      expect(sortedAsc[1].pages).toBe(150);
+      expect(sortedAsc[2].pages).toBe(300);
+      
+      const lastThree = sortedAsc.slice(3).map(b => String(b.pages).trim());
+      expect(lastThree).toContain('');
+      expect(lastThree).toContain('NaN');
+
+      // Test descending sort
+      const sortedDesc = sortBooks(mixedBooks, 'pages', 'desc');
+      // Empty-like values ('   ', 'NaN', '') should be at the top, then numbers (300, 150, 50)
+      const firstThree = sortedDesc.slice(0, 3).map(b => String(b.pages).trim());
+      expect(firstThree).toContain('');
+      expect(firstThree).toContain('NaN');
+      
+      expect(sortedDesc[3].pages).toBe(300);
+      expect(sortedDesc[4].pages).toBe(150);
+      expect(sortedDesc[5].pages).toBe('50');
+    });
+
     it('should not crash with null values', () => {
       expect(() => sortBooks(mockBooks, 'title', 'asc')).not.toThrow();
       expect(() => sortBooks(mockBooks, 'pages', 'asc')).not.toThrow();
