@@ -15,6 +15,8 @@ export default function BookTable({
   onCountryFilterChange,
   selectedLanguage,
   onLanguageFilterChange,
+  selectedAuthor,
+  onAuthorFilterChange,
   onShowToast
 }) {
   const [filterRead, setFilterRead] = useState('all');
@@ -85,11 +87,12 @@ export default function BookTable({
       const matchesContinent = filterContinent === 'all' || b.continent === filterContinent;
       const matchesRegion = filterRegion === 'all' || b.region === filterRegion;
       const matchesFilterCountry = !selectedCountry || b.country.toLowerCase() === selectedCountry.toLowerCase();
-      const matchesFilterLang = !selectedLanguage || b.originalLanguage.toLowerCase() === selectedLanguage.toLowerCase();
+      const matchesFilterLang = !selectedLanguage || (b.originalLanguage && b.originalLanguage.toLowerCase() === selectedLanguage.toLowerCase());
+      const matchesFilterAuthor = !selectedAuthor || (b.author && b.author.toLowerCase() === selectedAuthor.toLowerCase());
 
-      return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesFilterCountry && matchesFilterLang;
+      return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor;
     });
-  }, [books, search, filterRead, filterContinent, filterRegion, selectedCountry, selectedLanguage]);
+  }, [books, search, filterRead, filterContinent, filterRegion, selectedCountry, selectedLanguage, selectedAuthor]);
 
   const exportCSV = () => {
     const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description'];
@@ -206,6 +209,7 @@ export default function BookTable({
 
   const continents = useMemo(() => [...new Set(books.map(b => b.continent))].filter(Boolean).sort(), [books]);
   const regions = useMemo(() => [...new Set(books.map(b => b.region))].filter(Boolean).sort(), [books]);
+  const languages = useMemo(() => [...new Set(books.map(b => b.originalLanguage))].filter(Boolean).sort((a, b) => a.localeCompare(b)), [books]);
 
   const renderSortIcon = (col) => {
     if (sortColumn !== col) return <ArrowUpDown size={12} className="ms-1 opacity-50" />;
@@ -218,7 +222,7 @@ export default function BookTable({
       {/* Controls */}
       <div className="card-header bg-white border-bottom p-3">
         <div className="row g-2 align-items-center">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-6 col-lg-2">
             <div className="input-group input-group-sm">
               <span className="input-group-text bg-light border-end-0 text-muted">
                 <Search size={14} />
@@ -237,26 +241,36 @@ export default function BookTable({
               )}
             </div>
           </div>
-          <div className="col-6 col-md-2">
+          <div className="col-6 col-md-3 col-lg-2">
             <select className="form-select form-select-sm bg-light" value={filterRead} onChange={(e) => setFilterRead(e.target.value)}>
               <option value="all">All Reading</option>
               <option value="read">Read</option>
               <option value="unread">Unread</option>
             </select>
           </div>
-          <div className="col-6 col-md-2">
+          <div className="col-6 col-md-3 col-lg-2">
             <select className="form-select form-select-sm bg-light" value={filterContinent} onChange={(e) => setFilterContinent(e.target.value)}>
               <option value="all">All Continents</option>
               {continents.map(c => <option key={c} value={c}>{c}</option>)}
             </select>
           </div>
-          <div className="col-6 col-md-2">
+          <div className="col-6 col-md-3 col-lg-2">
             <select className="form-select form-select-sm bg-light" value={filterRegion} onChange={(e) => setFilterRegion(e.target.value)}>
               <option value="all">All Regions</option>
               {regions.map(r => <option key={r} value={r}>{r}</option>)}
             </select>
           </div>
-          <div className="col-6 col-md-2 d-flex align-items-center justify-content-end gap-2">
+          <div className="col-6 col-md-3 col-lg-2">
+            <select 
+              className="form-select form-select-sm bg-light" 
+              value={selectedLanguage || 'all'} 
+              onChange={(e) => onLanguageFilterChange(e.target.value === 'all' ? '' : e.target.value)}
+            >
+              <option value="all">All Languages</option>
+              {languages.map(l => <option key={l} value={l}>{l}</option>)}
+            </select>
+          </div>
+          <div className="col-6 col-md-6 col-lg-2 d-flex align-items-center justify-content-end gap-2">
             <div className="position-relative" ref={dropdownRef}>
               <button 
                 className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1"
@@ -328,7 +342,7 @@ export default function BookTable({
         </div>
 
         {/* Active Filters Bar */}
-        {(selectedCountry || selectedLanguage || filterRead !== 'all' || filterContinent !== 'all' || filterRegion !== 'all') && (
+        {(selectedCountry || selectedLanguage || selectedAuthor || filterRead !== 'all' || filterContinent !== 'all' || filterRegion !== 'all') && (
           <div className="d-flex flex-wrap gap-2 mt-3 animate-fade align-items-center">
             <span className="small text-muted fw-bold text-uppercase d-flex align-items-center me-1" style={{ fontSize: '0.6rem', letterSpacing: '0.05em' }}>Active Filters:</span>
             
@@ -346,6 +360,13 @@ export default function BookTable({
               </span>
             )}
 
+            {selectedAuthor && (
+              <span className="badge border border-warning text-warning d-flex align-items-center gap-2 py-2 px-3">
+                AUTHOR: {selectedAuthor}
+                <X size={14} className="cursor-pointer text-danger" onClick={() => onAuthorFilterChange('')} />
+              </span>
+            )}
+
             {filterRead !== 'all' && (
               <span className="badge border border-success text-success d-flex align-items-center gap-2 py-2 px-3">
                 STATUS: {filterRead === 'read' ? 'READ' : 'UNREAD'}
@@ -356,6 +377,7 @@ export default function BookTable({
             <button className="btn btn-sm btn-link text-primary text-decoration-none fw-bold small p-0 ms-auto text-uppercase" style={{ fontSize: '0.7rem' }} onClick={() => {
               onCountryFilterChange('');
               onLanguageFilterChange('');
+              onAuthorFilterChange('');
               setFilterRead('all');
               setFilterContinent('all');
               setFilterRegion('all');
@@ -384,6 +406,9 @@ export default function BookTable({
               </th>
               <th className="cursor-pointer py-3 d-none d-md-table-cell" onClick={() => handleSort('country')}>
                 COUNTRY {renderSortIcon('country')}
+              </th>
+              <th className="cursor-pointer py-3 d-none d-md-table-cell" onClick={() => handleSort('originalLanguage')}>
+                LANGUAGE {renderSortIcon('originalLanguage')}
               </th>
               <th className="cursor-pointer py-3 d-none d-lg-table-cell" onClick={() => handleSort('pages')}>
                 PAGES {renderSortIcon('pages')}
@@ -435,11 +460,38 @@ export default function BookTable({
                       </div>
                     </div>
                   </td>
-                  <td className="text-muted">{b.author}</td>
+                  <td className="text-muted">
+                    <span 
+                      className="author-link" 
+                      onClick={(e) => { 
+                        e.stopPropagation(); 
+                        onAuthorFilterChange(b.author); 
+                      }}
+                    >
+                      {b.author}
+                    </span>
+                  </td>
                   <td className="d-none d-lg-table-cell">{b.year}</td>
-                  <td className="d-none d-md-table-cell" onClick={(e) => e.stopPropagation()}>
-                    <span className="country-link" onClick={() => onCountryFilterChange(b.country)}>
+                  <td className="d-none d-md-table-cell">
+                    <span 
+                      className="country-link" 
+                      onClick={(e) => { 
+                        e.stopPropagation(); 
+                        onCountryFilterChange(b.country); 
+                      }}
+                    >
                       <CountryFlag countryName={b.country} /> {b.country}
+                    </span>
+                  </td>
+                  <td className="d-none d-md-table-cell text-muted">
+                    <span 
+                      className="language-link" 
+                      onClick={(e) => { 
+                        e.stopPropagation(); 
+                        onLanguageFilterChange(b.originalLanguage); 
+                      }}
+                    >
+                      {b.originalLanguage || '-'}
                     </span>
                   </td>
                   <td className="d-none d-lg-table-cell text-muted">{b.pages}</td>
@@ -467,7 +519,7 @@ export default function BookTable({
                 </tr>
                 {expandedBookId === b.id && (
                   <tr key={`${b.id}-expanded`} className="animate-fade">
-                    <td colSpan={8} className="p-0 border-0">
+                    <td colSpan={9} className="p-0 border-0">
                       <div className="p-4 border-bottom" style={{ background: 'var(--bs-tertiary-bg)' }}>
                         <div className="row g-4">
                           <div className="col-12 col-md-8">
@@ -498,7 +550,7 @@ export default function BookTable({
               </React.Fragment>
             ))}
             <tr ref={sentinelRef}>
-              <td colSpan={8} className="text-center p-2 text-muted small border-0">
+              <td colSpan={9} className="text-center p-2 text-muted small border-0">
                 {visibleCount < sortedBooks.length ? 'Loading more...' : ''}
               </td>
             </tr>

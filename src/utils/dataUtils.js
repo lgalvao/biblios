@@ -97,7 +97,7 @@ const langMap = {
 };
 
 export const translateLanguageToEnglish = (lang) => {
-  if (!lang) return 'English';
+  if (!lang) return '';
   const normalized = lang.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
   return langMap[normalized] || lang.trim();
 };
@@ -233,7 +233,7 @@ export const mapCsvToBooks = (rows) => {
         region: mapping.region !== -1 && row[mapping.region] ? row[mapping.region].trim() : geo.region,
         continent: mapping.continent !== -1 && row[mapping.continent] ? row[mapping.continent].trim() : geo.continent,
         read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
-        originalLanguage: mapping.lang !== -1 ? translateLanguageToEnglish(row[mapping.lang]) : 'English',
+        originalLanguage: mapping.lang !== -1 ? translateLanguageToEnglish(row[mapping.lang]) : '',
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
       };
@@ -298,7 +298,7 @@ export const repairBooksList = (loadedBooks, referenceData) => {
         updated.pages = freshSource.pages;
         isUpdated = true;
       }
-      if (b.originalLanguage === undefined || b.originalLanguage === 'English') {
+      if (b.originalLanguage === undefined || b.originalLanguage === '' || b.originalLanguage === 'English') {
         if (b.originalLanguage !== freshSource.originalLanguage) {
           updated.originalLanguage = translateLanguageToEnglish(freshSource.originalLanguage);
           isUpdated = true;
@@ -314,7 +314,7 @@ export const repairBooksList = (loadedBooks, referenceData) => {
       }
     } else {
       if (b.originalLanguage === undefined) {
-        updated.originalLanguage = 'English';
+        updated.originalLanguage = '';
         isUpdated = true;
       }
       if (b.pages === undefined) {
@@ -409,7 +409,13 @@ export const formatMDExport = (books) => {
     return yearA - yearB;
   });
   return sorted
-    .map(b => `- ${b.title} by ${b.author} (${b.country}, ${b.year})`)
+    .map(b => {
+      const extra = [];
+      if (b.pages) extra.push(`${b.pages} p`);
+      if (b.originalLanguage) extra.push(b.originalLanguage);
+      const extraStr = extra.length > 0 ? ` ${extra.join(', ')}` : '';
+      return `- ${b.title} by ${b.author} (${b.country}, ${b.year})${extraStr}`;
+    })
     .join('\n');
 };
 
@@ -459,6 +465,7 @@ const countryToCode = {
   'burkina faso': 'BF',
   'burma': 'MM',
   'burundi': 'BI',
+  'cambodia': 'KH',
   'cameroon': 'CM',
   'canada': 'CA',
   'cape verde': 'CV',

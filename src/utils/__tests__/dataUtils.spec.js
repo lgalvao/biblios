@@ -170,6 +170,14 @@ describe('Data Utilities', () => {
       expect(result).toBe('- The Hobbit by J.R.R. Tolkien (United Kingdom, 1937)');
     });
 
+    it('should include pages and original language in formatted output if present', () => {
+      const books = [
+        { title: 'The Immoralist', author: 'Andre Gide', country: 'France', year: '1902', pages: 400, originalLanguage: 'French' }
+      ];
+      const result = formatMDExport(books);
+      expect(result).toBe('- The Immoralist by Andre Gide (France, 1902) 400 p, French');
+    });
+
     it('should sort books ascendingly by year', () => {
       const books = [
         { title: '1984', author: 'George Orwell', country: 'England', year: '1949' },

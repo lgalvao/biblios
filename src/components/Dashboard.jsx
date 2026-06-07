@@ -22,7 +22,13 @@ export default function Dashboard({ books }) {
     books.forEach(b => {
       if (b.continent) continentCounts[b.continent] = (continentCounts[b.continent] || 0) + 1;
       if (b.region) regionCounts[b.region] = (regionCounts[b.region] || 0) + 1;
-      if (b.country) countrySet.add(b.country.trim().toLowerCase());
+      if (b.country) {
+        let country = b.country.trim().toLowerCase();
+        if (['england', 'scotland', 'wales', 'northern ireland', 'united kingdom', 'uk', 'united kingdom of great britain and northern ireland'].includes(country)) {
+          country = 'uk';
+        }
+        countrySet.add(country);
+      }
       if (b.originalLanguage) langSet.add(b.originalLanguage.trim().toLowerCase());
       const p = parseInt(b.pages, 10) || 0;
       totalPages += p;
@@ -43,7 +49,15 @@ export default function Dashboard({ books }) {
   // 2. Charts Data
   const chartData = useMemo(() => {
     const continents = {};
-    books.forEach(b => { if (b.continent) continents[b.continent] = (continents[b.continent] || 0) + 1; });
+    books.forEach(b => {
+      if (b.continent) {
+        let name = b.continent;
+        if (name === 'North America' || name === 'South America' || name === 'Central America') {
+          name = 'Americas';
+        }
+        continents[name] = (continents[name] || 0) + 1;
+      }
+    });
     return Object.entries(continents).map(([name, value]) => ({ name, value }));
   }, [books]);
 
@@ -86,11 +100,24 @@ export default function Dashboard({ books }) {
 
     books.forEach(b => {
       // Country
-      if (b.country) data.country[b.country] = (data.country[b.country] || 0) + 1;
+      if (b.country) {
+        let country = b.country.trim();
+        const cLower = country.toLowerCase();
+        if (['england', 'scotland', 'wales', 'northern ireland', 'united kingdom', 'uk', 'united kingdom of great britain and northern ireland'].includes(cLower)) {
+          country = 'UK';
+        }
+        data.country[country] = (data.country[country] || 0) + 1;
+      }
       // Region
       if (b.region) data.region[b.region] = (data.region[b.region] || 0) + 1;
       // Continent
-      if (b.continent) data.continent[b.continent] = (data.continent[b.continent] || 0) + 1;
+      if (b.continent) {
+        let name = b.continent;
+        if (name === 'North America' || name === 'South America' || name === 'Central America') {
+          name = 'Americas';
+        }
+        data.continent[name] = (data.continent[name] || 0) + 1;
+      }
       // Language
       if (b.originalLanguage) data.language[b.originalLanguage] = (data.language[b.originalLanguage] || 0) + 1;
       
@@ -215,7 +242,7 @@ export default function Dashboard({ books }) {
                   />
                   <Tooltip cursor={{ fill: 'rgba(0,0,0,0.02)' }} />
                   <Bar dataKey="value" radius={[0, 4, 4, 0]} animationDuration={800}>
-                    {chartData.map((entry, idx) => (
+                    {[...chartData].sort((a, b) => b.value - a.value).map((entry, idx) => (
                       <Cell key={`cell-${idx}`} fill={COLORS[idx % COLORS.length]} />
                     ))}
                   </Bar>

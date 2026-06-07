@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fill-pages": "python3 src/data/fill_pages.py"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",

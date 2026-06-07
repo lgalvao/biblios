@@ -91,7 +91,8 @@ const localDatabasePlugin = () => {
   };
 
   const requestHandler = (req, res, next) => {
-    if (req.url === '/api/books' && req.method === 'GET') {
+    const urlPath = req.url.split('?')[0];
+    if (urlPath === '/api/books' && req.method === 'GET') {
       fs.readFile(jsonPath, 'utf-8', (err, data) => {
         if (err) {
           res.statusCode = 500;
@@ -100,10 +101,11 @@ const localDatabasePlugin = () => {
         } else {
           res.statusCode = 200;
           res.setHeader('Content-Type', 'application/json');
+          res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
           res.end(data);
         }
       });
-    } else if (req.url === '/api/books/sync' && req.method === 'POST') {
+    } else if (urlPath === '/api/books/sync' && req.method === 'POST') {
       let body = '';
       req.on('data', chunk => {
         body += chunk.toString();

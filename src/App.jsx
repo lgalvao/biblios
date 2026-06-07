@@ -44,11 +44,18 @@ function App() {
       .sort((a, b) => a.localeCompare(b));
   }, [books]);
 
+  const uniqueLanguages = useMemo(() => {
+    return [...new Set(books.map(b => b.originalLanguage))]
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b));
+  }, [books]);
+
   const [syncStatus, setSyncStatus] = useState('synced'); // 'synced', 'saving', 'error'
   const [activeTab, setActiveTab] = useState('list');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCountry, setSelectedCountry] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
+  const [selectedAuthor, setSelectedAuthor] = useState('');
 
 
   const [theme, setTheme] = useState(() => {
@@ -128,7 +135,7 @@ function App() {
       }
     }
 
-    fetch('/api/books')
+    fetch(`/api/books?t=${Date.now()}`)
       .then(res => {
         if (!res.ok) throw new Error('Server returned non-200 status');
         return res.json();
@@ -373,6 +380,8 @@ function App() {
                   onCountryFilterChange={setSelectedCountry}
                   selectedLanguage={selectedLanguage}
                   onLanguageFilterChange={setSelectedLanguage}
+                  selectedAuthor={selectedAuthor}
+                  onAuthorFilterChange={setSelectedAuthor}
                   onShowToast={showToast}
                 />
               )}
@@ -395,6 +404,7 @@ function App() {
             key={editingBook ? editingBook.id : 'new'}
             book={editingBook} 
             authors={uniqueAuthors}
+            languages={uniqueLanguages}
             onSave={handleSaveBook} 
             onClose={() => { setIsModalOpen(false); setEditingBook(null); }} 
           />

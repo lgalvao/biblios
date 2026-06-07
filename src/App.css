@@ -182,3 +182,25 @@
   color: var(--bs-primary-text-emphasis) !important;
   border-color: var(--bs-primary-border-subtle);
 }
+
+.author-link {
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+}
+
+.author-link:hover {
+  color: var(--bs-primary) !important;
+  text-decoration: underline;
+}
+
+.language-link {
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+}
+
+.language-link:hover {
+  color: var(--bs-info) !important;
+  text-decoration: underline;
+}
+
+

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getGeoInfo, allCountries, allRegions, allContinents } from '../utils/dataUtils';
 
-export default function BookModal({ book, onSave, onClose, authors = [] }) {
+export default function BookModal({ book, onSave, onClose, authors = [], languages = [] }) {
   const [title, setTitle] = useState(book?.title || '');
   const [author, setAuthor] = useState(book?.author || '');
   const [year, setYear] = useState(book?.year || '');
@@ -9,7 +9,7 @@ export default function BookModal({ book, onSave, onClose, authors = [] }) {
   const [region, setRegion] = useState(book?.region || '');
   const [continent, setContinent] = useState(book?.continent || '');
   const [read, setRead] = useState(book?.read || false);
-  const [originalLanguage, setOriginalLanguage] = useState(book?.originalLanguage || 'English');
+  const [originalLanguage, setOriginalLanguage] = useState(book?.originalLanguage || '');
   const [pages, setPages] = useState(book?.pages || '');
   const [description, setDescription] = useState(book?.description || '');
   const [error, setError] = useState('');
@@ -78,7 +78,10 @@ export default function BookModal({ book, onSave, onClose, authors = [] }) {
               </div>
               <div className="col-12 col-md-6">
                 <label className="form-label small fw-bold text-muted text-uppercase">Language</label>
-                <input type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} />
+                <input type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} list="language-options" />
+                <datalist id="language-options">
+                  {languages.map(l => <option key={l} value={l} />)}
+                </datalist>
               </div>
               <div className={isKnownCountry || !country.trim() ? "col-12" : "col-12 col-md-4"}>
                 <label className="form-label small fw-bold text-muted text-uppercase">Country</label>

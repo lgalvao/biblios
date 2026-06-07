@@ -34,6 +34,10 @@ export default function MapView({ books, onToggleRead, onExportFilteredCSV }) {
       }
     }
     
+    if (id === 'gl' || countryName === 'Greenland') {
+      countryName = 'Denmark';
+    }
+    
     setSelectedCountry(selectedCountry === countryName ? null : countryName);
     setSearch('');
   };
