@@ -8,6 +8,63 @@ import path from 'path'
 const localDatabasePlugin = () => {
   const jsonPath = path.resolve(process.cwd(), 'src/data/data.json');
   const csvPath = path.resolve(process.cwd(), 'data.csv');
+  const regionMappingPath = path.resolve(process.cwd(), 'src/data/region-mapping.json');
+  const originalGeoschemePath = path.resolve(process.cwd(), 'un-geoscheme-subregions-countries.json');
+
+  const initRegionMapping = () => {
+    try {
+      if (fs.existsSync(regionMappingPath)) return;
+      
+      let geoschemeData = {};
+      if (fs.existsSync(originalGeoschemePath)) {
+        geoschemeData = JSON.parse(fs.readFileSync(originalGeoschemePath, 'utf-8'));
+      }
+      
+      const defaultAliases = {
+        'usa': 'United States of America',
+        'uk': 'United Kingdom of Great Britain and Northern Ireland',
+        'england': 'United Kingdom of Great Britain and Northern Ireland',
+        'scotland': 'United Kingdom of Great Britain and Northern Ireland',
+        'wales': 'United Kingdom of Great Britain and Northern Ireland',
+        'northern ireland': 'United Kingdom of Great Britain and Northern Ireland',
+        'brazil': 'Brazil',
+        'brasil': 'Brazil',
+        'russia': 'Russian Federation',
+        'south korea': 'Republic of Korea',
+        'north korea': "Democratic People's Republic of Korea",
+        'vietnam': 'Viet Nam',
+        'iran': 'Iran (Islamic Republic of)',
+        'venezuela': 'Venezuela (Bolivarian Republic of)',
+        'bolivaria': 'Bolivia (Plurinational State of)',
+        'taiwan': 'China',
+        'tanzania': 'United Republic of Tanzania',
+        'syria': 'Syrian Arab Republic',
+        'macedonia': 'North Macedonia',
+        'north macedonia': 'North Macedonia',
+        'moldova': 'Republic of Moldova',
+        'ivory coast': "Côte d'Ivoire",
+        'turkmenistan': 'Turkmenistan',
+        'uzbekistan': 'Uzbekistan',
+        'czech republic': 'Czechia',
+        'guinea bissau': 'Guinea-Bissau'
+      };
+
+      const initialContent = {
+        geoscheme: geoschemeData,
+        aliases: defaultAliases
+      };
+
+      const dir = path.dirname(regionMappingPath);
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+      }
+
+      fs.writeFileSync(regionMappingPath, JSON.stringify(initialContent, null, 2), 'utf-8');
+      console.log(`[Vite] Initialized region-mapping.json at ${regionMappingPath}`);
+    } catch (err) {
+      console.error("[Vite] Failed to initialize region-mapping.json:", err);
+    }
+  };
 
   const escapeCSVField = (val) => {
     if (val === null || val === undefined) return '';
@@ -66,7 +123,8 @@ const localDatabasePlugin = () => {
         read: headers.indexOf('read'),
         lang: headers.indexOf('originallanguage'),
         pages: headers.indexOf('pages'),
-        desc: headers.indexOf('description')
+        desc: headers.indexOf('description'),
+        tags: headers.indexOf('tags')
       };
 
       const books = rows.slice(1).filter(row => row[mapping.title] && row[mapping.author]).map((row, idx) => ({
@@ -80,7 +138,8 @@ const localDatabasePlugin = () => {
         read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
         originalLanguage: mapping.lang !== -1 ? row[mapping.lang]?.trim() || 'English' : 'English',
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
-        description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
+        description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
+        tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : []
       }));
 
       fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
@@ -121,7 +180,7 @@ const localDatabasePlugin = () => {
           fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
 
           // 2. Overwrite data.csv (with UTF-8 BOM)
-          const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description"];
+          const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description", "Tags"];
           const csvRows = [headers.join(',')];
           
           books.forEach(b => {
@@ -132,10 +191,11 @@ const localDatabasePlugin = () => {
               escapeCSVField(b.country),
               escapeCSVField(b.region),
               escapeCSVField(b.continent),
-              b.read ? '1' : '', // '1' matches read status checked standard, empty if unread
+              b.read ? '1' : '',
               escapeCSVField(b.originalLanguage),
               escapeCSVField(b.pages),
-              escapeCSVField(b.description)
+              escapeCSVField(b.description),
+              escapeCSVField(b.tags ? b.tags.join(';') : '')
             ];
             csvRows.push(row.join(','));
           });
@@ -152,6 +212,46 @@ const localDatabasePlugin = () => {
           res.end(JSON.stringify({ error: err.message }));
         }
       });
+    } else if (urlPath === '/api/regions' && req.method === 'GET') {
+      initRegionMapping();
+      fs.readFile(regionMappingPath, 'utf-8', (err, data) => {
+        if (err) {
+          res.statusCode = 500;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ error: 'Failed to read region-mapping.json' }));
+        } else {
+          res.statusCode = 200;
+          res.setHeader('Content-Type', 'application/json');
+          res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+          res.end(data);
+        }
+      });
+    } else if (urlPath === '/api/regions/sync' && req.method === 'POST') {
+      let body = '';
+      req.on('data', chunk => {
+        body += chunk.toString();
+      });
+      req.on('end', () => {
+        try {
+          const mappingData = JSON.parse(body);
+          if (!mappingData || typeof mappingData !== 'object') {
+            throw new Error('Data must be an object with geoscheme and aliases');
+          }
+          if (!mappingData.geoscheme || !mappingData.aliases) {
+            throw new Error('Data must contain both geoscheme and aliases keys');
+          }
+
+          fs.writeFileSync(regionMappingPath, JSON.stringify(mappingData, null, 2), 'utf-8');
+
+          res.statusCode = 200;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ success: true }));
+        } catch (err) {
+          res.statusCode = 400;
+          res.setHeader('Content-Type', 'application/json');
+          res.end(JSON.stringify({ error: err.message }));
+        }
+      });
     } else {
       next();
     }
@@ -160,6 +260,7 @@ const localDatabasePlugin = () => {
   return {
     name: 'vite-plugin-local-database',
     buildStart() {
+      initRegionMapping();
       syncOnStart();
     },
     configureServer(server) {

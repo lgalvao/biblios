@@ -1,4 +1,3 @@
-import React from 'react';
 import { getCountryCode, getCountryFlag } from '../utils/dataUtils';
 
 /**

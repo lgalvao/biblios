@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getGeoInfo, allCountries, allRegions, allContinents } from '../utils/dataUtils';
 
-export default function BookModal({ book, onSave, onClose, authors = [], languages = [] }) {
+export default function BookModal({ book, onSave, onClose, authors = [], languages = [], tags: tagsList = [] }) {
   const [title, setTitle] = useState(book?.title || '');
   const [author, setAuthor] = useState(book?.author || '');
   const [year, setYear] = useState(book?.year || '');
@@ -12,6 +12,8 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
   const [originalLanguage, setOriginalLanguage] = useState(book?.originalLanguage || '');
   const [pages, setPages] = useState(book?.pages || '');
   const [description, setDescription] = useState(book?.description || '');
+  const [tags, setTags] = useState(book?.tags || []);
+  const [tagInput, setTagInput] = useState('');
   const [error, setError] = useState('');
 
   const geo = getGeoInfo(country);
@@ -23,6 +25,27 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
     setRegion(geo.region);
     setContinent(geo.continent);
   };
+
+  const handleAddTag = () => {
+    const trimmed = tagInput.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '');
+    if (trimmed && !tags.includes(trimmed)) {
+      setTags([...tags, trimmed]);
+    }
+    setTagInput('');
+  };
+
+  const handleTagKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      handleAddTag();
+    }
+  };
+
+  const handleRemoveTag = (tagToRemove) => {
+    setTags(tags.filter(t => t !== tagToRemove));
+  };
+
+  const tagsSuggestions = (tagsList || []).filter(t => !tags.includes(t));
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -41,7 +64,8 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
       read,
       originalLanguage: originalLanguage.trim(),
       pages: pages ? parseInt(pages, 10) : '',
-      description: description.trim()
+      description: description.trim(),
+      tags
     });
   };
 
@@ -118,6 +142,50 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
               <div className="col-12">
                 <label className="form-label small fw-bold text-muted text-uppercase">Description</label>
                 <textarea className="form-control" rows="3" value={description} onChange={e => setDescription(e.target.value)}></textarea>
+              </div>
+              <div className="col-12">
+                <label className="form-label small fw-bold text-muted text-uppercase">Tags</label>
+                <div className="input-group input-group-sm mb-2">
+                  <input 
+                    type="text" 
+                    className="form-control" 
+                    placeholder="Add tag (e.g. classic, biography)..." 
+                    value={tagInput}
+                    onChange={e => setTagInput(e.target.value)}
+                    onKeyDown={handleTagKeyDown}
+                    list="tag-options"
+                  />
+                  <button 
+                    type="button" 
+                    className="btn btn-outline-secondary"
+                    onClick={handleAddTag}
+                  >
+                    Add
+                  </button>
+                  <datalist id="tag-options">
+                    {tagsSuggestions.map(t => <option key={t} value={t} />)}
+                  </datalist>
+                </div>
+                <div className="d-flex flex-wrap gap-2 mt-1">
+                  {tags.map(t => (
+                    <span 
+                      key={t} 
+                      className="badge bg-secondary text-white d-flex align-items-center gap-2 py-1.5 px-2.5 rounded-pill"
+                      style={{ fontSize: '0.75rem', fontWeight: 500 }}
+                    >
+                      <span>#{t}</span>
+                      <button 
+                        type="button" 
+                        className="btn-close btn-close-white p-0" 
+                        style={{ width: '8px', height: '8px', fontSize: '0.55rem' }} 
+                        onClick={() => handleRemoveTag(t)}
+                      ></button>
+                    </span>
+                  ))}
+                  {tags.length === 0 && (
+                    <span className="small text-muted italic">No tags associated with this book.</span>
+                  )}
+                </div>
               </div>
               <div className="col-12">
                 <div className="form-check form-switch mt-2">

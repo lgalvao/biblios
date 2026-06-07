@@ -10,8 +10,10 @@ import {
   allRegions,
   allContinents,
   getGeoInfo,
-  getCountryFlag
+  getCountryFlag,
+  updateGeoschemeData
 } from '../dataUtils';
+import originalGeoscheme from '../../../un-geoscheme-subregions-countries.json';
 
 
 describe('Data Utilities', () => {
@@ -130,6 +132,12 @@ describe('Data Utilities', () => {
       expect(repaired[0].author).toBe('Bruno Schulz (L)');
       expect(needsRepair).toBe(true);
     });
+
+    it('should initialize missing tags field as empty array', () => {
+      const books = [{ title: 'No Tags Book', author: 'Author Name' }];
+      const { repaired } = repairBooksList(books, []);
+      expect(repaired[0].tags).toEqual([]);
+    });
   });
 
   describe('mapCsvToBooks', () => {
@@ -158,6 +166,16 @@ describe('Data Utilities', () => {
       const books = mapCsvToBooks(rows);
       expect(books).toHaveLength(1);
       expect(books[0].title).toBe('Valid');
+    });
+
+    it('should parse semicolon-separated tags if present', () => {
+      const rows = [
+        ['Title', 'Author', 'Tags'],
+        ['1984', 'George Orwell', 'classic;dystopian;political']
+      ];
+      const books = mapCsvToBooks(rows);
+      expect(books).toHaveLength(1);
+      expect(books[0].tags).toEqual(['classic', 'dystopian', 'political']);
     });
   });
 
@@ -290,6 +308,64 @@ describe('Data Utilities', () => {
       expect(getCountryFlag(null)).toBe('');
       expect(getCountryFlag('')).toBe('');
       expect(getCountryFlag('Atlantis')).toBe('');
+    });
+  });
+
+  describe('updateGeoschemeData', () => {
+    it('should dynamically update countries, regions, continents, and getGeoInfo mappings', () => {
+      const customGeoscheme = {
+        "EU": [
+          {
+            "Fictional Region": ["Fictional Land", "Second Fantasy Land"]
+          }
+        ]
+      };
+      const customAliases = {
+        "fl": "Fictional Land"
+      };
+
+      updateGeoschemeData(customGeoscheme, customAliases);
+
+      expect(allCountries).toContain('Fictional Land');
+      expect(allCountries).toContain('Second Fantasy Land');
+      expect(allCountries).not.toContain('Brazil'); // Cleared!
+      expect(allRegions).toContain('Fictional Region');
+      expect(allContinents).toContain('Europe');
+
+      expect(getGeoInfo('Fictional Land')).toEqual({ region: 'Fictional Region', continent: 'Europe' });
+      expect(getGeoInfo('fl')).toEqual({ region: 'Fictional Region', continent: 'Europe' });
+      expect(getGeoInfo('Brazil')).toEqual({ region: '', continent: '' });
+
+      // Restore original state
+      const defaultAliases = {
+        'usa': 'United States of America',
+        'uk': 'United Kingdom of Great Britain and Northern Ireland',
+        'england': 'United Kingdom of Great Britain and Northern Ireland',
+        'scotland': 'United Kingdom of Great Britain and Northern Ireland',
+        'wales': 'United Kingdom of Great Britain and Northern Ireland',
+        'northern ireland': 'United Kingdom of Great Britain and Northern Ireland',
+        'brazil': 'Brazil',
+        'brasil': 'Brazil',
+        'russia': 'Russian Federation',
+        'south korea': 'Republic of Korea',
+        'north korea': "Democratic People's Republic of Korea",
+        'vietnam': 'Viet Nam',
+        'iran': 'Iran (Islamic Republic of)',
+        'venezuela': 'Venezuela (Bolivarian Republic of)',
+        'bolivaria': 'Bolivia (Plurinational State of)',
+        'taiwan': 'China',
+        'tanzania': 'United Republic of Tanzania',
+        'syria': 'Syrian Arab Republic',
+        'macedonia': 'North Macedonia',
+        'north macedonia': 'North Macedonia',
+        'moldova': 'Republic of Moldova',
+        'ivory coast': "Côte d'Ivoire",
+        'turkmenistan': 'Turkmenistan',
+        'uzbekistan': 'Uzbekistan',
+        'czech republic': 'Czechia',
+        'guinea bissau': 'Guinea-Bissau'
+      };
+      updateGeoschemeData(originalGeoscheme, defaultAliases);
     });
   });
 

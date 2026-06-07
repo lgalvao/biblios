@@ -1,8 +1,13 @@
 import geoscheme from '../../un-geoscheme-subregions-countries.json';
 
 // Pré-processa o geoscheme para um mapa de busca rápida
-const countryToRegionMap = {};
-const continentMap = {
+export const countryToRegionMap = {};
+export const countryAliases = {};
+export const allCountries = [];
+export const allRegions = [];
+export const allContinents = [];
+
+export const continentMap = {
   'AF': 'Africa',
   'SA': 'South America',
   'NA': 'North America',
@@ -11,25 +16,7 @@ const continentMap = {
   'OC': 'Oceania'
 };
 
-Object.entries(geoscheme).forEach(([continentCode, regions]) => {
-  regions.forEach(regionObj => {
-    Object.entries(regionObj).forEach(([regionName, countries]) => {
-      countries.forEach(country => {
-        let continent = regionName === 'Central America' ? 'Central America' : continentMap[continentCode];
-        if (country.toLowerCase() === 'mexico') {
-          continent = 'North America';
-        }
-        countryToRegionMap[country.toLowerCase()] = {
-          region: regionName,
-          continent: continent
-        };
-      });
-    });
-  });
-});
-
-// Aliases comuns para países
-const countryAliases = {
+const defaultAliases = {
   'usa': 'United States of America',
   'uk': 'United Kingdom of Great Britain and Northern Ireland',
   'england': 'United Kingdom of Great Britain and Northern Ireland',
@@ -58,6 +45,60 @@ const countryAliases = {
   'guinea bissau': 'Guinea-Bissau'
 };
 
+export const updateGeoschemeData = (customGeoscheme, customAliases) => {
+  // Clear existing items keeping references
+  Object.keys(countryToRegionMap).forEach(key => delete countryToRegionMap[key]);
+  Object.keys(countryAliases).forEach(key => delete countryAliases[key]);
+  allCountries.length = 0;
+  allRegions.length = 0;
+  allContinents.length = 0;
+
+  if (customAliases) {
+    Object.assign(countryAliases, customAliases);
+  }
+
+  if (customGeoscheme) {
+    Object.entries(customGeoscheme).forEach(([continentCode, regions]) => {
+      regions.forEach(regionObj => {
+        Object.entries(regionObj).forEach(([regionName, countries]) => {
+          countries.forEach(country => {
+            let continent = regionName === 'Central America' ? 'Central America' : continentMap[continentCode];
+            if (country.toLowerCase() === 'mexico') {
+              continent = 'North America';
+            }
+            countryToRegionMap[country.toLowerCase()] = {
+              region: regionName,
+              continent: continent
+            };
+            if (!allCountries.includes(country)) {
+              allCountries.push(country);
+            }
+            if (!allRegions.includes(regionName)) {
+              allRegions.push(regionName);
+            }
+          });
+        });
+      });
+      const continentName = continentMap[continentCode] || continentCode;
+      if (!allContinents.includes(continentName)) {
+        allContinents.push(continentName);
+      }
+    });
+
+    if (!allContinents.includes('Central America')) {
+      allContinents.push('Central America');
+    }
+
+    allCountries.sort();
+    allRegions.sort();
+    allContinents.sort();
+  }
+};
+
+// Initialize default mapping dynamically
+updateGeoschemeData(geoscheme, defaultAliases);
+
+
 const langMap = {
   'portugues': 'Portuguese',
   'ingles': 'English',
@@ -68,6 +109,7 @@ const langMap = {
   'russo': 'Russian',
   'japones': 'Japanese',
   'chines': 'Mandarin',
+  'chinese': 'Mandarin',
   'arabe': 'Arabic',
   'grego': 'Greek',
   'holandes': 'Dutch',
@@ -215,7 +257,8 @@ export const mapCsvToBooks = (rows) => {
     read: headers.indexOf('read'),
     lang: headers.indexOf('originallanguage'),
     pages: headers.indexOf('pages'),
-    desc: headers.indexOf('description')
+    desc: headers.indexOf('description'),
+    tags: headers.indexOf('tags')
   };
 
   return rows.slice(1)
@@ -235,7 +278,8 @@ export const mapCsvToBooks = (rows) => {
         read: mapping.read !== -1 ? (row[mapping.read]?.trim() === '1' || row[mapping.read]?.toLowerCase() === 'true') : false,
         originalLanguage: mapping.lang !== -1 ? translateLanguageToEnglish(row[mapping.lang]) : '',
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
-        description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : ''
+        description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
+        tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : []
       };
     });
 };
@@ -248,6 +292,12 @@ export const repairBooksList = (loadedBooks, referenceData) => {
   const repaired = loadedBooks.map(b => {
     let isUpdated = false;
     const updated = { ...b };
+
+    // Garantir que tags seja um array de strings
+    if (b.tags === undefined || !Array.isArray(b.tags)) {
+      updated.tags = [];
+      isUpdated = true;
+    }
     
     // Novidade: Garantir que a região e continente estejam corretos via Geoscheme
     const geo = getGeoInfo(b.country);
@@ -285,6 +335,12 @@ export const repairBooksList = (loadedBooks, referenceData) => {
 
     if (b.country === 'Brasil') {
       updated.country = 'Brazil';
+      isUpdated = true;
+    }
+
+    const trimmedCountry = (b.country || '').trim().toLowerCase();
+    if (trimmedCountry === 'united states' || trimmedCountry === 'united states of america') {
+      updated.country = 'USA';
       isUpdated = true;
     }
 
@@ -413,29 +469,14 @@ export const formatMDExport = (books) => {
       const extra = [];
       if (b.pages) extra.push(`${b.pages} p`);
       if (b.originalLanguage) extra.push(b.originalLanguage);
+      if (b.tags && b.tags.length > 0) extra.push(b.tags.map(t => `#${t}`).join(', '));
       const extraStr = extra.length > 0 ? ` ${extra.join(', ')}` : '';
       return `- ${b.title} by ${b.author} (${b.country}, ${b.year})${extraStr}`;
     })
     .join('\n');
 };
 
-// Listas para Autocomplete
-export const allCountries = Object.values(geoscheme)
-  .flatMap(regions => regions.flatMap(regionObj => Object.values(regionObj).flat()))
-  .filter((v, i, a) => a.indexOf(v) === i)
-  .sort();
-
-export const allRegions = Object.values(geoscheme)
-  .flatMap(regions => regions.flatMap(regionObj => Object.keys(regionObj)))
-  .filter((v, i, a) => a.indexOf(v) === i)
-  .sort();
-
-export const allContinents = [
-  ...Object.keys(geoscheme).map(code => continentMap[code] || code),
-  'Central America'
-]
-  .filter((v, i, a) => a.indexOf(v) === i)
-  .sort();
+// Listas para Autocomplete (now populated dynamically inside updateGeoschemeData)
 
 const countryToCode = {
   'afghanistan': 'AF',

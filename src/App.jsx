@@ -4,13 +4,15 @@ import {
   repairBooksList, 
   parseCSVText, 
   escapeCSVField,
-  mapCsvToBooks 
+  mapCsvToBooks,
+  updateGeoschemeData
 } from './utils/dataUtils';
 
 const Dashboard = lazy(() => import('./components/Dashboard'));
 const BookTable = lazy(() => import('./components/BookTable'));
 const BookModal = lazy(() => import('./components/BookModal'));
 const MapView = lazy(() => import('./components/MapView'));
+const MappingsEditor = lazy(() => import('./components/MappingsEditor'));
 import './App.css';
 
 import { 
@@ -46,6 +48,12 @@ function App() {
 
   const uniqueLanguages = useMemo(() => {
     return [...new Set(books.map(b => b.originalLanguage))]
+      .filter(Boolean)
+      .sort((a, b) => a.localeCompare(b));
+  }, [books]);
+
+  const uniqueTags = useMemo(() => {
+    return [...new Set(books.flatMap(b => b.tags || []))]
       .filter(Boolean)
       .sort((a, b) => a.localeCompare(b));
   }, [books]);
@@ -121,7 +129,7 @@ function App() {
 
   // Sync with filesystem on mount
   useEffect(() => {
-    // Fail-safe check: If localStorage has outdated 1950 year placeholders, force repair it immediately
+    // 1. Initial quick repair of localStorage cache using statically compiled data
     const saved = localStorage.getItem('books_library_master');
     if (saved) {
       try {
@@ -135,23 +143,58 @@ function App() {
       }
     }
 
-    fetch(`/api/books?t=${Date.now()}`)
-      .then(res => {
-        if (!res.ok) throw new Error('Server returned non-200 status');
-        return res.json();
-      })
-      .then(serverBooks => {
-        const { repaired, needsRepair } = repairBooksList(serverBooks, serverBooks);
-        setBooks(repaired);
-        localStorage.setItem('books_library_master', JSON.stringify(repaired));
-        if (needsRepair) {
-          postSync(repaired);
+    // 2. Fetch custom regions and latest books from server in parallel
+    Promise.all([
+      fetch('/api/regions')
+        .then(res => {
+          if (!res.ok) throw new Error('Failed to fetch custom region mappings');
+          return res.json();
+        })
+        .catch(err => {
+          console.warn("Using default geoscheme mappings:", err);
+          return null;
+        }),
+      fetch(`/api/books?t=${Date.now()}`)
+        .then(res => {
+          if (!res.ok) throw new Error('Server returned non-200 status for books');
+          return res.json();
+        })
+        .catch(err => {
+          console.warn("Failed to fetch latest books from server, using local state:", err);
+          return null;
+        })
+    ]).then(([regionData, serverBooks]) => {
+      // If we loaded custom mappings, update the utility module
+      if (regionData && regionData.geoscheme) {
+        updateGeoschemeData(regionData.geoscheme, regionData.aliases);
+      }
+
+      // Determine the authoritative books list
+      let initialBooks = serverBooks;
+      if (!initialBooks) {
+        const localSaved = localStorage.getItem('books_library_master');
+        if (localSaved) {
+          try {
+            initialBooks = JSON.parse(localSaved);
+          } catch (e) {
+            console.error(e);
+          }
         }
-        setSyncStatus('synced');
-      })
-      .catch(err => {
-        console.warn("Failed to fetch latest books from server, using local state:", err);
-      });
+      }
+      if (!initialBooks) {
+        initialBooks = data;
+      }
+
+      // Repair books using the latest (possibly customized) region mapping
+      const { repaired, needsRepair } = repairBooksList(initialBooks, initialBooks);
+      setBooks(repaired);
+      localStorage.setItem('books_library_master', JSON.stringify(repaired));
+      
+      if (needsRepair && serverBooks) {
+        postSync(repaired);
+      }
+      setSyncStatus('synced');
+    });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -323,17 +366,16 @@ function App() {
 
       {/* Navigation Pills */}
       <ul className="nav nav-pills mb-4 gap-2 bg-light p-1 rounded border shadow-sm">
-        {['list', 'dashboard', 'map'].map(tab => (
+        {['list', 'dashboard', 'map', 'mappings'].map(tab => (
           <li key={tab} className="nav-item">
             <button 
               className={`nav-link text-uppercase fw-bold px-3 py-2 ${activeTab === tab ? 'active' : 'text-muted'}`}
               style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}
               onClick={() => {
                 setActiveTab(tab);
-                // Reset search query/filters when changing tabs if needed, or keep them persistent
               }}
             >
-              {tab === 'list' ? 'Library' : tab === 'map' ? 'Atlas' : 'Dashboard'}
+              {tab === 'list' ? 'Library' : tab === 'map' ? 'Atlas' : tab === 'dashboard' ? 'Dashboard' : 'Atlas Editor'}
             </button>
           </li>
         ))}
@@ -386,6 +428,13 @@ function App() {
                 />
               )}
               {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
+              {activeTab === 'mappings' && (
+                <MappingsEditor 
+                  onSyncSuccess={() => showToast("Region mappings saved and synced successfully!", "success")}
+                  onSyncError={() => showToast("Failed to save region mappings to disk.", "danger")}
+                  onUpdateBooks={updateBooksAndSync}
+                />
+              )}
             </div>
           )}
         </Suspense>
@@ -405,6 +454,7 @@ function App() {
             book={editingBook} 
             authors={uniqueAuthors}
             languages={uniqueLanguages}
+            tags={uniqueTags}
             onSave={handleSaveBook} 
             onClose={() => { setIsModalOpen(false); setEditingBook(null); }} 
           />

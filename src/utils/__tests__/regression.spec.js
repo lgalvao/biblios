@@ -99,5 +99,23 @@ describe('Regression Tests', () => {
       const { repaired } = repairBooksList(books, []);
       expect(repaired[0].country).toBe('Czechia');
     });
+
+    it('should normalize "United States" and "United States of America" to "USA"', () => {
+      const books = [
+        { title: 'Book A', author: 'Author A', country: 'United States' },
+        { title: 'Book B', author: 'Author B', country: 'United States of America' }
+      ];
+      const { repaired } = repairBooksList(books, []);
+      expect(repaired[0].country).toBe('USA');
+      expect(repaired[1].country).toBe('USA');
+    });
+
+    it('should normalize "Chinese" to "Mandarin"', () => {
+      const books = [
+        { title: 'Book C', author: 'Author C', originalLanguage: 'Chinese' }
+      ];
+      const { repaired } = repairBooksList(books, []);
+      expect(repaired[0].originalLanguage).toBe('Mandarin');
+    });
   });
 });

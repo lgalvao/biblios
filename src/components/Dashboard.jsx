@@ -95,7 +95,8 @@ export default function Dashboard({ books }) {
       region: {},
       continent: {},
       language: {},
-      century: {}
+      century: {},
+      tag: {}
     };
 
     books.forEach(b => {
@@ -131,6 +132,15 @@ export default function Dashboard({ books }) {
       } else {
         data.century['Unknown'] = (data.century['Unknown'] || 0) + 1;
       }
+
+      // Tags
+      if (b.tags && Array.isArray(b.tags)) {
+        b.tags.forEach(t => {
+          if (t) {
+            data.tag[t] = (data.tag[t] || 0) + 1;
+          }
+        });
+      }
     });
 
     const format = (obj) => Object.entries(obj).map(([label, count]) => ({ label, count }));
@@ -140,7 +150,8 @@ export default function Dashboard({ books }) {
       region: format(data.region),
       continent: format(data.continent),
       language: format(data.language),
-      century: format(data.century)
+      century: format(data.century),
+      tag: format(data.tag)
     };
   }, [books]);
 
@@ -170,7 +181,13 @@ export default function Dashboard({ books }) {
               {sorted.map((item, idx) => (
                 <tr key={idx} className="cursor-default">
                   <td className="ps-3 fw-medium py-2">
-                    {title === 'Countries' ? <><CountryFlag countryName={item.label} /> {item.label}</> : item.label}
+                    {title === 'Countries' ? (
+                      <><CountryFlag countryName={item.label} /> {item.label}</>
+                    ) : title === 'Tags' ? (
+                      <span className="text-secondary-emphasis">{item.label}</span>
+                    ) : (
+                      item.label
+                    )}
                   </td>
                   <td className="text-end pe-3 py-2">
                     <span className="badge bg-primary bg-opacity-10 text-primary fw-bold" style={{ fontSize: '0.75rem' }}>{item.count}</span>
@@ -301,8 +318,9 @@ export default function Dashboard({ books }) {
           <div className="col-12 col-md-6 col-xl-4">{renderTable('Countries', detailedStats.country)}</div>
           <div className="col-12 col-md-6 col-xl-4">{renderTable('Regions', detailedStats.region)}</div>
           <div className="col-12 col-md-6 col-xl-4">{renderTable('Continents', detailedStats.continent)}</div>
-          <div className="col-12 col-md-6 col-xl-6">{renderTable('Original Languages', detailedStats.language)}</div>
-          <div className="col-12 col-md-6 col-xl-6">{renderTable('Chronology (Centuries)', detailedStats.century)}</div>
+          <div className="col-12 col-md-6 col-xl-4">{renderTable('Original Languages', detailedStats.language)}</div>
+          <div className="col-12 col-md-6 col-xl-4">{renderTable('Chronology (Centuries)', detailedStats.century)}</div>
+          <div className="col-12 col-md-6 col-xl-4">{renderTable('Tags', detailedStats.tag)}</div>
         </div>
       </div>
 

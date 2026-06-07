@@ -1,4 +1,3 @@
-import React from 'react';
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import BookTable from '../BookTable';
@@ -111,5 +110,35 @@ describe('BookTable Component tests', () => {
     
     expect(screen.getByText(/LANGUAGE: Galician/i)).toBeInTheDocument();
     expect(screen.getByText(/AUTHOR: Xosé Neira Vilas/i)).toBeInTheDocument();
+  });
+
+  it('filters books by pages count (shorter/longer than value)', () => {
+    render(<BookTable {...defaultProps} />);
+
+    const selects = screen.getAllByRole('combobox');
+    const pageSelect = selects.find(sel => 
+      Array.from(sel.options).some(opt => opt.text === 'Any Pages')
+    );
+    expect(pageSelect).toBeDefined();
+
+    // 1. Shorter than 200 pages
+    fireEvent.change(pageSelect, { target: { value: 'under' } });
+    const pagesInput = screen.getByPlaceholderText('Pages');
+    fireEvent.change(pagesInput, { target: { value: '200' } });
+
+    expect(screen.getByText('Memoirs of a Peasant Boy')).toBeInTheDocument();
+    expect(screen.queryByText('The Door')).not.toBeInTheDocument();
+
+    // 2. Longer than 200 pages
+    fireEvent.change(pageSelect, { target: { value: 'over' } });
+    fireEvent.change(pagesInput, { target: { value: '200' } });
+
+    expect(screen.queryByText('Memoirs of a Peasant Boy')).not.toBeInTheDocument();
+    expect(screen.getByText('The Door')).toBeInTheDocument();
+
+    // 3. Reset filters
+    fireEvent.change(pageSelect, { target: { value: 'all' } });
+    expect(screen.getByText('Memoirs of a Peasant Boy')).toBeInTheDocument();
+    expect(screen.getByText('The Door')).toBeInTheDocument();
   });
 });

@@ -22,6 +22,9 @@ export default function BookTable({
   const [filterRead, setFilterRead] = useState('all');
   const [filterContinent, setFilterContinent] = useState('all');
   const [filterRegion, setFilterRegion] = useState('all');
+  const [filterTag, setFilterTag] = useState('all');
+  const [filterPagesDir, setFilterPagesDir] = useState('all');
+  const [filterPagesVal, setFilterPagesVal] = useState('');
 
   const [sortColumn, setSortColumn] = useState('title');
   const [sortDirection, setSortDirection] = useState('asc');
@@ -81,21 +84,32 @@ export default function BookTable({
         normalizeForSearch(b.title).includes(s) || 
         normalizeForSearch(b.author).includes(s) || 
         normalizeForSearch(b.country).includes(s) ||
-        normalizeForSearch(b.originalLanguage).includes(s);
+        normalizeForSearch(b.originalLanguage).includes(s) ||
+        (b.tags && b.tags.some(t => normalizeForSearch(t).includes(s)));
 
       const matchesRead = filterRead === 'all' || (filterRead === 'read' ? b.read : !b.read);
       const matchesContinent = filterContinent === 'all' || b.continent === filterContinent;
       const matchesRegion = filterRegion === 'all' || b.region === filterRegion;
+      const matchesTag = filterTag === 'all' || (b.tags && b.tags.includes(filterTag));
       const matchesFilterCountry = !selectedCountry || b.country.toLowerCase() === selectedCountry.toLowerCase();
       const matchesFilterLang = !selectedLanguage || (b.originalLanguage && b.originalLanguage.toLowerCase() === selectedLanguage.toLowerCase());
       const matchesFilterAuthor = !selectedAuthor || (b.author && b.author.toLowerCase() === selectedAuthor.toLowerCase());
 
-      return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor;
+      let matchesPages = true;
+      if (filterPagesDir === 'under' && filterPagesVal) {
+        const threshold = parseInt(filterPagesVal, 10);
+        matchesPages = b.pages !== '' && b.pages !== null && b.pages !== undefined && b.pages < threshold;
+      } else if (filterPagesDir === 'over' && filterPagesVal) {
+        const threshold = parseInt(filterPagesVal, 10);
+        matchesPages = b.pages !== '' && b.pages !== null && b.pages !== undefined && b.pages > threshold;
+      }
+
+      return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
     });
-  }, [books, search, filterRead, filterContinent, filterRegion, selectedCountry, selectedLanguage, selectedAuthor]);
+  }, [books, search, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal]);
 
   const exportCSV = () => {
-    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description'];
+    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description', 'Tags'];
     const csvRows = [headers.join(',')];
     
     filteredBooks.forEach(b => {
@@ -109,7 +123,8 @@ export default function BookTable({
         b.read ? '1' : '',
         escapeCSVField(b.originalLanguage),
         escapeCSVField(b.pages),
-        escapeCSVField(b.description)
+        escapeCSVField(b.description),
+        escapeCSVField(b.tags ? b.tags.join(';') : '')
       ];
       csvRows.push(row.join(','));
     });
@@ -210,6 +225,7 @@ export default function BookTable({
   const continents = useMemo(() => [...new Set(books.map(b => b.continent))].filter(Boolean).sort(), [books]);
   const regions = useMemo(() => [...new Set(books.map(b => b.region))].filter(Boolean).sort(), [books]);
   const languages = useMemo(() => [...new Set(books.map(b => b.originalLanguage))].filter(Boolean).sort((a, b) => a.localeCompare(b)), [books]);
+  const tags = useMemo(() => [...new Set(books.flatMap(b => b.tags || []))].filter(Boolean).sort(), [books]);
 
   const renderSortIcon = (col) => {
     if (sortColumn !== col) return <ArrowUpDown size={12} className="ms-1 opacity-50" />;
@@ -222,7 +238,7 @@ export default function BookTable({
       {/* Controls */}
       <div className="card-header bg-white border-bottom p-3">
         <div className="row g-2 align-items-center">
-          <div className="col-12 col-md-6 col-lg-2">
+          <div className="col-12 col-md-4 col-lg-2">
             <div className="input-group input-group-sm">
               <span className="input-group-text bg-light border-end-0 text-muted">
                 <Search size={14} />
@@ -241,26 +257,51 @@ export default function BookTable({
               )}
             </div>
           </div>
-          <div className="col-6 col-md-3 col-lg-2">
+          <div className="col-6 col-md-2 col-lg-1">
             <select className="form-select form-select-sm bg-light" value={filterRead} onChange={(e) => setFilterRead(e.target.value)}>
-              <option value="all">All Reading</option>
+              <option value="all">Reading</option>
               <option value="read">Read</option>
               <option value="unread">Unread</option>
             </select>
           </div>
-          <div className="col-6 col-md-3 col-lg-2">
+          <div className="col-6 col-md-2 col-lg-1">
+            <select className="form-select form-select-sm bg-light" value={filterTag} onChange={(e) => setFilterTag(e.target.value)}>
+              <option value="all">All Tags</option>
+              {tags.map(t => <option key={t} value={t}>{t}</option>)}
+            </select>
+          </div>
+          <div className="col-12 col-md-4 col-lg-2">
+            <div className="input-group input-group-sm">
+              <select className="form-select form-select-sm bg-light border-end-0" value={filterPagesDir} onChange={(e) => setFilterPagesDir(e.target.value)}>
+                <option value="all">Any Pages</option>
+                <option value="under">Shorter than</option>
+                <option value="over">Longer than</option>
+              </select>
+              {filterPagesDir !== 'all' && (
+                <input 
+                  type="number" 
+                  className="form-control form-control-sm bg-light" 
+                  placeholder="Pages"
+                  style={{ maxWidth: '75px' }}
+                  value={filterPagesVal} 
+                  onChange={(e) => setFilterPagesVal(e.target.value)} 
+                />
+              )}
+            </div>
+          </div>
+          <div className="col-6 col-md-2 col-lg-2">
             <select className="form-select form-select-sm bg-light" value={filterContinent} onChange={(e) => setFilterContinent(e.target.value)}>
               <option value="all">All Continents</option>
               {continents.map(c => <option key={c} value={c}>{c}</option>)}
             </select>
           </div>
-          <div className="col-6 col-md-3 col-lg-2">
+          <div className="col-6 col-md-2 col-lg-2">
             <select className="form-select form-select-sm bg-light" value={filterRegion} onChange={(e) => setFilterRegion(e.target.value)}>
               <option value="all">All Regions</option>
               {regions.map(r => <option key={r} value={r}>{r}</option>)}
             </select>
           </div>
-          <div className="col-6 col-md-3 col-lg-2">
+          <div className="col-6 col-md-2 col-lg-2">
             <select 
               className="form-select form-select-sm bg-light" 
               value={selectedLanguage || 'all'} 
@@ -270,7 +311,7 @@ export default function BookTable({
               {languages.map(l => <option key={l} value={l}>{l}</option>)}
             </select>
           </div>
-          <div className="col-6 col-md-6 col-lg-2 d-flex align-items-center justify-content-end gap-2">
+          <div className="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-end gap-2">
             <div className="position-relative" ref={dropdownRef}>
               <button 
                 className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1"
@@ -342,7 +383,7 @@ export default function BookTable({
         </div>
 
         {/* Active Filters Bar */}
-        {(selectedCountry || selectedLanguage || selectedAuthor || filterRead !== 'all' || filterContinent !== 'all' || filterRegion !== 'all') && (
+        {(selectedCountry || selectedLanguage || selectedAuthor || filterRead !== 'all' || filterContinent !== 'all' || filterRegion !== 'all' || filterTag !== 'all' || (filterPagesDir !== 'all' && filterPagesVal)) && (
           <div className="d-flex flex-wrap gap-2 mt-3 animate-fade align-items-center">
             <span className="small text-muted fw-bold text-uppercase d-flex align-items-center me-1" style={{ fontSize: '0.6rem', letterSpacing: '0.05em' }}>Active Filters:</span>
             
@@ -374,6 +415,23 @@ export default function BookTable({
               </span>
             )}
 
+            {filterTag !== 'all' && (
+              <span className="badge border border-secondary text-secondary d-flex align-items-center gap-2 py-2 px-3">
+                TAG: {filterTag}
+                <X size={14} className="cursor-pointer text-danger" onClick={() => setFilterTag('all')} />
+              </span>
+            )}
+
+            {filterPagesDir !== 'all' && filterPagesVal && (
+              <span className="badge border border-dark text-body d-flex align-items-center gap-2 py-2 px-3">
+                PAGES: {filterPagesDir === 'under' ? '<' : '>'} {filterPagesVal}
+                <X size={14} className="cursor-pointer text-danger" onClick={() => {
+                  setFilterPagesDir('all');
+                  setFilterPagesVal('');
+                }} />
+              </span>
+            )}
+
             <button className="btn btn-sm btn-link text-primary text-decoration-none fw-bold small p-0 ms-auto text-uppercase" style={{ fontSize: '0.7rem' }} onClick={() => {
               onCountryFilterChange('');
               onLanguageFilterChange('');
@@ -381,6 +439,9 @@ export default function BookTable({
               setFilterRead('all');
               setFilterContinent('all');
               setFilterRegion('all');
+              setFilterTag('all');
+              setFilterPagesDir('all');
+              setFilterPagesVal('');
               onSearchChange('');
             }}>
               Clear All
@@ -436,7 +497,27 @@ export default function BookTable({
                     />
                   </td>
                   <td className="fw-bold">
-                    {b.title}
+                    <div className="d-block">
+                      <span>{b.title}</span>
+                    </div>
+                    {b.tags && b.tags.length > 0 && (
+                      <div className="d-flex flex-wrap align-items-center gap-1 mt-1" onClick={(e) => e.stopPropagation()}>
+                        {b.tags.map(t => (
+                          <span 
+                            key={t} 
+                            className="badge bg-secondary-subtle text-secondary-emphasis border py-0.5 px-2 rounded-pill cursor-pointer" 
+                            style={{ fontSize: '0.65rem', fontWeight: 500 }}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onSearchChange(t);
+                            }}
+                            title={`Search for ${t}`}
+                          >
+                            {t}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                     <div className="d-block d-md-none text-muted fw-normal small mt-1">
                       <div className="mb-1">
                         <span 
@@ -535,6 +616,16 @@ export default function BookTable({
                               <li><strong>Original Language:</strong> {b.originalLanguage}</li>
                               <li><strong>Geographic Origin:</strong> <CountryFlag countryName={b.country} /> {b.country} ({b.region})</li>
                               <li><strong>Continent:</strong> {b.continent}</li>
+                              {b.tags && b.tags.length > 0 && (
+                                <li className="mt-1">
+                                  <strong>Tags:</strong>{' '}
+                                  {b.tags.map(t => (
+                                    <span key={t} className="badge bg-secondary-subtle text-secondary-emphasis border me-1 py-0.5 px-1.5 rounded-pill" style={{ fontSize: '0.7rem' }}>
+                                      {t}
+                                    </span>
+                                  ))}
+                                </li>
+                              )}
                               <li className="mt-2">
                                 <span className={`badge ${b.read ? 'bg-success-subtle text-success border border-success' : 'bg-warning-subtle text-warning border border-warning'}`}>
                                   {b.read ? '✓ Completed' : '○ To Read'}
