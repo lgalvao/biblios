@@ -420,6 +420,7 @@ describe('BookTable Component tests', () => {
   });
 
   it('triggers infinite scroll loading when sentinel is visible', () => {
+    const originalObserver = global.IntersectionObserver;
     const observe = vi.fn();
     const disconnect = vi.fn();
     global.IntersectionObserver = vi.fn().mockImplementation(function(callback) {
@@ -438,7 +439,8 @@ describe('BookTable Component tests', () => {
     const [callback] = global.IntersectionObserver.mock.calls[0];
     callback([{ isIntersecting: true }]);
     
-    // Should increase visible count (check if more rows rendered or just expect no crash)
+    // Restore original IntersectionObserver to prevent leaking to other tests
+    global.IntersectionObserver = originalObserver;
   });
 
   it('filters books by pages with various edge cases', () => {
