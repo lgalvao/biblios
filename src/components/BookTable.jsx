@@ -25,6 +25,7 @@ export default function BookTable({
   const [filterTag, setFilterTag] = useState('all');
   const [filterPagesDir, setFilterPagesDir] = useState('all');
   const [filterPagesVal, setFilterPagesVal] = useState('');
+  const [filterPagesValMax, setFilterPagesValMax] = useState('');
 
   const [sortColumn, setSortColumn] = useState('title');
   const [sortDirection, setSortDirection] = useState('asc');
@@ -102,11 +103,22 @@ export default function BookTable({
       } else if (filterPagesDir === 'over' && filterPagesVal) {
         const threshold = parseInt(filterPagesVal, 10);
         matchesPages = b.pages !== '' && b.pages !== null && b.pages !== undefined && b.pages > threshold;
+      } else if (filterPagesDir === 'between') {
+        const minVal = filterPagesVal ? parseInt(filterPagesVal, 10) : null;
+        const maxVal = filterPagesValMax ? parseInt(filterPagesValMax, 10) : null;
+        const pages = (b.pages !== '' && b.pages !== null && b.pages !== undefined) ? parseInt(b.pages, 10) : null;
+        
+        if (pages === null) {
+          matchesPages = false;
+        } else {
+          if (minVal !== null && pages < minVal) matchesPages = false;
+          if (maxVal !== null && pages > maxVal) matchesPages = false;
+        }
       }
 
       return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
     });
-  }, [books, search, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal]);
+  }, [books, search, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
 
   const exportCSV = () => {
     const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description', 'Tags'];
@@ -276,16 +288,38 @@ export default function BookTable({
                 <option value="all">Any Pages</option>
                 <option value="under">Shorter than</option>
                 <option value="over">Longer than</option>
+                <option value="between">Between</option>
               </select>
-              {filterPagesDir !== 'all' && (
-                <input 
-                  type="number" 
-                  className="form-control form-control-sm bg-light" 
-                  placeholder="Pages"
-                  style={{ maxWidth: '75px' }}
-                  value={filterPagesVal} 
-                  onChange={(e) => setFilterPagesVal(e.target.value)} 
-                />
+              {filterPagesDir === 'between' ? (
+                <>
+                  <input 
+                    type="number" 
+                    className="form-control form-control-sm bg-light" 
+                    placeholder="Min"
+                    style={{ maxWidth: '60px' }}
+                    value={filterPagesVal} 
+                    onChange={(e) => setFilterPagesVal(e.target.value)} 
+                  />
+                  <input 
+                    type="number" 
+                    className="form-control form-control-sm bg-light border-start-0" 
+                    placeholder="Max"
+                    style={{ maxWidth: '60px' }}
+                    value={filterPagesValMax} 
+                    onChange={(e) => setFilterPagesValMax(e.target.value)} 
+                  />
+                </>
+              ) : (
+                filterPagesDir !== 'all' && (
+                  <input 
+                    type="number" 
+                    className="form-control form-control-sm bg-light" 
+                    placeholder="Pages"
+                    style={{ maxWidth: '75px' }}
+                    value={filterPagesVal} 
+                    onChange={(e) => setFilterPagesVal(e.target.value)} 
+                  />
+                )
               )}
             </div>
           </div>
@@ -383,7 +417,7 @@ export default function BookTable({
         </div>
 
         {/* Active Filters Bar */}
-        {(selectedCountry || selectedLanguage || selectedAuthor || filterRead !== 'all' || filterContinent !== 'all' || filterRegion !== 'all' || filterTag !== 'all' || (filterPagesDir !== 'all' && filterPagesVal)) && (
+        {(selectedCountry || selectedLanguage || selectedAuthor || filterRead !== 'all' || filterContinent !== 'all' || filterRegion !== 'all' || filterTag !== 'all' || (filterPagesDir !== 'all' && (filterPagesVal || filterPagesValMax))) && (
           <div className="d-flex flex-wrap gap-2 mt-3 animate-fade align-items-center">
             <span className="small text-muted fw-bold text-uppercase d-flex align-items-center me-1" style={{ fontSize: '0.6rem', letterSpacing: '0.05em' }}>Active Filters:</span>
             
@@ -422,12 +456,18 @@ export default function BookTable({
               </span>
             )}
 
-            {filterPagesDir !== 'all' && filterPagesVal && (
+            {filterPagesDir !== 'all' && (filterPagesVal || filterPagesValMax) && (
               <span className="badge border border-dark text-body d-flex align-items-center gap-2 py-2 px-3">
-                PAGES: {filterPagesDir === 'under' ? '<' : '>'} {filterPagesVal}
+                PAGES:{' '}
+                {filterPagesDir === 'between' ? (
+                  `${filterPagesVal || '0'} - ${filterPagesValMax || '∞'}`
+                ) : (
+                  `${filterPagesDir === 'under' ? '<' : '>'} ${filterPagesVal}`
+                )}
                 <X size={14} className="cursor-pointer text-danger" onClick={() => {
                   setFilterPagesDir('all');
                   setFilterPagesVal('');
+                  setFilterPagesValMax('');
                 }} />
               </span>
             )}
@@ -442,6 +482,7 @@ export default function BookTable({
               setFilterTag('all');
               setFilterPagesDir('all');
               setFilterPagesVal('');
+              setFilterPagesValMax('');
               onSearchChange('');
             }}>
               Clear All

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1024,
+    "id": 1,
     "title": "Such Small Hands",
     "author": "Andrés Barba",
     "year": "2008",
@@ -14,7 +14,7 @@
     "tags": []
   },
   {
-    "id": 1023,
+    "id": 2,
     "title": "Three Strong Women",
     "author": "Marie NDiaye",
     "year": "2008",
@@ -28,7 +28,7 @@
     "tags": []
   },
   {
-    "id": 1022,
+    "id": 3,
     "title": "People in the Room",
     "author": "Norah Lange",
     "year": "1950",
@@ -42,7 +42,7 @@
     "tags": []
   },
   {
-    "id": 1021,
+    "id": 4,
     "title": "The Hole",
     "author": "José Revueltas",
     "year": "1969",
@@ -56,7 +56,7 @@
     "tags": []
   },
   {
-    "id": 1020,
+    "id": 5,
     "title": "The Hospital",
     "author": "Ahmed Bouanani",
     "year": "1990",
@@ -70,7 +70,7 @@
     "tags": []
   },
   {
-    "id": 1019,
+    "id": 6,
     "title": "Sweet Days of Discipline",
     "author": "Fleur Jaeggy",
     "year": "1989",
@@ -84,7 +84,7 @@
     "tags": []
   },
   {
-    "id": 1018,
+    "id": 7,
     "title": "Seize the Day",
     "author": "Saul Bellow",
     "year": "1956",
@@ -98,7 +98,7 @@
     "tags": []
   },
   {
-    "id": 1017,
+    "id": 8,
     "title": "No One Writes to the Coronel",
     "author": "Gabriel Garcia Marquez",
     "year": "1961",
@@ -112,7 +112,7 @@
     "tags": []
   },
   {
-    "id": 1016,
+    "id": 9,
     "title": "A Month in the Country",
     "author": "J.L. Carr",
     "year": "1980",
@@ -126,7 +126,7 @@
     "tags": []
   },
   {
-    "id": 1015,
+    "id": 10,
     "title": "The Postman Always Rings Twice",
     "author": "James M Cain",
     "year": "1934",
@@ -140,7 +140,7 @@
     "tags": []
   },
   {
-    "id": 1014,
+    "id": 11,
     "title": "Fraulein Else",
     "author": "Arthur Schnitzler",
     "year": "1924",
@@ -154,7 +154,7 @@
     "tags": []
   },
   {
-    "id": 1013,
+    "id": 12,
     "title": "The Awakening",
     "author": "Kate Chopin",
     "year": "1899",
@@ -168,7 +168,7 @@
     "tags": []
   },
   {
-    "id": 1012,
+    "id": 13,
     "title": "By Night in Chile",
     "author": "Roberto Bolano",
     "year": "2000",
@@ -182,7 +182,7 @@
     "tags": []
   },
   {
-    "id": 1011,
+    "id": 14,
     "title": "The Sailor who Fell from Grace with the Sea",
     "author": "Yukio Mishima",
     "year": "1963",
@@ -196,7 +196,7 @@
     "tags": []
   },
   {
-    "id": 1010,
+    "id": 15,
     "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway",
     "year": "1952",
@@ -210,7 +210,7 @@
     "tags": []
   },
   {
-    "id": 1,
+    "id": 16,
     "title": "Buddha’s Little Finger",
     "author": "Victor Pelevin",
     "year": "2001",
@@ -224,7 +224,7 @@
     "tags": []
   },
   {
-    "id": 2,
+    "id": 17,
     "title": "Omon Ra",
     "author": "Victor Pelevin",
     "year": "1998",
@@ -238,7 +238,7 @@
     "tags": []
   },
   {
-    "id": 3,
+    "id": 18,
     "title": "The Patience Stone",
     "author": "Atiq Rahimi",
     "year": "2010",
@@ -252,7 +252,7 @@
     "tags": []
   },
   {
-    "id": 4,
+    "id": 19,
     "title": "In Cold Blood",
     "author": "Truman Capote",
     "year": "1966",
@@ -266,7 +266,7 @@
     "tags": []
   },
   {
-    "id": 5,
+    "id": 20,
     "title": "Confessions of the Lioness",
     "author": "Mia Couto",
     "year": "2012",
@@ -280,7 +280,7 @@
     "tags": []
   },
   {
-    "id": 6,
+    "id": 21,
     "title": "The Drunkard",
     "author": "Liu Yichang",
     "year": "1962",
@@ -294,7 +294,7 @@
     "tags": []
   },
   {
-    "id": 7,
+    "id": 22,
     "title": "Changes: A Love Story",
     "author": "Ama Ata Aidoo",
     "year": "1991",
@@ -308,7 +308,7 @@
     "tags": []
   },
   {
-    "id": 8,
+    "id": 23,
     "title": "Breath, Eyes, Memory",
     "author": "Edwidge Danticat",
     "year": "1994",
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 24,
     "title": "Snow",
     "author": "Orhan Pamuk",
     "year": "2002",
@@ -338,7 +338,7 @@
     "tags": []
   },
   {
-    "id": 10,
+    "id": 25,
     "title": "The Day of the Locust",
     "author": "Nathanael West",
     "year": "1939",
@@ -352,7 +352,7 @@
     "tags": []
   },
   {
-    "id": 11,
+    "id": 26,
     "title": "Angustia",
     "author": "Graciliano Ramos",
     "year": "1936",
@@ -368,7 +368,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 27,
     "title": "Kintu",
     "author": "Jennifer Nansubuga Makumbi",
     "year": "2014",
@@ -382,7 +382,7 @@
     "tags": []
   },
   {
-    "id": 13,
+    "id": 28,
     "title": "The Twins",
     "author": "Tessa de Loo",
     "year": "2003",
@@ -396,7 +396,7 @@
     "tags": []
   },
   {
-    "id": 14,
+    "id": 29,
     "title": "The General of the Dead Army",
     "author": "Ismail Kadare",
     "year": "1963",
@@ -410,7 +410,7 @@
     "tags": []
   },
   {
-    "id": 15,
+    "id": 30,
     "title": "Ficciones",
     "author": "Jorge Luis Borges",
     "year": "1994",
@@ -426,7 +426,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 31,
     "title": "Gravity's Rainbow",
     "author": "Thomas Pynchon",
     "year": "1973",
@@ -440,7 +440,7 @@
     "tags": []
   },
   {
-    "id": 17,
+    "id": 32,
     "title": "Paradiso",
     "author": "Jose Lezama Lima",
     "year": "1966",
@@ -456,7 +456,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 33,
     "title": "Solenoid",
     "author": "Mircea Cartarescu",
     "year": "2015",
@@ -470,7 +470,7 @@
     "tags": []
   },
   {
-    "id": 19,
+    "id": 34,
     "title": "Romance of the Three Kingdoms",
     "author": "Luo Guanzhong",
     "year": "1350",
@@ -484,7 +484,7 @@
     "tags": []
   },
   {
-    "id": 20,
+    "id": 35,
     "title": "The Crying of Lot 49",
     "author": "Thomas Pynchon",
     "year": "1966",
@@ -498,7 +498,7 @@
     "tags": []
   },
   {
-    "id": 21,
+    "id": 36,
     "title": "Stoner",
     "author": "John Williams",
     "year": "1965",
@@ -512,7 +512,7 @@
     "tags": []
   },
   {
-    "id": 22,
+    "id": 37,
     "title": "All About H. Hatterr",
     "author": "G.V. Desani",
     "year": "1948",
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 38,
     "title": "Aura",
     "author": "Carlos Fuentes",
     "year": "1962",
@@ -544,7 +544,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 39,
     "title": "Lazarillo de Tormes",
     "author": "Anonymous",
     "year": "1554",
@@ -558,7 +558,7 @@
     "tags": []
   },
   {
-    "id": 25,
+    "id": 40,
     "title": "The Blue Flower",
     "author": "Penelope Fitzgerald",
     "year": "1995",
@@ -574,7 +574,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 41,
     "title": "Pan",
     "author": "Knut Hamsun",
     "year": "1894",
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 42,
     "title": "Battles in the Desert",
     "author": "Jose Emilio Pacheco",
     "year": "1981",
@@ -606,7 +606,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 43,
     "title": "Beware of Pity",
     "author": "Stefan Zweig",
     "year": "1939",
@@ -620,7 +620,7 @@
     "tags": []
   },
   {
-    "id": 29,
+    "id": 44,
     "title": "The Kingdom of this World",
     "author": "Alejo Carpentier",
     "year": "1949",
@@ -636,7 +636,7 @@
     ]
   },
   {
-    "id": 30,
+    "id": 45,
     "title": "The Interpreters",
     "author": "Wole Soyinka",
     "year": "1965",
@@ -650,7 +650,7 @@
     "tags": []
   },
   {
-    "id": 32,
+    "id": 46,
     "title": "As I Lay Dying",
     "author": "William Faulkner",
     "year": "1930",
@@ -664,7 +664,7 @@
     "tags": []
   },
   {
-    "id": 34,
+    "id": 47,
     "title": "The Book of Disquiet",
     "author": "Fernando Pessoa",
     "year": "1982",
@@ -678,7 +678,7 @@
     "tags": []
   },
   {
-    "id": 35,
+    "id": 48,
     "title": "Michael Kohlhaas",
     "author": "Heinrich von Kleist",
     "year": "1810",
@@ -692,7 +692,7 @@
     "tags": []
   },
   {
-    "id": 36,
+    "id": 49,
     "title": "Story of the Eye",
     "author": "George Bataille",
     "year": "1928",
@@ -706,7 +706,7 @@
     "tags": []
   },
   {
-    "id": 37,
+    "id": 50,
     "title": "Six Acres and a Third",
     "author": "Fakir Mohan Senapati",
     "year": "1898",
@@ -722,7 +722,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 51,
     "title": "Anandamath",
     "author": "Bankim Chandra Chatterjee",
     "year": "1882",
@@ -738,7 +738,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 52,
     "title": "Gargantua and Pantagruel",
     "author": "Francois Rabelais",
     "year": "1532",
@@ -752,7 +752,7 @@
     "tags": []
   },
   {
-    "id": 40,
+    "id": 53,
     "title": "The Tale of Genji",
     "author": "Murasaki Shikibu",
     "year": "1008",
@@ -766,7 +766,7 @@
     "tags": []
   },
   {
-    "id": 41,
+    "id": 54,
     "title": "The Last Summer",
     "author": "Tahar Djaout",
     "year": "1999",
@@ -780,7 +780,7 @@
     "tags": []
   },
   {
-    "id": 42,
+    "id": 55,
     "title": "Niketche",
     "author": "Paulina Chiziane",
     "year": "2002",
@@ -794,7 +794,7 @@
     "tags": []
   },
   {
-    "id": 43,
+    "id": 56,
     "title": "Petersburg",
     "author": "Andrei Bely",
     "year": "1913",
@@ -808,7 +808,7 @@
     "tags": []
   },
   {
-    "id": 44,
+    "id": 57,
     "title": "Flanders Road",
     "author": "Claude Simon",
     "year": "1960",
@@ -822,7 +822,7 @@
     "tags": []
   },
   {
-    "id": 45,
+    "id": 58,
     "title": "Tropisms",
     "author": "Natalie Sarraute",
     "year": "1939",
@@ -836,7 +836,7 @@
     "tags": []
   },
   {
-    "id": 46,
+    "id": 59,
     "title": "Sunflower",
     "author": "Gyula Krudy",
     "year": "1918",
@@ -850,7 +850,7 @@
     "tags": []
   },
   {
-    "id": 47,
+    "id": 60,
     "title": "Memory for Forgetfulness",
     "author": "Mahmoud Darwish",
     "year": "1982",
@@ -864,7 +864,7 @@
     "tags": []
   },
   {
-    "id": 48,
+    "id": 61,
     "title": "The Life of Arseniev",
     "author": "Ivan Bunin",
     "year": "1930",
@@ -878,7 +878,7 @@
     "tags": []
   },
   {
-    "id": 49,
+    "id": 62,
     "title": "Hope Against Hope",
     "author": "Nadezhda Mandelstam",
     "year": "1970",
@@ -892,7 +892,7 @@
     "tags": []
   },
   {
-    "id": 50,
+    "id": 63,
     "title": "The Palace of Dreams",
     "author": "Ismail Kadare",
     "year": "1981",
@@ -906,7 +906,7 @@
     "tags": []
   },
   {
-    "id": 51,
+    "id": 64,
     "title": "Água Viva",
     "author": "Clarice Lispector",
     "year": "1973",
@@ -922,7 +922,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 65,
     "title": "The Recognitions",
     "author": "William Gaddis",
     "year": "1955",
@@ -936,7 +936,7 @@
     "tags": []
   },
   {
-    "id": 53,
+    "id": 66,
     "title": "Austerlitz",
     "author": "W.G. Sebald",
     "year": "2001",
@@ -950,7 +950,7 @@
     "tags": []
   },
   {
-    "id": 55,
+    "id": 67,
     "title": "The Master",
     "author": "Colm Toibin",
     "year": "2004",
@@ -964,7 +964,7 @@
     "tags": []
   },
   {
-    "id": 56,
+    "id": 68,
     "title": "How to be Both",
     "author": "Ali Smith",
     "year": "2014",
@@ -980,7 +980,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 69,
     "title": "Adam Resurrected",
     "author": "Yoram Kaniuk",
     "year": "1969",
@@ -994,7 +994,7 @@
     "tags": []
   },
   {
-    "id": 58,
+    "id": 70,
     "title": "City of Many Days",
     "author": "Shulamith Hareven",
     "year": "1972",
@@ -1008,7 +1008,7 @@
     "tags": []
   },
   {
-    "id": 59,
+    "id": 71,
     "title": "To The End of the Land",
     "author": "David Grossman",
     "year": "2008",
@@ -1022,7 +1022,7 @@
     "tags": []
   },
   {
-    "id": 60,
+    "id": 72,
     "title": "See Under: Love",
     "author": "David Grossman",
     "year": "1986",
@@ -1036,7 +1036,7 @@
     "tags": []
   },
   {
-    "id": 61,
+    "id": 73,
     "title": "A Tale of Love and Darkness",
     "author": "Amos Oz",
     "year": "2002",
@@ -1050,7 +1050,7 @@
     "tags": []
   },
   {
-    "id": 62,
+    "id": 74,
     "title": "Badenheim 1939",
     "author": "Aharon Appelfeld",
     "year": "1978",
@@ -1064,7 +1064,7 @@
     "tags": []
   },
   {
-    "id": 63,
+    "id": 75,
     "title": "My Michael",
     "author": "Amos Oz",
     "year": "1968",
@@ -1078,7 +1078,7 @@
     "tags": []
   },
   {
-    "id": 64,
+    "id": 76,
     "title": "We will see you tomorrow",
     "author": "Zoya Pirzad",
     "year": "2012",
@@ -1092,7 +1092,7 @@
     "tags": []
   },
   {
-    "id": 65,
+    "id": 77,
     "title": "The Four Books",
     "author": "Yan Lianke",
     "year": "2010",
@@ -1106,7 +1106,7 @@
     "tags": []
   },
   {
-    "id": 66,
+    "id": 78,
     "title": "I Did Not Kill My Husband",
     "author": "Liu Zhenyun",
     "year": "2012",
@@ -1120,7 +1120,7 @@
     "tags": []
   },
   {
-    "id": 67,
+    "id": 79,
     "title": "My Life as Emperor",
     "author": "Su Tong",
     "year": "1990",
@@ -1134,7 +1134,7 @@
     "tags": []
   },
   {
-    "id": 68,
+    "id": 80,
     "title": "The Rice-Sprout Song",
     "author": "Eileen Chang",
     "year": "1955",
@@ -1148,7 +1148,7 @@
     "tags": []
   },
   {
-    "id": 69,
+    "id": 81,
     "title": "Border Town",
     "author": "Shen Congwen",
     "year": "1934",
@@ -1162,7 +1162,7 @@
     "tags": []
   },
   {
-    "id": 70,
+    "id": 82,
     "title": "Dream of Ding Village",
     "author": "Yan Lianke",
     "year": "2006",
@@ -1176,7 +1176,7 @@
     "tags": []
   },
   {
-    "id": 71,
+    "id": 83,
     "title": "The Membrane",
     "author": "Chi Ta-wei",
     "year": "1996",
@@ -1190,7 +1190,7 @@
     "tags": []
   },
   {
-    "id": 72,
+    "id": 84,
     "title": "The Butcher’s Wife",
     "author": "Li Ang",
     "year": "1983",
@@ -1204,7 +1204,7 @@
     "tags": []
   },
   {
-    "id": 73,
+    "id": 85,
     "title": "Rose, Rose I Love You",
     "author": "Wang Zhenhe",
     "year": "1984",
@@ -1218,7 +1218,7 @@
     "tags": []
   },
   {
-    "id": 74,
+    "id": 86,
     "title": "Orphan of Asia",
     "author": "Wu Zhuoliu",
     "year": "1945",
@@ -1232,7 +1232,7 @@
     "tags": []
   },
   {
-    "id": 75,
+    "id": 87,
     "title": "Crystal Boys",
     "author": "Pai Hsien-yung",
     "year": "1983",
@@ -1246,7 +1246,7 @@
     "tags": []
   },
   {
-    "id": 76,
+    "id": 88,
     "title": "Remains of Life",
     "author": "Wu He",
     "year": "1999",
@@ -1260,7 +1260,7 @@
     "tags": []
   },
   {
-    "id": 77,
+    "id": 89,
     "title": "Last Quarter of the Moon",
     "author": "Chi Zijian",
     "year": "2010",
@@ -1274,7 +1274,7 @@
     "tags": []
   },
   {
-    "id": 78,
+    "id": 90,
     "title": "Wings",
     "author": "Yi Sang",
     "year": "1936",
@@ -1288,7 +1288,7 @@
     "tags": []
   },
   {
-    "id": 79,
+    "id": 91,
     "title": "The Woman Who Had Two Navels",
     "author": "Nick Joaquin",
     "year": "1961",
@@ -1302,7 +1302,7 @@
     "tags": []
   },
   {
-    "id": 80,
+    "id": 92,
     "title": "The Girl from the Coast",
     "author": "Pramoedya Ananta Toer",
     "year": "1982",
@@ -1316,7 +1316,7 @@
     "tags": []
   },
   {
-    "id": 81,
+    "id": 93,
     "title": "In the Shadow of the Banyan",
     "author": "Vaddey Ratner",
     "year": "2012",
@@ -1330,7 +1330,7 @@
     "tags": []
   },
   {
-    "id": 83,
+    "id": 94,
     "title": "Njáls Saga",
     "author": "Anonymous",
     "year": "1250",
@@ -1346,7 +1346,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": 95,
     "title": "The Egyptian",
     "author": "Mika Waltari",
     "year": "1945",
@@ -1362,7 +1362,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 96,
     "title": "Dina’s Book",
     "author": "Herbjorg Wassmo",
     "year": "1989",
@@ -1378,7 +1378,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 97,
     "title": "Garman and Worse",
     "author": "Alexander Kielland",
     "year": "1880",
@@ -1394,7 +1394,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 98,
     "title": "Marie Grubbe",
     "author": "Jens Peter Jacobsen",
     "year": "1876",
@@ -1410,7 +1410,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 99,
     "title": "Blackwater",
     "author": "Kerstin Ekma",
     "year": "1993",
@@ -1426,7 +1426,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 100,
     "title": "The Road",
     "author": "Harry Martinson",
     "year": "1947",
@@ -1442,7 +1442,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 101,
     "title": "Missing Person",
     "author": "Patrick Modiano",
     "year": "1979",
@@ -1456,7 +1456,7 @@
     "tags": []
   },
   {
-    "id": 93,
+    "id": 102,
     "title": "Days of Longing",
     "author": "Nirmal Verma",
     "year": "1974",
@@ -1472,7 +1472,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 103,
     "title": "Toba Tek Singh",
     "author": "Saadat Hasan Manto",
     "year": "1955",
@@ -1488,7 +1488,7 @@
     ]
   },
   {
-    "id": 95,
+    "id": 104,
     "title": "The Crooked Line",
     "author": "Ismat Chughtai",
     "year": "1944",
@@ -1504,7 +1504,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 105,
     "title": "Mother of 1084",
     "author": "Mahasweta Devi",
     "year": "1974",
@@ -1520,7 +1520,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 106,
     "title": "Sepharad",
     "author": "Antonio Munoz Molina",
     "year": "2001",
@@ -1534,7 +1534,7 @@
     "tags": []
   },
   {
-    "id": 98,
+    "id": 107,
     "title": "I’m Gone",
     "author": "Jean Echenoz",
     "year": "1999",
@@ -1548,7 +1548,7 @@
     "tags": []
   },
   {
-    "id": 99,
+    "id": 108,
     "title": "The Years",
     "author": "Annie Ernaux",
     "year": "2008",
@@ -1562,7 +1562,7 @@
     "tags": []
   },
   {
-    "id": 101,
+    "id": 109,
     "title": "The Abyss",
     "author": "Marguerite Yourcenar",
     "year": "1968",
@@ -1576,7 +1576,7 @@
     "tags": []
   },
   {
-    "id": 102,
+    "id": 110,
     "title": "Christ stopped at Eboli",
     "author": "Carlo Levi",
     "year": "1945",
@@ -1590,7 +1590,7 @@
     "tags": []
   },
   {
-    "id": 103,
+    "id": 111,
     "title": "Memórias Sentimentais de João Miramar",
     "author": "Oswald de Andrade",
     "year": "1924",
@@ -1606,7 +1606,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 112,
     "title": "Crimes of August",
     "author": "Rubem Fonseca",
     "year": "1990",
@@ -1622,7 +1622,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 113,
     "title": "La Casa y El Viento",
     "author": "Hector Tizon",
     "year": "1984",
@@ -1638,7 +1638,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 114,
     "title": "Lizard's Tail",
     "author": "Luisa Valenzuela",
     "year": "1983",
@@ -1654,7 +1654,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 115,
     "title": "Hell Has No Limits",
     "author": "Jose Donoso",
     "year": "1966",
@@ -1670,7 +1670,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 116,
     "title": "The Shrouded Woman",
     "author": "Maria Luisa Bombal",
     "year": "1938",
@@ -1686,7 +1686,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 117,
     "title": "December Breeze",
     "author": "Marvel Moreno",
     "year": "1987",
@@ -1702,7 +1702,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 118,
     "title": "Un Mundo para Julius",
     "author": "Alfredo Bryce Echenique",
     "year": "1970",
@@ -1718,7 +1718,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 119,
     "title": "The Three Marias",
     "author": "Raquel de Queiroz",
     "year": "1939",
@@ -1734,7 +1734,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 120,
     "title": "Macunaíma: The Hero with No Character",
     "author": "Mario de Andrade",
     "year": "1928",
@@ -1750,7 +1750,7 @@
     ]
   },
   {
-    "id": 114,
+    "id": 121,
     "title": "Avalovara",
     "author": "Osman Lins",
     "year": "1965",
@@ -1766,7 +1766,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 122,
     "title": "The Centaur in the Garden",
     "author": "Moacyr Scliar",
     "year": "1980",
@@ -1782,7 +1782,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 123,
     "title": "In the beginning was the Sea",
     "author": "Tomas Gonzalez",
     "year": "1983",
@@ -1798,7 +1798,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 124,
     "title": "Quiet Creature in the Corner",
     "author": "Joao Gilberto Noll",
     "year": "1991",
@@ -1814,7 +1814,7 @@
     ]
   },
   {
-    "id": 118,
+    "id": 125,
     "title": "The Promise",
     "author": "Silvina Ocampo",
     "year": "1988",
@@ -1830,7 +1830,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 126,
     "title": "An Episode in the Life of a Landscape Painter",
     "author": "Cesar Aira",
     "year": "2000",
@@ -1846,7 +1846,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 127,
     "title": "Fogo Morto",
     "author": "Jose Lins do Rego",
     "year": "1943",
@@ -1862,7 +1862,7 @@
     ]
   },
   {
-    "id": 122,
+    "id": 128,
     "title": "Carpentaria",
     "author": "Alexis Wright",
     "year": "2006",
@@ -1876,7 +1876,7 @@
     "tags": []
   },
   {
-    "id": 123,
+    "id": 129,
     "title": "The Tree of Man",
     "author": "Patrick White",
     "year": "1955",
@@ -1890,7 +1890,7 @@
     "tags": []
   },
   {
-    "id": 124,
+    "id": 130,
     "title": "Visitants",
     "author": "Randolph Stow",
     "year": "1979",
@@ -1904,7 +1904,7 @@
     "tags": []
   },
   {
-    "id": 125,
+    "id": 131,
     "title": "Puerto Limon",
     "author": "Joaquin Gutierrez",
     "year": "1950",
@@ -1920,7 +1920,7 @@
     ]
   },
   {
-    "id": 126,
+    "id": 132,
     "title": "Margarita, How Beautiful the Sea",
     "author": "Sergio Ramirez",
     "year": "1998",
@@ -1936,7 +1936,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 133,
     "title": "Ashes of Izalco",
     "author": "Claribel Alegria",
     "year": "1966",
@@ -1952,7 +1952,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 134,
     "title": "Dark Heart of the Forest",
     "author": "Leonora Miano",
     "year": "2006",
@@ -1966,7 +1966,7 @@
     "tags": []
   },
   {
-    "id": 131,
+    "id": 135,
     "title": "Antipeople",
     "author": "Sony Labou Tansi",
     "year": "1983",
@@ -1980,7 +1980,7 @@
     "tags": []
   },
   {
-    "id": 132,
+    "id": 136,
     "title": "Butterfly Burning",
     "author": "Yvonne Vera",
     "year": "1998",
@@ -1994,7 +1994,7 @@
     "tags": []
   },
   {
-    "id": 133,
+    "id": 137,
     "title": "Cockroaches",
     "author": "Scholastique Mukasonga",
     "year": "2006",
@@ -2008,7 +2008,7 @@
     "tags": []
   },
   {
-    "id": 134,
+    "id": 138,
     "title": "The Shadow of Imana",
     "author": "Veronique Tadjo",
     "year": "2000",
@@ -2022,7 +2022,7 @@
     "tags": []
   },
   {
-    "id": 135,
+    "id": 139,
     "title": "Gold Dust",
     "author": "Ibrahim al-Koni",
     "year": "1990",
@@ -2036,7 +2036,7 @@
     "tags": []
   },
   {
-    "id": 136,
+    "id": 140,
     "title": "Fureurs et cris de femmes",
     "author": "Angele Rawiri",
     "year": "1989",
@@ -2050,7 +2050,7 @@
     "tags": []
   },
   {
-    "id": 138,
+    "id": 141,
     "title": "Sarraounia",
     "author": "Abdoulaye Mamani",
     "year": "1980",
@@ -2064,7 +2064,7 @@
     "tags": []
   },
   {
-    "id": 139,
+    "id": 142,
     "title": "The Censor’s Notebook",
     "author": "Liliana Corobca",
     "year": "2017",
@@ -2078,7 +2078,7 @@
     "tags": []
   },
   {
-    "id": 140,
+    "id": 143,
     "title": "The Gardens of Silihdar",
     "author": "Zabel Yesayan",
     "year": "1935",
@@ -2092,7 +2092,7 @@
     "tags": []
   },
   {
-    "id": 141,
+    "id": 144,
     "title": "Small Country",
     "author": "Gael Faye",
     "year": "2016",
@@ -2106,7 +2106,7 @@
     "tags": []
   },
   {
-    "id": 142,
+    "id": 145,
     "title": "Our Sister, Killjoy",
     "author": "Ama Ata Aidoo",
     "year": "1977",
@@ -2120,7 +2120,7 @@
     "tags": []
   },
   {
-    "id": 143,
+    "id": 146,
     "title": "Chiquinho",
     "author": "Baltasar Lopes",
     "year": "1947",
@@ -2134,7 +2134,7 @@
     "tags": []
   },
   {
-    "id": 144,
+    "id": 147,
     "title": "Hadriana in All My Dreams",
     "author": "Renee Depestre",
     "year": "1988",
@@ -2150,7 +2150,7 @@
     ]
   },
   {
-    "id": 145,
+    "id": 148,
     "title": "Malemort",
     "author": "Edouard Glissant",
     "year": "1975",
@@ -2166,7 +2166,7 @@
     ]
   },
   {
-    "id": 146,
+    "id": 149,
     "title": "Masters of the Dew",
     "author": "Jacques Roumain",
     "year": "1944",
@@ -2182,7 +2182,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 150,
     "title": "By Night the Mountain Burns",
     "author": "Juan Tomas Avila Laurel",
     "year": "2014",
@@ -2196,7 +2196,7 @@
     "tags": []
   },
   {
-    "id": 148,
+    "id": 151,
     "title": "Solo d’un Revenant",
     "author": "Kossi Efoui",
     "year": "2008",
@@ -2210,7 +2210,7 @@
     "tags": []
   },
   {
-    "id": 149,
+    "id": 152,
     "title": "An Open City",
     "author": "Mohammad Abdul-Wali’s Sana’",
     "year": "1977",
@@ -2224,7 +2224,7 @@
     "tags": []
   },
   {
-    "id": 150,
+    "id": 153,
     "title": "The Hostage",
     "author": "Zayd Mutee Dammaj",
     "year": "1984",
@@ -2238,7 +2238,7 @@
     "tags": []
   },
   {
-    "id": 151,
+    "id": 154,
     "title": "Tram 83",
     "author": "Fiston Mwanza Mujila",
     "year": "2014",
@@ -2252,7 +2252,7 @@
     "tags": []
   },
   {
-    "id": 152,
+    "id": 155,
     "title": "The way of all flesh",
     "author": "Samuel Butler",
     "year": "1903",
@@ -2268,7 +2268,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 156,
     "title": "Triomf",
     "author": "Marlene van Niekerk",
     "year": "1994",
@@ -2282,7 +2282,7 @@
     "tags": []
   },
   {
-    "id": 154,
+    "id": 157,
     "title": "Ways of Dying",
     "author": "Zakes Mda",
     "year": "1995",
@@ -2296,7 +2296,7 @@
     "tags": []
   },
   {
-    "id": 155,
+    "id": 158,
     "title": "The Story of an African Farm",
     "author": "Olive Schreiner",
     "year": "1883",
@@ -2310,7 +2310,7 @@
     "tags": []
   },
   {
-    "id": 156,
+    "id": 159,
     "title": "The Bleeding of the Stone",
     "author": "Ibrahim al-Koni",
     "year": "1990",
@@ -2324,7 +2324,7 @@
     "tags": []
   },
   {
-    "id": 157,
+    "id": 160,
     "title": "Beyond the Rice Fields",
     "author": "Naivo",
     "year": "2012",
@@ -2338,7 +2338,7 @@
     "tags": []
   },
   {
-    "id": 158,
+    "id": 161,
     "title": "Throwing Sparks",
     "author": "Abdo Khal",
     "year": "2010",
@@ -2352,7 +2352,7 @@
     "tags": []
   },
   {
-    "id": 159,
+    "id": 162,
     "title": "Salina",
     "author": "A. Samad Said",
     "year": "1961",
@@ -2366,7 +2366,7 @@
     "tags": []
   },
   {
-    "id": 160,
+    "id": 163,
     "title": "A Late Divorce",
     "author": "A.B. Yehoshua",
     "year": "1982",
@@ -2380,7 +2380,7 @@
     "tags": []
   },
   {
-    "id": 161,
+    "id": 164,
     "title": "Original Bliss",
     "author": "A.L. Kennedy",
     "year": "1997",
@@ -2396,7 +2396,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 165,
     "title": "Manon Lescaut",
     "author": "Abbe Prevost",
     "year": "1731",
@@ -2410,7 +2410,7 @@
     "tags": []
   },
   {
-    "id": 163,
+    "id": 166,
     "title": "Cities of Salt",
     "author": "Abdelrahman Munif",
     "year": "1984",
@@ -2424,7 +2424,7 @@
     "tags": []
   },
   {
-    "id": 164,
+    "id": 167,
     "title": "The Ultimate Tragedy",
     "author": "Abdulai Sila",
     "year": "1995",
@@ -2438,7 +2438,7 @@
     "tags": []
   },
   {
-    "id": 165,
+    "id": 168,
     "title": "Night and Day",
     "author": "Abdulhamid Cho‘lpon",
     "year": "1936",
@@ -2452,7 +2452,7 @@
     "tags": []
   },
   {
-    "id": 166,
+    "id": 169,
     "title": "Bygone Days",
     "author": "Abdulla Qodiriy",
     "year": "1926",
@@ -2466,7 +2466,7 @@
     "tags": []
   },
   {
-    "id": 167,
+    "id": 170,
     "title": "The Weary Generations",
     "author": "Abdullah Hussein",
     "year": "1963",
@@ -2482,7 +2482,7 @@
     ]
   },
   {
-    "id": 168,
+    "id": 171,
     "title": "Paradise",
     "author": "Abdulrazak Gurnah",
     "year": "1994",
@@ -2496,7 +2496,7 @@
     "tags": []
   },
   {
-    "id": 169,
+    "id": 172,
     "title": "By the Sea",
     "author": "Abdulrazak Gurnah",
     "year": "2001",
@@ -2510,7 +2510,7 @@
     "tags": []
   },
   {
-    "id": 170,
+    "id": 173,
     "title": "Lying Down to Die",
     "author": "Adalet Agaoglu",
     "year": "1973",
@@ -2524,7 +2524,7 @@
     "tags": []
   },
   {
-    "id": 171,
+    "id": 174,
     "title": "The Invention of Morel",
     "author": "Adolfo Bioy Casares",
     "year": "1940",
@@ -2540,7 +2540,7 @@
     ]
   },
   {
-    "id": 172,
+    "id": 175,
     "title": "The Notebook Trilogy",
     "author": "Agota Kristof",
     "year": "1991",
@@ -2554,7 +2554,7 @@
     "tags": []
   },
   {
-    "id": 173,
+    "id": 176,
     "title": "A Sibyl",
     "author": "Agustina Bessa-Luis",
     "year": "1954",
@@ -2568,7 +2568,7 @@
     "tags": []
   },
   {
-    "id": 174,
+    "id": 177,
     "title": "Memory in the Flesh",
     "author": "Ahlam Mosteghanemi",
     "year": "1993",
@@ -2582,7 +2582,7 @@
     "tags": []
   },
   {
-    "id": 175,
+    "id": 178,
     "title": "Leg over Leg",
     "author": "Ahmad Faris Shidyaq",
     "year": "1855",
@@ -2596,7 +2596,7 @@
     "tags": []
   },
   {
-    "id": 176,
+    "id": 179,
     "title": "L’Étrange Destin de Wangrin",
     "author": "Ahmadou Hampate Ba",
     "year": "1973",
@@ -2610,7 +2610,7 @@
     "tags": []
   },
   {
-    "id": 177,
+    "id": 180,
     "title": "Allah Is Not Obliged",
     "author": "Ahmadou Kourouma",
     "year": "2000",
@@ -2624,7 +2624,7 @@
     "tags": []
   },
   {
-    "id": 178,
+    "id": 181,
     "title": "The Suns of Independence",
     "author": "Ahmadou Kourouma",
     "year": "1968",
@@ -2638,7 +2638,7 @@
     "tags": []
   },
   {
-    "id": 179,
+    "id": 182,
     "title": "Frankenstein in Baghdad",
     "author": "Ahmed Saadawi",
     "year": "2013",
@@ -2652,7 +2652,7 @@
     "tags": []
   },
   {
-    "id": 180,
+    "id": 183,
     "title": "The Time Regulation Institute",
     "author": "Ahmet Hamdi Tanpinar",
     "year": "1961",
@@ -2666,7 +2666,7 @@
     "tags": []
   },
   {
-    "id": 181,
+    "id": 184,
     "title": "A Mind at Peace",
     "author": "Ahmet Hamdi Tanpinar",
     "year": "1949",
@@ -2680,7 +2680,7 @@
     "tags": []
   },
   {
-    "id": 182,
+    "id": 185,
     "title": "Journey to Karabakh",
     "author": "Aka Morchiladze",
     "year": "1992",
@@ -2694,7 +2694,7 @@
     "tags": []
   },
   {
-    "id": 183,
+    "id": 186,
     "title": "Khowabnama",
     "author": "Akhtaruzzaman Elias",
     "year": "1996",
@@ -2710,7 +2710,7 @@
     ]
   },
   {
-    "id": 184,
+    "id": 187,
     "title": "The Yacoubian Building",
     "author": "Alaa al-Aswany",
     "year": "2002",
@@ -2724,7 +2724,7 @@
     "tags": []
   },
   {
-    "id": 185,
+    "id": 188,
     "title": "Broken Glass",
     "author": "Alain Mabanckou",
     "year": "2005",
@@ -2738,7 +2738,7 @@
     "tags": []
   },
   {
-    "id": 186,
+    "id": 189,
     "title": "Jealousy",
     "author": "Alain Robbe-Grillet",
     "year": "1957",
@@ -2752,7 +2752,7 @@
     "tags": []
   },
   {
-    "id": 187,
+    "id": 190,
     "title": "Le Grand Meaulnes",
     "author": "Alain-Fournier",
     "year": "1913",
@@ -2766,7 +2766,7 @@
     "tags": []
   },
   {
-    "id": 188,
+    "id": 191,
     "title": "Cry, the Beloved Country",
     "author": "Alan Paton",
     "year": "1948",
@@ -2780,7 +2780,7 @@
     "tags": []
   },
   {
-    "id": 189,
+    "id": 192,
     "title": "Lanark",
     "author": "Alasdair Gray",
     "year": "1981",
@@ -2796,7 +2796,7 @@
     ]
   },
   {
-    "id": 190,
+    "id": 193,
     "title": "The Stranger",
     "author": "Albert Camus",
     "year": "1942",
@@ -2810,7 +2810,7 @@
     "tags": []
   },
   {
-    "id": 192,
+    "id": 194,
     "title": "The Pillar of Salt",
     "author": "Albert Memmi",
     "year": "1953",
@@ -2824,7 +2824,7 @@
     "tags": []
   },
   {
-    "id": 193,
+    "id": 195,
     "title": "Leaves of the Banyan Tree",
     "author": "Albert Wendt",
     "year": "1979",
@@ -2838,7 +2838,7 @@
     "tags": []
   },
   {
-    "id": 194,
+    "id": 196,
     "title": "Contempt",
     "author": "Alberto Moravia",
     "year": "1954",
@@ -2852,7 +2852,7 @@
     "tags": []
   },
   {
-    "id": 195,
+    "id": 197,
     "title": "The Conformist",
     "author": "Alberto Moravia",
     "year": "1951",
@@ -2866,7 +2866,7 @@
     "tags": []
   },
   {
-    "id": 196,
+    "id": 198,
     "title": "Insomnia",
     "author": "Alberts Bels",
     "year": "1987",
@@ -2880,7 +2880,7 @@
     "tags": []
   },
   {
-    "id": 197,
+    "id": 199,
     "title": "Brave New World",
     "author": "Aldous Huxley",
     "year": "1932",
@@ -2897,7 +2897,7 @@
     ]
   },
   {
-    "id": 198,
+    "id": 200,
     "title": "Explosion in a Cathedral",
     "author": "Alejo Carpentier",
     "year": "1962",
@@ -2913,7 +2913,7 @@
     ]
   },
   {
-    "id": 199,
+    "id": 201,
     "title": "The Lost Steps",
     "author": "Alejo Carpentier",
     "year": "1953",
@@ -2929,7 +2929,7 @@
     ]
   },
   {
-    "id": 200,
+    "id": 202,
     "title": "The Use of Man",
     "author": "Aleksandar Tisma",
     "year": "1976",
@@ -2943,7 +2943,7 @@
     "tags": []
   },
   {
-    "id": 201,
+    "id": 203,
     "title": "Seven Brothers",
     "author": "Aleksis Kivi",
     "year": "1870",
@@ -2959,7 +2959,7 @@
     ]
   },
   {
-    "id": 202,
+    "id": 204,
     "title": "A Day in the Life of Ivan Denisovich",
     "author": "Alexander Solzhenitsyn",
     "year": "1962",
@@ -2973,7 +2973,7 @@
     "tags": []
   },
   {
-    "id": 203,
+    "id": 205,
     "title": "The Murderess",
     "author": "Alexandros Papadiamantis",
     "year": "1903",
@@ -2987,7 +2987,7 @@
     "tags": []
   },
   {
-    "id": 204,
+    "id": 206,
     "title": "Berlin Alexanderplatz",
     "author": "Alfred Doblin",
     "year": "1929",
@@ -3001,7 +3001,7 @@
     "tags": []
   },
   {
-    "id": 205,
+    "id": 207,
     "title": "Alindarka’s Children",
     "author": "Alhierd Bacharevic",
     "year": "2014",
@@ -3015,7 +3015,7 @@
     "tags": []
   },
   {
-    "id": 206,
+    "id": 208,
     "title": "The Color Purple",
     "author": "Alice Walker",
     "year": "1982",
@@ -3029,7 +3029,7 @@
     "tags": []
   },
   {
-    "id": 207,
+    "id": 209,
     "title": "No Great Mischief",
     "author": "Alistair MacLeod",
     "year": "1999",
@@ -3043,7 +3043,7 @@
     "tags": []
   },
   {
-    "id": 208,
+    "id": 210,
     "title": "The Line of Beauty",
     "author": "Allan Hollinghurst",
     "year": "2004",
@@ -3059,7 +3059,7 @@
     ]
   },
   {
-    "id": 209,
+    "id": 211,
     "title": "Sudden Death",
     "author": "Alvaro Enrigue",
     "year": "2013",
@@ -3075,7 +3075,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 212,
     "title": "The Beggars’ Strike",
     "author": "Aminata Sow Fall",
     "year": "1979",
@@ -3131,7 +3131,7 @@
     "tags": []
   },
   {
-    "id": 217,
+    "id": 216,
     "title": "A Dry White Season",
     "author": "Andre Brink",
     "year": "1979",
@@ -3145,7 +3145,7 @@
     "tags": []
   },
   {
-    "id": 218,
+    "id": 217,
     "title": "The Counterfeiters",
     "author": "Andre Gide",
     "year": "1925",
@@ -3159,7 +3159,7 @@
     "tags": []
   },
   {
-    "id": 219,
+    "id": 218,
     "title": "The Immoralist",
     "author": "Andre Gide",
     "year": "1902",
@@ -3173,7 +3173,7 @@
     "tags": []
   },
   {
-    "id": 220,
+    "id": 219,
     "title": "Man’s Fate",
     "author": "Andre Malraux",
     "year": "1933",
@@ -3187,7 +3187,7 @@
     "tags": []
   },
   {
-    "id": 221,
+    "id": 220,
     "title": "The Last of the Just",
     "author": "Andre Schwarz-Bart",
     "year": "1959",
@@ -3201,7 +3201,7 @@
     "tags": []
   },
   {
-    "id": 222,
+    "id": 221,
     "title": "The Foundation Pit",
     "author": "Andrei Platonov",
     "year": "1930",
@@ -3215,7 +3215,7 @@
     "tags": []
   },
   {
-    "id": 223,
+    "id": 222,
     "title": "Grey Bees",
     "author": "Andrey Kurkov",
     "year": "2018",
@@ -3229,7 +3229,7 @@
     "tags": []
   },
   {
-    "id": 224,
+    "id": 223,
     "title": "Death and the Penguin",
     "author": "Andrey Kurkov",
     "year": "1996",
@@ -3243,7 +3243,7 @@
     "tags": []
   },
   {
-    "id": 225,
+    "id": 224,
     "title": "The Man Who Spoke Snakish",
     "author": "Andrus Kivirahk",
     "year": "2007",
@@ -3257,7 +3257,7 @@
     "tags": []
   },
   {
-    "id": 226,
+    "id": 225,
     "title": "The Beautiful Mrs. Seidenman",
     "author": "Andrzej Szczypiorski",
     "year": "1986",
@@ -3271,7 +3271,7 @@
     "tags": []
   },
   {
-    "id": 227,
+    "id": 226,
     "title": "Nights at the Circus",
     "author": "Angela Carter",
     "year": "1984",
@@ -3287,7 +3287,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 227,
     "title": "Clear Light of Day",
     "author": "Anita Desai",
     "year": "1980",
@@ -3303,7 +3303,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 228,
     "title": "Milkman",
     "author": "Anna Burns",
     "year": "2018",
@@ -3319,7 +3319,7 @@
     ]
   },
   {
-    "id": 230,
+    "id": 229,
     "title": "Neapolitan Chronicles",
     "author": "Anna Maria Ortese",
     "year": "1953",
@@ -3333,7 +3333,7 @@
     "tags": []
   },
   {
-    "id": 231,
+    "id": 230,
     "title": "The Seventh Cross",
     "author": "Anna Seghers",
     "year": "1942",
@@ -3347,7 +3347,7 @@
     "tags": []
   },
   {
-    "id": 232,
+    "id": 231,
     "title": "Transit",
     "author": "Anna Seghers",
     "year": "1944",
@@ -3361,7 +3361,7 @@
     "tags": []
   },
   {
-    "id": 233,
+    "id": 232,
     "title": "Kamouraska",
     "author": "Anne Hebert",
     "year": "1970",
@@ -3375,7 +3375,7 @@
     "tags": []
   },
   {
-    "id": 234,
+    "id": 233,
     "title": "Fugitive Pieces",
     "author": "Anne Michaels",
     "year": "1996",
@@ -3389,7 +3389,7 @@
     "tags": []
   },
   {
-    "id": 235,
+    "id": 234,
     "title": "Journey by Moonlight",
     "author": "Antal Szerb",
     "year": "1937",
@@ -3403,7 +3403,7 @@
     "tags": []
   },
   {
-    "id": 236,
+    "id": 235,
     "title": "Zama",
     "author": "Antonio Di Benedetto",
     "year": "1956",
@@ -3419,7 +3419,7 @@
     ]
   },
   {
-    "id": 237,
+    "id": 236,
     "title": "The Land at the End of the World",
     "author": "Antonio Lobo Antunes",
     "year": "1979",
@@ -3433,7 +3433,7 @@
     "tags": []
   },
   {
-    "id": 238,
+    "id": 237,
     "title": "El Jinete Polaco",
     "author": "Antonio Munoz Molina",
     "year": "1991",
@@ -3447,7 +3447,7 @@
     "tags": []
   },
   {
-    "id": 239,
+    "id": 238,
     "title": "Pereira Maintains",
     "author": "Antonio Tabucchi",
     "year": "1994",
@@ -3461,7 +3461,7 @@
     "tags": []
   },
   {
-    "id": 240,
+    "id": 239,
     "title": "The Mission Box",
     "author": "Aris Alexandrou",
     "year": "1975",
@@ -3475,7 +3475,7 @@
     "tags": []
   },
   {
-    "id": 241,
+    "id": 240,
     "title": "The Case of Sergeant Grischa",
     "author": "Arnold Zweig",
     "year": "1927",
@@ -3489,7 +3489,7 @@
     "tags": []
   },
   {
-    "id": 242,
+    "id": 241,
     "title": "Tirza",
     "author": "Arnon Grunberg",
     "year": "2006",
@@ -3503,7 +3503,7 @@
     "tags": []
   },
   {
-    "id": 243,
+    "id": 242,
     "title": "Lovely Green Eyes",
     "author": "Arnost Lustig",
     "year": "2000",
@@ -3517,7 +3517,7 @@
     "tags": []
   },
   {
-    "id": 244,
+    "id": 243,
     "title": "The Hill of Dreams",
     "author": "Arthur Machen",
     "year": "1907",
@@ -3533,7 +3533,7 @@
     ]
   },
   {
-    "id": 245,
+    "id": 244,
     "title": "Dream Story",
     "author": "Arthur Schnitzler",
     "year": "1926",
@@ -3547,7 +3547,7 @@
     "tags": []
   },
   {
-    "id": 246,
+    "id": 245,
     "title": "The God of Small Things",
     "author": "Arundhati Roy",
     "year": "1997",
@@ -3563,7 +3563,7 @@
     ]
   },
   {
-    "id": 247,
+    "id": 246,
     "title": "L’Amour, la fantasia",
     "author": "Assia Djebar",
     "year": "1985",
@@ -3577,7 +3577,7 @@
     "tags": []
   },
   {
-    "id": 248,
+    "id": 247,
     "title": "A Thousand Rooms of Dream and Fear",
     "author": "Atiq Rahimi",
     "year": "2002",
@@ -3591,7 +3591,7 @@
     "tags": []
   },
   {
-    "id": 249,
+    "id": 248,
     "title": "The Red Room",
     "author": "August Strindberg",
     "year": "1879",
@@ -3607,7 +3607,7 @@
     ]
   },
   {
-    "id": 250,
+    "id": 249,
     "title": "The People of Hemsö",
     "author": "August Strindberg",
     "year": "1887",
@@ -3623,7 +3623,7 @@
     ]
   },
   {
-    "id": 251,
+    "id": 250,
     "title": "Requiem for fools and beasts",
     "author": "Augustin Buzura",
     "year": "1974",
@@ -3637,7 +3637,7 @@
     "tags": []
   },
   {
-    "id": 252,
+    "id": 251,
     "title": "Son of Man",
     "author": "Augusto Roa Bastos",
     "year": "1960",
@@ -3653,7 +3653,7 @@
     ]
   },
   {
-    "id": 253,
+    "id": 252,
     "title": "I the Supreme",
     "author": "Augusto Roa Bastos",
     "year": "1974",
@@ -3669,7 +3669,7 @@
     ]
   },
   {
-    "id": 254,
+    "id": 253,
     "title": "The Polished Hoe",
     "author": "Austin Clarke",
     "year": "2002",
@@ -3683,7 +3683,7 @@
     "tags": []
   },
   {
-    "id": 255,
+    "id": 254,
     "title": "The Voices of the Dead",
     "author": "Autran Dourado",
     "year": "1967",
@@ -3699,7 +3699,7 @@
     ]
   },
   {
-    "id": 256,
+    "id": 255,
     "title": "The Beautyful Ones Are Not Yet Born",
     "author": "Ayi Kwei Armah",
     "year": "1968",
@@ -3713,7 +3713,7 @@
     "tags": []
   },
   {
-    "id": 257,
+    "id": 256,
     "title": "Family",
     "author": "Ba Jin",
     "year": "1931",
@@ -3727,7 +3727,7 @@
     "tags": []
   },
   {
-    "id": 258,
+    "id": 257,
     "title": "Untold Night and Day",
     "author": "Bae Suah",
     "year": "2013",
@@ -3741,7 +3741,7 @@
     "tags": []
   },
   {
-    "id": 259,
+    "id": 258,
     "title": "The Forest of the Gods",
     "author": "Balys Sruoga",
     "year": "1957",
@@ -3755,7 +3755,7 @@
     "tags": []
   },
   {
-    "id": 260,
+    "id": 259,
     "title": "Karukku",
     "author": "Bama",
     "year": "1992",
@@ -3771,7 +3771,7 @@
     ]
   },
   {
-    "id": 261,
+    "id": 260,
     "title": "The Sorrow of War",
     "author": "Bao Ninh",
     "year": "1990",
@@ -3785,7 +3785,7 @@
     "tags": []
   },
   {
-    "id": 262,
+    "id": 261,
     "title": "Cracking India",
     "author": "Bapsi Sidhwa",
     "year": "1988",
@@ -3801,7 +3801,7 @@
     ]
   },
   {
-    "id": 263,
+    "id": 262,
     "title": "The Famished Road",
     "author": "Ben Okri",
     "year": "1991",
@@ -3815,7 +3815,7 @@
     "tags": []
   },
   {
-    "id": 264,
+    "id": 263,
     "title": "Fortunata and Jacinta",
     "author": "Benito Perez Galdos",
     "year": "1887",
@@ -3829,7 +3829,7 @@
     "tags": []
   },
   {
-    "id": 265,
+    "id": 264,
     "title": "Adolphe",
     "author": "Benjamin Constant",
     "year": "1816",
@@ -3843,7 +3843,7 @@
     "tags": []
   },
   {
-    "id": 266,
+    "id": 265,
     "title": "Goat Days",
     "author": "Benyamin",
     "year": "2008",
@@ -3859,7 +3859,7 @@
     ]
   },
   {
-    "id": 267,
+    "id": 266,
     "title": "A Private Affair",
     "author": "Beppe Fenoglio",
     "year": "1963",
@@ -3873,7 +3873,7 @@
     "tags": []
   },
   {
-    "id": 268,
+    "id": 267,
     "title": "Obabakoak",
     "author": "Bernardo Atxaga",
     "year": "1988",
@@ -3887,7 +3887,7 @@
     "tags": []
   },
   {
-    "id": 269,
+    "id": 268,
     "title": "Maru",
     "author": "Bessie Head",
     "year": "1971",
@@ -3901,7 +3901,7 @@
     "tags": []
   },
   {
-    "id": 270,
+    "id": 269,
     "title": "A Question of Power",
     "author": "Bessie Head",
     "year": "1973",
@@ -3915,7 +3915,7 @@
     "tags": []
   },
   {
-    "id": 271,
+    "id": 270,
     "title": "Tamas",
     "author": "Bhisham Sahni",
     "year": "1973",
@@ -3931,7 +3931,7 @@
     ]
   },
   {
-    "id": 272,
+    "id": 271,
     "title": "Pather Panchali",
     "author": "Bibhutibhushan Bandyopadhyay",
     "year": "1929",
@@ -3947,7 +3947,7 @@
     ]
   },
   {
-    "id": 273,
+    "id": 272,
     "title": "The Garden of Departed Cats",
     "author": "Bilge Karasu",
     "year": "1979",
@@ -3961,7 +3961,7 @@
     "tags": []
   },
   {
-    "id": 274,
+    "id": 273,
     "title": "I Served the King of England",
     "author": "Bohumil Hrabal",
     "year": "1971",
@@ -3975,7 +3975,7 @@
     "tags": []
   },
   {
-    "id": 275,
+    "id": 274,
     "title": "Too Loud a Solitude",
     "author": "Bohumil Hrabal",
     "year": "1976",
@@ -3989,7 +3989,7 @@
     "tags": []
   },
   {
-    "id": 276,
+    "id": 275,
     "title": "Necropólis",
     "author": "Boris Pahor",
     "year": "1967",
@@ -4003,7 +4003,7 @@
     "tags": []
   },
   {
-    "id": 277,
+    "id": 276,
     "title": "Doctor Zhivago",
     "author": "Boris Pasternak",
     "year": "1957",
@@ -4017,7 +4017,7 @@
     "tags": []
   },
   {
-    "id": 278,
+    "id": 277,
     "title": "Froth on the Daydream",
     "author": "Boris Vian",
     "year": "1947",
@@ -4031,7 +4031,7 @@
     "tags": []
   },
   {
-    "id": 279,
+    "id": 278,
     "title": "The Time of Miracles",
     "author": "Borislav Pekic",
     "year": "1965",
@@ -4045,7 +4045,7 @@
     "tags": []
   },
   {
-    "id": 280,
+    "id": 279,
     "title": "Letters from Thailand",
     "author": "Botan",
     "year": "1969",
@@ -4059,7 +4059,7 @@
     "tags": []
   },
   {
-    "id": 281,
+    "id": 280,
     "title": "Murambi, the Book of Bones",
     "author": "Boubacar Boris Diop",
     "year": "2000",
@@ -4073,7 +4073,7 @@
     "tags": []
   },
   {
-    "id": 282,
+    "id": 281,
     "title": "The Lonely Passion of Judith Hearne",
     "author": "Brian Moore",
     "year": "1955",
@@ -4089,7 +4089,7 @@
     ]
   },
   {
-    "id": 283,
+    "id": 282,
     "title": "Street of Crocodiles",
     "author": "Bruno Schulz",
     "year": "1934",
@@ -4103,7 +4103,7 @@
     "tags": []
   },
   {
-    "id": 284,
+    "id": 283,
     "title": "Second-class Citizen",
     "author": "Buchi Emecheta",
     "year": "1974",
@@ -4117,7 +4117,7 @@
     "tags": []
   },
   {
-    "id": 285,
+    "id": 284,
     "title": "Joys of Motherhood",
     "author": "Buchi Emecheta",
     "year": "1979",
@@ -4131,7 +4131,7 @@
     "tags": []
   },
   {
-    "id": 286,
+    "id": 285,
     "title": "The Great Fear in the Mountain",
     "author": "C.F. Ramuz",
     "year": "1926",
@@ -4145,7 +4145,7 @@
     "tags": []
   },
   {
-    "id": 287,
+    "id": 286,
     "title": "The African Child",
     "author": "Camara Laye",
     "year": "1953",
@@ -4159,7 +4159,7 @@
     "tags": []
   },
   {
-    "id": 288,
+    "id": 287,
     "title": "The Radiance of the King",
     "author": "Camara Laye",
     "year": "1956",
@@ -4173,7 +4173,7 @@
     "tags": []
   },
   {
-    "id": 289,
+    "id": 288,
     "title": "Doomed Love",
     "author": "Camilo Castelo Branco",
     "year": "1862",
@@ -4187,7 +4187,7 @@
     "tags": []
   },
   {
-    "id": 290,
+    "id": 289,
     "title": "The Beehive",
     "author": "Camilo Jose Cela",
     "year": "1951",
@@ -4201,7 +4201,7 @@
     "tags": []
   },
   {
-    "id": 291,
+    "id": 290,
     "title": "La Família de Pascual Duarte",
     "author": "Camilo Jose Cela",
     "year": "1942",
@@ -4215,7 +4215,7 @@
     "tags": []
   },
   {
-    "id": 292,
+    "id": 291,
     "title": "Frontier",
     "author": "Can Xue",
     "year": "2000",
@@ -4229,7 +4229,7 @@
     "tags": []
   },
   {
-    "id": 293,
+    "id": 292,
     "title": "Dream of the Red Chamber",
     "author": "Cao Xueqin",
     "year": "1791",
@@ -4243,7 +4243,7 @@
     "tags": []
   },
   {
-    "id": 294,
+    "id": 293,
     "title": "That Awful Mess on Via Merulana",
     "author": "Carlo Emilio Gadda",
     "year": "1957",
@@ -4257,7 +4257,7 @@
     "tags": []
   },
   {
-    "id": 295,
+    "id": 294,
     "title": "The Death of Artemio Cruz",
     "author": "Carlos Fuentes",
     "year": "1962",
@@ -4273,7 +4273,7 @@
     ]
   },
   {
-    "id": 296,
+    "id": 295,
     "title": "Nada",
     "author": "Carmen Laforet",
     "year": "1945",
@@ -4287,7 +4287,7 @@
     "tags": []
   },
   {
-    "id": 297,
+    "id": 296,
     "title": "The Back Room",
     "author": "Carmen Martin Gaite",
     "year": "1978",
@@ -4301,7 +4301,7 @@
     "tags": []
   },
   {
-    "id": 298,
+    "id": 297,
     "title": "The Stone Diaries",
     "author": "Carol Shields",
     "year": "1993",
@@ -4315,7 +4315,7 @@
     "tags": []
   },
   {
-    "id": 299,
+    "id": 298,
     "title": "The Heart Is a Lonely Hunter",
     "author": "Carson McCullers",
     "year": "1940",
@@ -4329,7 +4329,7 @@
     "tags": []
   },
   {
-    "id": 301,
+    "id": 299,
     "title": "Rituals",
     "author": "Cees Nooteboom",
     "year": "1980",
@@ -4343,7 +4343,7 @@
     "tags": []
   },
   {
-    "id": 303,
+    "id": 300,
     "title": "The Moon and the Bonfire",
     "author": "Cesare Pavese",
     "year": "1950",
@@ -4357,7 +4357,7 @@
     "tags": []
   },
   {
-    "id": 304,
+    "id": 301,
     "title": "Peace Under Heaven",
     "author": "Chae Man-sik",
     "year": "1938",
@@ -4371,7 +4371,7 @@
     "tags": []
   },
   {
-    "id": 305,
+    "id": 302,
     "title": "The Island of Shattered Dreams",
     "author": "Chantal T. Spitz",
     "year": "1991",
@@ -4385,7 +4385,7 @@
     "tags": []
   },
   {
-    "id": 306,
+    "id": 303,
     "title": "Great Expectations",
     "author": "Charles Dickens",
     "year": "1861",
@@ -4401,7 +4401,7 @@
     ]
   },
   {
-    "id": 307,
+    "id": 304,
     "title": "Bleak House",
     "author": "Charles Dickens",
     "year": "1853",
@@ -4417,7 +4417,7 @@
     ]
   },
   {
-    "id": 308,
+    "id": 305,
     "title": "Jane Eyre",
     "author": "Charlotte Bronte",
     "year": "1847",
@@ -4433,7 +4433,7 @@
     ]
   },
   {
-    "id": 309,
+    "id": 306,
     "title": "The Judgment",
     "author": "Chart Korbjitti",
     "year": "1981",
@@ -4447,7 +4447,7 @@
     "tags": []
   },
   {
-    "id": 310,
+    "id": 307,
     "title": "Ambiguous Adventure",
     "author": "Cheikh Hamidou Kane",
     "year": "1961",
@@ -4461,7 +4461,7 @@
     "tags": []
   },
   {
-    "id": 311,
+    "id": 308,
     "title": "Half of a Yellow Sun",
     "author": "Chimamanda Ngozi Adichie",
     "year": "2006",
@@ -4475,7 +4475,7 @@
     "tags": []
   },
   {
-    "id": 312,
+    "id": 309,
     "title": "The White Ship",
     "author": "Chinghiz Aitmatov",
     "year": "1970",
@@ -4489,7 +4489,7 @@
     "tags": []
   },
   {
-    "id": 313,
+    "id": 310,
     "title": "Jamilia",
     "author": "Chinghiz Aitmatov",
     "year": "1958",
@@ -4503,7 +4503,7 @@
     "tags": []
   },
   {
-    "id": 314,
+    "id": 311,
     "title": "Things Fall Apart",
     "author": "Chinua Achebe",
     "year": "1958",
@@ -4517,7 +4517,7 @@
     "tags": []
   },
   {
-    "id": 315,
+    "id": 312,
     "title": "Arrow of God",
     "author": "Chinua Achebe",
     "year": "1964",
@@ -4531,7 +4531,7 @@
     "tags": []
   },
   {
-    "id": 316,
+    "id": 313,
     "title": "The Dwarf",
     "author": "Cho Se-hui",
     "year": "1978",
@@ -4545,7 +4545,7 @@
     "tags": []
   },
   {
-    "id": 317,
+    "id": 314,
     "title": "The Square",
     "author": "Choi In-hun",
     "year": "1960",
@@ -4559,7 +4559,7 @@
     "tags": []
   },
   {
-    "id": 318,
+    "id": 315,
     "title": "Kassandra",
     "author": "Christa Wolf",
     "year": "1983",
@@ -4573,7 +4573,7 @@
     "tags": []
   },
   {
-    "id": 319,
+    "id": 316,
     "title": "The Quest for Christa T.",
     "author": "Christa Wolf",
     "year": "1968",
@@ -4587,7 +4587,7 @@
     "tags": []
   },
   {
-    "id": 320,
+    "id": 317,
     "title": "The Man Who Loved Children",
     "author": "Christina Stead",
     "year": "1940",
@@ -4601,7 +4601,7 @@
     "tags": []
   },
   {
-    "id": 321,
+    "id": 318,
     "title": "The Last World",
     "author": "Christoph Ransmayr",
     "year": "1988",
@@ -4615,7 +4615,7 @@
     "tags": []
   },
   {
-    "id": 322,
+    "id": 319,
     "title": "The Hungry Dogs",
     "author": "Ciro Alegria",
     "year": "1941",
@@ -4631,7 +4631,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 320,
     "title": "The Hour of the Star",
     "author": "Clarice Lispector",
     "year": "1977",
@@ -4647,7 +4647,7 @@
     ]
   },
   {
-    "id": 324,
+    "id": 321,
     "title": "The Passion According to G.H.",
     "author": "Clarice Lispector",
     "year": "1964",
@@ -4663,7 +4663,7 @@
     ]
   },
   {
-    "id": 325,
+    "id": 322,
     "title": "Chéri",
     "author": "Colette",
     "year": "1920",
@@ -4677,7 +4677,7 @@
     "tags": []
   },
   {
-    "id": 326,
+    "id": 323,
     "title": "Blood Meridian",
     "author": "Cormac McCarthy",
     "year": "1985",
@@ -4691,7 +4691,7 @@
     "tags": []
   },
   {
-    "id": 327,
+    "id": 324,
     "title": "The Third Wedding",
     "author": "Costas Taktsis",
     "year": "1962",
@@ -4705,7 +4705,7 @@
     "tags": []
   },
   {
-    "id": 328,
+    "id": 325,
     "title": "The Ship of Fools",
     "author": "Cristina Peri Rossi",
     "year": "1984",
@@ -4721,7 +4721,7 @@
     ]
   },
   {
-    "id": 329,
+    "id": 326,
     "title": "Kaputt",
     "author": "Curzio Malaparte",
     "year": "1944",
@@ -4735,7 +4735,7 @@
     "tags": []
   },
   {
-    "id": 330,
+    "id": 327,
     "title": "The Rainbow",
     "author": "D.H. Lawrence",
     "year": "1915",
@@ -4751,7 +4751,7 @@
     ]
   },
   {
-    "id": 331,
+    "id": 328,
     "title": "Women in Love",
     "author": "D.H. Lawrence",
     "year": "1920",
@@ -4767,7 +4767,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": 329,
     "title": "Forest of a Thousand Demons",
     "author": "D.O. Fagunwa",
     "year": "1938",
@@ -4781,7 +4781,7 @@
     "tags": []
   },
   {
-    "id": 333,
+    "id": 330,
     "title": "Shyness and Dignity",
     "author": "Dag Solstad",
     "year": "1994",
@@ -4797,7 +4797,7 @@
     ]
   },
   {
-    "id": 334,
+    "id": 331,
     "title": "Novel 11, Book 18",
     "author": "Dag Solstad",
     "year": "1992",
@@ -4813,7 +4813,7 @@
     ]
   },
   {
-    "id": 335,
+    "id": 332,
     "title": "House of Hunger",
     "author": "Dambudzo Marechera",
     "year": "1978",
@@ -4827,7 +4827,7 @@
     "tags": []
   },
   {
-    "id": 336,
+    "id": 333,
     "title": "Robinson Crusoe",
     "author": "Daniel Defoe",
     "year": "1719",
@@ -4843,7 +4843,7 @@
     ]
   },
   {
-    "id": 337,
+    "id": 334,
     "title": "Tyll",
     "author": "Daniel Kehlmann",
     "year": "2017",
@@ -4857,7 +4857,7 @@
     "tags": []
   },
   {
-    "id": 338,
+    "id": 335,
     "title": "A Tomb for Boris Davidovich",
     "author": "Danilo Kis",
     "year": "1976",
@@ -4871,7 +4871,7 @@
     "tags": []
   },
   {
-    "id": 339,
+    "id": 336,
     "title": "The Encyclopedia of the Dead",
     "author": "Danilo Kis",
     "year": "1983",
@@ -4885,7 +4885,7 @@
     "tags": []
   },
   {
-    "id": 340,
+    "id": 337,
     "title": "The Enigma of the Return",
     "author": "Dany Laferriere",
     "year": "2009",
@@ -4899,7 +4899,7 @@
     "tags": []
   },
   {
-    "id": 341,
+    "id": 338,
     "title": "Remembering Babylon",
     "author": "David Malouf",
     "year": "1993",
@@ -4913,7 +4913,7 @@
     "tags": []
   },
   {
-    "id": 342,
+    "id": 339,
     "title": "Jacques the Fatalist",
     "author": "Denis Diderot",
     "year": "1796",
@@ -4927,7 +4927,7 @@
     "tags": []
   },
   {
-    "id": 343,
+    "id": 340,
     "title": "Skylark",
     "author": "Dezso Kosztolanyi",
     "year": "1924",
@@ -4941,7 +4941,7 @@
     "tags": []
   },
   {
-    "id": 344,
+    "id": 341,
     "title": "The Tartar Steppe",
     "author": "Dino Buzzati",
     "year": "1940",
@@ -4955,7 +4955,7 @@
     "tags": []
   },
   {
-    "id": 345,
+    "id": 342,
     "title": "White Noise",
     "author": "Don DeLillo",
     "year": "1985",
@@ -4969,7 +4969,7 @@
     "tags": []
   },
   {
-    "id": 346,
+    "id": 343,
     "title": "The Golden Notebook",
     "author": "Doris Lessing",
     "year": "1962",
@@ -4985,7 +4985,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": 344,
     "title": "A Life Full of Holes",
     "author": "Driss Charhadi",
     "year": "1964",
@@ -4999,7 +4999,7 @@
     "tags": []
   },
   {
-    "id": 348,
+    "id": 345,
     "title": "The Simple Past",
     "author": "Driss Chraibi",
     "year": "1954",
@@ -5013,7 +5013,7 @@
     "tags": []
   },
   {
-    "id": 349,
+    "id": 346,
     "title": "The Ministry of Pain",
     "author": "Dubravka Ugresic",
     "year": "2004",
@@ -5027,7 +5027,7 @@
     "tags": []
   },
   {
-    "id": 350,
+    "id": 347,
     "title": "The Museum of Unconditional Surrender",
     "author": "Dubravka Ugresic",
     "year": "1997",
@@ -5041,7 +5041,7 @@
     "tags": []
   },
   {
-    "id": 351,
+    "id": 348,
     "title": "Paradise of the Blind",
     "author": "Duong Thu Huong",
     "year": "1988",
@@ -5055,7 +5055,7 @@
     "tags": []
   },
   {
-    "id": 352,
+    "id": 349,
     "title": "The Rats",
     "author": "Dyonelio Machado",
     "year": "1935",
@@ -5071,7 +5071,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": 350,
     "title": "The Life and Opinions of the Tomcat Murr",
     "author": "E.T.A. Hoffmann",
     "year": "1819",
@@ -5085,7 +5085,7 @@
     "tags": []
   },
   {
-    "id": 354,
+    "id": 351,
     "title": "Ragtime",
     "author": "E.L. Doctorow",
     "year": "1975",
@@ -5099,7 +5099,7 @@
     "tags": []
   },
   {
-    "id": 355,
+    "id": 352,
     "title": "Howards End",
     "author": "E.M. Forster",
     "year": "1910",
@@ -5115,7 +5115,7 @@
     ]
   },
   {
-    "id": 356,
+    "id": 353,
     "title": "The Dragon Can’t Dance",
     "author": "Earl Lovelace",
     "year": "1979",
@@ -5129,7 +5129,7 @@
     "tags": []
   },
   {
-    "id": 357,
+    "id": 354,
     "title": "The Crime of Father Amaro",
     "author": "Eca de Queiros",
     "year": "1875",
@@ -5143,7 +5143,7 @@
     "tags": []
   },
   {
-    "id": 358,
+    "id": 355,
     "title": "The Maias",
     "author": "Eca de Queiros",
     "year": "1888",
@@ -5157,7 +5157,7 @@
     "tags": []
   },
   {
-    "id": 359,
+    "id": 356,
     "title": "The Age of Innocence",
     "author": "Edith Wharton",
     "year": "1920",
@@ -5171,7 +5171,7 @@
     "tags": []
   },
   {
-    "id": 360,
+    "id": 357,
     "title": "The Country Girls",
     "author": "Edna O’Brien",
     "year": "1960",
@@ -5185,7 +5185,7 @@
     "tags": []
   },
   {
-    "id": 361,
+    "id": 358,
     "title": "Mozart's Journey to Prague",
     "author": "Eduard Morike",
     "year": "1855",
@@ -5199,7 +5199,7 @@
     "tags": []
   },
   {
-    "id": 362,
+    "id": 359,
     "title": "The City of Marvels",
     "author": "Eduardo Mendoza",
     "year": "1986",
@@ -5213,7 +5213,7 @@
     "tags": []
   },
   {
-    "id": 363,
+    "id": 360,
     "title": "The Farming of Bones",
     "author": "Edwidge Danticat",
     "year": "1998",
@@ -5229,7 +5229,7 @@
     ]
   },
   {
-    "id": 364,
+    "id": 361,
     "title": "Half a Lifelong Romance",
     "author": "Eileen Chang",
     "year": "1948",
@@ -5243,7 +5243,7 @@
     "tags": []
   },
   {
-    "id": 365,
+    "id": 362,
     "title": "A Girl Is a Half-formed Thing",
     "author": "Eimear McBride",
     "year": "2013",
@@ -5257,7 +5257,7 @@
     "tags": []
   },
   {
-    "id": 366,
+    "id": 363,
     "title": "Beauty Is a Wound",
     "author": "Eka Kurniawan",
     "year": "2002",
@@ -5271,7 +5271,7 @@
     "tags": []
   },
   {
-    "id": 367,
+    "id": 364,
     "title": "My Brilliant Friend",
     "author": "Elena Ferrante",
     "year": "2011",
@@ -5285,7 +5285,7 @@
     "tags": []
   },
   {
-    "id": 368,
+    "id": 365,
     "title": "Memories of the Future",
     "author": "Elena Garro",
     "year": "1963",
@@ -5301,7 +5301,7 @@
     ]
   },
   {
-    "id": 369,
+    "id": 366,
     "title": "Recollections of Things to Come",
     "author": "Elena Garro",
     "year": "1963",
@@ -5317,7 +5317,7 @@
     ]
   },
   {
-    "id": 370,
+    "id": 367,
     "title": "The Piano Teacher",
     "author": "Elfriede Jelinek",
     "year": "1983",
@@ -5331,7 +5331,7 @@
     "tags": []
   },
   {
-    "id": 371,
+    "id": 368,
     "title": "Gate of the Sun",
     "author": "Elias Khoury",
     "year": "1998",
@@ -5345,7 +5345,7 @@
     "tags": []
   },
   {
-    "id": 372,
+    "id": 369,
     "title": "The Death of the Heart",
     "author": "Elizabeth Bowen",
     "year": "1938",
@@ -5359,7 +5359,7 @@
     "tags": []
   },
   {
-    "id": 373,
+    "id": 370,
     "title": "North and South",
     "author": "Elizabeth Gaskell",
     "year": "1855",
@@ -5375,7 +5375,7 @@
     ]
   },
   {
-    "id": 374,
+    "id": 371,
     "title": "History",
     "author": "Elsa Morante",
     "year": "1974",
@@ -5389,7 +5389,7 @@
     "tags": []
   },
   {
-    "id": 375,
+    "id": 372,
     "title": "Arturo’s Island",
     "author": "Elsa Morante",
     "year": "1957",
@@ -5403,7 +5403,7 @@
     "tags": []
   },
   {
-    "id": 376,
+    "id": 373,
     "title": "The Secret Life of Saeed the Pessoptimist",
     "author": "Emile Habibi",
     "year": "1974",
@@ -5417,7 +5417,7 @@
     "tags": []
   },
   {
-    "id": 377,
+    "id": 374,
     "title": "Therese Raquin",
     "author": "Emile Zola",
     "year": "1867",
@@ -5431,7 +5431,7 @@
     "tags": []
   },
   {
-    "id": 378,
+    "id": 375,
     "title": "Germinal",
     "author": "Emile Zola",
     "year": "1885",
@@ -5445,7 +5445,7 @@
     "tags": []
   },
   {
-    "id": 379,
+    "id": 376,
     "title": "The House of Ulloa",
     "author": "Emilia Pardo Bazan",
     "year": "1886",
@@ -5459,7 +5459,7 @@
     "tags": []
   },
   {
-    "id": 380,
+    "id": 377,
     "title": "Wuthering Heights",
     "author": "Emily Bronte",
     "year": "1847",
@@ -5475,7 +5475,7 @@
     ]
   },
   {
-    "id": 381,
+    "id": 378,
     "title": "Outside the House of Baal",
     "author": "Emyr Humphreys",
     "year": "1965",
@@ -5491,7 +5491,7 @@
     ]
   },
   {
-    "id": 382,
+    "id": 379,
     "title": "Bartleby and Company",
     "author": "Enrique Vila-Matas",
     "year": "2000",
@@ -5505,7 +5505,7 @@
     "tags": []
   },
   {
-    "id": 383,
+    "id": 380,
     "title": "Kisses in the Nederends",
     "author": "Epeli Hauʻofa",
     "year": "1987",
@@ -5519,7 +5519,7 @@
     "tags": []
   },
   {
-    "id": 384,
+    "id": 381,
     "title": "All Quiet on the Western Front",
     "author": "Erich Maria Remarque",
     "year": "1929",
@@ -5533,7 +5533,7 @@
     "tags": []
   },
   {
-    "id": 385,
+    "id": 382,
     "title": "The Sun Also Rises",
     "author": "Ernest Hemingway",
     "year": "1926",
@@ -5547,7 +5547,7 @@
     "tags": []
   },
   {
-    "id": 386,
+    "id": 383,
     "title": "The Tunnel",
     "author": "Ernesto Sabato",
     "year": "1948",
@@ -5563,7 +5563,7 @@
     ]
   },
   {
-    "id": 387,
+    "id": 384,
     "title": "A Handful of Dust",
     "author": "Evelyn Waugh",
     "year": "1934",
@@ -5579,7 +5579,7 @@
     ]
   },
   {
-    "id": 388,
+    "id": 385,
     "title": "Brideshead Revisited",
     "author": "Evelyn Waugh",
     "year": "1945",
@@ -5595,7 +5595,7 @@
     ]
   },
   {
-    "id": 389,
+    "id": 386,
     "title": "Character",
     "author": "F. Bordewijk",
     "year": "1938",
@@ -5609,7 +5609,7 @@
     "tags": []
   },
   {
-    "id": 390,
+    "id": 387,
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "year": "1925",
@@ -5623,7 +5623,7 @@
     "tags": []
   },
   {
-    "id": 391,
+    "id": 388,
     "title": "Houseboy",
     "author": "Ferdinand Oyono",
     "year": "1956",
@@ -5637,7 +5637,7 @@
     "tags": []
   },
   {
-    "id": 392,
+    "id": 389,
     "title": "Metropole",
     "author": "Ferenc Karinthy",
     "year": "1970",
@@ -5651,7 +5651,7 @@
     "tags": []
   },
   {
-    "id": 393,
+    "id": 390,
     "title": "José Trigo",
     "author": "Fernando del Paso",
     "year": "1966",
@@ -5667,7 +5667,7 @@
     ]
   },
   {
-    "id": 395,
+    "id": 391,
     "title": "La Virgen de Los Sicários",
     "author": "Fernando Vallejo",
     "year": "1994",
@@ -5683,7 +5683,7 @@
     ]
   },
   {
-    "id": 396,
+    "id": 392,
     "title": "At Swim Two Birds",
     "author": "Flann O'Brien",
     "year": "1939",
@@ -5697,7 +5697,7 @@
     "tags": []
   },
   {
-    "id": 397,
+    "id": 393,
     "title": "The Third Policeman",
     "author": "Flann O’Brien",
     "year": "1967",
@@ -5711,7 +5711,7 @@
     "tags": []
   },
   {
-    "id": 398,
+    "id": 394,
     "title": "Wise Blood",
     "author": "Flannery O’Connor",
     "year": "1952",
@@ -5725,7 +5725,7 @@
     "tags": []
   },
   {
-    "id": 399,
+    "id": 395,
     "title": "Efuru",
     "author": "Flora Nwapa",
     "year": "1966",
@@ -5739,7 +5739,7 @@
     "tags": []
   },
   {
-    "id": 400,
+    "id": 396,
     "title": "The Good Soldier",
     "author": "Ford Madox Ford",
     "year": "1915",
@@ -5755,7 +5755,7 @@
     ]
   },
   {
-    "id": 401,
+    "id": 397,
     "title": "Therese Desqueiroux",
     "author": "Francois Mauriac",
     "year": "1927",
@@ -5769,7 +5769,7 @@
     "tags": []
   },
   {
-    "id": 402,
+    "id": 398,
     "title": "Double Play",
     "author": "Frank Martinus Arion",
     "year": "1973",
@@ -5783,7 +5783,7 @@
     "tags": []
   },
   {
-    "id": 404,
+    "id": 399,
     "title": "Metamorphosis",
     "author": "Franz Kafka",
     "year": "1915",
@@ -5797,7 +5797,7 @@
     "tags": []
   },
   {
-    "id": 405,
+    "id": 400,
     "title": "The Castle",
     "author": "Franz Kafka",
     "year": "1920",
@@ -5811,7 +5811,7 @@
     "tags": []
   },
   {
-    "id": 406,
+    "id": 401,
     "title": "The Trial",
     "author": "Franz Kafka",
     "year": "1920",
@@ -5825,7 +5825,7 @@
     "tags": []
   },
   {
-    "id": 408,
+    "id": 402,
     "title": "The Pledge",
     "author": "Friedrich Durrenmatt",
     "year": "1958",
@@ -5839,7 +5839,7 @@
     "tags": []
   },
   {
-    "id": 409,
+    "id": 403,
     "title": "The Long Way Back",
     "author": "Fuad al-Takarli",
     "year": "1980",
@@ -5853,7 +5853,7 @@
     "tags": []
   },
   {
-    "id": 410,
+    "id": 404,
     "title": "The Waiting Years",
     "author": "Fumiko Enchi",
     "year": "1957",
@@ -5867,7 +5867,7 @@
     "tags": []
   },
   {
-    "id": 411,
+    "id": 405,
     "title": "Demons",
     "author": "Fyodor Dostoevsky",
     "year": "1872",
@@ -5881,7 +5881,7 @@
     "tags": []
   },
   {
-    "id": 412,
+    "id": 406,
     "title": "Crime and Punishment",
     "author": "Fyodor Dostoevsky",
     "year": "1866",
@@ -5895,7 +5895,7 @@
     "tags": []
   },
   {
-    "id": 413,
+    "id": 407,
     "title": "The Brothers Karamazov",
     "author": "Fyodor Dostoevsky",
     "year": "1880",
@@ -5909,7 +5909,7 @@
     "tags": []
   },
   {
-    "id": 414,
+    "id": 408,
     "title": "The Idiot",
     "author": "Fyodor Dostoevsky",
     "year": "1869",
@@ -5923,7 +5923,7 @@
     "tags": []
   },
   {
-    "id": 415,
+    "id": 409,
     "title": "The Little Demon",
     "author": "Fyodor Sologub",
     "year": "1905",
@@ -5937,7 +5937,7 @@
     "tags": []
   },
   {
-    "id": 416,
+    "id": 410,
     "title": "The Autumn of the Patriarch",
     "author": "Gabriel Garcia Marquez",
     "year": "1975",
@@ -5953,7 +5953,7 @@
     ]
   },
   {
-    "id": 417,
+    "id": 411,
     "title": "Love in the Time of Cholera",
     "author": "Gabriel Garcia Marquez",
     "year": "1985",
@@ -5969,7 +5969,7 @@
     ]
   },
   {
-    "id": 418,
+    "id": 412,
     "title": "One Hundred Years of Solitude",
     "author": "Gabriel Garcia Marquez",
     "year": "1967",
@@ -5985,7 +5985,7 @@
     ]
   },
   {
-    "id": 419,
+    "id": 413,
     "title": "The Blue Sky",
     "author": "Galsan Tschinag",
     "year": "1994",
@@ -5999,7 +5999,7 @@
     "tags": []
   },
   {
-    "id": 420,
+    "id": 414,
     "title": "Zayni Barakat",
     "author": "Gamal al-Ghitani",
     "year": "1974",
@@ -6013,7 +6013,7 @@
     "tags": []
   },
   {
-    "id": 421,
+    "id": 415,
     "title": "Soul Mountain",
     "author": "Gao Xingjian",
     "year": "1990",
@@ -6027,7 +6027,7 @@
     "tags": []
   },
   {
-    "id": 422,
+    "id": 416,
     "title": "Middlemarch",
     "author": "George Eliot",
     "year": "1872",
@@ -6043,7 +6043,7 @@
     ]
   },
   {
-    "id": 423,
+    "id": 417,
     "title": "The Mill on the Floss",
     "author": "George Eliot",
     "year": "1860",
@@ -6059,7 +6059,7 @@
     ]
   },
   {
-    "id": 424,
+    "id": 418,
     "title": "In the Castle of My Skin",
     "author": "George Lamming",
     "year": "1953",
@@ -6073,7 +6073,7 @@
     "tags": []
   },
   {
-    "id": 425,
+    "id": 419,
     "title": "Animal Farm",
     "author": "George Orwell",
     "year": "1945",
@@ -6089,7 +6089,7 @@
     ]
   },
   {
-    "id": 426,
+    "id": 420,
     "title": "Nighteen-eighty-four",
     "author": "George Orwell",
     "year": "1949",
@@ -6106,7 +6106,7 @@
     ]
   },
   {
-    "id": 427,
+    "id": 421,
     "title": "The Diary of a Country Priest",
     "author": "Georges Bernanos",
     "year": "1936",
@@ -6120,7 +6120,7 @@
     "tags": []
   },
   {
-    "id": 428,
+    "id": 422,
     "title": "Life: A User’s Manual",
     "author": "Georges Perec",
     "year": "1978",
@@ -6134,7 +6134,7 @@
     "tags": []
   },
   {
-    "id": 429,
+    "id": 423,
     "title": "The Plains",
     "author": "Gerald Murnane",
     "year": "1982",
@@ -6148,7 +6148,7 @@
     "tags": []
   },
   {
-    "id": 430,
+    "id": 424,
     "title": "The Evenings",
     "author": "Gerard Reve",
     "year": "1947",
@@ -6162,7 +6162,7 @@
     "tags": []
   },
   {
-    "id": 431,
+    "id": 425,
     "title": "Beirut Nightmares",
     "author": "Ghada Samman",
     "year": "1976",
@@ -6176,7 +6176,7 @@
     "tags": []
   },
   {
-    "id": 432,
+    "id": 426,
     "title": "Men in the Sun",
     "author": "Ghassan Kanafani",
     "year": "1962",
@@ -6190,7 +6190,7 @@
     "tags": []
   },
   {
-    "id": 433,
+    "id": 427,
     "title": "The Inhabited Woman",
     "author": "Gioconda Belli",
     "year": "1988",
@@ -6206,7 +6206,7 @@
     ]
   },
   {
-    "id": 434,
+    "id": 428,
     "title": "The Garden of the Finzi-Continis",
     "author": "Giorgio Bassani",
     "year": "1962",
@@ -6220,7 +6220,7 @@
     "tags": []
   },
   {
-    "id": 435,
+    "id": 429,
     "title": "The Leopard",
     "author": "Giuseppe Tomasi di Lampedusa",
     "year": "1958",
@@ -6234,7 +6234,7 @@
     "tags": []
   },
   {
-    "id": 436,
+    "id": 430,
     "title": "Elective Affinities",
     "author": "Goethe",
     "year": "1809",
@@ -6248,7 +6248,7 @@
     "tags": []
   },
   {
-    "id": 437,
+    "id": 431,
     "title": "The Sorrows of Young Werther",
     "author": "Goethe",
     "year": "1774",
@@ -6262,7 +6262,7 @@
     "tags": []
   },
   {
-    "id": 438,
+    "id": 432,
     "title": "Green Henry",
     "author": "Gottfried Keller",
     "year": "1880",
@@ -6276,7 +6276,7 @@
     "tags": []
   },
   {
-    "id": 439,
+    "id": 433,
     "title": "Barren Lives",
     "author": "Graciliano Ramos",
     "year": "1938",
@@ -6292,7 +6292,7 @@
     ]
   },
   {
-    "id": 440,
+    "id": 434,
     "title": "São Bernardo",
     "author": "Graciliano Ramos",
     "year": "1934",
@@ -6308,7 +6308,7 @@
     ]
   },
   {
-    "id": 441,
+    "id": 435,
     "title": "The Power and the Glory",
     "author": "Graham Greene",
     "year": "1940",
@@ -6324,7 +6324,7 @@
     ]
   },
   {
-    "id": 442,
+    "id": 436,
     "title": "The End of the Affair",
     "author": "Graham Greene",
     "year": "1951",
@@ -6340,7 +6340,7 @@
     ]
   },
   {
-    "id": 443,
+    "id": 437,
     "title": "Tómas Jónsson, Bestseller",
     "author": "Guðbergur Bergsson",
     "year": "1966",
@@ -6356,7 +6356,7 @@
     ]
   },
   {
-    "id": 444,
+    "id": 438,
     "title": "Three Trapped Tigers",
     "author": "Guillermo Cabrera Infante",
     "year": "1967",
@@ -6372,7 +6372,7 @@
     ]
   },
   {
-    "id": 445,
+    "id": 439,
     "title": "The Tin Drum",
     "author": "Gunter Grass",
     "year": "1959",
@@ -6386,7 +6386,7 @@
     "tags": []
   },
   {
-    "id": 446,
+    "id": 440,
     "title": "Madame Bovary",
     "author": "Gustave Flaubert",
     "year": "1857",
@@ -6400,7 +6400,7 @@
     "tags": []
   },
   {
-    "id": 447,
+    "id": 441,
     "title": "Sentimental Education",
     "author": "Gustave Flaubert",
     "year": "1869",
@@ -6414,7 +6414,7 @@
     "tags": []
   },
   {
-    "id": 448,
+    "id": 442,
     "title": "Bel-Ami",
     "author": "Guy de Maupassant",
     "year": "1885",
@@ -6428,7 +6428,7 @@
     "tags": []
   },
   {
-    "id": 449,
+    "id": 443,
     "title": "The Case Worker",
     "author": "Gyorgy Konrad",
     "year": "1969",
@@ -6442,7 +6442,7 @@
     "tags": []
   },
   {
-    "id": 450,
+    "id": 444,
     "title": "Waiting",
     "author": "Ha Jin",
     "year": "1999",
@@ -6456,7 +6456,7 @@
     "tags": []
   },
   {
-    "id": 451,
+    "id": 445,
     "title": "Independent People",
     "author": "Halldor Laxness",
     "year": "1935",
@@ -6472,7 +6472,7 @@
     ]
   },
   {
-    "id": 452,
+    "id": 446,
     "title": "Under the Glacier",
     "author": "Halldor Laxness",
     "year": "1968",
@@ -6488,7 +6488,7 @@
     ]
   },
   {
-    "id": 453,
+    "id": 447,
     "title": "The Railway",
     "author": "Hamid Ismailov",
     "year": "1997",
@@ -6502,7 +6502,7 @@
     "tags": []
   },
   {
-    "id": 454,
+    "id": 448,
     "title": "The Dead Lake",
     "author": "Hamid Ismailov",
     "year": "2014",
@@ -6516,7 +6516,7 @@
     "tags": []
   },
   {
-    "id": 455,
+    "id": 449,
     "title": "The Sing-Song Girls of Shanghai",
     "author": "Han Bangqing",
     "year": "1892",
@@ -6530,7 +6530,7 @@
     "tags": []
   },
   {
-    "id": 456,
+    "id": 450,
     "title": "The Vegetarian",
     "author": "Han Kang",
     "year": "2007",
@@ -6544,7 +6544,7 @@
     "tags": []
   },
   {
-    "id": 457,
+    "id": 451,
     "title": "Human Acts",
     "author": "Han Kang",
     "year": "2014",
@@ -6558,7 +6558,7 @@
     "tags": []
   },
   {
-    "id": 458,
+    "id": 452,
     "title": "The Sail and the Storm",
     "author": "Hanna Mina",
     "year": "1966",
@@ -6572,7 +6572,7 @@
     "tags": []
   },
   {
-    "id": 459,
+    "id": 453,
     "title": "Every Man Dies Alone",
     "author": "Hans Fallada",
     "year": "1947",
@@ -6586,7 +6586,7 @@
     "tags": []
   },
   {
-    "id": 460,
+    "id": 454,
     "title": "The Assault",
     "author": "Harry Mulisch",
     "year": "1982",
@@ -6600,7 +6600,7 @@
     "tags": []
   },
   {
-    "id": 461,
+    "id": 455,
     "title": "The Wind-Up Bird Chronicle",
     "author": "Haruki Murakami",
     "year": "1995",
@@ -6614,7 +6614,7 @@
     "tags": []
   },
   {
-    "id": 462,
+    "id": 456,
     "title": "Shadowless",
     "author": "Hasan Ali Toptas",
     "year": "1993",
@@ -6628,7 +6628,7 @@
     "tags": []
   },
   {
-    "id": 463,
+    "id": 457,
     "title": "El olvido que seremos",
     "author": "Hector Abad Faciolince",
     "year": "2003",
@@ -6644,7 +6644,7 @@
     ]
   },
   {
-    "id": 464,
+    "id": 458,
     "title": "Billiards at Half-Past Nine",
     "author": "Heinrich Boll",
     "year": "1959",
@@ -6658,7 +6658,7 @@
     "tags": []
   },
   {
-    "id": 465,
+    "id": 459,
     "title": "The Lost Honor of Katharina Blum",
     "author": "Heinrich Boll",
     "year": "1974",
@@ -6672,7 +6672,7 @@
     "tags": []
   },
   {
-    "id": 466,
+    "id": 460,
     "title": "Man of Straw",
     "author": "Heinrich Mann",
     "year": "1918",
@@ -6686,7 +6686,7 @@
     "tags": []
   },
   {
-    "id": 467,
+    "id": 461,
     "title": "Professor Unrat",
     "author": "Heinrich Mann",
     "year": "1905",
@@ -6700,7 +6700,7 @@
     "tags": []
   },
   {
-    "id": 468,
+    "id": 462,
     "title": "The Children’s Bach",
     "author": "Helen Garner",
     "year": "1984",
@@ -6714,7 +6714,7 @@
     "tags": []
   },
   {
-    "id": 469,
+    "id": 463,
     "title": "Under Fire",
     "author": "Henri Barbusse",
     "year": "1916",
@@ -6728,7 +6728,7 @@
     "tags": []
   },
   {
-    "id": 470,
+    "id": 464,
     "title": "Lucky Per",
     "author": "Henrik Pontoppidan",
     "year": "1904",
@@ -6744,7 +6744,7 @@
     ]
   },
   {
-    "id": 471,
+    "id": 465,
     "title": "Tom Jones",
     "author": "Henry Fielding",
     "year": "1749",
@@ -6760,7 +6760,7 @@
     ]
   },
   {
-    "id": 472,
+    "id": 466,
     "title": "The Portrait of a Lady",
     "author": "Henry James",
     "year": "1881",
@@ -6774,7 +6774,7 @@
     "tags": []
   },
   {
-    "id": 473,
+    "id": 467,
     "title": "Tropic of Cancer",
     "author": "Henry Miller",
     "year": "1934",
@@ -6788,7 +6788,7 @@
     "tags": []
   },
   {
-    "id": 474,
+    "id": 468,
     "title": "Moby-Dick",
     "author": "Herman Melville",
     "year": "1851",
@@ -6802,7 +6802,7 @@
     "tags": []
   },
   {
-    "id": 475,
+    "id": 469,
     "title": "Steppenwolf",
     "author": "Hermann Hesse",
     "year": "1927",
@@ -6816,7 +6816,7 @@
     "tags": []
   },
   {
-    "id": 476,
+    "id": 470,
     "title": "The Land of Green Plums",
     "author": "Herta Muller",
     "year": "1994",
@@ -6830,7 +6830,7 @@
     "tags": []
   },
   {
-    "id": 477,
+    "id": 471,
     "title": "Wolf Hall",
     "author": "Hilary Mantel",
     "year": "2009",
@@ -6846,7 +6846,7 @@
     ]
   },
   {
-    "id": 478,
+    "id": 472,
     "title": "The Obscene Madame D",
     "author": "Hilda Hilst",
     "year": "1982",
@@ -6862,7 +6862,7 @@
     ]
   },
   {
-    "id": 479,
+    "id": 473,
     "title": "Doctor Glas",
     "author": "Hjalmar Soderberg",
     "year": "1905",
@@ -6878,7 +6878,7 @@
     ]
   },
   {
-    "id": 480,
+    "id": 474,
     "title": "The Tiller of Waters",
     "author": "Hoda Barakat",
     "year": "1998",
@@ -6892,7 +6892,7 @@
     "tags": []
   },
   {
-    "id": 481,
+    "id": 475,
     "title": "The Stone of Laughter",
     "author": "Hoda Barakat",
     "year": "1990",
@@ -6906,7 +6906,7 @@
     "tags": []
   },
   {
-    "id": 482,
+    "id": 476,
     "title": "Old Goriot",
     "author": "Honore de Balzac",
     "year": "1835",
@@ -6920,7 +6920,7 @@
     "tags": []
   },
   {
-    "id": 483,
+    "id": 477,
     "title": "Lost Illusions",
     "author": "Honore de Balzac",
     "year": "1843",
@@ -6934,7 +6934,7 @@
     "tags": []
   },
   {
-    "id": 484,
+    "id": 478,
     "title": "Senselessness",
     "author": "Horacio Castellanos Moya",
     "year": "2004",
@@ -6950,7 +6950,7 @@
     ]
   },
   {
-    "id": 485,
+    "id": 479,
     "title": "Prince Ehtejab",
     "author": "Houshang Golshiri",
     "year": "1969",
@@ -6964,7 +6964,7 @@
     "tags": []
   },
   {
-    "id": 487,
+    "id": 480,
     "title": "The Guest",
     "author": "Hwang Sok-yong",
     "year": "2001",
@@ -6978,7 +6978,7 @@
     "tags": []
   },
   {
-    "id": 488,
+    "id": 481,
     "title": "Atonement",
     "author": "Ian McEwan",
     "year": "2001",
@@ -6994,7 +6994,7 @@
     ]
   },
   {
-    "id": 489,
+    "id": 482,
     "title": "The Heron",
     "author": "Ibrahim Aslan",
     "year": "1983",
@@ -7008,7 +7008,7 @@
     "tags": []
   },
   {
-    "id": 490,
+    "id": 483,
     "title": "Bread and Wine",
     "author": "Ignazio Silone",
     "year": "1936",
@@ -7022,7 +7022,7 @@
     "tags": []
   },
   {
-    "id": 491,
+    "id": 484,
     "title": "Fontamara",
     "author": "Ignazio Silone",
     "year": "1933",
@@ -7036,7 +7036,7 @@
     "tags": []
   },
   {
-    "id": 492,
+    "id": 485,
     "title": "The Twelve Chairs",
     "author": "Ilf and Petrov",
     "year": "1928",
@@ -7050,7 +7050,7 @@
     "tags": []
   },
   {
-    "id": 493,
+    "id": 486,
     "title": "Kaddish for an Unborn Child",
     "author": "Imre Kertesz",
     "year": "1990",
@@ -7064,7 +7064,7 @@
     "tags": []
   },
   {
-    "id": 494,
+    "id": 487,
     "title": "Fatelessness",
     "author": "Imre Kertesz",
     "year": "1975",
@@ -7078,7 +7078,7 @@
     "tags": []
   },
   {
-    "id": 495,
+    "id": 488,
     "title": "Malina",
     "author": "Ingeborg Bachmann",
     "year": "1971",
@@ -7092,7 +7092,7 @@
     "tags": []
   },
   {
-    "id": 496,
+    "id": 489,
     "title": "Basti",
     "author": "Intizar Husain",
     "year": "1979",
@@ -7108,7 +7108,7 @@
     ]
   },
   {
-    "id": 497,
+    "id": 490,
     "title": "My Uncle Napoleon",
     "author": "Iraj Pezeshkzad",
     "year": "1973",
@@ -7122,7 +7122,7 @@
     "tags": []
   },
   {
-    "id": 498,
+    "id": 491,
     "title": "The Artificial Silk Girl",
     "author": "Irmgard Keun",
     "year": "1932",
@@ -7136,7 +7136,7 @@
     "tags": []
   },
   {
-    "id": 499,
+    "id": 492,
     "title": "Trainspotting",
     "author": "Irvine Welsh",
     "year": "1993",
@@ -7152,7 +7152,7 @@
     ]
   },
   {
-    "id": 500,
+    "id": 493,
     "title": "Red Cavalry",
     "author": "Isaac Babel",
     "year": "1926",
@@ -7166,7 +7166,7 @@
     "tags": []
   },
   {
-    "id": 501,
+    "id": 494,
     "title": "Satan in Goray",
     "author": "Isaac Bashevis Singer",
     "year": "1935",
@@ -7180,7 +7180,7 @@
     "tags": []
   },
   {
-    "id": 502,
+    "id": 495,
     "title": "The House of the Spirits",
     "author": "Isabel Allende",
     "year": "1982",
@@ -7196,7 +7196,7 @@
     ]
   },
   {
-    "id": 503,
+    "id": 496,
     "title": "Broken April",
     "author": "Ismail Kadare",
     "year": "1980",
@@ -7210,7 +7210,7 @@
     "tags": []
   },
   {
-    "id": 504,
+    "id": 497,
     "title": "The Karnowski Family",
     "author": "Israel Joshua Singer",
     "year": "1943",
@@ -7224,7 +7224,7 @@
     "tags": []
   },
   {
-    "id": 505,
+    "id": 498,
     "title": "Invisible Cities",
     "author": "Italo Calvino",
     "year": "1972",
@@ -7238,7 +7238,7 @@
     "tags": []
   },
   {
-    "id": 506,
+    "id": 499,
     "title": "If on a Winter’s Night a Traveler",
     "author": "Italo Calvino",
     "year": "1979",
@@ -7252,7 +7252,7 @@
     "tags": []
   },
   {
-    "id": 507,
+    "id": 500,
     "title": "Zeno’s Conscience",
     "author": "Italo Svevo",
     "year": "1923",
@@ -7266,7 +7266,7 @@
     "tags": []
   },
   {
-    "id": 508,
+    "id": 501,
     "title": "Cross-Paths",
     "author": "Ivan Franko",
     "year": "1900",
@@ -7280,7 +7280,7 @@
     "tags": []
   },
   {
-    "id": 509,
+    "id": 502,
     "title": "Oblomov",
     "author": "Ivan Goncharov",
     "year": "1859",
@@ -7294,7 +7294,7 @@
     "tags": []
   },
   {
-    "id": 510,
+    "id": 503,
     "title": "Love and Garbage",
     "author": "Ivan Klima",
     "year": "1986",
@@ -7308,7 +7308,7 @@
     "tags": []
   },
   {
-    "id": 511,
+    "id": 504,
     "title": "Fathers and Sons",
     "author": "Ivan Turgenev",
     "year": "1862",
@@ -7322,7 +7322,7 @@
     "tags": []
   },
   {
-    "id": 513,
+    "id": 505,
     "title": "The Bridge on the Drina",
     "author": "Ivo Andric",
     "year": "1945",
@@ -7336,7 +7336,7 @@
     "tags": []
   },
   {
-    "id": 515,
+    "id": 506,
     "title": "The Interrogation",
     "author": "J.M.G. Le Clezio",
     "year": "1963",
@@ -7350,7 +7350,7 @@
     "tags": []
   },
   {
-    "id": 516,
+    "id": 507,
     "title": "Niels Lyhne",
     "author": "J. P. Jacobsen",
     "year": "1880",
@@ -7366,7 +7366,7 @@
     ]
   },
   {
-    "id": 517,
+    "id": 508,
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "year": "1951",
@@ -7380,7 +7380,7 @@
     "tags": []
   },
   {
-    "id": 518,
+    "id": 509,
     "title": "Disgrace",
     "author": "J.M. Coetzee",
     "year": "1999",
@@ -7394,7 +7394,7 @@
     "tags": []
   },
   {
-    "id": 519,
+    "id": 510,
     "title": "Waiting for the Barbarians",
     "author": "J.M. Coetzee",
     "year": "1980",
@@ -7408,7 +7408,7 @@
     "tags": []
   },
   {
-    "id": 520,
+    "id": 511,
     "title": "The Czar’s Madman",
     "author": "Jaan Kross",
     "year": "1978",
@@ -7422,7 +7422,7 @@
     "tags": []
   },
   {
-    "id": 521,
+    "id": 512,
     "title": "In Search of Walid Masoud",
     "author": "Jabra Ibrahim Jabra",
     "year": "1978",
@@ -7436,7 +7436,7 @@
     "tags": []
   },
   {
-    "id": 522,
+    "id": 513,
     "title": "I Who Have Never Known Men",
     "author": "Jacqueline Harpman",
     "year": "1995",
@@ -7450,7 +7450,7 @@
     "tags": []
   },
   {
-    "id": 523,
+    "id": 514,
     "title": "The Autobiography of My Mother",
     "author": "Jamaica Kincaid",
     "year": "1996",
@@ -7464,7 +7464,7 @@
     "tags": []
   },
   {
-    "id": 524,
+    "id": 515,
     "title": "Go Tell it on the Mountain",
     "author": "James Baldwin",
     "year": "1953",
@@ -7478,7 +7478,7 @@
     "tags": []
   },
   {
-    "id": 525,
+    "id": 516,
     "title": "The Private Memoirs of a Justified Sinner",
     "author": "James Hogg",
     "year": "1824",
@@ -7494,7 +7494,7 @@
     ]
   },
   {
-    "id": 526,
+    "id": 517,
     "title": "Ulysses",
     "author": "James Joyce",
     "year": "1922",
@@ -7508,7 +7508,7 @@
     "tags": []
   },
   {
-    "id": 527,
+    "id": 518,
     "title": "A Portrait of the Artist as a Young Man",
     "author": "James Joyce",
     "year": "1916",
@@ -7522,7 +7522,7 @@
     "tags": []
   },
   {
-    "id": 528,
+    "id": 519,
     "title": "How Late it Was, How Late",
     "author": "James Kelman",
     "year": "1994",
@@ -7538,7 +7538,7 @@
     ]
   },
   {
-    "id": 529,
+    "id": 520,
     "title": "The Manuscript Found in Saragossa",
     "author": "Jan Potocki",
     "year": "1810",
@@ -7552,7 +7552,7 @@
     "tags": []
   },
   {
-    "id": 530,
+    "id": 521,
     "title": "Emma",
     "author": "Jane Austen",
     "year": "1815",
@@ -7568,7 +7568,7 @@
     ]
   },
   {
-    "id": 531,
+    "id": 522,
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "year": "1813",
@@ -7584,7 +7584,7 @@
     ]
   },
   {
-    "id": 532,
+    "id": 523,
     "title": "Faces in the Water",
     "author": "Janet Frame",
     "year": "1961",
@@ -7598,7 +7598,7 @@
     "tags": []
   },
   {
-    "id": 533,
+    "id": 524,
     "title": "Owls Do Cry",
     "author": "Janet Frame",
     "year": "1957",
@@ -7612,7 +7612,7 @@
     "tags": []
   },
   {
-    "id": 534,
+    "id": 525,
     "title": "The Good Soldier Švejk",
     "author": "Jaroslav Hasek",
     "year": "1923",
@@ -7626,7 +7626,7 @@
     "tags": []
   },
   {
-    "id": 535,
+    "id": 526,
     "title": "The Soldiers of Salamis",
     "author": "Javier Cercas",
     "year": "2001",
@@ -7640,7 +7640,7 @@
     "tags": []
   },
   {
-    "id": 536,
+    "id": 527,
     "title": "A Heart So White",
     "author": "Javier Marias",
     "year": "1992",
@@ -7654,7 +7654,7 @@
     "tags": []
   },
   {
-    "id": 537,
+    "id": 528,
     "title": "Our Lady of the Flowers",
     "author": "Jean Genet",
     "year": "1943",
@@ -7668,7 +7668,7 @@
     "tags": []
   },
   {
-    "id": 538,
+    "id": 529,
     "title": "The Horseman on the Roof",
     "author": "Jean Giono",
     "year": "1951",
@@ -7682,7 +7682,7 @@
     "tags": []
   },
   {
-    "id": 539,
+    "id": 530,
     "title": "Malpertuis",
     "author": "Jean Ray",
     "year": "1943",
@@ -7696,7 +7696,7 @@
     "tags": []
   },
   {
-    "id": 540,
+    "id": 531,
     "title": "Wide Sargasso Sea",
     "author": "Jean Rhys",
     "year": "1966",
@@ -7712,7 +7712,7 @@
     ]
   },
   {
-    "id": 541,
+    "id": 532,
     "title": "The End of Days",
     "author": "Jenny Erpenbeck",
     "year": "2012",
@@ -7726,7 +7726,7 @@
     "tags": []
   },
   {
-    "id": 542,
+    "id": 533,
     "title": "Ashes and Diamonds",
     "author": "Jerzy Andrzejewski",
     "year": "1948",
@@ -7740,7 +7740,7 @@
     "tags": []
   },
   {
-    "id": 543,
+    "id": 534,
     "title": "Tirra Lirra by the River",
     "author": "Jessica Anderson",
     "year": "1978",
@@ -7754,7 +7754,7 @@
     "tags": []
   },
   {
-    "id": 544,
+    "id": 535,
     "title": "Dogeaters",
     "author": "Jessica Hagedorn",
     "year": "1990",
@@ -7768,7 +7768,7 @@
     "tags": []
   },
   {
-    "id": 545,
+    "id": 536,
     "title": "Uncertain Glory",
     "author": "Joan Sales",
     "year": "1956",
@@ -7782,7 +7782,7 @@
     "tags": []
   },
   {
-    "id": 546,
+    "id": 537,
     "title": "The Devil to Pay in the Backlands",
     "author": "Joao Guimaraes Rosa",
     "year": "1956",
@@ -7798,7 +7798,7 @@
     ]
   },
   {
-    "id": 547,
+    "id": 538,
     "title": "The Core of the Sun",
     "author": "Johanna Sinisalo",
     "year": "2013",
@@ -7814,7 +7814,7 @@
     ]
   },
   {
-    "id": 548,
+    "id": 539,
     "title": "The Fall of the King",
     "author": "Johannes V. Jensen",
     "year": "1900",
@@ -7830,7 +7830,7 @@
     ]
   },
   {
-    "id": 549,
+    "id": 540,
     "title": "The Sea",
     "author": "John Banville",
     "year": "2005",
@@ -7844,7 +7844,7 @@
     "tags": []
   },
   {
-    "id": 550,
+    "id": 541,
     "title": "Amongst Women",
     "author": "John McGahern",
     "year": "1990",
@@ -7858,7 +7858,7 @@
     "tags": []
   },
   {
-    "id": 551,
+    "id": 542,
     "title": "Appointment in Samarra",
     "author": "John O'Hara",
     "year": "1934",
@@ -7872,7 +7872,7 @@
     "tags": []
   },
   {
-    "id": 552,
+    "id": 543,
     "title": "The Grapes of Wrath",
     "author": "John Steinbeck",
     "year": "1939",
@@ -7886,7 +7886,7 @@
     "tags": []
   },
   {
-    "id": 553,
+    "id": 544,
     "title": "Celestial Bodies",
     "author": "Jokha Alharthi",
     "year": "2010",
@@ -7900,7 +7900,7 @@
     "tags": []
   },
   {
-    "id": 554,
+    "id": 545,
     "title": "Septology",
     "author": "Jon Fosse",
     "year": "2021",
@@ -7916,7 +7916,7 @@
     ]
   },
   {
-    "id": 555,
+    "id": 546,
     "title": "Childhood",
     "author": "Jona Oberski",
     "year": "1978",
@@ -7930,7 +7930,7 @@
     "tags": []
   },
   {
-    "id": 556,
+    "id": 547,
     "title": "Gulliver’s Travels",
     "author": "Jonathan Swift",
     "year": "1726",
@@ -7946,7 +7946,7 @@
     ]
   },
   {
-    "id": 557,
+    "id": 548,
     "title": "Capitães de Areia",
     "author": "Jorge Amado",
     "year": "1937",
@@ -7962,7 +7962,7 @@
     ]
   },
   {
-    "id": 558,
+    "id": 549,
     "title": "Against Nature",
     "author": "Joris-Karl Huysmans",
     "year": "1884",
@@ -7976,7 +7976,7 @@
     "tags": []
   },
   {
-    "id": 559,
+    "id": 550,
     "title": "The Delfim",
     "author": "Jose Cardoso Pires",
     "year": "1968",
@@ -7990,7 +7990,7 @@
     "tags": []
   },
   {
-    "id": 560,
+    "id": 551,
     "title": "The Obscene Bird of Night",
     "author": "Jose Donoso",
     "year": "1970",
@@ -8006,7 +8006,7 @@
     ]
   },
   {
-    "id": 561,
+    "id": 552,
     "title": "The Book of Chameleons",
     "author": "Jose Eduardo Agualusa",
     "year": "2004",
@@ -8020,7 +8020,7 @@
     "tags": []
   },
   {
-    "id": 562,
+    "id": 553,
     "title": "The Vortex",
     "author": "Jose Eustasio Rivera",
     "year": "1924",
@@ -8036,7 +8036,7 @@
     ]
   },
   {
-    "id": 563,
+    "id": 554,
     "title": "Luuanda",
     "author": "Jose Luandino Vieira",
     "year": "1963",
@@ -8050,7 +8050,7 @@
     "tags": []
   },
   {
-    "id": 564,
+    "id": 555,
     "title": "Deep Rivers",
     "author": "Jose Maria Arguedas",
     "year": "1958",
@@ -8066,7 +8066,7 @@
     ]
   },
   {
-    "id": 565,
+    "id": 556,
     "title": "Noli Me Tangere",
     "author": "Jose Rizal",
     "year": "1887",
@@ -8080,7 +8080,7 @@
     "tags": []
   },
   {
-    "id": 566,
+    "id": 557,
     "title": "The Gospel According to Jesus Christ",
     "author": "Jose Saramago",
     "year": "1991",
@@ -8094,7 +8094,7 @@
     "tags": []
   },
   {
-    "id": 567,
+    "id": 558,
     "title": "Blindness",
     "author": "Jose Saramago",
     "year": "1995",
@@ -8108,7 +8108,7 @@
     "tags": []
   },
   {
-    "id": 568,
+    "id": 559,
     "title": "Baltasar and Blimunda",
     "author": "Jose Saramago",
     "year": "1982",
@@ -8122,7 +8122,7 @@
     "tags": []
   },
   {
-    "id": 569,
+    "id": 560,
     "title": "The Cowards",
     "author": "Josef Skvorecky",
     "year": "1958",
@@ -8136,7 +8136,7 @@
     "tags": []
   },
   {
-    "id": 570,
+    "id": 561,
     "title": "The Empty Book",
     "author": "Josefina Vicens",
     "year": "1958",
@@ -8152,7 +8152,7 @@
     ]
   },
   {
-    "id": 571,
+    "id": 562,
     "title": "Heart of Darkness",
     "author": "Joseph Conrad",
     "year": "1899",
@@ -8168,7 +8168,7 @@
     ]
   },
   {
-    "id": 572,
+    "id": 563,
     "title": "Nostromo",
     "author": "Joseph Conrad",
     "year": "1904",
@@ -8184,7 +8184,7 @@
     ]
   },
   {
-    "id": 573,
+    "id": 564,
     "title": "Catch-22",
     "author": "Joseph Heller",
     "year": "1961",
@@ -8198,7 +8198,7 @@
     "tags": []
   },
   {
-    "id": 574,
+    "id": 565,
     "title": "Job",
     "author": "Joseph Roth",
     "year": "1930",
@@ -8212,7 +8212,7 @@
     "tags": []
   },
   {
-    "id": 575,
+    "id": 566,
     "title": "The Radetzky March",
     "author": "Joseph Roth",
     "year": "1932",
@@ -8226,7 +8226,7 @@
     "tags": []
   },
   {
-    "id": 576,
+    "id": 567,
     "title": "The Life of a Good-for-nothing",
     "author": "Joseph von Eichendorff",
     "year": "1826",
@@ -8240,7 +8240,7 @@
     "tags": []
   },
   {
-    "id": 577,
+    "id": 568,
     "title": "Black Shack Alley",
     "author": "Joseph Zobel",
     "year": "1950",
@@ -8254,7 +8254,7 @@
     "tags": []
   },
   {
-    "id": 578,
+    "id": 569,
     "title": "Not Out of Hate",
     "author": "Journal Kyaw Ma Ma Lay",
     "year": "1955",
@@ -8268,7 +8268,7 @@
     "tags": []
   },
   {
-    "id": 579,
+    "id": 570,
     "title": "The Shipyard",
     "author": "Juan Carlos Onetti",
     "year": "1961",
@@ -8284,7 +8284,7 @@
     ]
   },
   {
-    "id": 580,
+    "id": 571,
     "title": "A Brief Life",
     "author": "Juan Carlos Onetti",
     "year": "1950",
@@ -8300,7 +8300,7 @@
     ]
   },
   {
-    "id": 581,
+    "id": 572,
     "title": "Marks of Identity",
     "author": "Juan Goytisolo",
     "year": "1966",
@@ -8314,7 +8314,7 @@
     "tags": []
   },
   {
-    "id": 582,
+    "id": 573,
     "title": "Count Julian",
     "author": "Juan Goytisolo",
     "year": "1970",
@@ -8328,7 +8328,7 @@
     "tags": []
   },
   {
-    "id": 583,
+    "id": 574,
     "title": "La Grande",
     "author": "Juan Jose Saer",
     "year": "1990",
@@ -8344,7 +8344,7 @@
     ]
   },
   {
-    "id": 584,
+    "id": 575,
     "title": "Ultimas Tardes con Teresa",
     "author": "Juan Marse",
     "year": "1966",
@@ -8358,7 +8358,7 @@
     "tags": []
   },
   {
-    "id": 585,
+    "id": 576,
     "title": "Pedro Páramo",
     "author": "Juan Rulfo",
     "year": "1955",
@@ -8374,7 +8374,7 @@
     ]
   },
   {
-    "id": 586,
+    "id": 577,
     "title": "The Opposing Shore",
     "author": "Julien Gracq",
     "year": "1951",
@@ -8388,7 +8388,7 @@
     "tags": []
   },
   {
-    "id": 587,
+    "id": 578,
     "title": "Hopscotch",
     "author": "Julio Cortazar",
     "year": "1963",
@@ -8404,7 +8404,7 @@
     ]
   },
   {
-    "id": 588,
+    "id": 579,
     "title": "As Pupilas do Sr Reitor",
     "author": "Julio Dinis",
     "year": "1867",
@@ -8418,7 +8418,7 @@
     "tags": []
   },
   {
-    "id": 589,
+    "id": 580,
     "title": "Some Prefer Nettles",
     "author": "Jun’ichiro Tanizaki",
     "year": "1928",
@@ -8432,7 +8432,7 @@
     "tags": []
   },
   {
-    "id": 590,
+    "id": 581,
     "title": "The Makioka Sisters",
     "author": "Jun’ichiro Tanizaki",
     "year": "1948",
@@ -8446,7 +8446,7 @@
     "tags": []
   },
   {
-    "id": 591,
+    "id": 582,
     "title": "Jacob the Liar",
     "author": "Jurek Becker",
     "year": "1969",
@@ -8460,7 +8460,7 @@
     "tags": []
   },
   {
-    "id": 592,
+    "id": 583,
     "title": "The Meursault Investigation",
     "author": "Kamel Daoud",
     "year": "2013",
@@ -8474,7 +8474,7 @@
     "tags": []
   },
   {
-    "id": 593,
+    "id": 584,
     "title": "War with the Newts",
     "author": "Karel Capek",
     "year": "1936",
@@ -8490,7 +8490,7 @@
     ]
   },
   {
-    "id": 594,
+    "id": 585,
     "title": "Out of Africa",
     "author": "Karen Blixen",
     "year": "1937",
@@ -8506,7 +8506,7 @@
     ]
   },
   {
-    "id": 596,
+    "id": 586,
     "title": "Feet in Chains",
     "author": "Kate Roberts",
     "year": "1936",
@@ -8522,7 +8522,7 @@
     ]
   },
   {
-    "id": 597,
+    "id": 587,
     "title": "Nedjma",
     "author": "Kateb Yacine",
     "year": "1956",
@@ -8536,7 +8536,7 @@
     "tags": []
   },
   {
-    "id": 598,
+    "id": 588,
     "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
     "year": "2005",
@@ -8552,7 +8552,7 @@
     ]
   },
   {
-    "id": 599,
+    "id": 589,
     "title": "The Remains of the Day",
     "author": "Kazuo Ishiguro",
     "year": "1989",
@@ -8568,7 +8568,7 @@
     ]
   },
   {
-    "id": 600,
+    "id": 590,
     "title": "Sozaboy",
     "author": "Ken Saro-Wiwa",
     "year": "1985",
@@ -8582,7 +8582,7 @@
     "tags": []
   },
   {
-    "id": 601,
+    "id": 591,
     "title": "The Cape",
     "author": "Kenji Nakagami",
     "year": "1976",
@@ -8596,7 +8596,7 @@
     "tags": []
   },
   {
-    "id": 602,
+    "id": 592,
     "title": "A Personal Matter",
     "author": "Kenzaburo Oe",
     "year": "1964",
@@ -8610,7 +8610,7 @@
     "tags": []
   },
   {
-    "id": 603,
+    "id": 593,
     "title": "The Bone People",
     "author": "Keri Hulme",
     "year": "1984",
@@ -8624,7 +8624,7 @@
     "tags": []
   },
   {
-    "id": 604,
+    "id": 594,
     "title": "Aangan",
     "author": "Khadija Mastoor",
     "year": "1962",
@@ -8640,7 +8640,7 @@
     ]
   },
   {
-    "id": 605,
+    "id": 595,
     "title": "No Knives in the Kitchens of This City",
     "author": "Khaled Khalifa",
     "year": "2013",
@@ -8654,7 +8654,7 @@
     "tags": []
   },
   {
-    "id": 606,
+    "id": 596,
     "title": "Train to Pakistan",
     "author": "Khushwant Singh",
     "year": "1956",
@@ -8670,7 +8670,7 @@
     ]
   },
   {
-    "id": 607,
+    "id": 597,
     "title": "That Deadman Dance",
     "author": "Kim Scott",
     "year": "2010",
@@ -8684,7 +8684,7 @@
     "tags": []
   },
   {
-    "id": 608,
+    "id": 598,
     "title": "The Inheritance of Loss",
     "author": "Kiran Desai",
     "year": "2006",
@@ -8700,7 +8700,7 @@
     ]
   },
   {
-    "id": 609,
+    "id": 599,
     "title": "Mephisto",
     "author": "Klaus Mann",
     "year": "1936",
@@ -8714,7 +8714,7 @@
     "tags": []
   },
   {
-    "id": 610,
+    "id": 600,
     "title": "Hunger",
     "author": "Knut Hamsun",
     "year": "1890",
@@ -8730,7 +8730,7 @@
     ]
   },
   {
-    "id": 611,
+    "id": 601,
     "title": "The Woman in the Dunes",
     "author": "Kobo Abe",
     "year": "1962",
@@ -8744,7 +8744,7 @@
     "tags": []
   },
   {
-    "id": 612,
+    "id": 602,
     "title": "Search Sweet Country",
     "author": "Kojo Laing",
     "year": "1986",
@@ -8758,7 +8758,7 @@
     "tags": []
   },
   {
-    "id": 614,
+    "id": 603,
     "title": "Four Reigns",
     "author": "Kukrit Pramoj",
     "year": "1953",
@@ -8772,7 +8772,7 @@
     "tags": []
   },
   {
-    "id": 615,
+    "id": 604,
     "title": "Ali and Nino",
     "author": "Kurban Said",
     "year": "1937",
@@ -8786,7 +8786,7 @@
     "tags": []
   },
   {
-    "id": 616,
+    "id": 605,
     "title": "Slaughterhouse V",
     "author": "Kurt Vonnegut",
     "year": "1969",
@@ -8800,7 +8800,7 @@
     "tags": []
   },
   {
-    "id": 617,
+    "id": 606,
     "title": "Rickshaw Boy",
     "author": "Lao She",
     "year": "1936",
@@ -8814,7 +8814,7 @@
     "tags": []
   },
   {
-    "id": 618,
+    "id": 607,
     "title": "The Melancholy of Resistance",
     "author": "Laszlo Krasznahorkai",
     "year": "1989",
@@ -8828,7 +8828,7 @@
     "tags": []
   },
   {
-    "id": 619,
+    "id": 608,
     "title": "Satantango",
     "author": "Laszlo Krasznahorkai",
     "year": "1985",
@@ -8842,7 +8842,7 @@
     "tags": []
   },
   {
-    "id": 620,
+    "id": 609,
     "title": "The Open Door",
     "author": "Latifa al-Zayyat",
     "year": "1960",
@@ -8856,7 +8856,7 @@
     "tags": []
   },
   {
-    "id": 621,
+    "id": 610,
     "title": "Dear Shameless Death",
     "author": "Latife Tekin",
     "year": "1983",
@@ -8870,7 +8870,7 @@
     "tags": []
   },
   {
-    "id": 622,
+    "id": 611,
     "title": "The Life and Opinions of Tristram Shandy",
     "author": "Laurence Sterne",
     "year": "1759",
@@ -8886,7 +8886,7 @@
     ]
   },
   {
-    "id": 623,
+    "id": 612,
     "title": "Lullaby",
     "author": "Leila Slimani",
     "year": "2016",
@@ -8900,7 +8900,7 @@
     "tags": []
   },
   {
-    "id": 624,
+    "id": 613,
     "title": "War and Peace",
     "author": "Leo Tolstoy",
     "year": "1869",
@@ -8914,7 +8914,7 @@
     "tags": []
   },
   {
-    "id": 625,
+    "id": 614,
     "title": "Anna Karenina",
     "author": "Leo Tolstoy",
     "year": "1877",
@@ -8928,7 +8928,7 @@
     "tags": []
   },
   {
-    "id": 626,
+    "id": 615,
     "title": "Hadji Murat",
     "author": "Leo Tolstoy",
     "year": "1912",
@@ -8942,7 +8942,7 @@
     "tags": []
   },
   {
-    "id": 627,
+    "id": 616,
     "title": "The Death of Ivan Ilyich",
     "author": "Leo Tolstoy",
     "year": "1886",
@@ -8956,7 +8956,7 @@
     "tags": []
   },
   {
-    "id": 628,
+    "id": 617,
     "title": "The Man Who Loved Dogs",
     "author": "Leonardo Padura",
     "year": "2009",
@@ -8972,7 +8972,7 @@
     ]
   },
   {
-    "id": 629,
+    "id": 618,
     "title": "The Day of the Owl",
     "author": "Leonardo Sciascia",
     "year": "1961",
@@ -8986,7 +8986,7 @@
     "tags": []
   },
   {
-    "id": 630,
+    "id": 619,
     "title": "La Regenta",
     "author": "Leopoldo Alas “Clarin”",
     "year": "1884",
@@ -9000,7 +9000,7 @@
     "tags": []
   },
   {
-    "id": 631,
+    "id": 620,
     "title": "Ceremony",
     "author": "Leslie Marmon Silko",
     "year": "1977",
@@ -9014,7 +9014,7 @@
     "tags": []
   },
   {
-    "id": 632,
+    "id": 621,
     "title": "Sunset Song",
     "author": "Lewis Grassic Gibbon",
     "year": "1932",
@@ -9030,7 +9030,7 @@
     ]
   },
   {
-    "id": 633,
+    "id": 622,
     "title": "The Murmuring Coast",
     "author": "Lidia Jorge",
     "year": "1988",
@@ -9044,7 +9044,7 @@
     "tags": []
   },
   {
-    "id": 634,
+    "id": 623,
     "title": "The Sad End of Policarpo Quaresma",
     "author": "Lima Barreto",
     "year": "1915",
@@ -9060,7 +9060,7 @@
     ]
   },
   {
-    "id": 635,
+    "id": 624,
     "title": "The Oppermanns",
     "author": "Lion Feuchtwanger",
     "year": "1933",
@@ -9074,7 +9074,7 @@
     "tags": []
   },
   {
-    "id": 636,
+    "id": 625,
     "title": "The Forest of the Hanged",
     "author": "Liviu Rebreanu",
     "year": "1922",
@@ -9088,7 +9088,7 @@
     "tags": []
   },
   {
-    "id": 637,
+    "id": 626,
     "title": "Eline Vere",
     "author": "Louis Couperus",
     "year": "1889",
@@ -9102,7 +9102,7 @@
     "tags": []
   },
   {
-    "id": 638,
+    "id": 627,
     "title": "Chapel Road",
     "author": "Louis Paul Bloon",
     "year": "1953",
@@ -9116,7 +9116,7 @@
     "tags": []
   },
   {
-    "id": 639,
+    "id": 628,
     "title": "Death on Credit",
     "author": "Louis-Ferdinand Celine",
     "year": "1936",
@@ -9130,7 +9130,7 @@
     "tags": []
   },
   {
-    "id": 640,
+    "id": 629,
     "title": "Journey to the End of the Night",
     "author": "Louis-Ferdinand Celine",
     "year": "1932",
@@ -9144,7 +9144,7 @@
     "tags": []
   },
   {
-    "id": 641,
+    "id": 630,
     "title": "The True Story of Ah Q",
     "author": "Lu Xun",
     "year": "1921",
@@ -9158,7 +9158,7 @@
     "tags": []
   },
   {
-    "id": 642,
+    "id": 631,
     "title": "Daniel Stein, Interpreter",
     "author": "Ludmilla Ulitskaya",
     "year": "2006",
@@ -9172,7 +9172,7 @@
     "tags": []
   },
   {
-    "id": 643,
+    "id": 632,
     "title": "The Late Mathias Pascal",
     "author": "Luigi Pirandello",
     "year": "1904",
@@ -9186,7 +9186,7 @@
     "tags": []
   },
   {
-    "id": 644,
+    "id": 633,
     "title": "Time of Silence",
     "author": "Luis Martin-Santos",
     "year": "1962",
@@ -9200,7 +9200,7 @@
     "tags": []
   },
   {
-    "id": 645,
+    "id": 634,
     "title": "As Meninas",
     "author": "Lygia Fagundes Telles",
     "year": "1973",
@@ -9216,7 +9216,7 @@
     ]
   },
   {
-    "id": 646,
+    "id": 635,
     "title": "Beneath the Lion’s Gaze",
     "author": "Maaza Mengiste",
     "year": "2010",
@@ -9230,7 +9230,7 @@
     "tags": []
   },
   {
-    "id": 647,
+    "id": 636,
     "title": "Dom Casmurro",
     "author": "Machado de Assis",
     "year": "1899",
@@ -9246,7 +9246,7 @@
     ]
   },
   {
-    "id": 648,
+    "id": 637,
     "title": "The Posthumous Memoirs of Brás Cubas",
     "author": "Machado de Assis",
     "year": "1881",
@@ -9262,7 +9262,7 @@
     ]
   },
   {
-    "id": 649,
+    "id": 638,
     "title": "The Princess of Cleves",
     "author": "Madame de Lafayette",
     "year": "1678",
@@ -9276,7 +9276,7 @@
     "tags": []
   },
   {
-    "id": 650,
+    "id": 639,
     "title": "Gilles’ Wife",
     "author": "Madeleine Bourdouxhe",
     "year": "1937",
@@ -9290,7 +9290,7 @@
     "tags": []
   },
   {
-    "id": 651,
+    "id": 640,
     "title": "The Door",
     "author": "Magda Szabo",
     "year": "1987",
@@ -9304,7 +9304,7 @@
     "tags": []
   },
   {
-    "id": 652,
+    "id": 641,
     "title": "Missing Soluch",
     "author": "Mahmoud Dowlatabadi",
     "year": "1979",
@@ -9318,7 +9318,7 @@
     "tags": []
   },
   {
-    "id": 653,
+    "id": 642,
     "title": "The Colonel",
     "author": "Mahmoud Dowlatabadi",
     "year": "2009",
@@ -9332,7 +9332,7 @@
     "tags": []
   },
   {
-    "id": 654,
+    "id": 643,
     "title": "Under the Volcano",
     "author": "Malcolm Lowry",
     "year": "1947",
@@ -9348,7 +9348,7 @@
     ]
   },
   {
-    "id": 655,
+    "id": 644,
     "title": "Kiss of the Spider Woman",
     "author": "Manuel Puig",
     "year": "1976",
@@ -9364,7 +9364,7 @@
     ]
   },
   {
-    "id": 656,
+    "id": 645,
     "title": "In Search of Lost Time",
     "author": "Marcel Proust",
     "year": "1927",
@@ -9378,7 +9378,7 @@
     "tags": []
   },
   {
-    "id": 657,
+    "id": 646,
     "title": "A Posthumous Confession",
     "author": "Marcellus Emants",
     "year": "1894",
@@ -9392,7 +9392,7 @@
     "tags": []
   },
   {
-    "id": 658,
+    "id": 647,
     "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
     "year": "1985",
@@ -9408,7 +9408,7 @@
     ]
   },
   {
-    "id": 659,
+    "id": 648,
     "title": "Alias Grace",
     "author": "Margaret Atwood",
     "year": "1996",
@@ -9424,7 +9424,7 @@
     ]
   },
   {
-    "id": 660,
+    "id": 649,
     "title": "The Stone Angel",
     "author": "Margaret Laurence",
     "year": "1964",
@@ -9438,7 +9438,7 @@
     "tags": []
   },
   {
-    "id": 661,
+    "id": 650,
     "title": "Kassandra and the Wolf",
     "author": "Margarita Karapanou",
     "year": "1976",
@@ -9452,7 +9452,7 @@
     "tags": []
   },
   {
-    "id": 662,
+    "id": 651,
     "title": "The Lover",
     "author": "Marguerite Duras",
     "year": "1985",
@@ -9466,7 +9466,7 @@
     "tags": []
   },
   {
-    "id": 663,
+    "id": 652,
     "title": "Memoirs of Hadrian",
     "author": "Marguerite Yourcenar",
     "year": "1951",
@@ -9480,7 +9480,7 @@
     "tags": []
   },
   {
-    "id": 664,
+    "id": 653,
     "title": "The Ten Thousand Things",
     "author": "Maria Dermout",
     "year": "1955",
@@ -9494,7 +9494,7 @@
     "tags": []
   },
   {
-    "id": 665,
+    "id": 654,
     "title": "The Final Mist",
     "author": "Maria Luisa Bombal",
     "year": "1935",
@@ -9510,7 +9510,7 @@
     ]
   },
   {
-    "id": 666,
+    "id": 655,
     "title": "So Long a Letter",
     "author": "Mariama Ba",
     "year": "1979",
@@ -9524,7 +9524,7 @@
     "tags": []
   },
   {
-    "id": 667,
+    "id": 656,
     "title": "The Underdogs",
     "author": "Mariano Azuela",
     "year": "1915",
@@ -9540,7 +9540,7 @@
     ]
   },
   {
-    "id": 668,
+    "id": 657,
     "title": "A Season in the Life of Emmanuel",
     "author": "Marie-Claire Blais",
     "year": "1965",
@@ -9554,7 +9554,7 @@
     "tags": []
   },
   {
-    "id": 669,
+    "id": 658,
     "title": "Housekeeping",
     "author": "Marilynne Robinson",
     "year": "1980",
@@ -9568,7 +9568,7 @@
     "tags": []
   },
   {
-    "id": 670,
+    "id": 659,
     "title": "The Truce",
     "author": "Mario Benedetti",
     "year": "1960",
@@ -9584,7 +9584,7 @@
     ]
   },
   {
-    "id": 671,
+    "id": 660,
     "title": "Conversation in the Cathedral",
     "author": "Mario Vargas Llosa",
     "year": "1969",
@@ -9600,7 +9600,7 @@
     ]
   },
   {
-    "id": 672,
+    "id": 661,
     "title": "The War of the End of the World",
     "author": "Mario Vargas Llosa",
     "year": "1981",
@@ -9616,7 +9616,7 @@
     ]
   },
   {
-    "id": 673,
+    "id": 662,
     "title": "The Adventures of Huckleberry Finn",
     "author": "Mark Twain",
     "year": "1884",
@@ -9630,7 +9630,7 @@
     "tags": []
   },
   {
-    "id": 674,
+    "id": 663,
     "title": "A Brief History of Seven Killings",
     "author": "Marlon James",
     "year": "2014",
@@ -9644,7 +9644,7 @@
     "tags": []
   },
   {
-    "id": 676,
+    "id": 664,
     "title": "The Way of the Lotus",
     "author": "Martin Wickramasinghe",
     "year": "1956",
@@ -9660,7 +9660,7 @@
     ]
   },
   {
-    "id": 677,
+    "id": 665,
     "title": "Frankenstein",
     "author": "Mary Shelley",
     "year": "1818",
@@ -9676,7 +9676,7 @@
     ]
   },
   {
-    "id": 678,
+    "id": 666,
     "title": "Crossing the Mangrove",
     "author": "Maryse Conde",
     "year": "1989",
@@ -9690,7 +9690,7 @@
     "tags": []
   },
   {
-    "id": 679,
+    "id": 667,
     "title": "Segu",
     "author": "Maryse Conde",
     "year": "1984",
@@ -9704,7 +9704,7 @@
     "tags": []
   },
   {
-    "id": 680,
+    "id": 668,
     "title": "Black Rain",
     "author": "Masuji Ibuse",
     "year": "1966",
@@ -9718,7 +9718,7 @@
     "tags": []
   },
   {
-    "id": 682,
+    "id": 669,
     "title": "Homo Faber",
     "author": "Max Frisch",
     "year": "1957",
@@ -9732,7 +9732,7 @@
     "tags": []
   },
   {
-    "id": 683,
+    "id": 670,
     "title": "I’m Not Stiller",
     "author": "Max Frisch",
     "year": "1954",
@@ -9746,7 +9746,7 @@
     "tags": []
   },
   {
-    "id": 684,
+    "id": 671,
     "title": "My Childhood",
     "author": "Maxim Gorky",
     "year": "1913",
@@ -9760,7 +9760,7 @@
     "tags": []
   },
   {
-    "id": 685,
+    "id": 672,
     "title": "The Mother",
     "author": "Maxim Gorky",
     "year": "1906",
@@ -9774,7 +9774,7 @@
     "tags": []
   },
   {
-    "id": 686,
+    "id": 673,
     "title": "The Time of the Doves",
     "author": "Merce Rodoreda",
     "year": "1962",
@@ -9788,7 +9788,7 @@
     "tags": []
   },
   {
-    "id": 687,
+    "id": 674,
     "title": "Death and the Dervish",
     "author": "Mesa Selimovic",
     "year": "1966",
@@ -9802,7 +9802,7 @@
     "tags": []
   },
   {
-    "id": 688,
+    "id": 675,
     "title": "Sleepwalking Land",
     "author": "Mia Couto",
     "year": "1992",
@@ -9816,7 +9816,7 @@
     "tags": []
   },
   {
-    "id": 689,
+    "id": 676,
     "title": "The English Patient",
     "author": "Michael Ondaatje",
     "year": "1992",
@@ -9830,7 +9830,7 @@
     "tags": []
   },
   {
-    "id": 690,
+    "id": 677,
     "title": "Le Roi des Aulnes",
     "author": "Michel Tournier",
     "year": "1970",
@@ -9844,7 +9844,7 @@
     "tags": []
   },
   {
-    "id": 691,
+    "id": 678,
     "title": "No Telephone to Heaven",
     "author": "Michelle Cliff",
     "year": "1987",
@@ -9858,7 +9858,7 @@
     "tags": []
   },
   {
-    "id": 692,
+    "id": 679,
     "title": "The President",
     "author": "Miguel Angel Asturias",
     "year": "1946",
@@ -9874,7 +9874,7 @@
     ]
   },
   {
-    "id": 693,
+    "id": 680,
     "title": "Men of Maize",
     "author": "Miguel Angel Asturias",
     "year": "1949",
@@ -9890,7 +9890,7 @@
     ]
   },
   {
-    "id": 694,
+    "id": 681,
     "title": "Don Quixote",
     "author": "Miguel de Cervantes",
     "year": "1615",
@@ -9904,7 +9904,7 @@
     "tags": []
   },
   {
-    "id": 695,
+    "id": 682,
     "title": "Mist",
     "author": "Miguel de Unamuno",
     "year": "1914",
@@ -9918,7 +9918,7 @@
     "tags": []
   },
   {
-    "id": 696,
+    "id": 683,
     "title": "The Creation of the World",
     "author": "Miguel Torga",
     "year": "1937",
@@ -9932,7 +9932,7 @@
     "tags": []
   },
   {
-    "id": 697,
+    "id": 684,
     "title": "The Master and Margarita",
     "author": "Mikhail Bulgakov",
     "year": "1967",
@@ -9946,7 +9946,7 @@
     "tags": []
   },
   {
-    "id": 698,
+    "id": 685,
     "title": "A Hero of Our Time",
     "author": "Mikhail Lermontov",
     "year": "1840",
@@ -9960,7 +9960,7 @@
     "tags": []
   },
   {
-    "id": 699,
+    "id": 686,
     "title": "And Quiet Flows the Don",
     "author": "Mikhail Sholokhov",
     "year": "1928",
@@ -9974,7 +9974,7 @@
     "tags": []
   },
   {
-    "id": 700,
+    "id": 687,
     "title": "Kvachi",
     "author": "Mikheil Javakhishvili",
     "year": "1924",
@@ -9988,7 +9988,7 @@
     "tags": []
   },
   {
-    "id": 701,
+    "id": 688,
     "title": "They Were Counted",
     "author": "Miklos Banffy",
     "year": "1934",
@@ -10002,7 +10002,7 @@
     "tags": []
   },
   {
-    "id": 702,
+    "id": 689,
     "title": "The Unbearable Lightness of Being",
     "author": "Milan Kundera",
     "year": "1984",
@@ -10016,7 +10016,7 @@
     "tags": []
   },
   {
-    "id": 703,
+    "id": 690,
     "title": "Dictionary of the Khazars",
     "author": "Milorad Pavic",
     "year": "1984",
@@ -10030,7 +10030,7 @@
     "tags": []
   },
   {
-    "id": 704,
+    "id": 691,
     "title": "Two Brothers",
     "author": "Milton Hatoum",
     "year": "2000",
@@ -10046,7 +10046,7 @@
     ]
   },
   {
-    "id": 705,
+    "id": 692,
     "title": "Nostalgia",
     "author": "Mircea Cartarescu",
     "year": "1989",
@@ -10060,7 +10060,7 @@
     "tags": []
   },
   {
-    "id": 707,
+    "id": 693,
     "title": "On the Edge of Reason",
     "author": "Miroslav Krleza",
     "year": "1938",
@@ -10074,7 +10074,7 @@
     "tags": []
   },
   {
-    "id": 708,
+    "id": 694,
     "title": "The Return of Philip Latinowicz",
     "author": "Miroslav Krleza",
     "year": "1932",
@@ -10088,7 +10088,7 @@
     "tags": []
   },
   {
-    "id": 709,
+    "id": 695,
     "title": "Big Breasts and Wide Hips",
     "author": "Mo Yan",
     "year": "1995",
@@ -10102,7 +10102,7 @@
     "tags": []
   },
   {
-    "id": 710,
+    "id": 696,
     "title": "Red Sorghum",
     "author": "Mo Yan",
     "year": "1987",
@@ -10116,7 +10116,7 @@
     "tags": []
   },
   {
-    "id": 711,
+    "id": 697,
     "title": "For Bread Alone",
     "author": "Mohamed Choukri",
     "year": "1973",
@@ -10130,7 +10130,7 @@
     "tags": []
   },
   {
-    "id": 712,
+    "id": 698,
     "title": "The Game of Forgetting",
     "author": "Mohammed Berrada",
     "year": "1987",
@@ -10144,7 +10144,7 @@
     "tags": []
   },
   {
-    "id": 713,
+    "id": 699,
     "title": "The Reluctant Fundamentalist",
     "author": "Mohsin Hamid",
     "year": "2007",
@@ -10160,7 +10160,7 @@
     ]
   },
   {
-    "id": 714,
+    "id": 700,
     "title": "The Poor Christ of Bomba",
     "author": "Mongo Beti",
     "year": "1956",
@@ -10174,7 +10174,7 @@
     "tags": []
   },
   {
-    "id": 715,
+    "id": 701,
     "title": "Mission to Kala",
     "author": "Mongo Beti",
     "year": "1957",
@@ -10188,7 +10188,7 @@
     "tags": []
   },
   {
-    "id": 716,
+    "id": 702,
     "title": "Animal Triste",
     "author": "Monika Maron",
     "year": "1996",
@@ -10202,7 +10202,7 @@
     "tags": []
   },
   {
-    "id": 717,
+    "id": 703,
     "title": "Barney's Version",
     "author": "Mordecai Richler",
     "year": "1997",
@@ -10216,7 +10216,7 @@
     "tags": []
   },
   {
-    "id": 718,
+    "id": 704,
     "title": "The Wild Geese",
     "author": "Mori Ogai",
     "year": "1911",
@@ -10230,7 +10230,7 @@
     "tags": []
   },
   {
-    "id": 719,
+    "id": 705,
     "title": "I Saw Ramallah",
     "author": "Mourid Barghouti",
     "year": "1997",
@@ -10244,7 +10244,7 @@
     "tags": []
   },
   {
-    "id": 720,
+    "id": 706,
     "title": "Untouchable",
     "author": "Mulk Raj Anand",
     "year": "1935",
@@ -10260,7 +10260,7 @@
     ]
   },
   {
-    "id": 721,
+    "id": 707,
     "title": "Max Havelaar",
     "author": "Multatuli",
     "year": "1860",
@@ -10274,7 +10274,7 @@
     "tags": []
   },
   {
-    "id": 722,
+    "id": 708,
     "title": "The Prime of Miss Jean Brodie",
     "author": "Muriel Spark",
     "year": "1961",
@@ -10290,7 +10290,7 @@
     ]
   },
   {
-    "id": 723,
+    "id": 709,
     "title": "Maps for Lost Lovers",
     "author": "Nadeem Aslam",
     "year": "2004",
@@ -10306,7 +10306,7 @@
     ]
   },
   {
-    "id": 724,
+    "id": 710,
     "title": "July’s People",
     "author": "Nadine Gordimer",
     "year": "1981",
@@ -10320,7 +10320,7 @@
     "tags": []
   },
   {
-    "id": 725,
+    "id": 711,
     "title": "Children of Gebelawi",
     "author": "Naguib Mahfouz",
     "year": "1959",
@@ -10334,7 +10334,7 @@
     "tags": []
   },
   {
-    "id": 726,
+    "id": 712,
     "title": "The Cairo Trilogy",
     "author": "Naguib Mahfouz",
     "year": "1957",
@@ -10348,7 +10348,7 @@
     "tags": []
   },
   {
-    "id": 727,
+    "id": 713,
     "title": "Family Lexicon",
     "author": "Natalia Ginzburg",
     "year": "1963",
@@ -10362,7 +10362,7 @@
     "tags": []
   },
   {
-    "id": 728,
+    "id": 714,
     "title": "The Scarlet Letter",
     "author": "Nathaniel Hawthorne",
     "year": "1850",
@@ -10376,7 +10376,7 @@
     "tags": []
   },
   {
-    "id": 729,
+    "id": 715,
     "title": "Sanshiro",
     "author": "Natsume Soseki",
     "year": "1910",
@@ -10390,7 +10390,7 @@
     "tags": []
   },
   {
-    "id": 730,
+    "id": 716,
     "title": "Kokoro",
     "author": "Natsume Soseki",
     "year": "1914",
@@ -10404,7 +10404,7 @@
     "tags": []
   },
   {
-    "id": 731,
+    "id": 717,
     "title": "Out",
     "author": "Natsuo Kirino",
     "year": "1997",
@@ -10418,7 +10418,7 @@
     "tags": []
   },
   {
-    "id": 732,
+    "id": 718,
     "title": "Woman at Point Zero",
     "author": "Nawal El Saadawi",
     "year": "1975",
@@ -10432,7 +10432,7 @@
     "tags": []
   },
   {
-    "id": 733,
+    "id": 719,
     "title": "Manchay Puytu",
     "author": "Nestor Taboada Teran",
     "year": "1977",
@@ -10448,7 +10448,7 @@
     ]
   },
   {
-    "id": 734,
+    "id": 720,
     "title": "Petals of Blood",
     "author": "Ngugi wa Thiong’o",
     "year": "1977",
@@ -10462,7 +10462,7 @@
     "tags": []
   },
   {
-    "id": 735,
+    "id": 721,
     "title": "A Grain of Wheat",
     "author": "Ngugi wa Thiong’o",
     "year": "1967",
@@ -10476,7 +10476,7 @@
     "tags": []
   },
   {
-    "id": 736,
+    "id": 722,
     "title": "The Way of the World",
     "author": "Nicolas Bouvier",
     "year": "1963",
@@ -10490,7 +10490,7 @@
     "tags": []
   },
   {
-    "id": 737,
+    "id": 723,
     "title": "The Silence and the Roar",
     "author": "Nihad Sirees",
     "year": "2004",
@@ -10504,7 +10504,7 @@
     "tags": []
   },
   {
-    "id": 738,
+    "id": 724,
     "title": "Dead Souls",
     "author": "Nikolai Gogol",
     "year": "1842",
@@ -10518,7 +10518,7 @@
     "tags": []
   },
   {
-    "id": 739,
+    "id": 725,
     "title": "The Enchanted Wanderer",
     "author": "Nikolai Leskov",
     "year": "1873",
@@ -10532,7 +10532,7 @@
     "tags": []
   },
   {
-    "id": 740,
+    "id": 726,
     "title": "The Last Temptation of Christ",
     "author": "Nikos Kazantzakis",
     "year": "1955",
@@ -10546,7 +10546,7 @@
     "tags": []
   },
   {
-    "id": 741,
+    "id": 727,
     "title": "Zorba the Greek",
     "author": "Nikos Kazantzakis",
     "year": "1946",
@@ -10560,7 +10560,7 @@
     "tags": []
   },
   {
-    "id": 742,
+    "id": 728,
     "title": "Soviet Milk",
     "author": "Nora Ikstena",
     "year": "2015",
@@ -10574,7 +10574,7 @@
     "tags": []
   },
   {
-    "id": 743,
+    "id": 729,
     "title": "Smile as They Bow",
     "author": "Nu Nu Yi",
     "year": "1994",
@@ -10588,7 +10588,7 @@
     "tags": []
   },
   {
-    "id": 744,
+    "id": 730,
     "title": "From a Crooked Rib",
     "author": "Nuruddin Farah",
     "year": "1970",
@@ -10602,7 +10602,7 @@
     "tags": []
   },
   {
-    "id": 745,
+    "id": 731,
     "title": "Maps",
     "author": "Nuruddin Farah",
     "year": "1986",
@@ -10616,7 +10616,7 @@
     "tags": []
   },
   {
-    "id": 746,
+    "id": 732,
     "title": "The Legends of Khasak",
     "author": "O.V. Vijayan",
     "year": "1969",
@@ -10632,7 +10632,7 @@
     ]
   },
   {
-    "id": 747,
+    "id": 733,
     "title": "The Disconnected",
     "author": "Oguz Atay",
     "year": "1972",
@@ -10646,7 +10646,7 @@
     "tags": []
   },
   {
-    "id": 748,
+    "id": 734,
     "title": "The Museum of Abandoned Secrets",
     "author": "Oksana Zabuzhko",
     "year": "2009",
@@ -10660,7 +10660,7 @@
     "tags": []
   },
   {
-    "id": 749,
+    "id": 735,
     "title": "Flights",
     "author": "Olga Tokarczuk",
     "year": "2007",
@@ -10674,7 +10674,7 @@
     "tags": []
   },
   {
-    "id": 750,
+    "id": 736,
     "title": "The Books of Jacob",
     "author": "Olga Tokarczuk",
     "year": "2014",
@@ -10688,7 +10688,7 @@
     "tags": []
   },
   {
-    "id": 751,
+    "id": 737,
     "title": "Snares Without End",
     "author": "Olympe Bhely-Quenum",
     "year": "1960",
@@ -10702,7 +10702,7 @@
     "tags": []
   },
   {
-    "id": 753,
+    "id": 738,
     "title": "My Name Is Red",
     "author": "Orhan Pamuk",
     "year": "1998",
@@ -10716,7 +10716,7 @@
     "tags": []
   },
   {
-    "id": 754,
+    "id": 739,
     "title": "No Longer Human",
     "author": "Osamu Dazai",
     "year": "1948",
@@ -10730,7 +10730,7 @@
     "tags": []
   },
   {
-    "id": 755,
+    "id": 740,
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
     "year": "1890",
@@ -10744,7 +10744,7 @@
     "tags": []
   },
   {
-    "id": 756,
+    "id": 741,
     "title": "Avelum",
     "author": "Otar Chiladze",
     "year": "1995",
@@ -10758,7 +10758,7 @@
     "tags": []
   },
   {
-    "id": 757,
+    "id": 742,
     "title": "God’s Bits of Wood",
     "author": "Ousmane Sembene",
     "year": "1960",
@@ -10772,7 +10772,7 @@
     "tags": []
   },
   {
-    "id": 758,
+    "id": 743,
     "title": "The Dwarf",
     "author": "Par Lagerkvist",
     "year": "1944",
@@ -10788,7 +10788,7 @@
     ]
   },
   {
-    "id": 759,
+    "id": 744,
     "title": "Barabbas",
     "author": "Par Lagerkvist",
     "year": "1950",
@@ -10804,7 +10804,7 @@
     ]
   },
   {
-    "id": 760,
+    "id": 745,
     "title": "The Blue Mimosa",
     "author": "Parijat",
     "year": "1964",
@@ -10820,7 +10820,7 @@
     ]
   },
   {
-    "id": 761,
+    "id": 746,
     "title": "Who Ate Up All the Shinga?",
     "author": "Park Wan-suh",
     "year": "1992",
@@ -10834,7 +10834,7 @@
     "tags": []
   },
   {
-    "id": 762,
+    "id": 747,
     "title": "Potiki",
     "author": "Patricia Grace",
     "year": "1986",
@@ -10848,7 +10848,7 @@
     "tags": []
   },
   {
-    "id": 763,
+    "id": 748,
     "title": "Texaco",
     "author": "Patrick Chamoiseau",
     "year": "1992",
@@ -10862,7 +10862,7 @@
     "tags": []
   },
   {
-    "id": 764,
+    "id": 749,
     "title": "Perfume",
     "author": "Patrick Suskind",
     "year": "1985",
@@ -10876,7 +10876,7 @@
     "tags": []
   },
   {
-    "id": 765,
+    "id": 750,
     "title": "Voss",
     "author": "Patrick White",
     "year": "1957",
@@ -10890,7 +10890,7 @@
     "tags": []
   },
   {
-    "id": 766,
+    "id": 751,
     "title": "The New York Trilogy",
     "author": "Paul Auster",
     "year": "1987",
@@ -10904,7 +10904,7 @@
     "tags": []
   },
   {
-    "id": 767,
+    "id": 752,
     "title": "The Sheltering Sky",
     "author": "Paul Bowles",
     "year": "1949",
@@ -10918,7 +10918,7 @@
     "tags": []
   },
   {
-    "id": 768,
+    "id": 753,
     "title": "The Chosen Place, the Timeless People",
     "author": "Paule Marshall",
     "year": "1969",
@@ -10932,7 +10932,7 @@
     "tags": []
   },
   {
-    "id": 769,
+    "id": 754,
     "title": "A Geração da Utopia",
     "author": "Pepetela",
     "year": "1992",
@@ -10946,7 +10946,7 @@
     "tags": []
   },
   {
-    "id": 770,
+    "id": 755,
     "title": "Mayombe",
     "author": "Pepetela",
     "year": "1980",
@@ -10960,7 +10960,7 @@
     "tags": []
   },
   {
-    "id": 771,
+    "id": 756,
     "title": "The Royal Physician’s Visit",
     "author": "Per Olov Enquist",
     "year": "1999",
@@ -10976,7 +10976,7 @@
     ]
   },
   {
-    "id": 772,
+    "id": 757,
     "title": "Oscar and Lucinda",
     "author": "Peter Carey",
     "year": "1988",
@@ -10990,7 +10990,7 @@
     "tags": []
   },
   {
-    "id": 773,
+    "id": 758,
     "title": "Celestial Harmonies",
     "author": "Peter Esterhazy",
     "year": "2000",
@@ -11004,7 +11004,7 @@
     "tags": []
   },
   {
-    "id": 774,
+    "id": 759,
     "title": "A Sorrow Beyond Dreams",
     "author": "Peter Handke",
     "year": "1972",
@@ -11018,7 +11018,7 @@
     "tags": []
   },
   {
-    "id": 775,
+    "id": 760,
     "title": "A Book of Memories",
     "author": "Peter Nadas",
     "year": "1986",
@@ -11032,7 +11032,7 @@
     "tags": []
   },
   {
-    "id": 776,
+    "id": 761,
     "title": "American Pastoral",
     "author": "Philip Roth",
     "year": "1997",
@@ -11046,7 +11046,7 @@
     "tags": []
   },
   {
-    "id": 777,
+    "id": 762,
     "title": "Dangerous Liaisons",
     "author": "Pierre Choderlos de Laclos",
     "year": "1782",
@@ -11060,7 +11060,7 @@
     "tags": []
   },
   {
-    "id": 778,
+    "id": 763,
     "title": "El Árbol de la Ciencia",
     "author": "Pio Baroja",
     "year": "1911",
@@ -11074,7 +11074,7 @@
     "tags": []
   },
   {
-    "id": 779,
+    "id": 764,
     "title": "This Earth of Mankind",
     "author": "Pramoedya Ananta Toer",
     "year": "1980",
@@ -11088,7 +11088,7 @@
     "tags": []
   },
   {
-    "id": 780,
+    "id": 765,
     "title": "Evening Is the Whole Day",
     "author": "Preeta Samarasan",
     "year": "2008",
@@ -11102,7 +11102,7 @@
     "tags": []
   },
   {
-    "id": 781,
+    "id": 766,
     "title": "Godan",
     "author": "Premchand",
     "year": "1936",
@@ -11118,7 +11118,7 @@
     ]
   },
   {
-    "id": 782,
+    "id": 767,
     "title": "If This Is a Man",
     "author": "Primo Levi",
     "year": "1947",
@@ -11132,7 +11132,7 @@
     "tags": []
   },
   {
-    "id": 783,
+    "id": 768,
     "title": "The Periodic Table",
     "author": "Primo Levi",
     "year": "1975",
@@ -11146,7 +11146,7 @@
     "tags": []
   },
   {
-    "id": 784,
+    "id": 769,
     "title": "Fortress Besieged",
     "author": "Qian Zhongshu",
     "year": "1947",
@@ -11160,7 +11160,7 @@
     "tags": []
   },
   {
-    "id": 785,
+    "id": 770,
     "title": "Notes of a Crocodile",
     "author": "Qiu Miaojin",
     "year": "1994",
@@ -11174,7 +11174,7 @@
     "tags": []
   },
   {
-    "id": 786,
+    "id": 771,
     "title": "River of Fire",
     "author": "Qurratulain Hyder",
     "year": "1959",
@@ -11190,7 +11190,7 @@
     ]
   },
   {
-    "id": 787,
+    "id": 772,
     "title": "The Guide",
     "author": "R.K. Narayan",
     "year": "1960",
@@ -11206,7 +11206,7 @@
     ]
   },
   {
-    "id": 788,
+    "id": 773,
     "title": "Gora",
     "author": "Rabindranath Tagore",
     "year": "1910",
@@ -11222,7 +11222,7 @@
     ]
   },
   {
-    "id": 789,
+    "id": 774,
     "title": "The Home and the World",
     "author": "Rabindranath Tagore",
     "year": "1916",
@@ -11238,7 +11238,7 @@
     ]
   },
   {
-    "id": 790,
+    "id": 775,
     "title": "Ancient Tillage",
     "author": "Raduan Nassar",
     "year": "1975",
@@ -11254,7 +11254,7 @@
     ]
   },
   {
-    "id": 791,
+    "id": 776,
     "title": "Granada",
     "author": "Radwa Ashour",
     "year": "1994",
@@ -11268,7 +11268,7 @@
     "tags": []
   },
   {
-    "id": 792,
+    "id": 777,
     "title": "The Notebooks of Malte Laurids Brigge",
     "author": "Rainer Maria Rilke",
     "year": "1910",
@@ -11282,7 +11282,7 @@
     "tags": []
   },
   {
-    "id": 793,
+    "id": 778,
     "title": "Kanthapura",
     "author": "Raja Rao",
     "year": "1938",
@@ -11298,7 +11298,7 @@
     ]
   },
   {
-    "id": 794,
+    "id": 779,
     "title": "The Serpent and the Rope",
     "author": "Raja Rao",
     "year": "1960",
@@ -11314,7 +11314,7 @@
     ]
   },
   {
-    "id": 795,
+    "id": 780,
     "title": "Invisible Man",
     "author": "Ralph Ellison",
     "year": "1952",
@@ -11328,7 +11328,7 @@
     "tags": []
   },
   {
-    "id": 796,
+    "id": 781,
     "title": "Tyrant Banderas",
     "author": "Ramon del Valle-Inclan",
     "year": "1926",
@@ -11342,7 +11342,7 @@
     "tags": []
   },
   {
-    "id": 797,
+    "id": 782,
     "title": "Zazie in the Metro",
     "author": "Raymond Queneau",
     "year": "1959",
@@ -11356,7 +11356,7 @@
     "tags": []
   },
   {
-    "id": 798,
+    "id": 783,
     "title": "Border Country",
     "author": "Raymond Williams",
     "year": "1960",
@@ -11372,7 +11372,7 @@
     ]
   },
   {
-    "id": 799,
+    "id": 784,
     "title": "The Ill-Fated Peregrinations of Fray Servando",
     "author": "Reinaldo Arenas",
     "year": "1966",
@@ -11388,7 +11388,7 @@
     ]
   },
   {
-    "id": 800,
+    "id": 785,
     "title": "The Life of Ismail Ferik Pasha",
     "author": "Rhea Galanaki",
     "year": "1989",
@@ -11402,7 +11402,7 @@
     "tags": []
   },
   {
-    "id": 801,
+    "id": 786,
     "title": "Vilnius Poker",
     "author": "Ricardas Gavelis",
     "year": "1989",
@@ -11416,7 +11416,7 @@
     "tags": []
   },
   {
-    "id": 802,
+    "id": 787,
     "title": "Don Segundo Sombra",
     "author": "Ricardo Guiraldes",
     "year": "1926",
@@ -11432,7 +11432,7 @@
     ]
   },
   {
-    "id": 803,
+    "id": 788,
     "title": "Artificial Respiration",
     "author": "Ricardo Piglia",
     "year": "1980",
@@ -11448,7 +11448,7 @@
     ]
   },
   {
-    "id": 804,
+    "id": 789,
     "title": "A High Wind in Jamaica",
     "author": "Richard Hughes",
     "year": "1929",
@@ -11464,7 +11464,7 @@
     ]
   },
   {
-    "id": 805,
+    "id": 790,
     "title": "Strange Case of Dr Jekyll and Mr Hyde",
     "author": "Robert Louis Stevenson",
     "year": "1886",
@@ -11480,7 +11480,7 @@
     ]
   },
   {
-    "id": 806,
+    "id": 791,
     "title": "The Man Without Qualities",
     "author": "Robert Musil",
     "year": "1930",
@@ -11494,7 +11494,7 @@
     "tags": []
   },
   {
-    "id": 807,
+    "id": 792,
     "title": "The Confusions of Young Törless",
     "author": "Robert Musil",
     "year": "1906",
@@ -11508,7 +11508,7 @@
     "tags": []
   },
   {
-    "id": 808,
+    "id": 793,
     "title": "The Tanners",
     "author": "Robert Walser",
     "year": "1907",
@@ -11522,7 +11522,7 @@
     "tags": []
   },
   {
-    "id": 809,
+    "id": 794,
     "title": "Jakob von Gunten",
     "author": "Robert Walser",
     "year": "1909",
@@ -11536,7 +11536,7 @@
     "tags": []
   },
   {
-    "id": 810,
+    "id": 795,
     "title": "The Seven Madmen",
     "author": "Roberto Arlt",
     "year": "1931",
@@ -11552,7 +11552,7 @@
     ]
   },
   {
-    "id": 811,
+    "id": 796,
     "title": "The Savage Detectives",
     "author": "Roberto Bolano",
     "year": "1998",
@@ -11568,7 +11568,7 @@
     ]
   },
   {
-    "id": 812,
+    "id": 797,
     "title": "2666",
     "author": "Roberto Bolano",
     "year": "2004",
@@ -11584,7 +11584,7 @@
     ]
   },
   {
-    "id": 813,
+    "id": 798,
     "title": "Ka",
     "author": "Roberto Calasso",
     "year": "1992",
@@ -11598,7 +11598,7 @@
     "tags": []
   },
   {
-    "id": 814,
+    "id": 799,
     "title": "Fifth Business",
     "author": "Robertson Davies",
     "year": "1970",
@@ -11612,7 +11612,7 @@
     "tags": []
   },
   {
-    "id": 815,
+    "id": 800,
     "title": "Pichiciegos",
     "author": "Rodolfo Fogwill",
     "year": "1983",
@@ -11628,7 +11628,7 @@
     ]
   },
   {
-    "id": 817,
+    "id": 801,
     "title": "A Fine Balance",
     "author": "Rohinton Mistry",
     "year": "1995",
@@ -11644,7 +11644,7 @@
     ]
   },
   {
-    "id": 818,
+    "id": 802,
     "title": "The Life Before Us",
     "author": "Romain Gary",
     "year": "1975",
@@ -11658,7 +11658,7 @@
     "tags": []
   },
   {
-    "id": 819,
+    "id": 803,
     "title": "Doña Barbara",
     "author": "Romulo Gallegos",
     "year": "1929",
@@ -11674,7 +11674,7 @@
     ]
   },
   {
-    "id": 820,
+    "id": 804,
     "title": "Balún Canán",
     "author": "Rosario Castellanos",
     "year": "1957",
@@ -11690,7 +11690,7 @@
     ]
   },
   {
-    "id": 821,
+    "id": 805,
     "title": "The Book of Lamentations",
     "author": "Rosario Castellanos",
     "year": "1962",
@@ -11706,7 +11706,7 @@
     ]
   },
   {
-    "id": 822,
+    "id": 806,
     "title": "The Murderer",
     "author": "Roy Heath",
     "year": "1978",
@@ -11720,7 +11720,7 @@
     "tags": []
   },
   {
-    "id": 823,
+    "id": 807,
     "title": "Kim",
     "author": "Rudyard Kipling",
     "year": "1901",
@@ -11736,7 +11736,7 @@
     ]
   },
   {
-    "id": 824,
+    "id": 808,
     "title": "Coin Locker Babies",
     "author": "Ryu Murakami",
     "year": "1980",
@@ -11750,7 +11750,7 @@
     "tags": []
   },
   {
-    "id": 825,
+    "id": 809,
     "title": "A Guest for the Night",
     "author": "S.Y. Agnon",
     "year": "1938",
@@ -11764,7 +11764,7 @@
     "tags": []
   },
   {
-    "id": 827,
+    "id": 810,
     "title": "Madonna in a Fur Coat",
     "author": "Sabahattin Ali",
     "year": "1943",
@@ -11778,7 +11778,7 @@
     "tags": []
   },
   {
-    "id": 828,
+    "id": 811,
     "title": "The Blind Owl",
     "author": "Sadegh Hedayat",
     "year": "1937",
@@ -11792,7 +11792,7 @@
     "tags": []
   },
   {
-    "id": 829,
+    "id": 812,
     "title": "The Mountain Villager",
     "author": "Sadriddin Ayni",
     "year": "1930",
@@ -11806,7 +11806,7 @@
     "tags": []
   },
   {
-    "id": 830,
+    "id": 813,
     "title": "Midnight’s Children",
     "author": "Salman Rushdie",
     "year": "1981",
@@ -11822,7 +11822,7 @@
     ]
   },
   {
-    "id": 831,
+    "id": 814,
     "title": "The Satanic Verses",
     "author": "Salman Rushdie",
     "year": "1988",
@@ -11838,7 +11838,7 @@
     ]
   },
   {
-    "id": 832,
+    "id": 815,
     "title": "December Bride",
     "author": "Sam Hanna Bell",
     "year": "1951",
@@ -11854,7 +11854,7 @@
     ]
   },
   {
-    "id": 833,
+    "id": 816,
     "title": "The Lonely Londoners",
     "author": "Sam Selvon",
     "year": "1956",
@@ -11868,7 +11868,7 @@
     "tags": []
   },
   {
-    "id": 834,
+    "id": 817,
     "title": "Molloy / Malone Dies / The Unnamable",
     "author": "Samuel Beckett",
     "year": "1953",
@@ -11882,7 +11882,7 @@
     "tags": []
   },
   {
-    "id": 835,
+    "id": 818,
     "title": "Embers",
     "author": "Sandor Marai",
     "year": "1942",
@@ -11896,7 +11896,7 @@
     "tags": []
   },
   {
-    "id": 836,
+    "id": 819,
     "title": "The White Shadow",
     "author": "Saneh Sangsuk",
     "year": "1993",
@@ -11910,7 +11910,7 @@
     "tags": []
   },
   {
-    "id": 837,
+    "id": 820,
     "title": "A School for Fools",
     "author": "Sasha Sokolov",
     "year": "1976",
@@ -11924,7 +11924,7 @@
     "tags": []
   },
   {
-    "id": 838,
+    "id": 821,
     "title": "The Adventures of Augie March",
     "author": "Saul Bellow",
     "year": "1953",
@@ -11938,7 +11938,7 @@
     "tags": []
   },
   {
-    "id": 839,
+    "id": 822,
     "title": "Herzog",
     "author": "Saul Bellow",
     "year": "1964",
@@ -11952,7 +11952,7 @@
     "tags": []
   },
   {
-    "id": 840,
+    "id": 823,
     "title": "The Twilight Years",
     "author": "Sawako Ariyoshi",
     "year": "1972",
@@ -11966,7 +11966,7 @@
     "tags": []
   },
   {
-    "id": 841,
+    "id": 824,
     "title": "Our Lady of the Nile",
     "author": "Scholastique Mukasonga",
     "year": "2012",
@@ -11980,7 +11980,7 @@
     "tags": []
   },
   {
-    "id": 842,
+    "id": 825,
     "title": "Gösta Berling’s Saga",
     "author": "Selma Lagerlof",
     "year": "1891",
@@ -11996,7 +11996,7 @@
     ]
   },
   {
-    "id": 843,
+    "id": 826,
     "title": "Voroshilovgrad",
     "author": "Serhiy Zhadan",
     "year": "2010",
@@ -12010,7 +12010,7 @@
     "tags": []
   },
   {
-    "id": 844,
+    "id": 827,
     "title": "Women Without Men",
     "author": "Shahrnush Parsipur",
     "year": "1989",
@@ -12024,7 +12024,7 @@
     "tags": []
   },
   {
-    "id": 845,
+    "id": 828,
     "title": "The Seven Moons of Maali Almeida",
     "author": "Shehan Karunatilaka",
     "year": "2022",
@@ -12040,7 +12040,7 @@
     ]
   },
   {
-    "id": 847,
+    "id": 829,
     "title": "We Have Always Lived in the Castle",
     "author": "Shirley Jackson",
     "year": "1962",
@@ -12054,7 +12054,7 @@
     "tags": []
   },
   {
-    "id": 848,
+    "id": 830,
     "title": "Fires on the Plain",
     "author": "Shohei Ooka",
     "year": "1951",
@@ -12068,7 +12068,7 @@
     "tags": []
   },
   {
-    "id": 849,
+    "id": 831,
     "title": "Tevye the Dairyman",
     "author": "Sholem Aleichem",
     "year": "1894",
@@ -12082,7 +12082,7 @@
     "tags": []
   },
   {
-    "id": 850,
+    "id": 832,
     "title": "Raag Darbari",
     "author": "Shrilal Shukla",
     "year": "1968",
@@ -12098,7 +12098,7 @@
     ]
   },
   {
-    "id": 851,
+    "id": 833,
     "title": "The Italian",
     "author": "Shukri Mabkhout",
     "year": "2014",
@@ -12112,7 +12112,7 @@
     "tags": []
   },
   {
-    "id": 852,
+    "id": 834,
     "title": "Silence",
     "author": "Shusaku Endo",
     "year": "1966",
@@ -12126,7 +12126,7 @@
     "tags": []
   },
   {
-    "id": 853,
+    "id": 835,
     "title": "Funny Boy",
     "author": "Shyam Selvadurai",
     "year": "1994",
@@ -12142,7 +12142,7 @@
     ]
   },
   {
-    "id": 854,
+    "id": 836,
     "title": "Where We Once Belonged",
     "author": "Sia Figiel",
     "year": "1996",
@@ -12156,7 +12156,7 @@
     "tags": []
   },
   {
-    "id": 855,
+    "id": 837,
     "title": "Autobiography of a Corpse",
     "author": "Sigizmund Krzhizhanovsky",
     "year": "1926",
@@ -12170,7 +12170,7 @@
     "tags": []
   },
   {
-    "id": 856,
+    "id": 838,
     "title": "Kristin Lavransdatter",
     "author": "Sigrid Undset",
     "year": "1922",
@@ -12186,7 +12186,7 @@
     ]
   },
   {
-    "id": 857,
+    "id": 839,
     "title": "A Persian Requiem",
     "author": "Simin Daneshvar",
     "year": "1969",
@@ -12200,7 +12200,7 @@
     "tags": []
   },
   {
-    "id": 858,
+    "id": 840,
     "title": "The Mandarins",
     "author": "Simone de Beauvoir",
     "year": "1954",
@@ -12214,7 +12214,7 @@
     "tags": []
   },
   {
-    "id": 859,
+    "id": 841,
     "title": "The Bridge of Beyond",
     "author": "Simone Schwarz-Bart",
     "year": "1972",
@@ -12228,7 +12228,7 @@
     "tags": []
   },
   {
-    "id": 860,
+    "id": 842,
     "title": "The Corpse Washer",
     "author": "Sinan Antoon",
     "year": "2010",
@@ -12242,7 +12242,7 @@
     "tags": []
   },
   {
-    "id": 861,
+    "id": 843,
     "title": "Purge",
     "author": "Sofi Oksanen",
     "year": "2008",
@@ -12258,7 +12258,7 @@
     ]
   },
   {
-    "id": 862,
+    "id": 844,
     "title": "The Committee",
     "author": "Sonallah Ibrahim",
     "year": "1981",
@@ -12272,7 +12272,7 @@
     "tags": []
   },
   {
-    "id": 863,
+    "id": 845,
     "title": "That Smell",
     "author": "Sonallah Ibrahim",
     "year": "1966",
@@ -12286,7 +12286,7 @@
     "tags": []
   },
   {
-    "id": 864,
+    "id": 846,
     "title": "Life and a Half",
     "author": "Sony Labou Tansi",
     "year": "1979",
@@ -12300,7 +12300,7 @@
     "tags": []
   },
   {
-    "id": 865,
+    "id": 847,
     "title": "Solaris",
     "author": "StanisLaw Lem",
     "year": "1961",
@@ -12314,7 +12314,7 @@
     "tags": []
   },
   {
-    "id": 866,
+    "id": 848,
     "title": "Chess Story",
     "author": "Stefan Zweig",
     "year": "1942",
@@ -12328,7 +12328,7 @@
     "tags": []
   },
   {
-    "id": 867,
+    "id": 849,
     "title": "The Charterhouse of Parma",
     "author": "Stendhal",
     "year": "1839",
@@ -12342,7 +12342,7 @@
     "tags": []
   },
   {
-    "id": 868,
+    "id": 850,
     "title": "The Red and the Black",
     "author": "Stendhal",
     "year": "1830",
@@ -12356,7 +12356,7 @@
     "tags": []
   },
   {
-    "id": 869,
+    "id": 851,
     "title": "Drifting Cities",
     "author": "Stratis Tsirkas",
     "year": "1965",
@@ -12370,7 +12370,7 @@
     "tags": []
   },
   {
-    "id": 870,
+    "id": 852,
     "title": "Tree Without Roots",
     "author": "Syed Waliullah",
     "year": "1948",
@@ -12386,7 +12386,7 @@
     ]
   },
   {
-    "id": 871,
+    "id": 853,
     "title": "The Bell Jar",
     "author": "Sylvia Plath",
     "year": "1963",
@@ -12400,7 +12400,7 @@
     "tags": []
   },
   {
-    "id": 872,
+    "id": 854,
     "title": "The Sand Child",
     "author": "Tahar Ben Jelloun",
     "year": "1985",
@@ -12414,7 +12414,7 @@
     "tags": []
   },
   {
-    "id": 873,
+    "id": 855,
     "title": "The Garden of Evening Mists",
     "author": "Tan Twan Eng",
     "year": "2012",
@@ -12428,7 +12428,7 @@
     "tags": []
   },
   {
-    "id": 874,
+    "id": 856,
     "title": "The Ice Palace",
     "author": "Tarjei Vesaas",
     "year": "1963",
@@ -12444,7 +12444,7 @@
     ]
   },
   {
-    "id": 875,
+    "id": 857,
     "title": "The Birds",
     "author": "Tarjei Vesaas",
     "year": "1957",
@@ -12460,7 +12460,7 @@
     ]
   },
   {
-    "id": 876,
+    "id": 858,
     "title": "Slynx",
     "author": "Tatyana Tolstaya",
     "year": "2000",
@@ -12474,7 +12474,7 @@
     "tags": []
   },
   {
-    "id": 877,
+    "id": 859,
     "title": "Return of the Spirit",
     "author": "Tawfiq al-Hakim",
     "year": "1933",
@@ -12488,7 +12488,7 @@
     "tags": []
   },
   {
-    "id": 878,
+    "id": 860,
     "title": "The Wedding of Zein",
     "author": "Tayeb Salih",
     "year": "1962",
@@ -12502,7 +12502,7 @@
     "tags": []
   },
   {
-    "id": 879,
+    "id": 861,
     "title": "Season of Migration to the North",
     "author": "Tayeb Salih",
     "year": "1966",
@@ -12516,7 +12516,7 @@
     "tags": []
   },
   {
-    "id": 880,
+    "id": 862,
     "title": "Ifigenia",
     "author": "Teresa de la Parra",
     "year": "1924",
@@ -12532,7 +12532,7 @@
     ]
   },
   {
-    "id": 881,
+    "id": 863,
     "title": "Chemmeen",
     "author": "Thakazhi Sivasankara Pillai",
     "year": "1956",
@@ -12548,7 +12548,7 @@
     ]
   },
   {
-    "id": 883,
+    "id": 864,
     "title": "Effi Briest",
     "author": "Theodor Fontane",
     "year": "1895",
@@ -12562,7 +12562,7 @@
     "tags": []
   },
   {
-    "id": 884,
+    "id": 865,
     "title": "The Rider on the White Horse",
     "author": "Theodor Storm",
     "year": "1888",
@@ -12576,7 +12576,7 @@
     "tags": []
   },
   {
-    "id": 885,
+    "id": 866,
     "title": "The Loser",
     "author": "Thomas Bernhard",
     "year": "1983",
@@ -12590,7 +12590,7 @@
     "tags": []
   },
   {
-    "id": 886,
+    "id": 867,
     "title": "Jude the Obscure",
     "author": "Thomas Hardy",
     "year": "1895",
@@ -12606,7 +12606,7 @@
     ]
   },
   {
-    "id": 887,
+    "id": 868,
     "title": "Tess of the d’Urbervilles",
     "author": "Thomas Hardy",
     "year": "1891",
@@ -12622,7 +12622,7 @@
     ]
   },
   {
-    "id": 888,
+    "id": 869,
     "title": "The Magic Mountain",
     "author": "Thomas Mann",
     "year": "1924",
@@ -12636,7 +12636,7 @@
     "tags": []
   },
   {
-    "id": 889,
+    "id": 870,
     "title": "Buddenbrooks",
     "author": "Thomas Mann",
     "year": "1901",
@@ -12650,7 +12650,7 @@
     "tags": []
   },
   {
-    "id": 890,
+    "id": 871,
     "title": "Death in Venice",
     "author": "Thomas Mann",
     "year": "1912",
@@ -12664,7 +12664,7 @@
     "tags": []
   },
   {
-    "id": 891,
+    "id": 872,
     "title": "Chaka",
     "author": "Thomas Mofolo",
     "year": "1925",
@@ -12678,7 +12678,7 @@
     "tags": []
   },
   {
-    "id": 892,
+    "id": 873,
     "title": "The Things They Carried",
     "author": "Tim O'Brien",
     "year": "1990",
@@ -12692,7 +12692,7 @@
     "tags": []
   },
   {
-    "id": 893,
+    "id": 874,
     "title": "Cloudstreet",
     "author": "Tim Winton",
     "year": "1991",
@@ -12706,7 +12706,7 @@
     "tags": []
   },
   {
-    "id": 894,
+    "id": 875,
     "title": "The Wars",
     "author": "Timothy Findley",
     "year": "1977",
@@ -12720,7 +12720,7 @@
     "tags": []
   },
   {
-    "id": 895,
+    "id": 876,
     "title": "The Roar of Morning",
     "author": "Tip Marugg",
     "year": "1988",
@@ -12734,7 +12734,7 @@
     "tags": []
   },
   {
-    "id": 896,
+    "id": 877,
     "title": "Havoc",
     "author": "Tom Kristensen",
     "year": "1930",
@@ -12750,7 +12750,7 @@
     ]
   },
   {
-    "id": 897,
+    "id": 878,
     "title": "Santa Evita",
     "author": "Tomas Eloy Martinez",
     "year": "1995",
@@ -12766,7 +12766,7 @@
     ]
   },
   {
-    "id": 898,
+    "id": 879,
     "title": "Song of Solomon",
     "author": "Toni Morrison",
     "year": "1977",
@@ -12780,7 +12780,7 @@
     "tags": []
   },
   {
-    "id": 899,
+    "id": 880,
     "title": "Beloved",
     "author": "Toni Morrison",
     "year": "1987",
@@ -12794,7 +12794,7 @@
     "tags": []
   },
   {
-    "id": 900,
+    "id": 881,
     "title": "Copenhagen Trilogy",
     "author": "Tove Ditlevsen",
     "year": "1967",
@@ -12810,7 +12810,7 @@
     ]
   },
   {
-    "id": 901,
+    "id": 882,
     "title": "The Summer Book",
     "author": "Tove Jansson",
     "year": "1972",
@@ -12826,7 +12826,7 @@
     ]
   },
   {
-    "id": 902,
+    "id": 883,
     "title": "Nervous Conditions",
     "author": "Tsitsi Dangarembga",
     "year": "1988",
@@ -12840,7 +12840,7 @@
     "tags": []
   },
   {
-    "id": 903,
+    "id": 884,
     "title": "Samskara",
     "author": "U.R. Ananthamurthy",
     "year": "1965",
@@ -12856,7 +12856,7 @@
     ]
   },
   {
-    "id": 904,
+    "id": 885,
     "title": "The Name of the Rose",
     "author": "Umberto Eco",
     "year": "1980",
@@ -12870,7 +12870,7 @@
     "tags": []
   },
   {
-    "id": 905,
+    "id": 886,
     "title": "The Story of Jan Dara",
     "author": "Utsana Phleungtham",
     "year": "1966",
@@ -12884,7 +12884,7 @@
     "tags": []
   },
   {
-    "id": 906,
+    "id": 887,
     "title": "A Bend in the River",
     "author": "V.S. Naipaul",
     "year": "1979",
@@ -12898,7 +12898,7 @@
     "tags": []
   },
   {
-    "id": 907,
+    "id": 888,
     "title": "A House for Mr Biswas",
     "author": "V.S. Naipaul",
     "year": "1961",
@@ -12912,7 +12912,7 @@
     "tags": []
   },
   {
-    "id": 908,
+    "id": 889,
     "title": "The Unknown Soldier",
     "author": "Vaino Linna",
     "year": "1954",
@@ -12928,7 +12928,7 @@
     ]
   },
   {
-    "id": 909,
+    "id": 890,
     "title": "Life and Fate",
     "author": "Vasily Grossman",
     "year": "1980",
@@ -12942,7 +12942,7 @@
     "tags": []
   },
   {
-    "id": 910,
+    "id": 891,
     "title": "Z",
     "author": "Vassilis Vassilikos",
     "year": "1966",
@@ -12956,7 +12956,7 @@
     "tags": []
   },
   {
-    "id": 911,
+    "id": 892,
     "title": "The Grand Hotel",
     "author": "Vicki Baum",
     "year": "1929",
@@ -12970,7 +12970,7 @@
     "tags": []
   },
   {
-    "id": 912,
+    "id": 893,
     "title": "Solitud",
     "author": "Victor Catala",
     "year": "1905",
@@ -12984,7 +12984,7 @@
     "tags": []
   },
   {
-    "id": 913,
+    "id": 894,
     "title": "Les Misérables",
     "author": "Victor Hugo",
     "year": "1862",
@@ -12998,7 +12998,7 @@
     "tags": []
   },
   {
-    "id": 914,
+    "id": 895,
     "title": "A Suitable Boy",
     "author": "Vikram Seth",
     "year": "1993",
@@ -13014,7 +13014,7 @@
     ]
   },
   {
-    "id": 915,
+    "id": 896,
     "title": "To the Lighthouse",
     "author": "Virginia Woolf",
     "year": "1927",
@@ -13030,7 +13030,7 @@
     ]
   },
   {
-    "id": 916,
+    "id": 897,
     "title": "Mrs Dalloway",
     "author": "Virginia Woolf",
     "year": "1925",
@@ -13046,7 +13046,7 @@
     ]
   },
   {
-    "id": 917,
+    "id": 898,
     "title": "Bille",
     "author": "Vizma Belsevica",
     "year": "1999",
@@ -13060,7 +13060,7 @@
     "tags": []
   },
   {
-    "id": 918,
+    "id": 899,
     "title": "Alamut",
     "author": "Vladimir Bartol",
     "year": "1938",
@@ -13074,7 +13074,7 @@
     "tags": []
   },
   {
-    "id": 919,
+    "id": 900,
     "title": "Pale Fire",
     "author": "Vladimir Nabokov",
     "year": "1962",
@@ -13088,7 +13088,7 @@
     "tags": []
   },
   {
-    "id": 920,
+    "id": 901,
     "title": "The Gift",
     "author": "Vladimir Nabokov",
     "year": "1938",
@@ -13102,7 +13102,7 @@
     "tags": []
   },
   {
-    "id": 921,
+    "id": 902,
     "title": "Lolita",
     "author": "Vladimir Nabokov",
     "year": "1955",
@@ -13116,7 +13116,7 @@
     "tags": []
   },
   {
-    "id": 922,
+    "id": 903,
     "title": "Summer of Caprice",
     "author": "Vladislav Vancura",
     "year": "1926",
@@ -13130,7 +13130,7 @@
     "tags": []
   },
   {
-    "id": 923,
+    "id": 904,
     "title": "Candide",
     "author": "Voltaire",
     "year": "1759",
@@ -13144,7 +13144,7 @@
     "tags": []
   },
   {
-    "id": 924,
+    "id": 905,
     "title": "Dumb Luck",
     "author": "Vu Trong Phung",
     "year": "1936",
@@ -13158,7 +13158,7 @@
     "tags": []
   },
   {
-    "id": 925,
+    "id": 906,
     "title": "The Rings of Saturn",
     "author": "W.G. Sebald",
     "year": "1995",
@@ -13172,7 +13172,7 @@
     "tags": []
   },
   {
-    "id": 927,
+    "id": 907,
     "title": "The Song of Everlasting Sorrow",
     "author": "Wang Anyi",
     "year": "1995",
@@ -13186,7 +13186,7 @@
     "tags": []
   },
   {
-    "id": 928,
+    "id": 908,
     "title": "Golden Age",
     "author": "Wang Xiaobo",
     "year": "1992",
@@ -13200,7 +13200,7 @@
     "tags": []
   },
   {
-    "id": 929,
+    "id": 909,
     "title": "Death Comes for the Archbishop",
     "author": "Willa Cather",
     "year": "1927",
@@ -13214,7 +13214,7 @@
     "tags": []
   },
   {
-    "id": 930,
+    "id": 910,
     "title": "Cheese",
     "author": "Willem Elsschot",
     "year": "1933",
@@ -13228,7 +13228,7 @@
     "tags": []
   },
   {
-    "id": 931,
+    "id": 911,
     "title": "The Darkroom of Damocles",
     "author": "Willem Frederik Hermans",
     "year": "1958",
@@ -13242,7 +13242,7 @@
     "tags": []
   },
   {
-    "id": 932,
+    "id": 912,
     "title": "Beyond Sleep",
     "author": "Willem Frederik Hermans",
     "year": "1966",
@@ -13256,7 +13256,7 @@
     "tags": []
   },
   {
-    "id": 933,
+    "id": 913,
     "title": "Absalom, Absalom!",
     "author": "William Faulkner",
     "year": "1936",
@@ -13270,7 +13270,7 @@
     "tags": []
   },
   {
-    "id": 934,
+    "id": 914,
     "title": "The Sound and the Fury",
     "author": "William Faulkner",
     "year": "1929",
@@ -13284,7 +13284,7 @@
     "tags": []
   },
   {
-    "id": 935,
+    "id": 915,
     "title": "Lord of the Flies",
     "author": "William Golding",
     "year": "1954",
@@ -13300,7 +13300,7 @@
     ]
   },
   {
-    "id": 936,
+    "id": 916,
     "title": "The Lost Musicians",
     "author": "William Heinesen",
     "year": "1950",
@@ -13316,7 +13316,7 @@
     ]
   },
   {
-    "id": 937,
+    "id": 917,
     "title": "Vanity Fair",
     "author": "William Makepeace Thackeray",
     "year": "1847",
@@ -13332,7 +13332,7 @@
     ]
   },
   {
-    "id": 938,
+    "id": 918,
     "title": "Cosmos",
     "author": "Witold Gombrowicz",
     "year": "1965",
@@ -13346,7 +13346,7 @@
     "tags": []
   },
   {
-    "id": 939,
+    "id": 919,
     "title": "Ferdydurke",
     "author": "Witold Gombrowicz",
     "year": "1937",
@@ -13360,7 +13360,7 @@
     "tags": []
   },
   {
-    "id": 940,
+    "id": 920,
     "title": "The Weaverbirds",
     "author": "Y.B. Mangunwijaya",
     "year": "1981",
@@ -13374,7 +13374,7 @@
     "tags": []
   },
   {
-    "id": 941,
+    "id": 921,
     "title": "Bound to Violence",
     "author": "Yambo Ouologuem",
     "year": "1968",
@@ -13388,7 +13388,7 @@
     "tags": []
   },
   {
-    "id": 942,
+    "id": 922,
     "title": "Memed, My Hawk",
     "author": "Yasar Kemal",
     "year": "1955",
@@ -13402,7 +13402,7 @@
     "tags": []
   },
   {
-    "id": 943,
+    "id": 923,
     "title": "The Sound of the Mountain",
     "author": "Yasunari Kawabata",
     "year": "1949",
@@ -13416,7 +13416,7 @@
     "tags": []
   },
   {
-    "id": 944,
+    "id": 924,
     "title": "Snow Country",
     "author": "Yasunari Kawabata",
     "year": "1948",
@@ -13430,7 +13430,7 @@
     "tags": []
   },
   {
-    "id": 945,
+    "id": 925,
     "title": "We",
     "author": "Yevgeny Zamyatin",
     "year": "1924",
@@ -13446,7 +13446,7 @@
     ]
   },
   {
-    "id": 946,
+    "id": 926,
     "title": "Our Twisted Hero",
     "author": "Yi Mun-yol",
     "year": "1987",
@@ -13460,7 +13460,7 @@
     "tags": []
   },
   {
-    "id": 947,
+    "id": 927,
     "title": "The Memory Police",
     "author": "Yoko Ogawa",
     "year": "1994",
@@ -13474,7 +13474,7 @@
     "tags": []
   },
   {
-    "id": 948,
+    "id": 928,
     "title": "Three Generations",
     "author": "Yom Sang-seop",
     "year": "1931",
@@ -13488,7 +13488,7 @@
     "tags": []
   },
   {
-    "id": 949,
+    "id": 929,
     "title": "To Live",
     "author": "Yu Hua",
     "year": "1993",
@@ -13502,7 +13502,7 @@
     "tags": []
   },
   {
-    "id": 950,
+    "id": 930,
     "title": "Confessions of a Mask",
     "author": "Yukio Mishima",
     "year": "1949",
@@ -13516,7 +13516,7 @@
     "tags": []
   },
   {
-    "id": 951,
+    "id": 931,
     "title": "The Temple of the Golden Pavilion",
     "author": "Yukio Mishima",
     "year": "1956",
@@ -13530,7 +13530,7 @@
     "tags": []
   },
   {
-    "id": 952,
+    "id": 932,
     "title": "Territory of Light",
     "author": "Yuko Tsushima",
     "year": "1979",
@@ -13544,7 +13544,7 @@
     "tags": []
   },
   {
-    "id": 953,
+    "id": 933,
     "title": "Motherland Hotel",
     "author": "Yusuf Atilgan",
     "year": "1973",
@@ -13558,7 +13558,7 @@
     "tags": []
   },
   {
-    "id": 954,
+    "id": 934,
     "title": "The Stone Virgins",
     "author": "Yvonne Vera",
     "year": "2002",
@@ -13572,7 +13572,7 @@
     "tags": []
   },
   {
-    "id": 955,
+    "id": 935,
     "title": "Love Life",
     "author": "Zeruya Shalev",
     "year": "1997",
@@ -13586,7 +13586,7 @@
     "tags": []
   },
   {
-    "id": 956,
+    "id": 936,
     "title": "Their Eyes Were Watching God",
     "author": "Zora Neale Hurston",
     "year": "1937",
@@ -13600,7 +13600,7 @@
     "tags": []
   },
   {
-    "id": 957,
+    "id": 937,
     "title": "Palace of the Peacock",
     "author": "Wilson Harris",
     "year": "1960",
@@ -13614,7 +13614,7 @@
     "tags": []
   },
   {
-    "id": 958,
+    "id": 938,
     "title": "The Brief Wondrous Life of Oscar Wao",
     "author": "Junot Diaz",
     "year": "2007",
@@ -13630,7 +13630,7 @@
     ]
   },
   {
-    "id": 959,
+    "id": 939,
     "title": "The House on the Lagoon",
     "author": "Rosario Ferre",
     "year": "1995",
@@ -13644,7 +13644,7 @@
     "tags": []
   },
   {
-    "id": 960,
+    "id": 940,
     "title": "Beka Lamb",
     "author": "Zee Edgell",
     "year": "1982",
@@ -13658,7 +13658,7 @@
     "tags": []
   },
   {
-    "id": 961,
+    "id": 941,
     "title": "The Crossing",
     "author": "Luis Cardoso",
     "year": "1997",
@@ -13672,7 +13672,7 @@
     "tags": []
   },
   {
-    "id": 962,
+    "id": 942,
     "title": "The Last Will and Testament of Senhor da Silva Araújo",
     "author": "Germano Almeida",
     "year": "1989",
@@ -13686,7 +13686,7 @@
     "tags": []
   },
   {
-    "id": 963,
+    "id": 943,
     "title": "The Ventriloquist’s Tale",
     "author": "Pauline Melville",
     "year": "1997",
@@ -13700,7 +13700,7 @@
     "tags": []
   },
   {
-    "id": 964,
+    "id": 944,
     "title": "A Girl Called Eel",
     "author": "Ali Zamir",
     "year": "2016",
@@ -13714,7 +13714,7 @@
     "tags": []
   },
   {
-    "id": 965,
+    "id": 945,
     "title": "In the Name of the Father (and of the Son)",
     "author": "Immanuel Mifsud",
     "year": "2010",
@@ -13728,7 +13728,7 @@
     "tags": []
   },
   {
-    "id": 966,
+    "id": 946,
     "title": "Monkey: Journey to the West",
     "author": "Wu Cheng'en",
     "year": "1592",
@@ -13742,7 +13742,7 @@
     "tags": []
   },
   {
-    "id": 967,
+    "id": 947,
     "title": "The Water Margin",
     "author": "Shi Nai'an",
     "year": "1350",
@@ -13756,7 +13756,7 @@
     "tags": []
   },
   {
-    "id": 968,
+    "id": 948,
     "title": "Wizard of the Crow",
     "author": "Ngugi wa Thiong'o",
     "year": "2004",
@@ -13770,7 +13770,7 @@
     "tags": []
   },
   {
-    "id": 969,
+    "id": 949,
     "title": "The Shadow Lines",
     "author": "Amitav Ghosh",
     "year": "1988",
@@ -13786,7 +13786,7 @@
     ]
   },
   {
-    "id": 970,
+    "id": 950,
     "title": "Life & Times of Michael K",
     "author": "J. M. Coetzee",
     "year": "1983",
@@ -13800,7 +13800,7 @@
     "tags": []
   },
   {
-    "id": 971,
+    "id": 951,
     "title": "On Heroes and Tombs",
     "author": "Ernesto Sabato",
     "year": "1961",
@@ -13816,7 +13816,7 @@
     ]
   },
   {
-    "id": 972,
+    "id": 952,
     "title": "Hurricane Season",
     "author": "Fernanda Melchor",
     "year": "2017",
@@ -13832,7 +13832,7 @@
     ]
   },
   {
-    "id": 974,
+    "id": 953,
     "title": "Minor Detail",
     "author": "Adania Shibli",
     "year": "2017",
@@ -13846,7 +13846,7 @@
     "tags": []
   },
   {
-    "id": 976,
+    "id": 954,
     "title": "Kairos",
     "author": "Jenny Erpenbeck",
     "year": "2021",
@@ -13860,7 +13860,7 @@
     "tags": []
   },
   {
-    "id": 977,
+    "id": 955,
     "title": "Time Shelter",
     "author": "Georgi Gospodinov",
     "year": "2020",
@@ -13874,7 +13874,7 @@
     "tags": []
   },
   {
-    "id": 979,
+    "id": 956,
     "title": "The Conservationist",
     "author": "Nadine Gordimer",
     "year": "1974",
@@ -13888,7 +13888,7 @@
     "tags": []
   },
   {
-    "id": 980,
+    "id": 957,
     "title": "Mhudi",
     "author": "Sol Plaatje",
     "year": "1930",
@@ -13902,7 +13902,7 @@
     "tags": []
   },
   {
-    "id": 981,
+    "id": 958,
     "title": "Midaq Alley",
     "author": "Naguib Mahfouz",
     "year": "1947",
@@ -13916,7 +13916,7 @@
     "tags": []
   },
   {
-    "id": 982,
+    "id": 959,
     "title": "Wild Thorns",
     "author": "Sahar Khalifeh",
     "year": "1976",
@@ -13930,7 +13930,7 @@
     "tags": []
   },
   {
-    "id": 983,
+    "id": 960,
     "title": "Sitti Nurbaya",
     "author": "Marah Rusli",
     "year": "1922",
@@ -13944,7 +13944,7 @@
     "tags": []
   },
   {
-    "id": 984,
+    "id": 961,
     "title": "Broad and Alien Is the World",
     "author": "Ciro Alegria",
     "year": "1941",
@@ -13960,7 +13960,7 @@
     ]
   },
   {
-    "id": 985,
+    "id": 962,
     "title": "The Scholars",
     "author": "Wu Jingzi",
     "year": "1750",
@@ -13974,7 +13974,7 @@
     "tags": []
   },
   {
-    "id": 986,
+    "id": 963,
     "title": "The Nine Cloud Dream",
     "author": "Kim Man-jung",
     "year": "1687",
@@ -13988,7 +13988,7 @@
     "tags": []
   },
   {
-    "id": 987,
+    "id": 964,
     "title": "Tales of Hulan River",
     "author": "Xiao Hong",
     "year": "1941",
@@ -14002,7 +14002,7 @@
     "tags": []
   },
   {
-    "id": 988,
+    "id": 965,
     "title": "The Atheist",
     "author": "Achdiat K. Mihardja",
     "year": "1949",
@@ -14016,7 +14016,7 @@
     "tags": []
   },
   {
-    "id": 989,
+    "id": 966,
     "title": "Behind the Painting",
     "author": "Siburapha",
     "year": "1937",
@@ -14030,7 +14030,7 @@
     "tags": []
   },
   {
-    "id": 990,
+    "id": 967,
     "title": "Pinjar",
     "author": "Amrita Pritam",
     "year": "1950",
@@ -14046,7 +14046,7 @@
     ]
   },
   {
-    "id": 991,
+    "id": 968,
     "title": "Sunlight on a Broken Column",
     "author": "Attia Hosain",
     "year": "1961",
@@ -14062,7 +14062,7 @@
     ]
   },
   {
-    "id": 992,
+    "id": 969,
     "title": "The Story of Zahra",
     "author": "Hanan al-Shaykh",
     "year": "1980",
@@ -14076,7 +14076,7 @@
     "tags": []
   },
   {
-    "id": 993,
+    "id": 970,
     "title": "The Concubine",
     "author": "Elechi Amadi",
     "year": "1966",
@@ -14090,7 +14090,7 @@
     "tags": []
   },
   {
-    "id": 994,
+    "id": 971,
     "title": "Crick Crack, Monkey",
     "author": "Merle Hodge",
     "year": "1970",
@@ -14104,7 +14104,7 @@
     "tags": []
   },
   {
-    "id": 995,
+    "id": 972,
     "title": "Corregidora",
     "author": "Gayl Jones",
     "year": "1975",
@@ -14118,7 +14118,7 @@
     "tags": []
   },
   {
-    "id": 996,
+    "id": 973,
     "title": "House Made of Dawn",
     "author": "N. Scott Momaday",
     "year": "1968",
@@ -14132,7 +14132,7 @@
     "tags": []
   },
   {
-    "id": 997,
+    "id": 974,
     "title": "Obasan",
     "author": "Joy Kogawa",
     "year": "1981",
@@ -14146,7 +14146,7 @@
     "tags": []
   },
   {
-    "id": 998,
+    "id": 975,
     "title": "Novel Without a Name",
     "author": "Duong Thu Huong",
     "year": "1991",
@@ -14160,7 +14160,7 @@
     "tags": []
   },
   {
-    "id": 999,
+    "id": 976,
     "title": "Ghachar Ghochar",
     "author": "Vivek Shanbhag",
     "year": "2013",
@@ -14176,7 +14176,7 @@
     ]
   },
   {
-    "id": 1000,
+    "id": 977,
     "title": "State of War",
     "author": "Ninotchka Rosca",
     "year": "1988",
@@ -14190,7 +14190,7 @@
     "tags": []
   },
   {
-    "id": 1001,
+    "id": 978,
     "title": "Twilight in Jakarta",
     "author": "Mochtar Lubis",
     "year": "1963",
@@ -14204,7 +14204,7 @@
     "tags": []
   },
   {
-    "id": 1002,
+    "id": 979,
     "title": "Drums for Rancas",
     "author": "Manuel Scorza",
     "year": "1970",
@@ -14220,7 +14220,7 @@
     ]
   },
   {
-    "id": 1003,
+    "id": 980,
     "title": "Dust",
     "author": "Yvonne Adhiambo Owuor",
     "year": "2014",
@@ -14234,7 +14234,7 @@
     "tags": []
   },
   {
-    "id": 1004,
+    "id": 981,
     "title": "Green Grass, Running Water",
     "author": "Thomas King",
     "year": "1993",
@@ -14248,7 +14248,7 @@
     "tags": []
   },
   {
-    "id": 1005,
+    "id": 982,
     "title": "The Travels of Benjamin III",
     "author": "Sholem Yankev Abramovitsh",
     "year": "1878",
@@ -14262,7 +14262,7 @@
     "tags": []
   },
   {
-    "id": 1006,
+    "id": 983,
     "title": "The Zelmenyaners",
     "author": "Moyshe Kulbak",
     "year": "1935",
@@ -14276,7 +14276,7 @@
     "tags": []
   },
   {
-    "id": 1007,
+    "id": 984,
     "title": "The Brothers Ashkenazi",
     "author": "I. J. Singer",
     "year": "1936",
@@ -14290,7 +14290,7 @@
     "tags": []
   },
   {
-    "id": 1008,
+    "id": 985,
     "title": "The Family Mashber",
     "author": "Der Nister",
     "year": "1948",
@@ -14304,7 +14304,7 @@
     "tags": []
   },
   {
-    "id": 1009,
+    "id": 986,
     "title": "The Yeshiva",
     "author": "Chaim Grade",
     "year": "1968",

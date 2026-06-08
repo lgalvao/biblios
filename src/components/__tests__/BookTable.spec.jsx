@@ -112,7 +112,7 @@ describe('BookTable Component tests', () => {
     expect(screen.getByText(/AUTHOR: Xosé Neira Vilas/i)).toBeInTheDocument();
   });
 
-  it('filters books by pages count (shorter/longer than value)', () => {
+  it('filters books by pages count (shorter/longer/between values)', () => {
     render(<BookTable {...defaultProps} />);
 
     const selects = screen.getAllByRole('combobox');
@@ -136,7 +136,24 @@ describe('BookTable Component tests', () => {
     expect(screen.queryByText('Memoirs of a Peasant Boy')).not.toBeInTheDocument();
     expect(screen.getByText('The Door')).toBeInTheDocument();
 
-    // 3. Reset filters
+    // 3. Between 150 and 200 pages
+    fireEvent.change(pageSelect, { target: { value: 'between' } });
+    const minInput = screen.getByPlaceholderText('Min');
+    const maxInput = screen.getByPlaceholderText('Max');
+    fireEvent.change(minInput, { target: { value: '150' } });
+    fireEvent.change(maxInput, { target: { value: '200' } });
+
+    expect(screen.getByText('Memoirs of a Peasant Boy')).toBeInTheDocument();
+    expect(screen.queryByText('The Door')).not.toBeInTheDocument();
+
+    // 4. Between 200 and 300 pages
+    fireEvent.change(minInput, { target: { value: '200' } });
+    fireEvent.change(maxInput, { target: { value: '300' } });
+
+    expect(screen.queryByText('Memoirs of a Peasant Boy')).not.toBeInTheDocument();
+    expect(screen.getByText('The Door')).toBeInTheDocument();
+
+    // 5. Reset filters
     fireEvent.change(pageSelect, { target: { value: 'all' } });
     expect(screen.getByText('Memoirs of a Peasant Boy')).toBeInTheDocument();
     expect(screen.getByText('The Door')).toBeInTheDocument();
