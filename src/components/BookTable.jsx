@@ -17,7 +17,8 @@ export default function BookTable({
   onLanguageFilterChange,
   selectedAuthor,
   onAuthorFilterChange,
-  onShowToast
+  onShowToast,
+  onOpenStatsReport
 }) {
   const [filterRead, setFilterRead] = useState('all');
   const [filterContinent, setFilterContinent] = useState('all');
@@ -31,7 +32,7 @@ export default function BookTable({
   const [sortDirection, setSortDirection] = useState('asc');
   const [expandedBookId, setExpandedBookId] = useState(null);
   const [showExportDropdown, setShowExportDropdown] = useState(false);
-
+  const [searchAllFields, setSearchAllFields] = useState(false);
   const [visibleCount, setVisibleCount] = useState(50);
   const [deletingId, setDeletingId] = useState(null);
   const sentinelRef = useRef(null);
@@ -81,12 +82,20 @@ export default function BookTable({
   const filteredBooks = useMemo(() => {
     return books.filter(b => {
       const s = normalizeForSearch(search);
-      const matchesSearch = !s || 
+      const matchesSearch = !s || (
         normalizeForSearch(b.title).includes(s) || 
         normalizeForSearch(b.author).includes(s) || 
         normalizeForSearch(b.country).includes(s) ||
         normalizeForSearch(b.originalLanguage).includes(s) ||
-        (b.tags && b.tags.some(t => normalizeForSearch(t).includes(s)));
+        (b.tags && b.tags.some(t => normalizeForSearch(t).includes(s))) ||
+        (searchAllFields && (
+          (b.description && normalizeForSearch(b.description).includes(s)) ||
+          (b.year && normalizeForSearch(String(b.year)).includes(s)) ||
+          (b.region && normalizeForSearch(b.region).includes(s)) ||
+          (b.continent && normalizeForSearch(b.continent).includes(s)) ||
+          (b.pages && normalizeForSearch(String(b.pages)).includes(s))
+        ))
+      );
 
       const matchesRead = filterRead === 'all' || (filterRead === 'read' ? b.read : !b.read);
       const matchesContinent = filterContinent === 'all' || b.continent === filterContinent;
@@ -118,7 +127,7 @@ export default function BookTable({
 
       return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
     });
-  }, [books, search, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
+  }, [books, search, searchAllFields, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
 
   const exportCSV = () => {
     const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description', 'Tags'];
@@ -250,23 +259,43 @@ export default function BookTable({
       {/* Controls */}
       <div className="card-header bg-white border-bottom p-3">
         <div className="row g-2 align-items-center">
-          <div className="col-12 col-md-4 col-lg-2">
-            <div className="input-group input-group-sm">
-              <span className="input-group-text bg-light border-end-0 text-muted">
-                <Search size={14} />
-              </span>
-              <input 
-                type="text" 
-                className="form-control border-start-0 bg-light" 
-                placeholder="Search library..." 
-                value={search}
-                onChange={(e) => onSearchChange(e.target.value)}
-              />
-              {search && (
-                <button className="btn btn-outline-secondary border-start-0" onClick={() => onSearchChange('')}>
-                  <X size={14} />
-                </button>
-              )}
+          <div className="col-12 col-md-4 col-lg-3">
+            <div className="d-flex flex-column gap-1">
+              <div className="input-group input-group-sm">
+                <span className="input-group-text bg-light border-end-0 text-muted">
+                  <Search size={14} />
+                </span>
+                <input 
+                  type="text" 
+                  className="form-control border-start-0 bg-light" 
+                  placeholder="Search library..." 
+                  value={search}
+                  onChange={(e) => onSearchChange(e.target.value)}
+                />
+                {search && (
+                  <button className="btn btn-outline-secondary border-start-0" onClick={() => onSearchChange('')}>
+                    <X size={14} />
+                  </button>
+                )}
+              </div>
+              <div className="form-check form-switch m-0 d-flex align-items-center gap-1" style={{ minHeight: 'auto' }}>
+                <input 
+                  className="form-check-input cursor-pointer" 
+                  type="checkbox" 
+                  role="switch" 
+                  id="searchAllFieldsSwitch"
+                  checked={searchAllFields}
+                  onChange={(e) => setSearchAllFields(e.target.checked)}
+                  style={{ width: '1.6em', height: '0.8em', marginTop: 0 }}
+                />
+                <label 
+                  className="form-check-label small text-muted cursor-pointer user-select-none" 
+                  htmlFor="searchAllFieldsSwitch"
+                  style={{ fontSize: '0.75rem', fontWeight: 500 }}
+                >
+                  Pesquisar em todos os campos (incl. descrição)
+                </label>
+              </div>
             </div>
           </div>
           <div className="col-6 col-md-2 col-lg-1">
@@ -379,6 +408,19 @@ export default function BookTable({
                     <button className="dropdown-item d-flex align-items-center gap-2" onClick={exportPDF}>
                       <FileText size={14} className="text-secondary" />
                       <span>PDF</span>
+                    </button>
+                  </li>
+                  <li><hr className="dropdown-divider" /></li>
+                  <li>
+                    <button 
+                      className="dropdown-item d-flex align-items-center gap-2 fw-semibold text-primary" 
+                      onClick={() => {
+                        if (onOpenStatsReport) onOpenStatsReport(filteredBooks);
+                        setShowExportDropdown(false);
+                      }}
+                    >
+                      <FileText size={14} />
+                      <span>Statistics Report</span>
                     </button>
                   </li>
                 </ul>
@@ -515,9 +557,6 @@ export default function BookTable({
               <th className="cursor-pointer py-3 d-none d-lg-table-cell" onClick={() => handleSort('pages')}>
                 PAGES {renderSortIcon('pages')}
               </th>
-              <th className="cursor-pointer py-3 d-none d-xl-table-cell" onClick={() => handleSort('region')}>
-                REGION {renderSortIcon('region')}
-              </th>
               <th className="text-end pe-3 py-3">ACTIONS</th>
             </tr>
           </thead>
@@ -584,6 +623,7 @@ export default function BookTable({
                   </td>
                   <td className="text-muted">
                     <span 
+                      data-testid={`author-link-${b.id}`}
                       className="author-link" 
                       onClick={(e) => { 
                         e.stopPropagation(); 
@@ -596,6 +636,7 @@ export default function BookTable({
                   <td className="d-none d-lg-table-cell">{b.year}</td>
                   <td className="d-none d-md-table-cell">
                     <span 
+                      data-testid={`country-link-${b.id}`}
                       className="country-link" 
                       onClick={(e) => { 
                         e.stopPropagation(); 
@@ -607,6 +648,7 @@ export default function BookTable({
                   </td>
                   <td className="d-none d-md-table-cell text-muted">
                     <span 
+                      data-testid={`language-link-${b.id}`}
                       className="language-link" 
                       onClick={(e) => { 
                         e.stopPropagation(); 
@@ -617,7 +659,6 @@ export default function BookTable({
                     </span>
                   </td>
                   <td className="d-none d-lg-table-cell text-muted">{b.pages}</td>
-                  <td className="d-none d-xl-table-cell text-muted">{b.region}</td>
                   <td className="text-end pe-3" onClick={(e) => e.stopPropagation()}>
                     <div className="btn-group btn-group-sm">
                       <button 
@@ -639,9 +680,9 @@ export default function BookTable({
                     </div>
                   </td>
                 </tr>
-                {expandedBookId === b.id && (
+                 {expandedBookId === b.id && (
                   <tr key={`${b.id}-expanded`} className="animate-fade">
-                    <td colSpan={9} className="p-0 border-0">
+                    <td colSpan={8} className="p-0 border-0">
                       <div className="p-4 border-bottom" style={{ background: 'var(--bs-tertiary-bg)' }}>
                         <div className="row g-4">
                           <div className="col-12 col-md-8">
@@ -681,8 +722,8 @@ export default function BookTable({
                 )}
               </React.Fragment>
             ))}
-            <tr ref={sentinelRef}>
-              <td colSpan={9} className="text-center p-2 text-muted small border-0">
+             <tr ref={sentinelRef}>
+              <td colSpan={8} className="text-center p-2 text-muted small border-0">
                 {visibleCount < sortedBooks.length ? 'Loading more...' : ''}
               </td>
             </tr>

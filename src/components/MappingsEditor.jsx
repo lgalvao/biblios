@@ -236,6 +236,13 @@ export default function MappingsEditor({ onSyncSuccess, onSyncError, onUpdateBoo
       return;
     }
 
+    // Check if country already exists anywhere in geoscheme
+    const all = Object.values(geoscheme).flat().flatMap(r => Object.values(r)[0]);
+    if (all.includes(newName)) {
+      alert(`Country "${newName}" already exists in the mapping configuration.`);
+      return;
+    }
+
     const updated = { ...geoscheme };
     updated[activeContinent] = updated[activeContinent].map(r => {
       const rName = Object.keys(r)[0];
@@ -551,10 +558,10 @@ export default function MappingsEditor({ onSyncSuccess, onSyncError, onUpdateBoo
                               onChange={e => setEditingRegion({ ...editingRegion, newName: e.target.value })}
                               autoFocus
                             />
-                            <button className="btn btn-sm btn-success p-1 text-white border-0" onClick={() => handleRenameRegionSubmit(rName)}>
+                            <button data-testid="confirm-edit-region" className="btn btn-sm btn-success p-1 text-white border-0" onClick={() => handleRenameRegionSubmit(rName)}>
                               <Check size={14} />
                             </button>
-                            <button className="btn btn-sm btn-danger p-1 text-white border-0" onClick={() => setEditingRegion(null)}>
+                            <button data-testid="cancel-edit-region" className="btn btn-sm btn-danger p-1 text-white border-0" onClick={() => setEditingRegion(null)}>
                               <X size={14} />
                             </button>
                           </div>
@@ -569,12 +576,14 @@ export default function MappingsEditor({ onSyncSuccess, onSyncError, onUpdateBoo
                                 {rCountries.length}
                               </span>
                               <button 
+                                data-testid={`edit-region-${rName}`}
                                 className={`btn btn-link btn-xs p-0 border-0 ${isSelected ? 'text-white' : 'text-muted'}`}
                                 onClick={() => setEditingRegion({ name: rName, newName: rName })}
                               >
                                 <Edit2 size={12} />
                               </button>
                               <button 
+                                data-testid={`delete-region-${rName}`}
                                 className={`btn btn-link btn-xs p-0 border-0 ${isSelected ? 'text-white' : 'text-danger'}`}
                                 onClick={() => handleDeleteRegion(rName)}
                               >
@@ -635,10 +644,10 @@ export default function MappingsEditor({ onSyncSuccess, onSyncError, onUpdateBoo
                             onChange={e => setEditingCountry({ ...editingCountry, newName: e.target.value })}
                             autoFocus
                           />
-                          <button className="btn btn-sm btn-success p-1 text-white border-0" onClick={() => handleRenameCountrySubmit(country)}>
+                          <button data-testid="confirm-edit-country" className="btn btn-sm btn-success p-1 text-white border-0" onClick={() => handleRenameCountrySubmit(country)}>
                             <Check size={14} />
                           </button>
-                          <button className="btn btn-sm btn-danger p-1 text-white border-0" onClick={() => setEditingCountry(null)}>
+                          <button data-testid="cancel-edit-country" className="btn btn-sm btn-danger p-1 text-white border-0" onClick={() => setEditingCountry(null)}>
                             <X size={14} />
                           </button>
                         </div>
@@ -665,12 +674,14 @@ export default function MappingsEditor({ onSyncSuccess, onSyncError, onUpdateBoo
                             </select>
                             
                             <button 
+                              data-testid={`edit-country-${country}`}
                               className="btn btn-link btn-xs p-0 border-0 text-muted"
                               onClick={() => setEditingCountry({ name: country, newName: country })}
                             >
                               <Edit2 size={12} />
                             </button>
                             <button 
+                              data-testid={`delete-country-${country}`}
                               className="btn btn-link btn-xs p-0 border-0 text-danger"
                               onClick={() => handleRemoveCountry(country)}
                             >
@@ -739,6 +750,7 @@ export default function MappingsEditor({ onSyncSuccess, onSyncError, onUpdateBoo
                         <span className="small text-muted text-truncate">&rarr; {target}</span>
                       </div>
                       <button 
+                        data-testid={`delete-alias-${alias}`}
                         className="btn btn-link btn-xs p-0 border-0 text-danger ms-2"
                         onClick={() => handleRemoveAlias(alias)}
                       >

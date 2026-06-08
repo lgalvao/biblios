@@ -13,6 +13,7 @@ const BookTable = lazy(() => import('./components/BookTable'));
 const BookModal = lazy(() => import('./components/BookModal'));
 const MapView = lazy(() => import('./components/MapView'));
 const MappingsEditor = lazy(() => import('./components/MappingsEditor'));
+const StatsReportModal = lazy(() => import('./components/StatsReportModal'));
 import './App.css';
 
 import { 
@@ -64,6 +65,14 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
   const [selectedAuthor, setSelectedAuthor] = useState('');
+
+  const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
+  const [statsBooksList, setStatsBooksList] = useState([]);
+
+  const handleOpenStatsModal = (booksToReport) => {
+    setStatsBooksList(booksToReport || books);
+    setIsStatsModalOpen(true);
+  };
 
 
   const [theme, setTheme] = useState(() => {
@@ -408,7 +417,7 @@ function App() {
             </div>
           ) : (
             <div>
-              {activeTab === 'dashboard' && <Dashboard books={books} />}
+              {activeTab === 'dashboard' && <Dashboard books={books} onOpenStatsReport={handleOpenStatsModal} />}
               {activeTab === 'list' && (
                 <BookTable 
                   books={books} 
@@ -425,6 +434,7 @@ function App() {
                   selectedAuthor={selectedAuthor}
                   onAuthorFilterChange={setSelectedAuthor}
                   onShowToast={showToast}
+                  onOpenStatsReport={handleOpenStatsModal}
                 />
               )}
               {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
@@ -452,11 +462,29 @@ function App() {
           <BookModal 
             key={editingBook ? editingBook.id : 'new'}
             book={editingBook} 
+            books={books}
             authors={uniqueAuthors}
             languages={uniqueLanguages}
             tags={uniqueTags}
             onSave={handleSaveBook} 
             onClose={() => { setIsModalOpen(false); setEditingBook(null); }} 
+          />
+        </Suspense>
+      )}
+
+      {/* Stats Report Modal */}
+      {isStatsModalOpen && (
+        <Suspense fallback={
+          <div className="modal-backdrop fade show d-flex align-items-center justify-content-center" style={{ zIndex: 1050 }}>
+            <div className="spinner-border text-light" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        }>
+          <StatsReportModal 
+            books={statsBooksList}
+            onClose={() => setIsStatsModalOpen(false)}
+            onShowToast={showToast}
           />
         </Suspense>
       )}

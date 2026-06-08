@@ -128,22 +128,62 @@ describe('pdfGenerator', () => {
     expect(mockDoc.save).toHaveBeenCalled();
   });
 
-  it('should trigger page breaks and column switches when rendering a large catalog', async () => {
-    const books = Array.from({ length: 120 }, (_, i) => ({
-      title: `Book ${i + 1}`,
-      author: `Author ${i + 1}`,
-      year: `${1900 + i}`,
-      pages: 100 + i,
+  it('should handle canvas context failure gracefully', () => {
+    const originalCreateElement = document.createElement;
+    document.createElement = vi.fn((tagName) => {
+      if (tagName === 'canvas') {
+        return {
+          getContext: vi.fn(() => null),
+          width: 0,
+          height: 0
+        };
+      }
+      return originalCreateElement.call(document, tagName);
+    });
+
+    const books = [{ title: 'T', author: 'A', country: 'Brazil', continent: 'South America' }];
+    exportPDFReport(books);
+    
+    document.createElement = originalCreateElement;
+  });
+
+  it('should handle error during flag rendering', () => {
+    const originalCreateElement = document.createElement;
+    document.createElement = vi.fn((tagName) => {
+      if (tagName === 'canvas') {
+        throw new Error('Canvas error');
+      }
+      return originalCreateElement.call(document, tagName);
+    });
+
+    const books = [{ title: 'T', author: 'A', country: 'Brazil', continent: 'South America' }];
+    const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+    
+    exportPDFReport(books);
+    
+    expect(consoleSpy).toHaveBeenCalledWith('Failed to render flag emoji to canvas:', expect.any(Error));
+    
+    document.createElement = originalCreateElement;
+    consoleSpy.mockRestore();
+  });
+
+  it('should trigger page breaks within country loop for large catalogs', async () => {
+    // Generate enough books in the SAME country to force a page break within the country block
+    const largeBooks = Array.from({ length: 150 }, (_, i) => ({
+      title: `Long Book Title ${i}`,
+      author: `Author ${i}`,
+      year: '2000',
+      pages: 100,
       originalLanguage: 'English',
-      read: i % 2 === 0,
       country: 'Brazil',
       continent: 'South America'
     }));
 
-    exportPDFReport(books);
-
+    exportPDFReport(largeBooks);
     const { jsPDF } = await import('jspdf');
     const mockDoc = jsPDF.mock.results[0].value;
+    
+    // We expect addPage to be called multiple times due to the large amount of data in one country
     expect(mockDoc.addPage).toHaveBeenCalled();
   });
 });

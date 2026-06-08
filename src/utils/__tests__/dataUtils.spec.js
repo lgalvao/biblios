@@ -4,12 +4,15 @@ import {
   parseCSVText, 
   repairBooksList,
   mapCsvToBooks,
+  sortBooks,
   formatMDExport,
+  normalizeToASCII,
   normalizeForSearch,
   allCountries,
   allRegions,
   allContinents,
   getGeoInfo,
+  getCountryCode,
   getCountryFlag,
   updateGeoschemeData
 } from '../dataUtils';
@@ -111,11 +114,27 @@ describe('Data Utilities', () => {
       expect(repaired[0].country).toBe('Czechia');
     });
 
+    it('should fix country for Brasil, United States, and United States of America', () => {
+      const books = [
+        { title: 'Book 1', author: 'A', country: 'Brasil' },
+        { title: 'Book 2', author: 'B', country: 'united states' },
+        { title: 'Book 3', author: 'C', country: 'United States of America' }
+      ];
+      const { repaired } = repairBooksList(books, []);
+      expect(repaired[0].country).toBe('Brazil');
+      expect(repaired[1].country).toBe('USA');
+      expect(repaired[2].country).toBe('USA');
+    });
+
     it('should sync with reference data', () => {
-      const books = [{ title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: '1950' }];
+      const books = [
+        { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', year: '1950' },
+        { title: 'Book X', author: 'Author X' }
+      ];
       const { repaired, needsRepair } = repairBooksList(books, mockReference);
       expect(repaired[0].year).toBe('1925');
       expect(repaired[0].pages).toBe(180);
+      expect(repaired[1].description).toBe('A book from world literature.');
       expect(needsRepair).toBe(true);
     });
 
@@ -126,10 +145,16 @@ describe('Data Utilities', () => {
       expect(needsRepair).toBe(true);
     });
 
+    it('should handle unknown languages gracefully', () => {
+      const books = [{ title: 'Unknown Lang', author: 'A', originalLanguage: 'Unknown' }];
+      const { repaired } = repairBooksList(books, []);
+      expect(repaired[0].originalLanguage).toBe('Unknown');
+    });
+
     it('should normalize author name to ASCII', () => {
-      const books = [{ title: 'Sanatorium Under the Sign of the Hourglass', author: 'Bruno Schulz (Ł)', originalLanguage: 'English', country: 'Poland' }];
+      const books = [{ title: 'Special Chars', author: 'ø Ø ı İ Ł ł', originalLanguage: 'English', country: 'Poland' }];
       const { repaired, needsRepair } = repairBooksList(books, []);
-      expect(repaired[0].author).toBe('Bruno Schulz (L)');
+      expect(repaired[0].author).toBe('o O i I L l');
       expect(needsRepair).toBe(true);
     });
 
@@ -137,6 +162,36 @@ describe('Data Utilities', () => {
       const books = [{ title: 'No Tags Book', author: 'Author Name' }];
       const { repaired } = repairBooksList(books, []);
       expect(repaired[0].tags).toEqual([]);
+    });
+
+    it('should repair empty description and year 1950 from fresh source', () => {
+      const mockRef = [
+        { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', description: 'New Description', year: '1925' }
+      ];
+      const books = [
+        { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', description: '', year: '1950' }
+      ];
+      const { repaired, needsRepair } = repairBooksList(books, mockRef);
+      expect(repaired[0].description).toBe('New Description');
+      expect(repaired[0].year).toBe('1925');
+      expect(needsRepair).toBe(true);
+    });
+
+    it('should set default description if missing and no reference found', () => {
+      const books = [{ title: 'Unknown Book', author: 'Unknown Author', country: 'Brazil' }];
+      // remove description completely
+      delete books[0].description;
+      const { repaired, needsRepair } = repairBooksList(books, []);
+      expect(repaired[0].description).toBe('A book from Brazil.');
+      expect(needsRepair).toBe(true);
+    });
+
+    it('should set default description with world literature if missing, no reference, and no country', () => {
+      const books = [{ title: 'Unknown Book', author: 'Unknown Author', country: '' }];
+      delete books[0].description;
+      const { repaired, needsRepair } = repairBooksList(books, []);
+      expect(repaired[0].description).toBe('A book from world literature.');
+      expect(needsRepair).toBe(true);
     });
   });
 
@@ -154,6 +209,15 @@ describe('Data Utilities', () => {
         read: true,
         pages: 328
       });
+    });
+
+    it('should handle read column with true string', () => {
+      const rows = [
+        ['Title', 'Author', 'Read'],
+        ['1984', 'George Orwell', 'true']
+      ];
+      const books = mapCsvToBooks(rows);
+      expect(books[0].read).toBe(true);
     });
 
     it('should skip rows without title or author', () => {
@@ -177,6 +241,140 @@ describe('Data Utilities', () => {
       expect(books).toHaveLength(1);
       expect(books[0].tags).toEqual(['classic', 'dystopian', 'political']);
     });
+
+    it('should return empty array if less than 2 rows', () => {
+      expect(mapCsvToBooks([])).toEqual([]);
+      expect(mapCsvToBooks([['Header']])).toEqual([]);
+    });
+  });
+
+  describe('sortBooks', () => {
+    const books = [
+      { title: 'C', year: '1900', pages: 100 },
+      { title: 'A', year: '2000', pages: 50 },
+      { title: 'B', year: '1950', pages: 200 },
+      { title: 'Empty', year: '', pages: '' },
+      { title: 'Null', year: null, pages: null },
+      { title: 'NaN', year: 'NaN', pages: 'abc' }
+    ];
+
+    it('should return books as is if no sortColumn', () => {
+      expect(sortBooks(books, null, 'asc')).toEqual(books);
+    });
+
+    it('should sort by title asc', () => {
+      const sorted = sortBooks(books, 'title', 'asc');
+      expect(sorted[0].title).toBe('A');
+      expect(sorted[1].title).toBe('B');
+      expect(sorted[2].title).toBe('C');
+    });
+
+    it('should sort by title desc', () => {
+      const sorted = sortBooks(books, 'title', 'desc');
+      expect(sorted[0].title).toBe('Null'); // N comes after E
+      expect(sorted[1].title).toBe('NaN');
+      expect(sorted[2].title).toBe('Empty');
+      // String comparison: Null, NaN, Empty, C, B, A
+    });
+
+    it('should sort by year asc and handle empty values', () => {
+      const sorted = sortBooks(books, 'year', 'asc');
+      // Numeric: 1900, 1950, 2000
+      // Empty: '', null, 'NaN' at the end
+      expect(sorted[0].year).toBe('1900');
+      expect(sorted[1].year).toBe('1950');
+      expect(sorted[2].year).toBe('2000');
+      expect(sorted[3].title).toBe('Empty');
+    });
+
+    it('should sort by year desc and handle empty values', () => {
+      const sorted = sortBooks(books, 'year', 'desc');
+      // Current implementation puts empty values at the beginning for descending
+      expect(sorted[0].title).toBe('Empty');
+      expect(sorted[1].title).toBe('Null');
+      expect(sorted[2].title).toBe('NaN');
+      expect(sorted[3].year).toBe('2000');
+      expect(sorted[4].year).toBe('1950');
+      expect(sorted[5].year).toBe('1900');
+    });
+
+    it('should handle numeric sort for pages', () => {
+      const sorted = sortBooks(books, 'pages', 'asc');
+      expect(sorted[0].pages).toBe(50);
+      expect(sorted[1].pages).toBe(100);
+      expect(sorted[2].pages).toBe(200);
+    });
+
+    it('should handle mixed numeric and string values in sort', () => {
+      const mixedBooks = [
+        { title: 'Num 10', year: '10' },
+        { title: 'Alpha', year: 'abc' },
+        { title: 'Num 2', year: '2' }
+      ];
+      const sorted = sortBooks(mixedBooks, 'year', 'asc');
+      // '10' and '2' are both numeric, so they compare as numbers: 2 < 10
+      // 'abc' is string, so compared with numbers it follows alphabetical order if fallback
+      // Current implementation: if both are numbers, numeric compare. 
+      // So 2, 10, then 'abc'
+      expect(sorted[0].year).toBe('2');
+      expect(sorted[1].year).toBe('10');
+      expect(sorted[2].year).toBe('abc');
+    });
+
+    it('should handle sorting pages with NaN values as empty', () => {
+      const pageBooks = [
+        { title: 'Valid', pages: 100 },
+        { title: 'Invalid', pages: 'not a number' }
+      ];
+      const sorted = sortBooks(pageBooks, 'pages', 'asc');
+      expect(sorted[0].title).toBe('Valid');
+      expect(sorted[1].title).toBe('Invalid');
+    });
+  });
+
+  describe('getGeoInfo', () => {
+    it('should return info for an alias', () => {
+      const info = getGeoInfo('brasil');
+      expect(info.region).toBe('South America');
+      expect(info.continent).toBe('South America');
+    });
+
+    it('should return empty info for unknown country', () => {
+      const info = getGeoInfo('UnknownLand');
+      expect(info.region).toBe('');
+      expect(info.continent).toBe('');
+    });
+  });
+
+  describe('getCountryCode', () => {
+    it('should return correct country code for standard countries', () => {
+      expect(getCountryCode('Brazil')).toBe('BR');
+      expect(getCountryCode('France')).toBe('FR');
+      expect(getCountryCode('USA')).toBe('US');
+    });
+
+    it('should handle special flags for UK regions', () => {
+      expect(getCountryCode('England')).toBe('gb-eng');
+      expect(getCountryCode('Scotland')).toBe('gb-sct');
+      expect(getCountryCode('Wales')).toBe('gb-wls');
+      expect(getCountryCode('Northern Ireland')).toBe('gb-nir');
+    });
+
+    it('should return empty string for unknown countries or empty values', () => {
+      expect(getCountryCode(null)).toBe('');
+      expect(getCountryCode('')).toBe('');
+      expect(getCountryCode('Atlantis')).toBe('');
+    });
+  });
+
+  describe('getCountryFlag', () => {
+    it('should return empty string for unknown country', () => {
+      expect(getCountryFlag('UnknownLand')).toBe('');
+    });
+
+    it('should return emoji for known country', () => {
+      expect(getCountryFlag('Brazil')).toBe('🇧🇷');
+    });
   });
 
   describe('formatMDExport', () => {
@@ -191,6 +389,14 @@ describe('Data Utilities', () => {
     it('should include pages and original language in formatted output if present', () => {
       const books = [
         { title: 'The Immoralist', author: 'Andre Gide', country: 'France', year: '1902', pages: 400, originalLanguage: 'French' }
+      ];
+      const result = formatMDExport(books);
+      expect(result).toBe('- The Immoralist by Andre Gide (France, 1902) 400 p, French');
+    });
+
+    it('should not include tags in the formatted output even if present', () => {
+      const books = [
+        { title: 'The Immoralist', author: 'Andre Gide', country: 'France', year: '1902', pages: 400, originalLanguage: 'French', tags: ['classic', 'existentialism'] }
       ];
       const result = formatMDExport(books);
       expect(result).toBe('- The Immoralist by Andre Gide (France, 1902) 400 p, French');

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getGeoInfo, allCountries, allRegions, allContinents } from '../utils/dataUtils';
 
-export default function BookModal({ book, onSave, onClose, authors = [], languages = [], tags: tagsList = [] }) {
+export default function BookModal({ book, onSave, onClose, books = [], authors = [], languages = [], tags: tagsList = [] }) {
   const [title, setTitle] = useState(book?.title || '');
   const [author, setAuthor] = useState(book?.author || '');
   const [year, setYear] = useState(book?.year || '');
@@ -15,6 +15,19 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
   const [tags, setTags] = useState(book?.tags || []);
   const [tagInput, setTagInput] = useState('');
   const [error, setError] = useState('');
+
+  const handleAuthorChange = (val) => {
+    setAuthor(val);
+    if (val && books && books.length > 0) {
+      const match = books.find(b => b.author.toLowerCase().trim() === val.toLowerCase().trim() && b.country);
+      if (match) {
+        setCountry(match.country);
+        const geo = getGeoInfo(match.country);
+        setRegion(match.region || geo.region);
+        setContinent(match.continent || geo.continent);
+      }
+    }
+  };
 
   const geo = getGeoInfo(country);
   const isKnownCountry = !!(geo.continent && geo.region);
@@ -82,34 +95,34 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
             
             <div className="row g-3">
               <div className="col-12 col-md-6">
-                <label className="form-label small fw-bold text-muted text-uppercase">Title</label>
-                <input type="text" className="form-control" value={title} onChange={e => setTitle(e.target.value)} required />
+                <label htmlFor="book-title" className="form-label small fw-bold text-muted text-uppercase">Title</label>
+                <input id="book-title" type="text" className="form-control" value={title} onChange={e => setTitle(e.target.value)} required />
               </div>
               <div className="col-12 col-md-6">
-                <label className="form-label small fw-bold text-muted text-uppercase">Author</label>
-                <input type="text" className="form-control" value={author} onChange={e => setAuthor(e.target.value)} list="author-options" required />
+                <label htmlFor="book-author" className="form-label small fw-bold text-muted text-uppercase">Author</label>
+                <input id="book-author" type="text" className="form-control" value={author} onChange={e => handleAuthorChange(e.target.value)} list="author-options" required />
                 <datalist id="author-options">
                   {authors.map(a => <option key={a} value={a} />)}
                 </datalist>
               </div>
               <div className="col-6 col-md-3">
-                <label className="form-label small fw-bold text-muted text-uppercase">Year</label>
-                <input type="text" className="form-control" value={year} onChange={e => setYear(e.target.value)} required />
+                <label htmlFor="book-year" className="form-label small fw-bold text-muted text-uppercase">Year</label>
+                <input id="book-year" type="text" className="form-control" value={year} onChange={e => setYear(e.target.value)} required />
               </div>
               <div className="col-6 col-md-3">
-                <label className="form-label small fw-bold text-muted text-uppercase">Pages</label>
-                <input type="number" className="form-control" value={pages} onChange={e => setPages(e.target.value)} />
+                <label htmlFor="book-pages" className="form-label small fw-bold text-muted text-uppercase">Pages</label>
+                <input id="book-pages" type="number" className="form-control" value={pages} onChange={e => setPages(e.target.value)} />
               </div>
               <div className="col-12 col-md-6">
-                <label className="form-label small fw-bold text-muted text-uppercase">Language</label>
-                <input type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} list="language-options" />
+                <label htmlFor="book-language" className="form-label small fw-bold text-muted text-uppercase">Language</label>
+                <input id="book-language" type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} list="language-options" />
                 <datalist id="language-options">
                   {languages.map(l => <option key={l} value={l} />)}
                 </datalist>
               </div>
               <div className={isKnownCountry || !country.trim() ? "col-12" : "col-12 col-md-4"}>
-                <label className="form-label small fw-bold text-muted text-uppercase">Country</label>
-                <input type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} list="country-options" required />
+                <label htmlFor="book-country" className="form-label small fw-bold text-muted text-uppercase">Country</label>
+                <input id="book-country" type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} list="country-options" required />
                 <datalist id="country-options">
                   {allCountries.map(c => <option key={c} value={c} />)}
                 </datalist>
@@ -124,15 +137,15 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
               {country.trim() !== '' && !isKnownCountry && (
                 <>
                   <div className="col-12 col-md-4 animate-fade">
-                    <label className="form-label small fw-bold text-muted text-uppercase">Continent</label>
-                    <input type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
+                    <label htmlFor="book-continent" className="form-label small fw-bold text-muted text-uppercase">Continent</label>
+                    <input id="book-continent" type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
                     <datalist id="continent-options">
                       {allContinents.map(c => <option key={c} value={c} />)}
                     </datalist>
                   </div>
                   <div className="col-12 col-md-4 animate-fade">
-                    <label className="form-label small fw-bold text-muted text-uppercase">Region</label>
-                    <input type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
+                    <label htmlFor="book-region" className="form-label small fw-bold text-muted text-uppercase">Region</label>
+                    <input id="book-region" type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
                     <datalist id="region-options">
                       {allRegions.map(r => <option key={r} value={r} />)}
                     </datalist>
@@ -140,11 +153,11 @@ export default function BookModal({ book, onSave, onClose, authors = [], languag
                 </>
               )}
               <div className="col-12">
-                <label className="form-label small fw-bold text-muted text-uppercase">Description</label>
-                <textarea className="form-control" rows="3" value={description} onChange={e => setDescription(e.target.value)}></textarea>
+                <label htmlFor="book-description" className="form-label small fw-bold text-muted text-uppercase">Description</label>
+                <textarea id="book-description" className="form-control" rows="3" value={description} onChange={e => setDescription(e.target.value)}></textarea>
               </div>
               <div className="col-12">
-                <label className="form-label small fw-bold text-muted text-uppercase">Tags</label>
+                <label htmlFor="book-tags" className="form-label small fw-bold text-muted text-uppercase">Tags</label>
                 <div className="input-group input-group-sm mb-2">
                   <input 
                     type="text" 

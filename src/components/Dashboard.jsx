@@ -4,7 +4,7 @@ import { Book, CheckCircle, Compass, Globe, Languages, FileText, Search } from '
 import { normalizeForSearch } from '../utils/dataUtils';
 import CountryFlag from './CountryFlag';
 
-export default function Dashboard({ books }) {
+export default function Dashboard({ books, onOpenStatsReport }) {
   const [searchTerm, setSearchQuery] = useState('');
 
   // 1. Basic Stats & KPI Data
@@ -20,7 +20,13 @@ export default function Dashboard({ books }) {
     let readPages = 0;
 
     books.forEach(b => {
-      if (b.continent) continentCounts[b.continent] = (continentCounts[b.continent] || 0) + 1;
+      if (b.continent) {
+        let nomeContinente = b.continent;
+        if (nomeContinente === 'Asia' || nomeContinente === 'Oceania') {
+          nomeContinente = 'Asia and Oceania';
+        }
+        continentCounts[nomeContinente] = (continentCounts[nomeContinente] || 0) + 1;
+      }
       if (b.region) regionCounts[b.region] = (regionCounts[b.region] || 0) + 1;
       if (b.country) {
         let country = b.country.trim().toLowerCase();
@@ -54,6 +60,9 @@ export default function Dashboard({ books }) {
         let name = b.continent;
         if (name === 'North America' || name === 'South America' || name === 'Central America') {
           name = 'Americas';
+        }
+        if (name === 'Asia' || name === 'Oceania') {
+          name = 'Asia and Oceania';
         }
         continents[name] = (continents[name] || 0) + 1;
       }
@@ -116,6 +125,9 @@ export default function Dashboard({ books }) {
         let name = b.continent;
         if (name === 'North America' || name === 'South America' || name === 'Central America') {
           name = 'Americas';
+        }
+        if (name === 'Asia' || name === 'Oceania') {
+          name = 'Asia and Oceania';
         }
         data.continent[name] = (data.continent[name] || 0) + 1;
       }
@@ -302,15 +314,24 @@ export default function Dashboard({ books }) {
             <h5 className="fw-bold mb-1">Collection Analytics</h5>
             <p className="small text-muted mb-0">Detailed breakdown lists for all metrics in your library</p>
           </div>
-          <div className="input-group input-group-sm" style={{ maxWidth: '300px' }}>
-            <span className="input-group-text bg-white border-end-0 text-muted"><Search size={14}/></span>
-            <input 
-              type="text" 
-              className="form-control border-start-0" 
-              placeholder="Search breakdowns..." 
-              value={searchTerm} 
-              onChange={e => setSearchQuery(e.target.value)}
-            />
+          <div className="d-flex align-items-center gap-2">
+            <button 
+              className="btn btn-sm btn-outline-primary fw-semibold d-flex align-items-center gap-2"
+              onClick={() => onOpenStatsReport && onOpenStatsReport(books)}
+            >
+              <FileText size={14} />
+              <span>Generate Statistics Report</span>
+            </button>
+            <div className="input-group input-group-sm" style={{ maxWidth: '250px' }}>
+              <span className="input-group-text bg-white border-end-0 text-muted"><Search size={14}/></span>
+              <input 
+                type="text" 
+                className="form-control border-start-0" 
+                placeholder="Search breakdowns..." 
+                value={searchTerm} 
+                onChange={e => setSearchQuery(e.target.value)}
+              />
+            </div>
           </div>
         </div>
 

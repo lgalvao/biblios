@@ -469,7 +469,6 @@ export const formatMDExport = (books) => {
       const extra = [];
       if (b.pages) extra.push(`${b.pages} p`);
       if (b.originalLanguage) extra.push(b.originalLanguage);
-      if (b.tags && b.tags.length > 0) extra.push(b.tags.map(t => `#${t}`).join(', '));
       const extraStr = extra.length > 0 ? ` ${extra.join(', ')}` : '';
       return `- ${b.title} by ${b.author} (${b.country}, ${b.year})${extraStr}`;
     })
