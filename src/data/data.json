@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Such Small Hands",
-    "author": "Andrés Barba",
+    "author": "Andres Barba",
     "year": "2008",
     "country": "Spain",
     "region": "Southern Europe",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "title": "The Hole",
-    "author": "José Revueltas",
+    "author": "Jose Revueltas",
     "year": "1969",
     "country": "Mexico",
     "region": "Central America",
@@ -91,7 +91,7 @@
     "country": "USA",
     "region": "Northern America",
     "continent": "North America",
-    "read": false,
+    "read": true,
     "originalLanguage": "English",
     "pages": 128,
     "description": "",
@@ -203,7 +203,7 @@
     "country": "USA",
     "region": "Northern America",
     "continent": "North America",
-    "read": false,
+    "read": true,
     "originalLanguage": "English",
     "pages": 128,
     "description": "",
@@ -259,7 +259,7 @@
     "country": "USA",
     "region": "Northern America",
     "continent": "North America",
-    "read": false,
+    "read": true,
     "originalLanguage": "English",
     "pages": 336,
     "description": "Controversial and compelling, In Cold Blood reconstructs the murder in 1959 of a Kansas farmer, his wife and both their children. Truman Capote's comprehensive study of the killings and subsequent investigation explores the circumstances surrounding this terrible crime and the effect it had on those involved. At the centre of his study are the amoral young killers Perry Smith and Dick Hickcock, who, vividly drawn by Capote, are shown to be reprehensible yet entirely and frighteningly human. The book that made Capote's name, In Cold Blood is a seminal work of modern prose, a remarkable synthesis of journalistic skill and powerfully evocative narrative.",
@@ -478,7 +478,7 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Chinese",
+    "originalLanguage": "Mandarin",
     "pages": 672,
     "description": "Part historical and part legend, The Romance of the Three Kingdoms dramatizes the lives of feudal lords and their retainers, recounting their personal and military battles, intrigues and struggles to achieve dominance for almost a hundred years. It is one of the most beloved works of East Asian literature, and the most famous historical novel in China.",
     "tags": []
@@ -1008,20 +1008,6 @@
     "tags": []
   },
   {
-    "id": 71,
-    "title": "To The End of the Land",
-    "author": "David Grossman",
-    "year": "2008",
-    "country": "Israel",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Hebrew",
-    "pages": 592,
-    "description": "",
-    "tags": []
-  },
-  {
     "id": 72,
     "title": "See Under: Love",
     "author": "David Grossman",
@@ -1346,38 +1332,6 @@
     ]
   },
   {
-    "id": 95,
-    "title": "The Egyptian",
-    "author": "Mika Waltari",
-    "year": "1945",
-    "country": "Finland",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Finnish",
-    "pages": 520,
-    "description": "",
-    "tags": [
-      "scandinavia"
-    ]
-  },
-  {
-    "id": 96,
-    "title": "Dina’s Book",
-    "author": "Herbjorg Wassmo",
-    "year": "1989",
-    "country": "Norway",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Norwegian",
-    "pages": 464,
-    "description": "",
-    "tags": [
-      "scandinavia"
-    ]
-  },
-  {
     "id": 97,
     "title": "Garman and Worse",
     "author": "Alexander Kielland",
@@ -1412,14 +1366,14 @@
   {
     "id": 99,
     "title": "Blackwater",
-    "author": "Kerstin Ekma",
+    "author": "Kerstin Ekman",
     "year": "1993",
     "country": "Sweden",
     "region": "Northern Europe",
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Swedish",
-    "pages": 464,
+    "pages": 448,
     "description": "",
     "tags": [
       "scandinavia"
@@ -1695,24 +1649,8 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 484,
+    "pages": 449,
     "description": "From her home in Paris, Lina recalls the story of three women whose lives unfold in the conservative city of Barranquilla in Colombia. Amid parties at the Country Club and strolls along the promenade in Puerto Colombia unfurls a story of sensuality suppressed by violence; a narrative of oppression in which Dora, Catalina, and Beatriz are victims of a patriarchy that is woven into the social fabric.\n\nIn Lina’s obsessive account of the past, this masterful novel transforms personal anecdotes into a profound panorama of Colombian society towards the end of the 1950s. From private memories to historical reality, the structure of this book is full of precision, poetry, and exile’s insight.\n\nStanding above and apart from her contemporaries of the Latin American literary boom, Marvel Moreno narrates a reality that describes the private lives of the people of Barranquilla while offering a compelling perspective on the human condition.",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
-    "id": 118,
-    "title": "Un Mundo para Julius",
-    "author": "Alfredo Bryce Echenique",
-    "year": "1970",
-    "country": "Peru",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 450,
-    "description": "Julius was born in a mansion on Salaverry Avenue, directly across from the old San Felipe Hippodrome. Life-size Disney characters and cowboy movie heroes romp across the walls of his nursery. Out in the carriage house, his great-grandfather’s ornate, moldering carriage takes him on imaginary adventures. But Julius’s father is dead, and his beautiful young mother passes through her children’s lives like an ephemeral shooting star. Despite the soft shelter of family and money, hard realities overshadow Julius’s expanding world, just as the rugged Andes loom over his home in Lima.\n    This lyrical, richly textured novel, first published in 1970 as Un mundo para Julius , opens new territory in Latin American literature with its focus on the social elite of Peru. In this postmodern novel Bryce Echenique incisively charts the decline of an influential, centuries-old aristocratic family faced with the invasion of foreign capital in the 1950s.\n\nWinner of the Outstanding Translation Award of the American Literary Translators Association and the Columbia University Translation Center Award.",
     "tags": [
       "Latin America"
     ]
@@ -1759,7 +1697,7 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Portuguese",
-    "pages": 450,
+    "pages": 331,
     "description": "O romance é considerado até hoje um dos projetos literários mais ousados do Brasil. Publicado em plena ditadura militar, o livro traz uma narrativa sobre a escrita e o mundo, em que a imagem dos nomes se sobrepõe à imagem dos seres e das coisas, compondo uma realidade que o leitor é obrigado a decifrar.\n\nEmbora seja considerado um dos maiores clássicos da literatura brasileira, o livro encontrava-se esgotado nos dias de hoje. Dessa forma, é publicado em nova edição, com capa dura, ilustrações internas e texto de apoio.\n\nAvalovara narra a trajetória de Abel, um jovem escritor que almeja o domínio da criação artística, do amor, e do autoconhecimento enquanto busca uma cidade mítica que vislumbrou quando era criança, numa cisterna em Recife.\n\nSeu trajeto será conduzido pelo relacionamento com três mulheres: Anneliese Roos, Cecília e uma personagem sem nome, que é identificada por um símbolo. O romance é estruturado em torno de um palíndromo constituído de oito letras diferentes, cada uma responsável por dar origem a um tema ou narrativa ao longo da obra.\n\nDe acordo com o escritor e jornalista Modesto Carone, “o romance é dominado pelo contraste entre o rigor e a fantasia, aqui enlaçados numa aliança desconcertante. Pois o geometrismo da composição é justamente o recurso capaz de canalizar o voo livre da imaginação”.",
     "tags": [
       "Latin America"
@@ -1873,20 +1811,6 @@
     "originalLanguage": "English",
     "pages": 520,
     "description": "Hailed as a \"literary sensation\" by The New York Times Book Review, Carpentaria is the luminous award-winning novel by Australian Aboriginal writer and activist Alexis Wright.\n\nAlexis Wright employs mysticism, stark reality, and pointed imagination to re-create the land and the Aboriginal people of Carpentaria.\n\nIn the sparsely populated northern Queensland town of Desperance, loyalties run deep and battle lines have been drawn between the powerful Phantom family, leaders of the Westend Pricklebush people, and Joseph Midnight's renegade Eastend mob, and their disputes with the white officials of neighboring towns. Steeped in myth and magical realism, Wright's hypnotic storytelling exposes the heartbreaking realities of Aboriginal life.\n\nBy turns operatic and everyday, surreal and sensational, the novel teems with extraordinary, larger-than-life characters. From the outcast savior Elias Smith, religious zealot Mossie Fishman, and murderous mayor Bruiser to activist Will Phantom and Normal Phantom, ruler of the family, these unforgettable characters transcend their circumstances and challenge assumptions about the downtrodden \"other.\" Trapped between politics and principle, past and present, the indigenous tribes fight to protect their natural resources, sacred sites, and above all, their people.",
-    "tags": []
-  },
-  {
-    "id": 129,
-    "title": "The Tree of Man",
-    "author": "Patrick White",
-    "year": "1955",
-    "country": "Australia",
-    "region": "Australia and New Zealand",
-    "continent": "Oceania",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 480,
-    "description": "Stan Parker, with only a horse and a dog for company journeys to a remote patch of land he has inherited in the Australian hills. Once the land is cleared and a rudimentary house built, he brings his wife Amy to the wilderness. Together they face lives of joy and sorrow as they struggle against the environment.",
     "tags": []
   },
   {
@@ -2361,7 +2285,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Malay",
-    "pages": 495,
+    "pages": 375,
     "description": "Set in the aftermath of World War II, this pioneering Malaysian novel follows the tragic life of Salina, a kind-hearted woman forced into prostitution in a squalid suburb of Singapore. The narrative explores the devastating poverty, corruption, and moral decay of post-war Malay society through her relationships and struggles to survive. Despite her brutal exploitation by a lazy, abusive lover, Salina's resilience and capacity for love shine as a testament to the endurance of the human spirit.",
     "tags": []
   },
@@ -2619,7 +2543,7 @@
     "continent": "Africa",
     "read": true,
     "originalLanguage": "French",
-    "pages": 461,
+    "pages": 190,
     "description": "ALLAH IS NOT OBLIGED TO BE FAIR ABOUT ALL THE THINGS HE DOES HERE ON EARTH.These are the words of the boy soldier Birahima in the final masterpiece by one of Africa’s most celebrated writers, Ahmadou Kourouma. When ten-year-old Birahima's mother dies, he leaves his native village in the Ivory Coast, accompanied by the sorcerer and cook Yacouba, to search for his aunt Mahan. Crossing the border into Liberia, they are seized by rebels and forced into military service. Birahima is given a Kalashnikov, minimal rations of food, a small supply of dope and a tiny wage. Fighting in a chaotic civil war alongside many other boys, Birahima sees death, torture, dismemberment and madness but somehow manages to retain his own sanity. Raw and unforgettable, despairing yet filled with laughter, Allah Is Not Obliged reveals the ways in which children's innocence and youth are compromised by war.",
     "tags": []
   },
@@ -2703,7 +2627,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Bengali",
-    "pages": 450,
+    "pages": 552,
     "description": "Set in rural Bengal against the backdrop of the Tebhaga movement and the 1947 Partition of India, this magical realist epic weaves together folklore, political struggles, and dream interpretations. The narrative centers on a community of fishermen and peasants whose lives are deeply connected to a mythical marshland inhabited by the ghost of a sepoy rebel. Elias uses this rich tapestry to examine the unfulfilled promises of independence, the persistence of class oppression, and the vibrant oral history of the Bengali peasantry.",
     "tags": [
       "subcontinent"
@@ -2996,7 +2920,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "German",
-    "pages": 465,
+    "pages": 480,
     "description": "The inspiration for Rainer Werner Fassbinder's epic film and that The Guardian named one of the Top 100 Books of All Time, Berlin Alexanderplatz is considered one of the most important works of the Weimar Republic and twentieth century literature.Berlin Alexanderplatz, the great novel of Berlin and the doomed Weimar Republic, is one of the great books of the twentieth century, gruesome, farcical, and appalling, word drunk, pitchdark. In Michael Hofmann's extraordinary new translation, Alfred Döblin's masterpiece lives in English for the first time.As Döblin writes in the opening pages: The subject of this book is the life of the former cement worker and haulier Franz Biberkopf in Berlin. As ourstory begins, he has just been released from prison, where he did time for some stupid stuff; now he is backin Berlin, determined to go straight. To begin with, he succeeds. But then, though doing all right for himself financially, he gets involved in aset-to with an unpredictable external agency that looks an awful lot like fate. Three times the force attacks him and disrupts his scheme. The first time it comes at him with dishonesty and deception. Our man is able to get to his feet, he is still good to stand. Then it strikes him a low blow. He has trouble getting up from that, he is almost counted out. And finally it hits him with monstrous and extreme violence.",
     "tags": []
   },
@@ -3280,7 +3204,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "English",
-    "pages": 470,
+    "pages": 350,
     "description": "Raunchy, raucous...a rich, turn of the 19th century world, which reeks of human and animal variety' The TimesIs Sophie Fevvers, toast of Europe's capitals, part swan...or all fake? Courted by the Prince of Wales and painted by Toulouse-Lautrec, she is an aerialiste extraordinaire and star of Colonel Kearney's circus. She is also part woman, part swan. Jack Walser, an American journalist, is on a quest to discover the truth behind her identity. Dazzled by his love for her, and desperate for the scoop of a lifetime, Walser has no choice but to join the circus on its magical tour through turn-of-the-nineteenth-century London, St Petersburg and Siberia. One of the BBC’s 100 Novels That Shaped Our World",
     "tags": [
       "UK"
@@ -3342,7 +3266,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "German",
-    "pages": 461,
+    "pages": 416,
     "description": "A book from Germany.",
     "tags": []
   },
@@ -3430,20 +3354,6 @@
     "originalLanguage": "Portuguese",
     "pages": 222,
     "description": "The novel tracks five Portuguese soldiers who reunite in Lisbon ten years after serving in the brutal colonial war in Angola. Over the course of a single drunken night, their internal monologues reveal the deep psychological scars of the war and their profound disillusionment with post-Carnation Revolution Portugal. Lobo Antunes uses polyphonic, stream-of-consciousness prose to dissect the decline of the Portuguese colonial empire and the disintegration of the soldiers' personal lives.",
-    "tags": []
-  },
-  {
-    "id": 237,
-    "title": "El Jinete Polaco",
-    "author": "Antonio Munoz Molina",
-    "year": "1991",
-    "country": "Spain",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 490,
-    "description": "Set in the fictional Spanish town of Mágina, this dense, complex novel follows Manuel, a translator who reconstructs his own family history and the collective memory of his hometown. Through a series of monologues, letters, and sensory recollections, the narrative explores the traumatic legacy of the Spanish Civil War and the transition to democracy. The book is a lyrical meditation on exile, love, and how personal identity is shaped by the shadows of the past.",
     "tags": []
   },
   {
@@ -3623,20 +3533,6 @@
     ]
   },
   {
-    "id": 250,
-    "title": "Requiem for fools and beasts",
-    "author": "Augustin Buzura",
-    "year": "1974",
-    "country": "Romania",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Romanian",
-    "pages": 450,
-    "description": "A book from Romania.",
-    "tags": []
-  },
-  {
     "id": 251,
     "title": "Son of Man",
     "author": "Augusto Roa Bastos",
@@ -3662,25 +3558,11 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 467,
+    "pages": 448,
     "description": "I the Supreme imagines a dialogue between the nineteenth-century Paraguan dictator known as Dr. Francia and his secretary, Policarpo Patino. The opening pages present a sign that they had found nailed to the wall of a cathedral, purportedly written by Dr. Francia himself and ordering the execution of all of his servants upon his death. This sign is revealed to be a forgery, which takes the leader and his secretary into a larger discussion about the nature of truth and the fallibility of the written word. Their conversation broadens into an epic journey of the mind, stretching across the colonial history of their nation, filled with surrealist imagery and labyrithian turns. In a metafictional twist, the novel itself is revealed to be the work of a mysterious compiler, who interjects from time to time and calls attention to the fragile nature of the texts he is collecting (with some lines noted as unfinished, blotted out, or obscured). Darkly comic and deeply moving, I the Supreme is a profound, unflinching meditation on power and its abuse--and on the role of language in making and unmaking whole worlds.",
     "tags": [
       "Latin America"
     ]
-  },
-  {
-    "id": 253,
-    "title": "The Polished Hoe",
-    "author": "Austin Clarke",
-    "year": "2002",
-    "country": "Barbados",
-    "region": "Caribbean",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 460,
-    "description": "Taking place over a single night on a sugar plantation in Barbados, this powerful novel centers on Mary-Mathilda, a proud woman who confesses to the murder of her abusive white employer and lover, Mr. Belfeels. Through her long conversation with the local police sergeant, Mary-Mathilda recounts her life of sexual exploitation and labor, exposing the legacy of slavery and colonial oppression. The novel is a lyrical, devastating exploration of gender, class, and the struggle for personal dignity in post-colonial Caribbean society.",
-    "tags": []
   },
   {
     "id": 254,
@@ -3852,7 +3734,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Malayalam",
-    "pages": 495,
+    "pages": 255,
     "description": "Najeeb’s dearest wish is to work in the Gulf and earn enough money to send back home. He achieves his dream only to be propelled by a series of incidents, grim and absurd, into a slave-like existence herding goats in the middle of the Saudi desert. Memories of the lush, verdant landscape of his village and of his loving family haunt Najeeb whose only solace is the companionship of goats. In the end, the lonely young man contrives a hazardous scheme to escape his desert prison. Goat Days was published to acclaim in Malayalam and became a bestseller.  One of the brilliant new talents of Malayalam literature, Benyamin’s wry and tender telling transforms this strange and bitter comedy of Najeeb’s life in the desert into a universal tale of loneliness and alienation.",
     "tags": [
       "subcontinent"
@@ -3882,7 +3764,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Basque",
-    "pages": 459,
+    "pages": 344,
     "description": "Obabakoak es una obra de Bernardo Atxaga, el escritor vasco con mayor proyecci��n exterior de la actualidad. Este libro recrea en sus cuentos un mundo mágico y mítico que invita a la reflexión literaria, y que trata con técnicas narrativas originales cuestiones de tipo universal. El libro se compone de varios cuentos, de los cuales la mayoría se sitúan en Obaba, una pequeña población vasca inventada donde la fantasía y la realidad se funden continuamente. Obabakoak, en euskera, significa 'los de Obaba'. En realidad, en una acción marco -un viaje hacia Obaba, a una reunión en la que se van a narrar historias- se insertan 26 relatos independientes que, sin embargo, también configuran un relato único. Enlaza así Atxaga con una tradición narrativa muy anterior, cuyos exponentes principales podrían ser Las mil y una noches, Los cuentos de Canterbury, el Decamerón o también El conde Lucanor y Calila e Dimna, aunque aquí se añade la fusión entre fantasía y realidad. Es el libro en euskera de mayor éxito internacional y ha sido traducido a numerosos idiomas. La traducción al castellano es responsabilidad del propio autor. Existe una película basada en esta novela, titulada Obaba y dirigida por Montxo Armendáriz.",
     "tags": []
   },
@@ -3940,7 +3822,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Bengali",
-    "pages": 457,
+    "pages": 360,
     "description": "In the idyllic village of the Abode of Contentment, Durga and her little brother, Opu, grow up in a world of woods, orchards and adventure. Nurtured on their aunt's songs and stories, they dream of secret magical lands, forbidden gardens and the distant railroad. The grown-up world of debts, resentment and bone-deep poverty barely touches them. Their parents, Shorbojoya and Horihor, also dream of the railroad, though as the gateway to lands with a better future. But can distance really change destiny? Will the railroad augur a triumphant future for the Roys, or a ballad of fates drastically altered?A powerful testament to the indomitable human will to prevail, this timeless novel comes alive in an incandescent new translation.",
     "tags": [
       "subcontinent"
@@ -3970,7 +3852,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Czech",
-    "pages": 445,
+    "pages": 243,
     "description": "First published in 1971 in a typewritten edition, then finally printed in book form in 1989, I Served the King of England is an extraordinary and subtly tragicomic novel (The New York Times), telling the tale of Ditie, a hugely ambitious but simple waiter in a deluxe Prague hotel in the years before World War II. Ditie is called upon to serve not the King of England, but Haile Selassie. It is one of the great moments in his life. Eventually, he falls in love with a Nazi woman athlete as the Germans are invading Czechoslovakia. After the war, through the sale of valuable stamps confiscated from the Jews, he reaches the heights of his ambition, building a hotel. He becomes a millionaire, but with the institution of communism, he loses everything and is sent to inspect mountain roads. Living in dreary circumstances, Ditie comes to terms with the inevitability of his death, and with his place in history.",
     "tags": []
   },
@@ -3984,7 +3866,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Czech",
-    "pages": 416,
+    "pages": 190,
     "description": "Hantá rescues books from the jaws of his compacting press and carries them home. Hrabal, whom Milan Kundera calls “our very best writer today,��� celebrates the power and the indestructibility of the written word. Translated by Michael Henry Heim. From Publishers Weekly Czechoslovakian author Hrabal ( I Served the King of England ) pens an absorbing fable about a man who educates himself with the discarded printed matter he collects. Copyright 1992 Cahners Business Information, Inc. From Library Journal In this novella, written in 1976, narrator and authorial alter ego Hanta meditates on the 35 years he has spent at a hydraulic press in a dark cellar, compacting waste paper and books proscribed by various regimes. Though he no longer weeps or protests when rare treasures appear in his press, the books that he must destroy become his whole life, his only companions. When he is to be replaced by young workers with a more productive machine, Hanta dreams of a gigantic press that destroys not only himself but the entire city, with its traditions and culture. Written by a leading Czech writer (I Served the King of England, LJ 4/1/89), this affecting metaphor expressing fear for Central European culture belongs in libraries collecting European fiction. - Marie Bednar, Pennsylvania State Univ. Libs., University Park Copyright 1990 Reed Business Information, Inc.",
     "tags": []
   },
@@ -4237,7 +4119,7 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Chinese",
+    "originalLanguage": "Mandarin",
     "pages": 966,
     "description": "A massive, extraordinarily rich Chinese epic detailing the rise, decline, and fall of the aristocratic Jia clan, serving as a deep Buddhist-Daoist allegory on the illusion of human desires.",
     "tags": []
@@ -4394,7 +4276,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "English",
-    "pages": 448,
+    "pages": 512,
     "description": "A masterful Victorian coming-of-age story tracking Pip, an impoverished orphan who receives a sudden, anonymous fortune and strives to become a gentleman, only to discover the true source of his wealth.",
     "tags": [
       "UK"
@@ -4596,7 +4478,7 @@
     "continent": "Oceania",
     "read": false,
     "originalLanguage": "English",
-    "pages": 495,
+    "pages": 550,
     "description": "This crazy, gorgeous family novel is one of the great literary achievements of the twentieth century. I carry it in my head the way I carry childhood memories; the scenes are of such precise horror and comedy that I feel I didn't read the book so much as live it. —Jonathan Franzen, author of FreedomThe Man Who Loved Children is a brutally honest examination of domestic life and family. Sam and Henny Pollit have too much—too much contempt for one another, too many children, too much strain under endless obligation. Flush with ego and a chilling domestic power, Sam torments his children, bending and manipulating their seemingly limitless love to his overbearing advantage, while Henny looks on desperately, all too aware of the madness at its root. A favorite novel of Jonathan Franzen and Randall Jarrell, among many others, The Man Who Loved Children stands as Christina Stead's masterwork.",
     "tags": []
   },
@@ -4730,7 +4612,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Italian",
-    "pages": 428,
+    "pages": 437,
     "description": "Curzio Malaparte was a disaffected supporter of Mussolini with a taste for danger and high living. Sent by an Italian paper during World War II to cover the fighting on the Eastern Front, Malaparte secretly wrote this terrifying report from the abyss, which became an international bestseller when it was published after the war. Telling of the siege of Leningrad, of glittering dinner parties with Nazi leaders, and of trains disgorging bodies in war-devastated Romania, Malaparte paints a picture of humanity at its most depraved. Kaputt is an insider's dispatch from the world of the enemy that is as hypnotically fascinating as it is disturbing.",
     "tags": []
   },
@@ -4746,22 +4628,6 @@
     "originalLanguage": "English",
     "pages": 401,
     "description": "The surviving text of The Rainbow is collated to provide a text as close as possible to that which the author wrote. Also included are explanatory notes to historical references and allusions and a chronology of the book itself.",
-    "tags": [
-      "UK"
-    ]
-  },
-  {
-    "id": 328,
-    "title": "Women in Love",
-    "author": "D.H. Lawrence",
-    "year": "1920",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 486,
-    "description": "Women in Love, by D. H. Lawrence, is part of the Barnes & Noble Classics series, which offers quality editions at affordable prices to the student and the general reader, including new scholarship, thoughtful design, and pages of carefully crafted extras. Here are some of the remarkable features of Barnes & Noble Classics: All editions are beautifully designed and are printed to superior specifications; some include illustrations of historical interest. Barnes & Noble Classics pulls together a constellation of influences—biographical, historical, and literary—to enrich each reader's understanding of these enduring works. One of the most versatile and influential figures in twentieth-century literature, D. H. Lawrence was a master craftsman and profound thinker whose celebration of sexuality in an over-intellectualized world opened the door to that topic for countless writers after him. Perhaps his finest novel, Women in Love (1920) continues the story of two sisters, Ursula and Gudrun Brangwen, who first appeared in Lawrence’s novel The Rainbow (1915). The story contrasts the passionate love affairs of Ursula and Rupert Birkin, a character often seen as a self-portrait of Lawrence, with that of Gudrun and Gerald Crich, an icily handsome mining industrialist. Birkin, an introspective misanthrope, struggles to reconcile his metaphysical drive for self-fulfillment with Ursula’s practical view of sentimental passion. As they fight their way through to a mutually satisfying relationship—and eventual marriage—Gudrun and Crich’s sadomasochistic love affair careens toward a disastrous conclusion. A dark, disturbing, yet beautiful exploration of love in an increasingly violent and destructive world, Women in Love nevertheless holds out the hope of individual and collective rebirth through human intensity and passion. Norman Loftis is a poet, novelist, essayist, philosopher, and filmmaker. His works include Exiles and Voyages (poetry, 1969), Black Anima (poetry, 1973), Life Force (novel, 1982), From Barbarism to Decadence (1984), and Condition Zero (1993). His feature films include Schaman (1984), the award-winning Small Time (1989), and Messenger (1995). He is currently Chair of the Department of Literature at the Brooklyn Campus of the College of New Rochelle and is on the faculty at Medgar Evers College, CUNY, where he has taught since 1970.",
     "tags": [
       "UK"
     ]
@@ -4790,7 +4656,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Norwegian",
-    "pages": 463,
+    "pages": 150,
     "description": "A senior-school teacher in his fifties begins his day as usual, however, this morning is to be the start of no ordinary day. He reaches a decision that forces an assessment of his choice of life, of his marriage and ultimately of his values and worth in modern society. It is a universal story of a man lost in a world that no longer recognizes either him or his talent.",
     "tags": [
       "scandinavia"
@@ -5085,20 +4951,6 @@
     "tags": []
   },
   {
-    "id": 351,
-    "title": "Ragtime",
-    "author": "E.L. Doctorow",
-    "year": "1975",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": true,
-    "originalLanguage": "English",
-    "pages": 318,
-    "description": "Product DescriptionPublished in 1975, Ragtime changed our very concept of what a novel could be. An extraordinary tapestry, Ragtime captures the spirit of America in the era between the turn of the century and the First World War. The story opens in 1906 in New Rochelle, New York, at the home of an affluent American family. One lazy Sunday afternoon, the famous escape artist Harry Houdini swerves his car into a telephone pole outside their house. And almost magically, the line between fantasy and historical fact, between real and imaginary characters, disappears. Henry Ford, Emma Goldman, J. P. Morgan, Evelyn Nesbit, Sigmund Freud, and Emiliano Zapata slip in and out of the tale, crossing paths with Doctorow's imagined family and other fictional characters, including an immigrant peddler and a ragtime musician from Harlem whose insistence on a point of justice drives him to revolutionary violence. The Modern Library has played a significant role in American cultural life for the better part of a century. The series was founded in 1917 by the publishers Boni and Liveright and eight years later acquired by Bennett Cerf and Donald Klopfer. It provided the foundation for their next publishing venture, Random House. The Modern Library has been a staple of the American book trade, providing readers with affordable hardbound editions of important works of literature and thought. For the Modern Library's seventy-fifth anniversary, Random House redesigned the series, restoring as its emblem the running torch-bearer created by Lucian Bernhard in 1925 and refurbishing jackets, bindings, and type, as well as inaugurating a new program of selecting titles. The Modern Library continues to provide the world's best books, at the best prices. From the Inside FlapPublished in 1975, Ragtime changed our very concept of what a novel could be. An extraordinary tapestry, Ragtime captures the spirit of America in the era between the turn of the century and the First World War. The story opens in 1906 in New Rochelle, New York, at the home of an affluent American family. One lazy Sunday afternoon, the famous escape artist Harry Houdini swerves his car into a telephone pole outside their house. And almost magically, the line between fantasy and historical fact, between real and imaginary characters, disap-pears. Henry Ford, Emma Goldman, J. P. Morgan, Evelyn Nesbit, Sig- mund Freud, and Emiliano Zapata slip in and out of the tale, crossing paths with Doctorow's imagined family and other fictional characters, including an immigrant peddler and a ragtime musician from Harlem whose insistence on a point of justice drives him to revolutionary violence.The Modern Library has played a significant role in American cultural life for the better part of a century. The series was founded in 1917 by the publishers Boni and Liveright and eight years later acquired by Bennett Cerf and Donald Klopfer. It provided the foundation for their next publishing venture, Random House. The Modern Library has been a staple of the American book trade, providing readers with afford-able hardbound editions of impor-tant works of literature and thought. For the Modern Library's seventy-fifth anniversary, Random House redesigned the series, restoringas its emblem the running torch-bearer created by Lucian Bernhard in 1925 and refurbishing jackets, bindings, and type, as well as inau-gurating a new program of selecting titles. The Modern Library continues to provide the world's best books, at the best prices. From the Hardcover edition.",
-    "tags": []
-  },
-  {
     "id": 352,
     "title": "Howards End",
     "author": "E.M. Forster",
@@ -5166,7 +5018,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 477,
+    "pages": 295,
     "description": "EDITORIAL REVIEW: Age of Innocence, by Edith Wharton, is part of the Barnes & Noble Classics series, which offers quality editions at affordable prices to the student and the general reader, including new scholarship, thoughtful design, and pages of carefully crafted extras. Here are some of the remarkable features of Barnes & Noble Classics: New introductions commissioned from today's top writers and scholars Biographies of the authors Chronologies of contemporary historical, biographical, and cultural events Footnotes and endnotes Selective discussions of imitations, parodies, poems, books, plays, paintings, operas, statuary, and films inspired by the work Comments by other famous authors Study questions to challenge the reader's viewpoints and expectations Bibliographies for further reading Indices & Glossaries, when appropriateAll editions are beautifully designed and are printed to superior specifications; some include illustrations of historical interest. Barnes & Noble Classics pulls together a constellation of influences—biographical, historical, and literary—to enrich each reader's understanding of these enduring works. Winner of the 1921 Pulitzer Prize, The Age of Innocence is Edith Wharton’s masterful portrait of desire and betrayal during the sumptuous Golden Age of Old New York, a time when society people “dreaded scandal more than disease.”This is Newland Archer’s world as he prepares to marry the beautiful but conventional May Welland. But when the mysterious Countess Ellen Olenska returns to New York after a disastrous marriage, Archer falls deeply in love with her. Torn between duty and passion, Archer struggles to make a decision that will either courageously define his life—or mercilessly destroy it.Maureen Howard is a critic, teacher, and writer of fiction. Her seven novels include Bridgeport Bus, Natural History, and A Lover’s Almanac. Her memoir, Facts of Life, won the National Book Critics’ Circle Award. She has taught at Yale and Columbia University.",
     "tags": []
   },
@@ -5340,22 +5192,8 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 477,
+    "pages": 544,
     "description": "Gate of the Sun is the first magnum opus of the Palestinian saga. After their country is torn apart in 1948, two men remain alone in a deserted makeshift hospital in the Shatila camp on the outskirts of Beirut. We enter a vast world of displacement, fear, and tenuous hope. Khalil holds vigil at the bedside of his patient and spiritual father, a storied leader of the Palestinian resistance who has slipped into a coma. As Khalil attempts to revive Yunes, he begins a story, which branches into many. Stories of the people expelled from their villages in Galilee, of the massacres that followed, of the extraordinary inner strength of those who survived, and of love. Khalil—like Elias Khoury—is a truth collector, trying to make sense of the fragments and various versions of stories that have been told to him. His voice is intimate and direct, his memories are vivid, his humanity radiates from every page. Khalil lets his mind wander through time, from village to village, from one astonishing soul to another, and takes us with him. Gate of the Sun is a Palestinian Odyssey. Beautifully weaving together haunting stories of survival and loss, love and devastation, memory and dream, Khoury humanizes the complex Palestinian struggle as he brings to life the story of an entire people.",
-    "tags": []
-  },
-  {
-    "id": 369,
-    "title": "The Death of the Heart",
-    "author": "Elizabeth Bowen",
-    "year": "1938",
-    "country": "Ireland",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 431,
-    "description": "The Death of the Heart is perhaps Elizabeth Bowen's best-known book. As she deftly and delicately exposes the cruelty that lurks behind the polished surfaces of conventional society, Bowen reveals herself as a masterful novelist who combines a sense of humor with a devastating gift for divining human motivations. In this piercing story of innocence betrayed set in the thirties, the orphaned Portia is stranded in the sophisticated and politely treacherous world of her wealthy half-brother's home in London.There she encounters the attractive, carefree cad Eddie. To him, Portia is at once child and woman, and her fears her gushing love. To her, Eddie is the only reason to be alive. But when Eddie follows Portia to a sea-side resort, the flash of a cigarette lighter in a darkened cinema illuminates a stunning romantic betrayal--and sets in motion one of the most moving and desperate flights of the heart in modern literature.",
     "tags": []
   },
   {
@@ -5618,7 +5456,7 @@
     "continent": "North America",
     "read": true,
     "originalLanguage": "English",
-    "pages": 478,
+    "pages": 220,
     "description": "The only authorized edition of the twentieth-century classic, featuring F. Scott Fitzgerald’s final revisions, a foreword by his granddaughter, and a new introduction by National Book Award winner Jesmyn Ward.The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted “gin was the national drink and sex the national obsession,” it is an exquisitely crafted tale of America in the 1920s.",
     "tags": []
   },
@@ -5649,22 +5487,6 @@
     "pages": 313,
     "description": "On his way to a linguists' conference in Helsinki, Budai finds himself in a strange city where he can't understand a word anyone says. One claustrophobic day blurs into another as he desperately struggles to survive in this vastly overpopulated metropolis where there are as many languages as there are people. Fearing that his wife will have given him up for dead, he finds comfort in an unconventional relationship with the elevator-operator in the hotel. A suspenseful and haunting Hungarian classic, and a vision of hell unlike any other imagined. 'With time, Metropole will find its due place in the twentieth-century library, on the same shelf as The Trial and 1984.' G.O. Chateaureynaud 'In the same way that Kafka becomes relevant again every time you renew your driver's license, Karinthy captures that enduring, horrifying and exhilarating state of being at the mercy of an unfamiliar land.' NPR",
     "tags": []
-  },
-  {
-    "id": 390,
-    "title": "José Trigo",
-    "author": "Fernando del Paso",
-    "year": "1966",
-    "country": "Mexico",
-    "region": "Central America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 450,
-    "description": "A book from Mexico.",
-    "tags": [
-      "Latin America"
-    ]
   },
   {
     "id": 391,
@@ -5720,7 +5542,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 400,
+    "pages": 256,
     "description": "Wise Blood, Flannery O’Connor’s astonishing and haunting first novel, is a classic of twentieth-century literature. Focused on the story of Hazel Motes, a twenty-two-year-old caught in an unending struggle against his innate, desperate fate, this tale of redemption, retribution, false prophets, blindness, blindings, and wisdoms gives us one of the most riveting characters in twentieth-century American fiction.Amazon.com ReviewWise Blood is a comedy with a fierce, Old Testament soul. Flannery O'Connor has no truck with such newfangled notions as psychology. Driven by forces outside their control, her characters are as one-dimensional--and mysterious--as figures on a frieze. Hazel Motes, for instance, has the temperament of a martyr, even though he spends most of the book trying to get God to go away. As a child he's convinced that the way to avoid Jesus was to avoid sin. When that doesn't work, and when he returns from Korea determined to be converted to nothing instead of evil, he still can't go anywhere without being mistaken for a preacher. (Not that the hat and shiny glare-blue suit help.) No matter what Hazel does, Jesus moves from tree to tree in the back of his mind, a wild ragged figure motioning him to turn around and come off into the dark...Adrift after four years in the service, Hazel takes a train to the city of Taulkinham, buys himself a rat-colored car, and sets about preaching on street corners for the Church Without Christ, where the blind don't see and the lame don't walk and what's dead stays that way. Along the way he meets Enoch Emery, who's only 18 years old but already works for the city, as well the blind preacher Asa Hawks and his illegitimate daughter, Sabbath Lily. (Her letter to an advice column: Dear Mary, I am a bastard and a bastard shall not enter the kingdom of heaven as we all know, but I have this personality that makes boys follow me. Do you think I should neck or not?) Subsequent events involve a desiccated, centuries-old dwarf--Gonga the Giant Jungle Monarch--and Hazel's nemesis, Hoover Shoats, who starts the rival Church of Christ Without Christ. If you think these events don't end happily, you might be right.Wise Blood is a savage satire of America's secular, commercial culture, as well as the humanism it holds so dear (Dear Sabbath, Mary Brittle writes back, Light necking is acceptable, but I think your real problem is one of adjustment to the modern world. Perhaps you ought to re-examine your religious values to see if they meet your needs in Life.) But the book's ultimate purpose is Religious, with a capital R--no metaphors, no allusions, just the thing itself in all its fierce glory. When Hazel whispers I'm not clean, for instance, O'Connor thinks he is perfectly right. For readers unaccustomed to holding low comedy and high seriousness in their heads at the same time, all this can come as something of a shock. Who else could offer an allegory about free will, redemption, and original sin right alongside the more elemental pleasure of witnessing Enoch Emery dress up in a gorilla suit? Nobody else, that's who. And that's OK. More than one Flannery O'Connor in this world might show us more truth than we could bear. --Mary ParkFrom Publishers WeeklyStarred Review. Bronson Pinchot turns in a virtuosic performance of O'Connor's darkly comic classic first novel. After serving a stint in the army, Hazel Motes finds himself adrift, alone, and rent by spiritual confusion. Pinchot's narration is superb: dynamic, well paced, and infused with a perfect Southern drawl. Instead of simply creating voices for the characters, Pinchot embodies them. His Hazel is nasty, nasally, and angry; his Enoch Emery boasts a congested twang; and the entire cast is likewise brought to life by Pinchot's precise and perceptive characterizations and his brilliant evocation of O'Conner's grotesqueries. A Farrar, Straus, and Giroux paperback. (Aug.) (c) Copyright PWxyz, LLC. All rights reserved.",
     "tags": []
   },
@@ -6022,7 +5844,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Mandarin",
-    "pages": 455,
+    "pages": 510,
     "description": "A writer flees Beijing’s Communist authorities and embarks on a mythical quest through rural China in a “playful monster of a book” by a Nobel Prize winner (The New York Times Book Review). In 1983 Chinese playwright, critic, fiction writer, and painter Gao Xingjian was diagnosed with lung cancer and prepared for imminent death. But six weeks later, a second examination revealed the cancer was gone, and he was thrown back into the world of the living. Faced with a repressive cultural environment and the threat of a spell in a prison farm, Gao fled Beijing and began a journey of 15,000 kilometers over a period of five months. The result of this epic voyage of discovery is Soul Mountain. A bold, lyrical, prodigious novel, Soul Mountain probes the human soul with an uncommon directness and candor. Interwoven with a myriad of stories and countless memorable characters—from venerable Daoist masters and Buddhist nuns to mythical Wild Men, deadly Qichun snakes, and farting buses—is the narrator's poignant inner journey and search for freedom. “A true work of great literature.” — Los Angeles Times Book Review“Spellbinding . . . Gao Xingjian's masterpiece expresses sorrow and anger, wonder and confusion, humor and metaphysics, lust and tenderness, and a profound longing for meaning and freedom.” —Booklist“If a successful novelist is one who tells us something new about the human spirit and a successful novel transports us to another world, then Gao and Soul Mountain have succeeded spectacularly.” —The Washington Post Book World",
     "tags": []
   },
@@ -6333,26 +6155,10 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "English",
-    "pages": 465,
+    "pages": 230,
     "description": "WITH AN INTRODUCTION BY MONICA ALI The love affair between Maurice Bendrix and Sarah, flourishing in the turbulent times of the London Blitz, ends when she suddenly and without explanation breaks it off. After a chance meeting rekindles his love and jealousy two years later, Bendrix hires a private detective to follow Sarah, and slowly his love for her turns into an obsession. Amazon.com Review Set in London during and just after World War II, Graham Greene's The End of the Affair is a pathos-laden examination of a three-way collision between love of self, love of another, and love of God. The affair in question involves Maurice Bendrix, a solipsistic novelist, and a dutifully married woman, Sarah Miles. The lovers meet at a party thrown by Sarah's dreary civil-servant husband, and proceed to liberate each other from boredom and routine unhappiness. Reflecting on the ebullient beginnings of their romance, Bendrix recalls: There was never any question in those days of who wanted whom--we were together in desire. Indeed, the affair goes on unchecked for several years until, during an afternoon tryst, Bendrix goes downstairs to look for intruders in his basement and a bomb falls on the building. Sarah rushes down to find him lying under a fallen door, and immediately makes a deal with God, whom she has never particularly cared for. I love him and I'll do anything if you'll make him alive.... I'll give him up forever, only let him be alive with a chance.... People can love each other without seeing each other, can't they, they love You all their lives without seeing You. Bendrix, as evidenced by his ability to tell the story, is not dead, merely unconscious, and so Sarah must keep her promise. She breaks off the relationship without giving a reason, leaving Bendrix mystified and angry. The only explanation he can think of is that she's left him for another man. It isn't until years later, when he hires a private detective to ascertain the truth, that he learns of her impassioned vow. Sarah herself comes to understand her move through a strange rationalization. Writing to God in her journal, she says: You willed our separation, but he [Bendrix] willed it too. He worked for it with his anger and his jealousy, and he worked for it with his love. For he gave me so much love, and I gave him so much love that soon there wasn't anything left, when we'd finished, but You. It's as though the pull toward faith were inevitable, if incomprehensible--perhaps as punishment for her sin of adultery. In her final years, Sarah's faith only deepens, even as she remains haunted by the bombing and the power of her own attraction to God. Set against the backdrop of a war-ravaged city, The End of the Affair is equally haunting as it lays forth the question of what constitutes love in troubling, unequivocal terms. --Melanie Rehak Review Undeniably a major work of art...It remains from first to last an almost faultless display of craftsmanship and a wonderfully assured statement of ideas. —The New Yorker Singularly moving and beautiful...the relationship of lover to husband with its crazy mutation of pity, hate, comradeship, jealousy, and contempt is superbly described...the heroine is consistently lovable. ��Evelyn Waugh An absorbing piece of work, passionately felt and strikingly written. —The Atlantic Monthly Brighton Rock, The Heart of the Matter, and The End of the Affair...all have claims to greatness; they are as intense and penetrating and disturbing as an inquisitor's gaze. —John Updike Graham Greene was in class by himself.... He will be read and remembered as the ultimate twentieth-century chronicler of consciousness and anxiety. —William Golding",
     "tags": [
       "UK"
-    ]
-  },
-  {
-    "id": 437,
-    "title": "Tómas Jónsson, Bestseller",
-    "author": "Guðbergur Bergsson",
-    "year": "1966",
-    "country": "Iceland",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Icelandic",
-    "pages": 464,
-    "description": "A book from Iceland.",
-    "tags": [
-      "scandinavia"
     ]
   },
   {
@@ -6395,7 +6201,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 482,
+    "pages": 335,
     "description": "Emma Bovary is an avid reader of sentimental novels; brought up on a Normandy farm and convent-educated, she longs for the passion of romance. At first, Emma pins her hopes on marriage, but life with her well-meaning husband in the provinces leaves her bored and dissatisfied. She seeks escape through extravagant spending sprees and, eventually, adultery. As Emma pursues her impossible reverie she seals her own ruin and despair. Exquisite, moving, at times ferociously satirical and always psychologically acute, Madame Bovary remains one of the greatest, most beguiling novels ever written. This stunning new translation, by the celebrated novelist Adam Thorpe, delicately and meticulously transposes the rhythms, tone and poetry of Madame Bovary and brings us closer to its shifting depths. It is destined to become the definitive English translation of our time.",
     "tags": []
   },
@@ -6409,7 +6215,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 420,
+    "pages": 460,
     "description": "Frederic Moreau, a moderately gifted young provincial, is ambitious in many ways: he dreams of fame, of vast wealth, of literary and artistic achievement, of a grand passion. On the Paris paddle-steamer which transports him to his home town of Nogent-sur-Seine at the outset of the novel, he becomes transfixed by the demure Madame Arnoux and, back in Paris, cultivates her ebullient and enterprising husband in order to be near her. Frederic's devotion fluctuates like his other enthusiasms, and he is caught up in the intense pleasures and the inevitable ennuis of Parisian life.",
     "tags": []
   },
@@ -6451,7 +6257,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Mandarin",
-    "pages": 464,
+    "pages": 320,
     "description": "Amazon.com ReviewEvery summer Lin Kong returned to Goose Village to divorce his wife, Shuyu. Like a fairy tale, Ha Jin's masterful novel of love and politics begins with a formula--and like a fairy tale, Waiting uses its slight, deceptively simple framework to encompass a wide range of truths about the human heart. Lin Kong is a Chinese army doctor trapped in an arranged marriage that embarrasses and repels him. (Shuyu has country ways, a withered face, and most humiliating of all, bound feet.) Nevertheless, he's content with his tidy military life, at least until he falls in love with Manna, a nurse at his hospital. Regulations forbid an army officer to divorce without his wife's consent--until 18 years have passed, that is, after which he is free to marry again. So, year after year Lin asks his wife for his freedom, and year after year he returns from the provincial courthouse: still married, still unable to consummate his relationship with Manna. Nothing feeds love like obstacles placed in its way--right? But Jin's novel answers the question of what might have happened to Romeo and Juliet had their romance been stretched out for several decades. In the initial confusion of his chaste love affair, Lin longs for the peace and quiet of his old rut. Then killing time becomes its own kind of rut, and in the end, he is forced to conclude that he waited eighteen years just for the sake of waiting. There's a political allegory here, of course, but it grows naturally from these characters' hearts. Neither Lin nor Manna is especially ideological, and the tumultuous events occurring around them go mostly unnoticed. They meet during a forced military march, and have their first tender moment during an opera about a naval battle. (While the audience shouts, Down with Japanese Imperialism! the couple holds hands and gazes dreamily into each other's eyes.) When Lin is in Goose Village one summer, a mutual acquaintance rapes Manna; years later, the rapist appears on a TV report titled To Get Rich Is Glorious, after having made thousands in construction. Jin resists hammering ideological ironies like these home, but totalitarianism's effects on Lin are clear: Let me tell you what really happened, the voice said. All those years you waited torpidly, like a sleepwalker, pulled and pushed about by others' opinions, by external pressure, by your illusions, by the official rules you internalized. You were misled by your own frustration and passivity, believing that what you were not allowed to have was what your heart was destined to embrace. Ha Jin himself served in the People's Liberation Army, and in fact left his native country for the U.S. only in 1985. That a non-native speaker can produce English of such translucence and power is truly remarkable--but really, his prose is the least of the miracles here. Improbably, Jin makes an unconsummated 18-year love affair loom as urgent as political terror or war, while history-changing events gain the immediacy of a domestic dilemma. Gracefully phrased, impeccably paced, Waiting is the kind of realist novel you thought was no longer being written. --Mary ParkFrom Publishers WeeklyJin's quiet but absorbing second novel (after In the Pond) captures the poignant dilemma of an ordinary man who misses the best opportunities in his life simply by trying to do his duty—as defined first by his traditional Chinese parents and later by the Communist Party. Reflecting the changes in Chinese communism from the '60s to the '80s, the novel focuses on Lin Kong, a military doctor who agrees, as his mother is dying, to an arranged marriage. His bride, Shuyu, turns out to be a country woman who looks far older than her 26 years and who has, to Lin's great embarrassment, lotus (bound) feet. While Shuyu remains at Lin's family home in Goose Village, nursing first his mother and then his ailing father, and bearing Lin a daughter, Lin lives far away in an army hospital compound, visiting only once a year. Caught in a loveless marriage, Lin is attacted to a nurse, Manna Wu, an attachment forbidden by communist strictures. According to local Party rules, Lin cannot divorce his wife without her permission until they have been separated for 18 years. Although Jin infuses movement and some suspense into Lin's and Manna's sometimes resigned, sometimes impatient waiting—they will not consummate their relationship until Lin is free—it is only in the novel's third section, when Lin finally secures a divorce, that the story gathers real force. Though inaction is a risky subject and the thoughts of a cautious man make for a rather deliberate prose style (the first two sections describe the moments the characters choose not to act), the final chapters are moving and deeply ironic, proving again that this poet and award-winning short story writer can deliver powerful long fiction about a world alien to most Western readers. (Oct.) FYI: Jin served six years in the People's Liberation Army, and came to the U.S. in 1985. Copyright 1999 Reed Business Information, Inc.",
     "tags": []
   },
@@ -6595,7 +6401,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Dutch",
-    "pages": 463,
+    "pages": 185,
     "description": "It is the winter of 1945, the last dark days of World War II in occupied Holland. A Nazi collaborator, infamous for his cruelty, is assassinated as he rides home on his bicycle. The Germans retaliate by burning down the home of an innocent family; only twelve-year-old Anton survives.Based on actual events, The Assault traces the complex repercussions of this horrific incident on Anton's life. Determined to forget, he opts for a carefully normal existence: a prudent marriage, a successful career, and colorless passivity. But the past keeps breaking through, in relentless memories and in chance encounters with others who were involved in the assassination and its aftermath, until Anton finally learns what really happened that night in 1945—and why.",
     "tags": []
   },
@@ -6626,22 +6432,6 @@
     "pages": 207,
     "description": "A book from Turkey.",
     "tags": []
-  },
-  {
-    "id": 457,
-    "title": "El olvido que seremos",
-    "author": "Hector Abad Faciolince",
-    "year": "2003",
-    "country": "Colombia",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 496,
-    "description": "Angosta es una ciudad de tres niveles, tres castas económicas y tres climas, situada en un estrecho valle de los Andes. Está marcada por una catarata conocida como el Salto de los Desesperados y dividida por montañas, por un muro y por fronteras internas. Todo para consolidar una política de Apartamiento que recluye a cada casta en su propio sector: los dones en Tierra Fría, los segundones en Tierra Templada y los tercerones en la tórrida Boca del Infierno. La ciudad está sitiada por la exclusión y la violencia, dos plagas controladas por los Siete Sabios, que determinan quién puede vivir y quién debe desaparecer. El entrañable grupo de personajes que protagonizan Angosta gira en torno a La Comedia, un hotel decadente en el corazón de la ciudad: un joven poeta que apunta sus experiencias en cuadernos; un matemático impasible, una pelirroja aguerrida, dos bohemios envejecidos, la mujer más triste del mundo, y el memorable Jacobo Lince, dueño de la librería La Cuña, centro de reuniones y verdadero reducto de libertad. Angosta es un resumen violento, erótico y político de una ciudad ficticia que es la mejor imagen de todo un mundo real. A medio camino entre la ciencia ficción y el hiperrealismo social, esta hermosa y aterradora fábula contemporánea es una novela necesaria, la obra mayor de Héctor Abad Faciolince, narrador impecable y polifacético que ocupa ya un lugar sobresaliente en la literatura en lengua española.",
-    "tags": [
-      "Latin America"
-    ]
   },
   {
     "id": 458,
@@ -6929,7 +6719,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 463,
+    "pages": 704,
     "description": "Handsome would-be poet Lucien Chardon is poor and naive, but highly ambitious. Failing to make his name in his dull provincial hometown, he is taken up by a patroness, the captivating married woman Madame de Bargeton, and prepares to forge his way in the glamorous beau monde of Paris. But Lucien has entered a world far more dangerous than he realized, as Madame de Bargeton's reputation becomes compromised and the fickle, venomous denizens of the courts and salons conspire to keep him out of their ranks. Lucien eventually learns that, wherever he goes, talent counts for nothing in comparison to money, intrigue and unscrupulousness. Lost Illusions is one of the greatest novels in the rich procession of the Comedie humaine, Balzac's panoramic social and moral history of his times.",
     "tags": []
   },
@@ -7117,7 +6907,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Persian",
-    "pages": 454,
+    "pages": 528,
     "description": "Set in a garden in Tehran in the early 1940s, where three families live under the tyranny of a paranoid patriarch, My Uncle Napoleon is a rich comic and brilliantly on-target- send-up of Iranian society. The novel is, at its core, a love story. But the young narrator's delicate and pure love for his cousin Layli is constantly jeopardized by an unforgettable cast of family members and the hilarious mayhem of their intrigues and machinations. It is also a social satire, a lampooning of the widespread Iranian belief that foreigners (particularly, and with some historical justification, the British) are responsible for events that occur in Iran. But most of all it is a very enjoyable, often sidesplitting read that you wish did not have to end.",
     "tags": []
   },
@@ -7233,7 +7023,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Italian",
-    "pages": 419,
+    "pages": 165,
     "description": "In Invisible Cities Marco Polo conjures up cities of magical times for his host, the Chinese ruler Kublai Khan, but gradually it becomes clear that he is actually describing one city: Venice. As Gore Vidal wrote 'Of all tasks, describing the contents of a book is the most difficult and in the case of a marvellous invention like Invisible Cities, perfectly irrelevant.'",
     "tags": []
   },
@@ -7261,8 +7051,8 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Italian",
-    "pages": 424,
-    "description": "“Svevo’s masterpiece . . . [in] a fresh translation by the dean of Italian literary translators.” –_Los Angeles Times_“An excellent new rendering [of a] marvellous and original book.”–James Wood, London Review of Books “A masterpiece, a novel overflowing with human truth in all its murkiness, laughter and terror, a book as striking and relevant today as when it was first published, and a book that is in every good way–its originality included–like life.” –Claire Messud, _The New Republic_��Hilarious. . . . Effortlessly inventive and eerily prescient. . . . William Weaver . . . updates the novelist’s idiosyncratic prose with great affection.” –_The Atlantic Monthly_“An event in modern publishing. For the first time, I believe, in English, we get the true, dark music, the pewter tints, of Svevo’s great last novel. . . . [Svevo is] a master.” –Joan Acocella, _The New Yorker_“[An] exhilarating and utterly original novel. . . . Weaver’s version strikes one as excellent.” –P. N. Furbank, _Literary Review_“One of the great comic novels of the twentieth century. . . . [Svevo is] perhaps _the most significant Italian modernist novelist.” –The Times Literary Supplement_“[A] neglected masterpiece. Seventy-five years old, the novel feels entirely modern.” –_The Boston Globe_“A reason for celebration. . . . If you have never read Svevo, do so as soon as you can. He is beautiful and important.” –_New Statesman_“One of the indispensable 20th-century novels. . . . A revolutionary book, and arguably (in fact, probably) the finest of all Italian novels.” –_Kirkus Reviews_“No one has done more to make modern Italian literature available in English than William Weaver. . . . [His new translation is] scrupulously accurate.” –_Anniston Star_Product DescriptionLong hailed as a seminal work of modernism in the tradition of Joyce and Kafka, and now available in a supple new English translation, Italo Svevo’s charming and splendidly idiosyncratic novel conducts readers deep into one hilariously hyperactive and endlessly self-deluding mind. The mind in question belongs to Zeno Cosini, a neurotic Italian businessman who is writing his confessions at the behest of his psychiatrist. Here are Zeno’s interminable attempts to quit smoking, his courtship of the beautiful yet unresponsive Ada, his unexpected–and unexpectedly happy–marriage to Ada’s homely sister Augusta, and his affair with a shrill-voiced aspiring singer. Relating these misadventures with wry wit and a perspicacity at once unblinking and compassionate, Zeno’s Conscience_ _is a miracle of psychological realism.",
+    "pages": 437,
+    "description": "“Svevo’s masterpiece . . . [in] a fresh translation by the dean of Italian literary translators.” –_Los Angeles Times_“An excellent new rendering [of a] marvellous and original book.”–James Wood, London Review of Books “A masterpiece, a novel overflowing with human truth in all its murkiness, laughter and terror, a book as striking and relevant today as when it was first published, and a book that is in every good way–its originality included–like life.” –Claire Messud, _The New Republic_��Hilarious. . . . Effortlessly inventive and eerily prescient. . . . William Weaver . . . updates the novelist’s idiosyncratic prose with great affection.” –_The Atlantic Monthly_“An event in modern publishing. For the first time, I believe, in English, we get the true, dark music, the pewter tints, of Svevo��s great last novel. . . . [Svevo is] a master.” –Joan Acocella, _The New Yorker_“[An] exhilarating and utterly original novel. . . . Weaver’s version strikes one as excellent.” –P. N. Furbank, _Literary Review_“One of the great comic novels of the twentieth century. . . . [Svevo is] perhaps _the most significant Italian modernist novelist.” –The Times Literary Supplement_“[A] neglected masterpiece. Seventy-five years old, the novel feels entirely modern.” –_The Boston Globe_“A reason for celebration. . . . If you have never read Svevo, do so as soon as you can. He is beautiful and important.” –_New Statesman_“One of the indispensable 20th-century novels. . . . A revolutionary book, and arguably (in fact, probably) the finest of all Italian novels.” –_Kirkus Reviews_“No one has done more to make modern Italian literature available in English than William Weaver. . . . [His new translation is] scrupulously accurate.” –_Anniston Star_Product DescriptionLong hailed as a seminal work of modernism in the tradition of Joyce and Kafka, and now available in a supple new English translation, Italo Svevo’s charming and splendidly idiosyncratic novel conducts readers deep into one hilariously hyperactive and endlessly self-deluding mind. The mind in question belongs to Zeno Cosini, a neurotic Italian businessman who is writing his confessions at the behest of his psychiatrist. Here are Zeno��s interminable attempts to quit smoking, his courtship of the beautiful yet unresponsive Ada, his unexpected–and unexpectedly happy–marriage to Ada’s homely sister Augusta, and his affair with a shrill-voiced aspiring singer. Relating these misadventures with wry wit and a perspicacity at once unblinking and compassionate, Zeno’s Conscience_ _is a miracle of psychological realism.",
     "tags": []
   },
   {
@@ -7317,7 +7107,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Russian",
-    "pages": 405,
+    "pages": 215,
     "description": "When Arkady Petrovich comes home from college, his father finds his eager, naive son changed almost beyond recognition, for the impressionable Arkady has fallen under the powerful influence of the friend he has brought with him. A self-proclaimed nihilist, the ardent young Bazarov shocks Arkady's father by criticizing the landowning way of life and by his outspoken determination to sweep away traditional values of contemporary Russian society. Turgenev's depiction of the conflict between generations and their ideals stunned readers when Fathers and Sons was first published in 1862. But many could also sympathize with Arkady's fascination with its nihilist hero whose story vividly captures the hopes and regrets of a changing Russia.",
     "tags": []
   },
@@ -7705,7 +7495,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 484,
+    "pages": 200,
     "description": "Jean Rhys's reputation was made upon the publication of this passionate and heartbreaking novel, in which she brings into the light one of fiction's most mysterious characters: the madwoman in the attic from Charlotte Brontë's Jane Eyre. A sensual and protected young woman, Antoinette Cosway grows up in the lush natural world of the Caribbean. She is sold into marriage to the coldhearted and prideful Rochester, who succumbs to his need for money and his lust. Yet he will make her pay for her ancestors' sins of slaveholding, excessive drinking, and nihilistic despair by enslaving her as a prisoner in his bleak English home. In this best-selling novel Rhys portrays a society so driven by hatred, so skewed in its sexual relations, that it can literally drive a woman out of her mind.",
     "tags": [
       "Latin America"
@@ -7791,7 +7581,7 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Portuguese",
-    "pages": 494,
+    "pages": 550,
     "description": "An absolute epic of world literature, narrated by Riobaldo, a former bandit chief who recounts his battles, his love for Diadorim, and his possible pact with the devil.",
     "tags": [
       "Latin America"
@@ -7895,7 +7685,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 483,
+    "pages": 256,
     "description": "Set in the village of al-Awafi in Oman, we encounter three sisters: Mayya, who marries Abdallah after a heartbreak; Asma, who marries from a sense of duty; and Khawla, who rejects all offers while waiting for her beloved, who has emigrated to Canada. These three women and their families witness Oman evolve from a traditional, slave-owning society slowly redefining itself after the colonial era, to the crossroads of its complex present. Elegantly structured and taut, Celestial Bodies is a coiled spring of a novel, telling of Oman's coming-of-age through the prism of one family's losses and loves",
     "tags": []
   },
@@ -8075,7 +7865,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "English",
-    "pages": 470,
+    "pages": 444,
     "description": "A finales del s. XIX José Rizal, un joven mestizo filipino de 26 años, intelectual, formado en Europa, un auténtico rebelde o «filibustero» que, como suele suceder, ama y odia a la metrópoli escribe esta novela-denuncia, levantando el «velo que oculta el mal, sacrificándolo todo a la verdad, hasta el mismo amor propio, pues, como hijo tuyo, adolezco también de tus defectos y flaquezas». Pero «Noli me tangere» es mucho más. Es una obra maestra de la literatura en la lengua española del lejano sudeste asiático, con una mirada humana a lo humano, un romance y, sobre todo, un canto a lo hermoso, encarnado en la belleza de María Clara y en el amor entre ella y Crisóstomo Ibarra, trasunto en parte del propio Rizal. Ese amor contrariado y rebelde siempre rodeado de sus eternos enemigos.",
     "tags": []
   },
@@ -8089,7 +7879,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Portuguese",
-    "pages": 492,
+    "pages": 330,
     "description": "A wry, fictional account of the life of Christ by Nobel laureate José Saramago A brilliant skeptic, José Saramago envisions the life of Jesus Christ and the story of his Passion as things of this earth: A child crying, the caress of a woman half asleep, the bleat of a goat, a prayer uttered in the grayish morning light. His idea of the Holy Family reflects the real complexities of any family, and—as only Saramago can—he imagines them with tinges of vision, dream, and omen. The result is a deft psychological portrait that moves between poetry and irony, spirituality and irreverence of a savior who is at once the Son of God and a young man. In this provocative, tender novel, the subject of wide critical discussion and wonder, Saramago questions the meaning of God, the foundations of the Church, and human existence itself.",
     "tags": []
   },
@@ -8177,7 +7967,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "English",
-    "pages": 460,
+    "pages": 489,
     "description": "Nostromo, published in 1904, is one of Conrad's finest works. Nostromo - though one hundred years old - says as much about today's Latin America as any of the finest recent accounts of that region's turbulent political life. Insistently dramatic in its storytelling, spectacular in its recreation of the subtropical landscape, this picture of an insurrectionary society and the opportunities it provides for moral corruption gleams on every page with its author's dry, undeceived, impeccable intelligence.",
     "tags": [
       "UK"
@@ -8329,15 +8119,15 @@
   },
   {
     "id": 574,
-    "title": "La Grande",
+    "title": "The Witness",
     "author": "Juan Jose Saer",
-    "year": "1990",
+    "year": "1991",
     "country": "Argentina",
     "region": "South America",
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 460,
+    "pages": 176,
     "description": "",
     "tags": [
       "Latin America"
@@ -8367,7 +8157,7 @@
     "continent": "North America",
     "read": true,
     "originalLanguage": "Spanish",
-    "pages": 423,
+    "pages": 143,
     "description": "Pedro Páramo é o primeiro de dois livros lançados em toda a vida de Juan Rulfo. O enredo, simples, trata da promessa feita por um filho à mãe moribunda, que lhe pede que saia em busca do pai, Pedro Páramo, um malvado lendário e assassino. Juan Preciado, o filho, não encontra pessoas, mas defuntos repletos de mem��rias, que lhe falam da crueldade implacável do pai. Vergonha é o que Juan sente. Alegoricamente, é o México ferido que grita suas chagas e suas revoluções, por meio de uma aldeia seca e vazia onde apenas os mortos sobreviveram para narrar os horrores da história. O realismo fantástico como hoje se conhece não teria existido sem esse livro, é dessa fonte que beberam o colombiano Gabriel García Márquez e o peruano Mario Vargas Llosa, que também narram odisséias latino-americanas. O romance mais aclamado da literatura mexicana faz parte da lista dos cem melhores livros de ficção do século 20, votação organizada pelo caderno Mais! da Folha em 1999. Romance mais aclamado da literatura mexicana, Pedro Páramo é o primeiro de dois livros lançados em toda a vida de Juan Rulfo. O enredo, simples, trata da promessa feita por um filho à mãe moribunda, que lhe pede que saia em busca do pai, Pedro Páramo, um malvado lendário e assassino. Juan Preciado, o filho, não encontra pessoas, mas defuntos repletos de memórias, que lhe falam da crueldade implacável do pai. Vergonha é o que Juan sente. Alegoricamente, é o México ferido que grita suas chagas e suas revoluções, por meio de uma aldeia seca e vazia onde apenas os mortos sobreviveram para narrar os horrores da história. O realismo fantástico como hoje se conhece não teria existido sem Pedro Páramo, é dessa fonte que beberam o colombiano Gabriel García Márquez e o peruano Mario Vargas Llosa, que também narram odisséias latino-americanas.",
     "tags": [
       "Latin America"
@@ -8619,7 +8409,7 @@
     "continent": "Oceania",
     "read": false,
     "originalLanguage": "English",
-    "pages": 496,
+    "pages": 450,
     "description": "In a tower on the New Zealand sea lives Kerewin Holmes, part Maori, part European, an artist estranged from her art, a woman in exile from her family. One night her solitude is disrupted by a visitor—a speechless, mercurial boy named Simon, who tries to steal from her and then repays her with his most precious possession. As Kerewin succumbs to Simon's feral charm, she also falls under the spell of his Maori foster father Joe, who rescued the boy from a shipwreck and now treats him with an unsettling mixture of tenderness and brutality. Out of this unorthodox trinity Keri Hulme has created what is at once a mystery, a love story, and an ambitious exploration of the zone where Maori and European New Zealand meet, clash, and sometimes merge. Winner of both a Booker Prize and Pegasus Prize for Literature, The Bone People is a work of unfettered wordplay and mesmerizing emotional complexity.",
     "tags": []
   },
@@ -8679,7 +8469,7 @@
     "continent": "Oceania",
     "read": false,
     "originalLanguage": "English",
-    "pages": 462,
+    "pages": 368,
     "description": "That Deadman Dance Set in Western Australia in the first decades of the nineteenth century, That Deadman Dance is a vast, gorgeous novel about the first contact between the Aboriginal Noongar people and the new European settlers.Bobby Wabalanginy is a young Noongar man, smart, resourceful, and eager to please. He befriends the European arrivals, joining them as they hunt whales, till the land, and establish their new colony. He is welcomed into a prosperous white family, and eventually finds himself falling in love with the daughter, Christine. But slowly-by design and by hazard-things begin to change. Not everyone is happy with how the colony is progressing. Livestock mysteriously start to disappear, crops are destroyed, there are accidents and injuries on both sides. As the Europeans impose ever-stricter rules and regulations in order to keep the peace, Bobby's Elders decide they must respond in kind, and Bobby is forced to take sides, inexorably drawn into a series of events that will forever change the future of his country.That Deadman Dance is inevitably tragic, as most stories of European and native contact are. But through Bobby's life, Kim Scott exuberantly explores a moment in time when things could have been different, when black and white lived together in amazement rather than fear of the other, and when the world seemed suddenly twice as large and twice as promising. At once celebratory and heartbreaking, this novel is a unique and important contribution to the literature of native experience.",
     "tags": []
   },
@@ -8709,7 +8499,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "German",
-    "pages": 465,
+    "pages": 272,
     "description": "A searing indictment of evil in Hitler's Germany. Hendrik Hofgen is a man obsessed with becoming a famous actor. When the Nazis come to power in Germany, he willingly renounces his Communist past and deserts his wife and mistress in order to keep on performing. His diabolical performance as Mephistopheles in Faust proves to be the stepping-stone he yearned for: attracting the attention of Hermann Göring, it wins Hofgen an appointment as head of the State Theatre. The rewards - the respect of the public, a castle - like villa, a uplace in Berlin's highest circles - are beyond his wildest dreams. But the moral consequences of his betrayals begin to haunt him, turning his dreamworld into a nightmare.",
     "tags": []
   },
@@ -8739,7 +8529,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Japanese",
-    "pages": 417,
+    "pages": 241,
     "description": "Kōbō Abe, a pseudonym of Kimifusa Abe, was a Japanese writer, playwright, photographer and inventor. One of the premier Japanese novels of the twentieth century, The Women in the Dunes (first published in 1962) combines the essence of myth, suspense, and the existential novel. SUMMARY: In a remote seaside village, Niki Jumpei, a teacher and amateur entomologist, is held captive with a young woman at the bottom of a vast sand pit where, Sisyphus-like, they are pressed into shoveling off the ever-advancing sand dunes that threaten the village.",
     "tags": []
   },
@@ -8809,7 +8599,7 @@
     "continent": "Asia",
     "read": true,
     "originalLanguage": "Mandarin",
-    "pages": 422,
+    "pages": 300,
     "description": "“Lao She’s great novel.” —The New York Times A beautiful new translation of the classic Chinese novel from Lao She, one of the most acclaimed and popular Chinese writers of the twentieth century, Rickshaw Boy chronicles the trials and misadventures of a poor Beijing rickshaw driver. Originally published in 1937, Rickshaw Boy—and the power and artistry of Lao She—can now be appreciated by a contemporary American audience.",
     "tags": []
   },
@@ -8851,7 +8641,7 @@
     "continent": "Africa",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 455,
+    "pages": 392,
     "description": "The Open Door is a landmark of women's writing in Arabic. Published in 1960, it was very bold for its time in exploring a middle-class Egyptian girl's coming of sexual and political age, in the context of the Egyptian nationalist movement preceding the 1952 revolution. The novel traces the pressures on young women and young men of that time and class as they seek to free themselves of family control and social expectations. Young Layla and her brother become involved in the student activism of the 1940s and early 1950s and in the popular resistance to continued imperialist rule; the story culminates in the 1956 Suez Crisis, when Gamal Abd al-Nasser's nationalization of the Canal led to a British, French, and Israeli invasion. Not only daring in her themes, Latifa al-Zayyat was also bold in her use of colloquial Arabic, and the novel contains some of the liveliest dialogue in modern Arabic literature.''Not only a great novel, but a literary landmark that shaped our...",
     "tags": []
   },
@@ -9158,20 +8948,6 @@
     "tags": []
   },
   {
-    "id": 631,
-    "title": "Daniel Stein, Interpreter",
-    "author": "Ludmilla Ulitskaya",
-    "year": "2006",
-    "country": "Russia",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Russian",
-    "pages": 510,
-    "description": "Based on the extraordinary real life of Oswald Rufeisen, this polyphonic novel follows Daniel Stein, a Polish Jew who survives the Holocaust by working as a translator for the Gestapo, secretly saving hundreds of his fellow Jews from the ghetto. After the war, Daniel converts to Catholicism, becomes a Carmelite monk, and relocates to Israel, where he establishes a unique Hebrew-speaking Christian community. Through a complex collage of letters, diaries, and transcripts, the novel explores the themes of religious tolerance, historical guilt, and the search for authentic faith outside of dogmas.",
-    "tags": []
-  },
-  {
     "id": 632,
     "title": "The Late Mathias Pascal",
     "author": "Luigi Pirandello",
@@ -9299,8 +9075,8 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Hungarian",
-    "pages": 491,
-    "description": "A stunning lyrical achievement and Atwood's first collection of new poems in over a decade.The Door is Margaret Atwood's first book of poetry since the award-winning Morning in the Burned House (1995). Its fifty lucid yet urgent poems range in tone from lyric to ironic to meditative to prophetic, and in subject from the personal to the political, viewed in its broadest sense. They investigate the mysterious writing of poetry itself, as well as the passage of time and our shared sense of mortality. The collection begins with poems that consider the past and ends with harbingers of things to come.Brave and compassionate, The Door interrogates the certainties that we build our lives on.From the Hardcover edition.",
+    "pages": 280,
+    "description": "",
     "tags": []
   },
   {
@@ -9341,7 +9117,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "English",
-    "pages": 462,
+    "pages": 379,
     "description": "Malcolm Lowry's Under The Volcano, first published in 1947, is quite simply one of the great novels of the 20th century. Semi-autobiographical, and taking place during the Mexican festival of the Day of the Dead in 1938, it recounts the last day in the life of the alcoholic ex-consul Geoffrey Firmin. Surrounded by the helpless presences of his ex-wife, his half-brother and acquaintances, he descends into a mescal-soaked purgatory, moving inexorably towards his tragic fate. His self-destructiveness reflects a spiritual struggle born of wilful abnegation and passivity, a depressed, existential acquiescence to the futility of positive action. The story is simple, its manner of telling decidedly not: Lowry's style is dense, symbolic, allusive, the prose thick with resonance, and the structure complex, with flashbacks, abrupt shifts, and a gradual accumulation of information--it is a book that deserves reading and then rereading, for its pattern and subtleties reveal themselves only slowly. Firmin's story anchors the book's political ambience--the rise of Fascism and the tragedy of the Spanish Civil War lie heavily across its pages, and in turn make of Firmin not a character to be pitied but a representative figure of modernity. In this, Lowry's masterpiece has lost none of its power: it speaks to us of suffering and of loneliness, eliciting our compassion under the century's terrible shadow of mortality.",
     "tags": [
       "UK"
@@ -9403,22 +9179,6 @@
     "originalLanguage": "English",
     "pages": 311,
     "description": "A chilling dystopian vision of New England under a totalitarian Christian regime (Gilead), exploring themes of subjugation, memory, and resistance through the eyes of Offred.",
-    "tags": [
-      "scifi"
-    ]
-  },
-  {
-    "id": 648,
-    "title": "Alias Grace",
-    "author": "Margaret Atwood",
-    "year": "1996",
-    "country": "Canada",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 460,
-    "description": "An exquisite historical mystery investigating the real-life story of Grace Marks, a controversial 19th-century Canadian maid convicted of a double murder.",
     "tags": [
       "scifi"
     ]
@@ -9669,7 +9429,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "English",
-    "pages": 461,
+    "pages": 300,
     "description": "Mary Shelley began writing Frankenstein when she was only nineteen. At once a Gothic thriller, a passionate romance, and a cautionary tale about the dangers of science, Frankenstein tells the story of committed science student Victor Frankenstein. Obsessed with discovering the cause of generation and life and bestowing animation upon lifeless matter, Frankenstein assembles a human being from stolen body parts but upon bringing it to life, he recoils in horror at the creatures hideousness. Tormented by isolation and loneliness, the once-innocent creature turns to evil and unleashes a campaign of murderous revenge against his creator, Frankenstein. Frankenstein, an instant bestseller and an important ancestor of both the horror and science fiction genres, not only tells a terrifying story, but also raises profound, disturbing questions about the very nature of life and the place of humankind within the cosmos: What does it mean to be human? What responsibilities do we have to each other? How far can we go in tampering with Nature? In our age, filled with news of organ donation genetic engineering, and bio-terrorism, these questions are more relevant than ever.",
     "tags": [
       "UK"
@@ -9941,7 +9701,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Russian",
-    "pages": 494,
+    "pages": 412,
     "description": "Mikhail Bulgakov's The Master and Margarita is a fiercely satirical fantasy that remained unpublished in its author's home country for over thirty years. This Penguin Classics edition is translated with an introduction by Richard Pevear and Larissa Volokhonsky, the acclaimed translators of Tolstoy's Anna Karenina. In Soviet Moscow, God is dead, but the devil - to say nothing of his retinue of demons, from a loudmouthed, gun-toting tomcat, to the fanged fallen angel Koroviev - is very much alive. As death and destruction spread through the city like wildfire, condemning Moscow's cultural elite to prison cells and body bags, only a madman, the Master, and Margarita, his beautiful, courageous lover, can hope to end the chaos. Written in secret during the darkest days of Stalin's reign and circulated in samizdat form for decades, when The Master and the Margarita was finally published it became an overnight literary phenomenon, signalling artistic freedom for Russians everywhere. This luminous translation from the complete and unabridged Russian text is accompanied by an introduction by Richard Pevear exploring the extraordinary circumstances of the novel's composition and publication, and how Bulgakov drew on carnivalesque folk traditions to create his ironic subversion of Soviet propaganda. This edition also contains a list of further reading and a note on the text. After finishing high school, Mikhail Bulgakov (1891-1940) entered the Medical School of Kiev University, graduating in 1916. He wrote about his experiences as a doctor in his early works Notes of a Young Country Doctor. His later works treated the subject of the artist and the tyrant under the guise of historical characters, but The Master and Margarita is generally considered his masterpiece. If you enjoyed The Master and Margarita, you might like Jonathan Swift's Gulliver's Travels, also available in Penguin Classics. 'One of the great novels of the 20th century, a scary, darkly comic allegory' Daily Telegraph Review “My favorite novel—it’s just the greatest explosion of imagination, craziness, satire, humor, and heart.” —Daniel Radcliffe “One of the truly great Russian novels of [the twentieth] century.” —The New York Times Book Review “By turns hilarious, mysterious, contemplative, and poignant . . . A great work.” —Chicago Tribune “A soaring, dazzling novel; an extraordinary fusion of wildly disparate elements. It is a concerto played simultaneously on the organ, the bagpipes, and a pennywhistle, while someone sets off fireworks between the players’ feet.” —The New York Times “Fine, funny, imaginative . . . The Master and Margarita stands squarely in the great Gogolesque tradition of satiric narrative.” —Newsweek ���A wild surrealistic romp . . . Brilliantly flamboyant and outrageous.” —Joyce Carol Oates “Beautiful, strange, tender, scarifying, and incandescent . . . One of those novels that, even in translation, make one feel that not one word could have been written differently . . . Margarita has too many achievements to list��for one thing, a plot scudding with action and suspense, not exactly a hallmark of Russian literature. . . . This luminous translation [is] distinguished by not only the stylistic elegance that has become a hallmark of Pevear and Volokhonsky translations but also a supreme ear for the sound and meaning of Soviet life. . . . It’s time for The Master and Margarita to rise to its rightful place in the canon of great world literature. . . . As literature, it will live forever.” —Boris Fishman, from the Foreword About the Author Mikhail Bulgakov was born in Kiev in May 1891. The Master and Margarita, a fantasy novel about the devil and his henchmen set in modern Moscow, is generally considered his masterpiece. Fame, at home and abroad, was not to come until a quarter of a century after his death at Moscow in 1940. Richard Pevear and Larissa Volokhonsky have produced acclaimed translations of Tolstoy, Dostoevsky, Gogol, and Bulgakov. Their translation of The Brothers Karamazov won the 1991 PEN/Book-of-the-Month Club Translation Prize. They are married and live in Paris, France.",
     "tags": []
   },
@@ -10211,7 +9971,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 490,
+    "pages": 355,
     "description": "A book from Canada.",
     "tags": []
   },
@@ -10287,22 +10047,6 @@
     "description": "Muriel Spark's timeless classic about a controversial teacher who deeply marks the lives of a select group of students in the years leading up to World War IIGive me a girl at an impressionable age, and she is mine for life! So asserts Jean Brodie, a magnetic, dubious, and sometimes comic teacher at the conservative Marcia Blaine School for Girls in Edinburgh. Brodie selects six favorite pupils to mold—and she doesn't stop with just their intellectual lives. She has a plan for them all, including how they will live, whom they will love, and what sacrifices they will make to uphold her ideals. When the girls reach adulthood and begin to find their own destinies, Jean Brodie's indelible imprint is a gift to some, and a curse to others.The Prime of Miss Jean Brodie is Spark's masterpiece, a novel that offers one of twentieth-century English literature's most iconic and complex characters—a woman at once admirable and sinister, benevolent and conniving.This...",
     "tags": [
       "UK"
-    ]
-  },
-  {
-    "id": 709,
-    "title": "Maps for Lost Lovers",
-    "author": "Nadeem Aslam",
-    "year": "2004",
-    "country": "Pakistan",
-    "region": "Southern Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Urdu",
-    "pages": 475,
-    "description": "If Gabriel García Márquez had chosen to write about Pakistani immigrants in England, he might have produced a novel as beautiful and devastating as Maps for Lost Lovers. Jugnu and Chanda have disappeared. Like thousands of people all over Enland, they were lovers and living together out of wedlock. To Chanda’s family, however, the disgrace was unforgivable. Perhaps enough so as to warrant murder.As he explores the disappearance and its aftermath through the eyes of Jugnu’s worldly older brother, Shamas, and his devout wife, Kaukab, Nadeem Aslam creates a closely observed and affecting portrait of people whose traditions threaten to bury them alive. The result is a tour de force, intimate, affecting, tragic and suspenseful.",
-    "tags": [
-      "subcontinent"
     ]
   },
   {
@@ -10518,20 +10262,6 @@
     "tags": []
   },
   {
-    "id": 725,
-    "title": "The Enchanted Wanderer",
-    "author": "Nikolai Leskov",
-    "year": "1873",
-    "country": "Russia",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Russian",
-    "pages": 456,
-    "description": "Written over the course of Leskov’s career, each story in The Enchanted Wanderer elucidates the very essence of the human condition; themes of love, despair, loneliness, and revenge are explored against the backdrop of nineteenth-century working-class Russia. Leskov deftly layers social satire and subtle criticism atop myth and fable, resulting in a richly entertaining collection.",
-    "tags": []
-  },
-  {
     "id": 726,
     "title": "The Last Temptation of Christ",
     "author": "Nikos Kazantzakis",
@@ -10669,7 +10399,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Polish",
-    "pages": 461,
+    "pages": 390,
     "description": "Longlisted for the Man Booker International Prize A visionary work of fiction with echoes of Sebald [and] Kundera . . . [There's] no better travel companion in these turbulent, fanatical times (The Guardian). A seventeenth-century Dutch anatomist discovers the Achilles tendon by dissecting his own amputated leg. Chopin's heart is carried back to Warsaw in secret by his adoring sister. A woman must return to her native Poland in order to poison her terminally ill high school sweetheart, and a young man slowly descends into madness when his wife and child mysteriously vanish during a vacation and just as suddenly reappear. Through these brilliantly imagined characters and stories, interwoven with haunting, playful, and revelatory meditations, Flights explores what it means to be a traveler, a wanderer, a body in motion not only through space but through time. Where are you from? Where are you coming in from? Where are you going? we call to the traveler. Enchanting, unsettling, and wholly original, Flights is a master storyteller's answer.",
     "tags": []
   },
@@ -10741,20 +10471,6 @@
     "originalLanguage": "English",
     "pages": 308,
     "description": "Introduction by Jeffrey Eugenides ﻿Written in his distinctively dazzling manner, Oscar Wilde’s story of a fashionable young man who sells his soul for eternal youth and beauty is the author’s most popular work. The tale of Dorian Gray’s moral disintegration caused a scandal when it ﬁrst appeared in 1890, but though Wilde was attacked for the novel��s corrupting inﬂuence, he responded that there is, in fact, “a terrible moral in Dorian Gray.” Just a few years later, the book and the aesthetic/moral dilemma it presented became issues in the trials occasioned by Wilde’s homosexual liaisons, which resulted in his imprisonment. Of Dorian Gray’s relationship to autobiography, Wilde noted in a letter, “Basil Hallward is what I think I am: Lord Henry what the world thinks me: Dorian what I would like to be—in other ages, perhaps.”",
-    "tags": []
-  },
-  {
-    "id": 741,
-    "title": "Avelum",
-    "author": "Otar Chiladze",
-    "year": "1995",
-    "country": "Georgia",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Georgian",
-    "pages": 450,
-    "description": "This rich, polyphonic Georgian novel follows Avelum, a sensitive intellectual and writer who struggles to preserve his moral integrity and artistic freedom during the final decades of Soviet rule and the chaotic, violent birth of Georgian independence. Avelum's complex, tragic personal life, romantic affairs, and familial conflicts parallel the political upheavals, ethnic violence, and national traumas of his homeland. Chiladze's dense, highly poetic prose constructs a profound, deeply moving meditation on historical memory, the burden of national identity, and the tragic compromises of the intellectual.",
     "tags": []
   },
   {
@@ -10919,15 +10635,15 @@
   },
   {
     "id": 753,
-    "title": "The Chosen Place, the Timeless People",
+    "title": "Brown Girl, Brown Stone",
     "author": "Paule Marshall",
-    "year": "1969",
+    "year": "1959",
     "country": "Barbados",
     "region": "Caribbean",
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 470,
+    "pages": 304,
     "description": "Set in Bourne Hills, a remote, impoverished coastal community on a fictional Caribbean island, the novel follows the arrival of a team of white, liberal American researchers who are funded by a philanthropic foundation to launch a modernization development project. The project is resisted by the local Afro-Caribbean residents, led by the proud, unyielding Merle Kibona, who refuse to abandon their historical memories, cultural traditions, and collective dignity for superficial economic reform. Through its dense realism, the novel explores the complex legacy of slavery and post-colonial exploitation.",
     "tags": []
   },
@@ -11083,7 +10799,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Indonesian",
-    "pages": 463,
+    "pages": 367,
     "description": "A book from Indonesia.",
     "tags": []
   },
@@ -11127,7 +10843,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Italian",
-    "pages": 484,
+    "pages": 220,
     "description": "In 1943, Primo Levi, a twenty-five-year-old chemist and Italian citizen of Jewish race, was arrested by Italian fascists and deported from his native Turin to Auschwitz. Survival in Auschwitz is Levi's classic account of his ten months in the German death camp, a harrowing story of systematic cruelty and miraculous endurance. Remarkable for its simplicity, restraint, compassion, and even wit, Survival in Auschwitz remains a lasting testament to the indestructibility of the human spirit.",
     "tags": []
   },
@@ -11141,7 +10857,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Italian",
-    "pages": 478,
+    "pages": 200,
     "description": "The Periodic Table is largely a memoir of the years before and after Primo Levi’s transportation from his native Italy to Auschwitz as an anti-Facist partisan and a Jew. It recounts, in clear, precise, unfailingly beautiful prose, the story of the Piedmontese Jewish community from which Levi came, of his years as a student and young chemist at the inception of the Second World War, and of his investigations into the nature of the material world. As such, it provides crucial links and backgrounds, both personal and intellectual, in the tremendous project of remembrance that is Levi’s gift to posterity. But far from being a prologue to his experience of the Holocaust, Levi’s masterpiece represents his most impassioned response to the events that engulfed him. The Periodic Table celebrates the pleasures of love and friendship and the search for meaning, and stands as a monument to those things in us that are capable of resisting and enduring in the face of tyranny.",
     "tags": []
   },
@@ -11215,7 +10931,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Bengali",
-    "pages": 458,
+    "pages": 508,
     "description": "Nobel Prize-winning author Rabindranath Tagore’s most ambitious work Gora unfolds against the vast, dynamic backdrop of Bengal under British rule, a divided society struggling to envisage an emerging nation. It is an epic saga of India’s nationalist awakening, viewed through the eyes of one young man, an orthodox Hindu who defines himself against the British colonialist culture and finds himself approaching his nationalist identity through the prism of organized religion. First published in 1907, Gora questions the dogmas and presuppositions inherent in nationalist thought like few books have dared to do. This new, lucid and vibrant translation brings the complete and unabridged text of the classic to a new generation of readers, underlining its contemporary relevance.",
     "tags": [
       "subcontinent"
@@ -11584,20 +11300,6 @@
     ]
   },
   {
-    "id": 798,
-    "title": "Ka",
-    "author": "Roberto Calasso",
-    "year": "1992",
-    "country": "Italy",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Italian",
-    "pages": 509,
-    "description": "A book from Italy.",
-    "tags": []
-  },
-  {
     "id": 799,
     "title": "Fifth Business",
     "author": "Robertson Davies",
@@ -11747,20 +11449,6 @@
     "originalLanguage": "Japanese",
     "pages": 422,
     "description": "A surreal coming-of-age tale that establishes Ryu Murakami as one of the most inventive young writers in the world today. Abandoned at birth in adjacent train station lockers, two troubled boys spend their youth in an orphanage and with foster parents on a semi-deserted island before finally setting off for the city to find and destroy the women who first rejected them. Both are drawn to an area of freaks and hustlers called Toxitown. One becomes a bisexual rock singer, star of this exotic demimonde, while the other, a pole vaulter, seeks his revenge in the company of his girlfriend, Anemone, a model who has converted her condominium into a tropical swamp for her pet crocodile. Together and apart, their journey from a hot metal box to a stunning, savage climax is a brutal funhouse ride through the eerie landscape of late-twentieth-century Japan. Sobre o Autor RYU MURAKAMI was born in 1952. The only son of schoolteacher parents, he grew up in the port city of Sasebo in southwestern Japan. After graduating from a local high school, where he played the drums in a band called Coelacanth, he went to an art college in Tokyo. It was while studying there that he entered his first novel, Almost Transparent Blue, in a competition for new writers. Published in 1976, the book won a major literary award and sold over a million copies. Since then, he has worked for a publishing house, presented a weekly music and interview radio program, and hosted a TV talk show. His literary output includes two collections of stories Run, Takahashi (1985) and Topaz (1980), which made its debut in English early in 1995. His roman a clef 69 appeared in English in 1993. He has also directed four movies based on his writing, causing a sensation at an Italian film festival when Tokyo Decadence was shown there in 1992. His latest film is set in the U.S. and Cuba. STEPHEN SNYDER, the translator, is Professor of Japanese Studies at the University of Colorado at Boulder. Among his first-rate translations from Japanese are Kunio Tsuji's The Signore: Shogun of the Warring States, which won the Japan-U.S. Friendship Commission Prize; Ryu Murakami's Coin Locker Babies; Kenzaburo Oe's A Healing Family; and the forthcoming Out by Natsuo Kirino.",
-    "tags": []
-  },
-  {
-    "id": 809,
-    "title": "A Guest for the Night",
-    "author": "S.Y. Agnon",
-    "year": "1938",
-    "country": "Israel",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Hebrew",
-    "pages": 485,
-    "description": "A book from Israel.",
     "tags": []
   },
   {
@@ -11919,7 +11607,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Russian",
-    "pages": 498,
+    "pages": 208,
     "description": "By turns lyrical and philosophical, witty and baffling, A School for Fools confounds all expectations of the novel. Here we find not one reliable narrator but two “unreliable” narrators: the young man who is a student at the “school for fools” and his double. What begins as a reverie (with frequent interruptions) comes to seem a sort of fairy-tale quest not for gold or marriage but for self-knowledge. The currents of consciousness running through the novel are passionate and profound. Memories of childhood summers at the dacha are contemporaneous with the present, the dead are alive, and the beloved is present in the wind. Here is a tale either of madness or of the life of the imagination in conversation with reason, straining at the limits of language; in the words of Vladimir Nabokov, “an enchanting, tragic, and touching book.”",
     "tags": []
   },
@@ -12047,7 +11735,7 @@
     "country": "USA",
     "region": "Northern America",
     "continent": "North America",
-    "read": false,
+    "read": true,
     "originalLanguage": "English",
     "pages": 185,
     "description": "A book from USA.",
@@ -12065,20 +11753,6 @@
     "originalLanguage": "Japanese",
     "pages": 194,
     "description": "Written with precise skill and beautifully controlled power. The translation by Ivan Morris is outstanding. —The New York TimesWinner of the 1952 Yomiuri PrizeThis haunting novel explores the complete degradation and isolation of a man by war. Fires on the Plain is set on the island of Leyte in the Philippines during World War II, where the Japanese army is disintegrating under the hammer blows of the American landings. Within this broader disintegration is another, that of a single human being, Private Tamura. The war destroys each of his ties to society, one by one, until Tamura, a sensitive and intelligent man, becomes an outcast.Nearly losing the will to survive, he hears of a port still in Japanese hands and struggles to walk through the American lines. Unfazed by danger, he welcomes the prospect of dying, but first, he loses his hope, and then his sanity. Lost among his hallucinations, Tamura comes to fancy himself an angel enjoined by God to eat no living thing—but even angels fall.Tamura is never less than human, even when driven to the ultimate sin against humanity. Shocking as the outward events are, the greatness of the novel lies in its uplifting vision during a time of crushing horror. As relevant today as when it was originally published, Fires on the Plain will strike a chord with anyone who has lived through the horrors of war.",
-    "tags": []
-  },
-  {
-    "id": 831,
-    "title": "Tevye the Dairyman",
-    "author": "Sholem Aleichem",
-    "year": "1894",
-    "country": "Ukraine",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Yiddish",
-    "pages": 450,
-    "description": "",
     "tags": []
   },
   {
@@ -12135,7 +11809,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "English",
-    "pages": 497,
+    "pages": 325,
     "description": "In this remarkable debut novel, a boy’s bittersweet passage to maturity and sexual awakening is set against escalating political tensions in Sri Lanka, during the seven years leading up to the 1983 riots. Arjie Chelvaratnam is a Tamil boy growing up in an extended family in Colombo. It is through his eyes that the story unfolds and we meet a delightful, sometimes eccentric cast of characters. Arjie’s journey from the luminous simplicity of childhood days into the more intricately shaded world of adults – with its secrets, its injustices, and its capacity for violence – is a memorable one, as time and time again the true longings of the human heart are held against the way things are.",
     "tags": [
       "subcontinent"
@@ -12267,7 +11941,7 @@
     "continent": "Africa",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 491,
+    "pages": 166,
     "description": "This wry take on Kafka's novel The Trial revolves around its narrator's attempts to petition successfully the elusive ruling body of his country, known simply as the Committee. Consequences for his actions range from the absurd to the hideous. Ibrahim offers an unbroken first-person narrative rendered in brief, crisp prose framed by a conspicuous absence of vivid imagery. Furthermore, the petitioner is a man without identity. The ideal antihero, he remains, as does his country, unnamed throughout the intricate plot with a locale suggestive of 1970s Cairo. The Committee pierces the inflammatory terrain between ordinary men, unbridled displays of power, and other broader concerns of the author's native Egypt. The novel's corrosive, shocking conclusion catapults satiric surrealism into a new realm.",
     "tags": []
   },
@@ -12351,7 +12025,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 492,
+    "pages": 577,
     "description": "The son of a carpenter, Julian Sorel is inspired by the writings of Napoleon to conquer the heights of society. His initial plan to work his way up through the church is, however, thwarted when he is forced to accept employment as a tutor--and this rash social entrepreneur certainly has not considered the dangers of falling in love. Stendhal's novel is an amusing and piquant study of hypocrisy and free will in post-Napoleonic France. About the Series: For over 100 years Oxford World's Classics has made available the broadest spectrum of literature from around the globe. Each affordable volume reflects Oxford's commitment to scholarship, providing the most accurate text plus a wealth of other valuable features, including expert introductions by leading authorities, voluminous notes to clarify the text, up-to-date bibliographies for further study, and much more.",
     "tags": []
   },
@@ -12409,7 +12083,7 @@
     "continent": "Africa",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 452,
+    "pages": 180,
     "description": "In this lyrical, hallucinatory novel set in Morocco, Tahar Ben Jelloun offers an imaginative and radical critique of contemporary Arab social customs and Islamic law. The Sand Child tells the story of a Moroccan father's effort to thwart the consequences of Islam's inheritance laws regarding female offspring. Already the father of seven daughters, Hajji Ahmed determines that his eighth child will be a male. Accordingly, the infant, a girl, is named Mohammed Ahmed and raised as a young man with all the privileges granted exclusively to men in traditional Arab-Islamic societies. As she matures, however, Ahmed's desire to have children marks the beginning of her sexual evolution, and as a woman named Zahra, Ahmed begins to explore her true sexual identity. Drawing on the rich Arabic oral tradition, Ben Jelloun relates the extraordinary events of Ahmed's life through a professional storyteller and the listeners who have gathered in a Marrakesh market square in the 1950s to hear his tale. A poetic vision of power, colonialism, and gender in North Africa, The Sand Child has been justifiably celebrated around the world as a daring and significant work of international fiction.",
     "tags": []
   },
@@ -12423,7 +12097,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "English",
-    "pages": 467,
+    "pages": 351,
     "description": "Winner of the Man Asian Literary Prize, an elegant and haunting novel of war, art and memory ( The Independent ) from the critically acclaimed author of The Gift of Rain. Malaya, 1951. Yun Ling Teoh, the scarred lone survivor of a brutal Japanese wartime camp, seeks solace among the jungle-fringed tea plantations of Cameron Highlands. There she discovers Yugiri, the only Japanese garden in Malaya, and its owner and creator, the enigmatic Aritomo, exiled former gardener of the emperor of Japan. Despite her hatred of the Japanese, Yun Ling seeks to engage Aritomo to create a garden in memory of her sister, who died in the camp. Aritomo refuses but agrees to accept Yun Ling as his apprentice until the monsoon comes. Then she can design a garden for herself. As the months pass, Yun Ling finds herself intimately drawn to the gardener and his art, while all around them a communist guerilla war rages. But the Garden of Evening Mists remains a place of mystery. Who is Aritomo and how did he come to leave Japan? And is the real story of how Yun Ling managed to survive the war perhaps the darkest secret of all?",
     "tags": []
   },
@@ -12701,7 +12375,7 @@
     "continent": "Oceania",
     "read": false,
     "originalLanguage": "English",
-    "pages": 479,
+    "pages": 426,
     "description": "Hailed as a classic, Tim Winton's masterful family saga is both a paean to working-class Australians and an unflinching examination of the human heart's capacity for sorrow, joy, and endless gradations in between. An award-winning work, Cloudstreet exemplifies the brilliant ability of fiction to captivate and inspire.Struggling to rebuild their lives after being touched by disaster, the Pickle family, who've inherited a big house called Cloudstreet in a suburb of Perth, take in the God-fearing Lambs as tenants. The Lambs have suffered their own catastrophes, and determined to survive, they open up a grocery on the ground floor. From 1944 to 1964, the shared experiences of the two overpopulated clans -- running the gamut from drunkenness, adultery, and death to resurrection, marriage, and birth -- bond them to each other and to the bustling, haunted house in ways no one could have anticipated.",
     "tags": []
   },
@@ -12775,7 +12449,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 467,
+    "pages": 384,
     "description": "Milkman Dead was born shortly after a neighborhood eccentric hurled himself off a rooftop in a vain attempt at flight. For the rest of his life he, too, will be trying to fly. With this brilliantly imagined novel, Toni Morrison transfigures the coming-of-age story as audaciously as Saul Bellow or Gabriel García Márquez. As she follows Milkman from his rustbelt city to the place of his family’s origins, Morrison introduces an entire cast of strivers and seeresses, liars and assassins, the inhabitants of a fully realized black world. Sobre o Autor TONI MORRISON is the author of ten previous novels, from The Bluest Eye (1970) to Home (2012). She has received the National Book Critics Circle Award and the Pulitzer Prize. In 1993 she was awarded the Nobel Prize in Literature. She lives in New York. Trecho. © Reimpressão autorizada. Todos os direitos reservados Chapter 1 The North Carolina Mutual Life Insurance agent promised to fly from Mercy to the other side of Lake Superior at three o'clock. Two days before the event was to take place he tacked a note on the door of his little yellow house: At 3:00 p.m. on Wednesday the 18th of February, 1931, I will take off from Mercy and fly away on my own wings. Please forgive me. I loved you all. (signed) Robert Smith, Ins. agent Mr. Smith didn't draw as big a crowd as Lindbergh had four years earlier--not more than forty or fifty people showed up--because it was already eleven o'clock in the morning, on the very Wednesday he had chosen for his flight, before anybody read the note. At that time of day, during the middle of the week, word-of-mouth news just lumbered along. Children were in school; men were at work; and most of the women were fastening their corsets and getting ready to go see what tails or entrails the butcher might be giving away. Only the unemployed, the self-employed, and the very young were available--deliberately available because they'd heard about it, or accidentally available because they happened to be walking at that exact moment in the shore end of Not Doctor Street, a name the post office did not recognize. Town maps registered the street as Mains Avenue, but the only colored doctor in the city had lived and died on that street, and when he moved there in 1896 his patients took to calling the street, which none of them lived in or near, Doctor Street. Later, when other Negroes moved there, and when the postal service became a popular means of transferring messages among them, envelopes from Louisiana, Virginia, Alabama, and Georgia began to arrive addressed to people at house numbers on Doctor Street. The post office workers returned these envelopes or passed them on to the Dead Letter Office. Then in 1918, when colored men were being drafted, a few gave their address at the recruitment office as Doctor Street. In that way, the name acquired a quasi-official status. But not for long. Some of the city legislators, whose concern for appropriate names and the maintenance of the city's landmarks was the principal part of their political life, saw to it that Doctor Street was never used in any official capacity. And since they knew that only Southside residents kept it up, they had notices posted in the stores, barbershops, and restaurants in that part of the city saying that the avenue running northerly and southerly from Shore Road fronting the lake to the junction of routes 6 and 2 leading to Pennsylvania, and also running parallel to and between Rutherford Avenue and Broadway, had always been and would always be known as Mains Avenue and not Doctor Street. It was a genuinely clarifying public notice because it gave Southside residents a way to keep their memories alive and please the city legislators as well. They called it Not Doctor Street, and were inclined to call the charity hospital at its northern end No Mercy Hospital since it was 1931, on the day following Mr. Smith's leap from its cupola, before the first colored expectant mother was allowed to give birth inside its wards and not on its steps. The reason for the hospital's generosity to that particular woman was not the fact that she was the only child of this Negro doctor, for during his entire professional life he had never been granted hospital privileges and only two of his patients were ever admitted to Mercy, both white. Besides, the doctor had been dead a long time by 1931. It must have been Mr. Smith's leap from the roof over their heads that made them admit her. In any case, whether or not the little insurance agent's conviction that he could fly contributed to the place of her delivery, it certainly contributed to its time. When the dead doctor's daughter saw Mr. Smith emerge as promptly as he had promised from behind the cupola, his wide blue silk wings curved forward around his chest, she dropped her covered peck basket, spilling red velvet rose petals. The wind blew them about, up, down, and into small mounds of snow. Her half-grown daughters scrambled about trying to catch them, while their mother moaned and held the underside of her stomach. The rose-petal scramble got a lot of attention, but the pregnant lady's moans did not. Everyone knew the girls had spent hour after hour tracing, cutting, and stitching the costly velvet, and that Gerhardt's Department Store would be quick to reject any that were soiled. It was nice and gay there for a while. The men joined in trying to collect the scraps before the snow soaked through them--snatching them from a gust of wind or plucking them delicately from the snow. And the very young children couldn't make up their minds whether to watch the man circled in blue on the roof or the bits of red flashing around on the ground. Their dilemma was solved when a woman suddenly burst into song. The singer, standing at the back of the crowd, was as poorly dressed as the doctor's daughter was well dressed. The latter had on a neat gray coat with the traditional pregnant-woman bow at her navel, a black cloche, and a pair of four-button ladies' galoshes. The singing woman wore a knitted navy cap pulled far down over her forehead. She had wrapped herself up in an old quilt instead of a winter coat. Her head cocked to one side, her eyes fixed on Mr. Robert Smith, she sang in a powerful contralto: O Sugarman done fly away Sugarman done gone Sugarman cut across the sky Sugarman gone home.... A few of the half a hundred or so people gathered there nudged each other and sniggered. Others listened as though it were the helpful and defining piano music in a silent movie. They stood this way for some time, none of them crying out to Mr. Smith, all of them preoccupied with one or the other of the minor events about them, until the hospital people came. They had been watching from the windows--at first with mild curiosity, then, as the crowd seemed to swell to the very walls of the hospital, they watched with apprehension. They wondered if one of those things that racial-uplift groups were always organizing was taking place. But when they saw neither placards nor speakers, they ventured outside into the cold: white-coated surgeons, dark-jacketed business and personnel clerks, and three nurses in starched jumpers. The sight of Mr. Smith and his wide blue wings transfixed them for a few seconds, as did the woman's singing and the roses strewn about. Some of them thought briefly that this was probably some form of worship. Philadelphia, where Father Divine reigned, wasn't all that far away. Perhaps the young girls holding baskets of flowers were two of his virgins. But the laughter of a gold-toothed man brought them back to their senses. They stopped daydreaming and swiftly got down to business, giving orders. Their shouts and bustling caused great confusion where before there had been only a few men and some girls playing with pieces of velvet and a woman singing. One of the nurses, hoping to bring some efficiency into the disorder, searched the faces around her until she saw a stout woman who looked as though she might move the earth if she wanted to. You, she said, moving toward the stout woman. Are these your children? The stout woman turned her head slowly, her eyebrows lifted at the carelessness of the address. Then, seeing where the voice came from, she lowered her brows and veiled her eyes. Ma'am? Send one around back to the emergency office. Tell him to tell the guard to get over here quick. That boy there can go. That one. She pointed to a cat-eyed boy about five or six years old. The stout woman slid her eyes down the nurse's finger and looked at the child she was pointing to. Guitar, ma'am. What? Guitar. The nurse gazed at the stout woman as though she had spoken Welsh. Then she closed her mouth, looked again at the cat-eyed boy, and lacing her fingers, spoke her next words very slowly to him. Listen. Go around to the back of the hospital to the guard's office. It will say 'Emergency Admissions' on the door. A-D-M-I-S-I-O-N-S. But the guard will be there. Tell him to get over here-- on the double. Move now. Move! She unlaced her fingers and made scooping motions with her hands, the palms pushing against the wintry air. A man in a brown suit came toward her, puffing little white clouds of breath. Fire truck's on its way. Get back inside. You'll freeze to death. The nurse nodded. You left out a s, ma'am, the boy said. The North was new to him and he had just begun to learn he could speak up to white people. But she'd already gone, rubbing her arms against the cold. Granny, she left out a s. And a 'please.'  You reckon he'll jump? A nutwagon do anything. Who is he? Collects insurance. A nutwagon. Who is that lady singing? That, baby, is the very last thing in pea-time. But she smiled when she looked at the singing woman, so the cat-eyed boy listened to the musical performance with at least as much interest as he devoted to the man flapping his wings on top of the hospital. The crowd was beginning to be a little nervous now that the law was being called in. They each knew Mr. Smith. He came to their houses twice a month to collect one dollar and sixty-eight cents and write down on a little yellow card both the date and their eighty-four cents a week payment. They were always half a month or so behind, and talked endlessly to him about paying ahead--after they had a preliminary discussion about what he was doing back so soon anyway. You back in here already? Look like I just got rid of you. I'm tired of seeing your face. Really tired. I knew it. Soon's I get two dimes back to back, here you come. More regular than the reaper. Do Hoover know about you? They kidded him, abused him, told their children to tell him they were out or sick or gone to Pittsburgh. But they held on to those little yellow cards as though they meant something--laid them gently in the shoe box along with the rent receipts, marriage licenses, and expired factory identification badges. Mr. Smith smiled through it all, managing to keep his eyes focused almost the whole time on his customers' feet. He wore a business suit for his work, but his house was no better than theirs. He never had a woman that any of them knew about and said nothing in church but an occasional Amen. He never beat anybody up and he wasn't seen after dark, so they thought he was probably a nice man. But he was heavily associated with illness and death, neither of which was distinguishable from the brown picture of the North Carolina Mutual Life Building on the back of their yellow cards. Jumping from the roof of Mercy was the most interesting thing he had done. None of them had suspected he had it in him. Just goes to show, they murmured to each other, you never really do know about people. The singing woman quieted down and, humming the tune, walked through the crowd toward the rose-petal lady, who was still cradling her stomach. You should make yourself warm, she whispered to her, touching her lightly on the elbow. A little bird'll be here with the morning. Oh? said the rose-petal lady. Tomorrow morning? That's the only morning coming. It can't be, the rose-petal lady said. It's too soon. No it ain't. Right on time. The women were looking deep into each other's eyes when a loud roar went up from the crowd--a kind of wavy oo sound. Mr. Smith had lost his balance for a second, and was trying gallantly to hold on to a triangle of wood that jutted from the cupola. Immediately the singing woman began again: O Sugarman done fly O Sugarman done gone . . . Downtown the firemen pulled on their greatcoats, but when they arrived at Mercy, Mr. Smith had seen the rose petals, heard the music, and leaped on into the air. The next day a colored baby was born inside Mercy for the first time. Mr. Smith's blue silk wings must have left their mark, because when the little boy discovered, at four, the same thing Mr. Smith had learned earlier--that only birds and airplanes could fly--he lost all interest in himself. To have to live without that single gift saddened him and left his imagination so bereft that he appeared dull even to the women who did not hate his mother. The ones who did, who accepted her invitations to tea and envied the doctor's big dark house of twelve rooms and the green sedan, called him peculiar. The others, who knew that the house was more prison than palace, and that the Dodge sedan was for Sunday drives only, felt sorry for Ruth Foster and her dry daughters, and called her son deep. Even mysterious. Did he come with a caul? You should have dried it and made him some tea from it to drink. If you don't he'll see ghosts. You believe that? I don't, but that's what the old people say. Well, he's a deep one anyway. Look at his eyes. And they pried pieces of baked-too-fast sunshine cake from the roofs of their mouths and looked once more into the boy's eyes. He met their gaze as best he could until, after a pleading glance toward his mother, he was allowed to leave the room. It took some planning to walk out of the parlor, his back washed with the hum of their voices, open the heavy double doors leading to the dining room, slip up the stairs past all those bedrooms, and not arouse the attention of Lena and Corinthians sitting like big baby dolls before a table heaped with scraps of red velvet. His sisters made roses in the afternoon. Bright, lifeless roses that lay in peck baskets for months until the specialty buyer at Gerhardt's sent Freddie the janitor over to tell the girls that they could use another gross. If he did manage to slip by his sisters and avoid their casual malice, he knelt in his room at the window sill and wondered again and again why he had to stay level on the ground. The quiet that suffused the doctor's house then, broken only by the murmur of the women eating sunshine cake, was only that: quiet. It was not peaceful, for it was preceded by and would soon be terminated by the presence of Macon Dead.",
     "tags": []
   },
@@ -13060,20 +12734,6 @@
     "tags": []
   },
   {
-    "id": 899,
-    "title": "Alamut",
-    "author": "Vladimir Bartol",
-    "year": "1938",
-    "country": "Slovenia",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Slovenian",
-    "pages": 510,
-    "description": "Alamut takes place in 11th Century Persia, in the fortress of Alamut, where self-proclaimed prophet Hasan ibn Sabbah is setting up his mad but brilliant plan to rule the region with a handful elite fighters who are to become his \"living daggers.\" By creating a virtual paradise at Alamut, filled with beautiful women, lush gardens, wine and hashish, Sabbah is able to convince his young fighters that they can reach paradise if they follow his commands.\n\nAlamut tells the story of how Sabbah was able to instill fear into the ruling class by creating a small army of devotees who were willing to kill, and be killed, in order to achieve paradise. Believing in the supreme Ismaili motto “Nothing is true, everything is permitted,” Sabbah wanted to “experiment” with how far he could manipulate religious devotion for his own political gain through appealing to what he called the stupidity and gullibility of people and their passion for pleasure and selfish desires.\n\nThe novel focuses on Sabbah as he unveils his plan to his inner circle, and on two of his young followers — the beautiful slave girl Halima, who has come to Alamut to join Sabbah's paradise on earth, and young ibn Tahir, Sabbah's most gifted fighter. As both Halima and ibn Tahir become disillusioned with Sabbah's vision, their lives take unexpected turns.\n\nAlamut was originally written in 1938 as an allegory to Mussolini's fascist state. In the 1960's it became a cult favorite throughout Tito's Yugoslavia, and in the 1990s, during the Balkan's War, it was read as an allegory of the region's strife and became a bestseller in Germany, France and Spain.",
-    "tags": []
-  },
-  {
     "id": 900,
     "title": "Pale Fire",
     "author": "Vladimir Nabokov",
@@ -13083,22 +12743,8 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 458,
+    "pages": 315,
     "description": "In Pale Fire Nabokov offers a cornucopia of deceptive pleasures: a 999-line poem by the reclusive genius John Shade; an adoring foreword and commentary by Shade's self-styled Boswell, Dr. Charles Kinbote; a darkly comic novel of suspense, literary idolatry and one-upmanship, and political intrigue.From the Trade Paperback edition.",
-    "tags": []
-  },
-  {
-    "id": 901,
-    "title": "The Gift",
-    "author": "Vladimir Nabokov",
-    "year": "1938",
-    "country": "Russia",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Russian",
-    "pages": 466,
-    "description": "The Gift is the last of the novels Nabokov wrote in his native Russian and the crowning achievement of that period in his literary career. It is also his ode to Russian literature, evoking the works of Pushkin, Gogol, and others in the course of its narrative: the story of Fyodor Godunov-Cherdyntsev, an impoverished émigré poet living in Berlin, who dreams of the book he will someday write--a book very much like The Gift itself.From the Trade Paperback edition.",
     "tags": []
   },
   {
@@ -13425,7 +13071,7 @@
     "continent": "Asia",
     "read": true,
     "originalLanguage": "Japanese",
-    "pages": 458,
+    "pages": 250,
     "description": "Nobel Prize winner Yasunari Kawabata’s Snow Country is widely considered to be the writer’s masterpiece: a powerful tale of wasted love set amid the desolate beauty of western Japan. At an isolated mountain hot spring, with snow blanketing every surface, Shimamura, a wealthy dilettante meets Komako, a lowly geisha. She gives herself to him fully and without remorse, despite knowing that their passion cannot last and that the affair can have only one outcome. In chronicling the course of this doomed romance, Kawabata has created a story for the ages — a stunning novel dense in implication and exalting in its sadness.",
     "tags": []
   },
@@ -13609,7 +13255,7 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 451,
+    "pages": 160,
     "description": "Palace of the Peacock , the first of Wilson Harris's many novels, was published in 1960, just one year after his arrival in Britain from Guyana. In a richly metaphorical style, the book sets out the themes Wilson continues to develop in his writing to this day: the ability of the imaginative consciousness to create worlds where disparate cultures and traditions are fused. Donne, an ambitious skipper, leads a multiracial crew up an unnamed river in the rainforest. He is searching for the indigenous people of the forest to exploit as cheap labour on his plantation. But the journey is beset with obstacles, and as the crew progress and their relationships develop, it takes on a more spiritual significance, culminating with the crew and the forest folk finding sanctuary and resolution in the visionary Palace of the Peacock. --- Wilson Harris was born in 1921 in the former colony of British Guiana. He was a land surveyor before leaving for England in 1959 to become a full-time writer. His exploration of the dense forests, rivers and vast savannahs of the Guyanese hinterland features prominently in the settings of his fiction. Harris's novels are complex, alluding to diverse mythologies from different cultures, and eschew conventional narration in favour of shifting interwoven voices. His first novel Palace of the Peacock (1960) became the first of The Guyana Quartet , which includes The Far Journey of Oudin (1961), The Whole Armour (1962) and The Secret Ladder (1963). He later wrote The Carnival Trilogy ( Carnival (1985), The Infinite Rehearsal (1987) and The Four Banks of the River of Space (1990)). His most recent novels are Jonestown (1996), which tells of the mass-suicide of a thousand followers of cult leader Jim Jones; The Dark Jester (2001), his latest semi-autobiographical novel, The Mask of the Beggar (2003), and one of his most accessible novels in decades, The Ghost of Memory (2006). Wilson Harris also writes non-fiction and critical essays and has been awarded honorary doctorates by several universities, including the University of the West Indies (1984) and the University of Liege (2001). He has twice been winner of the Guyana Prize for Literature.",
     "tags": []
   },
@@ -13809,7 +13455,7 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 480,
+    "pages": 457,
     "description": "",
     "tags": [
       "Latin America"
@@ -13968,7 +13614,7 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Chinese",
+    "originalLanguage": "Mandarin",
     "pages": 607,
     "description": "Set in 18th-century China under the Qing dynasty, this celebrated satirical novel chronicles the lives of various scholars and intellectuals. Through their obsession with the civil service examinations and social status, the narrative delivers a brilliant, humorous critique of the hypocrisy, corruption, and moral decay of the Confucian bureaucracy and the scholar-gentry class.",
     "tags": []
@@ -14101,20 +13747,6 @@
     "originalLanguage": "English",
     "pages": 160,
     "description": "A classic Caribbean coming-of-age novel set in Trinidad. It follows Tee, a young girl torn between the rural, working-class culture of her aunt Tantie and the middle-class, colonial aspirations of her aunt Beatrice.",
-    "tags": []
-  },
-  {
-    "id": 972,
-    "title": "Corregidora",
-    "author": "Gayl Jones",
-    "year": "1975",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 192,
-    "description": "A powerful, intense African American novel that follows Ursa Corregidora, a blues singer in Kentucky, as she struggles with the legacy of slavery and abuse passed down through generations of women in her family, all haunted by the memory of the Portuguese slaveholder Corregidora.",
     "tags": []
   },
   {
@@ -14271,7 +13903,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Yiddish",
-    "pages": 464,
+    "pages": 267,
     "description": "A brilliant, tragicomic Yiddish novel depicting the lives of a traditional Jewish family, the Zelmenyaners, living in a courtyard in Minsk during the early Soviet period. The narrative chronicles the generational clash and social friction between the older, religious family members and the younger generation eagerly embracing Soviet modernization, industrialization, and assimilation.",
     "tags": []
   },
