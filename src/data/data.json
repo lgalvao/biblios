@@ -1,5 +1,215 @@
 [
   {
+    "id": 1024,
+    "title": "Such Small Hands",
+    "author": "Andrés Barba",
+    "year": "2008",
+    "country": "Spain",
+    "region": "Southern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "Spanish",
+    "pages": 96,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1023,
+    "title": "Three Strong Women",
+    "author": "Marie NDiaye",
+    "year": "2008",
+    "country": "Senegal",
+    "region": "Western Africa",
+    "continent": "Africa",
+    "read": false,
+    "originalLanguage": "French",
+    "pages": 293,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1022,
+    "title": "People in the Room",
+    "author": "Norah Lange",
+    "year": "1950",
+    "country": "Argentina",
+    "region": "South America",
+    "continent": "South America",
+    "read": false,
+    "originalLanguage": "Spanish",
+    "pages": 160,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1021,
+    "title": "The Hole",
+    "author": "José Revueltas",
+    "year": "1969",
+    "country": "Mexico",
+    "region": "Central America",
+    "continent": "North America",
+    "read": false,
+    "originalLanguage": "Spanish",
+    "pages": 100,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1020,
+    "title": "The Hospital",
+    "author": "Ahmed Bouanani",
+    "year": "1990",
+    "country": "Morocco",
+    "region": "Northern Africa",
+    "continent": "Africa",
+    "read": false,
+    "originalLanguage": "French",
+    "pages": 160,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1019,
+    "title": "Sweet Days of Discipline",
+    "author": "Fleur Jaeggy",
+    "year": "1989",
+    "country": "Switzerland",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "Italian",
+    "pages": 100,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1018,
+    "title": "Seize the Day",
+    "author": "Saul Bellow",
+    "year": "1956",
+    "country": "USA",
+    "region": "Northern America",
+    "continent": "North America",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 128,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1017,
+    "title": "No One Writes to the Coronel",
+    "author": "Gabriel Garcia Marquez",
+    "year": "1961",
+    "country": "Colombia",
+    "region": "South America",
+    "continent": "South America",
+    "read": false,
+    "originalLanguage": "Spanish",
+    "pages": 90,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1016,
+    "title": "A Month in the Country",
+    "author": "J.L. Carr",
+    "year": "1980",
+    "country": "England",
+    "region": "Northern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 112,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1015,
+    "title": "The Postman Always Rings Twice",
+    "author": "James M Cain",
+    "year": "1934",
+    "country": "USA",
+    "region": "Northern America",
+    "continent": "North America",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 128,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1014,
+    "title": "Fraulein Else",
+    "author": "Arthur Schnitzler",
+    "year": "1924",
+    "country": "Austria",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "German",
+    "pages": 112,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1013,
+    "title": "The Awakening",
+    "author": "Kate Chopin",
+    "year": "1899",
+    "country": "USA",
+    "region": "Northern America",
+    "continent": "North America",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 160,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1012,
+    "title": "By Night in Chile",
+    "author": "Roberto Bolano",
+    "year": "2000",
+    "country": "Chile",
+    "region": "South America",
+    "continent": "South America",
+    "read": false,
+    "originalLanguage": "Spanish",
+    "pages": 130,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1011,
+    "title": "The Sailor who Fell from Grace with the Sea",
+    "author": "Yukio Mishima",
+    "year": "1963",
+    "country": "Japan",
+    "region": "Eastern Asia",
+    "continent": "Asia",
+    "read": false,
+    "originalLanguage": "Japanese",
+    "pages": 181,
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1010,
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "year": "1952",
+    "country": "USA",
+    "region": "Northern America",
+    "continent": "North America",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 128,
+    "description": "",
+    "tags": []
+  },
+  {
     "id": 1,
     "title": "Buddha’s Little Finger",
     "author": "Victor Pelevin",
@@ -268,7 +478,7 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Mandarin",
+    "originalLanguage": "Chinese",
     "pages": 672,
     "description": "Part historical and part legend, The Romance of the Three Kingdoms dramatizes the lives of feudal lords and their retainers, recounting their personal and military battles, intrigues and struggles to achieve dominance for almost a hundred years. It is one of the most beloved works of East Asian literature, and the most famous historical novel in China.",
     "tags": []
@@ -313,7 +523,9 @@
     "originalLanguage": "English",
     "pages": 312,
     "description": "All About H. Hatterr (1948) is a classic novel by G. V. Desani chronicling the adventures of an Anglo-Malay man in search of wisdom and enlightenment. \"As far back as in 1951,\" Desani later wrote, \"I said H. Hatterr was a portrait of a man, the common vulgar species, found everywhere, both in the East and in the West\". Salman Rushdie comments[1]: “ The writer I have placed alongside Narayan, G.V. Desani, has fallen so far from favour that the extraordinary All About H. Hatterr is presently out of print everywhere, even in India. Milan Kundera once said that all modern literature descends from either Richardson's Clarissa or Sterne's Tristram Shandy, and if Narayan is India's Richardson then Desani is his Shandean other. Hatterr's dazzling, puzzling, leaping prose is the first genuine effort to go beyond the Englishness of the English language. His central figure, 'fifty-fifty of the species,' the half-breed as unabashed anti-hero, leaps and capers behind many of the texts in this book. Hard to imagine I. Allan Sealy's Trotter-Nama without Desani. My own writing, too, learned a trick or two from him.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 23,
@@ -438,22 +650,6 @@
     "tags": []
   },
   {
-    "id": 31,
-    "title": "Adán Buenosayres",
-    "author": "Leopoldo Marechal",
-    "year": "1948",
-    "country": "Argentina",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 688,
-    "description": "",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 32,
     "title": "As I Lay Dying",
     "author": "William Faulkner",
@@ -466,22 +662,6 @@
     "pages": 267,
     "description": "",
     "tags": []
-  },
-  {
-    "id": 33,
-    "title": "Clarissa",
-    "author": "Samuel Richardson",
-    "year": "1749",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 1534,
-    "description": "",
-    "tags": [
-      "UK"
-    ]
   },
   {
     "id": 34,
@@ -537,7 +717,9 @@
     "originalLanguage": "Odia",
     "pages": 224,
     "description": "",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 38,
@@ -548,10 +730,12 @@
     "region": "Southern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Hindi",
+    "originalLanguage": "Bengali",
     "pages": 180,
     "description": "",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 39,
@@ -571,7 +755,7 @@
     "id": 40,
     "title": "The Tale of Genji",
     "author": "Murasaki Shikibu",
-    "year": "1050",
+    "year": "1008",
     "country": "Japan",
     "region": "Eastern Asia",
     "continent": "Asia",
@@ -762,20 +946,6 @@
     "read": false,
     "originalLanguage": "German",
     "pages": 416,
-    "description": "",
-    "tags": []
-  },
-  {
-    "id": 54,
-    "title": "Your Face Tomorrow",
-    "author": "Javier Marias",
-    "year": "2007",
-    "country": "Spain",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 1248,
     "description": "",
     "tags": []
   },
@@ -1160,22 +1330,6 @@
     "tags": []
   },
   {
-    "id": 82,
-    "title": "Alberta Trilogy",
-    "author": "Cora Sandel",
-    "year": "1939",
-    "country": "Denmark",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Danish",
-    "pages": 736,
-    "description": "",
-    "tags": [
-      "scandinavia"
-    ]
-  },
-  {
     "id": 83,
     "title": "Njáls Saga",
     "author": "Anonymous",
@@ -1288,22 +1442,6 @@
     ]
   },
   {
-    "id": 90,
-    "title": "The Adventures and Misadventures of Maqroll",
-    "author": "Alvaro Mutis",
-    "year": "1993",
-    "country": "Colombia",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 700,
-    "description": "Maqroll the Gaviero (the Lookout) is one of the most alluring and memorable characters in the fiction of the last twenty-five years. His extravagant and hopeless undertakings, his brushes with the law and scrapes with death, and his enduring friendships and unlooked-for love affairs make him a Don Quixote for our day, driven from one place to another by a restless and irregular quest for the absolute. Álvaro Mutis's seven dazzling chronicles of the adventures and misadventures of Maqroll have won him numerous honors and a passionately devoted readership throughout the world. Here for the first time in English all these wonderful stories appear in a single volume in Edith Grossman's prize-winning translation.",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 91,
     "title": "Missing Person",
     "author": "Patrick Modiano",
@@ -1318,20 +1456,6 @@
     "tags": []
   },
   {
-    "id": 92,
-    "title": "Parva",
-    "author": "S.L. Bhyrappa",
-    "year": "1979",
-    "country": "India",
-    "region": "Southern Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Kannada",
-    "pages": 950,
-    "description": "Parva considered to be the Magnum Opus of Bhyrappa, is the interpretation of the Mahabharata from the point of view of 20th century mind. The Mahabharata story is removed from its mythological elements and the whole theme and characters are placed in the historical time of 12th century B.C in India. Bhyrappa spent five years in researching the social, economic and cultural details of the period.",
-    "tags": []
-  },
-  {
     "id": 93,
     "title": "Days of Longing",
     "author": "Nirmal Verma",
@@ -1343,7 +1467,9 @@
     "originalLanguage": "Hindi",
     "pages": 232,
     "description": "An Indian student is asked to act as an interpreter for Raina, an Austrian on a holiday in Prague. The professional meeting explodes into an intense, passionate relationship. Prague in winter is a beautiful and moody setting to the feverish love affair. The complicated and inevitably short-lived romance is poignant and deeply moving in its telling by the master of the modern Hindi novel, Nirmal Verma.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 94,
@@ -1357,7 +1483,9 @@
     "originalLanguage": "Urdu",
     "pages": 160,
     "description": "\"Toba Tek Singh\" is a short story written by Saadat Hasan Manto and published in 1955. It follows inmates in a Lahore asylum, some of whom are to be transferred to India following the 1947 Partition.\n\n--\n\nSaadat Hasan Manto (Urdu: سعادت حسن منٹو, Hindi: सआदत हसन मंटो), the most widely read and the most controversial short-story writer in Urdu, was born on 11 May 1912 at Sambrala in Punjab's Ludhiana District. In a writing career spanning over two decades he produced twenty-two collections of short stories, one novel, five collections of radio plays, three collections of essays, two collections of reminiscences and many scripts for films. He was tried for obscenity half a dozen times, thrice before and thrice after independence. Not always was he acquitted. Some of Manto's greatest work was produced in the last seven years of his life, a time of great financial and emotional hardship for him. He died a few months short of his forty-third birthday, in January 1955, in Lahore.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 95,
@@ -1371,7 +1499,9 @@
     "originalLanguage": "Urdu",
     "pages": 129,
     "description": "In India’s colonial past, in a time of political and social revolution, Ismat Chughtai masterfully unfolds her magna opus, The Crooked Line: the semi-autobiographical tale of a fiery-spirited, middle-class Muslim girl bent on exploring the shape and nature of consuming desire. Writing with the same honesty and passion as her scandalous short-story, “The Quilt,” Chughtai exposes the complex relationships developed between women living and working in relative seclusion, and the intellectual and emotional contradictions lying in the heart of a rebellious country on the brink of independence from the British Raj and ultimately Partition.\n\n--\n\nIsmat Chughtai (Urdu: عصمت چغتائی) (August 1915 – 24 October 1991) was an eminent Urdu writer, known for her indomitable spirit and a fierce feminist ideology. She was considered the grand dame of Urdu fiction, Along with Rashid Jahan, Wajeda Tabassum and Qurratulain Hyder, Ismat’s work stands for the birth of a revolutionary feminist politics and aesthetics in twentieth century Urdu literature. She explored feminine sexuality, middle-class gentility, and other evolving conflicts in the modern Muslim world. Her outspoken and controversial style of writing made her the passionate voice for the unheard, and she has become an inspiration for the younger generation of writers, readers and intellectuals.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 96,
@@ -1385,7 +1515,9 @@
     "originalLanguage": "Bengali",
     "pages": 130,
     "description": "Mahasweta Devi is one of India’s foremost literary figures, a prolific and best-selling author in Bengali of short fiction and novels, and a deeply political social activist who has been working in marginalized communities for decades.  Mother of 1084  is one of Devi’s most widely read works, written during the height of the Naxalite agitation―a militant communist uprising that was brutally repressed by the Indian government, leading to the widespread murder of young rebels across Bengal. This novel focuses on the trauma of a mother who awakens one morning to the shattering news that her son is lying dead in the police morgue, reduced to a mere Corpse No. 1084. Through her struggle to understand his revolutionary commitment as a Naxalite, she recognizes her own alienation―as a woman and a wife―from the complacent, hypocritical, and corrupt feudal society her son had so fiercely rebelled against.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 97,
@@ -1427,20 +1559,6 @@
     "originalLanguage": "French",
     "pages": 232,
     "description": "Considered by many to be the iconic French memoirist’s defining work, The Years is a narrative of the period 1941 to 2006 told through the lens of memory, impressions past and present, cultural habits, language, photos, books, songs, radio, television, advertising and news headlines. Annie Ernaux invents a form that is subjective and impersonal, private and communal, and a new genre – the collective autobiography – in order to capture the passing of time. At the confluence of autofiction and sociology, The Years is ‘a Remembrance of Things Past for our age of media domination and consumerism’ (New York Times), a monumental account of twentieth-century French history as refracted through the life of one woman.",
-    "tags": []
-  },
-  {
-    "id": 100,
-    "title": "In the Cafe of Lost Youth",
-    "author": "Patrick Modiano",
-    "year": "2007",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 129,
-    "description": "In the Café of Lost Youth is vintage Patrick Modiano, an absorbing evocation of a particular Paris of the 1950s, shadowy and shady, a secret world of writers, criminals, drinkers, and drifters. The novel, inspired in part by the circle (depicted in the photographs of Ed van der Elsken) of the notorious and charismatic Guy Debord, centers on the enigmatic, waiflike figure of Louki, who catches everyone’s attention even as she eludes possession or comprehension. Through the eyes of four very different narrators, including Louki herself, we contemplate her character and her fate, while Modiano explores the themes of identity, memory, time, and forgetting that are at the heart of his spellbinding and deeply moving art.",
     "tags": []
   },
   {
@@ -1553,7 +1671,7 @@
   },
   {
     "id": 108,
-    "title": "The Shrowded Woman",
+    "title": "The Shrouded Woman",
     "author": "Maria Luisa Bombal",
     "year": "1938",
     "country": "Chile",
@@ -1579,22 +1697,6 @@
     "originalLanguage": "Spanish",
     "pages": 484,
     "description": "From her home in Paris, Lina recalls the story of three women whose lives unfold in the conservative city of Barranquilla in Colombia. Amid parties at the Country Club and strolls along the promenade in Puerto Colombia unfurls a story of sensuality suppressed by violence; a narrative of oppression in which Dora, Catalina, and Beatriz are victims of a patriarchy that is woven into the social fabric.\n\nIn Lina’s obsessive account of the past, this masterful novel transforms personal anecdotes into a profound panorama of Colombian society towards the end of the 1950s. From private memories to historical reality, the structure of this book is full of precision, poetry, and exile’s insight.\n\nStanding above and apart from her contemporaries of the Latin American literary boom, Marvel Moreno narrates a reality that describes the private lives of the people of Barranquilla while offering a compelling perspective on the human condition.",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
-    "id": 110,
-    "title": "La Nieve del Almirante",
-    "author": "Alvaro Mutis",
-    "year": "1986",
-    "country": "Colombia",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 145,
-    "description": "La Nieve del Almirante (1986) es la primera novela con la que Álvaro Mutis inicia la saga de Maqroll el Gaviero, viejo marinero errante que recorre los puertos y mares más recónditos, alter ego del autor que expresa sus sentimientos más profundos y oscuros, los estados de ánimo de todo su ser. En esta ocasión, Maqroll se adentra en un rio imaginario, el Xurandó, y atraviesa la selva acompañado del imborrable recuerdo de Flor Estévez y de un libro que narra la muerte del Duque de Orleans. Todo su viaje, en pos de un incierto final, es un sutil aprendizaje de la vida y de la muerte en el que subyace la desesperanza.",
     "tags": [
       "Latin America"
     ]
@@ -1744,22 +1846,6 @@
     ]
   },
   {
-    "id": 120,
-    "title": "O Tempo e o Vento",
-    "author": "Erico Verissimo",
-    "year": "1962",
-    "country": "Brazil",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Portuguese",
-    "pages": 640,
-    "description": "",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 121,
     "title": "Fogo Morto",
     "author": "Jose Lins do Rego",
@@ -1866,22 +1952,6 @@
     ]
   },
   {
-    "id": 128,
-    "title": "There Never Was a Once Upon a Time",
-    "author": "Carmen Naranjo",
-    "year": "1984",
-    "country": "Costa Rica",
-    "region": "Central America",
-    "continent": "Central America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 160,
-    "description": "",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 129,
     "title": "Dark Heart of the Forest",
     "author": "Leonora Miano",
@@ -1892,20 +1962,6 @@
     "read": false,
     "originalLanguage": "French",
     "pages": 288,
-    "description": "",
-    "tags": []
-  },
-  {
-    "id": 130,
-    "title": "God Dies by the Nile",
-    "author": "Nawal El Saadawi",
-    "year": "1985",
-    "country": "Egypt",
-    "region": "Northern Africa",
-    "continent": "Africa",
-    "read": false,
-    "originalLanguage": "Arabic",
-    "pages": 144,
     "description": "",
     "tags": []
   },
@@ -1990,20 +2046,6 @@
     "read": false,
     "originalLanguage": "French",
     "pages": 208,
-    "description": "",
-    "tags": []
-  },
-  {
-    "id": 137,
-    "title": "Le dernier survivant de la caravane",
-    "author": "Etienne Goyemide",
-    "year": "1985",
-    "country": "Central African Republic",
-    "region": "Middle Africa",
-    "continent": "Africa",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 192,
     "description": "",
     "tags": []
   },
@@ -2435,7 +2477,9 @@
     "originalLanguage": "Urdu",
     "pages": 447,
     "description": "Published ahead of Paul Scott’s Raj Quartet and long before Midnight’s Children , Abdullah Hussein’s ambitious saga of social struggle The Weary Generations was a bestseller in Urdu. Published in 1963 and now beyond its 40th edition, it has never been out of print. A vivid depiction of the widespread disillusionment and seismic upheavals of the Partition era that lead to the creation of Pakistan and Bangladesh, there has never been a more opportune time to discover one of the most important writings about the post-colonial trauma in the region. Naim, son of a peasant, marries Azra, the daughter of a rich landowner. Fighting for the British during World War I he loses an arm. Invalided home, he becomes angered at the subjugation of his countrymen under the Raj and aligns himself with the opposition. His ideals are swept away after Independence in 1947 when he realizes that, as Muslims, his family is no longer safe in their Indian home and that they must migrate to the newly created Pakistan. Regarded as one of the half-dozen most influential novels dealing with Partition or post-colonial malaise, this is an immensely powerful novel in its own right and is essential reading for English language readers seeking to comprehend the historical origins of the tensions in the Indian subcontinent.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 168,
@@ -2489,7 +2533,7 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 393,
+    "pages": 122,
     "description": "ReviewThe masterpiece among Bioy Casares' short, intense novels is The Invention of Morel, a book that won raves from Borges (who placed it alongside Franz Kafka's The Trial), was called perfect by Octavio Paz, and inspired one of French cinema's most infamous moviesf, Last Year at Marienbad (1961). Though it was published in 1940, the book's continuing relevance was recently proven when it was featured on Lost — a cameo many viewers perceive as a key to that TV show's plot. But that doesn't mean this is a tough tract unfit for quality beach time... Just know that Morel is a poetic evocation of the experience of love, an inquiry into how we know one another, and a still-relevant examination of how technology has changed our relationship with reality. It's also a great read — one you'll be pressing into the hands of your fellow beach-goers. --Boldtype Product DescriptionThe Island of Doctor Moreau inspired this 1940 novella. Set on a mysterious island, The Invention of Morel is a story of suspense and exploration as well as an unlikely romance, where every detail is both crystal clear and deeply mysterious. Susan Jill Levine's revision of Ruth Simm's translation offers a new experience of an uncanny work of genius.",
     "tags": [
       "Latin America"
@@ -2505,7 +2549,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 700,
+    "pages": 460,
     "description": "A thought-provoking daily record of the last year in the life of the Nobel Prize–winning novelist. Beginning on the eve of the 2008 US presidential election, The Notebook evokes life in Saramago’s beloved Lisbon, revisits conversations with friends, and offers meditations on the author's favorite writers. Precise observations and moments of arresting significance are rendered with pointillist detail, and together demonstrate an acute understanding of our times. Characteristically critical and uncompromising, Saramago dissects the financial crisis, deplores Israel’s punishment of Gaza, and reflects on the rise of Barack Obama. The Notebook is a unique journey into the personal and political world of one of the greatest writers of our time.",
     "tags": []
   },
@@ -2661,7 +2705,9 @@
     "originalLanguage": "Bengali",
     "pages": 450,
     "description": "Set in rural Bengal against the backdrop of the Tebhaga movement and the 1947 Partition of India, this magical realist epic weaves together folklore, political struggles, and dream interpretations. The narrative centers on a community of fishermen and peasants whose lives are deeply connected to a mythical marshland inhabited by the ghost of a sepoy rebel. Elias uses this rich tapestry to examine the unfulfilled promises of independence, the persistence of class oppression, and the vibrant oral history of the Bengali peasantry.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 184,
@@ -2764,20 +2810,6 @@
     "tags": []
   },
   {
-    "id": 191,
-    "title": "Her Lover",
-    "author": "Albert Cohen",
-    "year": "1968",
-    "country": "Switzerland",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 992,
-    "description": "Handsome, worldly, and intelligent, Solal holds a position of enviable power in 1930s Geneva. But as Under-Secretary-General of the League of Nations, he has become bitterly disillusioned by international affairs and the self-serving people who surround him. His one hope for redemption is through love - and he embarks on the audacious seduction of Ariane, the beautiful, daydreaming wife of a dull-witted, social-climbing employee of the League.\n\nIn Her Lover, Albert Cohen created a world humming with the many vivid and eccentric voices of its wonderfully observed characters. Brilliantly inventive and baroquely detailed, this magnificent novel is a merciless satire of middle-class manners and ambitions, and of the Byzantine machinations of global politics.",
-    "tags": []
-  },
-  {
     "id": 192,
     "title": "The Pillar of Salt",
     "author": "Albert Memmi",
@@ -2860,7 +2892,8 @@
     "pages": 310,
     "description": "Em uma sociedade organizada segundo princípios estritamente científicos, Bernard Marx, um psicólogo, sente-se inadequado quando se compara aos outros seres de sua casta. Ao descobrir uma “reserva histórica” que preserva costumes de uma sociedade anterior – muito semelhante a do leitor – Bernard vai perceber as diferenças entre este mundo e o seu – e a partir de um sentimento de inconformismo, ele desafiará o mundo.\n\nO romance distópico de Aldous Huxley é, certamente, um clássico moderno e indispensável para quem busca leituras sobre autoritarismo, manipula��ão genética, ficção especulativa e outros temas que se tornam a cada dia mais urgentes.  Muitas das previsões do autor vieram a ser confirmadas anos mais tarde, como a tecnologia reprodutiva, as supostas técnicas de aprendizado durante o sono e a manipulação pelo condicionamento psicológico. \n\nAo lado de obras como Fahrenheit 451, de Ray Bradbury e 1984, de George Orwell, que criticavam os governos totalitários de esquerda e de direita, Admirável mundo novo figura na lista dos livros mais relevantes e influentes de todos os tempos. O clássico de Huxley não é somente um hábil exercício de futurismo ou de ficção científica, mas um olhar acerca do autoritarismo no mundo desde que o livro foi publicado, em 1932, e que continua a nos assombrar.",
     "tags": [
-      "UK"
+      "UK",
+      "scifi"
     ]
   },
   {
@@ -3042,20 +3075,6 @@
     ]
   },
   {
-    "id": 210,
-    "title": "Fear and Trembling",
-    "author": "Amelie Nothomb",
-    "year": "1999",
-    "country": "Belgium",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": true,
-    "originalLanguage": "French",
-    "pages": 103,
-    "description": "A book from Belgium.",
-    "tags": []
-  },
-  {
     "id": 211,
     "title": "The Beggars’ Strike",
     "author": "Aminata Sow Fall",
@@ -3067,20 +3086,6 @@
     "originalLanguage": "French",
     "pages": 144,
     "description": "Set in a fictional West African city, this sharp political satire begins when a government official, Mour Ndiaye, decides to clear the streets of beggars to boost foreign tourism. In response, the beggars organize a strike, refusing to take alms and retreating to a city suburb. The strike throws the city's wealthy citizens into a panic, as they realize they cannot fulfill their religious duties or secure good luck without giving charity. The novel exposes the hypocrisy, greed, and spiritual emptiness of the post-colonial ruling class.",
-    "tags": []
-  },
-  {
-    "id": 212,
-    "title": "The Glass Palace",
-    "author": "Amitav Ghosh",
-    "year": "2000",
-    "country": "India",
-    "region": "Southern Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 626,
-    "description": "A book from Índia.",
     "tags": []
   },
   {
@@ -3123,20 +3128,6 @@
     "originalLanguage": "French",
     "pages": 221,
     "description": "With brutal honesty and poetic urgency, Ananda Devi relates the tale of four young Mauritians trapped in their country's endless cycle of fear and violence. Eve out of Her Ruins is a heartbreaking look at the Mauritius tourists don't see, and an exploration of the construction of personhood at the margins of society.",
-    "tags": []
-  },
-  {
-    "id": 216,
-    "title": "Nadja",
-    "author": "Andre Breton",
-    "year": "1928",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 143,
-    "description": "A book from France.",
     "tags": []
   },
   {
@@ -3247,7 +3238,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Ukrainian",
-    "pages": 191,
+    "pages": 228,
     "description": "Viktor is an aspiring writer with only Misha, his pet penguin, for company. Although he would prefer to write short stories, he earns a living composing obituaries for a newspaper. He longs to see his work published, yet the subjects of his obituaries continue to cling to life. But when he opens the newspaper to see his work in print for the first time, his pride swiftly turns to terror. He and Misha have been drawn into a trap from which there appears to be no escape.",
     "tags": []
   },
@@ -3307,7 +3298,9 @@
     "originalLanguage": "English",
     "pages": 272,
     "description": "Set in a decaying old house in Old Delhi, this quiet, beautifully written novel explores the complex relationships and buried tensions within the Das family. The narrative shifts between the present and the summer of 1947, when the partition of India coincided with the disintegration of the family's youth and ambitions. Through the eyes of Bim, a schoolteacher who has stayed behind to care for her disabled brother, the novel explores themes of memory, forgiveness, and the silent, enduring ties of family.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 229,
@@ -3427,15 +3420,15 @@
   },
   {
     "id": 237,
-    "title": "Fado Alexandrino",
+    "title": "The Land at the End of the World",
     "author": "Antonio Lobo Antunes",
-    "year": "1983",
+    "year": "1979",
     "country": "Portugal",
     "region": "Southern Europe",
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Portuguese",
-    "pages": 604,
+    "pages": 222,
     "description": "The novel tracks five Portuguese soldiers who reunite in Lisbon ten years after serving in the brutal colonial war in Angola. Over the course of a single drunken night, their internal monologues reveal the deep psychological scars of the war and their profound disillusionment with post-Carnation Revolution Portugal. Lobo Antunes uses polyphonic, stream-of-consciousness prose to dissect the decline of the Portuguese colonial empire and the disintegration of the soldiers' personal lives.",
     "tags": []
   },
@@ -3565,7 +3558,9 @@
     "originalLanguage": "English",
     "pages": 356,
     "description": "SUMMARY: They all crossed into forbidden territory. They all tampered with the laws that lay down who should be loved and how. And how much. The year is 1969. In the state of Kerala, on the southernmost tip of India, a skyblue Plymouth with chrome tailfins is stranded on the highway amid a Marxist workers' demonstration. Inside the car sit two-egg twins Rahel and Esthappen, and so begins their tale. . . .Armed only with the invincible innocence of children, they fashion a childhood for themselves in the shade of the wreck that is their family--their lonely, lovely mother, Ammu (who loves by night the man her children love by day), their blind grandmother, Mammachi (who plays Handel on her violin), their beloved uncle Chacko (Rhodes scholar, pickle baron, radical Marxist, bottom-pincher), their enemy, Baby Kochamma (ex-nun and incumbent grandaunt), and the ghost of an imperial entomologist's moth (with unusually dense dorsal tufts).When their English cousin, Sophie Mol, and her mother, Margaret Kochamma, arrive on a Christmas visit, Esthappen and Rahel learn that Things Can Change in a Day. That lives can twist into new, ugly shapes, even cease forever, beside their river graygreen. With fish in it. With the sky and trees in it. And at night, the broken yellow moon in it. The brilliantly plotted story uncoils with an agonizing sense of foreboding and inevitability. Yet nothing prepares you for what lies at the heart of it.The God of Small Things takes on the Big Themes--Love. Madness. Hope. Infinite Joy. Here is a writer who dares to break the rules. To dislocate received rhythms and create the language she requires, a language that is at once classical and unprecedented. Arundhati Roy has given us a book that is anchored to anguish, but fueled by wit and magic.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 247,
@@ -3705,7 +3700,7 @@
   },
   {
     "id": 256,
-    "title": "The Beautiful Ones Are Not Yet Born",
+    "title": "The Beautyful Ones Are Not Yet Born",
     "author": "Ayi Kwei Armah",
     "year": "1968",
     "country": "Ghana",
@@ -3741,7 +3736,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Korean",
-    "pages": 498,
+    "pages": 160,
     "description": "As cryptic and compelling as a fever dream... Bae Suah is one of the most unique and adroit literary voices working today' Sharlene TeoFinishing her last shift at Seoul's only audio theatre for the blind, Kim Ayami heads into the night with her former boss, searching for a missing friend. The following day, she looks after a visiting poet, a man who is not as he seems. Unfolding over a night and a day in the sweltering summer heat, their world's order gives way to chaos, the edges of reality start to fray, and the past intrudes on the present in increasingly disorientating ways. Untold Night and Day is a hallucinatory feat of storytelling from one of the most radical voices in contemporary Korean literature.'Highly original... Once I finished it, much of it slipped into my subconscious' Daily Telegraph",
     "tags": []
   },
@@ -3771,7 +3766,9 @@
     "originalLanguage": "Tamil",
     "pages": 140,
     "description": "This pioneering Tamil autobiography-novel details the author's experiences as a Dalit Christian woman fighting caste discrimination in southern India. Through a series of reflections, Bama describes the structural oppression she faced in her village, her education, and later as a nun within the Catholic Church, which failed to live up to its promise of equality. Written in a vibrant, colloquial Dalit dialect, the book is a powerful testament to personal resilience, community solidarity, and the struggle for Dalit liberation.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 261,
@@ -3799,7 +3796,9 @@
     "originalLanguage": "English",
     "pages": 448,
     "description": "The 1947 Partition of India is the backdrop for this powerful novel, narrated by a precocious child who describes the brutal transition with chilling veracity. Young Lenny Sethi is kept out of school because she suffers from polio. She spends her days with Ayah, her beautiful nanny, visiting with the large group of admirers that Ayah draws. It is in the company of these working class characters that Lenny learns about religious differences, religious intolerance, and the blossoming genocidal strife on the eve of Partition. As she matures, Lenny begins to identify the differences between the Hindus, Moslems, and Sikhs engaging in political arguments all around her. Lenny enjoys a happy, privileged life in Lahore, but the kidnapping of her beloved Ayah signals a dramatic change. Soon Lenny’s world erupts in religious, ethnic, and racial violence. By turns hilarious and heartbreaking, the domestic drama serves as a microcosm for a profound political upheaval.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 263,
@@ -3855,7 +3854,9 @@
     "originalLanguage": "Malayalam",
     "pages": 495,
     "description": "Najeeb’s dearest wish is to work in the Gulf and earn enough money to send back home. He achieves his dream only to be propelled by a series of incidents, grim and absurd, into a slave-like existence herding goats in the middle of the Saudi desert. Memories of the lush, verdant landscape of his village and of his loving family haunt Najeeb whose only solace is the companionship of goats. In the end, the lonely young man contrives a hazardous scheme to escape his desert prison. Goat Days was published to acclaim in Malayalam and became a bestseller.  One of the brilliant new talents of Malayalam literature, Benyamin’s wry and tender telling transforms this strange and bitter comedy of Najeeb’s life in the desert into a universal tale of loneliness and alienation.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 267,
@@ -3925,7 +3926,9 @@
     "originalLanguage": "Hindi",
     "pages": 322,
     "description": "A book from Índia.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 272,
@@ -3939,7 +3942,9 @@
     "originalLanguage": "Bengali",
     "pages": 457,
     "description": "In the idyllic village of the Abode of Contentment, Durga and her little brother, Opu, grow up in a world of woods, orchards and adventure. Nurtured on their aunt's songs and stories, they dream of secret magical lands, forbidden gardens and the distant railroad. The grown-up world of debts, resentment and bone-deep poverty barely touches them. Their parents, Shorbojoya and Horihor, also dream of the railroad, though as the gateway to lands with a better future. But can distance really change destiny? Will the railroad augur a triumphant future for the Roys, or a ballad of fates drastically altered?A powerful testament to the indomitable human will to prevail, this timeless novel comes alive in an incandescent new translation.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 273,
@@ -4232,8 +4237,8 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Mandarin",
-    "pages": 2330,
+    "originalLanguage": "Chinese",
+    "pages": 966,
     "description": "A massive, extraordinarily rich Chinese epic detailing the rise, decline, and fall of the aristocratic Jia clan, serving as a deep Buddhist-Daoist allegory on the illusion of human desires.",
     "tags": []
   },
@@ -4324,22 +4329,6 @@
     "tags": []
   },
   {
-    "id": 300,
-    "title": "We, the Drowned",
-    "author": "Carsten Jensen",
-    "year": "2006",
-    "country": "Denmark",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Danish",
-    "pages": 820,
-    "description": "A book from Denmark.",
-    "tags": [
-      "scandinavia"
-    ]
-  },
-  {
     "id": 301,
     "title": "Rituals",
     "author": "Cees Nooteboom",
@@ -4351,20 +4340,6 @@
     "originalLanguage": "Dutch",
     "pages": 332,
     "description": "In Rituals, Amsterdam of the fifties, sixties and seventies is viewed from the perspective of the capricious Inni Wintrop. An unintentional suicide survivor, the unexpected gift of life returned lends him the curiousity, and impartiality, to survey others' lives and rountines. Inni's opposite, the one-eyed downhill skier Arnold Taads measures his life by the clock, while his disowned son Philip follows Japanese rituals which themselves seem to render his existence meaningless. A novel for those who seek to unravel our mysterious, apparently directionless lives...",
-    "tags": []
-  },
-  {
-    "id": 302,
-    "title": "The House on the Hill",
-    "author": "Cesare Pavese",
-    "year": "1948",
-    "country": "Italy",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Italian",
-    "pages": 160,
-    "description": "A book from Italy.",
     "tags": []
   },
   {
@@ -4451,7 +4426,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "English",
-    "pages": 186,
+    "pages": 400,
     "description": "Jane Eyre, by Charlotte Bronte, is part of the Barnes & Noble Classics series, which offers quality editions at affordable prices to the student and the general reader, including new scholarship, thoughtful design, and pages of carefully crafted extras. Here are some of the remarkable features of Barnes & Noble Classics: New introductions commissioned from today''s top writers and scholars Biographies of the authors Chronologies of contemporary historical, biographical, and cultural events Footnotes and endnotes Selective discussions of imitations, parodies, poems, books, plays, paintings, operas, statuary, and films inspired by the work Comments by other famous authors Study questions to challenge the reader''s viewpoints and expectations Bibliographies for further reading Indices & Glossaries, when appropriate All editions are beautifully designed and are printed to superior specifications; some include illustrations of historical interest. Barnes & Noble Classics pulls together a constellation of influences--biographical, historical, and literary--to enrich each reader''s understanding of these enduring works. Immediately recognized as a masterpiece when it was first published in 1847, Charlotte Brontë''s Jane Eyre is an extraordinary coming-of-age story featuring one of the most independent and strong-willed female protagonists in all of literature. Poor and plain, Jane Eyre begins life as a lonely orphan in the household of her hateful aunt. Despite the oppression she endures at home, and the later torture of boarding school, Jane manages to emerge with her spirit and integrity unbroken. She becomes a governess at Thornfield Hall, where she finds herself falling in love with her employer--the dark, impassioned Mr. Rochester. But an explosive secret tears apart their relationship, forcing Jane to face poverty and isolation once again. One of the world''s most beloved novels, Jane Eyre is a startlingly modern blend of passion, romance, mystery, and suspense. Susan Ostrov Weisser is a Professor of English at Adelphi University, where she specializes in nineteenth-century literature and women''s studies. Her research centers on women and romantic love in nineteenth-century literature, as well as on contemporary popular culture. Weisser also wrote the introduction to the Barnes & Noble Classics edition of Persuasion.",
     "tags": [
       "UK"
@@ -4665,7 +4640,7 @@
     "continent": "South America",
     "read": true,
     "originalLanguage": "Portuguese",
-    "pages": 316,
+    "pages": 128,
     "description": "A new edition of Clarice Lispector’s final masterpiece, now with a vivid introduction by Colm Tóibín. Narrated by the cosmopolitan Rodrigo S.M., this brief, strange, and haunting tale is the story of Macabéa, one of life's unfortunates. Living in the slums of Rio and eking out a poor living as a typist, Macabéa loves movies, Coca-Colas, and her rat of a boyfriend; she would like to be like Marilyn Monroe, but she is ugly, underfed, sickly and unloved. Rodrigo recoils from her wretchedness, and yet he cannot avoid the realization that for all her outward misery, Macabéa is inwardly free/She doesn't seem to know how unhappy she should be. Lispector employs her pathetic heroine against her urbane, empty narrator—edge of despair to edge of despair—and, working them like a pair of scissors, she cuts away the reader's preconceived notions about poverty, identity, love and the art of fiction. In her last book she takes readers close to the true mystery of life and leave us deep in Lispector territory indeed.",
     "tags": [
       "Latin America"
@@ -4800,7 +4775,7 @@
     "region": "Western Africa",
     "continent": "Africa",
     "read": false,
-    "originalLanguage": "English",
+    "originalLanguage": "Yoruba",
     "pages": 160,
     "description": "The first full-length novel written in the Yoruba language, this classic work follows the fantastical adventures of Akara-ogun, a brave hunter who journeys into a mythical forest inhabited by spirits, demons, and deities. Along the way, he faces a series of trials, battles monstrous entities, and learns deep moral lessons from the supernatural world. Fagunwa's rich, imaginative storytelling blends traditional Yoruba folklore, Christian allegories, and oral narrative styles, establishing a foundational text for modern African literature.",
     "tags": []
@@ -4891,7 +4866,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Serbo-Croatian",
-    "pages": 129,
+    "pages": 135,
     "description": "A book from Serbia.",
     "tags": []
   },
@@ -4905,7 +4880,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Serbo-Croatian",
-    "pages": 172,
+    "pages": 208,
     "description": "A book from Serbia.",
     "tags": []
   },
@@ -5032,7 +5007,7 @@
     "region": "Northern Africa",
     "continent": "Africa",
     "read": false,
-    "originalLanguage": "Arabic",
+    "originalLanguage": "French",
     "pages": 170,
     "description": "This explosive semi-autobiographical debut novel is narrated by Driss Ferdi, a rebellious young Moroccan student who lives under the absolute, patriarchal authority of his father, known as 'the Seigneur.' Set during the final years of the French protectorate, Driss's internal rebellion against his father's conservative Islamic hypocrisy mirrors his intellectual revolt against French colonial assimilation. The novel caused a huge scandal upon publication for its blistering, uncompromising critique of traditional Moroccan family structures and the toxic nature of absolute authority.",
     "tags": []
@@ -5133,7 +5108,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "English",
-    "pages": 198,
+    "pages": 320,
     "description": "Only Connect, Forster's key aphorism, informs this novel about an English country house, Howards End, and its influence on the lives of the wealthy and materialistic Wilcoxes; the cultured, idealistic Schlegel sisters; and the poor bank clerk Leonard Bast. Bringing together people from different classes and nations by way of sympathetic insight and understanding, Howards End eloquently addresses the question Who shall inherit England? (Lionel Trilling).",
     "tags": [
       "UK"
@@ -5538,7 +5513,7 @@
     "region": "Polynesia",
     "continent": "Oceania",
     "read": false,
-    "originalLanguage": "Tongan",
+    "originalLanguage": "English",
     "pages": 150,
     "description": "This hilarious, highly satirical Pacific novel centers on Oilei Bomboki, a working-class Tongan man who develops a debilitating, mysterious pain in his anus. In his desperate search for a cure, Oilei consults a comical array of traditional healers, modern medical practitioners, and religious zealots, transforming his personal ailment into a grand, public spectacle. Through its bawdy, Rabelaisian humor and sharp satire, the novel delivers a brilliant, allegorical critique of foreign aid dependency, modern bureaucracy, and cultural hypocrisy in the South Pacific.",
     "tags": []
@@ -5692,22 +5667,6 @@
     ]
   },
   {
-    "id": 394,
-    "title": "News from the Empire",
-    "author": "Fernando del Paso",
-    "year": "1987",
-    "country": "Mexico",
-    "region": "Central America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 670,
-    "description": "This sprawling, polyphonic historical novel centers on the tragic, short-lived Second Mexican Empire (1864–1867) under the Austrian archduke Maximilian and his Belgian wife, Carlota. The narrative is dominated by the impassioned, mad monologues of Carlota, who is locked away in a European castle decades after Maximilian's execution, recalling the lush, violent history of Mexico. Del Paso's rich, baroque prose combines historical documents, multiple perspectives, and poetic fantasy to create a dazzling, multi-layered critique of European imperialism in the Americas.",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 395,
     "title": "La Virgen de Los Sicários",
     "author": "Fernando Vallejo",
@@ -5824,22 +5783,6 @@
     "tags": []
   },
   {
-    "id": 403,
-    "title": "The Long Ships",
-    "author": "Frans G Bengtsson",
-    "year": "1941",
-    "country": "Sweden",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Swedish",
-    "pages": 611,
-    "description": "A book from Sweden.",
-    "tags": [
-      "scandinavia"
-    ]
-  },
-  {
     "id": 404,
     "title": "Metamorphosis",
     "author": "Franz Kafka",
@@ -5879,20 +5822,6 @@
     "originalLanguage": "Czech",
     "pages": 442,
     "description": "Written in 1914, The Trial is one of the most important novels of the twentieth century: the terrifying tale of Josef K., a respectable bank officer who is suddenly and inexplicably arrested and must defend himself against a charge about which he can get no information. Whether read as an existential tale, a parable, or a prophecy of the excesses of modern bureaucracy wedded to the madness of totalitarianism, Kafka's nightmare has resonated with chilling truth for generations of readers. This new edition is based upon the work of an international team of experts who have restored the text, the sequence of chapters, and their division to create a version that is as close as possible to the way the author left it. In his brilliant translation, Breon Mitchell masterfully reproduces the distinctive poetics of Kafka's prose, revealing a novel that is as full of energy and power as it was when it was first written. Capa Interna Written in 1914, The Trial is one of the most important novels of the twentieth century: the terrifying tale of Josef K., a respectable bank officer who is suddenly and inexplicably arrested and must defend himself against a charge about which he can get no information. Whether read as an existential tale, a parable, or a prophecy of the excesses of modern bureaucracy wedded to the madness of totalitarianism, Kafka's nightmare has resonated with chilling truth for generations of readers. This new edition is based upon the work of an international team of experts who have restored the text, the sequence of chapters, and their division to create a version that is as close as possible to the way the author left it. In his brilliant translation, Breon Mitchell masterfully reproduces the distinctive poetics of Kafka's prose, revealing a novel that is as full of energy and power as it was when it was first written. Contracapa Kafka's 'legalese' is alchemically fused with a prose of great verve and intense readability. --James Rolleston, professor of Germanic languages and literatures, Duke University Breon Mitchell's translation is an accomplishment of the highest order that will honor Kafka far into the twenty-first century. --Walter Abish, author of How German Is It",
-    "tags": []
-  },
-  {
-    "id": 407,
-    "title": "The Forty Days of Musa Dagh",
-    "author": "Franz Werfel",
-    "year": "1933",
-    "country": "Germany",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 824,
-    "description": "This stirring, poignant novel, based on real historical events that made of actual people true heroes, unfolds the tragedy that befell the Armenian people in the dark year of 1915. The Great War is raging through Europe, and in the ancient, mountainous lands southwest of the Caspian Sea the Turks have begun systematically to exterminate their Christian subjects. Unable to deny his birthright or his people, one man, Gabriel Bagradian—born an Armenian, educated in Paris, married to a Frenchwoman, and an officer doing his duty as a Turkish subject in the Ottoman army—will strive to resist death at the hands of his blood enemy by leading 5,000 Armenian villagers to the top of Musa Dagh, “the mountain of Moses.” There, for forty days, in the face of almost certain death, they will suffer the siege of a Turkish army hell-bent on genocide. A passionate warning against the dangers of racism and scapegoating, and prefiguring the ethnic horrors of World War II, this important novel from the early 1930s remains the only significant treatment, in fiction or nonfiction, of the first genocide in the twentieth century’s long series of inhumanities. It also continues to be today what the New York Times deemed it in 1933—“a true and thrilling novel ... a story which must rouse the emotions of all human beings.” “Musa Dagh gives us a lasting sense of participation in a stirring episode of history.... Magnificent.”—The New York Times Book Review “A novel full of the breath, the flesh and blood and bone and spirit of life.”—Saturday Review",
     "tags": []
   },
   {
@@ -6172,7 +6101,8 @@
     "pages": 328,
     "description": "This towering dystopian classic follows Winston Smith, a low-ranking member of the Outer Party who works at the Ministry of Truth in London, Oceania. Winston secretly rebels against the totalitarian regime of Big Brother and the Party, which exercises absolute control over thought, language, and history through systematic surveillance, Thought Police, and the psychological manipulation of Newspeak. Winston's forbidden, passionate affair with Julia and his search for political resistance lead to his arrest, torture in Room 101, and ultimate psychological destruction.",
     "tags": [
-      "UK"
+      "UK",
+      "scifi"
     ]
   },
   {
@@ -6435,7 +6365,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 197,
+    "pages": 487,
     "description": "Cabrera Infante's masterpiece, Three Trapped Tigers is one of the most playful books to reach the U.S. from Cuba. Filled with puns, wordplay, lists upon lists, and Sternean typography--such as the section entitled Some Revelations, which consists of several blank pages--this novel has been praised as a more modern, sexier, funnier, Cuban Ulysses. Centering on the recollections of a man separated from both his country and his youth, Cabrera Infante creates an enchanting vision of life and the many colorful characters found in steamy Havana's pre-Castro cabaret society.",
     "tags": [
       "Latin America"
@@ -6479,7 +6409,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 189,
+    "pages": 420,
     "description": "Frederic Moreau, a moderately gifted young provincial, is ambitious in many ways: he dreams of fame, of vast wealth, of literary and artistic achievement, of a grand passion. On the Paris paddle-steamer which transports him to his home town of Nogent-sur-Seine at the outset of the novel, he becomes transfixed by the demure Madame Arnoux and, back in Paris, cultivates her ebullient and enterprising husband in order to be near her. Frederic's devotion fluctuates like his other enthusiasms, and he is caught up in the intense pleasures and the inevitable ennuis of Parisian life.",
     "tags": []
   },
@@ -7034,20 +6964,6 @@
     "tags": []
   },
   {
-    "id": 486,
-    "title": "The Sorrow of Belgium",
-    "author": "Hugo Claus",
-    "year": "1983",
-    "country": "Belgium",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Dutch",
-    "pages": 608,
-    "description": "A book from Belgium.",
-    "tags": []
-  },
-  {
     "id": 487,
     "title": "The Guest",
     "author": "Hwang Sok-yong",
@@ -7187,7 +7103,9 @@
     "originalLanguage": "Urdu",
     "pages": 369,
     "description": "An NYRB Classics Original Basti is a beautifully written reckoning with the tragic history of Pakistan. Basti means settlement, a common place, and Intizar Husain’s extraordinary novel begins with a mythic, even mystic, vision of harmony between old and young, man and woman, Muslim and Hindu. Then Zakir, the hero, wakes to the modern world. Crowds gather. Slogans echo. Cities burn. Whether hunkered down with family or furtively meeting to exchange news with friends in cafés, Zakir is alone in a country lost to the politics of loneliness.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 497,
@@ -7404,20 +7322,6 @@
     "tags": []
   },
   {
-    "id": 512,
-    "title": "Under the Yoke",
-    "author": "Ivan Vazov",
-    "year": "1894",
-    "country": "Bulgaria",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Bulgarian",
-    "pages": 979,
-    "description": "A book from Bulgaria.",
-    "tags": []
-  },
-  {
     "id": 513,
     "title": "The Bridge on the Drina",
     "author": "Ivo Andric",
@@ -7429,20 +7333,6 @@
     "originalLanguage": "Serbo-Croatian",
     "pages": 210,
     "description": "The Bridge on the Drina is a vivid depiction of the suffering history has imposed upon the people of Bosnia from the late 16th century to the beginning of World War I. As we seek to make sense of the current nightmare in this region, this remarkable, timely book serves as a reliable guide to its people and history. No better introduction to the study of Balkan and Ottoman history exists, nor do I know of any work of fiction that more persuasively introduces the reader to a civilization other than our own. It is an intellectual and emotional adventure to encounter the Ottoman world through Andric's pages in its grandiose beginning and at its tottering finale. It is, in short, a marvelous work, a masterpiece, and very much sui generis. . . . Andric's sensitive portrait of social change in distant Bosnia has revelatory force.—William H. McNeill, from the introduction The dreadful events occurring in Sarajevo over the past several months turn my mind to a remarkable historical novel from the land we used to call Yugoslavia, Ivo Andric's The Bridge on the Drina.—John M. Mohan, Des Moines Sunday Register Born in Bosnia, Ivo Andric (1892-1975) was a distinguished diplomat and novelist. He was awarded the Nobel Prize for Literature in 1961. His books include The Damned Yard: And Other Stories, and The Days of the Consuls. Language Notes Text: English, Serbo-Croation (translation) From the Back Cover A great stone bridge built three centuries ago in the heart of the Balkans by a Grand Vezir of the Ottoman Empire dominates the setting of Ivo Andric's novel. A vivid depiction of the suffering history has imposed upon the people of Bosnia from the late sixteenth century to the beginning of World War I, 'The Bridge on the Drina' earned Andric the Nobel Prize for Literature in 1961.",
-    "tags": []
-  },
-  {
-    "id": 514,
-    "title": "The Forbidden Kingdom",
-    "author": "J. Slauerhoff",
-    "year": "1932",
-    "country": "Netherlands",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Dutch",
-    "pages": 175,
-    "description": "A book from Netherlands.",
     "tags": []
   },
   {
@@ -7469,7 +7359,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Danish",
-    "pages": 185,
+    "pages": 187,
     "description": "An award-winning translation of the influential Danish master Niels Lyhne is an aspiring poet, torn between romanticism and realism, faith and reason. Through his relationships with six women—including his young widowed aunt, a seductive free spirit, and his passionate cousin who marries his friend—his search for purpose becomes a yielding to disillusionment. One of Danish literature's greatest novels, with nods to Kierkegaard and a protagonist some critics have compared to Hamlet, Jacobsen's masterpiece has at its center a young man who faces the anguish of the human condition but cannot find comfort in the Christian faith. Tiina Nunnally's award-winning translation offers readers a chance to experience anew a writer deeply revered by Rilke, Ibsen, Mann, and Hesse.",
     "tags": [
       "scandinavia"
@@ -7547,7 +7437,7 @@
   },
   {
     "id": 522,
-    "title": "I Who Have Never Knew Men",
+    "title": "I Who Have Never Known Men",
     "author": "Jacqueline Harpman",
     "year": "1995",
     "country": "Belgium",
@@ -7555,7 +7445,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "French",
-    "pages": 160,
+    "pages": 192,
     "description": "A book from Belgium.",
     "tags": []
   },
@@ -8595,7 +8485,9 @@
     "originalLanguage": "Czech",
     "pages": 340,
     "description": "This brilliant, highly prophetic science-fiction satire follows the discovery of an intelligent, peaceful species of giant salamanders (newts) in the Pacific. Human corporations exploit the newts for cheap marine labor, but the newts quickly learn human language, acquire advanced military technology, and demand more living space. As national rivalries and capitalist greed prevent a united human response, the newts launch a massive, systematic demolition of the world's continents, serving as a blistering, dark critique of fascism, capitalism, and human hubris.",
-    "tags": []
+    "tags": [
+      "scifi"
+    ]
   },
   {
     "id": 594,
@@ -8609,22 +8501,6 @@
     "originalLanguage": "English",
     "pages": 330,
     "description": "A book from Denmark.",
-    "tags": [
-      "scandinavia"
-    ]
-  },
-  {
-    "id": 595,
-    "title": "My Struggle",
-    "author": "Karl Ove Knausgard",
-    "year": "2011",
-    "country": "Norway",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Norwegian",
-    "pages": 3700,
-    "description": "A New York Times bestseller, My Struggle: Book 1 introduces American readers to the audacious, addictive, and profoundly surprising international literary sensation that is the provocative and brilliant six-volume autobiographical novel by Karl Ove Knausgaard. It has already been anointed a Proustian masterpiece and is the rare work of dazzling literary originality that is intensely, irresistibly readable. Unafraid of the big issues—death, love, art, fear—and yet committed to the intimate details of life as it is lived, My Struggle is an essential work of contemporary literature.",
     "tags": [
       "scandinavia"
     ]
@@ -8759,7 +8635,9 @@
     "originalLanguage": "Urdu",
     "pages": 320,
     "description": "A book from Pakistan.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 605,
@@ -8787,7 +8665,9 @@
     "originalLanguage": "English",
     "pages": 261,
     "description": "“In the summer of 1947, when the creation of the state of Pakistan was formally announced, ten million people—Muslims and Hindus and Sikhs—were in flight. By the time the monsoon broke, almost a million of them were dead, and all of northern India was in arms, in terror, or in hiding. The only remaining oases of peace were a scatter of little villages lost in the remote reaches of the frontier. One of these villages was Mano Majra.”\n\nIt is a place, Khushwant Singh goes on to tell us at the beginning of this classic novel, where Sikhs and Muslims have lived together in peace for hundreds of years. Then one day, at the end of the summer, the “ghost train” arrives, a silent, incredible funeral train loaded with the bodies of thousands of refugees, bringing the village its first taste of the horrors of the civil war. Train to Pakistan is the story of this isolated village that is plunged into the abyss of religious hate. It is also the story of a Sikh boy and a Muslim girl whose love endured and transcends the ravages of war.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 607,
@@ -8815,7 +8695,9 @@
     "originalLanguage": "English",
     "pages": 393,
     "description": "A book from Índia.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 609,
@@ -8873,20 +8755,6 @@
     "originalLanguage": "English",
     "pages": 323,
     "description": "A book from Ghana.",
-    "tags": []
-  },
-  {
-    "id": 613,
-    "title": "The Memoir of An Antihero",
-    "author": "Kornel Filipowicz",
-    "year": "1961",
-    "country": "Poland",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Polish",
-    "pages": 64,
-    "description": "A book from Poland.",
     "tags": []
   },
   {
@@ -9535,7 +9403,9 @@
     "originalLanguage": "English",
     "pages": 311,
     "description": "A chilling dystopian vision of New England under a totalitarian Christian regime (Gilead), exploring themes of subjugation, memory, and resistance through the eyes of Offred.",
-    "tags": []
+    "tags": [
+      "scifi"
+    ]
   },
   {
     "id": 659,
@@ -9705,7 +9575,7 @@
     "country": "Uruguay",
     "region": "South America",
     "continent": "South America",
-    "read": false,
+    "read": true,
     "originalLanguage": "Spanish",
     "pages": 157,
     "description": "A book from Uruguay.",
@@ -9774,22 +9644,6 @@
     "tags": []
   },
   {
-    "id": 675,
-    "title": "Money",
-    "author": "Martin Amis",
-    "year": "1984",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 194,
-    "description": "Time Magazine included the book in its list of the 100 Best English-language Novels from 1923 to 2005. The story of John Self and his insatiable appetite for money, alcohol, fast food, drugs, pornography, and more, Money is ceaselessly inventive and thrillingly savage; a tale of life lived without restraint, of money and the disasters it can precipitate.",
-    "tags": [
-      "UK"
-    ]
-  },
-  {
     "id": 676,
     "title": "The Way of the Lotus",
     "author": "Martin Wickramasinghe",
@@ -9801,7 +9655,9 @@
     "originalLanguage": "English",
     "pages": 240,
     "description": "This landmark modern Sinhalese novel follows Aravinda, a sensitive, quiet intellectual who rejects the material ambitions and conventional success urged by his middle-class family. Aravinda retreats to a solitary life of asceticism, dedicating himself to self-reflection and the pursuit of spiritual peace, drawing inspiration from Buddhist philosophy. Through Aravinda's tragic, quiet decline and his relationships with those who try to save him, the novel conducts a profound, melancholic investigation into the conflict between material progress and spiritual integrity.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 677,
@@ -9859,20 +9715,6 @@
     "originalLanguage": "Japanese",
     "pages": 336,
     "description": "Black Rain' is centered around the story of a young woman who was caught in the radioactive black rain that fell after the bombing of Hiroshima. Ibuse bases his tale on the real-life diaries and interviews with victims of the holocaust; the result is a book that is free from sentimentality yet manages to reveal the magnitude of the human suffering caused by the atom bomb. The life of Yasuko, on whom the black rain fell, is changed forever by periodic bouts of radiation sickness and the suspicion that her future children, too, may be affected. Ibuse tempers the horror of his subject with the gentle humor for which he is famous. His sensitivity to the complex web of emotions in a traditional community torn asunder by this historical event has made 'Black Rain' one of the most acclaimed treatments of the Hiroshima story.",
-    "tags": []
-  },
-  {
-    "id": 681,
-    "title": "The Life of the Bee",
-    "author": "Maurice Maeterlinck",
-    "year": "1901",
-    "country": "Belgium",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 166,
-    "description": "A book from Belgium.",
     "tags": []
   },
   {
@@ -10183,7 +10025,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Serbo-Croatian",
-    "pages": 197,
+    "pages": 330,
     "description": "A national bestseller, Dictionary of the Khazars was cited by The New York Times Book Review as one of the best books of the year. Written in two versions, male and female (both available in Vintage International), which are identical save for seventeen crucial lines, Dictionary is the imaginary book of knowledge of the Khazars, a people who flourished somewhere beyond Transylvania between the seventh and ninth centuries. Eschewing conventional narrative and plot, this lexicon novel combines the dictionaries of the world's three major religions with entries that leap between past and future, featuring three unruly wise men, a book printed in poison ink, suicide by mirrors, a chimerical princess, a sect of priests who can infiltrate one's dreams, romances between the living and the dead, and much more.",
     "tags": []
   },
@@ -10215,20 +10057,6 @@
     "originalLanguage": "Romanian",
     "pages": 324,
     "description": "A book from Romania.",
-    "tags": []
-  },
-  {
-    "id": 706,
-    "title": "The Forbidden Forest",
-    "author": "Mircea Eliade",
-    "year": "1955",
-    "country": "Romania",
-    "region": "Eastern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Romanian",
-    "pages": 640,
-    "description": "Set in Europe and Romania between 1936 and 1948, this monumental philosophical novel follows Stefan Viziru, a quiet civil servant who is obsessed with a mystical encounter he had in a sacred forest on Midsummer's Night. Stefan wanders through the political catastrophes, wars, and social upheavals of twentieth-century Europe, searching for a way to escape the tyranny of historical time and enter a sacred, eternal reality. Eliade's rich, dense prose explores the themes of mythic initiation, the sacred hidden within the profane, and the existential crisis of modern European intellectuals.",
     "tags": []
   },
   {
@@ -10327,7 +10155,9 @@
     "originalLanguage": "Urdu",
     "pages": 208,
     "description": "A Selection of Barnes & Noble RecommendsA psychological thriller that spans continents and cultures, The Reluctant Fundamentalist takes us from the privileged confines of Princeton University to the anxious streets of contemporary Pakistan; from the sun-baked Greek island of Santorini to a sanitarium in the Hudson Valley; from the galleries of downtown Manhattan to the highest echelons of American finance. It's a journey we take in less than 200 pages, and without leaving, until the very end, a small table at a modest tearoom in Lahore, Pakistan -- and yet it is a journey that may reveal more about the human realities of the post-9/11 world than a shelf of thick political treatises.At the table sit two a young Pakistani named Changez and an unnamed American. Only Changez speaks, and his mesmerizing monologue relates his story, beginning with his happy days at Princeton and continuing through his initial success as a well-paid financial analyst. His budding romance with Erica, a beautiful fellow Princetonian, runs in counterpoint to the early promise of his career.Then come the attacks of September 11. Over the next few months, slowly but inexorably, the innocence of Changez's ambition is shadowed by his experience of the unexpected political present -- and by his altered understanding of his Pakistani past. As his career crumbles and Erica is consumed by her own demons, Changez's sense of his identity fractures under the strain of conflicting impulses of pride, passion, and loyalty. He returns to his homeland, and the complexity of his new life there is reflected in the alternating currents of his voice ingratiating, insinuating, articulate, respectful, blunt, affecting, and, last but not least, sinister -- as he leads his companion toward an uncertain yet ominous conclusion.An extraordinary work of empathy and imagination, Mohsin Hamid's novel vividly dramatizes the turmoil and terror of today's world in a single, unforgettable voice.From Our BooksellersCrisp and compelling with an ending that will certainly encourage discussion . A quick read that will have a long, lingering impact.Melissa Willits, Carmel, INTruly a work of genius.... Nothing is black and white in this world and Hamid doesn't let us forget that.Diane Carr, Chestnut Hill, MAControversial and eye-opening. I finished the book in one sitting.Tim Baldwin, Houston, TXA terrifying look at the very thin line between us and them.Sandra Guerfi, White Plains, NYInsightful, timely, and unsettling. This book puts a human face on a currently demonized culture.Teresa Patek, Crystal Lake, IL",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 714,
@@ -10425,7 +10255,9 @@
     "originalLanguage": "English",
     "pages": 394,
     "description": "The powerful story of an Untouchable in India’s caste system, now with a new introduction With precision, vitality, and a fury that earned him praise as India’s Charles Dickens, Mulk Raj Anand recreates in Untouchable what it was like to live on the fringes of society in pre-independence India. Bakha, an attractive, proud, and strong young man, is also an Untouchable, the lowest of the low in India’s caste system. A sweeper and a toilet-cleaner, he must warn others on the street of his status so that he will not pollute them with his presence. In this urgent 1935 re-creation of one day in the life of an outcast, a violent encounter leads Bakha to question his fate—and to find an answer in the unlikeliest of places. For more than sixty-five years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,500 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 721,
@@ -10469,7 +10301,9 @@
     "originalLanguage": "Urdu",
     "pages": 475,
     "description": "If Gabriel García Márquez had chosen to write about Pakistani immigrants in England, he might have produced a novel as beautiful and devastating as Maps for Lost Lovers. Jugnu and Chanda have disappeared. Like thousands of people all over Enland, they were lovers and living together out of wedlock. To Chanda’s family, however, the disgrace was unforgivable. Perhaps enough so as to warrant murder.As he explores the disappearance and its aftermath through the eyes of Jugnu’s worldly older brother, Shamas, and his devout wife, Kaukab, Nadeem Aslam creates a closely observed and affecting portrait of people whose traditions threaten to bury them alive. The result is a tour de force, intimate, affecting, tragic and suspenseful.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 724,
@@ -10501,7 +10335,7 @@
   },
   {
     "id": 726,
-    "title": "Cairo Trilogy",
+    "title": "The Cairo Trilogy",
     "author": "Naguib Mahfouz",
     "year": "1957",
     "country": "Egypt",
@@ -10762,7 +10596,7 @@
     "region": "Eastern Africa",
     "continent": "Africa",
     "read": false,
-    "originalLanguage": "Arabic",
+    "originalLanguage": "English",
     "pages": 180,
     "description": "A book from Somalia.",
     "tags": []
@@ -10793,7 +10627,9 @@
     "originalLanguage": "English",
     "pages": 221,
     "description": "A restlessness born of guilt and despair leads Ravi to embark on a journey that ends in the remote village of Khasak in the picturesque Palghat countryside in Kerala. A land from the past, potent with dreams and legends, enfolds the traveller in a powerful and unsettling embrace. Ravi is bewitched and entranced as everything around him—the villagers; their children whom he teaches in a makeshift school; the elders who see him as a threat; the toddy-tappers; the shamans—takes on the quality of myth. And then reality, painful and threatening, begins to intrude on the sojourner's resting place and Ravi begins to understand that there is no escape from the relentless dictates of karma... Often poetic and dark, always complex and rich, The Legends of Khasak, O.V. Vijayan's much-acclaimed first novel, translated into English by the author, is an extraordinary achievement",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 747,
@@ -10866,20 +10702,6 @@
     "tags": []
   },
   {
-    "id": 752,
-    "title": "The Museum of Innocence",
-    "author": "Orhan Pamuk",
-    "year": "2008",
-    "country": "Turkey",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Turkish",
-    "pages": 730,
-    "description": "The Museum of Innocence - set in Istanbul between 1975 and today - tells the story of Kemal, the son of one of Istanbul's richest families, and of his obsessive love for a poor and distant relation, the beautiful Füsun, who is a shop-girl in a small boutique. In his romantic pursuit of Füsun over the next eight years, Kemal compulsively amasses a collection of objects that chronicles his lovelorn progress - a museum that is both a map of a society and of his heart.\n\nThe novel depicts a panoramic view of life in Istanbul as it chronicles this long, obsessive love affair; and Pamuk beautifully captures the identity crisis experienced by Istanbul's upper classes that find themselves caught between traditional and westernised ways of being. Orhan Pamuk's first novel since winning the Nobel Prize is a stirring love story and exploration of the nature of romance.\n\nPamuk built The Museum of Innocence in the house in which his hero's fictional family lived, to display Kemal's strange collection of objects associated with Füsun and their relationship. The house opened to the public in 2012 in the Beyoglu district of Istanbul.\n\n'Pamuk has created a work concerning romantic love worthy to stand in the company of Lolita, Madame Bovary and Anna Karenina.' - Financial Times",
-    "tags": []
-  },
-  {
     "id": 753,
     "title": "My Name Is Red",
     "author": "Orhan Pamuk",
@@ -10918,7 +10740,7 @@
     "read": true,
     "originalLanguage": "English",
     "pages": 308,
-    "description": "Introduction by Jeffrey Eugenides ﻿Written in his distinctively dazzling manner, Oscar Wilde’s story of a fashionable young man who sells his soul for eternal youth and beauty is the author’s most popular work. The tale of Dorian Gray’s moral disintegration caused a scandal when it ﬁrst appeared in 1890, but though Wilde was attacked for the novel’s corrupting inﬂuence, he responded that there is, in fact, “a terrible moral in Dorian Gray.” Just a few years later, the book and the aesthetic/moral dilemma it presented became issues in the trials occasioned by Wilde’s homosexual liaisons, which resulted in his imprisonment. Of Dorian Gray’s relationship to autobiography, Wilde noted in a letter, “Basil Hallward is what I think I am: Lord Henry what the world thinks me: Dorian what I would like to be—in other ages, perhaps.”",
+    "description": "Introduction by Jeffrey Eugenides ﻿Written in his distinctively dazzling manner, Oscar Wilde’s story of a fashionable young man who sells his soul for eternal youth and beauty is the author’s most popular work. The tale of Dorian Gray’s moral disintegration caused a scandal when it ﬁrst appeared in 1890, but though Wilde was attacked for the novel��s corrupting inﬂuence, he responded that there is, in fact, “a terrible moral in Dorian Gray.” Just a few years later, the book and the aesthetic/moral dilemma it presented became issues in the trials occasioned by Wilde’s homosexual liaisons, which resulted in his imprisonment. Of Dorian Gray’s relationship to autobiography, Wilde noted in a letter, “Basil Hallward is what I think I am: Lord Henry what the world thinks me: Dorian what I would like to be—in other ages, perhaps.”",
     "tags": []
   },
   {
@@ -10990,10 +10812,12 @@
     "region": "Southern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "English",
+    "originalLanguage": "Nepali",
     "pages": 150,
     "description": "Set in Kathmandu, this foundational modern Nepalese classic follows Suyaman, a cynical, middle-aged veteran of the British Gurkha army who is tormented by the memories of violence he committed during World War II. Suyaman's empty, alcohol-fueled life is completely disrupted when he meets Sakambari, the independent, physically fragile, and intellectual sister of his friend, and develops a dark, obsessive passion for her. Parijat's spare, highly atmospheric prose blends existentialism and realist psychology to deliver a powerful, tragic meditation on the nature of desire, guilt, and isolation.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 761,
@@ -11131,7 +10955,7 @@
     "continent": "Africa",
     "read": false,
     "originalLanguage": "Portuguese",
-    "pages": 180,
+    "pages": 215,
     "description": "Set during the late 1960s inside the dense, majestic Mayombe forest of Cabinda, this pioneering Angolan novel follows a diverse squad of guerrilla fighters belonging to the MPLA (Popular Movement for the Liberation of Angola) fighting against Portuguese colonial forces. The narrative dissects the deep internal tensions, tribal rivalries, ideological debates, and personal sacrifices of the freedom fighters, who must struggle to build a unified national identity. Pepetela's realistic, highly honest prose is a powerful, profound meditation on the ethics of revolution and national liberation.",
     "tags": []
   },
@@ -11231,7 +11055,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 187,
+    "pages": 380,
     "description": "Published in 1782, just years before the French Revolution, Les Liaisons Dangereuses is a disturbing and ultimately damning portrayal of a decadent society. At its centre are two aristocrats, former lovers, who embark on a sophisticated game of seduction and manipulation to bring amusement to their jaded existences. While the Marquise de Merteuil challenges the Vicomte de Valmont to seduce an innocent convent girl, the Vicomte is also occupied with the conquest of a virtuous married woman. But as their intrigues become more duplicitous and they find their human pawns responding in ways they could not have predicted, the consequences prove to be more serious, and deadly, than Merteuil and Valmont could have guessed.",
     "tags": []
   },
@@ -11289,7 +11113,9 @@
     "originalLanguage": "Hindi",
     "pages": 440,
     "description": "This monumental masterpiece of modern Hindi literature follows Hori, a poor, honest peasant farmer in rural northern India, whose lifelong dream is to own a cow, which he believes will bring prosperity to his family and salvation in the afterlife. However, Hori's simple ambition drives him into a suffocating, inescapable trap of debt, high rent, and religious penances imposed by corrupt local moneylenders, landlords, and priests. Through Hori's tragic, slow destruction, Premchand delivers a powerful, devastating critique of feudal agrarian exploitation, caste tyranny, and rural poverty.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 782,
@@ -11359,7 +11185,9 @@
     "originalLanguage": "Urdu",
     "pages": 506,
     "description": "A book from Índia.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 787,
@@ -11373,7 +11201,9 @@
     "originalLanguage": "English",
     "pages": 257,
     "description": "Formerly India's most corrupt tourist guide, Raju-just released from prison- seeks refuge in an abandoned temple. Mistaken for a holy man, he plays the part and succeeds so well that God himself intervenes to put Raju's newfound sanctity to the test. Narayan's most celebrated novel, The Guide won him the National Prize of the Indian Literary Academy, his country's highest literary honor. Formerly India's most corrupt tourist guide, Raju-just released from prison- seeks refuge in an abandoned temple. Mistaken for a holy man, he plays the part and succeeds so well that God himself intervenes to put Raju's newfound sanctity to the test. Narayan's most celebrated novel, The Guide won him the National Prize of the Indian Literary Academy, his country's highest literary honor.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 788,
@@ -11387,7 +11217,9 @@
     "originalLanguage": "Bengali",
     "pages": 458,
     "description": "Nobel Prize-winning author Rabindranath Tagore’s most ambitious work Gora unfolds against the vast, dynamic backdrop of Bengal under British rule, a divided society struggling to envisage an emerging nation. It is an epic saga of India’s nationalist awakening, viewed through the eyes of one young man, an orthodox Hindu who defines himself against the British colonialist culture and finds himself approaching his nationalist identity through the prism of organized religion. First published in 1907, Gora questions the dogmas and presuppositions inherent in nationalist thought like few books have dared to do. This new, lucid and vibrant translation brings the complete and unabridged text of the classic to a new generation of readers, underlining its contemporary relevance.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 789,
@@ -11401,7 +11233,9 @@
     "originalLanguage": "Bengali",
     "pages": 256,
     "description": "Set on a Bengali noble's estate in 1908, this is both a love story and a novel of political awakening. The central character, Bimala, is torn between the duties owed to her husband, Nikhil, and the demands made on her by the radical leader, Sandip. Her attempts to resolve the irreconciliable pressures of the home and world reflect the conflict in India itself, and the tragic outcome foreshadows the unrest that accompanied Partition in 1947. This edition includes an introduction by Anita Desai.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 790,
@@ -11459,7 +11293,9 @@
     "originalLanguage": "English",
     "pages": 180,
     "description": "Narrated by Achakka, a talkative Brahmin widow, this foundational Indian novel depicts the sudden, dramatic impact of the Gandhian nationalist movement on Kanthapura, a traditional, caste-divided South Indian village. The central plot follows Moorthy, a young, idealistic student who returns from the city to preach the message of swaraj, spinning khadi, and the abolition of untouchability, uniting the villagers in a massive, peaceful tax strike against the British authorities. Rao's rich, lyrical prose mimics the rhythmic flow of traditional oral folklore (sthala-purana), celebrating national solidarity.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 794,
@@ -11473,7 +11309,9 @@
     "originalLanguage": "English",
     "pages": 416,
     "description": "A book from Índia.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 795,
@@ -11491,7 +11329,7 @@
   },
   {
     "id": 796,
-    "title": "Tirano Banderas",
+    "title": "Tyrant Banderas",
     "author": "Ramon del Valle-Inclan",
     "year": "1926",
     "country": "Spain",
@@ -11499,7 +11337,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 195,
+    "pages": 224,
     "description": "Tirano Banderas. Novela de tierra caliente (1926) narra la caída del dictador sudamericano Santos Banderas, personaje despótico y cruel que mantiene el poder gracias al terror y a la opresión. Es una excepcional descripción de la sociedad sudamericana y uno de los primeros ejemplos de la llamada novela de dictador",
     "tags": []
   },
@@ -11657,7 +11495,7 @@
   },
   {
     "id": 807,
-    "title": "Young Törless",
+    "title": "The Confusions of Young Törless",
     "author": "Robert Musil",
     "year": "1906",
     "country": "Austria",
@@ -11665,7 +11503,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "German",
-    "pages": 190,
+    "pages": 208,
     "description": "Set inside a strict, remote military boarding school in the Austro-Hungarian Empire, this dark psychological classic follows Törless, a highly sensitive and intellectual young cadet. When he and a group of classmates discover that another student, Basini, has committed a small theft, they decide not to report him but instead subject him to a systematic, brutal regime of physical and psychological torture. Törless acts as a detached, analytical observer of these cruelties, exploring his own moral boundaries and the nature of human sadism. The novel is widely celebrated as a powerful, prophetic allegory for the psychological origins of totalitarianism.",
     "tags": []
   },
@@ -11790,22 +11628,6 @@
     ]
   },
   {
-    "id": 816,
-    "title": "The African Shore",
-    "author": "Rodrigo Rey Rosa",
-    "year": "1999",
-    "country": "Guatemala",
-    "region": "Central America",
-    "continent": "Central America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 110,
-    "description": "Set in Tangier, Morocco, this sparse, atmospheric novel follows two disparate men: a young Colombian traveler who has lost his passport and is stranded in the city, and a local shepherd boy who has a mystical connection to an owl. Their paths cross quietly in a landscape dominated by geographical displacement, drug-fueled encounters, and the desperate, dangerous desire of young Moroccans to cross the sea to Europe. Rey Rosa's minimalist prose constructs a beautiful, melancholic meditation on cultural exile, the nature of animal communication, and the invisible borders that divide humanity.",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 817,
     "title": "A Fine Balance",
     "author": "Rohinton Mistry",
@@ -11817,7 +11639,9 @@
     "originalLanguage": "English",
     "pages": 603,
     "description": "A sweeping, heartbreaking epic set in mid-1970s India, bringing together four strangers who forge an unlikely family amidst the cruelties of the Emergency state.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 818,
@@ -11940,20 +11764,6 @@
     "tags": []
   },
   {
-    "id": 826,
-    "title": "In the heart of the seas",
-    "author": "S.Y. Agnon",
-    "year": "1935",
-    "country": "Israel",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Hebrew",
-    "pages": 128,
-    "description": "A book from Israel.",
-    "tags": []
-  },
-  {
     "id": 827,
     "title": "Madonna in a Fur Coat",
     "author": "Sabahattin Ali",
@@ -12007,7 +11817,9 @@
     "originalLanguage": "English",
     "pages": 445,
     "description": "Selected by the Modern Library as one of the 100 best novels of all time  Winner of the Booker of Bookers Saleem Sinai is born at the stroke of midnight on August 15, 1947, the very moment of India’s independence. Greeted by fireworks displays, cheering crowds, and Prime Minister Nehru himself, Saleem grows up to learn the ominous consequences of this coincidence. His every act is mirrored and magnified in events that sway the course of national affairs; his health and well-being are inextricably bound to those of his nation; his life is inseparable, at times indistinguishable, from the history of his country. Perhaps most remarkable are the telepathic powers linking him with India’s 1,000 other “midnight’s children,” all born in that initial hour and endowed with magical gifts. This novel is at once a fascinating family saga and an astonishing evocation of a vast land and its people–a brilliant incarnation of the universal human comedy. Twenty-five years after its publication, Midnight’ s Children stands apart as both an epochal work of fiction and a brilliant performance by one of the great literary voices of our time. Sobre o Autor Sir SALMAN RUSHDIE is the multi-award winning author of eleven previous novels--Luka and the Fire of Life, Grimus, Midnight's Children (which won the Booker Prize, 1981, and the Best of the Booker Prize, 2008), Shame,The Satanic Verses, Haroun and the Sea of Stories, The Moor's Last Sigh, The Ground Beneath Her Feet, Fury, Shalimar the Clown and The Enchantress of Florence--and one collection of short stories, East, West. He has also published three works of non-fiction: The Jaguar Smile, Imaginary Homelands: Essays and Criticism 1981-1991 and Step Across This Line, and coedited two anthologies, Mirrorwork and Best American Short Stories 2008. His memoir, Joseph Anton, published in 2012, became an internationally acclaimed bestseller. It was praised as the finest memoir...in many a year (The Washington Post). His books have been translated into over forty languages. He is a former president of American PEN.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 831,
@@ -12021,7 +11833,9 @@
     "originalLanguage": "English",
     "pages": 579,
     "description": "A book from Índia.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 832,
@@ -12119,7 +11933,7 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 746,
+    "pages": 546,
     "description": "A book from USA.",
     "tags": []
   },
@@ -12221,21 +12035,9 @@
     "originalLanguage": "English",
     "pages": 386,
     "description": "Colombo, 1990. Maali Almeida—war photographer, gambler, and closet queen—has woken up dead in what seems like a celestial visa office. His dismembered body is sinking in the serene Beira Lake and he has no idea who killed him. In a country where scores are settled by death squads, suicide bombers, and hired goons, the list of suspects is depressingly long, as the ghouls and ghosts with grudges who cluster round can attest. But even in the afterlife, time is running out for Maali. He has seven moons to contact the man and woman he loves most and lead them to the photos that will rock Sri Lanka.\n\nTen years after his prize-winning novel Chinaman established him as one of Sri Lanka’s foremost authors, Shehan Karunatilaka is back with a “thrilling satire” (Economist) and rip-roaring state-of-the-nation epic that offers equal parts mordant wit and disturbing, profound truths.",
-    "tags": []
-  },
-  {
-    "id": 846,
-    "title": "The Double Hook",
-    "author": "Sheila Watson",
-    "year": "1959",
-    "country": "Canada",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 134,
-    "description": "A landmark Canadian modernist novel, following a small, isolated community in British Columbia as they struggle to escape fear and establish a meaningful community.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 847,
@@ -12291,7 +12093,9 @@
     "originalLanguage": "English",
     "pages": 410,
     "description": "This sharp, classic Hindi satirical novel follows Ranganath, a naive young history student who travels to the remote village of Shivpalganj to recover his health at the home of his uncle, Vaidyaji. Vaidyaji is a corrupt, highly sophisticated local politician who controls the village cooperative bank, the local intermediate college, and the police through elaborate conspiracies and patronage. Through Ranganath's growing disillusionment and the absurd village debates, Shukla delivers a blistering, dark critique of rural Indian politics, the failure of post-colonial development, and the systemic corruption of democracy.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 851,
@@ -12333,7 +12137,9 @@
     "originalLanguage": "English",
     "pages": 497,
     "description": "In this remarkable debut novel, a boy’s bittersweet passage to maturity and sexual awakening is set against escalating political tensions in Sri Lanka, during the seven years leading up to the 1983 riots. Arjie Chelvaratnam is a Tamil boy growing up in an extended family in Colombo. It is through his eyes that the story unfolds and we meet a delightful, sometimes eccentric cast of characters. Arjie’s journey from the luminous simplicity of childhood days into the more intricately shaded world of adults – with its secrets, its injustices, and its capacity for violence – is a memorable one, as time and time again the true longings of the human heart are held against the way things are.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 854,
@@ -12517,7 +12323,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "German",
-    "pages": 212,
+    "pages": 104,
     "description": "On a cruiseship bound for Buenos Aires, a wealthy passenger challenges the world chess champion to a match. He accepts with a sneer. He will beat anyone, he says. But only if the stakes are high. Soon, the chess board is surrounded. At first, the challenger crumbles before the mind of the master. But then, a soft-spoken voice from the crowd begins to whisper nervous suggestions. Perfect moves, brilliant predictions. The speaker has not played a game for more than twenty years, he says. He is wholly unknown. But somehow, he is also entirely formidable…",
     "tags": []
   },
@@ -12575,7 +12381,9 @@
     "originalLanguage": "Bengali",
     "pages": 220,
     "description": "Set in a remote, impoverished village in rural East Bengal, this modern Bengali classic follows Majeed, a cunning, impoverished wanderer who arrives in the community and claims that an old, neglected grave is the resting place of a legendary Muslim holy saint. Majeed establishes a lucrative shrine around the tomb, using religious superstition, fear, and moral manipulation to acquire land, wealth, and absolute social authority over the illiterate, desperate villagers. Waliullah's dark, psychological realism is a brilliant, powerful critique of religious opportunism, feudal exploitation, and the anatomy of blind faith.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 871,
@@ -12735,21 +12543,9 @@
     "originalLanguage": "Malayalam",
     "pages": 240,
     "description": "Set in a traditional, highly conservative Hindu fishing village in the southern coastal state of Kerala, this classic Malayalam novel follows the passionate, forbidden love story between Karuthamma, the daughter of an ambitious fisherman, and Pareekutty, a young Muslim fish merchant. The lovers struggle to navigate the strict social hierarchies, religious barriers, and the ancient, local mythological belief that a fisherman's safety at sea depends on his wife's absolute chastity on shore. Through its rich realism and mythic themes, the novel explores the tragic conflict between individual desire and communal orthodoxy.",
-    "tags": []
-  },
-  {
-    "id": 882,
-    "title": "The Book of Andreas Kordopatis",
-    "author": "Thanassis Valtinos",
-    "year": "1972",
-    "country": "Greece",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Greek",
-    "pages": 140,
-    "description": "This spare, highly realistic Greek classic is written as the oral testimony of Andreas Kordopatis, a poor peasant from the Peloponnese who attempts to emigrate to the United States during the turbulent, impoverished early years of the twentieth century. The narrative details his grueling, multiple attempts to cross the Atlantic, his deportation, his encounters with smugglers and other migrants, and his eventual, successful arrival and labor in America. Valtinos's documentary style and minimalist prose construct a profound, deeply moving meditation on the migrant experience, economic displacement, and human endurance.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 883,
@@ -13023,7 +12819,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Finnish",
-    "pages": 472,
+    "pages": 192,
     "description": "The Summer Book TOVE JANSSON WITH A FOREWORD BY ESTHER FREUD An elderly artist and her six-year-old grand-daughter while away a summer together on a tiny island in the gulf of Finland. As the two learn to adjust to each other's fears, whims and yearnings, a fierce yet understated love emerges - one that encompasses not only the summer inhabitants but the very island itself. Written in a clear, unsentimental style, full of brusque humour, and wisdom, The Summer Book is a profoundly life-affirming story. Tove Jansson captured much of her own life and spirit in the book, which was her favourite of her adult novels. This new edition, with a Foreword by Esther Freud, sees the return of a European literary gem - fresh, authentic and deeply humane. New and beautifully presented edition of a Scandinavian literary classic by Finland's most translated author should appeal to all ages dissolving boundaries between fiction, biography and travel.",
     "tags": [
       "scandinavia"
@@ -13055,7 +12851,9 @@
     "originalLanguage": "Kannada",
     "pages": 208,
     "description": "Samskara is one of the acknowledged masterpieces of modern world literature, a book to set beside Chinua Achebe's Things Fall Apart and Tayeb Salih's Season of Migration to the North. Taking its name from a Sanskrit word that means rite of passage but also moment of recognition, it begins when Naranappa, an inhabitant of a small south Indian town and a renegade Brahmin who has scandalously flouted the rules of caste and purity for years, eating meat, drinking alcohol, marrying beneath him, mocking God, unexpectedly falls ill and dies. The question of whether he should be buried as a Brahmin divides the other Brahmins in the village. For an answer they turn to Praneshacharyah, the most devout and respected member of their community, an ascetic who also tends religiously to his invalid wife. Praneshacharyah finds himself unable to provide the answer, though an answer is urgently needed since as he wonders and the villagers wait and the body...",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 904,
@@ -13211,7 +13009,9 @@
     "originalLanguage": "English",
     "pages": 1300,
     "description": "Vikram Seth's novel is, at its core, a love story: the tale of Lata - and her mother's - attempts to find her a suitable husband, through love or through exacting maternal appraisal. At the same time, it is the story of India, newly independent and struggling through a time of crisis as a sixth of the world's population faces its first great general election and the chance to map its own destiny.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 915,
@@ -13372,20 +13172,6 @@
     "tags": []
   },
   {
-    "id": 926,
-    "title": "Angle of Repose",
-    "author": "Wallace Stegner",
-    "year": "1971",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 664,
-    "description": "A book from USA.",
-    "tags": []
-  },
-  {
     "id": 927,
     "title": "The Song of Everlasting Sorrow",
     "author": "Wang Anyi",
@@ -13507,7 +13293,7 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "English",
-    "pages": 187,
+    "pages": 285,
     "description": "Lord of the Flies remains as provocative today as when it was first published in 1954, igniting passionate debate with its startling, brutal portrait of human nature. Though critically acclaimed, it was largely ignored upon its initial publication. Yet soon it became a cult favorite among both students and literary critics who compared it to J.D. Salinger's The Catcher in the Rye in its influence on modern thought and literature. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies has established itself as a true classic. And now readers can own it in a beautifully designed hardcover edition worthy of its stature. Sobre o Autor Born in Cornwall, England, in 1911 and educated at Oxford University, William Gerald Golding's first book, Poems, was published in 1935. Following a stint in the Royal Navy and other diversions during and after World War II, Golding wrote Lord of the Flies while teaching school. This was the first of several novels including Pincher Martin, Free Fall, and The Inheritors and a play, The Brass Butterfly, which led to his being awarded the Nobel Prize for Literature in 1983.",
     "tags": [
       "UK"
@@ -13995,7 +13781,9 @@
     "originalLanguage": "English",
     "pages": 256,
     "description": "",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 970,
@@ -14044,20 +13832,6 @@
     ]
   },
   {
-    "id": 973,
-    "title": "Tomb of Sand",
-    "author": "Geetanjali Shree",
-    "year": "2018",
-    "country": "India",
-    "region": "Southern Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Hindi",
-    "pages": 739,
-    "description": "",
-    "tags": []
-  },
-  {
     "id": 974,
     "title": "Minor Detail",
     "author": "Adania Shibli",
@@ -14070,22 +13844,6 @@
     "pages": 112,
     "description": "",
     "tags": []
-  },
-  {
-    "id": 975,
-    "title": "The Employees",
-    "author": "Olga Ravn",
-    "year": "2018",
-    "country": "Denmark",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": true,
-    "originalLanguage": "Danish",
-    "pages": 144,
-    "description": "",
-    "tags": [
-      "scandinavia"
-    ]
   },
   {
     "id": 976,
@@ -14112,20 +13870,6 @@
     "read": false,
     "originalLanguage": "Bulgarian",
     "pages": 304,
-    "description": "",
-    "tags": []
-  },
-  {
-    "id": 978,
-    "title": "The Gray House",
-    "author": "Mariam Petrosyan",
-    "year": "2009",
-    "country": "Armenia",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Russian",
-    "pages": 736,
     "description": "",
     "tags": []
   },
@@ -14224,8 +13968,8 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Mandarin",
-    "pages": 640,
+    "originalLanguage": "Chinese",
+    "pages": 607,
     "description": "Set in 18th-century China under the Qing dynasty, this celebrated satirical novel chronicles the lives of various scholars and intellectuals. Through their obsession with the civil service examinations and social status, the narrative delivers a brilliant, humorous critique of the hypocrisy, corruption, and moral decay of the Confucian bureaucracy and the scholar-gentry class.",
     "tags": []
   },
@@ -14297,7 +14041,9 @@
     "originalLanguage": "Punjabi",
     "pages": 160,
     "description": "Pinjar (The Skeleton) is a landmark Indian novel set during the partition of India. It tells the story of Puro, a young Hindu woman who is abducted by a Muslim man, Rashid, to settle a family feud, and explores the plight of women during the traumatic events of partition.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 991,
@@ -14311,7 +14057,9 @@
     "originalLanguage": "English",
     "pages": 336,
     "description": "An evocative, semi-autobiographical novel set in Lucknow during the decades leading up to the partition of India. It follows Laila, an orphaned young woman from a wealthy, traditional Muslim family, as she struggles to define her own identity, education, and love amidst the political turmoil, rising sectarianism, and eventual division of her homeland.",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 992,
@@ -14423,7 +14171,9 @@
     "originalLanguage": "Kannada",
     "pages": 128,
     "description": "A brilliant, psychological Indian novella that traces the fortunes of a family in Bangalore as they rise from poverty to wealth through a spices business. The sudden influx of money alters their relationships, creating an atmosphere of tension and unspoken violence where family ties become tangled and 'ghachar ghochar' (entangled).",
-    "tags": []
+    "tags": [
+      "subcontinent"
+    ]
   },
   {
     "id": 1000,
