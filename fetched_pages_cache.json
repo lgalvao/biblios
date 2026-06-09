@@ -679,13 +679,597 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:49:56.843Z"
   },
+  "86": {
+    "title": "Memory for Forgetfulness",
+    "author": "Mahmoud Darwish",
+    "current": 182,
+    "pages": 203,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:49:59.674Z"
+  },
+  "87": {
+    "title": "The Life of Arseniev",
+    "author": "Ivan Bunin",
+    "current": 320,
+    "pages": 254,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:02.728Z"
+  },
+  "88": {
+    "title": "The Palace of Dreams",
+    "author": "Ismail Kadare",
+    "current": 208,
+    "pages": 205,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:05.801Z"
+  },
+  "89": {
+    "title": "The Recognitions",
+    "author": "William Gaddis",
+    "current": 956,
+    "pages": 956,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:08.690Z"
+  },
+  "90": {
+    "title": "Austerlitz",
+    "author": "W.G. Sebald",
+    "current": 315,
+    "pages": 304,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:11.517Z"
+  },
+  "91": {
+    "title": "The Master",
+    "author": "Colm Toibin",
+    "current": 352,
+    "pages": 356,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:14.505Z"
+  },
+  "92": {
+    "title": "How to be Both",
+    "author": "Ali Smith",
+    "current": 384,
+    "pages": 378,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:17.380Z"
+  },
+  "93": {
+    "title": "Adam Resurrected",
+    "author": "Yoram Kaniuk",
+    "current": 352,
+    "pages": 370,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:20.230Z"
+  },
+  "94": {
+    "title": "City of Many Days",
+    "author": "Shulamith Hareven",
+    "current": 208,
+    "pages": 189,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:23.087Z"
+  },
+  "95": {
+    "title": "See Under: Love",
+    "author": "David Grossman",
+    "current": 464,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:50:27.955Z"
+  },
+  "96": {
+    "title": "Badenheim 1939",
+    "author": "Aharon Appelfeld",
+    "current": 160,
+    "pages": 146,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:30.991Z"
+  },
+  "97": {
+    "title": "My Michael",
+    "author": "Amos Oz",
+    "current": 224,
+    "pages": 252,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:33.832Z"
+  },
+  "98": {
+    "title": "We will see you tomorrow",
+    "author": "Zoya Pirzad",
+    "current": 352,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:50:36.829Z"
+  },
+  "99": {
+    "title": "The Four Books",
+    "author": "Yan Lianke",
+    "current": 368,
+    "pages": 338,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:40.001Z"
+  },
+  "100": {
+    "title": "I Did Not Kill My Husband",
+    "author": "Liu Zhenyun",
+    "current": 288,
+    "pages": 216,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:43.485Z"
+  },
+  "101": {
+    "title": "My Life as Emperor",
+    "author": "Su Tong",
+    "current": 304,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:46.658Z"
+  },
+  "102": {
+    "title": "The Rice-Sprout Song",
+    "author": "Eileen Chang",
+    "current": 182,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:50:51.563Z"
+  },
+  "103": {
+    "title": "Border Town",
+    "author": "Shen Congwen",
+    "current": 176,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:50:56.386Z"
+  },
+  "104": {
+    "title": "Dream of Ding Village",
+    "author": "Yan Lianke",
+    "current": 352,
+    "pages": 341,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:50:59.356Z"
+  },
+  "105": {
+    "title": "The Membrane",
+    "author": "Chi Ta-wei",
+    "current": 160,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:51:02.269Z"
+  },
+  "106": {
+    "title": "The Butcher’s Wife",
+    "author": "Li Ang",
+    "current": 224,
+    "pages": 245,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:05.127Z"
+  },
+  "107": {
+    "title": "Rose, Rose I Love You",
+    "author": "Wang Zhenhe",
+    "current": 288,
+    "pages": 183,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:07.940Z"
+  },
+  "108": {
+    "title": "Orphan of Asia",
+    "author": "Wu Zhuoliu",
+    "current": 256,
+    "pages": 247,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:11.030Z"
+  },
+  "109": {
+    "title": "Crystal Boys",
+    "author": "Pai Hsien-yung",
+    "current": 368,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:51:14.101Z"
+  },
+  "110": {
+    "title": "Remains of Life",
+    "author": "Wu He",
+    "current": 304,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:16.971Z"
+  },
+  "111": {
+    "title": "Last Quarter of the Moon",
+    "author": "Chi Zijian",
+    "current": 304,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:19.838Z"
+  },
+  "112": {
+    "title": "Wings",
+    "author": "Yi Sang",
+    "current": 128,
+    "pages": 122,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:22.937Z"
+  },
+  "113": {
+    "title": "The Woman Who Had Two Navels",
+    "author": "Nick Joaquin",
+    "current": 256,
+    "pages": 226,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:26.390Z"
+  },
+  "114": {
+    "title": "The Girl from the Coast",
+    "author": "Pramoedya Ananta Toer",
+    "current": 288,
+    "pages": 280,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:29.462Z"
+  },
+  "115": {
+    "title": "In the Shadow of the Banyan",
+    "author": "Vaddey Ratner",
+    "current": 448,
+    "pages": 336,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:32.943Z"
+  },
+  "116": {
+    "title": "Njáls Saga",
+    "author": "Anonymous",
+    "current": 384,
+    "pages": 384,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:35.788Z"
+  },
+  "117": {
+    "title": "Garman and Worse",
+    "author": "Alexander Kielland",
+    "current": 304,
+    "pages": 227,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:39.292Z"
+  },
+  "118": {
+    "title": "Marie Grubbe",
+    "author": "Jens Peter Jacobsen",
+    "current": 320,
+    "pages": 262,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:42.467Z"
+  },
+  "119": {
+    "title": "Blackwater",
+    "author": "Kerstin Ekman",
+    "current": 448,
+    "pages": 439,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:45.540Z"
+  },
+  "120": {
+    "title": "The Road",
+    "author": "Harry Martinson",
+    "current": 280,
+    "pages": 286,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:48.611Z"
+  },
+  "121": {
+    "title": "Missing Person",
+    "author": "Patrick Modiano",
+    "current": 192,
+    "pages": 168,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:51:51.527Z"
+  },
+  "122": {
+    "title": "Days of Longing",
+    "author": "Nirmal Verma",
+    "current": 232,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:51:57.214Z"
+  },
+  "123": {
+    "title": "Toba Tek Singh",
+    "author": "Saadat Hasan Manto",
+    "current": 160,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:52:01.844Z"
+  },
+  "124": {
+    "title": "The Crooked Line",
+    "author": "Ismat Chughtai",
+    "current": 129,
+    "pages": 232,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:12.876Z"
+  },
+  "125": {
+    "title": "Mother of 1084",
+    "author": "Mahasweta Devi",
+    "current": 130,
+    "pages": 130,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:16.054Z"
+  },
+  "126": {
+    "title": "Sepharad",
+    "author": "Antonio Munoz Molina",
+    "current": 385,
+    "pages": 528,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:19.126Z"
+  },
+  "127": {
+    "title": "I’m Gone",
+    "author": "Jean Echenoz",
+    "current": 224,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:52:21.933Z"
+  },
+  "128": {
+    "title": "The Years",
+    "author": "Annie Ernaux",
+    "current": 232,
+    "pages": 241,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:24.803Z"
+  },
+  "129": {
+    "title": "The Abyss",
+    "author": "Marguerite Yourcenar",
+    "current": 374,
+    "pages": 376,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:27.728Z"
+  },
+  "130": {
+    "title": "Christ stopped at Eboli",
+    "author": "Carlo Levi",
+    "current": 256,
+    "pages": 255,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:30.902Z"
+  },
+  "131": {
+    "title": "Crimes of August",
+    "author": "Rubem Fonseca",
+    "current": 296,
+    "pages": 287,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:33.807Z"
+  },
+  "132": {
+    "title": "La Casa y El Viento",
+    "author": "Hector Tizon",
+    "current": 272,
+    "pages": 176,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:36.666Z"
+  },
+  "133": {
+    "title": "Lizard's Tail",
+    "author": "Luisa Valenzuela",
+    "current": 288,
+    "pages": 279,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:39.811Z"
+  },
+  "134": {
+    "title": "Hell Has No Limits",
+    "author": "Jose Donoso",
+    "current": 142,
+    "pages": 142,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:43.190Z"
+  },
+  "135": {
+    "title": "The Shrouded Woman",
+    "author": "Maria Luisa Bombal",
+    "current": 90,
+    "pages": 116,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:46.467Z"
+  },
+  "136": {
+    "title": "December Breeze",
+    "author": "Marvel Moreno",
+    "current": 449,
+    "pages": 447,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:49.642Z"
+  },
+  "137": {
+    "title": "The Three Marias",
+    "author": "Raquel de Queiroz",
+    "current": 178,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:52:52.816Z"
+  },
+  "138": {
+    "title": "Macunaíma: The Hero with No Character",
+    "author": "Mario de Andrade",
+    "current": 224,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:56.093Z"
+  },
+  "139": {
+    "title": "Avalovara",
+    "author": "Osman Lins",
+    "current": 331,
+    "pages": 359,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:52:58.924Z"
+  },
+  "140": {
+    "title": "The Centaur in the Garden",
+    "author": "Moacyr Scliar",
+    "current": 216,
+    "pages": 248,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:01.932Z"
+  },
+  "141": {
+    "title": "In the beginning was the Sea",
+    "author": "Tomas Gonzalez",
+    "current": 224,
+    "pages": 163,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:05.002Z"
+  },
+  "142": {
+    "title": "Quiet Creature in the Corner",
+    "author": "Joao Gilberto Noll",
+    "current": 144,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:53:07.971Z"
+  },
+  "143": {
+    "title": "The Promise",
+    "author": "Silvina Ocampo",
+    "current": 103,
+    "pages": 120,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:10.867Z"
+  },
+  "144": {
+    "title": "An Episode in the Life of a Landscape Painter",
+    "author": "Cesar Aira",
+    "current": 97,
+    "pages": 87,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:13.910Z"
+  },
+  "145": {
+    "title": "Fogo Morto",
+    "author": "Jose Lins do Rego",
+    "current": 320,
+    "pages": 290,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:16.879Z"
+  },
+  "146": {
+    "title": "Carpentaria",
+    "author": "Alexis Wright",
+    "current": 520,
+    "pages": 517,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:19.778Z"
+  },
+  "147": {
+    "title": "Visitants",
+    "author": "Randolph Stow",
+    "current": 267,
+    "pages": 188,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:22.819Z"
+  },
+  "148": {
+    "title": "Puerto Limon",
+    "author": "Joaquin Gutierrez",
+    "current": 288,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:25.994Z"
+  },
+  "149": {
+    "title": "Margarita, How Beautiful the Sea",
+    "author": "Sergio Ramirez",
+    "current": 288,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:29.374Z"
+  },
+  "150": {
+    "title": "Ashes of Izalco",
+    "author": "Claribel Alegria",
+    "current": 224,
+    "pages": 173,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:32.446Z"
+  },
+  "151": {
+    "title": "Dark Heart of the Forest",
+    "author": "Leonora Miano",
+    "current": 288,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:53:35.618Z"
+  },
+  "152": {
+    "title": "Antipeople",
+    "author": "Sony Labou Tansi",
+    "current": 176,
+    "pages": 170,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:38.404Z"
+  },
+  "153": {
+    "title": "Butterfly Burning",
+    "author": "Yvonne Vera",
+    "current": 160,
+    "pages": 148,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:41.456Z"
+  },
+  "154": {
+    "title": "Cockroaches",
+    "author": "Scholastique Mukasonga",
+    "current": 176,
+    "pages": 165,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:44.409Z"
+  },
+  "155": {
+    "title": "The Shadow of Imana",
+    "author": "Veronique Tadjo",
+    "current": 128,
+    "pages": 118,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:47.498Z"
+  },
+  "156": {
+    "title": "Gold Dust",
+    "author": "Ibrahim al-Koni",
+    "current": 176,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:53:50.570Z"
+  },
+  "157": {
+    "title": "Fureurs et cris de femmes",
+    "author": "Angele Rawiri",
+    "current": 208,
+    "pages": 215,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:53.641Z"
+  },
+  "158": {
+    "title": "Sarraounia",
+    "author": "Abdoulaye Mamani",
+    "current": 160,
+    "pages": 159,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:53:56.526Z"
+  },
   "159": {
     "title": "The Censor’s Notebook",
     "author": "Liliana Corobca",
     "current": 250,
     "pages": null,
     "source": "Não encontrado",
-    "timestamp": "2026-06-09T01:43:25.597Z"
+    "timestamp": "2026-06-09T01:53:59.336Z"
   },
   "160": {
     "title": "The Gardens of Silihdar",
@@ -693,7 +1277,7 @@
     "current": 250,
     "pages": null,
     "source": "Não encontrado",
-    "timestamp": "2026-06-09T01:43:28.116Z"
+    "timestamp": "2026-06-09T01:54:02.858Z"
   },
   "161": {
     "title": "Small Country",
@@ -702,6 +1286,14 @@
     "pages": 219,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:43:30.820Z"
+  },
+  "162": {
+    "title": "Our Sister, Killjoy",
+    "author": "Ama Ata Aidoo",
+    "current": 134,
+    "pages": 134,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:05.930Z"
   },
   "163": {
     "title": "Chiquinho",
@@ -717,7 +1309,7 @@
     "current": 250,
     "pages": null,
     "source": "Não encontrado",
-    "timestamp": "2026-06-09T01:43:35.825Z"
+    "timestamp": "2026-06-09T01:54:08.899Z"
   },
   "165": {
     "title": "Malemort",
@@ -749,7 +1341,7 @@
     "current": 250,
     "pages": null,
     "source": "Não encontrado",
-    "timestamp": "2026-06-09T01:43:46.793Z"
+    "timestamp": "2026-06-09T01:54:11.811Z"
   },
   "169": {
     "title": "An Open City",
@@ -757,7 +1349,7 @@
     "current": 250,
     "pages": null,
     "source": "Não encontrado",
-    "timestamp": "2026-06-09T01:43:49.154Z"
+    "timestamp": "2026-06-09T01:54:15.350Z"
   },
   "170": {
     "title": "The Hostage",
@@ -799,6 +1391,118 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:03.586Z"
   },
+  "175": {
+    "title": "The Bleeding of the Stone",
+    "author": "Ibrahim al-Koni",
+    "current": 160,
+    "pages": 247,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:18.528Z"
+  },
+  "176": {
+    "title": "Beyond the Rice Fields",
+    "author": "Naivo",
+    "current": 368,
+    "pages": 358,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:21.387Z"
+  },
+  "177": {
+    "title": "Throwing Sparks",
+    "author": "Abdo Khal",
+    "current": 368,
+    "pages": 349,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:24.465Z"
+  },
+  "178": {
+    "title": "Salina",
+    "author": "A. Samad Said",
+    "current": 375,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:27.742Z"
+  },
+  "179": {
+    "title": "A Late Divorce",
+    "author": "A.B. Yehoshua",
+    "current": 480,
+    "pages": 210,
+    "source": "Best Match",
+    "timestamp": "2026-06-09T01:54:32.864Z"
+  },
+  "180": {
+    "title": "Original Bliss",
+    "author": "A.L. Kennedy",
+    "current": 320,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:54:36.241Z"
+  },
+  "181": {
+    "title": "Cities of Salt",
+    "author": "Abdelrahman Munif",
+    "current": 627,
+    "pages": 627,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:39.312Z"
+  },
+  "182": {
+    "title": "The Ultimate Tragedy",
+    "author": "Abdulai Sila",
+    "current": 274,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:54:42.486Z"
+  },
+  "183": {
+    "title": "Night and Day",
+    "author": "Abdulhamid Cho‘lpon",
+    "current": 407,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:54:45.559Z"
+  },
+  "184": {
+    "title": "The Weary Generations",
+    "author": "Abdullah Hussein",
+    "current": 447,
+    "pages": 334,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:48.939Z"
+  },
+  "185": {
+    "title": "Paradise",
+    "author": "Abdulrazak Gurnah",
+    "current": 290,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:52.523Z"
+  },
+  "186": {
+    "title": "By the Sea",
+    "author": "Abdulrazak Gurnah",
+    "current": 236,
+    "pages": 245,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:54:55.901Z"
+  },
+  "187": {
+    "title": "Lying Down to Die",
+    "author": "Adalet Agaoglu",
+    "current": 298,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:54:59.076Z"
+  },
+  "188": {
+    "title": "The Invention of Morel",
+    "author": "Adolfo Bioy Casares",
+    "current": 122,
+    "pages": 237,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:02.454Z"
+  },
   "189": {
     "title": "The Notebook",
     "author": "Agota Kristof",
@@ -806,6 +1510,726 @@
     "pages": 187,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:06.148Z"
+  },
+  "190": {
+    "title": "A Sibyl",
+    "author": "Agustina Bessa-Luis",
+    "current": 256,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:55:05.631Z"
+  },
+  "191": {
+    "title": "Memory in the Flesh",
+    "author": "Ahlam Mosteghanemi",
+    "current": 288,
+    "pages": 268,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:08.703Z"
+  },
+  "192": {
+    "title": "L’Étrange Destin de Wangrin",
+    "author": "Ahmadou Hampate Ba",
+    "current": 366,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:55:11.571Z"
+  },
+  "193": {
+    "title": "Allah Is Not Obliged",
+    "author": "Ahmadou Kourouma",
+    "current": 190,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:14.445Z"
+  },
+  "194": {
+    "title": "The Suns of Independence",
+    "author": "Ahmadou Kourouma",
+    "current": 136,
+    "pages": 136,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:17.409Z"
+  },
+  "195": {
+    "title": "Frankenstein in Baghdad",
+    "author": "Ahmed Saadawi",
+    "current": 288,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:20.246Z"
+  },
+  "196": {
+    "title": "The Time Regulation Institute",
+    "author": "Ahmet Hamdi Tanpinar",
+    "current": 387,
+    "pages": 401,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:23.122Z"
+  },
+  "197": {
+    "title": "A Mind at Peace",
+    "author": "Ahmet Hamdi Tanpinar",
+    "current": 412,
+    "pages": 450,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:25.935Z"
+  },
+  "198": {
+    "title": "Journey to Karabakh",
+    "author": "Aka Morchiladze",
+    "current": 192,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:55:28.746Z"
+  },
+  "199": {
+    "title": "Khowabnama",
+    "author": "Akhtaruzzaman Elias",
+    "current": 552,
+    "pages": 20,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:31.558Z"
+  },
+  "200": {
+    "title": "The Yacoubian Building",
+    "author": "Alaa al-Aswany",
+    "current": 273,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:55:34.364Z"
+  },
+  "201": {
+    "title": "Broken Glass",
+    "author": "Alain Mabanckou",
+    "current": 356,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:55:38.984Z"
+  },
+  "202": {
+    "title": "Jealousy",
+    "author": "Alain Robbe-Grillet",
+    "current": 287,
+    "pages": 138,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:41.867Z"
+  },
+  "203": {
+    "title": "Cry, the Beloved Country",
+    "author": "Alan Paton",
+    "current": 321,
+    "pages": 278,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:45.155Z"
+  },
+  "204": {
+    "title": "Lanark",
+    "author": "Alasdair Gray",
+    "current": 560,
+    "pages": 560,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:48.125Z"
+  },
+  "205": {
+    "title": "The Stranger",
+    "author": "Albert Camus",
+    "current": 218,
+    "pages": 143,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:51.404Z"
+  },
+  "206": {
+    "title": "The Pillar of Salt",
+    "author": "Albert Memmi",
+    "current": 209,
+    "pages": 342,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:54.681Z"
+  },
+  "207": {
+    "title": "Leaves of the Banyan Tree",
+    "author": "Albert Wendt",
+    "current": 416,
+    "pages": 416,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:55:57.955Z"
+  },
+  "208": {
+    "title": "Contempt",
+    "author": "Alberto Moravia",
+    "current": 344,
+    "pages": 251,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:01.029Z"
+  },
+  "209": {
+    "title": "The Conformist",
+    "author": "Alberto Moravia",
+    "current": 323,
+    "pages": 349,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:04.203Z"
+  },
+  "210": {
+    "title": "Insomnia",
+    "author": "Alberts Bels",
+    "current": 202,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:56:07.065Z"
+  },
+  "211": {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "current": 310,
+    "pages": 241,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:10.349Z"
+  },
+  "212": {
+    "title": "Explosion in a Cathedral",
+    "author": "Alejo Carpentier",
+    "current": 286,
+    "pages": 365,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:13.239Z"
+  },
+  "213": {
+    "title": "The Lost Steps",
+    "author": "Alejo Carpentier",
+    "current": 312,
+    "pages": 281,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:16.098Z"
+  },
+  "214": {
+    "title": "The Use of Man",
+    "author": "Aleksandar Tisma",
+    "current": 290,
+    "pages": 342,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:18.941Z"
+  },
+  "215": {
+    "title": "Seven Brothers",
+    "author": "Aleksis Kivi",
+    "current": 380,
+    "pages": 361,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:21.844Z"
+  },
+  "216": {
+    "title": "A Day in the Life of Ivan Denisovich",
+    "author": "Alexander Solzhenitsyn",
+    "current": 182,
+    "pages": 161,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:25.101Z"
+  },
+  "217": {
+    "title": "The Murderess",
+    "author": "Alexandros Papadiamantis",
+    "current": 170,
+    "pages": 127,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:27.956Z"
+  },
+  "218": {
+    "title": "Berlin Alexanderplatz",
+    "author": "Alfred Doblin",
+    "current": 480,
+    "pages": 529,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:30.882Z"
+  },
+  "219": {
+    "title": "Alindarka’s Children",
+    "author": "Alhierd Bacharevic",
+    "current": 352,
+    "pages": 188,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:33.898Z"
+  },
+  "220": {
+    "title": "The Color Purple",
+    "author": "Alice Walker",
+    "current": 241,
+    "pages": 262,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:37.587Z"
+  },
+  "221": {
+    "title": "No Great Mischief",
+    "author": "Alistair MacLeod",
+    "current": 283,
+    "pages": 283,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:40.554Z"
+  },
+  "222": {
+    "title": "Sudden Death",
+    "author": "Alvaro Enrigue",
+    "current": 270,
+    "pages": 261,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:43.526Z"
+  },
+  "223": {
+    "title": "The Beggars’ Strike",
+    "author": "Aminata Sow Fall",
+    "current": 144,
+    "pages": 118,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:46.596Z"
+  },
+  "224": {
+    "title": "The Palm-Wine Drinkard",
+    "author": "Amos Tutuola",
+    "current": 111,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:56:49.420Z"
+  },
+  "225": {
+    "title": "Primera Memoria",
+    "author": "Ana Maria Matute",
+    "current": 394,
+    "pages": 245,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:52.537Z"
+  },
+  "226": {
+    "title": "Eve Out of Her Ruins",
+    "author": "Ananda Devi",
+    "current": 221,
+    "pages": 157,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:55.608Z"
+  },
+  "227": {
+    "title": "A Dry White Season",
+    "author": "Andre Brink",
+    "current": 316,
+    "pages": 316,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:56:58.439Z"
+  },
+  "228": {
+    "title": "The Counterfeiters",
+    "author": "Andre Gide",
+    "current": 352,
+    "pages": 432,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:01.270Z"
+  },
+  "229": {
+    "title": "The Immoralist",
+    "author": "Andre Gide",
+    "current": 144,
+    "pages": 181,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:04.314Z"
+  },
+  "230": {
+    "title": "The Last of the Just",
+    "author": "Andre Schwarz-Bart",
+    "current": 374,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:57:09.080Z"
+  },
+  "231": {
+    "title": "The Foundation Pit",
+    "author": "Andrei Platonov",
+    "current": 310,
+    "pages": 147,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:11.963Z"
+  },
+  "232": {
+    "title": "Grey Bees",
+    "author": "Andrey Kurkov",
+    "current": 260,
+    "pages": 328,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:14.763Z"
+  },
+  "233": {
+    "title": "Death and the Penguin",
+    "author": "Andrey Kurkov",
+    "current": 228,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:17.585Z"
+  },
+  "234": {
+    "title": "The Man Who Spoke Snakish",
+    "author": "Andrus Kivirahk",
+    "current": 276,
+    "pages": 421,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:20.395Z"
+  },
+  "235": {
+    "title": "The Beautiful Mrs. Seidenman",
+    "author": "Andrzej Szczypiorski",
+    "current": 220,
+    "pages": 204,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:23.261Z"
+  },
+  "236": {
+    "title": "Clear Light of Day",
+    "author": "Anita Desai",
+    "current": 272,
+    "pages": 183,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:26.139Z"
+  },
+  "237": {
+    "title": "Milkman",
+    "author": "Anna Burns",
+    "current": 342,
+    "pages": 408,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:29.604Z"
+  },
+  "238": {
+    "title": "Neapolitan Chronicles",
+    "author": "Anna Maria Ortese",
+    "current": 181,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:32.591Z"
+  },
+  "239": {
+    "title": "The Seventh Cross",
+    "author": "Anna Seghers",
+    "current": 416,
+    "pages": 344,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:35.749Z"
+  },
+  "240": {
+    "title": "Transit",
+    "author": "Anna Seghers",
+    "current": 398,
+    "pages": 290,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:38.718Z"
+  },
+  "241": {
+    "title": "Kamouraska",
+    "author": "Anne Hebert",
+    "current": 383,
+    "pages": 250,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:41.893Z"
+  },
+  "242": {
+    "title": "Fugitive Pieces",
+    "author": "Anne Michaels",
+    "current": 294,
+    "pages": 312,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:44.862Z"
+  },
+  "243": {
+    "title": "Journey by Moonlight",
+    "author": "Antal Szerb",
+    "current": 369,
+    "pages": 323,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:48.036Z"
+  },
+  "244": {
+    "title": "Zama",
+    "author": "Antonio Di Benedetto",
+    "current": 219,
+    "pages": 246,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:50.899Z"
+  },
+  "245": {
+    "title": "The Land at the End of the World",
+    "author": "Antonio Lobo Antunes",
+    "current": 222,
+    "pages": 200,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:53.873Z"
+  },
+  "246": {
+    "title": "Pereira Maintains",
+    "author": "Antonio Tabucchi",
+    "current": 160,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:57:56.845Z"
+  },
+  "247": {
+    "title": "The Mission Box",
+    "author": "Aris Alexandrou",
+    "current": 240,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:58:00.005Z"
+  },
+  "248": {
+    "title": "The Case of Sergeant Grischa",
+    "author": "Arnold Zweig",
+    "current": 448,
+    "pages": 462,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:03.294Z"
+  },
+  "249": {
+    "title": "Tirza",
+    "author": "Arnon Grunberg",
+    "current": 430,
+    "pages": 457,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:06.367Z"
+  },
+  "250": {
+    "title": "Lovely Green Eyes",
+    "author": "Arnost Lustig",
+    "current": 273,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:09.543Z"
+  },
+  "251": {
+    "title": "Dream Story",
+    "author": "Arthur Schnitzler",
+    "current": 117,
+    "pages": 108,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:12.411Z"
+  },
+  "252": {
+    "title": "The God of Small Things",
+    "author": "Arundhati Roy",
+    "current": 356,
+    "pages": 357,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:15.686Z"
+  },
+  "253": {
+    "title": "L’Amour, la fantasia",
+    "author": "Assia Djebar",
+    "current": 280,
+    "pages": 120,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:18.568Z"
+  },
+  "254": {
+    "title": "A Thousand Rooms of Dream and Fear",
+    "author": "Atiq Rahimi",
+    "current": 331,
+    "pages": 208,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:21.828Z"
+  },
+  "255": {
+    "title": "The Red Room",
+    "author": "August Strindberg",
+    "current": 310,
+    "pages": 248,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:24.740Z"
+  },
+  "256": {
+    "title": "The People of Hemsö",
+    "author": "August Strindberg",
+    "current": 220,
+    "pages": 220,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:27.960Z"
+  },
+  "257": {
+    "title": "Son of Man",
+    "author": "Augusto Roa Bastos",
+    "current": 246,
+    "pages": 287,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:31.354Z"
+  },
+  "258": {
+    "title": "I the Supreme",
+    "author": "Augusto Roa Bastos",
+    "current": 448,
+    "pages": 467,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:34.732Z"
+  },
+  "259": {
+    "title": "The Voices of the Dead",
+    "author": "Autran Dourado",
+    "current": 248,
+    "pages": 211,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:37.632Z"
+  },
+  "260": {
+    "title": "The Beautyful Ones Are Not Yet Born",
+    "author": "Ayi Kwei Armah",
+    "current": 190,
+    "pages": 215,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:40.673Z"
+  },
+  "261": {
+    "title": "Family",
+    "author": "Ba Jin",
+    "current": 320,
+    "pages": 329,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:44.260Z"
+  },
+  "262": {
+    "title": "Untold Night and Day",
+    "author": "Bae Suah",
+    "current": 160,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:47.327Z"
+  },
+  "263": {
+    "title": "The Forest of the Gods",
+    "author": "Balys Sruoga",
+    "current": 340,
+    "pages": 339,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:50.399Z"
+  },
+  "264": {
+    "title": "The Sorrow of War",
+    "author": "Bao Ninh",
+    "current": 283,
+    "pages": 233,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:53.284Z"
+  },
+  "265": {
+    "title": "Cracking India",
+    "author": "Bapsi Sidhwa",
+    "current": 298,
+    "pages": 296,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:56.121Z"
+  },
+  "266": {
+    "title": "The Famished Road",
+    "author": "Ben Okri",
+    "current": 512,
+    "pages": 504,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:58:58.930Z"
+  },
+  "267": {
+    "title": "Fortunata and Jacinta",
+    "author": "Benito Perez Galdos",
+    "current": 820,
+    "pages": 818,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:02.178Z"
+  },
+  "268": {
+    "title": "Adolphe",
+    "author": "Benjamin Constant",
+    "current": 110,
+    "pages": 144,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:05.250Z"
+  },
+  "269": {
+    "title": "Goat Days",
+    "author": "Benyamin",
+    "current": 255,
+    "pages": 258,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:08.055Z"
+  },
+  "270": {
+    "title": "A Private Affair",
+    "author": "Beppe Fenoglio",
+    "current": 130,
+    "pages": 200,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:10.896Z"
+  },
+  "271": {
+    "title": "Obabakoak",
+    "author": "Bernardo Atxaga",
+    "current": 344,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:59:15.569Z"
+  },
+  "272": {
+    "title": "Maru",
+    "author": "Bessie Head",
+    "current": 127,
+    "pages": 127,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:18.442Z"
+  },
+  "273": {
+    "title": "A Question of Power",
+    "author": "Bessie Head",
+    "current": 206,
+    "pages": 206,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:21.522Z"
+  },
+  "274": {
+    "title": "Tamas",
+    "author": "Bhisham Sahni",
+    "current": 322,
+    "pages": 236,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:25.010Z"
+  },
+  "275": {
+    "title": "Pather Panchali",
+    "author": "Bibhutibhushan Bandyopadhyay",
+    "current": 360,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:59:27.905Z"
+  },
+  "276": {
+    "title": "The Garden of Departed Cats",
+    "author": "Bilge Karasu",
+    "current": 240,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T01:59:31.034Z"
+  },
+  "277": {
+    "title": "I Served the King of England",
+    "author": "Bohumil Hrabal",
+    "current": 243,
+    "pages": 243,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:34.122Z"
+  },
+  "278": {
+    "title": "Too Loud a Solitude",
+    "author": "Bohumil Hrabal",
+    "current": 190,
+    "pages": 122,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:36.942Z"
+  },
+  "279": {
+    "title": "Necropólis",
+    "author": "Boris Pahor",
+    "current": 179,
+    "pages": 182,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:39.743Z"
   },
   "280": {
     "title": "Doctor Zhivago",
@@ -815,6 +2239,22 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:08.809Z"
   },
+  "281": {
+    "title": "Froth on the Daydream",
+    "author": "Boris Vian",
+    "current": 210,
+    "pages": 215,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:42.827Z"
+  },
+  "282": {
+    "title": "The Time of Miracles",
+    "author": "Borislav Pekic",
+    "current": 320,
+    "pages": 355,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:45.643Z"
+  },
   "283": {
     "title": "Letters from Thailand",
     "author": "Botan",
@@ -822,6 +2262,206 @@
     "pages": 391,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:11.195Z"
+  },
+  "284": {
+    "title": "Murambi, the Book of Bones",
+    "author": "Boubacar Boris Diop",
+    "current": 190,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:48.506Z"
+  },
+  "285": {
+    "title": "The Lonely Passion of Judith Hearne",
+    "author": "Brian Moore",
+    "current": 220,
+    "pages": 230,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:51.737Z"
+  },
+  "286": {
+    "title": "Street of Crocodiles",
+    "author": "Bruno Schulz",
+    "current": 160,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:55.218Z"
+  },
+  "287": {
+    "title": "Second-class Citizen",
+    "author": "Buchi Emecheta",
+    "current": 209,
+    "pages": 88,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T01:59:58.289Z"
+  },
+  "288": {
+    "title": "Joys of Motherhood",
+    "author": "Buchi Emecheta",
+    "current": 224,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:01.977Z"
+  },
+  "289": {
+    "title": "The Great Fear in the Mountain",
+    "author": "C.F. Ramuz",
+    "current": 210,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:00:05.356Z"
+  },
+  "290": {
+    "title": "The African Child",
+    "author": "Camara Laye",
+    "current": 160,
+    "pages": 188,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:08.325Z"
+  },
+  "291": {
+    "title": "The Radiance of the King",
+    "author": "Camara Laye",
+    "current": 280,
+    "pages": 281,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:11.500Z"
+  },
+  "292": {
+    "title": "Doomed Love",
+    "author": "Camilo Castelo Branco",
+    "current": 260,
+    "pages": 221,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:14.572Z"
+  },
+  "293": {
+    "title": "The Beehive",
+    "author": "Camilo Jose Cela",
+    "current": 320,
+    "pages": 380,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:17.956Z"
+  },
+  "294": {
+    "title": "La Família de Pascual Duarte",
+    "author": "Camilo Jose Cela",
+    "current": 160,
+    "pages": 186,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:21.232Z"
+  },
+  "295": {
+    "title": "Frontier",
+    "author": "Can Xue",
+    "current": 361,
+    "pages": 394,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:28.618Z"
+  },
+  "296": {
+    "title": "Dream of the Red Chamber",
+    "author": "Cao Xueqin",
+    "current": 966,
+    "pages": 965,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:31.993Z"
+  },
+  "297": {
+    "title": "That Awful Mess on Via Merulana",
+    "author": "Carlo Emilio Gadda",
+    "current": 390,
+    "pages": 388,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:35.268Z"
+  },
+  "298": {
+    "title": "The Death of Artemio Cruz",
+    "author": "Carlos Fuentes",
+    "current": 307,
+    "pages": 307,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:38.341Z"
+  },
+  "299": {
+    "title": "Nada",
+    "author": "Carmen Laforet",
+    "current": 231,
+    "pages": 295,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:41.413Z"
+  },
+  "300": {
+    "title": "The Back Room",
+    "author": "Carmen Martin Gaite",
+    "current": 210,
+    "pages": 197,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:44.486Z"
+  },
+  "301": {
+    "title": "The Stone Diaries",
+    "author": "Carol Shields",
+    "current": 361,
+    "pages": 361,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:47.558Z"
+  },
+  "302": {
+    "title": "The Heart Is a Lonely Hunter",
+    "author": "Carson McCullers",
+    "current": 310,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:50.631Z"
+  },
+  "303": {
+    "title": "Rituals",
+    "author": "Cees Nooteboom",
+    "current": 332,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:53.721Z"
+  },
+  "304": {
+    "title": "The Moon and the Bonfire",
+    "author": "Cesare Pavese",
+    "current": 180,
+    "pages": 189,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:00:56.879Z"
+  },
+  "305": {
+    "title": "Peace Under Heaven",
+    "author": "Chae Man-sik",
+    "current": 310,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:00.054Z"
+  },
+  "306": {
+    "title": "The Island of Shattered Dreams",
+    "author": "Chantal T. Spitz",
+    "current": 170,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:03.226Z"
+  },
+  "307": {
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "current": 512,
+    "pages": 482,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:01:07.717Z"
+  },
+  "308": {
+    "title": "Bleak House",
+    "author": "Charles Dickens",
+    "current": 989,
+    "pages": 815,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:01:11.525Z"
   },
   "309": {
     "title": "Jane Eyre",
@@ -831,6 +2471,246 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:14.281Z"
   },
+  "310": {
+    "title": "The Judgment",
+    "author": "Chart Korbjitti",
+    "current": 280,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:16.367Z"
+  },
+  "311": {
+    "title": "Ambiguous Adventure",
+    "author": "Cheikh Hamidou Kane",
+    "current": 216,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:21.114Z"
+  },
+  "312": {
+    "title": "Half of a Yellow Sun",
+    "author": "Chimamanda Ngozi Adichie",
+    "current": 321,
+    "pages": 474,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:01:24.118Z"
+  },
+  "313": {
+    "title": "The White Ship",
+    "author": "Chinghiz Aitmatov",
+    "current": 160,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:27.649Z"
+  },
+  "314": {
+    "title": "Jamilia",
+    "author": "Chinghiz Aitmatov",
+    "current": 90,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:30.462Z"
+  },
+  "315": {
+    "title": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "current": 301,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:01:34.666Z"
+  },
+  "316": {
+    "title": "Arrow of God",
+    "author": "Chinua Achebe",
+    "current": 240,
+    "pages": 266,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:01:38.455Z"
+  },
+  "317": {
+    "title": "The Dwarf",
+    "author": "Cho Se-hui",
+    "current": 248,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:41.629Z"
+  },
+  "318": {
+    "title": "The Square",
+    "author": "Choi In-hun",
+    "current": 210,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:01:44.905Z"
+  },
+  "319": {
+    "title": "Kassandra",
+    "author": "Christa Wolf",
+    "current": 144,
+    "pages": 161,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:01:47.889Z"
+  },
+  "320": {
+    "title": "The Quest for Christa T.",
+    "author": "Christa Wolf",
+    "current": 190,
+    "pages": 198,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:14.805Z"
+  },
+  "321": {
+    "title": "The Man Who Loved Children",
+    "author": "Christina Stead",
+    "current": 550,
+    "pages": 527,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:18.185Z"
+  },
+  "322": {
+    "title": "The Last World",
+    "author": "Christoph Ransmayr",
+    "current": 290,
+    "pages": 246,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:21.080Z"
+  },
+  "323": {
+    "title": "The Hungry Dogs",
+    "author": "Ciro Alegria",
+    "current": 224,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:02:26.172Z"
+  },
+  "324": {
+    "title": "The Hour of the Star",
+    "author": "Clarice Lispector",
+    "current": 128,
+    "pages": 96,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:29.011Z"
+  },
+  "325": {
+    "title": "The Passion According to G.H.",
+    "author": "Clarice Lispector",
+    "current": 351,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:02:32.316Z"
+  },
+  "326": {
+    "title": "Chéri",
+    "author": "Colette",
+    "current": 360,
+    "pages": 217,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:35.389Z"
+  },
+  "327": {
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "current": 351,
+    "pages": 368,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:38.768Z"
+  },
+  "328": {
+    "title": "The Third Wedding",
+    "author": "Costas Taktsis",
+    "current": 310,
+    "pages": 281,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:41.839Z"
+  },
+  "329": {
+    "title": "The Ship of Fools",
+    "author": "Cristina Peri Rossi",
+    "current": 210,
+    "pages": 215,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:44.972Z"
+  },
+  "330": {
+    "title": "Kaputt",
+    "author": "Curzio Malaparte",
+    "current": 437,
+    "pages": 437,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:48.188Z"
+  },
+  "331": {
+    "title": "The Rainbow",
+    "author": "D.H. Lawrence",
+    "current": 401,
+    "pages": 496,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:02:53.517Z"
+  },
+  "332": {
+    "title": "Forest of a Thousand Demons",
+    "author": "D.O. Fagunwa",
+    "current": 160,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:02:56.586Z"
+  },
+  "333": {
+    "title": "Shyness and Dignity",
+    "author": "Dag Solstad",
+    "current": 150,
+    "pages": 150,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:00.067Z"
+  },
+  "334": {
+    "title": "Novel 11, Book 18",
+    "author": "Dag Solstad",
+    "current": 208,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:03.139Z"
+  },
+  "335": {
+    "title": "House of Hunger",
+    "author": "Dambudzo Marechera",
+    "current": 150,
+    "pages": 157,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:05.976Z"
+  },
+  "336": {
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "current": 340,
+    "pages": 274,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:09.596Z"
+  },
+  "337": {
+    "title": "Tyll",
+    "author": "Daniel Kehlmann",
+    "current": 380,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:13.483Z"
+  },
+  "338": {
+    "title": "A Tomb for Boris Davidovich",
+    "author": "Danilo Kis",
+    "current": 135,
+    "pages": 145,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:16.554Z"
+  },
+  "339": {
+    "title": "The Encyclopedia of the Dead",
+    "author": "Danilo Kis",
+    "current": 208,
+    "pages": 199,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:19.729Z"
+  },
   "340": {
     "title": "The Enigma of the Return",
     "author": "Dany Laferriere",
@@ -838,6 +2718,30 @@
     "pages": 227,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:16.860Z"
+  },
+  "341": {
+    "title": "Remembering Babylon",
+    "author": "David Malouf",
+    "current": 349,
+    "pages": 201,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:22.902Z"
+  },
+  "342": {
+    "title": "Jacques the Fatalist",
+    "author": "Denis Diderot",
+    "current": 227,
+    "pages": 289,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:26.076Z"
+  },
+  "343": {
+    "title": "Skylark",
+    "author": "Dezso Kosztolanyi",
+    "current": 201,
+    "pages": 222,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:29.046Z"
   },
   "344": {
     "title": "The Tartar Steppe",
@@ -847,6 +2751,286 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:19.219Z"
   },
+  "345": {
+    "title": "White Noise",
+    "author": "Don DeLillo",
+    "current": 389,
+    "pages": 326,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:32.835Z"
+  },
+  "346": {
+    "title": "The Golden Notebook",
+    "author": "Doris Lessing",
+    "current": 237,
+    "pages": 592,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:36.011Z"
+  },
+  "347": {
+    "title": "A Life Full of Holes",
+    "author": "Driss Charhadi",
+    "current": 341,
+    "pages": 267,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:39.286Z"
+  },
+  "348": {
+    "title": "The Simple Past",
+    "author": "Driss Chraibi",
+    "current": 170,
+    "pages": 159,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:42.461Z"
+  },
+  "349": {
+    "title": "The Ministry of Pain",
+    "author": "Dubravka Ugresic",
+    "current": 220,
+    "pages": 286,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:46.147Z"
+  },
+  "350": {
+    "title": "The Museum of Unconditional Surrender",
+    "author": "Dubravka Ugresic",
+    "current": 240,
+    "pages": 312,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:49.117Z"
+  },
+  "351": {
+    "title": "Paradise of the Blind",
+    "author": "Duong Thu Huong",
+    "current": 270,
+    "pages": 272,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:03:52.189Z"
+  },
+  "352": {
+    "title": "The Rats",
+    "author": "Dyonelio Machado",
+    "current": 180,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:03:55.091Z"
+  },
+  "353": {
+    "title": "The Life and Opinions of the Tomcat Murr",
+    "author": "E.T.A. Hoffmann",
+    "current": 384,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:03:58.437Z"
+  },
+  "354": {
+    "title": "Howards End",
+    "author": "E.M. Forster",
+    "current": 320,
+    "pages": 342,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:01.817Z"
+  },
+  "355": {
+    "title": "The Dragon Can’t Dance",
+    "author": "Earl Lovelace",
+    "current": 240,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:04:05.194Z"
+  },
+  "356": {
+    "title": "The Crime of Father Amaro",
+    "author": "Eca de Queiros",
+    "current": 471,
+    "pages": 502,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:08.471Z"
+  },
+  "357": {
+    "title": "The Maias",
+    "author": "Eca de Queiros",
+    "current": 506,
+    "pages": 634,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:11.337Z"
+  },
+  "358": {
+    "title": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "current": 295,
+    "pages": 348,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:14.925Z"
+  },
+  "359": {
+    "title": "The Country Girls",
+    "author": "Edna O’Brien",
+    "current": 180,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:18.404Z"
+  },
+  "360": {
+    "title": "Mozart's Journey to Prague",
+    "author": "Eduard Morike",
+    "current": 255,
+    "pages": 95,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:21.783Z"
+  },
+  "361": {
+    "title": "The City of Marvels",
+    "author": "Eduardo Mendoza",
+    "current": 418,
+    "pages": 418,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:25.367Z"
+  },
+  "362": {
+    "title": "The Farming of Bones",
+    "author": "Edwidge Danticat",
+    "current": 310,
+    "pages": 312,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:28.221Z"
+  },
+  "363": {
+    "title": "Half a Lifelong Romance",
+    "author": "Eileen Chang",
+    "current": 341,
+    "pages": 1,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:31.921Z"
+  },
+  "364": {
+    "title": "A Girl Is a Half-formed Thing",
+    "author": "Eimear McBride",
+    "current": 375,
+    "pages": 238,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:35.095Z"
+  },
+  "365": {
+    "title": "Beauty Is a Wound",
+    "author": "Eka Kurniawan",
+    "current": 201,
+    "pages": 498,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:38.473Z"
+  },
+  "366": {
+    "title": "My Brilliant Friend",
+    "author": "Elena Ferrante",
+    "current": 339,
+    "pages": 336,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:41.548Z"
+  },
+  "367": {
+    "title": "Memories of the Future",
+    "author": "Elena Garro",
+    "current": 382,
+    "pages": 295,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:44.617Z"
+  },
+  "368": {
+    "title": "Recollections of Things to Come",
+    "author": "Elena Garro",
+    "current": 290,
+    "pages": 289,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:48.099Z"
+  },
+  "369": {
+    "title": "The Piano Teacher",
+    "author": "Elfriede Jelinek",
+    "current": 387,
+    "pages": 280,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:50.995Z"
+  },
+  "370": {
+    "title": "Gate of the Sun",
+    "author": "Elias Khoury",
+    "current": 544,
+    "pages": 539,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:54.274Z"
+  },
+  "371": {
+    "title": "History",
+    "author": "Elsa Morante",
+    "current": 267,
+    "pages": 630,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:04:57.316Z"
+  },
+  "372": {
+    "title": "Arturo’s Island",
+    "author": "Elsa Morante",
+    "current": 435,
+    "pages": 386,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:00.217Z"
+  },
+  "373": {
+    "title": "The Secret Life of Saeed the Pessoptimist",
+    "author": "Emile Habiby",
+    "current": 192,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:03.109Z"
+  },
+  "374": {
+    "title": "Germinal",
+    "author": "Emile Zola",
+    "current": 590,
+    "pages": 498,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:06.124Z"
+  },
+  "375": {
+    "title": "The House of Ulloa",
+    "author": "Emilia Pardo Bazan",
+    "current": 394,
+    "pages": 323,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:09.015Z"
+  },
+  "376": {
+    "title": "Wuthering Heights",
+    "author": "Emily Bronte",
+    "current": 433,
+    "pages": 318,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:12.269Z"
+  },
+  "377": {
+    "title": "Bartleby and Company",
+    "author": "Enrique Vila-Matas",
+    "current": 180,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:05:15.129Z"
+  },
+  "378": {
+    "title": "Kisses in the Nederends",
+    "author": "Epeli Hauʻofa",
+    "current": 150,
+    "pages": 153,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:17.975Z"
+  },
+  "379": {
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "current": 251,
+    "pages": 248,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:21.586Z"
+  },
   "380": {
     "title": "The Sun Also Rises",
     "author": "Ernest Hemingway",
@@ -854,6 +3038,150 @@
     "pages": 249,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:22.132Z"
+  },
+  "381": {
+    "title": "The Tunnel",
+    "author": "Ernesto Sabato",
+    "current": 297,
+    "pages": 151,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:24.459Z"
+  },
+  "382": {
+    "title": "Character",
+    "author": "F. Bordewijk",
+    "current": 240,
+    "pages": 286,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:27.297Z"
+  },
+  "383": {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "current": 220,
+    "pages": 185,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:31.008Z"
+  },
+  "384": {
+    "title": "Houseboy",
+    "author": "Ferdinand Oyono",
+    "current": 120,
+    "pages": 133,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:33.866Z"
+  },
+  "385": {
+    "title": "Metropole",
+    "author": "Ferenc Karinthy",
+    "current": 313,
+    "pages": 236,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:36.944Z"
+  },
+  "386": {
+    "title": "La Virgen de Los Sicarioa",
+    "author": "Fernando Vallejo",
+    "current": 136,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:05:39.813Z"
+  },
+  "387": {
+    "title": "At Swim Two Birds",
+    "author": "Flann O'Brien",
+    "current": 279,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:05:44.829Z"
+  },
+  "388": {
+    "title": "The Third Policeman",
+    "author": "Flann O’Brien",
+    "current": 401,
+    "pages": 197,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:48.311Z"
+  },
+  "389": {
+    "title": "Wise Blood",
+    "author": "Flannery O’Connor",
+    "current": 256,
+    "pages": 460,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:53.330Z"
+  },
+  "390": {
+    "title": "Efuru",
+    "author": "Flora Nwapa",
+    "current": 298,
+    "pages": 281,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:56.246Z"
+  },
+  "391": {
+    "title": "The Good Soldier",
+    "author": "Ford Madox Ford",
+    "current": 227,
+    "pages": 198,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:05:59.780Z"
+  },
+  "392": {
+    "title": "Therese Desqueiroux",
+    "author": "Francois Mauriac",
+    "current": 160,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:06:02.852Z"
+  },
+  "393": {
+    "title": "Double Play",
+    "author": "Frank Martinus Arion",
+    "current": 360,
+    "pages": 365,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:09.204Z"
+  },
+  "394": {
+    "title": "Metamorphosis",
+    "author": "Franz Kafka",
+    "current": 126,
+    "pages": 88,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:12.788Z"
+  },
+  "395": {
+    "title": "The Castle",
+    "author": "Franz Kafka",
+    "current": 381,
+    "pages": 386,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:15.962Z"
+  },
+  "396": {
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "current": 275,
+    "pages": 269,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:19.035Z"
+  },
+  "397": {
+    "title": "The Pledge",
+    "author": "Friedrich Durrenmatt",
+    "current": 160,
+    "pages": 183,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:23.641Z"
+  },
+  "398": {
+    "title": "The Long Way Back",
+    "author": "Fuad al-Takarli",
+    "current": 290,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:06:26.491Z"
   },
   "399": {
     "title": "The Waiting Years",
@@ -863,6 +3191,430 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:24.499Z"
   },
+  "400": {
+    "title": "Demons",
+    "author": "Fyodor Dostoevsky",
+    "current": 736,
+    "pages": 704,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:29.480Z"
+  },
+  "401": {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "current": 710,
+    "pages": 520,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:32.858Z"
+  },
+  "402": {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "current": 1013,
+    "pages": 822,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:36.135Z"
+  },
+  "403": {
+    "title": "The Idiot",
+    "author": "Fyodor Dostoevsky",
+    "current": 732,
+    "pages": 620,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:39.008Z"
+  },
+  "404": {
+    "title": "The Little Demon",
+    "author": "Fyodor Sologub",
+    "current": 356,
+    "pages": 355,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:41.883Z"
+  },
+  "405": {
+    "title": "The Autumn of the Patriarch",
+    "author": "Gabriel Garcia Marquez",
+    "current": 477,
+    "pages": 271,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:45.656Z"
+  },
+  "406": {
+    "title": "Love in the Time of Cholera",
+    "author": "Gabriel Garcia Marquez",
+    "current": 435,
+    "pages": 451,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:49.342Z"
+  },
+  "407": {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "current": 429,
+    "pages": 432,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:53.237Z"
+  },
+  "408": {
+    "title": "The Blue Sky",
+    "author": "Galsan Tschinag",
+    "current": 245,
+    "pages": 177,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:06:56.048Z"
+  },
+  "409": {
+    "title": "Zayni Barakat",
+    "author": "Gamal al-Ghitani",
+    "current": 256,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:06:58.887Z"
+  },
+  "410": {
+    "title": "Soul Mountain",
+    "author": "Gao Xingjian",
+    "current": 510,
+    "pages": 563,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:01.693Z"
+  },
+  "411": {
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "current": 850,
+    "pages": 795,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:04.704Z"
+  },
+  "412": {
+    "title": "Adam Bede",
+    "author": "George Eliot",
+    "current": 460,
+    "pages": 519,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:07.776Z"
+  },
+  "413": {
+    "title": "In the Castle of My Skin",
+    "author": "George Lamming",
+    "current": 422,
+    "pages": 313,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:10.744Z"
+  },
+  "414": {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "current": 120,
+    "pages": 128,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:13.727Z"
+  },
+  "415": {
+    "title": "Nighteen-eighty-four",
+    "author": "George Orwell",
+    "current": 328,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:07:16.533Z"
+  },
+  "416": {
+    "title": "Life: A User’s Manual",
+    "author": "Georges Perec",
+    "current": 419,
+    "pages": 617,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:19.550Z"
+  },
+  "417": {
+    "title": "The Plains",
+    "author": "Gerald Murnane",
+    "current": 254,
+    "pages": 126,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:22.432Z"
+  },
+  "418": {
+    "title": "The Evenings",
+    "author": "Gerard Reve",
+    "current": 257,
+    "pages": 317,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:25.796Z"
+  },
+  "419": {
+    "title": "Beirut Nightmares",
+    "author": "Ghada Samman",
+    "current": 390,
+    "pages": 1072,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:28.658Z"
+  },
+  "420": {
+    "title": "Men in the Sun",
+    "author": "Ghassan Kanafani",
+    "current": 110,
+    "pages": 114,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:31.635Z"
+  },
+  "421": {
+    "title": "The Inhabited Woman",
+    "author": "Gioconda Belli",
+    "current": 340,
+    "pages": 400,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:34.515Z"
+  },
+  "422": {
+    "title": "The Garden of the Finzi-Continis",
+    "author": "Giorgio Bassani",
+    "current": 241,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:07:39.168Z"
+  },
+  "423": {
+    "title": "The Leopard",
+    "author": "Giuseppe Tomasi di Lampedusa",
+    "current": 285,
+    "pages": 259,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:42.387Z"
+  },
+  "424": {
+    "title": "Elective Affinities",
+    "author": "Goethe",
+    "current": 289,
+    "pages": 305,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:45.461Z"
+  },
+  "425": {
+    "title": "The Sorrows of Young Werther",
+    "author": "Goethe",
+    "current": 349,
+    "pages": 179,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:48.635Z"
+  },
+  "426": {
+    "title": "Green Henry",
+    "author": "Gottfried Keller",
+    "current": 710,
+    "pages": 751,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:52.014Z"
+  },
+  "427": {
+    "title": "Barren Lives",
+    "author": "Graciliano Ramos",
+    "current": 144,
+    "pages": 131,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:55.186Z"
+  },
+  "428": {
+    "title": "São Bernardo",
+    "author": "Graciliano Ramos",
+    "current": 208,
+    "pages": 194,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:07:58.360Z"
+  },
+  "429": {
+    "title": "The Power and the Glory",
+    "author": "Graham Greene",
+    "current": 259,
+    "pages": 277,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:01.741Z"
+  },
+  "430": {
+    "title": "The End of the Affair",
+    "author": "Graham Greene",
+    "current": 230,
+    "pages": 231,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:04.813Z"
+  },
+  "431": {
+    "title": "Three Trapped Tigers",
+    "author": "Guillermo Cabrera Infante",
+    "current": 487,
+    "pages": 487,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:07.743Z"
+  },
+  "432": {
+    "title": "The Tin Drum",
+    "author": "Gunter Grass",
+    "current": 580,
+    "pages": 591,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:10.958Z"
+  },
+  "433": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "current": 335,
+    "pages": 350,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:18.127Z"
+  },
+  "434": {
+    "title": "Sentimental Education",
+    "author": "Gustave Flaubert",
+    "current": 460,
+    "pages": 473,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:23.654Z"
+  },
+  "435": {
+    "title": "Bel-Ami",
+    "author": "Guy de Maupassant",
+    "current": 251,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:08:29.125Z"
+  },
+  "436": {
+    "title": "The Case Worker",
+    "author": "Gyorgy Konrad",
+    "current": 180,
+    "pages": 173,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:32.256Z"
+  },
+  "437": {
+    "title": "Waiting",
+    "author": "Ha Jin",
+    "current": 320,
+    "pages": 308,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:35.942Z"
+  },
+  "438": {
+    "title": "Independent People",
+    "author": "Halldor Laxness",
+    "current": 480,
+    "pages": 486,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:39.117Z"
+  },
+  "439": {
+    "title": "Under the Glacier",
+    "author": "Halldor Laxness",
+    "current": 256,
+    "pages": 240,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:42.188Z"
+  },
+  "440": {
+    "title": "The Railway",
+    "author": "Hamid Ismailov",
+    "current": 333,
+    "pages": 336,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:45.363Z"
+  },
+  "441": {
+    "title": "The Dead Lake",
+    "author": "Hamid Ismailov",
+    "current": 208,
+    "pages": 122,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:48.434Z"
+  },
+  "442": {
+    "title": "The Sing-Song Girls of Shanghai",
+    "author": "Han Bangqing",
+    "current": 592,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:08:51.814Z"
+  },
+  "443": {
+    "title": "The Vegetarian",
+    "author": "Han Kang",
+    "current": 158,
+    "pages": 190,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:54.886Z"
+  },
+  "444": {
+    "title": "Human Acts",
+    "author": "Han Kang",
+    "current": 218,
+    "pages": 215,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:08:58.368Z"
+  },
+  "445": {
+    "title": "The Sail and the Storm",
+    "author": "Hanna Mina",
+    "current": 290,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:09:01.439Z"
+  },
+  "446": {
+    "title": "Every Man Dies Alone",
+    "author": "Hans Fallada",
+    "current": 543,
+    "pages": 515,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:04.416Z"
+  },
+  "447": {
+    "title": "The Assault",
+    "author": "Harry Mulisch",
+    "current": 185,
+    "pages": 191,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:07.584Z"
+  },
+  "448": {
+    "title": "The Wind-Up Bird Chronicle",
+    "author": "Haruki Murakami",
+    "current": 607,
+    "pages": 99,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:10.553Z"
+  },
+  "449": {
+    "title": "Shadowless",
+    "author": "Hasan Ali Toptas",
+    "current": 207,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:14.035Z"
+  },
+  "450": {
+    "title": "Billiards at Half-Past Nine",
+    "author": "Heinrich Boll",
+    "current": 307,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:09:18.933Z"
+  },
+  "451": {
+    "title": "The Lost Honor of Katharina Blum",
+    "author": "Heinrich Boll",
+    "current": 150,
+    "pages": 141,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:22.022Z"
+  },
+  "452": {
+    "title": "Man of Straw",
+    "author": "Heinrich Mann",
+    "current": 304,
+    "pages": 480,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:25.300Z"
+  },
   "453": {
     "title": "Professor Unrat",
     "author": "Heinrich Mann",
@@ -870,6 +3622,62 @@
     "pages": 244,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:27.050Z"
+  },
+  "454": {
+    "title": "The Children’s Bach",
+    "author": "Helen Garner",
+    "current": 258,
+    "pages": 100,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:28.576Z"
+  },
+  "455": {
+    "title": "Under Fire",
+    "author": "Henri Barbusse",
+    "current": 371,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:31.648Z"
+  },
+  "456": {
+    "title": "Lucky Per",
+    "author": "Henrik Pontoppidan",
+    "current": 610,
+    "pages": 664,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:34.559Z"
+  },
+  "457": {
+    "title": "The Portrait of a Lady",
+    "author": "Henry James",
+    "current": 326,
+    "pages": 608,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:39.533Z"
+  },
+  "458": {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "current": 710,
+    "pages": 452,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:42.914Z"
+  },
+  "459": {
+    "title": "Steppenwolf",
+    "author": "Hermann Hesse",
+    "current": 258,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:45.884Z"
+  },
+  "460": {
+    "title": "The Land of Green Plums",
+    "author": "Herta Muller",
+    "current": 242,
+    "pages": 242,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:49.261Z"
   },
   "461": {
     "title": "Wolf Hall",
@@ -879,6 +3687,166 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:29.508Z"
   },
+  "462": {
+    "title": "The Obscene Madame D",
+    "author": "Hilda Hilst",
+    "current": 110,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:09:53.154Z"
+  },
+  "463": {
+    "title": "Doctor Glas",
+    "author": "Hjalmar Soderberg",
+    "current": 160,
+    "pages": 150,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:56.010Z"
+  },
+  "464": {
+    "title": "The Tiller of Waters",
+    "author": "Hoda Barakat",
+    "current": 190,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:09:58.902Z"
+  },
+  "465": {
+    "title": "The Stone of Laughter",
+    "author": "Hoda Barakat",
+    "current": 220,
+    "pages": 232,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:01.822Z"
+  },
+  "466": {
+    "title": "Old Goriot",
+    "author": "Honore de Balzac",
+    "current": 304,
+    "pages": 304,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:05.033Z"
+  },
+  "467": {
+    "title": "Lost Illusions",
+    "author": "Honore de Balzac",
+    "current": 704,
+    "pages": 664,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:08.104Z"
+  },
+  "468": {
+    "title": "Senselessness",
+    "author": "Horacio Castellanos Moya",
+    "current": 275,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:10.965Z"
+  },
+  "469": {
+    "title": "Prince Ehtejab",
+    "author": "Houshang Golshiri",
+    "current": 110,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:10:13.824Z"
+  },
+  "470": {
+    "title": "The Guest",
+    "author": "Hwang Sok-yong",
+    "current": 315,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:10:17.421Z"
+  },
+  "471": {
+    "title": "The Heron",
+    "author": "Ibrahim Aslan",
+    "current": 198,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:20.391Z"
+  },
+  "472": {
+    "title": "Bread and Wine",
+    "author": "Ignazio Silone",
+    "current": 219,
+    "pages": 316,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:23.463Z"
+  },
+  "473": {
+    "title": "Fontamara",
+    "author": "Ignazio Silone",
+    "current": 210,
+    "pages": 211,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:26.638Z"
+  },
+  "474": {
+    "title": "The Twelve Chairs",
+    "author": "Ilf and Petrov",
+    "current": 350,
+    "pages": 395,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:29.915Z"
+  },
+  "475": {
+    "title": "Kaddish for an Unborn Child",
+    "author": "Imre Kertesz",
+    "current": 106,
+    "pages": 120,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:33.191Z"
+  },
+  "476": {
+    "title": "Fatelessness",
+    "author": "Imre Kertesz",
+    "current": 379,
+    "pages": 286,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:36.106Z"
+  },
+  "477": {
+    "title": "Malina",
+    "author": "Ingeborg Bachmann",
+    "current": 388,
+    "pages": 355,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:38.998Z"
+  },
+  "478": {
+    "title": "Basti",
+    "author": "Intizar Husain",
+    "current": 369,
+    "pages": 266,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:41.997Z"
+  },
+  "479": {
+    "title": "My Uncle Napoleon",
+    "author": "Iraj Pezeshkzad",
+    "current": 528,
+    "pages": 528,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:45.172Z"
+  },
+  "480": {
+    "title": "The Artificial Silk Girl",
+    "author": "Irmgard Keun",
+    "current": 233,
+    "pages": 218,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:48.142Z"
+  },
+  "481": {
+    "title": "Trainspotting",
+    "author": "Irvine Welsh",
+    "current": 360,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:51.214Z"
+  },
   "482": {
     "title": "Red Cavalry",
     "author": "Isaac Babel",
@@ -887,6 +3855,278 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:32.071Z"
   },
+  "483": {
+    "title": "Satan in Goray",
+    "author": "Isaac Bashevis Singer",
+    "current": 176,
+    "pages": 199,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:54.695Z"
+  },
+  "484": {
+    "title": "The House of the Spirits",
+    "author": "Isabel Allende",
+    "current": 448,
+    "pages": 453,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:10:57.870Z"
+  },
+  "485": {
+    "title": "Broken April",
+    "author": "Ismail Kadare",
+    "current": 291,
+    "pages": 232,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:00.942Z"
+  },
+  "486": {
+    "title": "The Karnowski Family",
+    "author": "Israel Joshua Singer",
+    "current": 448,
+    "pages": 490,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:03.779Z"
+  },
+  "487": {
+    "title": "Invisible Cities",
+    "author": "Italo Calvino",
+    "current": 165,
+    "pages": 165,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:06.983Z"
+  },
+  "488": {
+    "title": "If on a Winter’s Night a Traveler",
+    "author": "Italo Calvino",
+    "current": 260,
+    "pages": 261,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:10.055Z"
+  },
+  "489": {
+    "title": "Zeno’s Conscience",
+    "author": "Italo Svevo",
+    "current": 320,
+    "pages": 433,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:13.025Z"
+  },
+  "490": {
+    "title": "Cross-Paths",
+    "author": "Ivan Franko",
+    "current": 340,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:11:15.904Z"
+  },
+  "491": {
+    "title": "Oblomov",
+    "author": "Ivan Goncharov",
+    "current": 374,
+    "pages": 517,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:18.969Z"
+  },
+  "492": {
+    "title": "Love and Garbage",
+    "author": "Ivan Klima",
+    "current": 257,
+    "pages": 223,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:21.883Z"
+  },
+  "493": {
+    "title": "Fathers and Sons",
+    "author": "Ivan Turgenev",
+    "current": 215,
+    "pages": 247,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:24.945Z"
+  },
+  "494": {
+    "title": "The Bridge on the Drina",
+    "author": "Ivo Andric",
+    "current": 210,
+    "pages": 378,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:27.851Z"
+  },
+  "495": {
+    "title": "Niels Lyhne",
+    "author": "J. P. Jacobsen",
+    "current": 187,
+    "pages": 243,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:30.727Z"
+  },
+  "496": {
+    "title": "Disgrace",
+    "author": "J.M. Coetzee",
+    "current": 230,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:11:35.304Z"
+  },
+  "497": {
+    "title": "Waiting for the Barbarians",
+    "author": "J.M. Coetzee",
+    "current": 235,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:11:40.064Z"
+  },
+  "498": {
+    "title": "The Czar’s Madman",
+    "author": "Jaan Kross",
+    "current": 360,
+    "pages": 357,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:42.894Z"
+  },
+  "499": {
+    "title": "In Search of Walid Masoud",
+    "author": "Jabra Ibrahim Jabra",
+    "current": 290,
+    "pages": 289,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:46.103Z"
+  },
+  "500": {
+    "title": "I Who Have Never Known Men",
+    "author": "Jacqueline Harpman",
+    "current": 192,
+    "pages": 208,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:48.899Z"
+  },
+  "501": {
+    "title": "The Autobiography of My Mother",
+    "author": "Jamaica Kincaid",
+    "current": 361,
+    "pages": 228,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:52.040Z"
+  },
+  "502": {
+    "title": "Go Tell it on the Mountain",
+    "author": "James Baldwin",
+    "current": 172,
+    "pages": 233,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:55.884Z"
+  },
+  "503": {
+    "title": "The Private Memoirs of a Justified Sinner",
+    "author": "James Hogg",
+    "current": 240,
+    "pages": 261,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:11:59.106Z"
+  },
+  "504": {
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "current": 732,
+    "pages": 736,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:02.592Z"
+  },
+  "505": {
+    "title": "A Portrait of the Artist as a Young Man",
+    "author": "James Joyce",
+    "current": 284,
+    "pages": 252,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:06.071Z"
+  },
+  "506": {
+    "title": "How Late it Was, How Late",
+    "author": "James Kelman",
+    "current": 349,
+    "pages": 373,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:08.963Z"
+  },
+  "507": {
+    "title": "The Manuscript Found in Saragossa",
+    "author": "Jan Potocki",
+    "current": 738,
+    "pages": 462,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:11.906Z"
+  },
+  "508": {
+    "title": "Emma",
+    "author": "Jane Austen",
+    "current": 493,
+    "pages": 457,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:15.491Z"
+  },
+  "509": {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "current": 443,
+    "pages": 351,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:19.692Z"
+  },
+  "510": {
+    "title": "Faces in the Water",
+    "author": "Janet Frame",
+    "current": 227,
+    "pages": 254,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:22.545Z"
+  },
+  "511": {
+    "title": "Owls Do Cry",
+    "author": "Janet Frame",
+    "current": 413,
+    "pages": 231,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:25.526Z"
+  },
+  "512": {
+    "title": "The Good Soldier Švejk",
+    "author": "Jaroslav Hasek",
+    "current": 750,
+    "pages": 624,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:28.433Z"
+  },
+  "513": {
+    "title": "The Soldiers of Salamis",
+    "author": "Javier Cercas",
+    "current": 210,
+    "pages": 220,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:31.333Z"
+  },
+  "514": {
+    "title": "A Heart So White",
+    "author": "Javier Marias",
+    "current": 281,
+    "pages": 314,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:34.204Z"
+  },
+  "515": {
+    "title": "Our Lady of the Flowers",
+    "author": "Jean Genet",
+    "current": 303,
+    "pages": 318,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:37.303Z"
+  },
+  "516": {
+    "title": "Malpertuis",
+    "author": "Jean Ray",
+    "current": 240,
+    "pages": 187,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:40.145Z"
+  },
   "517": {
     "title": "Wide Sargasso Sea",
     "author": "Jean Rhys",
@@ -894,6 +4134,590 @@
     "pages": 189,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:35.246Z"
+  },
+  "518": {
+    "title": "The End of Days",
+    "author": "Jenny Erpenbeck",
+    "current": 194,
+    "pages": 269,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:43.138Z"
+  },
+  "519": {
+    "title": "Ashes and Diamonds",
+    "author": "Jerzy Andrzejewski",
+    "current": 239,
+    "pages": 239,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:46.023Z"
+  },
+  "520": {
+    "title": "Tirra Lirra by the River",
+    "author": "Jessica Anderson",
+    "current": 207,
+    "pages": 143,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:49.282Z"
+  },
+  "521": {
+    "title": "Dogeaters",
+    "author": "Jessica Hagedorn",
+    "current": 195,
+    "pages": 254,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:52.354Z"
+  },
+  "522": {
+    "title": "Uncertain Glory",
+    "author": "Joan Sales",
+    "current": 214,
+    "pages": 457,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:12:55.426Z"
+  },
+  "523": {
+    "title": "The Devil to Pay in the Backlands",
+    "author": "Joao Guimaraes Rosa",
+    "current": 550,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:13:00.271Z"
+  },
+  "524": {
+    "title": "The Core of the Sun",
+    "author": "Johanna Sinisalo",
+    "current": 304,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:03.414Z"
+  },
+  "525": {
+    "title": "The Fall of the King",
+    "author": "Johannes V. Jensen",
+    "current": 216,
+    "pages": 237,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:06.485Z"
+  },
+  "526": {
+    "title": "The Sea",
+    "author": "John Banville",
+    "current": 226,
+    "pages": 233,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:09.559Z"
+  },
+  "527": {
+    "title": "Amongst Women",
+    "author": "John McGahern",
+    "current": 427,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:12.403Z"
+  },
+  "528": {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "current": 286,
+    "pages": 544,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:15.499Z"
+  },
+  "529": {
+    "title": "Celestial Bodies",
+    "author": "Jokha Alharthi",
+    "current": 256,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:18.290Z"
+  },
+  "530": {
+    "title": "Septology",
+    "author": "Jon Fosse",
+    "current": 820,
+    "pages": 825,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:21.105Z"
+  },
+  "531": {
+    "title": "Childhood",
+    "author": "Jona Oberski",
+    "current": 128,
+    "pages": 119,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:23.902Z"
+  },
+  "532": {
+    "title": "Gulliver’s Travels",
+    "author": "Jonathan Swift",
+    "current": 252,
+    "pages": 278,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:28.197Z"
+  },
+  "533": {
+    "title": "Capitães de Areia",
+    "author": "Jorge Amado",
+    "current": 280,
+    "pages": 283,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:31.266Z"
+  },
+  "534": {
+    "title": "Against Nature",
+    "author": "Joris-Karl Huysmans",
+    "current": 262,
+    "pages": 188,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:34.338Z"
+  },
+  "535": {
+    "title": "The Delfim",
+    "author": "Jose Cardoso Pires",
+    "current": 230,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:13:37.254Z"
+  },
+  "536": {
+    "title": "The Obscene Bird of Night",
+    "author": "Jose Donoso",
+    "current": 464,
+    "pages": 438,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:40.482Z"
+  },
+  "537": {
+    "title": "The Book of Chameleons",
+    "author": "Jose Eduardo Agualusa",
+    "current": 180,
+    "pages": 193,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:43.657Z"
+  },
+  "538": {
+    "title": "The Vortex",
+    "author": "Jose Eustasio Rivera",
+    "current": 260,
+    "pages": 240,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:46.832Z"
+  },
+  "539": {
+    "title": "Luuanda",
+    "author": "Jose Luandino Vieira",
+    "current": 118,
+    "pages": 147,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:51.342Z"
+  },
+  "540": {
+    "title": "Deep Rivers",
+    "author": "Jose Maria Arguedas",
+    "current": 240,
+    "pages": 264,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:54.186Z"
+  },
+  "541": {
+    "title": "Noli Me Tangere",
+    "author": "Jose Rizal",
+    "current": 444,
+    "pages": 449,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:13:57.482Z"
+  },
+  "542": {
+    "title": "The Gospel According to Jesus Christ",
+    "author": "Jose Saramago",
+    "current": 330,
+    "pages": 446,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:00.523Z"
+  },
+  "543": {
+    "title": "Blindness",
+    "author": "Jose Saramago",
+    "current": 264,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:03.383Z"
+  },
+  "544": {
+    "title": "Baltasar and Blimunda",
+    "author": "Jose Saramago",
+    "current": 321,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:06.290Z"
+  },
+  "545": {
+    "title": "The Cowards",
+    "author": "Josef Skvorecky",
+    "current": 504,
+    "pages": 416,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:09.116Z"
+  },
+  "546": {
+    "title": "The Empty Book",
+    "author": "Josefina Vicens",
+    "current": 144,
+    "pages": 123,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:12.125Z"
+  },
+  "547": {
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "current": 136,
+    "pages": 136,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:15.211Z"
+  },
+  "548": {
+    "title": "Nostromo",
+    "author": "Joseph Conrad",
+    "current": 489,
+    "pages": 469,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:18.886Z"
+  },
+  "549": {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "current": 372,
+    "pages": 463,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:22.980Z"
+  },
+  "550": {
+    "title": "Job",
+    "author": "Joseph Roth",
+    "current": 319,
+    "pages": 238,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:27.075Z"
+  },
+  "551": {
+    "title": "The Radetzky March",
+    "author": "Joseph Roth",
+    "current": 371,
+    "pages": 363,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:29.944Z"
+  },
+  "552": {
+    "title": "The Life of a Good-for-nothing",
+    "author": "Joseph von Eichendorff",
+    "current": 120,
+    "pages": 142,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:32.912Z"
+  },
+  "553": {
+    "title": "Black Shack Alley",
+    "author": "Joseph Zobel",
+    "current": 212,
+    "pages": 184,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:35.771Z"
+  },
+  "554": {
+    "title": "Not Out of Hate",
+    "author": "Journal Kyaw Ma Ma Lay",
+    "current": 240,
+    "pages": 222,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:38.954Z"
+  },
+  "555": {
+    "title": "The Shipyard",
+    "author": "Juan Carlos Onetti",
+    "current": 181,
+    "pages": 188,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:41.850Z"
+  },
+  "556": {
+    "title": "A Brief Life",
+    "author": "Juan Carlos Onetti",
+    "current": 290,
+    "pages": 292,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:44.995Z"
+  },
+  "557": {
+    "title": "Marks of Identity",
+    "author": "Juan Goytisolo",
+    "current": 332,
+    "pages": 387,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:47.892Z"
+  },
+  "558": {
+    "title": "Count Julian",
+    "author": "Juan Goytisolo",
+    "current": 240,
+    "pages": 205,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:50.832Z"
+  },
+  "559": {
+    "title": "The Witness",
+    "author": "Juan Jose Saer",
+    "current": 176,
+    "pages": 167,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:53.671Z"
+  },
+  "560": {
+    "title": "Ultimas Tardes con Teresa",
+    "author": "Juan Marse",
+    "current": 376,
+    "pages": 432,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:56.511Z"
+  },
+  "561": {
+    "title": "Pedro Páramo",
+    "author": "Juan Rulfo",
+    "current": 143,
+    "pages": 130,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:14:59.380Z"
+  },
+  "562": {
+    "title": "The Opposing Shore",
+    "author": "Julien Gracq",
+    "current": 302,
+    "pages": 317,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:02.192Z"
+  },
+  "563": {
+    "title": "Hopscotch",
+    "author": "Julio Cortazar",
+    "current": 564,
+    "pages": 633,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:04.972Z"
+  },
+  "564": {
+    "title": "As Pupilas do Sr Reitor",
+    "author": "Julio Dinis",
+    "current": 320,
+    "pages": 287,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:07.825Z"
+  },
+  "565": {
+    "title": "Some Prefer Nettles",
+    "author": "Jun’ichiro Tanizaki",
+    "current": 359,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:15:10.655Z"
+  },
+  "566": {
+    "title": "The Makioka Sisters",
+    "author": "Jun’ichiro Tanizaki",
+    "current": 381,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:15:13.491Z"
+  },
+  "567": {
+    "title": "Jacob the Liar",
+    "author": "Jurek Becker",
+    "current": 371,
+    "pages": 269,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:16.373Z"
+  },
+  "568": {
+    "title": "The Meursault Investigation",
+    "author": "Kamel Daoud",
+    "current": 150,
+    "pages": 153,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:19.162Z"
+  },
+  "569": {
+    "title": "War with the Newts",
+    "author": "Karel Capek",
+    "current": 340,
+    "pages": 309,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:22.065Z"
+  },
+  "570": {
+    "title": "Out of Africa",
+    "author": "Karen Blixen",
+    "current": 330,
+    "pages": 389,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:25.034Z"
+  },
+  "571": {
+    "title": "Feet in Chains",
+    "author": "Kate Roberts",
+    "current": 280,
+    "pages": 173,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:27.825Z"
+  },
+  "572": {
+    "title": "Nedjma",
+    "author": "Kateb Yacine",
+    "current": 280,
+    "pages": 255,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:30.768Z"
+  },
+  "573": {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "current": 245,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:33.614Z"
+  },
+  "574": {
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "current": 311,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:37.322Z"
+  },
+  "575": {
+    "title": "Sozaboy",
+    "author": "Ken Saro-Wiwa",
+    "current": 190,
+    "pages": 128,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:40.147Z"
+  },
+  "576": {
+    "title": "The Cape",
+    "author": "Kenji Nakagami",
+    "current": 140,
+    "pages": 200,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:43.038Z"
+  },
+  "577": {
+    "title": "A Personal Matter",
+    "author": "Kenzaburo Oe",
+    "current": 295,
+    "pages": 165,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:45.898Z"
+  },
+  "578": {
+    "title": "The Bone People",
+    "author": "Keri Hulme",
+    "current": 450,
+    "pages": 464,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:48.895Z"
+  },
+  "579": {
+    "title": "Aangan",
+    "author": "Khadija Mastoor",
+    "current": 320,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:15:51.804Z"
+  },
+  "580": {
+    "title": "No Knives in the Kitchens of This City",
+    "author": "Khaled Khalifa",
+    "current": 449,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:55.345Z"
+  },
+  "581": {
+    "title": "Train to Pakistan",
+    "author": "Khushwant Singh",
+    "current": 261,
+    "pages": 207,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:15:58.519Z"
+  },
+  "582": {
+    "title": "That Deadman Dance",
+    "author": "Kim Scott",
+    "current": 368,
+    "pages": 368,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:01.591Z"
+  },
+  "583": {
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai",
+    "current": 393,
+    "pages": 336,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:04.776Z"
+  },
+  "584": {
+    "title": "Mephisto",
+    "author": "Klaus Mann",
+    "current": 272,
+    "pages": 379,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:08.145Z"
+  },
+  "585": {
+    "title": "Hunger",
+    "author": "Knut Hamsun",
+    "current": 134,
+    "pages": 196,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:11.321Z"
+  },
+  "586": {
+    "title": "The Woman in the Dunes",
+    "author": "Kobo Abe",
+    "current": 241,
+    "pages": 239,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:14.393Z"
+  },
+  "587": {
+    "title": "Search Sweet Country",
+    "author": "Kojo Laing",
+    "current": 323,
+    "pages": 349,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:18.386Z"
+  },
+  "588": {
+    "title": "Four Reigns",
+    "author": "Kukrit Pramoj",
+    "current": 431,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:16:23.508Z"
+  },
+  "589": {
+    "title": "Ali and Nino",
+    "author": "Kurban Said",
+    "current": 280,
+    "pages": 239,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:26.888Z"
+  },
+  "590": {
+    "title": "Slaughterhouse V",
+    "author": "Kurt Vonnegut",
+    "current": 215,
+    "pages": 296,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:29.961Z"
   },
   "591": {
     "title": "Rickshaw Boy",
@@ -911,6 +4735,446 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:40.571Z"
   },
+  "593": {
+    "title": "Satantango",
+    "author": "Laszlo Krasznahorkai",
+    "current": 377,
+    "pages": 287,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:33.033Z"
+  },
+  "594": {
+    "title": "The Open Door",
+    "author": "Latifa al-Zayyat",
+    "current": 392,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:16:36.396Z"
+  },
+  "595": {
+    "title": "Dear Shameless Death",
+    "author": "Latife Tekin",
+    "current": 417,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:39.486Z"
+  },
+  "596": {
+    "title": "The Life and Opinions of Tristram Shandy",
+    "author": "Laurence Sterne",
+    "current": 735,
+    "pages": 526,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:43.175Z"
+  },
+  "597": {
+    "title": "Lullaby",
+    "author": "Leila Slimani",
+    "current": 251,
+    "pages": 242,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:47.170Z"
+  },
+  "598": {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "current": 1440,
+    "pages": 696,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:51.471Z"
+  },
+  "599": {
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "current": 920,
+    "pages": 656,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:55.054Z"
+  },
+  "600": {
+    "title": "Hadji Murat",
+    "author": "Leo Tolstoy",
+    "current": 153,
+    "pages": 167,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:16:58.329Z"
+  },
+  "601": {
+    "title": "The Death of Ivan Ilyich",
+    "author": "Leo Tolstoy",
+    "current": 92,
+    "pages": 92,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:02.017Z"
+  },
+  "602": {
+    "title": "The Man Who Loved Dogs",
+    "author": "Leonardo Padura",
+    "current": 580,
+    "pages": 679,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:05.190Z"
+  },
+  "603": {
+    "title": "The Day of the Owl",
+    "author": "Leonardo Sciascia",
+    "current": 208,
+    "pages": 124,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:08.262Z"
+  },
+  "604": {
+    "title": "La Regenta",
+    "author": "Leopoldo Alas “Clarin”",
+    "current": 734,
+    "pages": 684,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:12.051Z"
+  },
+  "605": {
+    "title": "Ceremony",
+    "author": "Leslie Marmon Silko",
+    "current": 224,
+    "pages": 262,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:15.533Z"
+  },
+  "606": {
+    "title": "Sunset Song",
+    "author": "Lewis Grassic Gibbon",
+    "current": 260,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:19.016Z"
+  },
+  "607": {
+    "title": "The Murmuring Coast",
+    "author": "Lidia Jorge",
+    "current": 260,
+    "pages": 259,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:22.291Z"
+  },
+  "608": {
+    "title": "The Sad End of Policarpo Quaresma",
+    "author": "Lima Barreto",
+    "current": 240,
+    "pages": 339,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:25.363Z"
+  },
+  "609": {
+    "title": "The Oppermanns",
+    "author": "Lion Feuchtwanger",
+    "current": 373,
+    "pages": 378,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:28.212Z"
+  },
+  "610": {
+    "title": "The Forest of the Hanged",
+    "author": "Liviu Rebreanu",
+    "current": 320,
+    "pages": 316,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:31.303Z"
+  },
+  "611": {
+    "title": "Eline Vere",
+    "author": "Louis Couperus",
+    "current": 394,
+    "pages": 579,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:34.274Z"
+  },
+  "612": {
+    "title": "Chapel Road",
+    "author": "Louis Paul Bloon",
+    "current": 338,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:17:37.069Z"
+  },
+  "613": {
+    "title": "Death on Credit",
+    "author": "Louis-Ferdinand Celine",
+    "current": 592,
+    "pages": 592,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:40.179Z"
+  },
+  "614": {
+    "title": "Journey to the End of the Night",
+    "author": "Louis-Ferdinand Celine",
+    "current": 391,
+    "pages": 509,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:43.283Z"
+  },
+  "615": {
+    "title": "The True Story of Ah Q",
+    "author": "Lu Xun",
+    "current": 120,
+    "pages": 100,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:46.562Z"
+  },
+  "616": {
+    "title": "The Late Mathias Pascal",
+    "author": "Luigi Pirandello",
+    "current": 260,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:17:49.735Z"
+  },
+  "617": {
+    "title": "Time of Silence",
+    "author": "Luis Martin-Santos",
+    "current": 290,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:17:54.343Z"
+  },
+  "618": {
+    "title": "The Girl in the Photograph",
+    "author": "Lygia Fagundes Telles",
+    "current": 275,
+    "pages": 266,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:17:57.619Z"
+  },
+  "619": {
+    "title": "Beneath the Lion’s Gaze",
+    "author": "Maaza Mengiste",
+    "current": 228,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:00.534Z"
+  },
+  "620": {
+    "title": "Dom Casmurro",
+    "author": "Machado de Assis",
+    "current": 299,
+    "pages": 268,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:03.662Z"
+  },
+  "621": {
+    "title": "The Posthumous Memoirs of Brás Cubas",
+    "author": "Machado de Assis",
+    "current": 368,
+    "pages": 242,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:06.654Z"
+  },
+  "622": {
+    "title": "The Princess of Cleves",
+    "author": "Madame de Lafayette",
+    "current": 176,
+    "pages": 199,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:09.907Z"
+  },
+  "623": {
+    "title": "Gilles’ Wife",
+    "author": "Madeleine Bourdouxhe",
+    "current": 140,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:18:12.877Z"
+  },
+  "624": {
+    "title": "The Door",
+    "author": "Magda Szabo",
+    "current": 280,
+    "pages": 272,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:15.705Z"
+  },
+  "625": {
+    "title": "Missing Soluch",
+    "author": "Mahmoud Dowlatabadi",
+    "current": 289,
+    "pages": 446,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:18.500Z"
+  },
+  "626": {
+    "title": "The Colonel",
+    "author": "Mahmoud Dowlatabadi",
+    "current": 327,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:18:21.276Z"
+  },
+  "627": {
+    "title": "Under the Volcano",
+    "author": "Malcolm Lowry",
+    "current": 423,
+    "pages": 391,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:24.756Z"
+  },
+  "628": {
+    "title": "Kiss of the Spider Woman",
+    "author": "Manuel Puig",
+    "current": 203,
+    "pages": 281,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:27.641Z"
+  },
+  "629": {
+    "title": "In Search of Lost Time",
+    "author": "Marcel Proust",
+    "current": 3215,
+    "pages": 550,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:30.762Z"
+  },
+  "630": {
+    "title": "A Posthumous Confession",
+    "author": "Marcellus Emants",
+    "current": 224,
+    "pages": 193,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:33.767Z"
+  },
+  "631": {
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "current": 311,
+    "pages": 350,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:37.045Z"
+  },
+  "632": {
+    "title": "The Stone Angel",
+    "author": "Margaret Laurence",
+    "current": 317,
+    "pages": 308,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:40.528Z"
+  },
+  "633": {
+    "title": "Kassandra and the Wolf",
+    "author": "Margarita Karapanou",
+    "current": 136,
+    "pages": 115,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:43.379Z"
+  },
+  "634": {
+    "title": "The Lover",
+    "author": "Marguerite Duras",
+    "current": 140,
+    "pages": 128,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:46.271Z"
+  },
+  "635": {
+    "title": "Memoirs of Hadrian",
+    "author": "Marguerite Yourcenar",
+    "current": 280,
+    "pages": 321,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:49.135Z"
+  },
+  "636": {
+    "title": "The Ten Thousand Things",
+    "author": "Maria Dermout",
+    "current": 222,
+    "pages": 244,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:54.350Z"
+  },
+  "637": {
+    "title": "The Final Mist",
+    "author": "Maria Luisa Bombal",
+    "current": 110,
+    "pages": 118,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:18:57.209Z"
+  },
+  "638": {
+    "title": "So Long a Letter",
+    "author": "Mariama Ba",
+    "current": 108,
+    "pages": 120,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:00.392Z"
+  },
+  "639": {
+    "title": "The Underdogs",
+    "author": "Mariano Azuela",
+    "current": 334,
+    "pages": 175,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:03.284Z"
+  },
+  "640": {
+    "title": "A Season in the Life of Emmanuel",
+    "author": "Marie-Claire Blais",
+    "current": 130,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:19:06.331Z"
+  },
+  "641": {
+    "title": "Housekeeping",
+    "author": "Marilynne Robinson",
+    "current": 170,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:09.135Z"
+  },
+  "642": {
+    "title": "The Truce",
+    "author": "Mario Benedetti",
+    "current": 157,
+    "pages": 186,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:11.946Z"
+  },
+  "643": {
+    "title": "Conversation in the Cathedral",
+    "author": "Mario Vargas Llosa",
+    "current": 336,
+    "pages": 669,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:14.785Z"
+  },
+  "644": {
+    "title": "The War of the End of the World",
+    "author": "Mario Vargas Llosa",
+    "current": 248,
+    "pages": 608,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:17.632Z"
+  },
+  "645": {
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "current": 276,
+    "pages": 346,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:20.901Z"
+  },
+  "646": {
+    "title": "A Brief History of Seven Killings",
+    "author": "Marlon James",
+    "current": 355,
+    "pages": 704,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:23.946Z"
+  },
+  "647": {
+    "title": "The Way of the Lotus",
+    "author": "Martin Wickramasinghe",
+    "current": 240,
+    "pages": 173,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:27.630Z"
+  },
   "648": {
     "title": "Frankenstein",
     "author": "Mary Shelley",
@@ -918,6 +5182,358 @@
     "pages": 240,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:43.448Z"
+  },
+  "649": {
+    "title": "Crossing the Mangrove",
+    "author": "Maryse Conde",
+    "current": 346,
+    "pages": 250,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:32.136Z"
+  },
+  "650": {
+    "title": "Segu",
+    "author": "Maryse Conde",
+    "current": 272,
+    "pages": 493,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:35.823Z"
+  },
+  "651": {
+    "title": "Black Rain",
+    "author": "Masuji Ibuse",
+    "current": 336,
+    "pages": 300,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:39.303Z"
+  },
+  "652": {
+    "title": "Homo Faber",
+    "author": "Max Frisch",
+    "current": 424,
+    "pages": 237,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:42.684Z"
+  },
+  "653": {
+    "title": "I’m Not Stiller",
+    "author": "Max Frisch",
+    "current": 207,
+    "pages": 430,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:45.755Z"
+  },
+  "654": {
+    "title": "My Childhood",
+    "author": "Maxim Gorky",
+    "current": 286,
+    "pages": 330,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:48.641Z"
+  },
+  "655": {
+    "title": "The Mother",
+    "author": "Maxim Gorky",
+    "current": 216,
+    "pages": 414,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:52.104Z"
+  },
+  "656": {
+    "title": "The Time of the Doves",
+    "author": "Merce Rodoreda",
+    "current": 182,
+    "pages": 201,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:55.279Z"
+  },
+  "657": {
+    "title": "Death and the Dervish",
+    "author": "Mesa Selimovic",
+    "current": 227,
+    "pages": 473,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:19:58.815Z"
+  },
+  "658": {
+    "title": "Sleepwalking Land",
+    "author": "Mia Couto",
+    "current": 220,
+    "pages": 220,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:04.311Z"
+  },
+  "659": {
+    "title": "The English Patient",
+    "author": "Michael Ondaatje",
+    "current": 304,
+    "pages": 313,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:07.569Z"
+  },
+  "660": {
+    "title": "No Telephone to Heaven",
+    "author": "Michelle Cliff",
+    "current": 290,
+    "pages": 211,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:10.741Z"
+  },
+  "661": {
+    "title": "The President",
+    "author": "Miguel Angel Asturias",
+    "current": 438,
+    "pages": 300,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:13.813Z"
+  },
+  "662": {
+    "title": "Men of Maize",
+    "author": "Miguel Angel Asturias",
+    "current": 288,
+    "pages": 367,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:16.987Z"
+  },
+  "663": {
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "current": 982,
+    "pages": 519,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:21.086Z"
+  },
+  "664": {
+    "title": "Mist",
+    "author": "Miguel de Unamuno",
+    "current": 220,
+    "pages": 231,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:24.024Z"
+  },
+  "665": {
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "current": 412,
+    "pages": 439,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:27.433Z"
+  },
+  "666": {
+    "title": "A Hero of Our Time",
+    "author": "Mikhail Lermontov",
+    "current": 185,
+    "pages": 147,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:31.016Z"
+  },
+  "667": {
+    "title": "Kvachi",
+    "author": "Mikheil Javakhishvili",
+    "current": 350,
+    "pages": 512,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:33.799Z"
+  },
+  "668": {
+    "title": "They Were Counted",
+    "author": "Miklos Banffy",
+    "current": 596,
+    "pages": 624,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:36.959Z"
+  },
+  "669": {
+    "title": "The Unbearable Lightness of Being",
+    "author": "Milan Kundera",
+    "current": 212,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:40.835Z"
+  },
+  "670": {
+    "title": "Dictionary of the Khazars",
+    "author": "Milorad Pavic",
+    "current": 330,
+    "pages": 338,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:43.892Z"
+  },
+  "671": {
+    "title": "Two Brothers",
+    "author": "Milton Hatoum",
+    "current": 270,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:20:47.094Z"
+  },
+  "672": {
+    "title": "Nostalgia",
+    "author": "Mircea Cartarescu",
+    "current": 324,
+    "pages": 337,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:50.576Z"
+  },
+  "673": {
+    "title": "On the Edge of Reason",
+    "author": "Miroslav Krleza",
+    "current": 184,
+    "pages": 182,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:53.647Z"
+  },
+  "674": {
+    "title": "The Return of Philip Latinowicz",
+    "author": "Miroslav Krleza",
+    "current": 260,
+    "pages": 230,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:56.502Z"
+  },
+  "675": {
+    "title": "Big Breasts and Wide Hips",
+    "author": "Mo Yan",
+    "current": 552,
+    "pages": 550,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:20:59.392Z"
+  },
+  "676": {
+    "title": "Red Sorghum",
+    "author": "Mo Yan",
+    "current": 368,
+    "pages": 368,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:02.195Z"
+  },
+  "677": {
+    "title": "For Bread Alone",
+    "author": "Mohamed Choukri",
+    "current": 291,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:05.030Z"
+  },
+  "678": {
+    "title": "The Game of Forgetting",
+    "author": "Mohammed Berrada",
+    "current": 180,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:21:07.915Z"
+  },
+  "679": {
+    "title": "The Reluctant Fundamentalist",
+    "author": "Mohsin Hamid",
+    "current": 208,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:10.821Z"
+  },
+  "680": {
+    "title": "The Poor Christ of Bomba",
+    "author": "Mongo Beti",
+    "current": 220,
+    "pages": 250,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:13.730Z"
+  },
+  "681": {
+    "title": "Mission to Kala",
+    "author": "Mongo Beti",
+    "current": 190,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:16.790Z"
+  },
+  "682": {
+    "title": "Animal Triste",
+    "author": "Monika Maron",
+    "current": 160,
+    "pages": 238,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:19.760Z"
+  },
+  "683": {
+    "title": "Barney's Version",
+    "author": "Mordecai Richler",
+    "current": 355,
+    "pages": 417,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:22.832Z"
+  },
+  "684": {
+    "title": "The Wild Geese",
+    "author": "Mori Ogai",
+    "current": 150,
+    "pages": 119,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:26.108Z"
+  },
+  "685": {
+    "title": "I Saw Ramallah",
+    "author": "Mourid Barghouti",
+    "current": 181,
+    "pages": 208,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:29.146Z"
+  },
+  "686": {
+    "title": "Untouchable",
+    "author": "Mulk Raj Anand",
+    "current": 394,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:32.151Z"
+  },
+  "687": {
+    "title": "Max Havelaar",
+    "author": "Multatuli",
+    "current": 273,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:35.224Z"
+  },
+  "688": {
+    "title": "The Prime of Miss Jean Brodie",
+    "author": "Muriel Spark",
+    "current": 398,
+    "pages": 164,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:38.396Z"
+  },
+  "689": {
+    "title": "July’s People",
+    "author": "Nadine Gordimer",
+    "current": 167,
+    "pages": 163,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:41.787Z"
+  },
+  "690": {
+    "title": "Children of Gebelawi",
+    "author": "Naguib Mahfouz",
+    "current": 350,
+    "pages": 448,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:44.951Z"
+  },
+  "691": {
+    "title": "The Cairo Trilogy",
+    "author": "Naguib Mahfouz",
+    "current": 1368,
+    "pages": 1360,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:48.022Z"
+  },
+  "692": {
+    "title": "Family Lexicon",
+    "author": "Natalia Ginzburg",
+    "current": 276,
+    "pages": 219,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:50.841Z"
   },
   "693": {
     "title": "The Scarlet Letter",
@@ -927,6 +5543,22 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:46.412Z"
   },
+  "694": {
+    "title": "Sanshiro",
+    "author": "Natsume Soseki",
+    "current": 248,
+    "pages": 248,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:54.167Z"
+  },
+  "695": {
+    "title": "Kokoro",
+    "author": "Natsume Soseki",
+    "current": 334,
+    "pages": 272,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:57.003Z"
+  },
   "696": {
     "title": "Out",
     "author": "Natsuo Kirino",
@@ -934,6 +5566,374 @@
     "pages": 616,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:49.073Z"
+  },
+  "697": {
+    "title": "Woman at Point Zero",
+    "author": "Nawal El Saadawi",
+    "current": 121,
+    "pages": 111,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:21:59.852Z"
+  },
+  "698": {
+    "title": "Manchay Puytu",
+    "author": "Nestor Taboada Teran",
+    "current": 218,
+    "pages": 235,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:02.638Z"
+  },
+  "699": {
+    "title": "Petals of Blood",
+    "author": "Ngugi wa Thiong’o",
+    "current": 392,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:22:05.450Z"
+  },
+  "700": {
+    "title": "A Grain of Wheat",
+    "author": "Ngugi wa Thiong’o",
+    "current": 264,
+    "pages": 33,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:08.367Z"
+  },
+  "701": {
+    "title": "The Way of the World",
+    "author": "Nicolas Bouvier",
+    "current": 258,
+    "pages": 314,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:11.370Z"
+  },
+  "702": {
+    "title": "The Silence and the Roar",
+    "author": "Nihad Sirees",
+    "current": 150,
+    "pages": 164,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:14.206Z"
+  },
+  "703": {
+    "title": "Dead Souls",
+    "author": "Nikolai Gogol",
+    "current": 483,
+    "pages": 317,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:17.312Z"
+  },
+  "704": {
+    "title": "The Last Temptation of Christ",
+    "author": "Nikos Kazantzakis",
+    "current": 222,
+    "pages": 512,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:20.227Z"
+  },
+  "705": {
+    "title": "Zorba the Greek",
+    "author": "Nikos Kazantzakis",
+    "current": 340,
+    "pages": 320,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:23.248Z"
+  },
+  "706": {
+    "title": "Soviet Milk",
+    "author": "Nora Ikstena",
+    "current": 241,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:26.528Z"
+  },
+  "707": {
+    "title": "Smile as They Bow",
+    "author": "Nu Nu Yi",
+    "current": 140,
+    "pages": 146,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:29.370Z"
+  },
+  "708": {
+    "title": "From a Crooked Rib",
+    "author": "Nuruddin Farah",
+    "current": 180,
+    "pages": 173,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:32.361Z"
+  },
+  "709": {
+    "title": "Maps",
+    "author": "Nuruddin Farah",
+    "current": 321,
+    "pages": 246,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:35.207Z"
+  },
+  "710": {
+    "title": "The Legends of Khasak",
+    "author": "O.V. Vijayan",
+    "current": 221,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:22:38.301Z"
+  },
+  "711": {
+    "title": "The Museum of Abandoned Secrets",
+    "author": "Oksana Zabuzhko",
+    "current": 336,
+    "pages": 714,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:41.373Z"
+  },
+  "712": {
+    "title": "Flights",
+    "author": "Olga Tokarczuk",
+    "current": 390,
+    "pages": 424,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:44.445Z"
+  },
+  "713": {
+    "title": "The Books of Jacob",
+    "author": "Olga Tokarczuk",
+    "current": 960,
+    "pages": 1002,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:47.414Z"
+  },
+  "714": {
+    "title": "Snares Without End",
+    "author": "Olympe Bhely-Quenum",
+    "current": 210,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:22:50.220Z"
+  },
+  "715": {
+    "title": "My Name Is Red",
+    "author": "Orhan Pamuk",
+    "current": 416,
+    "pages": 536,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:53.456Z"
+  },
+  "716": {
+    "title": "No Longer Human",
+    "author": "Osamu Dazai",
+    "current": 375,
+    "pages": 187,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:22:56.631Z"
+  },
+  "717": {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "current": 308,
+    "pages": 246,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:00.014Z"
+  },
+  "718": {
+    "title": "God’s Bits of Wood",
+    "author": "Ousmane Sembene",
+    "current": 330,
+    "pages": 333,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:03.288Z"
+  },
+  "719": {
+    "title": "The Dwarf",
+    "author": "Par Lagerkvist",
+    "current": 228,
+    "pages": 228,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:06.310Z"
+  },
+  "720": {
+    "title": "Barabbas",
+    "author": "Par Lagerkvist",
+    "current": 120,
+    "pages": 180,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:09.109Z"
+  },
+  "721": {
+    "title": "The Blue Mimosa",
+    "author": "Parijat",
+    "current": 150,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:23:12.094Z"
+  },
+  "722": {
+    "title": "Who Ate Up All the Shinga?",
+    "author": "Park Wan-suh",
+    "current": 247,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:23:15.575Z"
+  },
+  "723": {
+    "title": "Potiki",
+    "author": "Patricia Grace",
+    "current": 241,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:18.482Z"
+  },
+  "724": {
+    "title": "Texaco",
+    "author": "Patrick Chamoiseau",
+    "current": 390,
+    "pages": 416,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:21.391Z"
+  },
+  "725": {
+    "title": "Perfume",
+    "author": "Patrick Suskind",
+    "current": 240,
+    "pages": 263,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:24.267Z"
+  },
+  "726": {
+    "title": "Voss",
+    "author": "Patrick White",
+    "current": 223,
+    "pages": 456,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:27.453Z"
+  },
+  "727": {
+    "title": "The Sheltering Sky",
+    "author": "Paul Bowles",
+    "current": 319,
+    "pages": 322,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:30.833Z"
+  },
+  "728": {
+    "title": "Brown Girl, Brown Stone",
+    "author": "Paule Marshall",
+    "current": 304,
+    "pages": 424,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:33.804Z"
+  },
+  "729": {
+    "title": "A Geração da Utopia",
+    "author": "Pepetela",
+    "current": 320,
+    "pages": 318,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:36.694Z"
+  },
+  "730": {
+    "title": "Mayombe",
+    "author": "Pepetela",
+    "current": 215,
+    "pages": 200,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:39.497Z"
+  },
+  "731": {
+    "title": "The Royal Physician’s Visit",
+    "author": "Per Olov Enquist",
+    "current": 247,
+    "pages": 317,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:42.612Z"
+  },
+  "732": {
+    "title": "Oscar and Lucinda",
+    "author": "Peter Carey",
+    "current": 403,
+    "pages": 514,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:45.426Z"
+  },
+  "733": {
+    "title": "Celestial Harmonies",
+    "author": "Peter Esterhazy",
+    "current": 450,
+    "pages": 864,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:48.651Z"
+  },
+  "734": {
+    "title": "A Sorrow Beyond Dreams",
+    "author": "Peter Handke",
+    "current": 233,
+    "pages": 103,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:51.723Z"
+  },
+  "735": {
+    "title": "A Book of Memories",
+    "author": "Peter Nadas",
+    "current": 259,
+    "pages": 720,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:54.567Z"
+  },
+  "736": {
+    "title": "American Pastoral",
+    "author": "Philip Roth",
+    "current": 432,
+    "pages": 432,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:23:57.663Z"
+  },
+  "737": {
+    "title": "Dangerous Liaisons",
+    "author": "Pierre Choderlos de Laclos",
+    "current": 380,
+    "pages": 410,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:00.711Z"
+  },
+  "738": {
+    "title": "El Árbol de la Ciencia",
+    "author": "Pio Baroja",
+    "current": 311,
+    "pages": 303,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:03.569Z"
+  },
+  "739": {
+    "title": "This Earth of Mankind",
+    "author": "Pramoedya Ananta Toer",
+    "current": 367,
+    "pages": 360,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:06.708Z"
+  },
+  "740": {
+    "title": "Evening Is the Whole Day",
+    "author": "Preeta Samarasan",
+    "current": 340,
+    "pages": 340,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:09.525Z"
+  },
+  "741": {
+    "title": "Godan",
+    "author": "Premchand",
+    "current": 440,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:24:14.114Z"
+  },
+  "742": {
+    "title": "If This Is a Man",
+    "author": "Primo Levi",
+    "current": 220,
+    "pages": 206,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:17.008Z"
   },
   "743": {
     "title": "The Periodic Table",
@@ -943,6 +5943,246 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:51.532Z"
   },
+  "744": {
+    "title": "Fortress Besieged",
+    "author": "Qian Zhongshu",
+    "current": 215,
+    "pages": 406,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:19.849Z"
+  },
+  "745": {
+    "title": "Notes of a Crocodile",
+    "author": "Qiu Miaojin",
+    "current": 209,
+    "pages": 242,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:22.658Z"
+  },
+  "746": {
+    "title": "River of Fire",
+    "author": "Qurratulain Hyder",
+    "current": 506,
+    "pages": 438,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:25.822Z"
+  },
+  "747": {
+    "title": "The Guide",
+    "author": "R.K. Narayan",
+    "current": 257,
+    "pages": 39,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:28.724Z"
+  },
+  "748": {
+    "title": "Gora",
+    "author": "Rabindranath Tagore",
+    "current": 508,
+    "pages": 456,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:31.546Z"
+  },
+  "749": {
+    "title": "The Home and the World",
+    "author": "Rabindranath Tagore",
+    "current": 256,
+    "pages": 215,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:34.462Z"
+  },
+  "750": {
+    "title": "Ancient Tillage",
+    "author": "Raduan Nassar",
+    "current": 140,
+    "pages": 144,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:37.246Z"
+  },
+  "751": {
+    "title": "Granada",
+    "author": "Radwa Ashour",
+    "current": 380,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:24:41.833Z"
+  },
+  "752": {
+    "title": "The Notebooks of Malte Laurids Brigge",
+    "author": "Rainer Maria Rilke",
+    "current": 220,
+    "pages": 243,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:44.869Z"
+  },
+  "753": {
+    "title": "Kanthapura",
+    "author": "Raja Rao",
+    "current": 180,
+    "pages": 244,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:47.738Z"
+  },
+  "754": {
+    "title": "The Serpent and the Rope",
+    "author": "Raja Rao",
+    "current": 416,
+    "pages": 407,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:52.143Z"
+  },
+  "755": {
+    "title": "Invisible Man",
+    "author": "Ralph Ellison",
+    "current": 581,
+    "pages": 480,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:55.214Z"
+  },
+  "756": {
+    "title": "Tyrant Banderas",
+    "author": "Ramon del Valle-Inclan",
+    "current": 224,
+    "pages": 240,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:24:58.590Z"
+  },
+  "757": {
+    "title": "Border Country",
+    "author": "Raymond Williams",
+    "current": 380,
+    "pages": 371,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:02.687Z"
+  },
+  "758": {
+    "title": "The Ill-Fated Peregrinations of Fray Servando",
+    "author": "Reinaldo Arenas",
+    "current": 230,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:25:05.656Z"
+  },
+  "759": {
+    "title": "The Life of Ismail Ferik Pasha",
+    "author": "Rhea Galanaki",
+    "current": 190,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:25:08.729Z"
+  },
+  "760": {
+    "title": "Vilnius Poker",
+    "author": "Ricardas Gavelis",
+    "current": 430,
+    "pages": 540,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:12.313Z"
+  },
+  "761": {
+    "title": "Don Segundo Sombra",
+    "author": "Ricardo Guiraldes",
+    "current": 414,
+    "pages": 268,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:15.208Z"
+  },
+  "762": {
+    "title": "Artificial Respiration",
+    "author": "Ricardo Piglia",
+    "current": 220,
+    "pages": 229,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:18.251Z"
+  },
+  "763": {
+    "title": "A High Wind in Jamaica",
+    "author": "Richard Hughes",
+    "current": 239,
+    "pages": 283,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:21.426Z"
+  },
+  "764": {
+    "title": "Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "current": 110,
+    "pages": 130,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:25.832Z"
+  },
+  "765": {
+    "title": "The Man Without Qualities",
+    "author": "Robert Musil",
+    "current": 1770,
+    "pages": 1632,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:29.210Z"
+  },
+  "766": {
+    "title": "The Confusions of Young Törless",
+    "author": "Robert Musil",
+    "current": 208,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:32.895Z"
+  },
+  "767": {
+    "title": "The Tanners",
+    "author": "Robert Walser",
+    "current": 357,
+    "pages": 350,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:35.966Z"
+  },
+  "768": {
+    "title": "Jakob von Gunten",
+    "author": "Robert Walser",
+    "current": 281,
+    "pages": 157,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:39.245Z"
+  },
+  "769": {
+    "title": "The Seven Madmen",
+    "author": "Roberto Arlt",
+    "current": 260,
+    "pages": 249,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:42.127Z"
+  },
+  "770": {
+    "title": "The Savage Detectives",
+    "author": "Roberto Bolano",
+    "current": 577,
+    "pages": 619,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:45.004Z"
+  },
+  "771": {
+    "title": "2666",
+    "author": "Roberto Bolano",
+    "current": 898,
+    "pages": 1032,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:47.852Z"
+  },
+  "772": {
+    "title": "Fifth Business",
+    "author": "Robertson Davies",
+    "current": 304,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:50.673Z"
+  },
+  "773": {
+    "title": "Pichiciegos",
+    "author": "Rodolfo Fogwill",
+    "current": 160,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:53.454Z"
+  },
   "774": {
     "title": "A Fine Balance",
     "author": "Rohinton Mistry",
@@ -950,6 +6190,262 @@
     "pages": 719,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:54.193Z"
+  },
+  "775": {
+    "title": "Doña Barbara",
+    "author": "Romulo Gallegos",
+    "current": 312,
+    "pages": 300,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:56.448Z"
+  },
+  "776": {
+    "title": "Balún Canán",
+    "author": "Rosario Castellanos",
+    "current": 263,
+    "pages": 291,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:25:59.318Z"
+  },
+  "777": {
+    "title": "The Book of Lamentations",
+    "author": "Rosario Castellanos",
+    "current": 370,
+    "pages": 368,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:02.235Z"
+  },
+  "778": {
+    "title": "The Murderer",
+    "author": "Roy Heath",
+    "current": 176,
+    "pages": 194,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:05.337Z"
+  },
+  "779": {
+    "title": "Coin Locker Babies",
+    "author": "Ryu Murakami",
+    "current": 393,
+    "pages": 393,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:08.209Z"
+  },
+  "780": {
+    "title": "Madonna in a Fur Coat",
+    "author": "Sabahattin Ali",
+    "current": 376,
+    "pages": 176,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:11.296Z"
+  },
+  "781": {
+    "title": "The Blind Owl",
+    "author": "Sadegh Hedayat",
+    "current": 120,
+    "pages": 130,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:14.777Z"
+  },
+  "782": {
+    "title": "The Mountain Villager",
+    "author": "Sadriddin Ayni",
+    "current": 290,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:26:17.746Z"
+  },
+  "783": {
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie",
+    "current": 647,
+    "pages": 556,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:20.716Z"
+  },
+  "784": {
+    "title": "The Satanic Verses",
+    "author": "Salman Rushdie",
+    "current": 579,
+    "pages": 560,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:23.789Z"
+  },
+  "785": {
+    "title": "December Bride",
+    "author": "Sam Hanna Bell",
+    "current": 290,
+    "pages": 299,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:27.476Z"
+  },
+  "786": {
+    "title": "The Lonely Londoners",
+    "author": "Sam Selvon",
+    "current": 180,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:26:32.073Z"
+  },
+  "787": {
+    "title": "Molloy / Malone Dies / The Unnamable",
+    "author": "Samuel Beckett",
+    "current": 288,
+    "pages": 414,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:34.924Z"
+  },
+  "788": {
+    "title": "Embers",
+    "author": "Sandor Marai",
+    "current": 284,
+    "pages": 210,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:37.740Z"
+  },
+  "789": {
+    "title": "The White Shadow",
+    "author": "Saneh Sangsuk",
+    "current": 380,
+    "pages": 450,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:40.547Z"
+  },
+  "790": {
+    "title": "A School for Fools",
+    "author": "Sasha Sokolov",
+    "current": 208,
+    "pages": 214,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:43.395Z"
+  },
+  "791": {
+    "title": "The Adventures of Augie March",
+    "author": "Saul Bellow",
+    "current": 546,
+    "pages": 536,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:46.264Z"
+  },
+  "792": {
+    "title": "Herzog",
+    "author": "Saul Bellow",
+    "current": 398,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:49.290Z"
+  },
+  "793": {
+    "title": "The Twilight Years",
+    "author": "Sawako Ariyoshi",
+    "current": 260,
+    "pages": 216,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:52.768Z"
+  },
+  "794": {
+    "title": "Our Lady of the Nile",
+    "author": "Scholastique Mukasonga",
+    "current": 363,
+    "pages": 244,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:55.840Z"
+  },
+  "795": {
+    "title": "Gösta Berling’s Saga",
+    "author": "Selma Lagerlof",
+    "current": 390,
+    "pages": 399,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:26:59.014Z"
+  },
+  "796": {
+    "title": "Voroshilovgrad",
+    "author": "Serhiy Zhadan",
+    "current": 378,
+    "pages": 443,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:01.900Z"
+  },
+  "797": {
+    "title": "Women Without Men",
+    "author": "Shahrnush Parsipur",
+    "current": 445,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:04.739Z"
+  },
+  "798": {
+    "title": "The Seven Moons of Maali Almeida",
+    "author": "Shehan Karunatilaka",
+    "current": 386,
+    "pages": 400,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:07.636Z"
+  },
+  "799": {
+    "title": "We Have Always Lived in the Castle",
+    "author": "Shirley Jackson",
+    "current": 185,
+    "pages": 187,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:10.586Z"
+  },
+  "800": {
+    "title": "Fires on the Plain",
+    "author": "Shohei Ooka",
+    "current": 194,
+    "pages": 246,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:13.440Z"
+  },
+  "801": {
+    "title": "Raag Darbari",
+    "author": "Shrilal Shukla",
+    "current": 410,
+    "pages": 360,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:16.286Z"
+  },
+  "802": {
+    "title": "The Italian",
+    "author": "Shukri Mabkhout",
+    "current": 364,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:27:19.077Z"
+  },
+  "803": {
+    "title": "Silence",
+    "author": "Shusaku Endo",
+    "current": 320,
+    "pages": 294,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:21.956Z"
+  },
+  "804": {
+    "title": "Funny Boy",
+    "author": "Shyam Selvadurai",
+    "current": 325,
+    "pages": 314,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:24.921Z"
+  },
+  "805": {
+    "title": "Where We Once Belonged",
+    "author": "Sia Figiel",
+    "current": 240,
+    "pages": 241,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:27.717Z"
+  },
+  "806": {
+    "title": "Autobiography of a Corpse",
+    "author": "Sigizmund Krzhizhanovsky",
+    "current": 265,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:27:32.423Z"
   },
   "807": {
     "title": "Kristin Lavransdatter",
@@ -959,6 +6455,14 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:56.755Z"
   },
+  "808": {
+    "title": "A Persian Requiem",
+    "author": "Simin Daneshvar",
+    "current": 363,
+    "pages": 279,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:35.469Z"
+  },
   "809": {
     "title": "The Mandarins",
     "author": "Simone de Beauvoir",
@@ -966,6 +6470,78 @@
     "pages": 610,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:44:59.418Z"
+  },
+  "810": {
+    "title": "The Bridge of Beyond",
+    "author": "Simone Schwarz-Bart",
+    "current": 466,
+    "pages": 246,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:38.541Z"
+  },
+  "811": {
+    "title": "The Corpse Washer",
+    "author": "Sinan Antoon",
+    "current": 366,
+    "pages": 200,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:41.402Z"
+  },
+  "812": {
+    "title": "Purge",
+    "author": "Sofi Oksanen",
+    "current": 266,
+    "pages": 409,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:44.264Z"
+  },
+  "813": {
+    "title": "The Committee",
+    "author": "Sonallah Ibrahim",
+    "current": 166,
+    "pages": 178,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:47.118Z"
+  },
+  "814": {
+    "title": "That Smell",
+    "author": "Sonallah Ibrahim",
+    "current": 110,
+    "pages": 121,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:49.985Z"
+  },
+  "815": {
+    "title": "Life and a Half",
+    "author": "Sony Labou Tansi",
+    "current": 266,
+    "pages": 134,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:52.979Z"
+  },
+  "816": {
+    "title": "Solaris",
+    "author": "StanisLaw Lem",
+    "current": 299,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:56.359Z"
+  },
+  "817": {
+    "title": "Chess Story",
+    "author": "Stefan Zweig",
+    "current": 104,
+    "pages": 88,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:27:59.329Z"
+  },
+  "818": {
+    "title": "The Charterhouse of Parma",
+    "author": "Stendhal",
+    "current": 225,
+    "pages": 510,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:02.298Z"
   },
   "819": {
     "title": "The Red and the Black",
@@ -975,6 +6551,174 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:45:02.184Z"
   },
+  "820": {
+    "title": "Tree Without Roots",
+    "author": "Syed Waliullah",
+    "current": 220,
+    "pages": 223,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:05.098Z"
+  },
+  "821": {
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "current": 262,
+    "pages": 262,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:07.975Z"
+  },
+  "822": {
+    "title": "The Sand Child",
+    "author": "Tahar Ben Jelloun",
+    "current": 180,
+    "pages": 208,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:11.208Z"
+  },
+  "823": {
+    "title": "The Garden of Evening Mists",
+    "author": "Tan Twan Eng",
+    "current": 351,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:14.072Z"
+  },
+  "824": {
+    "title": "The Ice Palace",
+    "author": "Tarjei Vesaas",
+    "current": 378,
+    "pages": 176,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:17.044Z"
+  },
+  "825": {
+    "title": "The Birds",
+    "author": "Tarjei Vesaas",
+    "current": 208,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:20.116Z"
+  },
+  "826": {
+    "title": "Slynx",
+    "author": "Tatyana Tolstaya",
+    "current": 384,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:23.290Z"
+  },
+  "827": {
+    "title": "Return of the Spirit",
+    "author": "Tawfiq al-Hakim",
+    "current": 320,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:26.464Z"
+  },
+  "828": {
+    "title": "The Wedding of Zein",
+    "author": "Tayeb Salih",
+    "current": 204,
+    "pages": 169,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:29.536Z"
+  },
+  "829": {
+    "title": "Season of Migration to the North",
+    "author": "Tayeb Salih",
+    "current": 169,
+    "pages": 169,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:32.916Z"
+  },
+  "830": {
+    "title": "Chemmeen",
+    "author": "Thakazhi Sivasankara Pillai",
+    "current": 240,
+    "pages": 218,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:36.090Z"
+  },
+  "831": {
+    "title": "Effi Briest",
+    "author": "Theodor Fontane",
+    "current": 218,
+    "pages": 349,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:39.472Z"
+  },
+  "832": {
+    "title": "The Rider on the White Horse",
+    "author": "Theodor Storm",
+    "current": 127,
+    "pages": 248,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:42.541Z"
+  },
+  "833": {
+    "title": "The Loser",
+    "author": "Thomas Bernhard",
+    "current": 276,
+    "pages": 189,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:45.716Z"
+  },
+  "834": {
+    "title": "Jude the Obscure",
+    "author": "Thomas Hardy",
+    "current": 401,
+    "pages": 451,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:49.303Z"
+  },
+  "835": {
+    "title": "Tess of the d’Urbervilles",
+    "author": "Thomas Hardy",
+    "current": 287,
+    "pages": 457,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:52.732Z"
+  },
+  "836": {
+    "title": "The Magic Mountain",
+    "author": "Thomas Mann",
+    "current": 720,
+    "pages": 729,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:56.061Z"
+  },
+  "837": {
+    "title": "Buddenbrooks",
+    "author": "Thomas Mann",
+    "current": 313,
+    "pages": 669,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:28:59.233Z"
+  },
+  "838": {
+    "title": "Death in Venice",
+    "author": "Thomas Mann",
+    "current": 218,
+    "pages": 237,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:02.614Z"
+  },
+  "839": {
+    "title": "Chaka",
+    "author": "Thomas Mofolo",
+    "current": 209,
+    "pages": 181,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:05.685Z"
+  },
+  "840": {
+    "title": "Cloudstreet",
+    "author": "Tim Winton",
+    "current": 426,
+    "pages": 426,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:08.581Z"
+  },
   "841": {
     "title": "The Wars",
     "author": "Timothy Findley",
@@ -982,6 +6726,118 @@
     "pages": 226,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:45:04.845Z"
+  },
+  "842": {
+    "title": "The Roar of Morning",
+    "author": "Tip Marugg",
+    "current": 150,
+    "pages": 150,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:12.135Z"
+  },
+  "843": {
+    "title": "Havoc",
+    "author": "Tom Kristensen",
+    "current": 444,
+    "pages": 547,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:17.051Z"
+  },
+  "844": {
+    "title": "Santa Evita",
+    "author": "Tomas Eloy Martinez",
+    "current": 378,
+    "pages": 396,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:21.865Z"
+  },
+  "845": {
+    "title": "Song of Solomon",
+    "author": "Toni Morrison",
+    "current": 384,
+    "pages": 341,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:25.245Z"
+  },
+  "846": {
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "current": 349,
+    "pages": 330,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:29.546Z"
+  },
+  "847": {
+    "title": "Copenhagen Trilogy",
+    "author": "Tove Ditlevsen",
+    "current": 290,
+    "pages": 352,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:32.719Z"
+  },
+  "848": {
+    "title": "The Summer Book",
+    "author": "Tove Jansson",
+    "current": 192,
+    "pages": 166,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:36.202Z"
+  },
+  "849": {
+    "title": "Nervous Conditions",
+    "author": "Tsitsi Dangarembga",
+    "current": 342,
+    "pages": 205,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:39.377Z"
+  },
+  "850": {
+    "title": "Samskara",
+    "author": "U.R. Ananthamurthy",
+    "current": 208,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:29:45.314Z"
+  },
+  "851": {
+    "title": "The Name of the Rose",
+    "author": "Umberto Eco",
+    "current": 246,
+    "pages": 533,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:48.900Z"
+  },
+  "852": {
+    "title": "The Story of Jan Dara",
+    "author": "Utsana Phleungtham",
+    "current": 310,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:29:52.174Z"
+  },
+  "853": {
+    "title": "A Bend in the River",
+    "author": "V.S. Naipaul",
+    "current": 336,
+    "pages": 54,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:56.072Z"
+  },
+  "854": {
+    "title": "A House for Mr Biswas",
+    "author": "V.S. Naipaul",
+    "current": 580,
+    "pages": 44,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:29:59.650Z"
+  },
+  "855": {
+    "title": "The Unknown Soldier",
+    "author": "Vaino Linna",
+    "current": 450,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:30:05.281Z"
   },
   "856": {
     "title": "Life and Fate",
@@ -991,6 +6847,38 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:45:07.501Z"
   },
+  "857": {
+    "title": "Z",
+    "author": "Vassilis Vassilikos",
+    "current": 201,
+    "pages": 376,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:09.071Z"
+  },
+  "858": {
+    "title": "The Grand Hotel",
+    "author": "Vicki Baum",
+    "current": 315,
+    "pages": 309,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:13.474Z"
+  },
+  "859": {
+    "title": "Solitud",
+    "author": "Victor Catala",
+    "current": 220,
+    "pages": 283,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:17.467Z"
+  },
+  "860": {
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "current": 1454,
+    "pages": 520,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:20.746Z"
+  },
   "861": {
     "title": "A Suitable Boy",
     "author": "Vikram Seth",
@@ -998,6 +6886,70 @@
     "pages": 1408,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:45:10.082Z"
+  },
+  "862": {
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "current": 361,
+    "pages": 242,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:25.560Z"
+  },
+  "863": {
+    "title": "Mrs Dalloway",
+    "author": "Virginia Woolf",
+    "current": 325,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:30.344Z"
+  },
+  "864": {
+    "title": "Bille",
+    "author": "Vizma Belsevica",
+    "current": 260,
+    "pages": 253,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:34.059Z"
+  },
+  "865": {
+    "title": "Pale Fire",
+    "author": "Vladimir Nabokov",
+    "current": 315,
+    "pages": 315,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:37.333Z"
+  },
+  "866": {
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "current": 366,
+    "pages": 336,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:40.613Z"
+  },
+  "867": {
+    "title": "Summer of Caprice",
+    "author": "Vladislav Vancura",
+    "current": 160,
+    "pages": 121,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:43.989Z"
+  },
+  "868": {
+    "title": "Candide",
+    "author": "Voltaire",
+    "current": 298,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:47.473Z"
+  },
+  "869": {
+    "title": "Dumb Luck",
+    "author": "Vu Trong Phung",
+    "current": 180,
+    "pages": 195,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:50.748Z"
   },
   "870": {
     "title": "The Rings of Saturn",
@@ -1007,6 +6959,142 @@
     "source": "OL Median",
     "timestamp": "2026-06-09T01:45:12.767Z"
   },
+  "871": {
+    "title": "The Song of Everlasting Sorrow",
+    "author": "Wang Anyi",
+    "current": 586,
+    "pages": 456,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:30:53.717Z"
+  },
+  "872": {
+    "title": "Golden Age",
+    "author": "Wang Xiaobo",
+    "current": 253,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:30:58.941Z"
+  },
+  "873": {
+    "title": "Death Comes for the Archbishop",
+    "author": "Willa Cather",
+    "current": 279,
+    "pages": 299,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:02.321Z"
+  },
+  "874": {
+    "title": "Cheese",
+    "author": "Willem Elsschot",
+    "current": 104,
+    "pages": 134,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:05.236Z"
+  },
+  "875": {
+    "title": "The Darkroom of Damocles",
+    "author": "Willem Frederik Hermans",
+    "current": 337,
+    "pages": 400,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:08.566Z"
+  },
+  "876": {
+    "title": "Beyond Sleep",
+    "author": "Willem Frederik Hermans",
+    "current": 320,
+    "pages": 311,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:11.607Z"
+  },
+  "877": {
+    "title": "Absalom, Absalom!",
+    "author": "William Faulkner",
+    "current": 212,
+    "pages": 378,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:15.037Z"
+  },
+  "878": {
+    "title": "The Sound and the Fury",
+    "author": "William Faulkner",
+    "current": 330,
+    "pages": 358,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:18.501Z"
+  },
+  "879": {
+    "title": "Lord of the Flies",
+    "author": "William Golding",
+    "current": 285,
+    "pages": 243,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:21.688Z"
+  },
+  "880": {
+    "title": "The Lost Musicians",
+    "author": "William Heinesen",
+    "current": 332,
+    "pages": 364,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:24.858Z"
+  },
+  "881": {
+    "title": "Vanity Fair",
+    "author": "William Makepeace Thackeray",
+    "current": 867,
+    "pages": 699,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:30.380Z"
+  },
+  "882": {
+    "title": "Cosmos",
+    "author": "Witold Gombrowicz",
+    "current": 411,
+    "pages": 166,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:33.859Z"
+  },
+  "883": {
+    "title": "Ferdydurke",
+    "author": "Witold Gombrowicz",
+    "current": 335,
+    "pages": 272,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:37.340Z"
+  },
+  "884": {
+    "title": "The Weaverbirds",
+    "author": "Y.B. Mangunwijaya",
+    "current": 380,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:31:40.175Z"
+  },
+  "885": {
+    "title": "Bound to Violence",
+    "author": "Yambo Ouologuem",
+    "current": 180,
+    "pages": 182,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:43.047Z"
+  },
+  "886": {
+    "title": "Memed, My Hawk",
+    "author": "Yasar Kemal",
+    "current": 360,
+    "pages": 412,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:46.045Z"
+  },
+  "887": {
+    "title": "The Sound of the Mountain",
+    "author": "Yasunari Kawabata",
+    "current": 272,
+    "pages": 286,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:49.324Z"
+  },
   "888": {
     "title": "Snow Country",
     "author": "Yasunari Kawabata",
@@ -1014,5 +7102,981 @@
     "pages": 179,
     "source": "OL Median",
     "timestamp": "2026-06-09T01:45:15.179Z"
+  },
+  "889": {
+    "title": "We",
+    "author": "Yevgeny Zamyatin",
+    "current": 248,
+    "pages": 224,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:52.178Z"
+  },
+  "890": {
+    "title": "Our Twisted Hero",
+    "author": "Yi Mun-yol",
+    "current": 128,
+    "pages": 263,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:56.386Z"
+  },
+  "891": {
+    "title": "The Memory Police",
+    "author": "Yoko Ogawa",
+    "current": 313,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:31:59.272Z"
+  },
+  "892": {
+    "title": "Three Generations",
+    "author": "Yom Sang-seop",
+    "current": 358,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:32:02.162Z"
+  },
+  "893": {
+    "title": "To Live",
+    "author": "Yu Hua",
+    "current": 221,
+    "pages": 264,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:06.126Z"
+  },
+  "894": {
+    "title": "Confessions of a Mask",
+    "author": "Yukio Mishima",
+    "current": 196,
+    "pages": 254,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:09.652Z"
+  },
+  "895": {
+    "title": "The Temple of the Golden Pavilion",
+    "author": "Yukio Mishima",
+    "current": 342,
+    "pages": 262,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:12.668Z"
+  },
+  "896": {
+    "title": "Territory of Light",
+    "author": "Yuko Tsushima",
+    "current": 122,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:15.741Z"
+  },
+  "897": {
+    "title": "Motherland Hotel",
+    "author": "Yusuf Atilgan",
+    "current": 430,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:18.916Z"
+  },
+  "898": {
+    "title": "The Stone Virgins",
+    "author": "Yvonne Vera",
+    "current": 441,
+    "pages": 191,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:22.168Z"
+  },
+  "899": {
+    "title": "Love Life",
+    "author": "Zeruya Shalev",
+    "current": 277,
+    "pages": 296,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:25.266Z"
+  },
+  "900": {
+    "title": "Their Eyes Were Watching God",
+    "author": "Zora Neale Hurston",
+    "current": 319,
+    "pages": 231,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:28.647Z"
+  },
+  "901": {
+    "title": "Palace of the Peacock",
+    "author": "Wilson Harris",
+    "current": 160,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:31.819Z"
+  },
+  "902": {
+    "title": "The Brief Wondrous Life of Oscar Wao",
+    "author": "Junot Diaz",
+    "current": 215,
+    "pages": 347,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:34.714Z"
+  },
+  "903": {
+    "title": "The House on the Lagoon",
+    "author": "Rosario Ferre",
+    "current": 407,
+    "pages": 419,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:37.965Z"
+  },
+  "904": {
+    "title": "Beka Lamb",
+    "author": "Zee Edgell",
+    "current": 171,
+    "pages": 172,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:41.344Z"
+  },
+  "905": {
+    "title": "The Crossing",
+    "author": "Luis Cardoso",
+    "current": 155,
+    "pages": 155,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:44.418Z"
+  },
+  "906": {
+    "title": "The Last Will and Testament of Senhor da Silva Araújo",
+    "author": "Germano Almeida",
+    "current": 250,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:47.794Z"
+  },
+  "907": {
+    "title": "The Ventriloquist’s Tale",
+    "author": "Pauline Melville",
+    "current": 368,
+    "pages": 357,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:32:51.481Z"
+  },
+  "908": {
+    "title": "A Girl Called Eel",
+    "author": "Ali Zamir",
+    "current": 250,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:32:56.946Z"
+  },
+  "909": {
+    "title": "In the Name of the Father (and of the Son)",
+    "author": "Immanuel Mifsud",
+    "current": 250,
+    "pages": 64,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:00.146Z"
+  },
+  "910": {
+    "title": "Monkey: Journey to the West",
+    "author": "Wu Cheng'en",
+    "current": 352,
+    "pages": 209,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:03.565Z"
+  },
+  "911": {
+    "title": "The Water Margin",
+    "author": "Shi Nai'an",
+    "current": 400,
+    "pages": 503,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:06.739Z"
+  },
+  "912": {
+    "title": "Wizard of the Crow",
+    "author": "Ngugi wa Thiong'o",
+    "current": 768,
+    "pages": 315,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:10.119Z"
+  },
+  "913": {
+    "title": "The Shadow Lines",
+    "author": "Amitav Ghosh",
+    "current": 256,
+    "pages": 252,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:13.191Z"
+  },
+  "914": {
+    "title": "Life & Times of Michael K",
+    "author": "J. M. Coetzee",
+    "current": 184,
+    "pages": 73,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:16.468Z"
+  },
+  "915": {
+    "title": "On Heroes and Tombs",
+    "author": "Ernesto Sabato",
+    "current": 457,
+    "pages": 480,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:20.051Z"
+  },
+  "916": {
+    "title": "Hurricane Season",
+    "author": "Fernanda Melchor",
+    "current": 224,
+    "pages": 231,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:23.123Z"
+  },
+  "917": {
+    "title": "Minor Detail",
+    "author": "Adania Shibli",
+    "current": 112,
+    "pages": 136,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:26.195Z"
+  },
+  "918": {
+    "title": "Kairos",
+    "author": "Jenny Erpenbeck",
+    "current": 336,
+    "pages": 358,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:29.165Z"
+  },
+  "919": {
+    "title": "Time Shelter",
+    "author": "Georgi Gospodinov",
+    "current": 304,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:33:34.030Z"
+  },
+  "920": {
+    "title": "The Conservationist",
+    "author": "Nadine Gordimer",
+    "current": 252,
+    "pages": 267,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:36.885Z"
+  },
+  "921": {
+    "title": "Mhudi",
+    "author": "Sol Plaatje",
+    "current": 208,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:39.747Z"
+  },
+  "922": {
+    "title": "Midaq Alley",
+    "author": "Naguib Mahfouz",
+    "current": 286,
+    "pages": 309,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:43.193Z"
+  },
+  "923": {
+    "title": "Wild Thorns",
+    "author": "Sahar Khalifeh",
+    "current": 208,
+    "pages": 208,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:46.011Z"
+  },
+  "924": {
+    "title": "Sitti Nurbaya",
+    "author": "Marah Rusli",
+    "current": 294,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:33:50.580Z"
+  },
+  "925": {
+    "title": "Broad and Alien Is the World",
+    "author": "Ciro Alegria",
+    "current": 497,
+    "pages": 454,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:54.154Z"
+  },
+  "926": {
+    "title": "The Scholars",
+    "author": "Wu Jingzi",
+    "current": 607,
+    "pages": 565,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:33:57.049Z"
+  },
+  "927": {
+    "title": "The Nine Cloud Dream",
+    "author": "Kim Man-jung",
+    "current": 240,
+    "pages": 300,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:00.083Z"
+  },
+  "928": {
+    "title": "Tales of Hulan River",
+    "author": "Xiao Hong",
+    "current": 320,
+    "pages": 384,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:03.264Z"
+  },
+  "929": {
+    "title": "The Atheist",
+    "author": "Achdiat K. Mihardja",
+    "current": 272,
+    "pages": 214,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:06.089Z"
+  },
+  "930": {
+    "title": "Behind the Painting",
+    "author": "Siburapha",
+    "current": 160,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:09.101Z"
+  },
+  "931": {
+    "title": "Pinjar",
+    "author": "Amrita Pritam",
+    "current": 160,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:34:13.880Z"
+  },
+  "932": {
+    "title": "Sunlight on a Broken Column",
+    "author": "Attia Hosain",
+    "current": 336,
+    "pages": 318,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:17.499Z"
+  },
+  "933": {
+    "title": "The Story of Zahra",
+    "author": "Hanan al-Shaykh",
+    "current": 240,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:34:21.492Z"
+  },
+  "934": {
+    "title": "The Concubine",
+    "author": "Elechi Amadi",
+    "current": 216,
+    "pages": 216,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:24.565Z"
+  },
+  "935": {
+    "title": "Crick Crack, Monkey",
+    "author": "Merle Hodge",
+    "current": 160,
+    "pages": 144,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:28.967Z"
+  },
+  "936": {
+    "title": "House Made of Dawn",
+    "author": "N. Scott Momaday",
+    "current": 224,
+    "pages": 198,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:32.348Z"
+  },
+  "937": {
+    "title": "Obasan",
+    "author": "Joy Kogawa",
+    "current": 256,
+    "pages": 250,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:35.316Z"
+  },
+  "938": {
+    "title": "Novel Without a Name",
+    "author": "Duong Thu Huong",
+    "current": 288,
+    "pages": 292,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:38.695Z"
+  },
+  "939": {
+    "title": "Ghachar Ghochar",
+    "author": "Vivek Shanbhag",
+    "current": 128,
+    "pages": 131,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:42.075Z"
+  },
+  "940": {
+    "title": "State of War",
+    "author": "Ninotchka Rosca",
+    "current": 384,
+    "pages": 382,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:44.916Z"
+  },
+  "941": {
+    "title": "Twilight in Jakarta",
+    "author": "Mochtar Lubis",
+    "current": 240,
+    "pages": 232,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:47.911Z"
+  },
+  "942": {
+    "title": "Drums for Rancas",
+    "author": "Manuel Scorza",
+    "current": 240,
+    "pages": 261,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:50.710Z"
+  },
+  "943": {
+    "title": "Dust",
+    "author": "Yvonne Adhiambo Owuor",
+    "current": 384,
+    "pages": 377,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:53.748Z"
+  },
+  "944": {
+    "title": "Green Grass, Running Water",
+    "author": "Thomas King",
+    "current": 480,
+    "pages": 428,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:34:57.028Z"
+  },
+  "945": {
+    "title": "The Travels of Benjamin III",
+    "author": "Sholem Yankev Abramovitsh",
+    "current": 128,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:35:00.200Z"
+  },
+  "946": {
+    "title": "The Zelmenyaners",
+    "author": "Moyshe Kulbak",
+    "current": 267,
+    "pages": 267,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:03.038Z"
+  },
+  "947": {
+    "title": "The Brothers Ashkenazi",
+    "author": "I. J. Singer",
+    "current": 692,
+    "pages": 611,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:06.548Z"
+  },
+  "948": {
+    "title": "The Family Mashber",
+    "author": "Der Nister",
+    "current": 728,
+    "pages": 672,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:09.823Z"
+  },
+  "949": {
+    "title": "Only Yesterday",
+    "author": "S. Y. Agnon",
+    "current": 652,
+    "pages": 688,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:12.795Z"
+  },
+  "950": {
+    "title": "The Waves",
+    "author": "Virginia Woolf",
+    "current": 297,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:15.971Z"
+  },
+  "951": {
+    "title": "Daniel Deronda",
+    "author": "George Eliot",
+    "current": 800,
+    "pages": 642,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:18.878Z"
+  },
+  "952": {
+    "title": "Cousin Bette",
+    "author": "Honore de Balzac",
+    "current": 464,
+    "pages": 443,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:21.912Z"
+  },
+  "953": {
+    "title": "Auto-da-Fe",
+    "author": "Elias Canetti",
+    "current": 464,
+    "pages": 280,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:24.878Z"
+  },
+  "954": {
+    "title": "Corregidora",
+    "author": "Gayl Jones",
+    "current": 192,
+    "pages": 185,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:27.753Z"
+  },
+  "955": {
+    "title": "Sula",
+    "author": "Toni Morrison",
+    "current": 174,
+    "pages": 174,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:30.921Z"
+  },
+  "956": {
+    "title": "The Secret Agent",
+    "author": "Joseph Conrad",
+    "current": 256,
+    "pages": 272,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:34.097Z"
+  },
+  "957": {
+    "title": "The Silent Cry",
+    "author": "Kenzaburo Oe",
+    "current": 288,
+    "pages": 288,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:36.936Z"
+  },
+  "958": {
+    "title": "El Filibusterismo",
+    "author": "Jose Rizal",
+    "current": 368,
+    "pages": 335,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:39.830Z"
+  },
+  "959": {
+    "title": "Quincas Borba",
+    "author": "Machado de Assis",
+    "current": 320,
+    "pages": 270,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:43.925Z"
+  },
+  "960": {
+    "title": "An Artist of the Floating World",
+    "author": "Kazuo Ishiguro",
+    "current": 206,
+    "pages": 208,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:46.896Z"
+  },
+  "961": {
+    "title": "The Death of the Heart",
+    "author": "Elizabeth Bowen",
+    "current": 432,
+    "pages": 363,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:50.279Z"
+  },
+  "962": {
+    "title": "Oranges Are Not the Only Fruit",
+    "author": "Jeanette Winterson",
+    "current": 176,
+    "pages": 183,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:53.346Z"
+  },
+  "963": {
+    "title": "Near to the Wild Heart",
+    "author": "Clarice Lispector",
+    "current": 192,
+    "pages": 194,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:35:56.521Z"
+  },
+  "964": {
+    "title": "Kitchen",
+    "author": "Banana Yoshimoto",
+    "current": 150,
+    "pages": 155,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:01.813Z"
+  },
+  "965": {
+    "title": "Convenience Store Woman",
+    "author": "Sayaka Murata",
+    "current": 160,
+    "pages": 163,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:04.674Z"
+  },
+  "966": {
+    "title": "Zaat",
+    "author": "Sonallah Ibrahim",
+    "current": 352,
+    "pages": 347,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:07.886Z"
+  },
+  "967": {
+    "title": "The Time of White Horses",
+    "author": "Ibrahim Nasrallah",
+    "current": 600,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:36:11.266Z"
+  },
+  "968": {
+    "title": "Salah Asuhan",
+    "author": "Abdul Muis",
+    "current": 200,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:36:14.111Z"
+  },
+  "969": {
+    "title": "On a Boat",
+    "author": "Nh. Dini",
+    "current": 300,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:36:16.936Z"
+  },
+  "970": {
+    "title": "The Last Flight of the Flamingo",
+    "author": "Mia Couto",
+    "current": 208,
+    "pages": 225,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:20.074Z"
+  },
+  "971": {
+    "title": "Monnew",
+    "author": "Ahmadou Kourouma",
+    "current": 288,
+    "pages": 254,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:22.852Z"
+  },
+  "972": {
+    "title": "Fragments",
+    "author": "Ayi Kwei Armah",
+    "current": 280,
+    "pages": 286,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:25.709Z"
+  },
+  "973": {
+    "title": "The Healers",
+    "author": "Ayi Kwei Armah",
+    "current": 350,
+    "pages": 317,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:28.520Z"
+  },
+  "974": {
+    "title": "The First Wife",
+    "author": "Paulina Chiziane",
+    "current": 336,
+    "pages": 334,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:31.849Z"
+  },
+  "975": {
+    "title": "Persuasion",
+    "author": "Jane Austen",
+    "current": 249,
+    "pages": 268,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:35.933Z"
+  },
+  "976": {
+    "title": "The Setting Sun",
+    "author": "Osamu Dazai",
+    "current": 175,
+    "pages": 189,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:39.120Z"
+  },
+  "977": {
+    "title": "Savushun",
+    "author": "Simin Daneshvar",
+    "current": 320,
+    "pages": 279,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:41.982Z"
+  },
+  "978": {
+    "title": "Touba and the Meaning of Night",
+    "author": "Shahrnush Parsipur",
+    "current": 368,
+    "pages": 368,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:45.365Z"
+  },
+  "979": {
+    "title": "Chronicle of a Blood Merchant",
+    "author": "Yu Hua",
+    "current": 256,
+    "pages": 272,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:48.744Z"
+  },
+  "980": {
+    "title": "Floating Clouds",
+    "author": "Fumiko Hayashi",
+    "current": 352,
+    "pages": 328,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:51.817Z"
+  },
+  "981": {
+    "title": "A Walk in the Night",
+    "author": "Alex La Guma",
+    "current": 128,
+    "pages": 136,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:55.093Z"
+  },
+  "982": {
+    "title": "The Translator",
+    "author": "Leila Aboulela",
+    "current": 224,
+    "pages": 196,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:36:58.166Z"
+  },
+  "983": {
+    "title": "The Dead Girls",
+    "author": "Jorge Ibarguengoitia",
+    "current": 192,
+    "pages": 156,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:01.135Z"
+  },
+  "984": {
+    "title": "Death in Spring",
+    "author": "Merce Rodoreda",
+    "current": 160,
+    "pages": 150,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:04.514Z"
+  },
+  "985": {
+    "title": "The Book of Laughter and Forgetting",
+    "author": "Milan Kundera",
+    "current": 320,
+    "pages": 308,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:07.586Z"
+  },
+  "986": {
+    "title": "The Hearing Trumpet",
+    "author": "Leonora Carrington",
+    "current": 224,
+    "pages": 160,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:11.989Z"
+  },
+  "987": {
+    "title": "Flowers in the Mirror",
+    "author": "Li Ruzhen",
+    "current": 320,
+    "pages": 699,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:15.061Z"
+  },
+  "988": {
+    "title": "The Case of Comrade Tulayev",
+    "author": "Victor Serge",
+    "current": 400,
+    "pages": 362,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:18.442Z"
+  },
+  "989": {
+    "title": "One, No One and One Hundred Thousand",
+    "author": "Luigi Pirandello",
+    "current": 224,
+    "pages": 199,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:21.717Z"
+  },
+  "990": {
+    "title": "The Box Man",
+    "author": "Kobo Abe",
+    "current": 192,
+    "pages": 185,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:24.792Z"
+  },
+  "991": {
+    "title": "The Thief",
+    "author": "Leonid Leonov",
+    "current": 400,
+    "pages": 566,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:27.650Z"
+  },
+  "992": {
+    "title": "Dancing Lessons for the Advanced in Age",
+    "author": "Bohumil Hrabal",
+    "current": 120,
+    "pages": 123,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:30.729Z"
+  },
+  "993": {
+    "title": "Natural Novel",
+    "author": "Georgi Gospodinov",
+    "current": 140,
+    "pages": 136,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:33.699Z"
+  },
+  "994": {
+    "title": "His Master’s Voice",
+    "author": "Stanisław Lem",
+    "current": 270,
+    "pages": 264,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:36.770Z"
+  },
+  "995": {
+    "title": "The Other Side",
+    "author": "Alfred Kubin",
+    "current": 250,
+    "pages": 276,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:39.740Z"
+  },
+  "996": {
+    "title": "The Death of Virgil",
+    "author": "Hermann Broch",
+    "current": 480,
+    "pages": 493,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:42.915Z"
+  },
+  "997": {
+    "title": "The Ship",
+    "author": "Jabra Ibrahim Jabra",
+    "current": 250,
+    "pages": 200,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:46.396Z"
+  },
+  "998": {
+    "title": "Anubis",
+    "author": "Ibrahim al-Koni",
+    "current": 300,
+    "pages": null,
+    "source": "Não encontrado",
+    "timestamp": "2026-06-09T02:37:49.674Z"
+  },
+  "999": {
+    "title": "As the Crow Flies",
+    "author": "Véronique Tadjo",
+    "current": 120,
+    "pages": 109,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:52.950Z"
+  },
+  "1000": {
+    "title": "Johnny Mad Dog",
+    "author": "Emmanuel Dongala",
+    "current": 280,
+    "pages": 256,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:56.024Z"
+  },
+  "1001": {
+    "title": "African Psycho",
+    "author": "Alain Mabanckou",
+    "current": 180,
+    "pages": 196,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:37:59.094Z"
+  },
+  "1002": {
+    "title": "The Barefoot Woman",
+    "author": "Scholastique Mukasonga",
+    "current": 180,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:02.166Z"
+  },
+  "1003": {
+    "title": "The Rouge of the North",
+    "author": "Eileen Chang",
+    "current": 200,
+    "pages": 192,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:05.238Z"
+  },
+  "1004": {
+    "title": "House of Glass",
+    "author": "Pramoedya Ananta Toer",
+    "current": 300,
+    "pages": 359,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:08.209Z"
+  },
+  "1005": {
+    "title": "The Concert",
+    "author": "Ismail Kadare",
+    "current": 380,
+    "pages": 446,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:11.082Z"
+  },
+  "1006": {
+    "title": "The Black Cauldron",
+    "author": "William Heinesen",
+    "current": 280,
+    "pages": 363,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:14.557Z"
+  },
+  "1007": {
+    "title": "The Seed",
+    "author": "Tarjei Vesaas",
+    "current": 200,
+    "pages": 162,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:17.526Z"
+  },
+  "1008": {
+    "title": "The Faces",
+    "author": "Tove Ditlevsen",
+    "current": 150,
+    "pages": 152,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:20.598Z"
+  },
+  "1009": {
+    "title": "The Council of Egypt",
+    "author": "Leonardo Sciascia",
+    "current": 220,
+    "pages": 212,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:23.875Z"
+  },
+  "1010": {
+    "title": "Benang",
+    "author": "Kim Scott",
+    "current": 400,
+    "pages": 500,
+    "source": "OL Median",
+    "timestamp": "2026-06-09T02:38:26.793Z"
   }
 }
