@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Copy, Download, X, FileText } from 'lucide-react';
+import { Copy, Download, FileText } from 'lucide-react';
 import { calculateStats, generateStatsMarkdown, exportStatsPDF } from '../utils/statsGenerator';
 import CountryFlag from './CountryFlag';
 

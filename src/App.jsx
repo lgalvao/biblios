@@ -226,17 +226,28 @@ function App() {
   };
 
   // 2. Add / Edit Save Handler
-  const handleSaveBook = (savedBook) => {
-    if (savedBook.id) {
+  const handleSaveBook = (savedData) => {
+    if (Array.isArray(savedData)) {
+      // Batch add
+      updateBooksAndSync(prevBooks => {
+        let currentMaxId = prevBooks.length > 0 ? Math.max(...prevBooks.map(b => b.id)) : 0;
+        const newBooks = savedData.map((b, index) => ({
+          ...b,
+          id: currentMaxId + index + 1
+        }));
+        return [...newBooks, ...prevBooks];
+      });
+      showToast(`Added ${savedData.length} books in batch.`);
+    } else if (savedData.id) {
       // Edit existing
       updateBooksAndSync(prevBooks => 
-        prevBooks.map(b => b.id === savedBook.id ? savedBook : b)
+        prevBooks.map(b => b.id === savedData.id ? savedData : b)
       );
-      showToast(`Updated "${savedBook.title}".`);
+      showToast(`Updated "${savedData.title}".`);
     } else {
       // Add new
       const nextId = books.length > 0 ? Math.max(...books.map(b => b.id)) + 1 : 1;
-      const newBook = { ...savedBook, id: nextId };
+      const newBook = { ...savedData, id: nextId };
       updateBooksAndSync(prevBooks => [newBook, ...prevBooks]);
       showToast(`Added "${newBook.title}".`);
     }

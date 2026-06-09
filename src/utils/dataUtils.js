@@ -17,12 +17,14 @@ export const continentMap = {
 };
 
 const defaultAliases = {
-  'usa': 'United States of America',
-  'uk': 'United Kingdom of Great Britain and Northern Ireland',
-  'england': 'United Kingdom of Great Britain and Northern Ireland',
-  'scotland': 'United Kingdom of Great Britain and Northern Ireland',
-  'wales': 'United Kingdom of Great Britain and Northern Ireland',
-  'northern ireland': 'United Kingdom of Great Britain and Northern Ireland',
+  'usa': 'USA',
+  'united states of america': 'USA',
+  'united states': 'USA',
+  'uk': 'United Kingdom',
+  'england': 'United Kingdom',
+  'scotland': 'United Kingdom',
+  'wales': 'United Kingdom',
+  'northern ireland': 'United Kingdom',
   'brazil': 'Brazil',
   'brasil': 'Brazil',
   'russia': 'Russian Federation',
@@ -473,6 +475,41 @@ export const formatMDExport = (books) => {
       return `- ${b.title} by ${b.author} (${b.country}, ${b.year})${extraStr}`;
     })
     .join('\n');
+};
+
+/**
+ * Analisa o formato de texto em lote fornecido pelo usuário.
+ * Formato: Title by Author (Year, Country), Pages p., Language
+ */
+export const parseBatchText = (text) => {
+  if (!text) return [];
+  
+  const lines = text.split('\n').filter(line => line.trim() !== '');
+  const books = [];
+  const regex = /^(.+?)\s+by\s+(.+?)\s+\((\d{4}),\s+(.+?)\),\s+(\d+)\s+p\.,\s+(.+)$/;
+
+  lines.forEach(line => {
+    const match = line.trim().match(regex);
+    if (match) {
+      const [_, title, author, year, country, pages, language] = match;
+      const geo = getGeoInfo(country);
+      books.push({
+        title: title.trim(),
+        author: normalizeToASCII(author.trim()),
+        year: year.trim(),
+        country: country.trim(),
+        region: geo.region,
+        continent: geo.continent,
+        pages: parseInt(pages, 10),
+        originalLanguage: translateLanguageToEnglish(language.trim()),
+        read: false,
+        description: `A book from ${country.trim()}.`,
+        tags: []
+      });
+    }
+  });
+
+  return books;
 };
 
 // Listas para Autocomplete (now populated dynamically inside updateGeoschemeData)

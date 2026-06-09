@@ -294,7 +294,7 @@ describe('BookTable Component tests', () => {
     const readSelect = selects.find(sel => Array.from(sel.options).some(opt => opt.text === 'Reading'));
     const continentSelect = selects.find(sel => Array.from(sel.options).some(opt => opt.text === 'All Continents'));
     const regionSelect = selects.find(sel => Array.from(sel.options).some(opt => opt.text === 'All Regions'));
-    const tagSelect = selects.find(sel => Array.from(sel.options).some(opt => opt.text === 'All Tags'));
+    selects.find(sel => Array.from(sel.options).some(opt => opt.text === 'All Tags'));
 
     // Filter by Read
     fireEvent.change(readSelect, { target: { value: 'read' } });
@@ -420,10 +420,10 @@ describe('BookTable Component tests', () => {
   });
 
   it('triggers infinite scroll loading when sentinel is visible', () => {
-    const originalObserver = global.IntersectionObserver;
+    const originalObserver = window.IntersectionObserver;
     const observe = vi.fn();
     const disconnect = vi.fn();
-    global.IntersectionObserver = vi.fn().mockImplementation(function(callback) {
+    window.IntersectionObserver = vi.fn().mockImplementation(function() {
       return {
         observe,
         disconnect,
@@ -436,11 +436,11 @@ describe('BookTable Component tests', () => {
     expect(observe).toHaveBeenCalled();
     
     // Simulate intersection
-    const [callback] = global.IntersectionObserver.mock.calls[0];
+    const [callback] = window.IntersectionObserver.mock.calls[0];
     callback([{ isIntersecting: true }]);
     
     // Restore original IntersectionObserver to prevent leaking to other tests
-    global.IntersectionObserver = originalObserver;
+    window.IntersectionObserver = originalObserver;
   });
 
   it('filters books by pages with various edge cases', () => {
@@ -481,7 +481,7 @@ describe('BookTable Component tests', () => {
 
   it('exports CSV correctly including unread books', () => {
     global.URL.createObjectURL = vi.fn().mockReturnValue('blob:test');
-    global.URL.revokeObjectURL = vi.fn();
+    window.URL.revokeObjectURL = vi.fn();
     
     render(<BookTable {...defaultProps} />);
     fireEvent.click(screen.getByTitle('Export'));
@@ -493,7 +493,7 @@ describe('BookTable Component tests', () => {
   it('opens export dropdown and calls export functions', () => {
     // Mock navigator and URL for export functions
     global.URL.createObjectURL = vi.fn();
-    global.URL.revokeObjectURL = vi.fn();
+    window.URL.revokeObjectURL = vi.fn();
     const mockClipboard = { writeText: vi.fn().mockResolvedValue() };
     Object.assign(navigator, { clipboard: mockClipboard });
 

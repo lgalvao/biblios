@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import { getGeoInfo, allCountries, allRegions, allContinents } from '../utils/dataUtils';
+import { getGeoInfo, allCountries, allRegions, allContinents, parseBatchText } from '../utils/dataUtils';
 
 export default function BookModal({ book, onSave, onClose, books = [], authors = [], languages = [], tags: tagsList = [] }) {
+  const [mode, setMode] = useState('single'); // 'single' or 'batch'
+  const [batchText, setBatchText] = useState('');
   const [title, setTitle] = useState(book?.title || '');
   const [author, setAuthor] = useState(book?.author || '');
   const [year, setYear] = useState(book?.year || '');
@@ -62,6 +64,17 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (mode === 'batch') {
+      const parsedBooks = parseBatchText(batchText);
+      if (parsedBooks.length === 0) {
+        setError('No valid books found in batch text. Please check the format.');
+        return;
+      }
+      onSave(parsedBooks);
+      return;
+    }
+
     if (!title.trim() || !author.trim() || !year.trim() || !country.trim() || !continent.trim()) {
       setError('Please fill required fields.');
       return;
@@ -86,131 +99,171 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
     <div className="modal show d-block" style={{ backgroundColor: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(4px)' }}>
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content shadow-lg border-0">
-          <div className="modal-header border-bottom-0 pb-0 px-3 px-md-4 pt-3 pt-md-4">
-            <h5 className="modal-title fw-bold">{book ? 'Edit Book' : 'Add New Book'}</h5>
-            <button type="button" className="btn-close" onClick={onClose}></button>
+          <div className="modal-header border-bottom-0 pb-0 px-3 px-md-4 pt-3 pt-md-4 flex-column align-items-start">
+            <div className="d-flex justify-content-between w-100 align-items-center mb-3">
+              <h5 className="modal-title fw-bold">{book ? 'Edit Book' : 'Add New Book'}</h5>
+              <button type="button" className="btn-close" onClick={onClose}></button>
+            </div>
+            
+            {!book && (
+              <div className="nav nav-pills small bg-light p-1 rounded border mb-3">
+                <button 
+                  className={`nav-link py-1 px-3 ${mode === 'single' ? 'active' : 'text-muted'}`}
+                  onClick={() => setMode('single')}
+                >
+                  Single Book
+                </button>
+                <button 
+                  className={`nav-link py-1 px-3 ${mode === 'batch' ? 'active' : 'text-muted'}`}
+                  onClick={() => setMode('batch')}
+                >
+                  Batch Add
+                </button>
+              </div>
+            )}
           </div>
           <form onSubmit={handleSubmit} className="modal-body p-3 p-md-4">
             {error && <div className="alert alert-danger py-2 small fw-bold mb-4">{error}</div>}
             
-            <div className="row g-3">
-              <div className="col-12 col-md-6">
-                <label htmlFor="book-title" className="form-label small fw-bold text-muted text-uppercase">Title</label>
-                <input id="book-title" type="text" className="form-control" value={title} onChange={e => setTitle(e.target.value)} required />
+            {mode === 'batch' ? (
+              <div className="animate-fade">
+                <label className="form-label small fw-bold text-muted text-uppercase">Batch Text Input</label>
+                <p className="small text-muted mb-2">
+                  Format: <code>Title by Author (Year, Country), Pages p., Language</code><br/>
+                  Example: <code>The Crying of Lot 49 by Thomas Pynchon (1966, USA), 152 p., English</code>
+                </p>
+                <textarea 
+                  className="form-control font-monospace" 
+                  rows="10" 
+                  placeholder="Paste your books here..."
+                  value={batchText}
+                  onChange={e => setBatchText(e.target.value)}
+                  style={{ fontSize: '0.85rem' }}
+                ></textarea>
+                <div className="form-text mt-2">Each book must be on its own line.</div>
               </div>
-              <div className="col-12 col-md-6">
-                <label htmlFor="book-author" className="form-label small fw-bold text-muted text-uppercase">Author</label>
-                <input id="book-author" type="text" className="form-control" value={author} onChange={e => handleAuthorChange(e.target.value)} list="author-options" required />
-                <datalist id="author-options">
-                  {authors.map(a => <option key={a} value={a} />)}
-                </datalist>
-              </div>
-              <div className="col-6 col-md-3">
-                <label htmlFor="book-year" className="form-label small fw-bold text-muted text-uppercase">Year</label>
-                <input id="book-year" type="text" className="form-control" value={year} onChange={e => setYear(e.target.value)} required />
-              </div>
-              <div className="col-6 col-md-3">
-                <label htmlFor="book-pages" className="form-label small fw-bold text-muted text-uppercase">Pages</label>
-                <input id="book-pages" type="number" className="form-control" value={pages} onChange={e => setPages(e.target.value)} />
-              </div>
-              <div className="col-12 col-md-6">
-                <label htmlFor="book-language" className="form-label small fw-bold text-muted text-uppercase">Language</label>
-                <input id="book-language" type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} list="language-options" />
-                <datalist id="language-options">
-                  {languages.map(l => <option key={l} value={l} />)}
-                </datalist>
-              </div>
-              <div className={isKnownCountry || !country.trim() ? "col-12" : "col-12 col-md-4"}>
-                <label htmlFor="book-country" className="form-label small fw-bold text-muted text-uppercase">Country</label>
-                <input id="book-country" type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} list="country-options" required />
-                <datalist id="country-options">
-                  {allCountries.map(c => <option key={c} value={c} />)}
-                </datalist>
-                {isKnownCountry && (
-                  <div className="form-text text-success d-flex align-items-center gap-1 mt-1 small">
-                    <span className="badge bg-success bg-opacity-10 text-success border border-success border-opacity-20 py-1.5 px-2.5 rounded-pill text-wrap text-start">
-                      ✓ Auto-detected: {continent} • {region}
-                    </span>
-                  </div>
-                )}
-              </div>
-              {country.trim() !== '' && !isKnownCountry && (
-                <>
-                  <div className="col-12 col-md-4 animate-fade">
-                    <label htmlFor="book-continent" className="form-label small fw-bold text-muted text-uppercase">Continent</label>
-                    <input id="book-continent" type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
-                    <datalist id="continent-options">
-                      {allContinents.map(c => <option key={c} value={c} />)}
-                    </datalist>
-                  </div>
-                  <div className="col-12 col-md-4 animate-fade">
-                    <label htmlFor="book-region" className="form-label small fw-bold text-muted text-uppercase">Region</label>
-                    <input id="book-region" type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
-                    <datalist id="region-options">
-                      {allRegions.map(r => <option key={r} value={r} />)}
-                    </datalist>
-                  </div>
-                </>
-              )}
-              <div className="col-12">
-                <label htmlFor="book-description" className="form-label small fw-bold text-muted text-uppercase">Description</label>
-                <textarea id="book-description" className="form-control" rows="3" value={description} onChange={e => setDescription(e.target.value)}></textarea>
-              </div>
-              <div className="col-12">
-                <label htmlFor="book-tags" className="form-label small fw-bold text-muted text-uppercase">Tags</label>
-                <div className="input-group input-group-sm mb-2">
-                  <input 
-                    type="text" 
-                    className="form-control" 
-                    placeholder="Add tag (e.g. classic, biography)..." 
-                    value={tagInput}
-                    onChange={e => setTagInput(e.target.value)}
-                    onKeyDown={handleTagKeyDown}
-                    list="tag-options"
-                  />
-                  <button 
-                    type="button" 
-                    className="btn btn-outline-secondary"
-                    onClick={handleAddTag}
-                  >
-                    Add
-                  </button>
-                  <datalist id="tag-options">
-                    {tagsSuggestions.map(t => <option key={t} value={t} />)}
+            ) : (
+              <div className="row g-3 animate-fade">
+                <div className="col-12 col-md-6">
+                  <label htmlFor="book-title" className="form-label small fw-bold text-muted text-uppercase">Title</label>
+                  <input id="book-title" type="text" className="form-control" value={title} onChange={e => setTitle(e.target.value)} required />
+                </div>
+                <div className="col-12 col-md-6">
+                  <label htmlFor="book-author" className="form-label small fw-bold text-muted text-uppercase">Author</label>
+                  <input id="book-author" type="text" className="form-control" value={author} onChange={e => handleAuthorChange(e.target.value)} list="author-options" required />
+                  <datalist id="author-options">
+                    {authors.map(a => <option key={a} value={a} />)}
                   </datalist>
                 </div>
-                <div className="d-flex flex-wrap gap-2 mt-1">
-                  {tags.map(t => (
-                    <span 
-                      key={t} 
-                      className="badge bg-secondary text-white d-flex align-items-center gap-2 py-1.5 px-2.5 rounded-pill"
-                      style={{ fontSize: '0.75rem', fontWeight: 500 }}
-                    >
-                      <span>#{t}</span>
-                      <button 
-                        type="button" 
-                        className="btn-close btn-close-white p-0" 
-                        style={{ width: '8px', height: '8px', fontSize: '0.55rem' }} 
-                        onClick={() => handleRemoveTag(t)}
-                      ></button>
-                    </span>
-                  ))}
-                  {tags.length === 0 && (
-                    <span className="small text-muted italic">No tags associated with this book.</span>
+                <div className="col-6 col-md-3">
+                  <label htmlFor="book-year" className="form-label small fw-bold text-muted text-uppercase">Year</label>
+                  <input id="book-year" type="text" className="form-control" value={year} onChange={e => setYear(e.target.value)} required />
+                </div>
+                <div className="col-6 col-md-3">
+                  <label htmlFor="book-pages" className="form-label small fw-bold text-muted text-uppercase">Pages</label>
+                  <input id="book-pages" type="number" className="form-control" value={pages} onChange={e => setPages(e.target.value)} />
+                </div>
+                <div className="col-12 col-md-6">
+                  <label htmlFor="book-language" className="form-label small fw-bold text-muted text-uppercase">Language</label>
+                  <input id="book-language" type="text" className="form-control" value={originalLanguage} onChange={e => setOriginalLanguage(e.target.value)} list="language-options" />
+                  <datalist id="language-options">
+                    {languages.map(l => <option key={l} value={l} />)}
+                  </datalist>
+                </div>
+                <div className={isKnownCountry || !country.trim() ? "col-12" : "col-12 col-md-4"}>
+                  <label htmlFor="book-country" className="form-label small fw-bold text-muted text-uppercase">Country</label>
+                  <input id="book-country" type="text" className="form-control" value={country} onChange={e => handleCountryChange(e.target.value)} list="country-options" required />
+                  <datalist id="country-options">
+                    {allCountries.map(c => <option key={c} value={c} />)}
+                  </datalist>
+                  {isKnownCountry && (
+                    <div className="form-text text-success d-flex align-items-center gap-1 mt-1 small">
+                      <span className="badge bg-success bg-opacity-10 text-success border border-success border-opacity-20 py-1.5 px-2.5 rounded-pill text-wrap text-start">
+                        ✓ Auto-detected: {continent} • {region}
+                      </span>
+                    </div>
                   )}
                 </div>
-              </div>
-              <div className="col-12">
-                <div className="form-check form-switch mt-2">
-                  <input className="form-check-input" type="checkbox" checked={read} onChange={e => setRead(e.target.checked)} id="readSwitch" />
-                  <label className="form-check-label fw-bold" htmlFor="readSwitch">Mark as Read</label>
+                {country.trim() !== '' && !isKnownCountry && (
+                  <>
+                    <div className="col-12 col-md-4 animate-fade">
+                      <label htmlFor="book-continent" className="form-label small fw-bold text-muted text-uppercase">Continent</label>
+                      <input id="book-continent" type="text" className="form-control" value={continent} onChange={e => setContinent(e.target.value)} list="continent-options" required />
+                      <datalist id="continent-options">
+                        {allContinents.map(c => <option key={c} value={c} />)}
+                      </datalist>
+                    </div>
+                    <div className="col-12 col-md-4 animate-fade">
+                      <label htmlFor="book-region" className="form-label small fw-bold text-muted text-uppercase">Region</label>
+                      <input id="book-region" type="text" className="form-control" value={region} onChange={e => setRegion(e.target.value)} list="region-options" />
+                      <datalist id="region-options">
+                        {allRegions.map(r => <option key={r} value={r} />)}
+                      </datalist>
+                    </div>
+                  </>
+                )}
+                <div className="col-12">
+                  <label htmlFor="book-description" className="form-label small fw-bold text-muted text-uppercase">Description</label>
+                  <textarea id="book-description" className="form-control" rows="3" value={description} onChange={e => setDescription(e.target.value)}></textarea>
+                </div>
+                <div className="col-12">
+                  <label htmlFor="book-tags" className="form-label small fw-bold text-muted text-uppercase">Tags</label>
+                  <div className="input-group input-group-sm mb-2">
+                    <input 
+                      type="text" 
+                      className="form-control" 
+                      placeholder="Add tag (e.g. classic, biography)..." 
+                      value={tagInput}
+                      onChange={e => setTagInput(e.target.value)}
+                      onKeyDown={handleTagKeyDown}
+                      list="tag-options"
+                    />
+                    <button 
+                      type="button" 
+                      className="btn btn-outline-secondary"
+                      onClick={handleAddTag}
+                    >
+                      Add
+                    </button>
+                    <datalist id="tag-options">
+                      {tagsSuggestions.map(t => <option key={t} value={t} />)}
+                    </datalist>
+                  </div>
+                  <div className="d-flex flex-wrap gap-2 mt-1">
+                    {tags.map(t => (
+                      <span 
+                        key={t} 
+                        className="badge bg-secondary text-white d-flex align-items-center gap-2 py-1.5 px-2.5 rounded-pill"
+                        style={{ fontSize: '0.75rem', fontWeight: 500 }}
+                      >
+                        <span>#{t}</span>
+                        <button 
+                          type="button" 
+                          className="btn-close btn-close-white p-0" 
+                          style={{ width: '8px', height: '8px', fontSize: '0.55rem' }} 
+                          onClick={() => handleRemoveTag(t)}
+                        ></button>
+                      </span>
+                    ))}
+                    {tags.length === 0 && (
+                      <span className="small text-muted italic">No tags associated with this book.</span>
+                    )}
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="form-check form-switch mt-2">
+                    <input className="form-check-input" type="checkbox" checked={read} onChange={e => setRead(e.target.checked)} id="readSwitch" />
+                    <label className="form-check-label fw-bold" htmlFor="readSwitch">Mark as Read</label>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
 
             <div className="mt-4 pt-3 border-top d-flex flex-column-reverse flex-sm-row justify-content-sm-end gap-2">
               <button type="button" className="btn btn-light px-4" onClick={onClose}>Cancel</button>
-              <button type="submit" className="btn btn-primary px-4">Save Book</button>
+              <button type="submit" className="btn btn-primary px-4">
+                {mode === 'batch' ? 'Add Batch' : (book ? 'Save Changes' : 'Save Book')}
+              </button>
             </div>
           </form>
         </div>
