@@ -6,11 +6,11 @@
 | 2 | The Whale Rider | 155 | **148** | ALTERADO | OL Median |
 | 3 | Out Stealing Horses | 240 | **264** | ALTERADO | OL Median |
 | 4 | Mitro Marjani | 200 | **-** | N/A | Não encontrado |
-| 5 | The Shadow of Arms | 450 | **-** | N/A | Não encontrado |
+| 5 | The Shadow of Arms | 450 | **576** | ALTERADO | OL Title Search + Author Filter |
 | 6 | A Dictionary of Maqiao | 340 | **408** | ALTERADO | OL Median |
 | 7 | Metello | 350 | **357** | ALTERADO | OL Median |
 | 8 | The Bosnian Chronicle | 437 | **448** | ALTERADO | OL Median |
-| 9 | The Bird | 200 | **-** | N/A | Não encontrado |
+| 9 | The Bird | 200 | **222** | ALTERADO | OL Median |
 | 10 | Passage of Tears | 200 | **224** | ALTERADO | OL Median |
 | 11 | Crônicas de San Gabriel | 250 | **176** | ALTERADO | OL Median |
 | 12 | Lumpérica | 200 | **219** | ALTERADO | OL Median |
@@ -18,7 +18,7 @@
 | 14 | Scars | 200 | **278** | ALTERADO | OL Median |
 | 15 | The Heartless | 350 | **-** | N/A | Não encontrado |
 | 16 | Lá Grande Maison | 180 | **189** | ALTERADO | OL Median |
-| 17 | The Daisy Dolls | 150 | **-** | N/A | Não encontrado |
+| 17 | The Daisy Dolls | 150 | **1447** | ALTERADO | OL Median |
 | 18 | Life in the Tomb | 380 | **349** | ALTERADO | OL Median |
 | 19 | The Wall | 250 | **264** | ALTERADO | OL Median |
 | 20 | Chevengur | 400 | **411** | ALTERADO | OL Median |
@@ -54,7 +54,7 @@
 | 50 | Omon Ra | 154 | **223** | ALTERADO | OL Median |
 | 51 | The Patience Stone | 141 | **141** | IGUAL | OL Median |
 | 52 | Confessions of the Lioness | 208 | **270** | ALTERADO | OL Median |
-| 53 | The Drunkard | 351 | **-** | N/A | Não encontrado |
+| 53 | The Drunkard | 351 | **300** | ALTERADO | OL Median |
 | 54 | Changes: A Love Story | 216 | **195** | ALTERADO | OL Median |
 | 55 | Breath, Eyes, Memory | 234 | **234** | IGUAL | OL Median |
 | 56 | Snow | 463 | **496** | ALTERADO | OL Median |
@@ -96,21 +96,21 @@
 | 92 | How to be Both | 384 | **378** | ALTERADO | OL Median |
 | 93 | Adam Resurrected | 352 | **370** | ALTERADO | OL Median |
 | 94 | City of Many Days | 208 | **189** | ALTERADO | OL Median |
-| 95 | See Under: Love | 464 | **-** | N/A | Não encontrado |
+| 95 | See Under: Love | 464 | **458** | ALTERADO | OL Median |
 | 96 | Badenheim 1939 | 160 | **146** | ALTERADO | OL Median |
 | 97 | My Michael | 224 | **252** | ALTERADO | OL Median |
 | 98 | We will see you tomorrow | 352 | **-** | N/A | Não encontrado |
 | 99 | The Four Books | 368 | **338** | ALTERADO | OL Median |
 | 100 | I Did Not Kill My Husband | 288 | **216** | ALTERADO | OL Median |
 | 101 | My Life as Emperor | 304 | **288** | ALTERADO | OL Median |
-| 102 | The Rice-Sprout Song | 182 | **-** | N/A | Não encontrado |
+| 102 | The Rice-Sprout Song | 182 | **182** | IGUAL | OL Title Search + Author Filter |
 | 103 | Border Town | 176 | **-** | N/A | Não encontrado |
 | 104 | Dream of Ding Village | 352 | **341** | ALTERADO | OL Median |
-| 105 | The Membrane | 160 | **-** | N/A | Não encontrado |
+| 105 | The Membrane | 160 | **168** | ALTERADO | OL Median |
 | 106 | The Butcher’s Wife | 224 | **245** | ALTERADO | OL Median |
 | 107 | Rose, Rose I Love You | 288 | **183** | ALTERADO | OL Median |
 | 108 | Orphan of Asia | 256 | **247** | ALTERADO | OL Median |
-| 109 | Crystal Boys | 368 | **-** | N/A | Não encontrado |
+| 109 | Crystal Boys | 368 | **336** | ALTERADO | OL Median |
 | 110 | Remains of Life | 304 | **352** | ALTERADO | OL Median |
 | 111 | Last Quarter of the Moon | 304 | **320** | ALTERADO | OL Median |
 | 112 | Wings | 128 | **122** | ALTERADO | OL Median |
@@ -123,12 +123,12 @@
 | 119 | Blackwater | 448 | **439** | ALTERADO | OL Median |
 | 120 | The Road | 280 | **286** | ALTERADO | OL Median |
 | 121 | Missing Person | 192 | **168** | ALTERADO | OL Median |
-| 122 | Days of Longing | 232 | **-** | N/A | Não encontrado |
+| 122 | Days of Longing | 232 | **160** | ALTERADO | OL Median |
 | 123 | Toba Tek Singh | 160 | **-** | N/A | Não encontrado |
 | 124 | The Crooked Line | 129 | **232** | ALTERADO | OL Median |
 | 125 | Mother of 1084 | 130 | **130** | IGUAL | OL Median |
 | 126 | Sepharad | 385 | **528** | ALTERADO | OL Median |
-| 127 | I’m Gone | 224 | **-** | N/A | Não encontrado |
+| 127 | I’m Gone | 224 | **576** | ALTERADO | OL Median |
 | 128 | The Years | 232 | **241** | ALTERADO | OL Median |
 | 129 | The Abyss | 374 | **376** | ALTERADO | OL Median |
 | 130 | Christ stopped at Eboli | 256 | **255** | ALTERADO | OL Median |
@@ -157,20 +157,20 @@
 | 153 | Butterfly Burning | 160 | **148** | ALTERADO | OL Median |
 | 154 | Cockroaches | 176 | **165** | ALTERADO | OL Median |
 | 155 | The Shadow of Imana | 128 | **118** | ALTERADO | OL Median |
-| 156 | Gold Dust | 176 | **-** | N/A | Não encontrado |
+| 156 | Gold Dust | 176 | **180** | ALTERADO | OL Median |
 | 157 | Fureurs et cris de femmes | 208 | **215** | ALTERADO | OL Median |
 | 158 | Sarraounia | 160 | **159** | ALTERADO | OL Median |
-| 159 | The Censor’s Notebook | 250 | **-** | N/A | Não encontrado |
-| 160 | The Gardens of Silihdar | 250 | **-** | N/A | Não encontrado |
+| 159 | The Censor’s Notebook | 250 | **496** | ALTERADO | OL Median |
+| 160 | The Gardens of Silihdar | 250 | **163** | ALTERADO | OL Median |
 | 161 | Small Country | 250 | **219** | ALTERADO | OL Median |
 | 162 | Our Sister, Killjoy | 134 | **134** | IGUAL | OL Median |
 | 163 | Chiquinho | 250 | **269** | ALTERADO | OL Median |
-| 164 | Hadriana in All My Dreams | 250 | **-** | N/A | Não encontrado |
+| 164 | Hadriana in All My Dreams | 250 | **213** | ALTERADO | OL Median |
 | 165 | Malemort | 250 | **232** | ALTERADO | OL Median |
 | 166 | Masters of the Dew | 250 | **219** | ALTERADO | OL Median |
 | 167 | By Night the Mountain Burns | 250 | **236** | ALTERADO | OL Median |
-| 168 | Solo d’un Revenant | 250 | **-** | N/A | Não encontrado |
-| 169 | An Open City | 250 | **-** | N/A | Não encontrado |
+| 168 | Solo d’un Revenant | 250 | **206** | ALTERADO | OL Title Search + Author Filter |
+| 169 | An Open City | 250 | **275** | ALTERADO | OL Title Search + Author Filter |
 | 170 | The Hostage | 250 | **151** | ALTERADO | OL Median |
 | 171 | Tram 83 | 250 | **232** | ALTERADO | OL Median |
 | 172 | Triomf | 250 | **528** | ALTERADO | OL Median |
@@ -181,28 +181,28 @@
 | 177 | Throwing Sparks | 368 | **349** | ALTERADO | OL Median |
 | 178 | Salina | 375 | **352** | ALTERADO | OL Median |
 | 179 | A Late Divorce | 480 | **210** | ALTERADO | Best Match |
-| 180 | Original Bliss | 320 | **-** | N/A | Não encontrado |
+| 180 | Original Bliss | 320 | **224** | ALTERADO | OL Median |
 | 181 | Cities of Salt | 627 | **627** | IGUAL | OL Median |
 | 182 | The Ultimate Tragedy | 274 | **-** | N/A | Não encontrado |
-| 183 | Night and Day | 407 | **-** | N/A | Não encontrado |
+| 183 | Night and Day | 407 | **300** | ALTERADO | OL Median |
 | 184 | The Weary Generations | 447 | **334** | ALTERADO | OL Median |
 | 185 | Paradise | 290 | **256** | ALTERADO | OL Median |
 | 186 | By the Sea | 236 | **245** | ALTERADO | OL Median |
 | 187 | Lying Down to Die | 298 | **-** | N/A | Não encontrado |
 | 188 | The Invention of Morel | 122 | **237** | ALTERADO | OL Median |
 | 189 | The Notebook | 200 | **187** | ALTERADO | OL Median |
-| 190 | A Sibyl | 256 | **-** | N/A | Não encontrado |
+| 190 | A Sibyl | 256 | **301** | ALTERADO | OL Median |
 | 191 | Memory in the Flesh | 288 | **268** | ALTERADO | OL Median |
-| 192 | L’Étrange Destin de Wangrin | 366 | **-** | N/A | Não encontrado |
+| 192 | L’Étrange Destin de Wangrin | 366 | **163** | ALTERADO | OL Median |
 | 193 | Allah Is Not Obliged | 190 | **224** | ALTERADO | OL Median |
 | 194 | The Suns of Independence | 136 | **136** | IGUAL | OL Median |
 | 195 | Frankenstein in Baghdad | 288 | **288** | IGUAL | OL Median |
 | 196 | The Time Regulation Institute | 387 | **401** | ALTERADO | OL Median |
 | 197 | A Mind at Peace | 412 | **450** | ALTERADO | OL Median |
-| 198 | Journey to Karabakh | 192 | **-** | N/A | Não encontrado |
+| 198 | Journey to Karabakh | 192 | **159** | ALTERADO | OL Median |
 | 199 | Khowabnama | 552 | **20** | ALTERADO | OL Median |
-| 200 | The Yacoubian Building | 273 | **-** | N/A | Não encontrado |
-| 201 | Broken Glass | 356 | **-** | N/A | Não encontrado |
+| 200 | The Yacoubian Building | 273 | **272** | ALTERADO | OL Median |
+| 201 | Broken Glass | 356 | **165** | ALTERADO | OL Title Search + Author Filter |
 | 202 | Jealousy | 287 | **138** | ALTERADO | OL Median |
 | 203 | Cry, the Beloved Country | 321 | **278** | ALTERADO | OL Median |
 | 204 | Lanark | 560 | **560** | IGUAL | OL Median |
@@ -225,13 +225,13 @@
 | 221 | No Great Mischief | 283 | **283** | IGUAL | OL Median |
 | 222 | Sudden Death | 270 | **261** | ALTERADO | OL Median |
 | 223 | The Beggars’ Strike | 144 | **118** | ALTERADO | OL Median |
-| 224 | The Palm-Wine Drinkard | 111 | **-** | N/A | Não encontrado |
+| 224 | The Palm-Wine Drinkard | 111 | **1607** | ALTERADO | OL Median |
 | 225 | Primera Memoria | 394 | **245** | ALTERADO | OL Median |
 | 226 | Eve Out of Her Ruins | 221 | **157** | ALTERADO | OL Median |
 | 227 | A Dry White Season | 316 | **316** | IGUAL | OL Median |
 | 228 | The Counterfeiters | 352 | **432** | ALTERADO | OL Median |
 | 229 | The Immoralist | 144 | **181** | ALTERADO | OL Median |
-| 230 | The Last of the Just | 374 | **-** | N/A | Não encontrado |
+| 230 | The Last of the Just | 374 | **374** | IGUAL | OL Median |
 | 231 | The Foundation Pit | 310 | **147** | ALTERADO | OL Median |
 | 232 | Grey Bees | 260 | **328** | ALTERADO | OL Median |
 | 233 | Death and the Penguin | 228 | **192** | ALTERADO | OL Median |
@@ -248,7 +248,7 @@
 | 244 | Zama | 219 | **246** | ALTERADO | OL Median |
 | 245 | The Land at the End of the World | 222 | **200** | ALTERADO | OL Median |
 | 246 | Pereira Maintains | 160 | **192** | ALTERADO | OL Median |
-| 247 | The Mission Box | 240 | **-** | N/A | Não encontrado |
+| 247 | The Mission Box | 240 | **293** | ALTERADO | OL Median |
 | 248 | The Case of Sergeant Grischa | 448 | **462** | ALTERADO | OL Median |
 | 249 | Tirza | 430 | **457** | ALTERADO | OL Median |
 | 250 | Lovely Green Eyes | 273 | **256** | ALTERADO | OL Median |
@@ -276,7 +276,7 @@
 | 272 | Maru | 127 | **127** | IGUAL | OL Median |
 | 273 | A Question of Power | 206 | **206** | IGUAL | OL Median |
 | 274 | Tamas | 322 | **236** | ALTERADO | OL Median |
-| 275 | Pather Panchali | 360 | **-** | N/A | Não encontrado |
+| 275 | Pather Panchali | 360 | **328** | ALTERADO | OL Median |
 | 276 | The Garden of Departed Cats | 240 | **-** | N/A | Não encontrado |
 | 277 | I Served the King of England | 243 | **243** | IGUAL | OL Median |
 | 278 | Too Loud a Solitude | 190 | **122** | ALTERADO | OL Median |
@@ -306,27 +306,27 @@
 | 302 | The Heart Is a Lonely Hunter | 310 | **320** | ALTERADO | OL Median |
 | 303 | Rituals | 332 | **160** | ALTERADO | OL Median |
 | 304 | The Moon and the Bonfire | 180 | **189** | ALTERADO | OL Median |
-| 305 | Peace Under Heaven | 310 | **-** | N/A | Não encontrado |
-| 306 | The Island of Shattered Dreams | 170 | **-** | N/A | Não encontrado |
+| 305 | Peace Under Heaven | 310 | **250** | ALTERADO | OL Median |
+| 306 | The Island of Shattered Dreams | 170 | **163** | ALTERADO | OL Median |
 | 307 | Great Expectations | 512 | **482** | ALTERADO | OL Median |
 | 308 | Bleak House | 989 | **815** | ALTERADO | OL Median |
 | 309 | Jane Eyre | 400 | **480** | ALTERADO | OL Median |
 | 310 | The Judgment | 280 | **-** | N/A | Não encontrado |
-| 311 | Ambiguous Adventure | 216 | **-** | N/A | Não encontrado |
+| 311 | Ambiguous Adventure | 216 | **172** | ALTERADO | OL Median |
 | 312 | Half of a Yellow Sun | 321 | **474** | ALTERADO | OL Median |
-| 313 | The White Ship | 160 | **-** | N/A | Não encontrado |
-| 314 | Jamilia | 90 | **-** | N/A | Não encontrado |
+| 313 | The White Ship | 160 | **160** | IGUAL | OL Median |
+| 314 | Jamilia | 90 | **96** | ALTERADO | OL Median |
 | 315 | Things Fall Apart | 301 | **192** | ALTERADO | OL Median |
 | 316 | Arrow of God | 240 | **266** | ALTERADO | OL Median |
-| 317 | The Dwarf | 248 | **-** | N/A | Não encontrado |
-| 318 | The Square | 210 | **-** | N/A | Não encontrado |
+| 317 | The Dwarf | 248 | **224** | ALTERADO | OL Median |
+| 318 | The Square | 210 | **158** | ALTERADO | OL Median |
 | 319 | Kassandra | 144 | **161** | ALTERADO | OL Median |
 | 320 | The Quest for Christa T. | 190 | **198** | ALTERADO | OL Median |
 | 321 | The Man Who Loved Children | 550 | **527** | ALTERADO | OL Median |
 | 322 | The Last World | 290 | **246** | ALTERADO | OL Median |
-| 323 | The Hungry Dogs | 224 | **-** | N/A | Não encontrado |
+| 323 | The Hungry Dogs | 224 | **36** | ALTERADO | OL Title Search + Author Filter |
 | 324 | The Hour of the Star | 128 | **96** | ALTERADO | OL Median |
-| 325 | The Passion According to G.H. | 351 | **-** | N/A | Não encontrado |
+| 325 | The Passion According to G.H. | 351 | **196** | ALTERADO | OL Title Search + Author Filter |
 | 326 | Chéri | 360 | **217** | ALTERADO | OL Median |
 | 327 | Blood Meridian | 351 | **368** | ALTERADO | OL Median |
 | 328 | The Third Wedding | 310 | **281** | ALTERADO | OL Median |
@@ -354,9 +354,9 @@
 | 350 | The Museum of Unconditional Surrender | 240 | **312** | ALTERADO | OL Median |
 | 351 | Paradise of the Blind | 270 | **272** | ALTERADO | OL Median |
 | 352 | The Rats | 180 | **-** | N/A | Não encontrado |
-| 353 | The Life and Opinions of the Tomcat Murr | 384 | **-** | N/A | Não encontrado |
+| 353 | The Life and Opinions of the Tomcat Murr | 384 | **349** | ALTERADO | OL Median |
 | 354 | Howards End | 320 | **342** | ALTERADO | OL Median |
-| 355 | The Dragon Can’t Dance | 240 | **-** | N/A | Não encontrado |
+| 355 | The Dragon Can’t Dance | 240 | **240** | IGUAL | OL Title Search + Author Filter |
 | 356 | The Crime of Father Amaro | 471 | **502** | ALTERADO | OL Median |
 | 357 | The Maias | 506 | **634** | ALTERADO | OL Median |
 | 358 | The Age of Innocence | 295 | **348** | ALTERADO | OL Median |
@@ -378,7 +378,7 @@
 | 374 | Germinal | 590 | **498** | ALTERADO | OL Median |
 | 375 | The House of Ulloa | 394 | **323** | ALTERADO | OL Median |
 | 376 | Wuthering Heights | 433 | **318** | ALTERADO | OL Median |
-| 377 | Bartleby and Company | 180 | **-** | N/A | Não encontrado |
+| 377 | Bartleby and Company | 180 | **176** | ALTERADO | OL Median |
 | 378 | Kisses in the Nederends | 150 | **153** | ALTERADO | OL Median |
 | 379 | All Quiet on the Western Front | 251 | **248** | ALTERADO | OL Median |
 | 380 | The Sun Also Rises | 250 | **249** | ALTERADO | OL Median |
@@ -387,8 +387,8 @@
 | 383 | The Great Gatsby | 220 | **185** | ALTERADO | OL Median |
 | 384 | Houseboy | 120 | **133** | ALTERADO | OL Median |
 | 385 | Metropole | 313 | **236** | ALTERADO | OL Median |
-| 386 | La Virgen de Los Sicarioa | 136 | **-** | N/A | Não encontrado |
-| 387 | At Swim Two Birds | 279 | **-** | N/A | Não encontrado |
+| 386 | La Virgen de Los Sicarios | 136 | **142** | ALTERADO | OL Median |
+| 387 | At Swim Two Birds | 279 | **315** | ALTERADO | OL Median |
 | 388 | The Third Policeman | 401 | **197** | ALTERADO | OL Median |
 | 389 | Wise Blood | 256 | **460** | ALTERADO | OL Median |
 | 390 | Efuru | 298 | **281** | ALTERADO | OL Median |
@@ -399,7 +399,7 @@
 | 395 | The Castle | 381 | **386** | ALTERADO | OL Median |
 | 396 | The Trial | 275 | **269** | ALTERADO | OL Median |
 | 397 | The Pledge | 160 | **183** | ALTERADO | OL Median |
-| 398 | The Long Way Back | 290 | **-** | N/A | Não encontrado |
+| 398 | The Long Way Back | 290 | **365** | ALTERADO | OL Median |
 | 399 | The Waiting Years | 200 | **208** | ALTERADO | OL Median |
 | 400 | Demons | 736 | **704** | ALTERADO | OL Median |
 | 401 | Crime and Punishment | 710 | **520** | ALTERADO | OL Median |
@@ -410,20 +410,20 @@
 | 406 | Love in the Time of Cholera | 435 | **451** | ALTERADO | OL Median |
 | 407 | One Hundred Years of Solitude | 429 | **432** | ALTERADO | OL Median |
 | 408 | The Blue Sky | 245 | **177** | ALTERADO | OL Median |
-| 409 | Zayni Barakat | 256 | **-** | N/A | Não encontrado |
+| 409 | Zayni Barakat | 256 | **240** | ALTERADO | OL Median |
 | 410 | Soul Mountain | 510 | **563** | ALTERADO | OL Median |
 | 411 | Middlemarch | 850 | **795** | ALTERADO | OL Median |
 | 412 | Adam Bede | 460 | **519** | ALTERADO | OL Median |
 | 413 | In the Castle of My Skin | 422 | **313** | ALTERADO | OL Median |
 | 414 | Animal Farm | 120 | **128** | ALTERADO | OL Median |
-| 415 | Nighteen-eighty-four | 328 | **-** | N/A | Não encontrado |
+| 415 | Nineteen-eighty-four | 328 | **318** | ALTERADO | OL Median |
 | 416 | Life: A User’s Manual | 419 | **617** | ALTERADO | OL Median |
 | 417 | The Plains | 254 | **126** | ALTERADO | OL Median |
 | 418 | The Evenings | 257 | **317** | ALTERADO | OL Median |
 | 419 | Beirut Nightmares | 390 | **1072** | ALTERADO | OL Median |
 | 420 | Men in the Sun | 110 | **114** | ALTERADO | OL Median |
 | 421 | The Inhabited Woman | 340 | **400** | ALTERADO | OL Median |
-| 422 | The Garden of the Finzi-Continis | 241 | **-** | N/A | Não encontrado |
+| 422 | The Garden of the Finzi-Continis | 241 | **310** | ALTERADO | OL Median |
 | 423 | The Leopard | 285 | **259** | ALTERADO | OL Median |
 | 424 | Elective Affinities | 289 | **305** | ALTERADO | OL Median |
 | 425 | The Sorrows of Young Werther | 349 | **179** | ALTERADO | OL Median |
@@ -436,14 +436,14 @@
 | 432 | The Tin Drum | 580 | **591** | ALTERADO | OL Median |
 | 433 | Madame Bovary | 335 | **350** | ALTERADO | OL Median |
 | 434 | Sentimental Education | 460 | **473** | ALTERADO | OL Median |
-| 435 | Bel-Ami | 251 | **-** | N/A | Não encontrado |
+| 435 | Bel-Ami | 251 | **412** | ALTERADO | OL Title Search + Author Filter |
 | 436 | The Case Worker | 180 | **173** | ALTERADO | OL Median |
 | 437 | Waiting | 320 | **308** | ALTERADO | OL Median |
 | 438 | Independent People | 480 | **486** | ALTERADO | OL Median |
 | 439 | Under the Glacier | 256 | **240** | ALTERADO | OL Median |
 | 440 | The Railway | 333 | **336** | ALTERADO | OL Median |
 | 441 | The Dead Lake | 208 | **122** | ALTERADO | OL Median |
-| 442 | The Sing-Song Girls of Shanghai | 592 | **-** | N/A | Não encontrado |
+| 442 | The Sing-Song Girls of Shanghai | 592 | **592** | IGUAL | OL Title Search + Author Filter |
 | 443 | The Vegetarian | 158 | **190** | ALTERADO | OL Median |
 | 444 | Human Acts | 218 | **215** | ALTERADO | OL Median |
 | 445 | The Sail and the Storm | 290 | **-** | N/A | Não encontrado |
@@ -451,7 +451,7 @@
 | 447 | The Assault | 185 | **191** | ALTERADO | OL Median |
 | 448 | The Wind-Up Bird Chronicle | 607 | **99** | ALTERADO | OL Median |
 | 449 | Shadowless | 207 | **320** | ALTERADO | OL Median |
-| 450 | Billiards at Half-Past Nine | 307 | **-** | N/A | Não encontrado |
+| 450 | Billiards at Half-Past Nine | 307 | **287** | ALTERADO | OL Title Search + Author Filter |
 | 451 | The Lost Honor of Katharina Blum | 150 | **141** | ALTERADO | OL Median |
 | 452 | Man of Straw | 304 | **480** | ALTERADO | OL Median |
 | 453 | Professor Unrat | 250 | **244** | ALTERADO | OL Median |
@@ -463,15 +463,15 @@
 | 459 | Steppenwolf | 258 | **224** | ALTERADO | OL Median |
 | 460 | The Land of Green Plums | 242 | **242** | IGUAL | OL Median |
 | 461 | Wolf Hall | 800 | **653** | ALTERADO | OL Median |
-| 462 | The Obscene Madame D | 110 | **-** | N/A | Não encontrado |
+| 462 | The Obscene Madame D | 110 | **176** | ALTERADO | OL Median |
 | 463 | Doctor Glas | 160 | **150** | ALTERADO | OL Median |
 | 464 | The Tiller of Waters | 190 | **192** | ALTERADO | OL Median |
 | 465 | The Stone of Laughter | 220 | **232** | ALTERADO | OL Median |
 | 466 | Old Goriot | 304 | **304** | IGUAL | OL Median |
 | 467 | Lost Illusions | 704 | **664** | ALTERADO | OL Median |
 | 468 | Senselessness | 275 | **160** | ALTERADO | OL Median |
-| 469 | Prince Ehtejab | 110 | **-** | N/A | Não encontrado |
-| 470 | The Guest | 315 | **-** | N/A | Não encontrado |
+| 469 | Prince Ehtejab | 110 | **115** | ALTERADO | OL Title Search + Author Filter |
+| 470 | The Guest | 315 | **234** | ALTERADO | OL Median |
 | 471 | The Heron | 198 | **160** | ALTERADO | OL Median |
 | 472 | Bread and Wine | 219 | **316** | ALTERADO | OL Median |
 | 473 | Fontamara | 210 | **211** | ALTERADO | OL Median |
@@ -497,8 +497,8 @@
 | 493 | Fathers and Sons | 215 | **247** | ALTERADO | OL Median |
 | 494 | The Bridge on the Drina | 210 | **378** | ALTERADO | OL Median |
 | 495 | Niels Lyhne | 187 | **243** | ALTERADO | OL Median |
-| 496 | Disgrace | 230 | **-** | N/A | Não encontrado |
-| 497 | Waiting for the Barbarians | 235 | **-** | N/A | Não encontrado |
+| 496 | Disgrace | 230 | **252** | ALTERADO | OL Median |
+| 497 | Waiting for the Barbarians | 235 | **178** | ALTERADO | OL Median |
 | 498 | The Czar’s Madman | 360 | **357** | ALTERADO | OL Median |
 | 499 | In Search of Walid Masoud | 290 | **289** | ALTERADO | OL Median |
 | 500 | I Who Have Never Known Men | 192 | **208** | ALTERADO | OL Median |
@@ -524,7 +524,7 @@
 | 520 | Tirra Lirra by the River | 207 | **143** | ALTERADO | OL Median |
 | 521 | Dogeaters | 195 | **254** | ALTERADO | OL Median |
 | 522 | Uncertain Glory | 214 | **457** | ALTERADO | OL Median |
-| 523 | The Devil to Pay in the Backlands | 550 | **-** | N/A | Não encontrado |
+| 523 | The Devil to Pay in the Backlands | 550 | **494** | ALTERADO | OL Median |
 | 524 | The Core of the Sun | 304 | **320** | ALTERADO | OL Median |
 | 525 | The Fall of the King | 216 | **237** | ALTERADO | OL Median |
 | 526 | The Sea | 226 | **233** | ALTERADO | OL Median |
@@ -536,7 +536,7 @@
 | 532 | Gulliver’s Travels | 252 | **278** | ALTERADO | OL Median |
 | 533 | Capitães de Areia | 280 | **283** | ALTERADO | OL Median |
 | 534 | Against Nature | 262 | **188** | ALTERADO | OL Median |
-| 535 | The Delfim | 230 | **-** | N/A | Não encontrado |
+| 535 | The Delfim | 230 | **128** | ALTERADO | OL Median |
 | 536 | The Obscene Bird of Night | 464 | **438** | ALTERADO | OL Median |
 | 537 | The Book of Chameleons | 180 | **193** | ALTERADO | OL Median |
 | 538 | The Vortex | 260 | **240** | ALTERADO | OL Median |
@@ -566,8 +566,8 @@
 | 562 | The Opposing Shore | 302 | **317** | ALTERADO | OL Median |
 | 563 | Hopscotch | 564 | **633** | ALTERADO | OL Median |
 | 564 | As Pupilas do Sr Reitor | 320 | **287** | ALTERADO | OL Median |
-| 565 | Some Prefer Nettles | 359 | **-** | N/A | Não encontrado |
-| 566 | The Makioka Sisters | 381 | **-** | N/A | Não encontrado |
+| 565 | Some Prefer Nettles | 359 | **202** | ALTERADO | OL Median |
+| 566 | The Makioka Sisters | 381 | **530** | ALTERADO | OL Median |
 | 567 | Jacob the Liar | 371 | **269** | ALTERADO | OL Median |
 | 568 | The Meursault Investigation | 150 | **153** | ALTERADO | OL Median |
 | 569 | War with the Newts | 340 | **309** | ALTERADO | OL Median |
@@ -580,7 +580,7 @@
 | 576 | The Cape | 140 | **200** | ALTERADO | OL Median |
 | 577 | A Personal Matter | 295 | **165** | ALTERADO | OL Median |
 | 578 | The Bone People | 450 | **464** | ALTERADO | OL Median |
-| 579 | Aangan | 320 | **-** | N/A | Não encontrado |
+| 579 | Aangan | 320 | **274** | ALTERADO | OL Median |
 | 580 | No Knives in the Kitchens of This City | 449 | **256** | ALTERADO | OL Median |
 | 581 | Train to Pakistan | 261 | **207** | ALTERADO | OL Median |
 | 582 | That Deadman Dance | 368 | **368** | IGUAL | OL Median |
@@ -595,7 +595,7 @@
 | 591 | Rickshaw Boy | 300 | **232** | ALTERADO | OL Median |
 | 592 | The Melancholy of Resistance | 300 | **333** | ALTERADO | OL Median |
 | 593 | Satantango | 377 | **287** | ALTERADO | OL Median |
-| 594 | The Open Door | 392 | **-** | N/A | Não encontrado |
+| 594 | The Open Door | 392 | **386** | ALTERADO | OL Median |
 | 595 | Dear Shameless Death | 417 | **224** | ALTERADO | OL Median |
 | 596 | The Life and Opinions of Tristram Shandy | 735 | **526** | ALTERADO | OL Median |
 | 597 | Lullaby | 251 | **242** | ALTERADO | OL Median |
@@ -613,12 +613,12 @@
 | 609 | The Oppermanns | 373 | **378** | ALTERADO | OL Median |
 | 610 | The Forest of the Hanged | 320 | **316** | ALTERADO | OL Median |
 | 611 | Eline Vere | 394 | **579** | ALTERADO | OL Median |
-| 612 | Chapel Road | 338 | **-** | N/A | Não encontrado |
+| 612 | Chapel Road | 338 | **338** | IGUAL | OL Median |
 | 613 | Death on Credit | 592 | **592** | IGUAL | OL Median |
 | 614 | Journey to the End of the Night | 391 | **509** | ALTERADO | OL Median |
 | 615 | The True Story of Ah Q | 120 | **100** | ALTERADO | OL Median |
 | 616 | The Late Mathias Pascal | 260 | **-** | N/A | Não encontrado |
-| 617 | Time of Silence | 290 | **-** | N/A | Não encontrado |
+| 617 | Time of Silence | 290 | **250** | ALTERADO | OL Median |
 | 618 | The Girl in the Photograph | 275 | **266** | ALTERADO | OL Median |
 | 619 | Beneath the Lion’s Gaze | 228 | **320** | ALTERADO | OL Median |
 | 620 | Dom Casmurro | 299 | **268** | ALTERADO | OL Median |
@@ -641,7 +641,7 @@
 | 637 | The Final Mist | 110 | **118** | ALTERADO | OL Median |
 | 638 | So Long a Letter | 108 | **120** | ALTERADO | OL Median |
 | 639 | The Underdogs | 334 | **175** | ALTERADO | OL Median |
-| 640 | A Season in the Life of Emmanuel | 130 | **-** | N/A | Não encontrado |
+| 640 | A Season in the Life of Emmanuel | 130 | **145** | ALTERADO | OL Median |
 | 641 | Housekeeping | 170 | **224** | ALTERADO | OL Median |
 | 642 | The Truce | 157 | **186** | ALTERADO | OL Median |
 | 643 | Conversation in the Cathedral | 336 | **669** | ALTERADO | OL Median |
@@ -672,14 +672,14 @@
 | 668 | They Were Counted | 596 | **624** | ALTERADO | OL Median |
 | 669 | The Unbearable Lightness of Being | 212 | **320** | ALTERADO | OL Median |
 | 670 | Dictionary of the Khazars | 330 | **338** | ALTERADO | OL Median |
-| 671 | Two Brothers | 270 | **-** | N/A | Não encontrado |
+| 671 | Two Brothers | 270 | **333** | ALTERADO | OL Median |
 | 672 | Nostalgia | 324 | **337** | ALTERADO | OL Median |
 | 673 | On the Edge of Reason | 184 | **182** | ALTERADO | OL Median |
 | 674 | The Return of Philip Latinowicz | 260 | **230** | ALTERADO | OL Median |
 | 675 | Big Breasts and Wide Hips | 552 | **550** | ALTERADO | OL Median |
 | 676 | Red Sorghum | 368 | **368** | IGUAL | OL Median |
 | 677 | For Bread Alone | 291 | **152** | ALTERADO | OL Median |
-| 678 | The Game of Forgetting | 180 | **-** | N/A | Não encontrado |
+| 678 | The Game of Forgetting | 180 | **240** | ALTERADO | OL Median |
 | 679 | The Reluctant Fundamentalist | 208 | **192** | ALTERADO | OL Median |
 | 680 | The Poor Christ of Bomba | 220 | **250** | ALTERADO | OL Median |
 | 681 | Mission to Kala | 190 | **192** | ALTERADO | OL Median |
@@ -700,7 +700,7 @@
 | 696 | Out | 400 | **616** | ALTERADO | OL Median |
 | 697 | Woman at Point Zero | 121 | **111** | ALTERADO | OL Median |
 | 698 | Manchay Puytu | 218 | **235** | ALTERADO | OL Median |
-| 699 | Petals of Blood | 392 | **-** | N/A | Não encontrado |
+| 699 | Petals of Blood | 392 | **349** | ALTERADO | OL Median |
 | 700 | A Grain of Wheat | 264 | **33** | ALTERADO | OL Median |
 | 701 | The Way of the World | 258 | **314** | ALTERADO | OL Median |
 | 702 | The Silence and the Roar | 150 | **164** | ALTERADO | OL Median |
@@ -711,19 +711,19 @@
 | 707 | Smile as They Bow | 140 | **146** | ALTERADO | OL Median |
 | 708 | From a Crooked Rib | 180 | **173** | ALTERADO | OL Median |
 | 709 | Maps | 321 | **246** | ALTERADO | OL Median |
-| 710 | The Legends of Khasak | 221 | **-** | N/A | Não encontrado |
+| 710 | The Legends of Khasak | 221 | **208** | ALTERADO | OL Median |
 | 711 | The Museum of Abandoned Secrets | 336 | **714** | ALTERADO | OL Median |
 | 712 | Flights | 390 | **424** | ALTERADO | OL Median |
 | 713 | The Books of Jacob | 960 | **1002** | ALTERADO | OL Median |
-| 714 | Snares Without End | 210 | **-** | N/A | Não encontrado |
+| 714 | Snares Without End | 210 | **205** | ALTERADO | OL Median |
 | 715 | My Name Is Red | 416 | **536** | ALTERADO | OL Median |
 | 716 | No Longer Human | 375 | **187** | ALTERADO | OL Median |
 | 717 | The Picture of Dorian Gray | 308 | **246** | ALTERADO | OL Median |
 | 718 | God’s Bits of Wood | 330 | **333** | ALTERADO | OL Median |
 | 719 | The Dwarf | 228 | **228** | IGUAL | OL Median |
 | 720 | Barabbas | 120 | **180** | ALTERADO | OL Median |
-| 721 | The Blue Mimosa | 150 | **-** | N/A | Não encontrado |
-| 722 | Who Ate Up All the Shinga? | 247 | **-** | N/A | Não encontrado |
+| 721 | The Blue Mimosa | 150 | **100** | ALTERADO | OL Title Search + Author Filter |
+| 722 | Who Ate Up All the Shinga? | 247 | **264** | ALTERADO | OL Median |
 | 723 | Potiki | 241 | **192** | ALTERADO | OL Median |
 | 724 | Texaco | 390 | **416** | ALTERADO | OL Median |
 | 725 | Perfume | 240 | **263** | ALTERADO | OL Median |
@@ -759,8 +759,8 @@
 | 755 | Invisible Man | 581 | **480** | ALTERADO | OL Median |
 | 756 | Tyrant Banderas | 224 | **240** | ALTERADO | OL Median |
 | 757 | Border Country | 380 | **371** | ALTERADO | OL Median |
-| 758 | The Ill-Fated Peregrinations of Fray Servando | 230 | **-** | N/A | Não encontrado |
-| 759 | The Life of Ismail Ferik Pasha | 190 | **-** | N/A | Não encontrado |
+| 758 | The Ill-Fated Peregrinations of Fray Servando | 230 | **251** | ALTERADO | OL Title Search + Author Filter |
+| 759 | The Life of Ismail Ferik Pasha | 190 | **166** | ALTERADO | OL Median |
 | 760 | Vilnius Poker | 430 | **540** | ALTERADO | OL Median |
 | 761 | Don Segundo Sombra | 414 | **268** | ALTERADO | OL Median |
 | 762 | Artificial Respiration | 220 | **229** | ALTERADO | OL Median |
@@ -787,7 +787,7 @@
 | 783 | Midnight’s Children | 647 | **556** | ALTERADO | OL Median |
 | 784 | The Satanic Verses | 579 | **560** | ALTERADO | OL Median |
 | 785 | December Bride | 290 | **299** | ALTERADO | OL Median |
-| 786 | The Lonely Londoners | 180 | **-** | N/A | Não encontrado |
+| 786 | The Lonely Londoners | 180 | **138** | ALTERADO | OL Median |
 | 787 | Molloy / Malone Dies / The Unnamable | 288 | **414** | ALTERADO | OL Median |
 | 788 | Embers | 284 | **210** | ALTERADO | OL Median |
 | 789 | The White Shadow | 380 | **450** | ALTERADO | OL Median |
@@ -803,11 +803,11 @@
 | 799 | We Have Always Lived in the Castle | 185 | **187** | ALTERADO | OL Median |
 | 800 | Fires on the Plain | 194 | **246** | ALTERADO | OL Median |
 | 801 | Raag Darbari | 410 | **360** | ALTERADO | OL Median |
-| 802 | The Italian | 364 | **-** | N/A | Não encontrado |
+| 802 | The Italian | 364 | **368** | ALTERADO | OL Median |
 | 803 | Silence | 320 | **294** | ALTERADO | OL Median |
 | 804 | Funny Boy | 325 | **314** | ALTERADO | OL Median |
 | 805 | Where We Once Belonged | 240 | **241** | ALTERADO | OL Median |
-| 806 | Autobiography of a Corpse | 265 | **-** | N/A | Não encontrado |
+| 806 | Autobiography of a Corpse | 265 | **230** | ALTERADO | OL Median |
 | 807 | Kristin Lavransdatter | 900 | **1065** | ALTERADO | OL Median |
 | 808 | A Persian Requiem | 363 | **279** | ALTERADO | OL Median |
 | 809 | The Mandarins | 700 | **610** | ALTERADO | OL Median |
@@ -851,7 +851,7 @@
 | 847 | Copenhagen Trilogy | 290 | **352** | ALTERADO | OL Median |
 | 848 | The Summer Book | 192 | **166** | ALTERADO | OL Median |
 | 849 | Nervous Conditions | 342 | **205** | ALTERADO | OL Median |
-| 850 | Samskara | 208 | **-** | N/A | Não encontrado |
+| 850 | Samskara | 208 | **153** | ALTERADO | OL Median |
 | 851 | The Name of the Rose | 246 | **533** | ALTERADO | OL Median |
 | 852 | The Story of Jan Dara | 310 | **-** | N/A | Não encontrado |
 | 853 | A Bend in the River | 336 | **54** | ALTERADO | OL Median |
@@ -873,7 +873,7 @@
 | 869 | Dumb Luck | 180 | **195** | ALTERADO | OL Median |
 | 870 | The Rings of Saturn | 300 | **277** | ALTERADO | OL Median |
 | 871 | The Song of Everlasting Sorrow | 586 | **456** | ALTERADO | OL Median |
-| 872 | Golden Age | 253 | **-** | N/A | Não encontrado |
+| 872 | Golden Age | 253 | **912** | ALTERADO | OL Title Search + Author Filter |
 | 873 | Death Comes for the Archbishop | 279 | **299** | ALTERADO | OL Median |
 | 874 | Cheese | 104 | **134** | ALTERADO | OL Median |
 | 875 | The Darkroom of Damocles | 337 | **400** | ALTERADO | OL Median |
@@ -885,7 +885,7 @@
 | 881 | Vanity Fair | 867 | **699** | ALTERADO | OL Median |
 | 882 | Cosmos | 411 | **166** | ALTERADO | OL Median |
 | 883 | Ferdydurke | 335 | **272** | ALTERADO | OL Median |
-| 884 | The Weaverbirds | 380 | **-** | N/A | Não encontrado |
+| 884 | The Weaverbirds | 380 | **316** | ALTERADO | OL Median |
 | 885 | Bound to Violence | 180 | **182** | ALTERADO | OL Median |
 | 886 | Memed, My Hawk | 360 | **412** | ALTERADO | OL Median |
 | 887 | The Sound of the Mountain | 272 | **286** | ALTERADO | OL Median |
@@ -893,7 +893,7 @@
 | 889 | We | 248 | **224** | ALTERADO | OL Median |
 | 890 | Our Twisted Hero | 128 | **263** | ALTERADO | OL Median |
 | 891 | The Memory Police | 313 | **288** | ALTERADO | OL Median |
-| 892 | Three Generations | 358 | **-** | N/A | Não encontrado |
+| 892 | Three Generations | 358 | **476** | ALTERADO | OL Median |
 | 893 | To Live | 221 | **264** | ALTERADO | OL Median |
 | 894 | Confessions of a Mask | 196 | **254** | ALTERADO | OL Median |
 | 895 | The Temple of the Golden Pavilion | 342 | **262** | ALTERADO | OL Median |
@@ -925,7 +925,7 @@
 | 921 | Mhudi | 208 | **192** | ALTERADO | OL Median |
 | 922 | Midaq Alley | 286 | **309** | ALTERADO | OL Median |
 | 923 | Wild Thorns | 208 | **208** | IGUAL | OL Median |
-| 924 | Sitti Nurbaya | 294 | **-** | N/A | Não encontrado |
+| 924 | Sitti Nurbaya | 294 | **281** | ALTERADO | OL Median |
 | 925 | Broad and Alien Is the World | 497 | **454** | ALTERADO | OL Median |
 | 926 | The Scholars | 607 | **565** | ALTERADO | OL Median |
 | 927 | The Nine Cloud Dream | 240 | **300** | ALTERADO | OL Median |
@@ -934,7 +934,7 @@
 | 930 | Behind the Painting | 160 | **160** | IGUAL | OL Median |
 | 931 | Pinjar | 160 | **-** | N/A | Não encontrado |
 | 932 | Sunlight on a Broken Column | 336 | **318** | ALTERADO | OL Median |
-| 933 | The Story of Zahra | 240 | **-** | N/A | Não encontrado |
+| 933 | The Story of Zahra | 240 | **192** | ALTERADO | OL Median |
 | 934 | The Concubine | 216 | **216** | IGUAL | OL Median |
 | 935 | Crick Crack, Monkey | 160 | **144** | ALTERADO | OL Median |
 | 936 | House Made of Dawn | 224 | **198** | ALTERADO | OL Median |
@@ -946,7 +946,7 @@
 | 942 | Drums for Rancas | 240 | **261** | ALTERADO | OL Median |
 | 943 | Dust | 384 | **377** | ALTERADO | OL Median |
 | 944 | Green Grass, Running Water | 480 | **428** | ALTERADO | OL Median |
-| 945 | The Travels of Benjamin III | 128 | **-** | N/A | Não encontrado |
+| 945 | The Travels of Benjamin III | 128 | **374** | ALTERADO | OL Title Search + Author Filter |
 | 946 | The Zelmenyaners | 267 | **267** | IGUAL | OL Median |
 | 947 | The Brothers Ashkenazi | 692 | **611** | ALTERADO | OL Median |
 | 948 | The Family Mashber | 728 | **672** | ALTERADO | OL Median |
@@ -968,8 +968,8 @@
 | 964 | Kitchen | 150 | **155** | ALTERADO | OL Median |
 | 965 | Convenience Store Woman | 160 | **163** | ALTERADO | OL Median |
 | 966 | Zaat | 352 | **347** | ALTERADO | OL Median |
-| 967 | The Time of White Horses | 600 | **-** | N/A | Não encontrado |
-| 968 | Salah Asuhan | 200 | **-** | N/A | Não encontrado |
+| 967 | The Time of White Horses | 600 | **643** | ALTERADO | OL Median |
+| 968 | Salah Asuhan | 200 | **243** | ALTERADO | OL Title Search + Author Filter |
 | 969 | On a Boat | 300 | **-** | N/A | Não encontrado |
 | 970 | The Last Flight of the Flamingo | 208 | **225** | ALTERADO | OL Median |
 | 971 | Monnew | 288 | **254** | ALTERADO | OL Median |
@@ -999,7 +999,7 @@
 | 995 | The Other Side | 250 | **276** | ALTERADO | OL Median |
 | 996 | The Death of Virgil | 480 | **493** | ALTERADO | OL Median |
 | 997 | The Ship | 250 | **200** | ALTERADO | OL Median |
-| 998 | Anubis | 300 | **-** | N/A | Não encontrado |
+| 998 | Anubis | 300 | **208** | ALTERADO | OL Median |
 | 999 | As the Crow Flies | 120 | **109** | ALTERADO | OL Median |
 | 1000 | Johnny Mad Dog | 280 | **256** | ALTERADO | OL Median |
 | 1001 | African Psycho | 180 | **196** | ALTERADO | OL Median |
