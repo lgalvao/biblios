@@ -78,7 +78,7 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Chinese",
+    "originalLanguage": "Mandarin",
     "pages": 408,
     "description": "",
     "tags": []
@@ -114,7 +114,7 @@
   {
     "id": 9,
     "title": "The Bird",
-    "author": "O Chŏng-hŭi",
+    "author": "O Chong-hui",
     "year": "1983",
     "country": "Korea",
     "region": "Eastern Asia",
@@ -142,7 +142,7 @@
   {
     "id": 11,
     "title": "Crônicas de San Gabriel",
-    "author": "Julio Ramón Ribeyro",
+    "author": "Julio Ramon Ribeyro",
     "year": "1960",
     "country": "Peru",
     "region": "South America",
@@ -233,8 +233,8 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 1447,
-    "description": "",
+    "pages": 92,
+    "description": "Acclaimed by the initiated, Felisberto Hernandez has long been considered -a writer's writer, more admired by his colleagues than known by the public at large- (Roberto Gonzalez Echevarria, Yale University). As with his predecessors in the -genre of the strange- Ernst Theodor Amadeus Hoffmann, Nikolai Gogol, Edgar Allan Poe and Franz Kafka, the apparent eccentricities in Felisberto Hernandez's stories create a coherent system of allusions and correspondences, a system that reaches its summit in masterpieces such as -Las Hortensias- and -La casa inundada-. As Hoffmann, who preceded him, and Cortazar, who followed, Felisberto turned away from the literary trends of his times and departed on his own journey, undertaking the task of redefining the human being and replacing the accepted notion of material reality with what he called -the mystery-: small and deep daily realities that fall outside an ever narrowing focus on the homogenous and utilitarian. A trained musician and composer, Felisberto elaborated his literary compositions as musical structures, based on the relations among notes and phrases. Thus, Felisberto Hernandez's short stories cannot be approached and read as isolated pieces if the reader intends to grasp the complexity lying deep below the surface. In this edition Ana Maria Hernandez -who bears the same name as Felisbertos' second daughter and teaches Advanced Spanish Composition at CUNY- analyzes the gradual development of Felisberto's theory and praxis of composition by commenting on his most representative short stories and emphasizing the intertextuality of the recurring symbols and themes throughout his literary production. This approach transforms this edition in an exceptional basis for Creative Writing and Advanced Spanish Composition courses, exposing students to texts that exerted a noticeable influence upon acclaimed writers such as Julio Cortazar -his biggest fan- Juan Carlos Onetti, and Italo Calvino, and provoked one of the biggest critical blunders by the otherwise sharp critic Emir Rodriguez Monegal.",
     "tags": []
   },
   {
@@ -360,20 +360,6 @@
     "read": false,
     "originalLanguage": "German",
     "pages": 120,
-    "description": "",
-    "tags": []
-  },
-  {
-    "id": 27,
-    "title": "Coup de Grace",
-    "author": "Marguerite Yourcenar",
-    "year": "1939",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 144,
     "description": "",
     "tags": []
   },
@@ -556,7 +542,7 @@
     "read": false,
     "originalLanguage": "Spanish",
     "pages": 80,
-    "description": "",
+    "description": "Set in a Mexican prison in the late 1960s, The Hole follows three inmates as they plot to sneak in drugs under the noses of their ape-like guards. The inmates desperately need to secure their next fix, and hatch a plan that involves convincing one of their mothers to bring the drugs into the prison, inside her person. But everything about their plan is doomed from the beginning, doomed to end in violence…\n\nUnfolding in a single paragraph, The Hole is a verbal torrent, a prison inside a prison, and an ominous parable about how deformed and wretched institutions create even more deformed and wretched individuals.",
     "tags": []
   },
   {
@@ -2093,7 +2079,7 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 87,
+    "pages": 97,
     "description": "An Episode in the Life of a Landscape Painter is the story of a moment in the life of the German artist Johan Moritz Rugendas (1802-1858). Greatly admired as a master landscape painter, he was advised by Alexander von Humboldt to travel West from Europe to record the spectacular landscapes of Chile, Argentina, and Mexico. Rugendas did in fact become one of the best of the nineteenth-century European painters to venture into Latin America. However this is not a biography of Rugendas. This work of fiction weaves an almost surreal history around the secret objective behind Rugendas's trips to America: to visit Argentina in order to achieve in art the \"physiognomic totality\" of von Humboldt's scientific vision of the whole. Rugendas is convinced that only in the mysterious vastness of the immense plains will he find true inspiration. A brief and dramatic visit to Mendosa gives him the chance to fulfill his dream. From there he travels straight out onto the pampas, praying for that impossible moment, which would come only at an immense price—an almost monstrously exorbitant price that would ultimately challenge his drawing, and force him to create a new way of making art. A strange episode that he could not avoid absorbing savagely into his own body interrupts the trip and irreversibly and explosively marks him for life.",
     "tags": [
       "Latin America"
@@ -2903,7 +2889,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Bengali",
-    "pages": 20,
+    "pages": 556,
     "description": "Set in rural Bengal against the backdrop of the Tebhaga movement and the 1947 Partition of India, this magical realist epic weaves together folklore, political struggles, and dream interpretations. The narrative centers on a community of fishermen and peasants whose lives are deeply connected to a mythical marshland inhabited by the ghost of a sepoy rebel. Elias uses this rich tapestry to examine the unfulfilled promises of independence, the persistence of class oppression, and the vibrant oral history of the Bengali peasantry.",
     "tags": [
       "subcontinent"
@@ -4685,22 +4671,6 @@
     "tags": []
   },
   {
-    "id": 323,
-    "title": "The Hungry Dogs",
-    "author": "Ciro Alegria",
-    "year": "1941",
-    "country": "Peru",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 36,
-    "description": "A book from Peru.",
-    "tags": [
-      "Latin America"
-    ]
-  },
-  {
     "id": 324,
     "title": "The Hour of the Star",
     "author": "Clarice Lispector",
@@ -5171,7 +5141,7 @@
   {
     "id": 356,
     "title": "The Crime of Father Amaro",
-    "author": "Eca de Queiros",
+    "author": "Eça de Queiros",
     "year": "1875",
     "country": "Portugal",
     "region": "Southern Europe",
@@ -5185,7 +5155,7 @@
   {
     "id": 357,
     "title": "The Maias",
-    "author": "Eca de Queiros",
+    "author": "Eça de Queiros",
     "year": "1888",
     "country": "Portugal",
     "region": "Southern Europe",
@@ -5222,20 +5192,6 @@
     "originalLanguage": "English",
     "pages": 192,
     "description": "This groundbreaking Irish novel follows two young girls, Caithleen 'Kate' Brady and Bridget 'Baba' Brennan, as they grow up in rural Ireland, escape their repressive convent school, and seek romance and freedom in Dublin. The narrative explores their sexual awakenings, their search for independence, and their encounters with the rigid social expectations of 1950s Irish society. The novel was famously banned and burned in Ireland upon its release for its candid, honest depiction of female desire and its critique of Catholic moral authority.",
-    "tags": []
-  },
-  {
-    "id": 360,
-    "title": "Mozart's Journey to Prague",
-    "author": "Eduard Morike",
-    "year": "1855",
-    "country": "Germany",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 95,
-    "description": "A book from Germany.",
     "tags": []
   },
   {
@@ -5278,8 +5234,8 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Mandarin",
-    "pages": 1,
-    "description": "A book from China.",
+    "pages": 379,
+    "description": "\"Shanghai, 1930s. Shen Shijun, a young engineer, has fallen in love with his colleague, the beautiful Gu Manzhen. He is determined to resist his family's efforts to match him with his wealthy cousin so that he can marry the woman he truly loves. But dark circumstances--a lustful brother-in-law, a treacherous sister, a family secret--force the two young lovers apart. As Manzhen and Shijun go on their separate paths, they lose track of one another, and their lives become filled with feints and schemes, missed connections and tragic misunderstandings. At every turn, societal expectations seem to thwart their prospects for happiness. Still, Manzhen and Shijun dare to hold out hope--however slim--that they might one day meet again. A glamorous, wrenching tale set against the glittering backdrop of an extraordinary city, Half a Lifelong Romance is a beloved classic from one of the essential writers of twentieth-century China\"--",
     "tags": []
   },
   {
@@ -6097,8 +6053,8 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 1072,
-    "description": "Taking place over several weeks in 1975 during the early, chaotic outbreak of the Lebanese Civil War, this powerful novel is written as a series of nightmares experienced by a female journalist trapped in her apartment. As gunfire and sniper fire rage outside, she observes the physical destruction of her city, the deaths of neighbors, and the decay of human empathy. Samman's rich, expressionistic prose blends surreal fantasy, sharp political analysis, and feminist critique to portray the psychological trauma, terror, and absurdity of urban warfare.",
+    "pages": 378,
+    "description": "Beirut Nightmares is set at the height of the Lebanese Civil War. The narrator, trapped in her apartment for two weeks by street battles and sniper fire, writes a series of vignettes peopled by an extraordinary cast of characters, some drawn from shocking waking world and others living only in the sleeping minds, of those suffering in the conflict.",
     "tags": [
       "middle-east"
     ]
@@ -6113,8 +6069,8 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Arabic",
-    "pages": 114,
-    "description": "This short, devastating political masterpiece follows three Palestinian refugees from different generations—Abu Qais, Assad, and Marwan—who attempt to travel illegally from Iraq to Kuwait to find work. They pay a cynical, traumatized Palestinian driver to smuggle them across the border in the empty water tank of his truck under the scorching summer sun. Through their tragic journey and the silence that seals their fate, Kanafani constructs a powerful, heartrending allegory for the displacement, political neglect, and existential crisis of the Palestinian people after the Nakba.",
+    "pages": 142,
+    "description": "Men in the Sun is the legitimate, long-lost cry; it is the Palestinian voice that has been lost for so long in the tents of displacement, suffocating inside a vehicle driven by a eunuch who was defeated once and will lead everyone to their deaths. As a novel, it does not claim to express the lived Palestinian reality in its complex relationships; it is a symbolic framework for multiple relationships centered on Palestinian death, and on the necessity of moving beyond it towards discovering historical action, or searching for this action by posing the obvious question: \"Why didn't they knock on the walls of the tank?\"",
     "tags": [
       "middle-east"
     ]
@@ -6525,7 +6481,7 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Japanese",
-    "pages": 99,
+    "pages": 607,
     "description": "Japan's most highly regarded novelist now vaults into the first ranks of international fiction writers with this heroically imaginative novel, which is at once a detective story, an account of a disintegrating marriage, and an excavation of the buried secrets of World War II.\r\n\r\nIn a Tokyo suburb a young man named Toru Okada searches for his wife's missing cat. Soon he finds himself looking for his wife as well in a netherworld that lies beneath the placid surface of Tokyo. As these searches intersect, Okada encounters a bizarre group of allies and antagonists: a psychic prostitute; a malevolent yet mediagenic politician; a cheerfully morbid sixteen-year-old-girl; and an aging war veteran who has been permanently changed by the hideous things he witnessed during Japan's forgotten campaign in Manchuria.\r\n\r\nGripping, prophetic, suffused with comedy and menace, The Wind-Up Bird Chronicle is a tour de force equal in scope to the masterpieces of Mishima and Pynchon.",
     "tags": []
   },
@@ -6611,8 +6567,8 @@
     "continent": "Oceania",
     "read": false,
     "originalLanguage": "English",
-    "pages": 100,
-    "description": "Athena and Dexter lead an enclosed family life, innocent of fashion and bound towards a disturbed child. Their comfortable rut is disrupted by the arrival of Elizabeth, a tough nut from Dexter's past. With her three charming, chaotic hangers-on, she draws the couple out into a world whose casual egotism they had barely dreamed of. How can they get home again?",
+    "pages": 176,
+    "description": "Helen Garner has been a literary institution in Australia for decades. Her perfectly formed novels embodied Australia’s tumultuous 70s and 80s, and her incisive nonfiction evokes the keen eye of the New Journalists. dubbed her “the Joan Didion of Australia.” Now, the beloved work that solidified her place among the masters of modern international letters, is available in a new US edition.\n\nfollows Dexter and Athena Fox, a husband and wife who live with their two sons in the inner suburbs of early-1980s Melbourne. Dexter is gregarious, opinionated, and old fashioned. Athena is a dutiful wife and mother, stoic yet underestimated. Though their son’s disability strains the family at times, they appear to lead otherwise happy lives.\n\nBut when a friend from Dexter’s past resurfaces, she and her cast of beguiling companions reveal another world to Dexter and Athena: a bohemian underground, unbound by routine and driven by desire, where choice seems to exist independent of consequence. And as Athena delves deeper into this other kind of life, the tenuous bonds that hold the Fox family together begin to fray.\n\nPainted on a small canvas and with a subtle musical backdrop, is “a jewel” among Garner’s revered catalog (Ben Lerner), a finely etched masterpiece that weighs the burdens of commitment against the costs of liberation.",
     "tags": []
   },
   {
@@ -6996,22 +6952,6 @@
     "pages": 218,
     "description": "Before Sex and the City there was Bridget Jones. And before Bridget Jones was The Artificial Silk Girl. In 1931, a young woman writer living in Germany was inspired by Anita Loos's Gentlemen Prefer Blondes to describe pre-war Berlin and the age of cinematic glamour through the eyes of a woman. The resulting novel, The Artificial Silk Girl, became an acclaimed bestseller and a masterwork of German literature, in the tradition of Christopher Isherwood's Berlin Stories and Bertolt Brecht's Three Penny Opera. Like Isherwood and Brecht, Keun revealed the dark underside of Berlin's golden twenties with empathy and honesty. Unfortunately, a Nazi censorship board banned Keun's work in 1933 and destroyed all existing copies of The Artificial Silk Girl. Only one English translation was published, in Great Britain, before the book disappeared in the chaos of the ensuing war. Today, more than seven decades later, the story of this quintessential material girl remains as relevant as ever, as an accessible new translation brings this lost classic to light once more. Other Press is pleased to announce the republication of The Artificial Silk Girl, elegantly translated by noted Germanist Kathie von Ankum, and with a new introduction by Harvard professor Maria Tatar.",
     "tags": []
-  },
-  {
-    "id": 481,
-    "title": "Trainspotting",
-    "author": "Irvine Welsh",
-    "year": "1993",
-    "country": "Scotland",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 352,
-    "description": "Brace yourself, America, for Irvine Welsh's Trainspotting--the novel and the film that became the cult sensations of Britain. Trainspotting is the novel that first launched Irvine Welsh's spectacular career--an authentic, unrelenting, and strangely exhilarating episodic group portrait of blasted lives. It accomplished for its own time and place what Hubert Selby, Jr.'s Last Exit to Brooklyn did for his. Rents, Sick Boy, Mother Superior, Swanney, Spuds, and Seeker are as unforgettable a clutch of junkies, rude boys, and psychos as readers will ever encounter. Trainspotting was made into the 1996 cult film starring Ewan MacGregor and directed by Danny Boyle (A Shallow Grave).",
-    "tags": [
-      "UK"
-    ]
   },
   {
     "id": 482,
@@ -7680,20 +7620,6 @@
     "tags": []
   },
   {
-    "id": 528,
-    "title": "The Grapes of Wrath",
-    "author": "John Steinbeck",
-    "year": "1939",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": true,
-    "originalLanguage": "English",
-    "pages": 544,
-    "description": "From Library JournalJourney with the Joads for 21 hours in this first unabridged version of Steinbeck's classic. Controversial, even shocking, when it was written, the work continues to be so even today. The keen listener can hear why, because it poses fundamental questions about justice, the ownership and stewardship of the land, the role of government, power, and the very foundations of capitalist society. As history, this brings the Dust Bowl years to life in a most memorable way. Steinbeck (Travels with Charley, Audio Reviews, LJ 11/15/94) is a master storyteller and manages to engage the listener's sympathy with this epic story. Reader Dylan Baker, who gives each character a distinctive voice, draws the listener in. His female characters, especially the minor ones and Rose of Sharon, don't seem as authentic as his wonderful evocation of the fictional Tom, Ma, and Pa. But his voice is easy to listen to, and he is faithful to the characters' backgrounds and the plains region. The music that ends each individual tape is perfect for the story. This program is a well-produced, affordable, and worthwhile addition for any library with a serious audiobook collection.?Nancy Paul, Brandon P.L., WICopyright 1999 Reed Business Information, Inc. ReviewNovel by John Steinbeck, published in 1939. Set during the Great Depression, it traces the migration of an Oklahoma Dust Bowl family to California and their subsequent hardships as migrant farm workers. It won a Pulitzer Prize in 1940. The work did much to publicize the injustices of migrant labor. The narrative, interrupted by prose-poem interludes, chronicles the struggles of the Joad family's life on a failing Oklahoma farm, their difficult journey to California, and their disillusionment once they arrive there and fall prey to a parasitic economic system. The insularity of the Joads--Ma's obsession with family togetherness, son Tom's self-centeredness, and daughter Rose of Sharon's materialism--ultimately gives way to a sense of universal community. -- The Merriam-Webster Encyclopedia of Literature",
-    "tags": []
-  },
-  {
     "id": 529,
     "title": "Celestial Bodies",
     "author": "Jokha Alharthi",
@@ -8164,7 +8090,7 @@
     "read": false,
     "originalLanguage": "Spanish",
     "pages": 432,
-    "description": "A book from Spain.",
+    "description": "A REDISCOVERED POST-WAR LOVE STORY FROM ONE OF SPAIN'S MOST ACCLAIMED AUTHORS.\n\n1950s Barcelona. A rebellious daughter of a wealthy family meets an ambitious rogue at a party.\n\nTeresa was born with every advantage in life - beautiful, rich, charming and clever. Another left-wing university student in the wealthy neighbourhood of San Gervasio.\n\nManolo has only ever existed on the margins. A poor immigrant from Murcia like him, stealing motorbikes for a living, could only ever dream of being with the daughter of the Catalan bourgeoisie - until now.\n\nJuan Marsé's masterpiece is an unforgettable portrait of post-war Barcelona - a modern classic on the power of desire and love, ambition and hope against all odds.",
     "tags": []
   },
   {
@@ -8725,7 +8651,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Russian",
-    "pages": 696,
+    "pages": 1400,
     "description": "A monumental epic of world literature detailing the histories of five Russian aristocratic families amidst the Napoleonic invasion of Russia, exploring destiny, history, and the human spirit.",
     "tags": []
   },
@@ -8767,8 +8693,8 @@
     "continent": "Europe",
     "read": true,
     "originalLanguage": "Russian",
-    "pages": 92,
-    "description": "Tolstoy's universally acclaimed novella detailing the terminal illness, suffering, and final spiritual awakening of a high-court judge who realizes his life was spent in superficiality.",
+    "pages": 113,
+    "description": "Hailed as one of the world's supreme masterpieces on the subject of death and dying, The Death of Ivan Ilyich is the story of a worldly careerist, a high court judge who has never given the inevitability of his dying so much as a passing thought. But one day death announces itself to him, and to his shocked surprise he is brought face-to-face with his own mortality. How, Tolstoy asks, does an unreflective man confront his one and only moment of truth?\n\nThis short novel was the artistic culmination of a profound spiritual crisis in Tolstoy's life, a nine-year period following the publication of Anna Karenina during which he wrote not a word of fiction. A thoroughly absorbing and at times terrifying glimpse into the abyss of death, it is also a strong testament to the possibility of finding spiritual salvation.",
     "tags": []
   },
   {
@@ -8781,8 +8707,8 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "Spanish",
-    "pages": 679,
-    "description": "Set in Cuba and Europe, this colossal historical novel weaves together three parallel narratives: the life of the exiled Russian revolutionary Leon Trotsky, the biography of his Spanish assassin Ramón Mercader, and the reflections of Iván, a frustrated Cuban writer in Havana. The plot follows Trotsky's tragic exile across the globe, Mercader's systematic brainwashing by the Soviet secret police, and Iván's post-Soviet disillusionment. Through this epic tapestry, Padura constructs a profound, devastating critique of the betrayal of twentieth-century political ideals and the tragic suppression of individual freedom.",
+    "pages": 592,
+    "description": "In his youth, Iván Cárdenas Maturell was the great promise of modern Cuban literature. But after Iván dared to write a story that was deemed counterrevolutionary, he suffered the consequences and became not just a loser but a defeated man. After two years of obligatory social service, Iván returns to Havana and takes a job editing a veterinary magazine. One afternoon, he meets a mysterious foreigner in the company of two Russian wolfhounds, whom he quickly names “the man who loved dogs.”\n     Their initially superficial exchanges eventually lead to more heartfelt conversations in which Iván discloses his own fears and frustrations and the man who loved dogs admits that he is dying. In the shadow of death, the foreign man feels compelled to relay the details of his life to another person, and confesses to Iván that he is actually Ramón Mercader, the man who killed Leon Trotsky in Mexico City.\n     Moving seamlessly between Iván’s life in Cuba, Mercader’s early years in Spain and France, and Trotsky’s long years of exile, The Man Who Loved Dogs is Leonardo Padura’s most ambitious and brilliantly executed novel yet. It is the story of revolutions fought and betrayed, the ways in which men’s political convictions are continually tested and manipulated, and a powerful critique of the role of fear in consolidating political power.",
     "tags": [
       "Latin America"
     ]
@@ -9425,8 +9351,8 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 704,
-    "description": "One of the Top 10 Books of 2014 – Michiko Kakutani, The New York Times A New York Times Book Review Notable Book Named a best book of the year by: The New York Times Chicago Tribune The Washington Post The Boston Globe Time Newsweek The Huffington Post The Seattle Times The Houston Chronicle Publishers Weekly Library Journal Popsugar BookPage BuzzFeed Books Salon Kansas City Star L Magazine From the acclaimed author of The Book of Night Women comes a “musical, electric, fantastically profane” (The New York Times) epic that explores the tumultuous world of Jamaica over the past three decades. In A Brief History of Seven Killings, Marlon James combines brilliant storytelling with his unrivaled skills of characterization and meticulous eye for detail to forge an enthralling novel of dazzling ambition and scope. On December 3, 1976, just before the Jamaican general election and two days before Bob Marley was to play the Smile Jamaica Concert to ease political tensions in Kingston, seven gunmen stormed the singer’s house, machine guns blazing. The attack wounded Marley, his wife, and his manager, and injured several others. Little was officially released about the gunmen, but much has been whispered, gossiped and sung about in the streets of West Kingston. Rumors abound regarding the assassins’ fates, and there are suspicions that the attack was politically motivated. A Brief History of Seven Killings delves deep into that dangerous and unstable time in Jamaica’s history and beyond. James deftly chronicles the lives of a host of unforgettable characters – gunmen, drug dealers, one-night stands, CIA agents, even ghosts – over the course of thirty years as they roam the streets of 1970s Kingston, dominate the crack houses of 1980s New York, and ultimately reemerge into the radically altered Jamaica of the 1990s. Along the way, they learn that evil does indeed cast long shadows, that justice and retribution are inextricably linked, and that no one can truly escape his fate. Gripping and inventive, shocking and irresistible, A Brief History of Seven Killings is a mesmerizing modern classic of power, mystery, and insight. Sobre o Autor Marlon James was born in Jamaica in 1970. His most recent novel, A Brief History of Seven Killings, won the 2015 Man Booker Prize. It was also a finalist for the National Book Critics Circle Award and won the OCM Bocas Prize for Caribbean Literature for fiction, the Anisfield-Wolf Book Award for fiction, and the Minnesota Book Award. It was also a New York Times Notable Book. James is also the author of The Book of Night Women, which won the 2010 Dayton Literary Peace Prize and the Minnesota Book Award, and was a finalist for the 2010 National Book Critics Circle Award in fiction and an NAACP Image Award. His first novel, John Crow’s Devil, was a finalist for the Los Angeles Times Book Prize for first fiction and the Commonwealth Writers’ Prize and was a New York Times Editors’ Choice. James lives in Minneapolis. Trecho. © Reimpressão autorizada. Todos os direitos reservados Listen. Dead people never stop talking. Maybe because death is not death at all, just a detention after school. You know where you’re coming from and you��re always returning from it. You know where you’re going though you never seem to get there and you’re just dead. Dead. It sounds final but it’s a word missing an ing. You come across men longer dead than you, walking all the time though heading nowhere and you listen to them howl and hiss because we’re all spirits or we think we are all spirits but we’re all just dead. Spirits that slip inside other spirits. Sometimes a woman slips inside a man and wails like the memory of making love. They moan and keen loud but it comes through the window like a whistle or a whisper under the bed, and little children think there’s a monster. The dead love lying under the living for three reasons. (1) We’re lying most of the time. (2) Under the bed looks like the top of a coffin, but (3) There is weight, human weight on top that you can slip into and make heavier, and you listen to the heart beat while you watch it pump and hear the nostrils hiss when their lungs press air and envy even the shortest breath. I have no memory of coffins. But the dead never stop talking and sometimes the living hear. This is what I wanted to say. When you’re dead speech is nothing but tangents and detours and there’s nothing to do but stray and wander awhile. Well, that’s at least what the others do. My point being that the expired learn from the expired, but that’s tricky. I could listen to myself, still claiming to anybody that would hear that I didn’t fall, I was pushed over the balcony at the Sunset Beach Hotel in Montego Bay. And I can’t say shut your trap, Artie Jennings, because every morning I wake up having to put my pumpkin-smashed head back together. And even as I talk now I can hear how I sounded then, can you dig it, dingledoodies? meaning that the afterlife is just not a happening scene, not a groovy shindig, Daddy-O, see those cool cats on the mat? They could never dig it, and there’s nothing to do but wait for the man that killed me, but he won’t die, he only gets older and older and trades out wives for younger and younger and breeding a whole brood of slow-witted boys and running the country down into the ground. Dead people never stop talking and sometimes the living hear. Sometimes he talks back if I catch him right as his eyes start to flicker in his sleep, talks until his wife slaps him. But I’d rather listen to the longer dead. I see men in split breeches and bloody longcoats and they talk, but blood comes out of their mouths and good heavens that slave rebellion was such ghastly business and that queen has of course been of bloody awful use ever since the West India Company began their rather shoddy decline compared to the East and why are there so many negroes taking to sleeping so unsoundly wherever they see fit and confound it all I seem to have misplaced the left half of my face. To be dead is to understand that dead is not gone, you’re in the flatness of the deadlands. Time doesn’t stop. You watch it move but you are still, like a painting with a Mona Lisa smile. In this space a three-hundred-year-old slit throat and two-minute-old crib death is the same. If you don’t watch how you sleep, you’ll find yourself the way the living found you. Me, I’m lying on the floor, my head a smashed pumpkin with my right leg twisted behind the back and my two arms bent in a way that arms aren’t supposed to bend and from high up, from the balcony I look like a dead spider. I am up there and down here and from up there I see myself the way my killer saw me. The dead relive a motion, an action, a scream and they’re there again just like that, the train that never stopped running until it ran off the rails, the ledge from that building sixteen floors up, the car trunk that ran out of air. Rudeboys’ bodies bursting like pricked balloons, fifty-six bullets. Nobody falls that way without being pushed. I know. And I know how it feels and looks, a body that falls fighting air all the way down, grabbing on to clumps of nothing and begging once, just once, just goddamn once, Jesus, you sniveling son of a mongrel bitch, just once that air gives a grip. And you land in a ditch five feet deep or a marble-tiled floor sixteen feet down, still fighting when the floor rises up and smashes into you because it got tired of waiting for blood. And we’re still dead but we wake up, me a crushed spider, him a burned cockroach. I have no memory of coffins. Listen. Living people wait and see because they fool themselves that they have time. Dead people see and wait. I once asked my Sunday school teacher, if heaven is the place of eternal life, and hell is the opposite of heaven, what does that make hell? A place for dirty little red boys like you, she said. She’s still alive. I see her, at the Eventide Old Folks Home getting too old and too stupid, not knowing her name and talking in so soft a rasp that nobody can hear that she’s scared of nightfall because that’s when the rats come for her good toes. I see more than that. Look hard enough or maybe just to the left and you see a country that was the same as I left it. It never changes, whenever I’m around people they are exactly as I had left them, aging making no difference. The man who was father of a nation, father to me more than my own, cried like a sudden widow when he heard I had died. You never know when people’s dreams are connected to you before you’re gone and then there’s nothing to do, but watch them die in a different way, slow, limb by limb, system by system. Heart condition, diabetes, slow-killing diseases with slow-sounding names. This is the body going over to death with impatience, one part at a time. He will live to see them make him a national hero and he will die the only person thinking he had failed. That’s what happens when you personify hopes and dreams in one person. He becomes nothing more than a literary device. This is a story of several killings, of boys who meant nothing to a world still spinning, but each of them as they pass me carry the sweet-stink scent of the man that killed me. The first, he screams his tonsils out but the scream stops right at the gate of his teeth because they have gagged him and it tastes like vomit and stone. And someone has tied his hands tight behind his back but they feel loose because all the skin has rubbed off and blood is greasing the rope. He’s kicking with both legs because right is tied to left, kicking the dirt rising five feet, then six, and he cannot stand because it’s raining mud and dirt and dust to dust and rocks. One rock claps his nose and another bullets his eye and it’s erupting and he’s screaming but the scream runs right to the tip of his mouth then back down like reflux and the dirt is a flood that’s rising and rising and he cannot see his toes. Then he’ll wake up and he’s still dead and he won’t tell me his name. Bam-Bam I know I was fourteen. That me know. I also know that too many people talk too much, especially the American, who never shut up, just switch to a laugh every time he talk ’bout you, and it sound strange how he put your name beside people we never hear ’bout, Allende Lumumba, a name that sound like a country that Kunta Kinte come from. The American, most of the time hide him eye with sunglasses like he is a preacher from America come to talk to black people. Him and the Cuban come sometimes together, sometimes on they own, and when one talk the other always quiet. The Cuban don’t fuck with guns because guns always need to be needed, him say. And I know me used to sleep on a cot and I know that my mother was a whore and my father was the last good man in the ghetto. And I know we watched your big house on Hope Road for days now, and at one point you come talk to us like you was Jesus and we was Iscariot and you nod as if to say get on with your business and do what you have to do. But I can’t remember if me see you or if somebody told me that him see you so that me think I see it too, you stepping out on the back porch, eating a slice of breadfruit, she coming out of nowhere like she have serious business outside at that time of night and shocked, so shocked that you don’t have no clothes on, then she reach for your fruit because she want to eat it even though Rasta don’t like when woman loose and you both get to midnight raving, and I grab meself and rave too from either seeing it or hearing it, and then you write a song about it. The boy from Concrete Jungle on the same girly green scooter come by for four days at eight in the morning and four in the evening for the brown envelope until the new security squad start to turn him back. We know about that business too. In the Eight Lanes and in Copenhagen City all you can do is watch. Sweet-talking voice on the radio say that crime and violence are taking over the country and if change ever going to come then we will have to wait and see, but all we can do down here in the Eight Lanes is see and wait. And I see shit water run free down the street and I wait. And I see my mother take two men for twenty dollars each and one more who pay twenty-five to stay in instead of pull out and I wait. And I watch my father get so sick and tired of her that he beat her like a dog. And I see the zinc on the roof rust itself brown, and then the rain batter hole into it like foreign cheese, and I see seven people in one room and one pregnant and people fucking anyway because people so poor that they can’t even afford shame and I wait. And the little room get smaller and smaller and more sisterbrothercousin come from country, the city getting bigger and bigger and there be no place to rub-a-dub or cut you shit and no chicken back to curry and even when there is it still cost too much money and that little girl get stab because they know she get lunch money every Tuesday and the boys like me getting older and not in school very regular and can’t read Dick and Jane but know Coca-Cola, and want to go to a studio and cut a tune and sing hit songs and ride the riddim out of the ghetto but Copenhagen City and the Eight Lanes both too big and every time you reach the edge, the edge move ahead of you like a shadow until the whole world is a ghetto, and you wait. I see you hungry and waiting and know that it’s just luck, you loafing around the studio and Desmond Dekker telling the man to give you a break, and he give you the break because he hear the hunger in your voice before he even hear you sing. You cut a tune, but not a hit song, too pretty for the ghetto even then, for we past the time when prettiness make anybody’s life easy. We see you hustle and trying to talk your way twelve inches taller and we want to see you fail. And we know nobody would want you to be a rudeboy anyway for you look like a schemer. And when you disappear to Delaware and come back, you try sing the ska, but ska already left the ghetto to take up residence uptown. Ska take the plane to foreign to show white people that it’s just like the twist. Maybe that make the Syrian and the Lebanese proud, but when we see them in the newspaper posing with Air Hostess we not proud, just stunned stupid. You make another song, this time a hit. But one hit can’t bounce you out of the ghetto when you recording hits for a vampire. One hit can’t make you into Skeeter Davis or the man who sing them Gunfighter Ballads. By the time boy like me drop out of my mother, she give up. Preacher says there is a god-shaped void in everybody life but the only thing ghetto people can fill a void with is void. Nineteen seventy-two is nothing like 1962 and people still whispering for they could never shout that when Artie Jennings dead all of a sudden he take the dream with him. The dream of what I don’t know. People stupid. The dream didn’t leave, people just don’t know a nightmare when they right in the middle of one. More people start moving to the ghetto because Delroy Wilson just sing that “Better Must Come” and the man who would become Prime Minister sing it too. Better Must Come. Man who look like white man but chat bad like naigger when they have to, singing “Better Must Come.” Woman who dress like the Queen, who never care about the ghetto before it swell and burst in Kingston singing “Better Must Come.” But worst come first.",
+    "pages": 688,
+    "description": "On December 3, 1976, just before the Jamaican general election and two days before Bob Marley was to play the Smile Jamaica Concert, gunmen stormed his house, machine guns blazing. The attack nearly killed the Reggae superstar, his wife, and his manager, and injured several others. Marley would go on to perform at the free concert on December 5, but he left the country the next day, not to return for two years.\n\nDeftly spanning decades and continents and peopled with a wide range of characters—assassins, journalists, drug dealers, and even ghosts—A Brief History of Seven Killings is the fictional exploration of that dangerous and unstable time and its bloody aftermath, from the streets and slums of Kingston in the 70s, to the crack wars in 80s New York, to a radically altered Jamaica in the 90s. Brilliantly inventive and stunningly ambitious, this novel is a revealing modern epic that will secure Marlon James’ place among the great literary talents of his generation.",
     "tags": []
   },
   {
@@ -9969,8 +9895,8 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Japanese",
-    "pages": 119,
-    "description": "Set in Tokyo during the early Meiji era, this delicate, melancholic classic follows Otama, a dutiful young woman who becomes the mistress of a wealthy, ruthless moneylender, Suezō, to support her impoverished father. Trapped in her domestic confinement, Otama falls passionately in love with Okada, a quiet, gentle medical student who walks past her house every day, and attempts to find a way to communicate with him. Ōgai's elegant, realist prose constructs a beautiful, tragic meditation on unfulfilled female desire, class constraints, and the rapid, painful modernization of Japanese society.",
+    "pages": 128,
+    "description": "n The Wild Geese , prominent Japanese novelist Ogai Mori offers a poignant story of unfulfilled love, set against the background of the dizzying social change accompanying the fall of the Meiji regime. The young heroine, Otama, is forced by poverty to become a moneylender's mistress. She is surrounded by skillfully-drawn characters—her weak-willed father, her virile and calculating lover (and his suspicious wife), and the handsome student who is both the object of her desire, and the symbol of her rescue—as well as a colorful procession of Meiji era figures—geisha, students, entertainers, unscrupulous matchmakers, shopkeepers, and greedy landladies. Like those around her, and like the wild geese of the title, Otama yearns for the freedom of flight. Her dawning consciousness of her predicament brings the novel to a touching climax. Written in 1913, The Wild Geese enjoyed such success in Japan that it was made into a film, shown abroad as The Mistress .",
     "tags": []
   },
   {
@@ -10207,7 +10133,7 @@
     "continent": "Africa",
     "read": false,
     "originalLanguage": "Gikuyu",
-    "pages": 33,
+    "pages": 264,
     "description": "The Nobel Prize–nominated Kenyan writer’s best-known novel, featuring an introduction by Nobel Prize winner Abdulrazak Gurnah.\r\n\r\nSet in the wake of the Mau Mau rebellion and on the cusp of Kenya's independence from Britain, A Grain of Wheat follows a group of villagers whose lives have been transformed by the 1952–1960 Emergency. At the center of it all is the reticent Mugo, the village's chosen hero and a man haunted by a terrible secret. As we learn of the villagers' tangled histories in a narrative interwoven with myth and peppered with allusions to real-life leaders, including Jomo Kenyatta, a masterly story unfolds in which compromises are forced, friendships are betrayed, and loves are tested.",
     "tags": []
   },
@@ -10393,7 +10319,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Polish",
-    "pages": 1002,
+    "pages": 980,
     "description": "This monumental, Nobel Prize-winning historical masterpiece is set in the mid-eighteenth century across the multi-ethnic borderlands of Poland, Ukraine, and the Ottoman Empire. The narrative centers on the historical figure of Jacob Frank, a charismatic, controversial Jewish mystic who declared himself the Messiah and led a large, religious movement that practiced forbidden heresies and eventually converted to Catholicism. Through a massive, dazzling array of perspectives and voices, Tokarczuk reconstructs the daily lives, religious debates, and cultural friction of eighteenth-century Central Europe, delivering a profound meditation on history.",
     "tags": []
   },
@@ -10869,22 +10795,6 @@
     "originalLanguage": "Urdu",
     "pages": 438,
     "description": "A book from Índia.",
-    "tags": [
-      "subcontinent"
-    ]
-  },
-  {
-    "id": 747,
-    "title": "The Guide",
-    "author": "R.K. Narayan",
-    "year": "1960",
-    "country": "India",
-    "region": "Southern Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 39,
-    "description": "Formerly India's most corrupt tourist guide, Raju-just released from prison- seeks refuge in an abandoned temple. Mistaken for a holy man, he plays the part and succeeds so well that God himself intervenes to put Raju's newfound sanctity to the test. Narayan's most celebrated novel, The Guide won him the National Prize of the Indian Literary Academy, his country's highest literary honor. Formerly India's most corrupt tourist guide, Raju-just released from prison- seeks refuge in an abandoned temple. Mistaken for a holy man, he plays the part and succeeds so well that God himself intervenes to put Raju's newfound sanctity to the test. Narayan's most celebrated novel, The Guide won him the National Prize of the Indian Literary Academy, his country's highest literary honor.",
     "tags": [
       "subcontinent"
     ]
@@ -11959,7 +11869,7 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 518,
+    "pages": 700,
     "description": "The son of a carpenter, Julian Sorel is inspired by the writings of Napoleon to conquer the heights of society. His initial plan to work his way up through the church is, however, thwarted when he is forced to accept employment as a tutor--and this rash social entrepreneur certainly has not considered the dangers of falling in love. Stendhal's novel is an amusing and piquant study of hypocrisy and free will in post-Napoleonic France. About the Series: For over 100 years Oxford World's Classics has made available the broadest spectrum of literature from around the globe. Each affordable volume reflects Oxford's commitment to scholarship, providing the most accurate text plus a wealth of other valuable features, including expert introductions by leading authorities, voluminous notes to clarify the text, up-to-date bibliographies for further study, and much more.",
     "tags": []
   },
@@ -12459,8 +12369,8 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 54,
-    "description": "A book from Trinidad and Tobago.",
+    "pages": 336,
+    "description": "'Brilliant and terrifying' - \"Observer\". I had to be the man who was doing well and more than well, the man whose drab shop concealed some bigger operation that made millions. I had to be the man who had planned it all, who had come to the destroyed town at the bend in the river because he had foreseen the rich future. 'Salim, the narrator, is a young man from an Indian family of traders long resident on the coast of Central Africa. Salim has left the coast to make his way in the interior, there to take on a small trading shop of this and that, sundries, sold to the natives. The place is 'a bend in the river'; it is Africa. The time is post-colonial, the time of Independence. The Europeans have withdrawn or been forced to withdraw and the scene is one of chaos, violent change, warring tribes, ignorance, isolation, poverty and a lack of preparation for the modern world they have entered, or partially assumed as a sort of decoration. It is a story of historical upheaval and social breakdown. Naipaul has fashioned a work of intense imaginative force. It is a haunting creation, rich with incident and human bafflement, played out in an immense detail of landscape rendered with a poignant brilliance' - Elizabeth Hardwick. 'Always a master of fictional landscape, Naipaul here shows, in his variety of human examples and in his search for underlying social causes, a Tolstoyan spirit' - John Updike.",
     "tags": []
   },
   {
@@ -12473,8 +12383,8 @@
     "continent": "North America",
     "read": false,
     "originalLanguage": "English",
-    "pages": 44,
-    "description": "This monumental, tragicomic masterpiece follows Mohun Biswas, an Indo-Trinidadian journalist who spends his entire, highly frustrating life struggling to achieve independence and personal dignity by owning his own house. Trapped in a series of cramped, dependent lodgings and dominated by the sprawling, wealthy, and highly traditional family of his wife (the Tulsis), Mr. Biswas wages a constant, heroic, and often absurd war of words and wills to preserve his individual identity. Naipaul's rich, detailed realism is a brilliant, deeply moving exploration of post-colonial displacement and the search for home.",
+    "pages": 623,
+    "description": "Born the 'wrong way' and thrust into a world that greeted him with little more than a bad omen, Mohun Biswas has spent his 46 years of life striving for independence. But his determined efforts have been met only with calamity. Shuttled from one residence to another after the drowning of his father, for which he is inadvertently responsible, Mr Biswas yearns for a place he can call home. He marries into the domineering Tulsi family, on whom he becomes indignantly dependent, but rebels and takes on a succession of occupations in an arduous struggle to weaken their hold over him and purchase a house of his own.\n\nHeartrending and darkly comic, A House for Mr Biswas has been hailed as one of the twentieth century's finest novels and this triumph of resilience, persistence and dignity masterfully evokes a man's quest for autonomy against the backdrop of post-colonial Trinidad.",
     "tags": []
   },
   {
@@ -12733,8 +12643,8 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Mandarin",
-    "pages": 912,
-    "description": "A book from China.",
+    "pages": 288,
+    "description": "Like Gary Shteyngart or Michel Houellebecq, Wang Xiaobo is a Chinese literary icon whose satire forces us to reconsider the ironies of history.\n\n“Apparently, there was a rumour that Chen Qingyang and I were having an affair. She wanted me to prove our innocence. I said, to prove our innocence, we must prove one of the following:\n1. Chen Qingyang is a virgin;\n2. I was born without a penis.\nBoth of these propositions were hard to prove, therefore, we couldn’t prove our innocence. Infact, I was leaning more toward proving that we weren’t innocent.”\n\nAnd so begins Wang Er’s story of his long affair with Chen Qinyang. Wang Er, a 21-year-old ox herder, is shamed by the local authorities and forced to write a confession for his crimes but instead, takes it upon himself to write a modernist literary tract. Later, as a lecturer at a chaotic, newly built university, Wang Er navigates the bureaucratic maze of 1980’s China, boldly writing about the Cultural Revolution’s impact on his life and those around him. Finally, alone and humbled, Wang Er must come to terms with the banality of his own existence.\n\nBut what makes this novel both hilarious and important is Xiaobo’s use of the awkwardness of sex as a metaphor for all that occured during the Cultural Revolution. This achievement was revolutionary in China and places Golden Age in the great pantheon of novels that argue against governmental control.\n\nA leading icon of his generation, Wang Xiaobo’s cerebral and sarcastic narrative is a reflection on the failures of individuals and the enormous political, social, and personal changes in 20thcentury China.",
     "tags": []
   },
   {
@@ -13258,20 +13168,6 @@
     "tags": []
   },
   {
-    "id": 909,
-    "title": "In the Name of the Father (and of the Son)",
-    "author": "Immanuel Mifsud",
-    "year": "2010",
-    "country": "Malta",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Maltese",
-    "pages": 64,
-    "description": "",
-    "tags": []
-  },
-  {
     "id": 910,
     "title": "Monkey: Journey to the West",
     "author": "Wu Cheng'en",
@@ -13339,8 +13235,8 @@
     "continent": "Africa",
     "read": false,
     "originalLanguage": "English",
-    "pages": 73,
-    "description": "",
+    "pages": 192,
+    "description": "In a South Africa torn by civil war, Michael K sets out to take his mother back to her rural home. On the way there she dies, leaving him alone in an anarchic world of brutal roving armies. Imprisoned, Michael is unable to bear confinement and escapes, determined to live with dignity. Life and Times of Michael K goes to the centre of human experience—the need for an interior, spiritual life, for some connections to the world in which we live, and for purity of vision.",
     "tags": []
   },
   {
@@ -14476,7 +14372,7 @@
   {
     "id": 994,
     "title": "His Master’s Voice",
-    "author": "Stanisław Lem",
+    "author": "Stanislaw Lem",
     "year": "1968",
     "country": "Poland",
     "region": "Eastern Europe",
@@ -14546,7 +14442,7 @@
   {
     "id": 999,
     "title": "As the Crow Flies",
-    "author": "Véronique Tadjo",
+    "author": "Veronique Tadjo",
     "year": "1986",
     "country": "Côte d'Ivoire",
     "region": "Western Africa",
@@ -14608,7 +14504,7 @@
     "region": "Eastern Asia",
     "continent": "Asia",
     "read": false,
-    "originalLanguage": "Chinese",
+    "originalLanguage": "Mandarin",
     "pages": 192,
     "description": "",
     "tags": []

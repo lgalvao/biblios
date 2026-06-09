@@ -293,7 +293,7 @@ export default function BookTable({
                   htmlFor="searchAllFieldsSwitch"
                   style={{ fontSize: '0.75rem', fontWeight: 500 }}
                 >
-                  Pesquisar em todos os campos (incl. descrição)
+                  All fields
                 </label>
               </div>
             </div>
