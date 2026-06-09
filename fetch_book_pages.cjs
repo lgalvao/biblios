@@ -7,12 +7,39 @@ const cachePath = path.resolve(__dirname, 'fetched_pages_cache.json');
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
+/**
+ * Função de fetch robusta com Retentativa Exponencial (Backoff)
+ * Se receber 429, espera 1min, depois 2min, 4min... até 10min.
+ */
+async function fetchWithBackoff(url, options = {}) {
+  let waitTime = 60000; // Começa com 1 minuto
+  const maxWait = 600000; // Máximo de 10 minutos
+
+  while (true) {
+    try {
+      const response = await fetch(url, options);
+      
+      if (response.status === 429) {
+        console.log(`\n⚠️  [429] Rate Limit atingido em ${url}. Aguardando ${waitTime/1000}s...`);
+        await sleep(waitTime);
+        waitTime = Math.min(waitTime * 2, maxWait); // Dobra o tempo
+        continue; // Tenta novamente
+      }
+      
+      return response;
+    } catch (error) {
+      console.log(`\n❌ Erro de rede: ${error.message}. Tentando novamente em 30s...`);
+      await sleep(30000);
+    }
+  }
+}
+
 async function fetchOpenLibraryPages(title, author, sleepTime) {
   try {
     const query = `q=${encodeURIComponent(title + ' ' + author)}&fields=title,author_name,edition_key,cover_edition_key,number_of_pages_median`;
     const url = `https://openlibrary.org/search.json?${query}`;
     
-    const response = await fetch(url);
+    const response = await fetchWithBackoff(url);
     if (!response.ok) return { pages: null, source: `Erro API (${response.status})` };
     
     const data = await response.json();
@@ -25,13 +52,14 @@ async function fetchOpenLibraryPages(title, author, sleepTime) {
         const bibkeys = keys.map(k => `OLID:${k}`).join(',');
         const editionUrl = `https://openlibrary.org/api/books?bibkeys=${bibkeys}&format=json&jscmd=data`;
         await sleep(sleepTime); 
-        const editionResponse = await fetch(editionUrl);
+        const editionResponse = await fetchWithBackoff(editionUrl);
+
         if (editionResponse.ok) {
           const editionData = await editionResponse.json();
           let penguinPageCount = null;
           let maxPageCount = 0;
           Object.values(editionData).forEach(book => {
-            const publishers = book.publishers ? book.publishers.map(p => (p.name || '').toLowerCase()) : [];
+            const publishers = (book.publishers || []).map(p => (p.name || '').toLowerCase());
             const isPenguin = publishers.some(p => p.includes('penguin')) || (book.title || '').toLowerCase().includes('penguin');
             if (book.number_of_pages && !(book.subtitle || '').toLowerCase().includes('vol 1')) {
               if (isPenguin) penguinPageCount = Math.max(penguinPageCount || 0, book.number_of_pages);
@@ -44,50 +72,36 @@ async function fetchOpenLibraryPages(title, author, sleepTime) {
       }
     }
   } catch (error) {
-    return { pages: null, source: `Erro: ${error.message}` };
+    return { pages: null, source: `Erro fatal: ${error.message}` };
   }
   return { pages: null, source: 'Não encontrado' };
 }
 
 async function main() {
-  const args = process.argv.slice(2);
-  let targetIds = null;
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--ids' && args[i+1]) targetIds = args[i+1].split(',').map(id => parseInt(id, 10));
-  }
-  
-  // Carregar cache
-  let cache = {};
-  if (fs.existsSync(cachePath)) {
-    cache = JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
-  }
-
+  let cache = fs.existsSync(cachePath) ? JSON.parse(fs.readFileSync(cachePath, 'utf-8')) : {};
   const allBooks = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-  let booksToProcess = targetIds ? allBooks.filter(b => targetIds.includes(b.id)) : allBooks;
   
-  console.log(`=== Busca Incremental (Total Alvos: ${booksToProcess.length}) ===\n`);
+  console.log(`=== Busca Incremental com Backoff Exponencial (Total: ${allBooks.length}) ===\n`);
 
-  for (let i = 0; i < booksToProcess.length; i++) {
-    const book = booksToProcess[i];
+  for (let i = 0; i < allBooks.length; i++) {
+    const book = allBooks[i];
     
-    // Pular se já estiver no cache e tiver sucesso ou se o usuário quiser forçar
+    // Pula se já estiver no cache com resultado válido
     if (cache[book.id] && cache[book.id].pages) {
-      console.log(`[${i+1}/${booksToProcess.length}] ID ${book.id}: "${book.title}" -> Usando CACHE (${cache[book.id].pages}p)`);
       continue;
     }
 
-    process.stdout.write(`[${i+1}/${booksToProcess.length}] ID ${book.id}: "${book.title}" (${book.pages}p) -> `);
+    process.stdout.write(`[${i+1}/${allBooks.length}] ID ${book.id}: "${book.title}"... `);
     
-    const info = await fetchOpenLibraryPages(book.title, book.author, 1000);
+    const info = await fetchOpenLibraryPages(book.title, book.author, 1500);
     
     if (info.pages) {
-      const diff = info.pages - book.pages;
-      process.stdout.write(`ENCONTRADO: ${info.pages}p [${diff >= 0 ? '+' : ''}${diff}] via ${info.source}\n`);
+      console.log(`ENCONTRADO: ${info.pages}p via ${info.source}`);
     } else {
-      process.stdout.write(`FALHA: ${info.source}\n`);
+      console.log(`FALHA: ${info.source}`);
     }
 
-    // Atualizar Cache IMEDIATAMENTE
+    // Salva no cache
     cache[book.id] = {
       title: book.title,
       author: book.author,
@@ -98,18 +112,18 @@ async function main() {
     };
     fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
     
-    await sleep(2000);
+    await sleep(2500); // Intervalo base entre livros
   }
   
-  // Gerar Relatório Baseado no Cache Completo
-  let markdown = `# Relatório de Páginas (Incremental)\n\n| ID | Título | Atual | Novo | Status | Fonte |\n| :-- | :--- | :---: | :---: | :---: | :--- |\n`;
+  // Relatório final
+  let markdown = `# Relatório de Páginas (Completo)\n\n| ID | Título | Atual | Novo | Status | Fonte |\n| :-- | :--- | :---: | :---: | :---: | :--- |\n`;
   Object.keys(cache).sort((a,b) => a-b).forEach(id => {
     const r = cache[id];
     const status = (r.pages && r.pages !== r.current) ? 'ALTERADO' : (r.pages ? 'IGUAL' : 'N/A');
     markdown += `| ${id} | ${r.title} | ${r.current} | **${r.pages || '-'}** | ${status} | ${r.source} |\n`;
   });
   fs.writeFileSync(reportPath, markdown, 'utf-8');
-  console.log(`\nRelatório atualizado e cache salvo em: ${cachePath}`);
+  console.log(`\nFim do processamento. Relatório: ${reportPath}`);
 }
 
 main();
