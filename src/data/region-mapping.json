@@ -196,6 +196,15 @@
         ]
       },
       {
+        "Central Asia": [
+          "Kazakhstan",
+          "Kyrgyzstan",
+          "Tajikistan",
+          "Turkmenistan",
+          "Uzbekistan"
+        ]
+      },
+      {
         "Western Asia": [
           "Armenia",
           "Azerbaijan",
@@ -359,6 +368,7 @@
     "uzbekistan": "Uzbekistan",
     "czech republic": "Czechia",
     "guinea bissau": "Guinea-Bissau",
-    "uae": "United Arab Emirates"
+    "uae": "United Arab Emirates",
+    "são tomé and príncipe": "Sao Tome and Principe"
   }
 }

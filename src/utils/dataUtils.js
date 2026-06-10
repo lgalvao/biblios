@@ -44,7 +44,8 @@ const defaultAliases = {
   'turkmenistan': 'Turkmenistan',
   'uzbekistan': 'Uzbekistan',
   'czech republic': 'Czechia',
-  'guinea bissau': 'Guinea-Bissau'
+  'guinea bissau': 'Guinea-Bissau',
+  'são tomé and príncipe': 'Sao Tome and Principe'
 };
 
 export const updateGeoschemeData = (customGeoscheme, customAliases) => {
@@ -562,7 +563,9 @@ const countryToCode = {
   'costa rica': 'CR',
   'croatia': 'HR',
   'cuba': 'CU',
+  'curacao': 'CW',
   'curaçao': 'CW',
+  'cyprus': 'CY',
   'chad': 'TD',
   'czech republic': 'CZ',
   'czechia': 'CZ',
@@ -584,6 +587,7 @@ const countryToCode = {
   'france': 'FR',
   'french guyana': 'GF',
   'french guiana': 'GF',
+  'french polynesia': 'PF',
   'gambia': 'GM',
   'gabon': 'GA',
   'central african republic': 'CF',
@@ -592,8 +596,10 @@ const countryToCode = {
   'ghana': 'GH',
   'greece': 'GR',
   'greenland': 'GL',
+  'grenada': 'GD',
   'guadeloupe': 'GP',
   'guatemala': 'GT',
+  'guernsey': 'GG',
   'guinea': 'GN',
   'guinea bissau': 'GW',
   'guinea-bissau': 'GW',
@@ -611,6 +617,7 @@ const countryToCode = {
   'israel': 'IL',
   'italy': 'IT',
   'ivory coast': 'CI',
+  'kuwait': 'KW',
   'liberia': 'LR',
   "cote d'ivoire": 'CI',
   "côte d'ivoire": 'CI',
@@ -649,6 +656,7 @@ const countryToCode = {
   'namibia': 'NA',
   'nepal': 'NP',
   'netherlands': 'NL',
+  'new caledonia': 'NC',
   'new zealand': 'NZ',
   'nicaragua': 'NI',
   'niger': 'NE',
@@ -666,6 +674,7 @@ const countryToCode = {
   'poland': 'PL',
   'portugal': 'PT',
   'puerto rico': 'PR',
+  'qatar': 'QA',
   'reunion': 'RE',
   'réunion': 'RE',
   'romania': 'RO',
@@ -673,6 +682,8 @@ const countryToCode = {
   'russian federation': 'RU',
   'rwanda': 'RW',
   'samoa': 'WS',
+  'saint kitts and nevis': 'KN',
+  'saint lucia': 'LC',
   'sao tome and principe': 'ST',
   'são tomé and príncipe': 'ST',
   'saudi arabia': 'SA',
@@ -711,6 +722,7 @@ const countryToCode = {
   'trinidad and tobago': 'TT',
   'tunisia': 'TN',
   'turkey': 'TR',
+  'united arab emirates': 'AE',
   'usa': 'US',
   'united states': 'US',
   'united states of america': 'US',
@@ -740,13 +752,15 @@ const specialFlags = {
 export const getCountryCode = (countryName) => {
   if (!countryName) return '';
   const cleanName = countryName.toLowerCase().trim();
-  if (specialFlags[cleanName]) return specialFlags[cleanName];
-  return countryToCode[cleanName] || '';
+  const normalizedName = (countryAliases[cleanName] || cleanName).toLowerCase();
+  if (specialFlags[normalizedName]) return specialFlags[normalizedName];
+  return countryToCode[normalizedName] || '';
 };
 
 export const getCountryFlag = (countryName) => {
   if (!countryName) return '';
   const cleanName = countryName.toLowerCase().trim();
+  const normalizedName = (countryAliases[cleanName] || cleanName).toLowerCase();
   
   // Custom flags or overrides (emojis fallback)
   const specialEmojis = {
@@ -756,11 +770,11 @@ export const getCountryFlag = (countryName) => {
     'northern ireland': '🇬🇧'
   };
   
-  if (specialEmojis[cleanName]) {
-    return specialEmojis[cleanName];
+  if (specialEmojis[normalizedName]) {
+    return specialEmojis[normalizedName];
   }
   
-  const code = countryToCode[cleanName];
+  const code = countryToCode[normalizedName];
   if (!code) return '';
   
   return code
