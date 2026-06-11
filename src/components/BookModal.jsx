@@ -13,6 +13,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
   const [read, setRead] = useState(book?.read || false);
   const [originalLanguage, setOriginalLanguage] = useState(book?.originalLanguage || '');
   const [pages, setPages] = useState(book?.pages || '');
+  const [category, setCategory] = useState(book?.category || '');
   const [description, setDescription] = useState(book?.description || '');
   const [tags, setTags] = useState(book?.tags || []);
   const [tagInput, setTagInput] = useState('');
@@ -90,6 +91,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
       read,
       originalLanguage: originalLanguage.trim(),
       pages: pages ? parseInt(pages, 10) : '',
+      category: category.trim(),
       description: description.trim(),
       tags
     });
@@ -162,6 +164,17 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                 <div className="col-6 col-md-3">
                   <label htmlFor="book-pages" className="form-label small fw-bold text-muted text-uppercase">Pages</label>
                   <input id="book-pages" type="number" className="form-control" value={pages} onChange={e => setPages(e.target.value)} />
+                </div>
+                <div className="col-6 col-md-3">
+                  <label htmlFor="book-category" className="form-label small fw-bold text-muted text-uppercase">Category</label>
+                  <select id="book-category" className="form-select" value={category} onChange={e => setCategory(e.target.value)}>
+                    <option value="">Select Category</option>
+                    <option value="Novel">Novel</option>
+                    <option value="Novella">Novella</option>
+                    <option value="Stories">Stories</option>
+                    <option value="Essays">Essays</option>
+                    <option value="Memoir">Memoir</option>
+                  </select>
                 </div>
                 <div className="col-12 col-md-6">
                   <label htmlFor="book-language" className="form-label small fw-bold text-muted text-uppercase">Language</label>

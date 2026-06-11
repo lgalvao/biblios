@@ -76,7 +76,7 @@ describe('BookModal Component tests', () => {
     render(<BookModal {...defaultProps} />);
     
     const tagInput = screen.getByPlaceholderText(/Add tag/i);
-    const addButton = screen.getByRole('button', { name: /Add/i });
+    const addButton = screen.getByRole('button', { name: /^Add$/ });
 
     // Adicionar tag
     fireEvent.change(tagInput, { target: { value: 'NewTag' } });
@@ -167,7 +167,7 @@ describe('BookModal Component tests', () => {
   it('limpa o input de tag após adicionar e não adiciona tags vazias', () => {
     render(<BookModal {...defaultProps} />);
     const tagInput = screen.getByPlaceholderText(/Add tag/i);
-    const addButton = screen.getByRole('button', { name: /Add/i });
+    const addButton = screen.getByRole('button', { name: /^Add$/ });
 
     fireEvent.change(tagInput, { target: { value: '  ' } });
     fireEvent.click(addButton);
@@ -183,7 +183,7 @@ describe('BookModal Component tests', () => {
     const bookToEdit = { ...mockBooks[0], id: 999, year: '1960' };
     render(<BookModal {...defaultProps} book={bookToEdit} onSave={onSaveMock} />);
     
-    fireEvent.click(screen.getByRole('button', { name: /Save Book/i }));
+    fireEvent.click(screen.getByRole('button', { name: /Save Changes/i }));
     
     expect(onSaveMock).toHaveBeenCalledWith(expect.objectContaining({
       id: 999

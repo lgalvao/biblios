@@ -51,8 +51,13 @@ export const calculateStats = (books) => {
   const contagemIdioma = {};
   const contagemSeculo = {};
   const contagemAutor = {};
+  const contagemCategoria = {};
 
   books.forEach(b => {
+    // Categoria
+    const cat = b.category || 'Unknown';
+    contagemCategoria[cat] = (contagemCategoria[cat] || 0) + 1;
+
     // Continente
     let cont = b.continent ? b.continent.trim() : 'Unknown Continent';
     if (cont === 'Asia' || cont === 'Oceania') {
@@ -92,6 +97,7 @@ export const calculateStats = (books) => {
   const byCountry = ordenarEstatísticas(contagemPais);
   const byLanguage = ordenarEstatísticas(contagemIdioma);
   const byCentury = ordenarEstatísticas(contagemSeculo);
+  const byCategory = ordenarEstatísticas(contagemCategoria);
 
   // Apenas autores com mais de 1 livro
   const byAuthorFiltered = Object.entries(contagemAutor)
@@ -110,6 +116,7 @@ export const calculateStats = (books) => {
     byCountry,
     byLanguage,
     byCentury,
+    byCategory,
     byAuthor: byAuthorFiltered
   };
 };
@@ -129,6 +136,16 @@ export const generateStatsMarkdown = (books, stats) => {
     md += `- No data available\n`;
   } else {
     s.byContinent.forEach(item => {
+      md += `- ${item.label}: ${item.count}\n`;
+    });
+  }
+  md += `\n`;
+
+  md += `## Books by Category\n`;
+  if (s.byCategory.length === 0) {
+    md += `- No data available\n`;
+  } else {
+    s.byCategory.forEach(item => {
       md += `- ${item.label}: ${item.count}\n`;
     });
   }
@@ -287,6 +304,7 @@ export const exportStatsPDF = (books, stats) => {
   };
 
   renderSection('Books by Continent', s.byContinent);
+  renderSection('Books by Category', s.byCategory);
   renderSection('Books by Century', s.byCentury);
   renderSection('Books by Original Language', s.byLanguage);
   renderSection('Books by Country', s.byCountry);

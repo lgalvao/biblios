@@ -371,7 +371,7 @@ describe('BookTable Component tests', () => {
     expect(screen.queryByText('Book B')).not.toBeInTheDocument();
 
     // Encontra o switch "searchAllFieldsSwitch" e clica nele para ativá-lo
-    const switchEl = screen.getByLabelText(/Pesquisar em todos os campos/i);
+    const switchEl = screen.getByLabelText(/All fields/i);
     fireEvent.click(switchEl);
 
     // Agora o Book A deve ser exibido na tela, mas o Book B não

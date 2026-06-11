@@ -282,7 +282,10 @@ export const mapCsvToBooks = (rows) => {
         originalLanguage: mapping.lang !== -1 ? translateLanguageToEnglish(row[mapping.lang]) : '',
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
-        tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : []
+        tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : [],
+        category: (mapping.pages !== -1 && row[mapping.pages] && !isNaN(parseInt(row[mapping.pages], 10))) 
+          ? (parseInt(row[mapping.pages], 10) > 180 ? 'Novel' : 'Novella') 
+          : ''
       };
     });
 };
@@ -382,6 +385,16 @@ export const repairBooksList = (loadedBooks, referenceData) => {
       }
       if (b.description === undefined) {
         updated.description = `A book from ${b.country || 'world literature'}.`;
+        isUpdated = true;
+      }
+    }
+
+    // New: Calculate category based on pages (Initialization only)
+    if (!updated.category) {
+      const pagesNum = parseInt(updated.pages, 10);
+      const newCategory = !isNaN(pagesNum) ? (pagesNum > 180 ? 'Novel' : 'Novella') : '';
+      if (updated.category !== newCategory) {
+        updated.category = newCategory;
         isUpdated = true;
       }
     }
@@ -502,6 +515,7 @@ export const parseBatchText = (text) => {
         region: geo.region,
         continent: geo.continent,
         pages: parseInt(pages, 10),
+        category: parseInt(pages, 10) > 180 ? 'Novel' : 'Novella',
         originalLanguage: translateLanguageToEnglish(language.trim()),
         read: false,
         description: `A book from ${country.trim()}.`,
@@ -752,6 +766,7 @@ const specialFlags = {
 export const getCountryCode = (countryName) => {
   if (!countryName) return '';
   const cleanName = countryName.toLowerCase().trim();
+  if (specialFlags[cleanName]) return specialFlags[cleanName];
   const normalizedName = (countryAliases[cleanName] || cleanName).toLowerCase();
   if (specialFlags[normalizedName]) return specialFlags[normalizedName];
   return countryToCode[normalizedName] || '';
@@ -760,7 +775,6 @@ export const getCountryCode = (countryName) => {
 export const getCountryFlag = (countryName) => {
   if (!countryName) return '';
   const cleanName = countryName.toLowerCase().trim();
-  const normalizedName = (countryAliases[cleanName] || cleanName).toLowerCase();
   
   // Custom flags or overrides (emojis fallback)
   const specialEmojis = {
@@ -769,6 +783,12 @@ export const getCountryFlag = (countryName) => {
     'wales': '🏴\u{DB40}\u{DC67}\u{DB40}\u{DC62}\u{DB40}\u{DC77}\u{DB40}\u{DC6C}\u{DB40}\u{DC73}\u{DB40}\u{DC7F}',
     'northern ireland': '🇬🇧'
   };
+  
+  if (specialEmojis[cleanName]) {
+    return specialEmojis[cleanName];
+  }
+
+  const normalizedName = (countryAliases[cleanName] || cleanName).toLowerCase();
   
   if (specialEmojis[normalizedName]) {
     return specialEmojis[normalizedName];

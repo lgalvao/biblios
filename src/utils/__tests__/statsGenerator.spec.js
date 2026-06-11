@@ -184,6 +184,7 @@ describe('statsGenerator', () => {
         byCountry: [],
         byLanguage: [],
         byCentury: [],
+        byCategory: [],
         byAuthor: []
       });
     });

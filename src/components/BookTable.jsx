@@ -21,6 +21,7 @@ export default function BookTable({
   onOpenStatsReport
 }) {
   const [filterRead, setFilterRead] = useState('all');
+  const [filterCategory, setFilterCategory] = useState('all');
   const [filterContinent, setFilterContinent] = useState('all');
   const [filterRegion, setFilterRegion] = useState('all');
   const [filterTag, setFilterTag] = useState('all');
@@ -87,6 +88,7 @@ export default function BookTable({
         normalizeForSearch(b.author).includes(s) || 
         normalizeForSearch(b.country).includes(s) ||
         normalizeForSearch(b.originalLanguage).includes(s) ||
+        (b.category && normalizeForSearch(b.category).includes(s)) ||
         (b.tags && b.tags.some(t => normalizeForSearch(t).includes(s))) ||
         (searchAllFields && (
           (b.description && normalizeForSearch(b.description).includes(s)) ||
@@ -98,6 +100,7 @@ export default function BookTable({
       );
 
       const matchesRead = filterRead === 'all' || (filterRead === 'read' ? b.read : !b.read);
+      const matchesCategory = filterCategory === 'all' || b.category === filterCategory;
       const matchesContinent = filterContinent === 'all' || b.continent === filterContinent;
       const matchesRegion = filterRegion === 'all' || b.region === filterRegion;
       const matchesTag = filterTag === 'all' || (b.tags && b.tags.includes(filterTag));
@@ -125,12 +128,12 @@ export default function BookTable({
         }
       }
 
-      return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
+      return matchesSearch && matchesRead && matchesCategory && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
     });
-  }, [books, search, searchAllFields, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
+  }, [books, search, searchAllFields, filterRead, filterCategory, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
 
   const exportCSV = () => {
-    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description', 'Tags'];
+    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Category', 'Description', 'Tags'];
     const csvRows = [headers.join(',')];
     
     filteredBooks.forEach(b => {
@@ -144,6 +147,7 @@ export default function BookTable({
         b.read ? '1' : '',
         escapeCSVField(b.originalLanguage),
         escapeCSVField(b.pages),
+        escapeCSVField(b.category),
         escapeCSVField(b.description),
         escapeCSVField(b.tags ? b.tags.join(';') : '')
       ];
@@ -303,6 +307,16 @@ export default function BookTable({
               <option value="all">Reading</option>
               <option value="read">Read</option>
               <option value="unread">Unread</option>
+            </select>
+          </div>
+          <div className="col-6 col-md-2 col-lg-1">
+            <select className="form-select form-select-sm bg-light" value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)}>
+              <option value="all">Category</option>
+              <option value="Novel">Novel</option>
+              <option value="Novella">Novella</option>
+              <option value="Stories">Stories</option>
+              <option value="Essays">Essays</option>
+              <option value="Memoir">Memoir</option>
             </select>
           </div>
           <div className="col-6 col-md-2 col-lg-1">
@@ -491,6 +505,13 @@ export default function BookTable({
               </span>
             )}
 
+            {filterCategory !== 'all' && (
+              <span className="badge border border-primary text-primary d-flex align-items-center gap-2 py-2 px-3">
+                CATEGORY: {filterCategory.toUpperCase()}
+                <X size={14} className="cursor-pointer text-danger" onClick={() => setFilterCategory('all')} />
+              </span>
+            )}
+
             {filterTag !== 'all' && (
               <span className="badge border border-secondary text-secondary d-flex align-items-center gap-2 py-2 px-3">
                 TAG: {filterTag}
@@ -519,6 +540,7 @@ export default function BookTable({
               onLanguageFilterChange('');
               onAuthorFilterChange('');
               setFilterRead('all');
+              setFilterCategory('all');
               setFilterContinent('all');
               setFilterRegion('all');
               setFilterTag('all');
@@ -553,6 +575,9 @@ export default function BookTable({
               </th>
               <th className="cursor-pointer py-3 d-none d-md-table-cell" onClick={() => handleSort('originalLanguage')}>
                 LANGUAGE {renderSortIcon('originalLanguage')}
+              </th>
+              <th className="cursor-pointer py-3 d-none d-md-table-cell" onClick={() => handleSort('category')}>
+                CAT {renderSortIcon('category')}
               </th>
               <th className="cursor-pointer py-3 d-none d-lg-table-cell" onClick={() => handleSort('pages')}>
                 PAGES {renderSortIcon('pages')}
@@ -610,7 +635,7 @@ export default function BookTable({
                       <div className="d-flex align-items-center gap-3 text-secondary opacity-75">
                         <span className="d-inline-flex align-items-center gap-1">
                           <FileText size={11} className="opacity-50" />
-                          <span>{b.pages}</span>
+                          <span>{b.pages} {b.category && `(${b.category})`}</span>
                         </span>
                         {b.year && (
                           <span className="d-inline-flex align-items-center gap-1">
@@ -658,6 +683,17 @@ export default function BookTable({
                       {b.originalLanguage || '-'}
                     </span>
                   </td>
+                  <td className="d-none d-md-table-cell text-muted">
+                    <span 
+                      className="category-link" 
+                      onClick={(e) => { 
+                        e.stopPropagation(); 
+                        setFilterCategory(b.category); 
+                      }}
+                    >
+                      {b.category || '-'}
+                    </span>
+                  </td>
                   <td className="d-none d-lg-table-cell text-muted">{b.pages}</td>
                   <td className="text-end pe-3" onClick={(e) => e.stopPropagation()}>
                     <div className="btn-group btn-group-sm">
@@ -694,7 +730,7 @@ export default function BookTable({
                           <div className="col-12 col-md-4 border-start">
                             <h6 className="fw-bold text-uppercase small text-muted mb-2">Detailed Info</h6>
                             <ul className="list-unstyled small mb-0 d-flex flex-column gap-1">
-                              <li><strong>Volume:</strong> {b.pages} pages</li>
+                              <li><strong>Volume:</strong> {b.pages} pages ({b.category})</li>
                               <li><strong>Original Language:</strong> {b.originalLanguage}</li>
                               <li><strong>Geographic Origin:</strong> <CountryFlag countryName={b.country} /> {b.country} ({b.region})</li>
                               <li><strong>Continent:</strong> {b.continent}</li>
