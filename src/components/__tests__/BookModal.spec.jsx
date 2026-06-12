@@ -223,4 +223,106 @@ describe('BookModal Component tests', () => {
     fireEvent.submit(form);
     expect(screen.getByText(/Please fill required fields/i)).toBeInTheDocument();
   });
+
+  it('preenche automaticamente o idioma se todos os livros do autor forem do mesmo idioma', () => {
+    const mockBooksWithLangs = [
+      {
+        title: 'Dom Casmurro',
+        author: 'Machado de Assis',
+        country: 'Brazil',
+        region: 'South America',
+        continent: 'South America',
+        originalLanguage: 'Portuguese'
+      },
+      {
+        title: 'Memórias Póstumas de Brás Cubas',
+        author: 'Machado de Assis',
+        country: 'Brazil',
+        region: 'South America',
+        continent: 'South America',
+        originalLanguage: 'Portuguese'
+      },
+      {
+        title: '1984',
+        author: 'George Orwell',
+        country: 'England',
+        region: 'Northern Europe',
+        continent: 'Europe',
+        originalLanguage: 'English'
+      }
+    ];
+
+    const customProps = {
+      ...defaultProps,
+      books: mockBooksWithLangs
+    };
+
+    render(<BookModal {...customProps} />);
+
+    const authorInput = screen.getByLabelText(/Author/i);
+    const languageInput = screen.getByLabelText(/Language/i);
+
+    expect(languageInput.value).toBe('');
+
+    // Seleciona Machado de Assis (que só tem livros em Portuguese)
+    fireEvent.change(authorInput, { target: { value: 'Machado de Assis' } });
+    expect(languageInput.value).toBe('Portuguese');
+  });
+
+  it('não preenche o idioma automaticamente se o autor possuir livros em idiomas diferentes', () => {
+    const mockBooksWithLangs = [
+      {
+        title: 'Book A',
+        author: 'Multilingual Author',
+        country: 'Brazil',
+        region: 'South America',
+        continent: 'South America',
+        originalLanguage: 'Portuguese'
+      },
+      {
+        title: 'Book B',
+        author: 'Multilingual Author',
+        country: 'Brazil',
+        region: 'South America',
+        continent: 'South America',
+        originalLanguage: 'English'
+      }
+    ];
+
+    const customProps = {
+      ...defaultProps,
+      books: mockBooksWithLangs
+    };
+
+    render(<BookModal {...customProps} />);
+
+    const authorInput = screen.getByLabelText(/Author/i);
+    const languageInput = screen.getByLabelText(/Language/i);
+
+    expect(languageInput.value).toBe('');
+
+    fireEvent.change(authorInput, { target: { value: 'Multilingual Author' } });
+    expect(languageInput.value).toBe('');
+  });
+
+  it('define a categoria como Novella se a contagem de páginas for menor ou igual a 150, e Novel caso contrário', () => {
+    render(<BookModal {...defaultProps} />);
+
+    const pagesInput = screen.getByLabelText(/Pages/i);
+    const categorySelect = screen.getByLabelText(/Category/i);
+
+    expect(categorySelect.value).toBe('');
+
+    // Insere 150 páginas -> Novella
+    fireEvent.change(pagesInput, { target: { value: '150' } });
+    expect(categorySelect.value).toBe('Novella');
+
+    // Insere 151 páginas -> Novel
+    fireEvent.change(pagesInput, { target: { value: '151' } });
+    expect(categorySelect.value).toBe('Novel');
+
+    // Insere 50 páginas -> Novella
+    fireEvent.change(pagesInput, { target: { value: '50' } });
+    expect(categorySelect.value).toBe('Novella');
+  });
 });

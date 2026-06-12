@@ -490,6 +490,32 @@ describe('BookTable Component tests', () => {
     expect(global.URL.createObjectURL).toHaveBeenCalled();
   });
 
+  it('exports CSV with only Title, Author, Pages, and Country columns', () => {
+    const blobSpy = vi.spyOn(global, 'Blob');
+    global.URL.createObjectURL = vi.fn().mockReturnValue('blob:test');
+    window.URL.revokeObjectURL = vi.fn();
+    
+    render(<BookTable {...defaultProps} />);
+    fireEvent.click(screen.getByTitle('Export'));
+    fireEvent.click(screen.getByText('CSV'));
+    
+    expect(blobSpy).toHaveBeenCalled();
+    const blobArgs = blobSpy.mock.calls[0][0];
+    // blobArgs[0] is the BOM, blobArgs[1] is the csvString
+    const csvContent = blobArgs[1];
+    const lines = csvContent.split('\r\n');
+    expect(lines[0]).toBe('Title,Author,Pages,Country');
+    
+    // Check first data row
+    const firstBook = defaultProps.books[0];
+    // escapeCSVField only quotes if there are commas, quotes or newlines.
+    // Our mock books don't have those in these fields.
+    const expectedRow = `${firstBook.title},${firstBook.author},${firstBook.pages},${firstBook.country}`;
+    expect(lines[1]).toBe(expectedRow);
+    
+    blobSpy.mockRestore();
+  });
+
   it('opens export dropdown and calls export functions', () => {
     // Mock navigator and URL for export functions
     global.URL.createObjectURL = vi.fn();

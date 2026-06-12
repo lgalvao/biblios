@@ -22,12 +22,39 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
   const handleAuthorChange = (val) => {
     setAuthor(val);
     if (val && books && books.length > 0) {
-      const match = books.find(b => b.author.toLowerCase().trim() === val.toLowerCase().trim() && b.country);
+      const normalizedVal = val.toLowerCase().trim();
+      const match = books.find(b => b.author.toLowerCase().trim() === normalizedVal && b.country);
       if (match) {
         setCountry(match.country);
         const geo = getGeoInfo(match.country);
         setRegion(match.region || geo.region);
         setContinent(match.continent || geo.continent);
+      }
+
+      // Preencher o idioma automaticamente se todos os livros do autor forem do mesmo idioma
+      const authorBooks = books.filter(b => b.author.toLowerCase().trim() === normalizedVal);
+      if (authorBooks.length > 0) {
+        const languages = authorBooks.map(b => b.originalLanguage).filter(Boolean);
+        if (languages.length > 0) {
+          const uniqueLangs = [...new Set(languages)];
+          if (uniqueLangs.length === 1) {
+            setOriginalLanguage(uniqueLangs[0]);
+          }
+        }
+      }
+    }
+  };
+
+  const handlePagesChange = (val) => {
+    setPages(val);
+    if (val !== '') {
+      const pageNum = parseInt(val, 10);
+      if (!isNaN(pageNum)) {
+        if (pageNum <= 150) {
+          setCategory('Novella');
+        } else {
+          setCategory('Novel');
+        }
       }
     }
   };
@@ -163,7 +190,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                 </div>
                 <div className="col-6 col-md-3">
                   <label htmlFor="book-pages" className="form-label small fw-bold text-muted text-uppercase">Pages</label>
-                  <input id="book-pages" type="number" className="form-control" value={pages} onChange={e => setPages(e.target.value)} />
+                  <input id="book-pages" type="number" className="form-control" value={pages} onChange={e => handlePagesChange(e.target.value)} />
                 </div>
                 <div className="col-6 col-md-3">
                   <label htmlFor="book-category" className="form-label small fw-bold text-muted text-uppercase">Category</label>

@@ -133,23 +133,15 @@ export default function BookTable({
   }, [books, search, searchAllFields, filterRead, filterCategory, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
 
   const exportCSV = () => {
-    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Category', 'Description', 'Tags'];
+    const headers = ['Title', 'Author', 'Pages', 'Country'];
     const csvRows = [headers.join(',')];
     
     filteredBooks.forEach(b => {
       const row = [
         escapeCSVField(b.title),
         escapeCSVField(b.author),
-        escapeCSVField(b.year),
-        escapeCSVField(b.country),
-        escapeCSVField(b.region),
-        escapeCSVField(b.continent),
-        b.read ? '1' : '',
-        escapeCSVField(b.originalLanguage),
         escapeCSVField(b.pages),
-        escapeCSVField(b.category),
-        escapeCSVField(b.description),
-        escapeCSVField(b.tags ? b.tags.join(';') : '')
+        escapeCSVField(b.country)
       ];
       csvRows.push(row.join(','));
     });
