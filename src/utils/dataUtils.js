@@ -1,5 +1,30 @@
 import geoscheme from '../../un-geoscheme-subregions-countries.json';
 
+const NOVEL_EXCEPTIONS = new Set([
+  'a hero of our time',
+  'doctor glas',
+  'therese desqueyroux',
+  'therese desqueiroux',
+  'the lonely londoners',
+  'houseboy',
+  'pinjar',
+  'the kingdom of this world',
+  'annie john',
+  'butterfly burning',
+  'shyness and dignity',
+  'death in spring',
+  'our sister, killjoy',
+  'our sister killjoy',
+  'crick crack, monkey',
+  'crick crack monkey'
+]);
+
+export const isNovelException = (title) => {
+  if (!title) return false;
+  const normalized = title.toLowerCase().trim().replace(/[,']/g, '');
+  return NOVEL_EXCEPTIONS.has(normalized) || NOVEL_EXCEPTIONS.has(title.toLowerCase().trim());
+};
+
 // Pré-processa o geoscheme para um mapa de busca rápida
 export const countryToRegionMap = {};
 export const countryAliases = {};
@@ -283,9 +308,7 @@ export const mapCsvToBooks = (rows) => {
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
         tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : [],
-        category: (mapping.pages !== -1 && row[mapping.pages] && !isNaN(parseInt(row[mapping.pages], 10))) 
-          ? (parseInt(row[mapping.pages], 10) > 180 ? 'Novel' : 'Novella') 
-          : ''
+        category: (isNovelException(row[mapping.title]) || (mapping.pages !== -1 && row[mapping.pages] && parseInt(row[mapping.pages], 10) > 150)) ? 'Novel' : 'Novella'
       };
     });
 };
@@ -389,10 +412,15 @@ export const repairBooksList = (loadedBooks, referenceData) => {
       }
     }
 
-    // New: Calculate category based on pages (Initialization only)
-    if (!updated.category) {
-      const pagesNum = parseInt(updated.pages, 10);
-      const newCategory = !isNaN(pagesNum) ? (pagesNum > 180 ? 'Novel' : 'Novella') : '';
+    // New: Calculate category based on pages and exceptions
+    const pagesNum = parseInt(updated.pages, 10);
+    const isException = isNovelException(updated.title);
+    const newCategory = (isException || pagesNum > 150) ? 'Novel' : 'Novella';
+    
+    if (isException && updated.category !== 'Novel') {
+      updated.category = 'Novel';
+      isUpdated = true;
+    } else if (!updated.category) {
       if (updated.category !== newCategory) {
         updated.category = newCategory;
         isUpdated = true;
@@ -515,7 +543,7 @@ export const parseBatchText = (text) => {
         region: geo.region,
         continent: geo.continent,
         pages: parseInt(pages, 10),
-        category: parseInt(pages, 10) > 180 ? 'Novel' : 'Novella',
+        category: (isNovelException(title) || parseInt(pages, 10) > 150) ? 'Novel' : 'Novella',
         originalLanguage: translateLanguageToEnglish(language.trim()),
         read: false,
         description: `A book from ${country.trim()}.`,

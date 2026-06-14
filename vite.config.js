@@ -4,6 +4,31 @@ import react from '@vitejs/plugin-react'
 import fs from 'fs'
 import path from 'path'
 
+const NOVEL_EXCEPTIONS = new Set([
+  'a hero of our time',
+  'doctor glas',
+  'therese desqueyroux',
+  'therese desqueiroux',
+  'the lonely londoners',
+  'houseboy',
+  'pinjar',
+  'the kingdom of this world',
+  'annie john',
+  'butterfly burning',
+  'shyness and dignity',
+  'death in spring',
+  'our sister, killjoy',
+  'our sister killjoy',
+  'crick crack, monkey',
+  'crick crack monkey'
+]);
+
+const isNovelException = (title) => {
+  if (!title) return false;
+  const normalized = title.toLowerCase().trim().replace(/[,']/g, '');
+  return NOVEL_EXCEPTIONS.has(normalized) || NOVEL_EXCEPTIONS.has(title.toLowerCase().trim());
+};
+
 // Custom plugin for real-time filesystem synchronization
 const localDatabasePlugin = () => {
   const jsonPath = path.resolve(process.cwd(), 'src/data/data.json');
@@ -139,7 +164,8 @@ const localDatabasePlugin = () => {
         originalLanguage: mapping.lang !== -1 ? row[mapping.lang]?.trim() || 'English' : 'English',
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
-        tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : []
+        tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : [],
+        category: (isNovelException(row[mapping.title]) || (mapping.pages !== -1 && row[mapping.pages] && parseInt(row[mapping.pages], 10) > 150)) ? 'Novel' : 'Novella'
       }));
 
       fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
