@@ -1,5 +1,275 @@
 [
   {
+    "id": 1288,
+    "title": "Story of the Eye",
+    "author": "Georges Bataille",
+    "year": "1928",
+    "country": "France",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "French",
+    "pages": 128,
+    "category": "Novella",
+    "description": "Bataille’s first novel, published under the pseudonym ‘Lord Auch’, is still his most notorious work. In this explicit pornographic fantasy, the young male narrator and his lovers Simone and Marcelle embark on a sexual quest involving sadism, torture, orgies, madness and defilement, culminating in a final act of transgression. Shocking and sacreligious, Story of the Eye is the fullest expression of Bataille’s obsession with the closeness of sex, violence and death. Yet it is also hallucinogenic in its power, and is one of the erotic classics of the twentieth century.",
+    "tags": []
+  },
+  {
+    "id": 1287,
+    "title": "The Mahé Circle",
+    "author": "Georges Simenon",
+    "year": "1946",
+    "country": "Belgium",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": true,
+    "originalLanguage": "French",
+    "pages": 119,
+    "category": "Novella",
+    "description": "'In Porquerolles, things were hostile to him. He had tried in vain to tame them. Back there, all the time, he had felt as if there was a tremendous chaos around him, a kind of life that was too vivid, so that the slightest contact with it made his blood pulse more quickly, and prompted a rising fever inside him.'\n\nNobody could understand why Dr. Mahé continued to drag his family to Porquerolles for the summer. Had he really become obsessed with the girl dressed in red? Or was it a longing to go fishing and play boules with the locals? Or maybe there was something even more powerful that drew him back to the island.",
+    "tags": []
+  },
+  {
+    "id": 1286,
+    "title": "The Man Who Watched Trains Go By",
+    "author": "Georges Simenon",
+    "year": "1938",
+    "country": "Belgium",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "French",
+    "pages": 251,
+    "category": "Novel",
+    "description": "Kees Popinga is an average man, a solid citizen who might enjoy a game of chess in the evening. But one night, this model husband and devoted father discovers his boss is bankrupt and that his own carefully tended life is in ruins. Before, he had watched impassively as the trains swept by; now he catches the first one out of town, and soon commits murder before the night is out. How reliable is even the most reliable man's identity?",
+    "tags": []
+  },
+  {
+    "id": 1285,
+    "title": "Thérèse and Isabelle",
+    "author": "Violette Leduc",
+    "year": "1967",
+    "country": "France",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "French",
+    "pages": 245,
+    "category": "Novel",
+    "description": "Thérèse and Isabelle is the tale of two boarding school girls in love. In 1966 when it was originally published in France, the text was censored because of its explicit depiction of young homosexuality. With this publication, the original, unexpurgated text—a stunning literary portrayal of female desire and sexuality—is available to a US audience for the first time. Included is an afterword by Michael Lucey, professor of French and comparative literature at the University of California, Berkeley.\n\nViolette Leduc (1907–1972) has been referred to as \"France's greatest unknown writer.\" Admired by Jean Genet, Nathalie Sarraute, and Albert Camus, Leduc was championed by Simone de Beauvoir when she published her scandalous autobiography La Batarde (1964).",
+    "tags": []
+  },
+  {
+    "id": 1284,
+    "title": "The Golden Pot",
+    "author": "E.T.A. Hoffmann",
+    "year": "1814",
+    "country": "Germany",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "German",
+    "pages": 128,
+    "category": "Novella",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1283,
+    "title": "Daphnis and Chloe",
+    "author": "Longus",
+    "year": "150",
+    "country": "Greece",
+    "region": "Southern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "und",
+    "pages": 128,
+    "category": "Novella",
+    "description": "A tender novel describing eager and inept young love, Daphnis and Chloe tells the story of a baby boy and girl who are discovered separately, two years apart, alone and exposed on a Greek mountainside. Taken in by a goatherd and a shepherd respectively, and raised near the town of Mytilene, they grow to maturity unaware of one another's existence - until the mischievous god of love, Eros, creates in them a sudden overpowering desire for one another. A masterpiece among early Greek romances, attracting both high praise and moral disapproval, this work has proved an enduringly fertile source of inspiration for musicians, writers and artists from Henry Fielding to Jean-Baptiste-Camille Corot and Maurice Ravel. Longus transforms familiar themes from the romance genre - including pirates, dreams, and the supernatural - into a virtuoso love story that is rich in insight, humorous and ironical in its treatment of human sexual experience.",
+    "tags": []
+  },
+  {
+    "id": 1282,
+    "title": "White Nights",
+    "author": "Fyodor Dostoevsky",
+    "year": "1848",
+    "country": "Russia",
+    "region": "Eastern Europe",
+    "continent": "Europe",
+    "read": true,
+    "originalLanguage": "Russian",
+    "pages": 113,
+    "category": "Novella",
+    "description": "White Nights is a short story by Fyodor Dostoevsky that was published in 1848. Set in St. Petersburg, it is the story of a young man fighting his inner restlessness. A light and tender narrative, it delves into the torment and guilt of unrequited love. Both protagonists suffer from a deep sense of alienation that initially brings them together. A blend of romanticism and realism, the story appeals gently to the senses and feelings.",
+    "tags": []
+  },
+  {
+    "id": 1281,
+    "title": "The Double",
+    "author": "Fyodor Dostoevsky",
+    "year": "1957",
+    "country": "Russia",
+    "region": "Eastern Europe",
+    "continent": "Europe",
+    "read": true,
+    "originalLanguage": "Russian",
+    "pages": 144,
+    "category": "Novella",
+    "description": "A lonely government clerk - shy, awkward, blundering - finds himself pursued by a mysterious stranger. Somehow he looks familiar. In fact, he realizes, he looks exactly like him. He even has the same name. But, unlike him, he is charming and confident. Soon the stranger starts insinuating himself into his life. He works at his office, stays at his apartment, ingratiates himself with his colleagues. No one seems surprised. Who is he? What does he want? Is he a double, or something darker altogether?\n\nMoscow-born Fyodor Dostoyevsky (1821-1881) served time in a convict prison in Siberia for his political alliances, and in his later years his passion for gambling led him deeply into debt. His many brilliant novels include Crime and Punishment, The Idiot and The Brothers Karamazov.",
+    "tags": []
+  },
+  {
+    "id": 1280,
+    "title": "The Beast in the Jungle",
+    "author": "Henry James",
+    "year": "1903",
+    "country": "USA",
+    "region": "Northern America",
+    "continent": "North America",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 112,
+    "category": "Novella",
+    "description": "The Beast in the Jungle was first published in London by Henry James in 1903 by Methuen Publishing in the collection \"The Better Sort\".\nIt is the story of John Marcher, a man who, for as long as he can remember, has been obsessed by the feeling that some life-changing - even catastrophic - event lies in wait for him like a jungle animal. Then the tragic day arrives on which the terrible true nature of the beast is revealed.",
+    "tags": []
+  },
+  {
+    "id": 1279,
+    "title": "Typhoon",
+    "author": "Joseph Conrad",
+    "year": "1902",
+    "country": "England",
+    "region": "Northern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 116,
+    "category": "Novella",
+    "description": "The crew aboard a ramshackle steamer faces a treacherous storm in this gripping tale, inspired by Conrad's own time at sea.\n\nOne of 46 new books in the bestselling Little Black Classics series, to celebrate the first ever Penguin Classic in 1946. Each book gives readers a taste of the Classics' huge range and diversity, with works from around the world and across the centuries - including fables, decadence, heartbreak, tall tales, satire, ghosts, battles and elephants.",
+    "tags": []
+  },
+  {
+    "id": 1278,
+    "title": "The Virgin and the Gipsy",
+    "author": "D.H. Lawrence",
+    "year": "1930",
+    "country": "England",
+    "region": "Northern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 146,
+    "category": "Novella",
+    "description": "An electrifying short novel published posthumously set in a small village in the English countryside and tells the story of a sheltered rector's daughter whose life is changed when she is introduced to a world of unfettered passion.  \n\nThe Virgin and the Gipsy was discovered in France after D. H. Lawrence's death in 1930. Immediately recognized as a masterpiece in which Lawrence had distilled and purified his ideas about sexuality and morality, The Virgin and the Gipsy has become a classic and is one of Lawrence's most electrifying short novels.\n\nSet in a small village in the English countryside, this is the story of a secluded, sensitive rector's daughter who yearns for meaning beyond the life to which she seems doomed. When she meets a handsome young gipsy whose life appears different from hers in every way, she is immediately smitten and yet still paralyzed by her own fear and social convention. Not until a natural catastrophe suddenly, miraculously sweeps away the world as she knew it does a new world of passion open for her. Lawrence's spirit is infused by all his tenderness, passion, and knowledge of the human soul.",
+    "tags": []
+  },
+  {
+    "id": 1277,
+    "title": "St. Mawr",
+    "author": "D.H. Lawrence",
+    "year": "1925",
+    "country": "England",
+    "region": "Northern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 130,
+    "category": "Novella",
+    "description": "St Mawr is a novella written by D. H. Lawrence. It was first published in 1925. The heroine of the story, Lou Witt, abandons her sterile marriage and a brittle, cynical post-First World War England. Her sense of alienation is associated with her encounter with a high-spirited stallion, the eponymous St Mawr.",
+    "tags": []
+  },
+  {
+    "id": 1276,
+    "title": "The Man Who Died",
+    "author": "D.H. Lawrence",
+    "year": "1928",
+    "country": "England",
+    "region": "Northern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 102,
+    "category": "Novella",
+    "description": "In his last novel, published less than a year before his death, D. H. Lawrence takes up the theme of Christ's resurrection and his final days on earth. Lawrence recounts Christ's agonizing journey from death back to life with alarming realism: his initial painful awakening, the utter disillusionment of living beyond his brutal death, his bewildering encounters with strangers and friends, and finally, his redemptive sexual relationship with the priestess of the pagan goddess Isis.\n\nThe story expands from its Christian roots to embrace Lawrence's abiding faith in the life-force apparent in every aspect of the natural world. The combination of a pure idealism with a pure physicality enriches these characters both as human beings and as symbols of beliefs too often held in opposition. The language of this book is indulgent for Lawrence - it contains the sharp focus and lyrical intensity of poetry without losing the subtlety of detail that characterizes his prose.\n\nFor his final work, it seems that Lawrence has encapsulated a lifetime of extraordinary vision into one profound and exquisite parable.",
+    "tags": []
+  },
+  {
+    "id": 1275,
+    "title": "The Nonexistent Knight",
+    "author": "Italo Calvino",
+    "year": "1959",
+    "country": "Italy",
+    "region": "Southern Europe",
+    "continent": "Europe",
+    "read": true,
+    "originalLanguage": "Italian",
+    "pages": 144,
+    "category": "Novella",
+    "description": "An empty suit of armor is the hero in this witty novella, a picaresque gem—now available in an independent volume for the first time—that brilliantly parodies medieval knighthood.\n\nSet in the time of Charlemagne and narrated by a nun with her own secrets to keep, The Nonexistent Knight tells the story of Agilulf, a gleaming white suit of armor with nothing inside it. A challenge to his honor sends Agilulf on a search through France, England, and North Africa to confirm the chastity of a virgin he saved from rape years earlier. In the end, after many surprising turns of plot, a closing confession draws this sparkling novella to a perfect finish.",
+    "tags": []
+  },
+  {
+    "id": 1274,
+    "title": "The Cloven Viscount",
+    "author": "Italo Calvino",
+    "year": "1962",
+    "country": "Italy",
+    "region": "Southern Europe",
+    "continent": "Europe",
+    "read": true,
+    "originalLanguage": "Italian",
+    "pages": 106,
+    "category": "Novella",
+    "description": "The Cloven Viscount (Italian: Il visconte dimezzato) is a fantasy novella written by Italo Calvino. It was first published by Einaudi (Turin) in 1952 and in English in 1962 by William Collins, with a translation by Archibald Colquhoun.",
+    "tags": []
+  },
+  {
+    "id": 1273,
+    "title": "The Lake of the Bees",
+    "author": "Theodor Storm",
+    "year": "1891",
+    "country": "Germany",
+    "region": "Western Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "German",
+    "pages": 120,
+    "category": "Novella",
+    "description": "Described by the author himself as a “pearl of German poetry,” The Lake of the Bees is one of his earliest novellas. In it, he explores the bittersweet sorrow of memory. An old man looks back on his life and remembers Elizabeth—the only woman he ever loved. The two of them had shared their childhood, shared their summer holidays and family picnics. Yet somehow all had been lost—the joy, excitement, and hope slowly replaced by the melancholy, resignation, and inertia that comes from broken dreams. Now, at the end of his life, he is left only with the knowledge of what might have been. Theodor Storm is a leading figure of German Poetic Realism; his novellas are some of the finest in German literature.",
+    "tags": []
+  },
+  {
+    "id": 1272,
+    "title": "Notes of a Desolate Man",
+    "author": "Chu T'ien-wen",
+    "year": "1999",
+    "country": "Taiwan",
+    "region": "Eastern Asia",
+    "continent": "Asia",
+    "read": false,
+    "originalLanguage": "English",
+    "pages": 184,
+    "category": "Novel",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 1271,
+    "title": "Sanatorium Under the Sign of the Hourglass",
+    "author": "Bruno Schulz",
+    "year": "1937",
+    "country": "Poland",
+    "region": "Eastern Europe",
+    "continent": "Europe",
+    "read": false,
+    "originalLanguage": "German",
+    "pages": 200,
+    "category": "Stories",
+    "description": "A book from Poland.",
+    "tags": []
+  },
+  {
     "id": 1,
     "title": "The Old Woman and the River",
     "author": "Ismail Fahd Ismail",
@@ -24,10 +294,10 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Russian",
-    "pages": 149,
-    "description": "A book from Russia.",
-    "tags": [],
-    "category": "Novella"
+    "pages": 188,
+    "category": "Novel",
+    "description": "In this dark and compelling short novel, Dostoevsky tells the story of Alexey Ivanovitch, a young tutor working in the household of an imperious Russian general. Alexey tries to break through the wall of the established order in Russia, but instead becomes mired in the endless downward spiral of betting and loss. His intense and inescapable addiction is accentuated by his affair with the General’s cruel yet seductively adept niece, Polina. In The Gambler, Dostoevsky reaches the heights of drama with this stunning psychological portrait.",
+    "tags": []
   },
   {
     "id": 3,
@@ -75,21 +345,6 @@
     "category": "Novella"
   },
   {
-    "id": 6,
-    "title": "The Beach of Falesá",
-    "author": "Robert Louis Stevenson",
-    "year": "1892",
-    "country": "Scotland",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 96,
-    "description": "A book from Scotland.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 7,
     "title": "The Return of the Soldier",
     "author": "Rebecca West",
@@ -100,24 +355,9 @@
     "read": false,
     "originalLanguage": "English",
     "pages": 90,
-    "description": "A book from England.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 8,
-    "title": "The Abbess of Crewe",
-    "author": "Muriel Spark",
-    "year": "1974",
-    "country": "Scotland",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 112,
-    "description": "A book from Scotland.",
-    "tags": [],
-    "category": "Novella"
+    "category": "Novella",
+    "description": "Writing her first novel during World War I, West examines the relationship between three women and a soldier suffering from shell-shock. This novel of an enclosed world invaded by public events also embodies in its characters the shifts in England's class structures at the beginning of the twentieth century.",
+    "tags": []
   },
   {
     "id": 9,
@@ -189,10 +429,10 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Swedish",
-    "pages": 150,
+    "pages": 151,
+    "category": "Novel",
     "description": "A book from Sweden.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 14,
@@ -217,7 +457,7 @@
     "country": "Russia",
     "region": "Eastern Europe",
     "continent": "Europe",
-    "read": false,
+    "read": true,
     "originalLanguage": "Russian",
     "pages": 104,
     "description": "A book from Russia.",
@@ -259,21 +499,6 @@
     "title": "The Old Man Who Read Love Stories",
     "author": "Luis Sepulveda",
     "year": "1989",
-    "country": "Chile",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 128,
-    "description": "A book from Chile.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 19,
-    "title": "A Little Lumpen Novelita",
-    "author": "Roberto Bolano",
-    "year": "2002",
     "country": "Chile",
     "region": "South America",
     "continent": "South America",
@@ -330,21 +555,6 @@
     "category": "Novella"
   },
   {
-    "id": 23,
-    "title": "The Spoils of Poynton",
-    "author": "Henry James",
-    "year": "1897",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 144,
-    "description": "A book from USA.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 24,
     "title": "The Girl with the Golden Eyes",
     "author": "Honore de Balzac",
@@ -355,21 +565,6 @@
     "read": false,
     "originalLanguage": "French",
     "pages": 112,
-    "description": "A book from France.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 25,
-    "title": "Silence of the Sea",
-    "author": "Vercors",
-    "year": "1942",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 64,
     "description": "A book from France.",
     "tags": [],
     "category": "Novella"
@@ -412,7 +607,7 @@
     "country": "Iceland",
     "region": "Northern Europe",
     "continent": "Europe",
-    "read": false,
+    "read": true,
     "originalLanguage": "Icelandic",
     "pages": 128,
     "description": "A book from Iceland.",
@@ -585,21 +780,6 @@
     "category": "Novella"
   },
   {
-    "id": 40,
-    "title": "Facing the Forests",
-    "author": "A.B. Yehoshua",
-    "year": "1963",
-    "country": "Israel",
-    "region": "Western Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Hebrew",
-    "pages": 80,
-    "description": "A book from Israel.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 41,
     "title": "Record of a Journey to Mujin",
     "author": "Kim Seung-ok",
@@ -611,36 +791,6 @@
     "originalLanguage": "Korean",
     "pages": 96,
     "description": "A book from Korea.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 42,
-    "title": "The Whale Rider",
-    "author": "Witi Ihimaera",
-    "year": "1987",
-    "country": "New Zealand",
-    "region": "Australia and New Zealand",
-    "continent": "Oceania",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 150,
-    "description": "A book from New Zealand.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 43,
-    "title": "Villa des Roses",
-    "author": "Willem Elsschot",
-    "year": "1913",
-    "country": "Belgium",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Dutch",
-    "pages": 144,
-    "description": "A book from Belgium.",
     "tags": [],
     "category": "Novella"
   },
@@ -730,9 +880,9 @@
     "read": false,
     "originalLanguage": "Portuguese",
     "pages": 144,
+    "category": "Stories",
     "description": "A book from Brazil.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 50,
@@ -870,21 +1020,6 @@
     "category": "Novella"
   },
   {
-    "id": 59,
-    "title": "The Devil in the Hills",
-    "author": "Cesare Pavese",
-    "year": "1949",
-    "country": "Italy",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Italian",
-    "pages": 144,
-    "description": "A book from Italy.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 60,
     "title": "The Beach",
     "author": "Cesare Pavese",
@@ -930,21 +1065,6 @@
     "category": "Novella"
   },
   {
-    "id": 63,
-    "title": "The Siren",
-    "author": "Giuseppe Tomasi di Lampedusa",
-    "year": "1961",
-    "country": "Italy",
-    "region": "Southern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Italian",
-    "pages": 80,
-    "description": "A book from Italy.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 64,
     "title": "The Return",
     "author": "Walter de la Mare",
@@ -970,36 +1090,6 @@
     "read": false,
     "originalLanguage": "English",
     "pages": 144,
-    "description": "A book from England.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 66,
-    "title": "The Fox",
-    "author": "D.H. Lawrence",
-    "year": "1923",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 96,
-    "description": "A book from England.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 67,
-    "title": "The Virgin and the Gypsy",
-    "author": "D.H. Lawrence",
-    "year": "1930",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 96,
     "description": "A book from England.",
     "tags": [],
     "category": "Novella"
@@ -1065,21 +1155,6 @@
     "category": "Novella"
   },
   {
-    "id": 72,
-    "title": "Peter Schlemihl",
-    "author": "Adelbert von Chamisso",
-    "year": "1814",
-    "country": "Germany",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 80,
-    "description": "A book from Germany.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 73,
     "title": "The Left-Handed Woman",
     "author": "Peter Handke",
@@ -1087,39 +1162,9 @@
     "country": "Austria",
     "region": "Western Europe",
     "continent": "Europe",
-    "read": false,
+    "read": true,
     "originalLanguage": "German",
     "pages": 88,
-    "description": "A book from Austria.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 74,
-    "title": "Yes",
-    "author": "Thomas Bernhard",
-    "year": "1978",
-    "country": "Austria",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 144,
-    "description": "A book from Austria.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 75,
-    "title": "Walking",
-    "author": "Thomas Bernhard",
-    "year": "1971",
-    "country": "Austria",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 80,
     "description": "A book from Austria.",
     "tags": [],
     "category": "Novella"
@@ -1151,36 +1196,6 @@
     "originalLanguage": "French",
     "pages": 100,
     "description": "A book from France.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 78,
-    "title": "The Square",
-    "author": "Marguerite Duras",
-    "year": "1955",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 128,
-    "description": "A book from France.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 79,
-    "title": "Youth",
-    "author": "Joseph Conrad",
-    "year": "1902",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 96,
-    "description": "A book from England.",
     "tags": [],
     "category": "Novella"
   },
@@ -1225,24 +1240,9 @@
     "read": false,
     "originalLanguage": "English",
     "pages": 128,
+    "category": "Stories",
     "description": "A book from USA.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 83,
-    "title": "Quicksand",
-    "author": "Nella Larsen",
-    "year": "1928",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 135,
-    "description": "A book from USA.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 84,
@@ -1357,7 +1357,7 @@
     "country": "Denmark",
     "region": "Northern Europe",
     "continent": "Europe",
-    "read": false,
+    "read": true,
     "originalLanguage": "Danish",
     "pages": 136,
     "description": "A book from Denmark.",
@@ -1395,21 +1395,6 @@
     "category": "Novella"
   },
   {
-    "id": 94,
-    "title": "Thousand Cranes",
-    "author": "Yasunari Kawabata",
-    "year": "1952",
-    "country": "Japan",
-    "region": "Eastern Asia",
-    "continent": "Asia",
-    "read": false,
-    "originalLanguage": "Japanese",
-    "pages": 147,
-    "description": "A book from Japan.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
     "id": 95,
     "title": "Villon’s Wife",
     "author": "Osamu Dazai",
@@ -1420,9 +1405,9 @@
     "read": false,
     "originalLanguage": "Japanese",
     "pages": 93,
+    "category": "Stories",
     "description": "A book from Japan.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 96,
@@ -1450,9 +1435,9 @@
     "read": false,
     "originalLanguage": "Japanese",
     "pages": 80,
+    "category": "Stories",
     "description": "A book from Japan.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 98,
@@ -1541,21 +1526,6 @@
     "originalLanguage": "Arabic",
     "pages": 144,
     "description": "A book from Egypt.",
-    "tags": [],
-    "category": "Novella"
-  },
-  {
-    "id": 104,
-    "title": "Água Viva",
-    "author": "Clarice Lispector",
-    "year": "1973",
-    "country": "Brazil",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Portuguese",
-    "pages": 88,
-    "description": "A book from Brazil.",
     "tags": [],
     "category": "Novella"
   },
@@ -1777,7 +1747,7 @@
     "country": "Japan",
     "region": "Eastern Asia",
     "continent": "Asia",
-    "read": false,
+    "read": true,
     "originalLanguage": "Japanese",
     "pages": 144,
     "description": "A book from Japan.",
@@ -2085,21 +2055,6 @@
     "category": "Novella"
   },
   {
-    "id": 140,
-    "title": "Cassandra",
-    "author": "Christa Wolf",
-    "year": "1983",
-    "country": "Germany",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 161,
-    "description": "A book from Germany.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 141,
     "title": "Death and Spring",
     "author": "Merce Rodoreda",
@@ -2109,10 +2064,10 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Catalan",
-    "pages": 150,
+    "pages": 151,
+    "category": "Novel",
     "description": "A book from Spain.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 142,
@@ -2145,21 +2100,6 @@
     "category": "Novel"
   },
   {
-    "id": 144,
-    "title": "The Man Who Was Thursday",
-    "author": "G.K. Chesterton",
-    "year": "1908",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 160,
-    "description": "A book from England.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 145,
     "title": "The Eternal Husband",
     "author": "Fyodor Dostoevsky",
@@ -2182,7 +2122,7 @@
     "country": "Russia",
     "region": "Eastern Europe",
     "continent": "Europe",
-    "read": false,
+    "read": true,
     "originalLanguage": "Russian",
     "pages": 128,
     "description": "A book from Russia.",
@@ -2197,7 +2137,7 @@
     "country": "Russia",
     "region": "Eastern Europe",
     "continent": "Europe",
-    "read": false,
+    "read": true,
     "originalLanguage": "Russian",
     "pages": 112,
     "description": "A book from Russia.",
@@ -2218,21 +2158,6 @@
     "description": "A book from Russia.",
     "tags": [],
     "category": "Novella"
-  },
-  {
-    "id": 149,
-    "title": "Pierre and Jean",
-    "author": "Guy de Maupassant",
-    "year": "1888",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 192,
-    "description": "A book from France.",
-    "tags": [],
-    "category": "Novel"
   },
   {
     "id": 150,
@@ -2347,7 +2272,7 @@
     "country": "USA",
     "region": "Northern America",
     "continent": "North America",
-    "read": false,
+    "read": true,
     "originalLanguage": "English",
     "pages": 118,
     "description": "A book from USA.",
@@ -2505,21 +2430,6 @@
     "category": "Novel"
   },
   {
-    "id": 168,
-    "title": "The Weight of the Night",
-    "author": "Jorge Edwards",
-    "year": "1965",
-    "country": "Chile",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Spanish",
-    "pages": 256,
-    "description": "A book from Chile.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 169,
     "title": "The Remainder",
     "author": "Alia Trabucco Zeran",
@@ -2590,21 +2500,6 @@
     "read": false,
     "originalLanguage": "Swedish",
     "pages": 288,
-    "description": "A book from Sweden.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 174,
-    "title": "April Witch",
-    "author": "Majgull Axelsson",
-    "year": "1997",
-    "country": "Sweden",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "Swedish",
-    "pages": 416,
     "description": "A book from Sweden.",
     "tags": [],
     "category": "Novel"
@@ -2846,21 +2741,6 @@
     "originalLanguage": "English",
     "pages": 192,
     "description": "A book from Canada.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 191,
-    "title": "Hyperion",
-    "author": "Friedrich Holderlin",
-    "year": "1799",
-    "country": "Germany",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 169,
-    "description": "A book from Germany.",
     "tags": [],
     "category": "Novel"
   },
@@ -3150,21 +3030,6 @@
     "category": "Novel"
   },
   {
-    "id": 211,
-    "title": "The Lost Estate",
-    "author": "Alain-Fournier",
-    "year": "1913",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 256,
-    "description": "A book from France.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 212,
     "title": "A Sister to Scheherazade",
     "author": "Assia Djebar",
@@ -3176,21 +3041,6 @@
     "originalLanguage": "French",
     "pages": 214,
     "description": "A book from Algeria.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 213,
-    "title": "The Plague",
-    "author": "Albert Camus",
-    "year": "1947",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 308,
-    "description": "A book from France.",
     "tags": [],
     "category": "Novel"
   },
@@ -3251,21 +3101,6 @@
     "originalLanguage": "Polish",
     "pages": 199,
     "description": "A book from Poland.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 218,
-    "title": "The Confidence-Man",
-    "author": "Herman Melville",
-    "year": "1857",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 334,
-    "description": "A book from USA.",
     "tags": [],
     "category": "Novel"
   },
@@ -3465,21 +3300,6 @@
     "category": "Novel"
   },
   {
-    "id": 232,
-    "title": "Season of Crimson Blossoms",
-    "author": "Abubakar Adam Ibrahim",
-    "year": "2015",
-    "country": "Nigeria",
-    "region": "Western Africa",
-    "continent": "Africa",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 324,
-    "description": "A book from Nigeria.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 233,
     "title": "The Beautiful Things That Heaven Bears",
     "author": "Dinaw Mengestu",
@@ -3504,10 +3324,10 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Greek",
-    "pages": 148,
+    "pages": 151,
+    "category": "Novel",
     "description": "A book from Greece.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 235,
@@ -3556,7 +3376,7 @@
   },
   {
     "id": 238,
-    "title": "Tutunamayanlar",
+    "title": "The Disconnected",
     "author": "Oguz Atay",
     "year": "1972",
     "country": "Turkey",
@@ -3564,10 +3384,10 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Turkish",
-    "pages": 724,
-    "description": "A book from Turkey.",
-    "tags": [],
-    "category": "Novel"
+    "pages": 714,
+    "category": "Novel",
+    "description": "The Disconnected was the first book of Oguz Atay (1934-1977), and was before its time. First published in 1972 it was a cult book among younger writers, but he never saw a second printing before his premature death. Since it was reprinted in 1984 it has gone through more than 70 editions, and is widely reckoned to be the most important book in modern Turkish literature.\n\n“My life was a game, but I wanted it to be taken seriously,” says Selim, the anti-hero of the novel. But the game has a terrible end with his suicide, and his friend Turgut’s quest to understand this is the story of the book. He meets friends whom Selim had kept separate from each other, he finds documents in a kaleidoscopic variety of styles, sometimes hugely funny, sometimes very moving, as Selim rails against the ugliness of his world whether in satire or in a howl of anguish, taking refuge in words and loneliness.\n\nUnder layers of fantasy is the central concept of the Disconnected, tutunamayanlar, literally ‘those who cannot hold on’, poor souls among whom he counts himself, whose sole virtue is that they do not fit into society as it is constituted. He will be their messiah, at whose second coming they will change places with the comfortable of the world. Confronted with this Turgut sees the faultline in his conventional middle class life, and that he too is one of the Disconnected: he takes a train into Anatolia and ‘vanishes’.What could have been a bleak vision of alienation is transformed by the power of language and the imagination.",
+    "tags": []
   },
   {
     "id": 239,
@@ -3641,21 +3461,6 @@
     "originalLanguage": "English",
     "pages": 502,
     "description": "A book from England.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 244,
-    "title": "The Known World",
-    "author": "Edward P. Jones",
-    "year": "2003",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 388,
-    "description": "A book from USA.",
     "tags": [],
     "category": "Novel"
   },
@@ -3795,21 +3600,6 @@
     "category": "Novel"
   },
   {
-    "id": 254,
-    "title": "The Way We Live Now",
-    "author": "Anthony Trollope",
-    "year": "1875",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 821,
-    "description": "A book from England.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 255,
     "title": "The Secret Agent",
     "author": "Joseph Conrad",
@@ -3895,21 +3685,6 @@
     "read": false,
     "originalLanguage": "English",
     "pages": 462,
-    "description": "A book from USA.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 261,
-    "title": "Rabbit, Run",
-    "author": "John Updike",
-    "year": "1960",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 307,
     "description": "A book from USA.",
     "tags": [],
     "category": "Novel"
@@ -4001,36 +3776,6 @@
     "originalLanguage": "French",
     "pages": 386,
     "description": "A book from France.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 268,
-    "title": "Suite Française",
-    "author": "Irene Nemirovsky",
-    "year": "1942",
-    "country": "France",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "French",
-    "pages": 432,
-    "description": "A book from France.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 269,
-    "title": "Heinrich von Ofterdingen",
-    "author": "Novalis",
-    "year": "1802",
-    "country": "Germany",
-    "region": "Western Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "German",
-    "pages": 272,
-    "description": "A book from Germany.",
     "tags": [],
     "category": "Novel"
   },
@@ -4705,9 +4450,9 @@
     "read": true,
     "originalLanguage": "Japanese",
     "pages": 148,
+    "category": "Stories",
     "description": "Imbuída de um erotismo inusitado, esta obra, escrita em 1961, demonstra a maturidade estilística do autor, que se utiliza sua virtuose descritiva para contar a história de Eguchi, um senhor de 67 anos que freqüenta a \"casa das belas adormecidas\", uma espécie de bordel onde moças encontram-se em sono profundo, sob efeito de narcóticos. Apesar da idade avançada, o protagonista parte em busca dos prazeres perdidos e se depara com moças virgens, que os visitantes podem tocar, mas são proibidos de corromper. Daí derivam passagens antológicas de rememorações pessoais e fantasia. Kawabata procura desvendar o enigmático universo do corpo feminino em um culto ao belo e ao inalcançável, investigando as dores da solidão a partir da sutileza de um erotismo expressivo, constantemente atravessado por passagens de fina ironia e perturbadora consciência da passagem do tempo, do vazio existencial que permeia as relações humanas.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 315,
@@ -4734,10 +4479,10 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "French",
-    "pages": 144,
+    "pages": 151,
+    "category": "Novel",
     "description": "Set in a working-class industrial suburb of Liège, this spare, intense psychological masterpiece follows Elisa, a devoted wife and mother whose life centers entirely on her husband, Gilles. When Gilles falls passionately, destructively in love with Elisa's younger sister, Victorine, Elisa makes the extraordinary, painful decision to act as his confidante and support him through his romantic crises. Bourdouxhe's delicate, clinical prose explores the extreme limits of maternal devotion, domestic entrapment, and the tragic isolation of a woman who sacrifices her entire self to love.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 317,
@@ -5008,21 +4753,6 @@
     "description": "A book from China.",
     "tags": [],
     "category": "Novella"
-  },
-  {
-    "id": 335,
-    "title": "Annie John",
-    "author": "Jamaica Kincaid",
-    "year": "1997",
-    "country": "Antigua and Barbuda",
-    "region": "Caribbean",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 152,
-    "description": "A book from Antigua.",
-    "tags": [],
-    "category": "Novel"
   },
   {
     "id": 336,
@@ -5620,9 +5350,9 @@
     "read": false,
     "originalLanguage": "Portuguese",
     "pages": 147,
+    "category": "Stories",
     "description": "",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 376,
@@ -6579,10 +6309,10 @@
     "continent": "South America",
     "read": true,
     "originalLanguage": "Portuguese",
-    "pages": 131,
+    "pages": 151,
+    "category": "Novel",
     "description": "A spare, heartbreaking classic depicting a family of migrant herders fleeing the brutal droughts of the Brazilian sertão, struggling to retain their humanity.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 440,
@@ -6774,10 +6504,10 @@
     "continent": "South America",
     "read": false,
     "originalLanguage": "Portuguese",
-    "pages": 144,
+    "pages": 152,
+    "category": "Novel",
     "description": "This intense, highly lyrical Brazilian masterpiece is narrated by André, a young man who has fled his family's isolated, highly traditional farm to live in a sordid provincial hotel. André's older brother arrives to bring him home, initiating a tragic, psychological confrontation that revolves around André's forbidden, incestuous passion for his sister, Ana, and his rebellion against the absolute, suffocating authority of their deeply religious patriarch father. Nassar's dense, feverish stream-of-consciousness prose is a powerful, profound exploration of sexual desire, familial tyranny, and cultural exile.",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 453,
@@ -6793,21 +6523,6 @@
     "description": "Through this translation of As Tres Marias the literary achievements of Rachel de Queiroz may at last be judged and appreciated by the English-reading public. Since none of her four novels has previously been translated into English, The Three Marias will be, for many non-Brazilians, an introduction to this nationally known South American author whose books have been widely praised for their artistic merits. Her literary works are colored by her projected personality, by an intense feeling for her own people, by an omnipresent social consciousness, and by personal experiences in the arid backlands of her native state of Ceara.Basing this story on certain of her own recollections from the nineteen-twenties, Rachel de Queiroz tells of a girl growing up in the seaport town of Fortaleza, in northeastern Brazil. Professor Ellison, whose special field is Brazilian and Spanish-American literature, has captured in his translation the author's graceful style and simplicity of language, and has successfully retained the perspective of an idealistic and gradually maturing girl.",
     "tags": [],
     "category": "Novel"
-  },
-  {
-    "id": 454,
-    "title": "Memórias Sentimentais de João Miramar",
-    "author": "Oswald de Andrade",
-    "year": "1924",
-    "country": "Brazil",
-    "region": "South America",
-    "continent": "South America",
-    "read": false,
-    "originalLanguage": "Portuguese",
-    "pages": 139,
-    "description": "",
-    "tags": [],
-    "category": "Novella"
   },
   {
     "id": 455,
@@ -6955,9 +6670,9 @@
     "read": false,
     "originalLanguage": "French",
     "pages": 133,
+    "category": "Novella",
     "description": "Written as the diary of Toundi Ondoua, a young Cameroonian boy who flees his traditional village to work as a houseboy for a French colonial commandant, the novel offers a devastating, satirical exposé of colonial society. Toundi's initial awe of French civilization is shattered as he witnesses the moral failures, sexual escapades, and profound racism of his European masters. The narrative details his tragic downfall when he is falsely accused of theft, illustrating the brutal, dehumanizing nature of French colonial administration in Africa.",
-    "tags": [],
-    "category": "Novel"
+    "tags": []
   },
   {
     "id": 465,
@@ -8815,9 +8530,9 @@
     "read": true,
     "originalLanguage": "English",
     "pages": 136,
+    "category": "Novel",
     "description": "Humanity's ongoing quest to unlock the secrets of dark matter and dark energyHeart of Darkness describes the incredible saga of humankind's quest to unravel the deepest secrets of the universe. Over the past forty years, scientists have learned that two little-understood components—dark matter and dark energy—comprise most of the known cosmos, explain the growth of all cosmic structure, and hold the key to the universe's fate. The story of how evidence for the so-called Lambda-Cold Dark Matter model of cosmology has been gathered by generations of scientists throughout the world is told here by one of the pioneers of the field, Jeremiah Ostriker, and his coauthor Simon Mitton.From humankind's early attempts to comprehend Earth's place in the solar system, to astronomers' exploration of the Milky Way galaxy and the realm of the nebulae beyond, to the detection of the primordial fluctuations of energy from which all subsequent structure...",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 589,
@@ -9105,21 +8820,6 @@
     "category": "Novella"
   },
   {
-    "id": 608,
-    "title": "Oranges Are Not the Only Fruit",
-    "author": "Jeanette Winterson",
-    "year": "1985",
-    "country": "England",
-    "region": "Northern Europe",
-    "continent": "Europe",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 183,
-    "description": "",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
     "id": 609,
     "title": "By Night the Mountain Burns",
     "author": "Juan Tomas Avila Laurel",
@@ -9175,9 +8875,9 @@
     "read": false,
     "originalLanguage": "Estonian",
     "pages": 357,
-    "description": "Set in early nineteenth-century Estonia under Russian imperial rule, the novel follows Timotheus von Bock, a wealthy nobleman who is a close personal friend of Czar Alexander I. Timotheus takes a solemn oath to always tell the Czar the absolute truth, writing a long memorandum criticizing the imperial court for its corruption and oppression of the peasantry. Consequently, he is declared insane and imprisoned for nine years, returning to his Estonian estate as a broken, closely watched man. The novel is a brilliant historical meditation on truth, the nature of political power, and Estonian national identity.",
-    "tags": [],
-    "category": "Novel"
+    "category": "Novel",
+    "description": "Timo von Bock's release by the Czar from nine years' incarceration does not spell the end of the Baron's troubles: he is confined to his Livonian estate to live under the constant eye of police informers planted among his own household, and is subjected to endless humiliations. It is claimed that he is a madman and in need of 'protection': a man would need to be insane, after all, to have taken a Czar at his word when asked for a candid appraisal of the state's infirmities.\n\nFrom the year of his release from prison and return to his wife Eeva, a woman of peasant stock to whom, with her brother Jakob, he has given a solid education, the Baron's life is recorded in a secret journal by this same Jakob, a shrewd and observant house-guest.\n\nReconstructing the events leading up to the Baron's incarceration in 1818 and subsequent to his release in 1827, Jakob little by little brings to light mysteries surrounding the 'Czar's madman'. Was his madness genuine? What was the secret understanding between him and his boon companion Czar Alexander I, who committed him to prison?\n\n\nIn The Czar's Madman Jaan Kross weaves together the elements of intrigue surrounding those historical characters who survived in post-Napoleonic Russia, and by a skillful shifting of chronology and viewpoints, creates a superbly rich and moving narrative.\n\nWinner of France's Best Foreign Book Award.",
+    "tags": []
   },
   {
     "id": 613,
@@ -11139,10 +10839,10 @@
     "continent": "Asia",
     "read": false,
     "originalLanguage": "Bengali",
-    "pages": 150,
+    "pages": 151,
+    "category": "Novel",
     "description": "",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 744,
@@ -11395,9 +11095,9 @@
     "read": false,
     "originalLanguage": "Punjabi",
     "pages": 80,
+    "category": "Novella",
     "description": "Pinjar (The Skeleton) is a landmark Indian novel set during the partition of India. It tells the story of Puro, a young Hindu woman who is abducted by a Muslim man, Rashid, to settle a family feud, and explores the plight of women during the traumatic events of partition.",
-    "tags": [],
-    "category": "Novel"
+    "tags": []
   },
   {
     "id": 761,
@@ -13854,10 +13554,10 @@
     "continent": "Europe",
     "read": false,
     "originalLanguage": "Montenegrin",
-    "pages": 150,
+    "pages": 151,
+    "category": "Novel",
     "description": "",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 925,
@@ -14350,21 +14050,6 @@
     "read": false,
     "originalLanguage": "English",
     "pages": 321,
-    "description": "",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 958,
-    "title": "The Fishermen",
-    "author": "Chigozie Obioma",
-    "year": "2015",
-    "country": "Nigeria",
-    "region": "Western Africa",
-    "continent": "Africa",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 304,
     "description": "",
     "tags": [],
     "category": "Novel"
@@ -15175,9 +14860,9 @@
     "read": false,
     "originalLanguage": "Polish",
     "pages": 166,
-    "description": "A dark, quasi-detective novel, Cosmos follows the classic noir motif to explore the arbitrariness of language, the joke of human freedom, and man’s attempt to bring order out of chaos in his psychological life. Published in 1965, Cosmos is the last novel by Witold Gombrowicz (1904–1969) and his most somber and multifaceted work. Two young men meet by chance in a Polish resort town in the Carpathian Mountains. Intending to spend their vacation relaxing, they find a secluded family-run pension. But the two become embroiled first in a macabre event on the way to the pension, then in the peculiar activities and psychological travails of the family running it. Gombrowicz offers no solution to their predicament. Cosmos is translated here for the first time directly from the Polish by Danuta Borchardt, translator of Ferdydurke.",
-    "tags": [],
-    "category": "Novel"
+    "category": "Novel",
+    "description": "A dark, quasi-detective novel, Cosmos follows the classic noir motif to explore the arbitrariness of language, the joke of human freedom, and man’s attempt to bring order out of chaos in his psychological life. Published in 1965, Cosmos is the last novel by Witold Gombrowicz (1904–1969) and his most somber and multifaceted work. Two young men meet by chance in a Polish resort town in the Carpathian Mountains. Intending to spend their vacation relaxing, they find a secluded family-run pension. But the two become embroiled first in a macabre event on the way to the pension, then in the peculiar activities and psychological travails of the family running it. Gombrowicz offers no solution to their predicament.",
+    "tags": []
   },
   {
     "id": 1013,
@@ -16150,9 +15835,9 @@
     "read": false,
     "originalLanguage": "French",
     "pages": 120,
+    "category": "Memoir",
     "description": "",
-    "tags": [],
-    "category": "Novella"
+    "tags": []
   },
   {
     "id": 1078,
@@ -17605,9 +17290,9 @@
     "read": false,
     "originalLanguage": "English",
     "pages": 128,
+    "category": "Novella",
     "description": "A classic Caribbean coming-of-age novel set in Trinidad. It follows Tee, a young girl torn between the rural, working-class culture of her aunt Tantie and the middle-class, colonial aspirations of her aunt Beatrice.",
-    "tags": [],
-    "category": "Novel"
+    "tags": []
   },
   {
     "id": 1175,
@@ -17981,21 +17666,6 @@
     "originalLanguage": "Spanish",
     "pages": 215,
     "description": "This complex, postmodern allegorical novel follows Equis, a protagonist who wanders through a series of surreal, disjointed locations, contemplating a medieval tapestry of the 'Ship of Fools.' The narrative acts as a brilliant critique of the Uruguayan military dictatorship and the wider themes of political exile, state-sanctioned madness, and gender oppression. Through fragmented prose and rich mythological references, Peri Rossi examines the displacement of individuals who are cast out of their homelands for resisting conformism and tyranny.",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 1200,
-    "title": "Play It as It Lays",
-    "author": "Joan Didion",
-    "year": "1970",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": false,
-    "originalLanguage": "English",
-    "pages": 214,
-    "description": "",
     "tags": [],
     "category": "Novel"
   },
@@ -18866,21 +18536,6 @@
     "originalLanguage": "Italian",
     "pages": 275,
     "description": "",
-    "tags": [],
-    "category": "Novel"
-  },
-  {
-    "id": 1259,
-    "title": "A Farewell to Arms",
-    "author": "Ernest Hemingway",
-    "year": "1929",
-    "country": "USA",
-    "region": "Northern America",
-    "continent": "North America",
-    "read": true,
-    "originalLanguage": "English",
-    "pages": 332,
-    "description": "A book from USA.",
     "tags": [],
     "category": "Novel"
   },
