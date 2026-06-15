@@ -101,7 +101,7 @@ export const calculateStats = (books) => {
 
   // Apenas autores com mais de 1 livro
   const byAuthorFiltered = Object.entries(contagemAutor)
-    .filter(([_, count]) => count > 1)
+    .filter(([, count]) => count > 1)
     .map(([label, count]) => ({ label, count }))
     .sort((a, b) => {
       if (b.count !== a.count) {

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { getGeoInfo, allCountries, allRegions, allContinents, parseBatchText } from '../utils/dataUtils';
+import { Download } from 'lucide-react';
 
 export default function BookModal({ book, onSave, onClose, books = [], authors = [], languages = [], tags: tagsList = [] }) {
   const [mode, setMode] = useState('single'); // 'single' or 'batch'
@@ -18,6 +19,213 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
   const [tags, setTags] = useState(book?.tags || []);
   const [tagInput, setTagInput] = useState('');
   const [error, setError] = useState('');
+  const [duplicateWarning, setDuplicateWarning] = useState(null);
+  const [isLoadingMetadata, setIsLoadingMetadata] = useState(false);
+
+  const handleSetMode = (m) => {
+    setMode(m);
+    setDuplicateWarning(null);
+    setError('');
+  };
+
+  const handleFetchMetadata = () => {
+    if (!title.trim() && !author.trim()) return;
+
+    setError('');
+    setIsLoadingMetadata(true);
+
+    const query = title.trim() && author.trim()
+      ? `title=${encodeURIComponent(title.trim())}&author=${encodeURIComponent(author.trim())}`
+      : title.trim()
+      ? `title=${encodeURIComponent(title.trim())}`
+      : `author=${encodeURIComponent(author.trim())}`;
+
+    const url = `https://openlibrary.org/search.json?${query}&fields=key,title,author_name,first_publish_year,number_of_pages_median,language,publisher,publish_place&limit=5`;
+
+    const olLangMap = {
+      eng: 'English',
+      spa: 'Spanish',
+      por: 'Portuguese',
+      fra: 'French',
+      fre: 'French',
+      deu: 'German',
+      ger: 'German',
+      ita: 'Italian',
+      rus: 'Russian',
+      zho: 'Chinese',
+      chi: 'Chinese',
+      jpn: 'Japanese',
+      ara: 'Arabic',
+      lat: 'Latin',
+      grc: 'Ancient Greek',
+      ell: 'Greek',
+      gre: 'Greek',
+      nld: 'Dutch',
+      dut: 'Dutch',
+      swe: 'Swedish',
+      nor: 'Norwegian',
+      dan: 'Danish',
+      pol: 'Polish',
+      ces: 'Czech',
+      cze: 'Czech',
+      hun: 'Hungarian',
+      fin: 'Finnish',
+      tur: 'Turkish',
+      heb: 'Hebrew',
+      hin: 'Hindi',
+      san: 'Sanskrit'
+    };
+
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to fetch from Open Library');
+        return res.json();
+      })
+      .then((data) => {
+        if (data.docs && data.docs.length > 0) {
+          const match = data.docs[0];
+
+          if (match.title && !title.trim()) {
+            setTitle(match.title);
+          }
+
+          if (match.author_name && match.author_name.length > 0 && !author.trim()) {
+            handleAuthorChange(match.author_name[0]);
+          } else if (author.trim()) {
+            handleAuthorChange(author.trim());
+          }
+
+          if (match.first_publish_year && !year.trim()) {
+            setYear(String(match.first_publish_year));
+          }
+
+          if (match.number_of_pages_median && !pages) {
+            setPages(String(match.number_of_pages_median));
+            if (match.number_of_pages_median <= 150) {
+              setCategory('Novella');
+            } else {
+              setCategory('Novel');
+            }
+          }
+
+          if (match.language && match.language.length > 0 && !originalLanguage.trim()) {
+            const olLang = match.language[0];
+            const englishName = olLangMap[olLang] || olLang;
+            setOriginalLanguage(englishName);
+          }
+
+          if (!country.trim() && match.publish_place && match.publish_place.length > 0) {
+            const places = match.publish_place.map((p) => p.toLowerCase());
+            const matched = allCountries.find((c) =>
+              places.some((p) => p.includes(c.toLowerCase()))
+            );
+            if (matched) {
+              handleCountryChange(matched);
+            }
+          }
+
+          // Fetch detailed work metadata to get description
+          if (!description.trim()) {
+            let descriptionPromise = Promise.resolve(null);
+            if (match.key) {
+              const workUrl = `https://openlibrary.org${match.key}.json`;
+              descriptionPromise = fetch(workUrl)
+                .then(workRes => (workRes.ok ? workRes.json() : null))
+                .then(workData => {
+                  if (workData && workData.description) {
+                    if (typeof workData.description === 'string') {
+                      return workData.description;
+                    } else if (workData.description.value) {
+                      return workData.description.value;
+                    }
+                  }
+                  return null;
+                })
+                .catch(() => null);
+            }
+
+            descriptionPromise
+              .then(olDesc => {
+                if (olDesc && olDesc.trim()) {
+                  setDescription(olDesc.trim());
+                  setIsLoadingMetadata(false);
+                  return;
+                }
+
+                // Fallback to Google Books API if Open Library description is empty or missing
+                const cleanDesc = (raw) => {
+                  if (!raw) return '';
+                  return raw
+                    .replace(/<p>/g, '')
+                    .replace(/<\/p>/g, '')
+                    .replace(/<br\s*\/?>/g, '\n')
+                    .replace(/<\/br>/g, '\n')
+                    .replace(/<i>/g, '')
+                    .replace(/<\/i>/g, '')
+                    .replace(/<b>/g, '')
+                    .replace(/<\/b>/g, '')
+                    .trim();
+                };
+
+                const searchTitle = title.trim() || match.title || '';
+                const searchAuthor = author.trim() || (match.author_name && match.author_name[0]) || '';
+                if (!searchTitle && !searchAuthor) {
+                  setIsLoadingMetadata(false);
+                  return;
+                }
+
+                const gbQuery = searchTitle && searchAuthor
+                  ? `intitle:${encodeURIComponent(searchTitle)}+inauthor:${encodeURIComponent(searchAuthor)}`
+                  : searchTitle
+                  ? `intitle:${encodeURIComponent(searchTitle)}`
+                  : `inauthor:${encodeURIComponent(searchAuthor)}`;
+                const gbUrl = `https://www.googleapis.com/books/v1/volumes?q=${gbQuery}&maxResults=1`;
+
+                return fetch(gbUrl)
+                  .then(gbRes => (gbRes.ok ? gbRes.json() : null))
+                  .then(gbData => {
+                    setIsLoadingMetadata(false);
+                    if (gbData && gbData.items && gbData.items.length > 0) {
+                      const volInfo = gbData.items[0].volumeInfo;
+                      if (volInfo) {
+                        if (volInfo.description) {
+                          const cleaned = cleanDesc(volInfo.description);
+                          if (cleaned) {
+                            setDescription(cleaned);
+                          }
+                        }
+                        const resolvedPages = pages || (match.number_of_pages_median ? String(match.number_of_pages_median) : '');
+                        if (!resolvedPages && volInfo.pageCount) {
+                          setPages(String(volInfo.pageCount));
+                          if (volInfo.pageCount <= 150) {
+                            setCategory('Novella');
+                          } else {
+                            setCategory('Novel');
+                          }
+                        }
+                      }
+                    }
+                  })
+                  .catch(() => {
+                    setIsLoadingMetadata(false);
+                  });
+              })
+              .catch(() => {
+                setIsLoadingMetadata(false);
+              });
+          } else {
+            setIsLoadingMetadata(false);
+          }
+        } else {
+          setIsLoadingMetadata(false);
+          setError('No books found with the provided details.');
+        }
+      })
+      .catch((err) => {
+        setIsLoadingMetadata(false);
+        setError('Error fetching metadata: ' + err.message);
+      });
+  };
 
   const handleAuthorChange = (val) => {
     setAuthor(val);
@@ -94,11 +302,45 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
     e.preventDefault();
 
     if (mode === 'batch') {
+      setError('');
       const parsedBooks = parseBatchText(batchText);
       if (parsedBooks.length === 0) {
         setError('No valid books found in batch text. Please check the format.');
         return;
       }
+
+      // Check for duplicates
+      const duplicates = [];
+      const nonDuplicates = [];
+      const seen = new Set();
+
+      parsedBooks.forEach(b => {
+        const titleNorm = b.title.trim().toLowerCase();
+        const authorNorm = b.author.trim().toLowerCase();
+        const key = `${titleNorm}|${authorNorm}`;
+
+        const isDupInLibrary = books.some(existing => 
+          existing.title.trim().toLowerCase() === titleNorm && 
+          existing.author.trim().toLowerCase() === authorNorm
+        );
+
+        if (isDupInLibrary || seen.has(key)) {
+          duplicates.push(b);
+        } else {
+          nonDuplicates.push(b);
+          seen.add(key);
+        }
+      });
+
+      if (duplicates.length > 0) {
+        setDuplicateWarning({
+          duplicates,
+          nonDuplicates,
+          allParsedBooks: parsedBooks
+        });
+        return;
+      }
+
       onSave(parsedBooks);
       return;
     }
@@ -138,13 +380,13 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
               <div className="nav nav-pills small bg-light p-1 rounded border mb-3">
                 <button 
                   className={`nav-link py-1 px-3 ${mode === 'single' ? 'active' : 'text-muted'}`}
-                  onClick={() => setMode('single')}
+                  onClick={() => handleSetMode('single')}
                 >
                   Single Book
                 </button>
                 <button 
                   className={`nav-link py-1 px-3 ${mode === 'batch' ? 'active' : 'text-muted'}`}
-                  onClick={() => setMode('batch')}
+                  onClick={() => handleSetMode('batch')}
                 >
                   Batch Add
                 </button>
@@ -155,24 +397,85 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
             {error && <div className="alert alert-danger py-2 small fw-bold mb-4">{error}</div>}
             
             {mode === 'batch' ? (
-              <div className="animate-fade">
-                <label className="form-label small fw-bold text-muted text-uppercase">Batch Text Input</label>
-                <p className="small text-muted mb-2">
-                  Format: <code>Title by Author (Year, Country), Pages p., Language</code><br/>
-                  Example: <code>The Crying of Lot 49 by Thomas Pynchon (1966, USA), 152 p., English</code>
-                </p>
-                <textarea 
-                  className="form-control font-monospace" 
-                  rows="10" 
-                  placeholder="Paste your books here..."
-                  value={batchText}
-                  onChange={e => setBatchText(e.target.value)}
-                  style={{ fontSize: '0.85rem' }}
-                ></textarea>
-                <div className="form-text mt-2">Each book must be on its own line.</div>
-              </div>
+              duplicateWarning ? (
+                <div className="animate-fade">
+                  <div className="alert alert-warning border border-warning border-opacity-50 bg-warning bg-opacity-10 d-flex flex-column gap-2 mb-3 p-3 rounded text-start animate-fade">
+                    <h6 className="fw-bold mb-1 d-flex align-items-center gap-2 text-warning-emphasis">
+                      <span>⚠️ Duplicate Books Detected</span>
+                    </h6>
+                    <p className="small mb-2 text-muted">
+                      We found {duplicateWarning.duplicates.length} duplicate book(s) (either already in your library or duplicated within the batch):
+                    </p>
+                    <div className="table-responsive bg-body border rounded mb-2" style={{ maxHeight: '180px' }}>
+                      <table className="table table-sm table-hover mb-0 align-middle" style={{ fontSize: '0.85rem' }}>
+                        <thead className="table-light">
+                          <tr>
+                            <th className="ps-2 py-1.5">Title</th>
+                            <th className="py-1.5">Author</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {duplicateWarning.duplicates.map((b, idx) => (
+                            <tr key={idx}>
+                              <td className="ps-2 py-1.5 fw-medium text-wrap">{b.title}</td>
+                              <td className="py-1.5 text-muted text-wrap">{b.author}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                    <p className="small mb-0 text-muted">
+                      Please choose whether to add all books anyway (including duplicates) or add only the non-duplicate entries.
+                    </p>
+                  </div>
+                </div>
+              ) : (
+                <div className="animate-fade">
+                  <label className="form-label small fw-bold text-muted text-uppercase">Batch Text Input</label>
+                  <p className="small text-muted mb-2">
+                    Format: <code>Title by Author (Year, Country), Pages p., Language</code><br/>
+                    Example: <code>The Crying of Lot 49 by Thomas Pynchon (1966, USA), 152 p., English</code>
+                  </p>
+                  <textarea 
+                    className="form-control font-monospace" 
+                    rows="10" 
+                    placeholder="Paste your books here..."
+                    value={batchText}
+                    onChange={e => setBatchText(e.target.value)}
+                    style={{ fontSize: '0.85rem' }}
+                  ></textarea>
+                  <div className="form-text mt-2">Each book must be on its own line.</div>
+                </div>
+              )
             ) : (
               <div className="row g-3 animate-fade">
+                <div className="col-12">
+                  <div className="bg-light p-2.5 rounded border d-flex flex-wrap justify-content-between align-items-center gap-2 text-start">
+                    <div>
+                      <span className="small fw-bold text-muted text-uppercase d-block" style={{ fontSize: '0.7rem' }}>Autofill from Open Library</span>
+                      <span className="small text-muted" style={{ fontSize: '0.75rem' }}>Enter Title and/or Author, then fetch pages, year, language, etc.</span>
+                    </div>
+                    <button
+                      type="button"
+                      className="btn btn-sm btn-outline-primary fw-semibold d-flex align-items-center gap-1.5"
+                      onClick={handleFetchMetadata}
+                      disabled={isLoadingMetadata || (!title.trim() && !author.trim())}
+                    >
+                      {isLoadingMetadata ? (
+                        <>
+                          <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                          <span>Fetching...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Download size={14} />
+                          <span>Fetch Metadata</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+                </div>
+
                 <div className="col-12 col-md-6">
                   <label htmlFor="book-title" className="form-label small fw-bold text-muted text-uppercase">Title</label>
                   <input id="book-title" type="text" className="form-control" value={title} onChange={e => setTitle(e.target.value)} required />
@@ -299,11 +602,43 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
               </div>
             )}
 
-            <div className="mt-4 pt-3 border-top d-flex flex-column-reverse flex-sm-row justify-content-sm-end gap-2">
-              <button type="button" className="btn btn-light px-4" onClick={onClose}>Cancel</button>
-              <button type="submit" className="btn btn-primary px-4">
-                {mode === 'batch' ? 'Add Batch' : (book ? 'Save Changes' : 'Save Book')}
-              </button>
+            <div className="mt-4 pt-3 border-top d-flex flex-column-reverse flex-sm-row justify-content-sm-end gap-2 w-100">
+              {duplicateWarning ? (
+                <>
+                  <button type="button" className="btn btn-light px-4" onClick={() => setDuplicateWarning(null)}>
+                    Go Back & Edit
+                  </button>
+                  {duplicateWarning.nonDuplicates.length > 0 && (
+                    <button 
+                      type="button" 
+                      className="btn btn-outline-primary px-4" 
+                      onClick={() => {
+                        onSave(duplicateWarning.nonDuplicates);
+                        setDuplicateWarning(null);
+                      }}
+                    >
+                      Add Non-Duplicates Only ({duplicateWarning.nonDuplicates.length})
+                    </button>
+                  )}
+                  <button 
+                    type="button" 
+                    className="btn btn-primary px-4" 
+                    onClick={() => {
+                      onSave(duplicateWarning.allParsedBooks);
+                      setDuplicateWarning(null);
+                    }}
+                  >
+                    Add All Anyway ({duplicateWarning.allParsedBooks.length})
+                  </button>
+                </>
+              ) : (
+                <>
+                  <button type="button" className="btn btn-light px-4" onClick={onClose}>Cancel</button>
+                  <button type="submit" className="btn btn-primary px-4">
+                    {mode === 'batch' ? 'Add Batch' : (book ? 'Save Changes' : 'Save Book')}
+                  </button>
+                </>
+              )}
             </div>
           </form>
         </div>

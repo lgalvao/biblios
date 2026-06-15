@@ -457,6 +457,17 @@ Farabeuf by Salvador Elizondo (1965, Mexico), 176 p., Spanish`;
       });
     });
 
+    it('should support flexible page formats (xxx p, xxxp, xxxp.)', () => {
+      const text = `Book One by Author A (2000, USA), 150 p, English
+Book Two by Author B (2001, Spain), 200p, Spanish
+Book Three by Author C (2002, France), 250p., French`;
+      const result = parseBatchText(text);
+      expect(result).toHaveLength(3);
+      expect(result[0].pages).toBe(150);
+      expect(result[1].pages).toBe(200);
+      expect(result[2].pages).toBe(250);
+    });
+
     it('should return empty array for empty input', () => {
       expect(parseBatchText('')).toEqual([]);
       expect(parseBatchText(null)).toEqual([]);

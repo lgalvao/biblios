@@ -325,4 +325,219 @@ describe('BookModal Component tests', () => {
     fireEvent.change(pagesInput, { target: { value: '50' } });
     expect(categorySelect.value).toBe('Novella');
   });
+
+  it('handles batch add warning and adding non-duplicates only', () => {
+    const onSaveMock = vi.fn();
+    render(<BookModal {...defaultProps} onSave={onSaveMock} />);
+
+    // Switch to Batch mode
+    const batchButton = screen.getByRole('button', { name: /Batch Add/i });
+    fireEvent.click(batchButton);
+
+    // Paste batch text containing:
+    // 1. A book already in mockBooks (Dom Casmurro by Machado de Assis)
+    // 2. A brand new book (The Hobbit by J.R.R. Tolkien)
+    // 3. Another brand new book duplicated inside the batch (The Hobbit by J.R.R. Tolkien)
+    const batchTextarea = screen.getByPlaceholderText(/Paste your books here.../i);
+    fireEvent.change(batchTextarea, {
+      target: {
+        value: `Dom Casmurro by Machado de Assis (1899, Brazil), 256 p., Portuguese\nThe Hobbit by J.R.R. Tolkien (1937, United Kingdom), 310 p., English\nThe Hobbit by J.R.R. Tolkien (1937, United Kingdom), 310 p., English`
+      }
+    });
+
+    const addBatchButton = screen.getByRole('button', { name: /Add Batch/i });
+    fireEvent.click(addBatchButton);
+
+    // It should display duplicate warning alert
+    expect(screen.getByText(/Duplicate Books Detected/i)).toBeInTheDocument();
+    expect(onSaveMock).not.toHaveBeenCalled();
+
+    // The duplicates table should show the duplicates
+    // Dom Casmurro is a duplicate (in library) and the second The Hobbit is an internal duplicate
+    expect(screen.getAllByText('Dom Casmurro').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('The Hobbit').length).toBeGreaterThan(0);
+
+    // Test clicking "Go Back & Edit"
+    const goBackButton = screen.getByRole('button', { name: /Go Back & Edit/i });
+    fireEvent.click(goBackButton);
+
+    // We should be back in the textarea entry mode
+    expect(screen.getByPlaceholderText(/Paste your books here.../i)).toBeInTheDocument();
+
+    // Click Add Batch again to trigger warning
+    fireEvent.click(screen.getByRole('button', { name: /Add Batch/i }));
+
+    // Click "Add Non-Duplicates Only"
+    const addNonDupButton = screen.getByRole('button', { name: /Add Non-Duplicates Only/i });
+    fireEvent.click(addNonDupButton);
+
+    // It should only save the single non-duplicate (The Hobbit)
+    expect(onSaveMock).toHaveBeenCalledTimes(1);
+    expect(onSaveMock).toHaveBeenCalledWith([
+      expect.objectContaining({
+        title: 'The Hobbit',
+        author: 'J.R.R. Tolkien',
+        pages: 310
+      })
+    ]);
+  });
+
+  it('handles batch add warning and adding all books anyway', () => {
+    const onSaveMock = vi.fn();
+    render(<BookModal {...defaultProps} onSave={onSaveMock} />);
+
+    // Switch to Batch mode
+    const batchButton = screen.getByRole('button', { name: /Batch Add/i });
+    fireEvent.click(batchButton);
+
+    // Paste batch text containing a duplicate book (Dom Casmurro)
+    fireEvent.change(screen.getByPlaceholderText(/Paste your books here.../i), {
+      target: {
+        value: `Dom Casmurro by Machado de Assis (1899, Brazil), 256 p., Portuguese`
+      }
+    });
+    
+    const addBatchButton = screen.getByRole('button', { name: /Add Batch/i });
+    fireEvent.click(addBatchButton);
+
+    // Dom Casmurro is already in library, so warning appears. Click "Add All Anyway"
+    const addAllAnywayButton = screen.getByRole('button', { name: /Add All Anyway/i });
+    fireEvent.click(addAllAnywayButton);
+
+    expect(onSaveMock).toHaveBeenCalledWith([
+      expect.objectContaining({
+        title: 'Dom Casmurro',
+        author: 'Machado de Assis'
+      })
+    ]);
+  });
+
+  it('calls Open Library API and autofills fields when clicking Fetch Metadata', async () => {
+    // Mock the global fetch
+    const mockOLResponse = {
+      docs: [
+        {
+          key: '/works/OL27479W',
+          title: 'The Hobbit',
+          author_name: ['J.R.R. Tolkien'],
+          first_publish_year: 1937,
+          number_of_pages_median: 310,
+          language: ['eng'],
+          publish_place: ['London']
+        }
+      ]
+    };
+    const fetchSpy = vi.spyOn(window, 'fetch').mockImplementation((url) => {
+      if (url.includes('openlibrary.org/search.json')) {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve(mockOLResponse)
+        });
+      }
+      if (url.includes('openlibrary.org/works/')) {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({
+            description: 'A great fantasy novel.'
+          })
+        });
+      }
+      return Promise.reject(new Error('Unknown URL in test: ' + url));
+    });
+
+    render(<BookModal {...defaultProps} />);
+
+    // Type Title
+    const titleInput = screen.getByLabelText(/Title/i);
+    fireEvent.change(titleInput, { target: { value: 'The Hobbit' } });
+
+    // The fetch button should be enabled
+    const fetchButton = screen.getByRole('button', { name: /Fetch Metadata/i });
+    expect(fetchButton).not.toBeDisabled();
+
+    // Click fetch button
+    fireEvent.click(fetchButton);
+
+    // Wait for async changes (autofill)
+    // The page fields should be filled
+    await screen.findByDisplayValue('J.R.R. Tolkien');
+    expect(screen.getByLabelText(/Author/i).value).toBe('J.R.R. Tolkien');
+    expect(screen.getByLabelText(/Year/i).value).toBe('1937');
+    expect(screen.getByLabelText(/Pages/i).value).toBe('310');
+    expect(screen.getByLabelText(/Language/i).value).toBe('English');
+    expect(screen.getByLabelText(/Description/i).value).toBe('A great fantasy novel.');
+
+    // Check that fetch was called with correct URL
+    expect(fetchSpy).toHaveBeenCalledWith(expect.stringContaining('openlibrary.org/search.json'));
+    expect(fetchSpy).toHaveBeenCalledWith(expect.stringContaining('openlibrary.org/works/OL27479W.json'));
+
+    fetchSpy.mockRestore();
+  });
+
+  it('falls back to Google Books API when Open Library has no description', async () => {
+    const mockOLResponse = {
+      docs: [
+        {
+          key: '/works/OL27479W',
+          title: 'The Hobbit',
+          author_name: ['J.R.R. Tolkien'],
+          first_publish_year: 1937,
+          number_of_pages_median: 310,
+          language: ['eng'],
+          publish_place: ['London']
+        }
+      ]
+    };
+    const mockGBResponse = {
+      items: [
+        {
+          volumeInfo: {
+            description: '<p>A fallback fantasy novel.</p>',
+            pageCount: 320
+          }
+        }
+      ]
+    };
+
+    const fetchSpy = vi.spyOn(window, 'fetch').mockImplementation((url) => {
+      if (url.includes('openlibrary.org/search.json')) {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve(mockOLResponse)
+        });
+      }
+      if (url.includes('openlibrary.org/works/')) {
+        // Return work info without description to trigger Google Books fallback
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve({})
+        });
+      }
+      if (url.includes('googleapis.com/books')) {
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve(mockGBResponse)
+        });
+      }
+      return Promise.reject(new Error('Unknown URL in test: ' + url));
+    });
+
+    render(<BookModal {...defaultProps} />);
+
+    // Type Title
+    const titleInput = screen.getByLabelText(/Title/i);
+    fireEvent.change(titleInput, { target: { value: 'The Hobbit' } });
+
+    // Click fetch button
+    const fetchButton = screen.getByRole('button', { name: /Fetch Metadata/i });
+    fireEvent.click(fetchButton);
+
+    // Wait for description to load from Google Books fallback
+    await screen.findByDisplayValue('A fallback fantasy novel.');
+
+    expect(screen.getByLabelText(/Description/i).value).toBe('A fallback fantasy novel.');
+    expect(fetchSpy).toHaveBeenCalledWith(expect.stringContaining('googleapis.com/books/v1/volumes'));
+
+    fetchSpy.mockRestore();
+  });
 });

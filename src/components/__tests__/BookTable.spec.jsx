@@ -480,19 +480,19 @@ describe('BookTable Component tests', () => {
   });
 
   it('exports CSV correctly including unread books', () => {
-    global.URL.createObjectURL = vi.fn().mockReturnValue('blob:test');
+    window.URL.createObjectURL = vi.fn().mockReturnValue('blob:test');
     window.URL.revokeObjectURL = vi.fn();
     
     render(<BookTable {...defaultProps} />);
     fireEvent.click(screen.getByTitle('Export'));
     fireEvent.click(screen.getByText('CSV'));
     
-    expect(global.URL.createObjectURL).toHaveBeenCalled();
+    expect(window.URL.createObjectURL).toHaveBeenCalled();
   });
 
   it('exports CSV with only Title, Author, Pages, and Country columns', () => {
-    const blobSpy = vi.spyOn(global, 'Blob');
-    global.URL.createObjectURL = vi.fn().mockReturnValue('blob:test');
+    const blobSpy = vi.spyOn(window, 'Blob');
+    window.URL.createObjectURL = vi.fn().mockReturnValue('blob:test');
     window.URL.revokeObjectURL = vi.fn();
     
     render(<BookTable {...defaultProps} />);
@@ -518,7 +518,7 @@ describe('BookTable Component tests', () => {
 
   it('opens export dropdown and calls export functions', () => {
     // Mock navigator and URL for export functions
-    global.URL.createObjectURL = vi.fn();
+    window.URL.createObjectURL = vi.fn();
     window.URL.revokeObjectURL = vi.fn();
     const mockClipboard = { writeText: vi.fn().mockResolvedValue() };
     Object.assign(navigator, { clipboard: mockClipboard });
@@ -534,13 +534,13 @@ describe('BookTable Component tests', () => {
     
     // Click CSV
     fireEvent.click(csvBtn);
-    expect(global.URL.createObjectURL).toHaveBeenCalled();
+    expect(window.URL.createObjectURL).toHaveBeenCalled();
 
     // Open again and click MD
     fireEvent.click(exportBtn);
     const mdBtn = screen.getByText('MD (Download)');
     fireEvent.click(mdBtn);
-    expect(global.URL.createObjectURL).toHaveBeenCalledTimes(2);
+    expect(window.URL.createObjectURL).toHaveBeenCalledTimes(2);
 
     // Open again and click Copy MD
     fireEvent.click(exportBtn);

@@ -335,7 +335,7 @@ function App() {
   };
 
   return (
-    <div className="app-container container-xl py-4">
+    <div className="app-container container-fluid px-md-4 py-4">
       
       {/* Header Area */}
       <header className="navbar border rounded shadow-sm p-3 mb-4 d-flex justify-content-between align-items-center bg-light">

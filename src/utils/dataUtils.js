@@ -528,12 +528,12 @@ export const parseBatchText = (text) => {
   
   const lines = text.split('\n').filter(line => line.trim() !== '');
   const books = [];
-  const regex = /^(.+?)\s+by\s+(.+?)\s+\((\d{4}),\s+(.+?)\),\s+(\d+)\s+p\.,\s+(.+)$/;
+  const regex = /^(.+?)\s+by\s+(.+?)\s+\((\d{4}),\s+(.+?)\),\s+(\d+)\s*[pP]\.?,\s+(.+)$/;
 
   lines.forEach(line => {
     const match = line.trim().match(regex);
     if (match) {
-      const [_, title, author, year, country, pages, language] = match;
+      const [, title, author, year, country, pages, language] = match;
       const geo = getGeoInfo(country);
       books.push({
         title: title.trim(),

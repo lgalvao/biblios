@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, within } from '@testing-library/react';
 import Dashboard from '../Dashboard';
 
 // Mock Recharts to avoid container size errors in jsdom
@@ -182,5 +182,75 @@ describe('Dashboard Component tests', () => {
     
     // Valid tag should be shown
     expect(screen.getByText('Valid')).toBeInTheDocument();
+  });
+
+  it('filters data by category select dropdown', () => {
+    const categoryBooks = [
+      { id: 1, title: 'Book One', author: 'Author A', year: '1900', country: 'Spain', continent: 'Europe', read: true, pages: 100, category: 'Novel' },
+      { id: 2, title: 'Book Two', author: 'Author B', year: '1910', country: 'France', continent: 'Europe', read: false, pages: 50, category: 'Novella' },
+      { id: 3, title: 'Book Three', author: 'Author C', year: '1920', country: 'Italy', continent: 'Europe', read: true, pages: 120, category: 'Novel' }
+    ];
+    render(<Dashboard books={categoryBooks} />);
+
+    // Initially, total books is 3
+    let totalBooksCard = screen.getByText('Total Books').closest('.card');
+    expect(totalBooksCard).toHaveTextContent('3');
+
+    // Change category filter select dropdown to 'Novel'
+    const categorySelect = screen.getByLabelText('Category:');
+    fireEvent.change(categorySelect, { target: { value: 'Novel' } });
+
+    // Total books should update to 2
+    totalBooksCard = screen.getByText('Total Books').closest('.card');
+    expect(totalBooksCard).toHaveTextContent('2');
+
+    // Pages read should also update: 100 + 120 = 220
+    const pagesReadCard = screen.getByText('Pages Read').closest('.card');
+    expect(pagesReadCard).toHaveTextContent('220 / 220');
+
+    // Change category filter select dropdown to 'Novella'
+    fireEvent.change(categorySelect, { target: { value: 'Novella' } });
+
+    // Total books should update to 1
+    totalBooksCard = screen.getByText('Total Books').closest('.card');
+    expect(totalBooksCard).toHaveTextContent('1');
+    expect(pagesReadCard).toHaveTextContent('0 / 50'); // Book Two is not read, pages 50
+  });
+
+  it('renders Country CSV export button and triggers export click', () => {
+    // Mock URL functions
+    const createObjectURLMock = vi.fn(() => 'blob:mock-url');
+    const revokeObjectURLMock = vi.fn();
+    window.URL.createObjectURL = createObjectURLMock;
+    window.URL.revokeObjectURL = revokeObjectURLMock;
+
+    // Mock HTMLAnchorElement click
+    const clickMock = vi.fn();
+    const originalCreateElement = document.createElement;
+    document.createElement = vi.fn().mockImplementation((tagName) => {
+      const element = originalCreateElement.call(document, tagName);
+      if (tagName === 'a') {
+        element.click = clickMock;
+      }
+      return element;
+    });
+
+    render(<Dashboard books={mockBooks} />);
+
+    // Check that CSV button is in Countries card
+    const countriesCard = screen.getByText('Countries', { selector: 'p' }).closest('.card');
+    const csvButton = within(countriesCard).getByRole('button', { name: /CSV/i });
+    expect(countriesCard).toContainElement(csvButton);
+
+    // Click CSV button
+    fireEvent.click(csvButton);
+
+    // Verify it created a blob URL and clicked the download link
+    expect(createObjectURLMock).toHaveBeenCalled();
+    expect(clickMock).toHaveBeenCalled();
+    expect(revokeObjectURLMock).toHaveBeenCalled();
+
+    // Restore original createElement
+    document.createElement = originalCreateElement;
   });
 });

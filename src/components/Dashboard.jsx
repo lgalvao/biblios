@@ -1,17 +1,29 @@
 import { useMemo, useState } from 'react';
 import { ResponsiveContainer, Cell, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { Book, CheckCircle, Compass, Globe, Languages, FileText, Search } from 'lucide-react';
+import { Book, CheckCircle, Compass, Globe, Languages, FileText, Search, Download } from 'lucide-react';
 import { normalizeForSearch } from '../utils/dataUtils';
 import CountryFlag from './CountryFlag';
 
 export default function Dashboard({ books, onOpenStatsReport }) {
+  const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchQuery] = useState('');
+
+  // Extract all categories dynamically from books
+  const categories = useMemo(() => {
+    return [...new Set(books.map(b => b.category).filter(Boolean))].sort();
+  }, [books]);
+
+  // Filter books list based on category
+  const filteredBooks = useMemo(() => {
+    if (selectedCategory === 'all') return books;
+    return books.filter(b => b.category === selectedCategory);
+  }, [books, selectedCategory]);
 
   // 1. Basic Stats & KPI Data
   const stats = useMemo(() => {
-    const total = books.length;
+    const total = filteredBooks.length;
     if (total === 0) return null;
-    const read = books.filter(b => b.read).length;
+    const read = filteredBooks.filter(b => b.read).length;
     const continentCounts = {};
     const regionCounts = {};
     const countrySet = new Set();
@@ -19,7 +31,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
     let totalPages = 0;
     let readPages = 0;
 
-    books.forEach(b => {
+    filteredBooks.forEach(b => {
       if (b.continent) {
         let nomeContinente = b.continent;
         if (nomeContinente === 'Asia' || nomeContinente === 'Oceania') {
@@ -45,17 +57,17 @@ export default function Dashboard({ books, onOpenStatsReport }) {
     const regionCount = Object.keys(regionCounts).length;
 
     return {
-      total, read, percent: Math.round((read / total) * 100),
+      total, read, percent: total > 0 ? Math.round((read / total) * 100) : 0,
       topContinent, regionCount, countryCount: countrySet.size,
-      totalPages, readPages, pagesPercent: Math.round((readPages / totalPages) * 100),
+      totalPages, readPages, pagesPercent: totalPages > 0 ? Math.round((readPages / totalPages) * 100) : 0,
       languageCount: langSet.size
     };
-  }, [books]);
+  }, [filteredBooks]);
 
   // 2. Charts Data
   const chartData = useMemo(() => {
     const continents = {};
-    books.forEach(b => {
+    filteredBooks.forEach(b => {
       if (b.continent) {
         let name = b.continent;
         if (name === 'North America' || name === 'South America' || name === 'Central America') {
@@ -68,7 +80,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       }
     });
     return Object.entries(continents).map(([name, value]) => ({ name, value }));
-  }, [books]);
+  }, [filteredBooks]);
 
   const eraData = useMemo(() => {
     const eras = {
@@ -81,7 +93,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       '1975-1999': 0,
       '2000+': 0
     };
-    books.forEach(b => {
+    filteredBooks.forEach(b => {
       const yrMatch = String(b.year || '').match(/\d+/);
       const yr = yrMatch ? parseInt(yrMatch[0], 10) : null;
       
@@ -95,7 +107,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       else eras['2000+']++;
     });
     return Object.entries(eras).map(([name, count]) => ({ name, count }));
-  }, [books]);
+  }, [filteredBooks]);
 
   // 3. Detailed Analytics Data (from Stats.jsx)
   const detailedStats = useMemo(() => {
@@ -108,7 +120,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       tag: {}
     };
 
-    books.forEach(b => {
+    filteredBooks.forEach(b => {
       // Country
       if (b.country) {
         let country = b.country.trim();
@@ -165,7 +177,30 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       century: format(data.century),
       tag: format(data.tag)
     };
-  }, [books]);
+  }, [filteredBooks]);
+
+  const handleExportCountryStats = (e) => {
+    if (e) e.stopPropagation();
+    const sortedCountries = [...detailedStats.country].sort((a, b) => b.count - a.count);
+    const headers = ['Country', 'Book Count'];
+    const csvRows = [headers.join(',')];
+    sortedCountries.forEach(item => {
+      const escapedCountry = item.label.includes(',') ? `"${item.label}"` : item.label;
+      csvRows.push(`${escapedCountry},${item.count}`);
+    });
+    const csvString = csvRows.join('\r\n');
+    const blob = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csvString], { type: 'text/csv;charset=utf-8;' });
+    if (typeof window !== 'undefined' && window.URL && window.URL.createObjectURL) {
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'country_statistics.csv');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }
+  };
 
   function getOrdinal(n) {
     const s = ["th", "st", "nd", "rd"];
@@ -184,8 +219,19 @@ export default function Dashboard({ books, onOpenStatsReport }) {
 
     return (
       <div className="card shadow-sm border-0 h-100">
-        <div className="card-header bg-white py-3">
+        <div className="card-header bg-white py-2 d-flex justify-content-between align-items-center" style={{ minHeight: '51px' }}>
           <h6 className="fw-bold mb-0 text-uppercase small text-muted">{title}</h6>
+          {title === 'Countries' && (
+            <button 
+              className="btn btn-xs btn-outline-primary d-flex align-items-center gap-1 px-2 py-0.5"
+              onClick={handleExportCountryStats}
+              title="Export country stats CSV"
+              style={{ fontSize: '0.65rem', fontWeight: 600 }}
+            >
+              <Download size={11} />
+              <span>CSV</span>
+            </button>
+          )}
         </div>
         <div className="table-responsive" style={{ maxHeight: '350px' }}>
           <table className="table table-hover table-sm mb-0 align-middle">
@@ -221,26 +267,78 @@ export default function Dashboard({ books, onOpenStatsReport }) {
   return (
     <div className="animate-fade">
       
+      {/* Category Filter Controls */}
+      <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4 bg-light p-3 rounded border shadow-sm">
+        <div className="d-flex align-items-center gap-2">
+          <Book className="text-primary" size={20} />
+          <div>
+            <h5 className="fw-bold mb-0" style={{ fontSize: '1rem' }}>Library Dashboard</h5>
+            <p className="small text-muted mb-0" style={{ fontSize: '0.75rem' }}>Visual statistics of your book collection</p>
+          </div>
+        </div>
+        
+        <div className="d-flex align-items-center gap-2">
+          <label htmlFor="dashboard-category-filter" className="small fw-bold text-muted text-uppercase mb-0" style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}>
+            Category:
+          </label>
+          <select 
+            id="dashboard-category-filter"
+            className="form-select form-select-sm bg-light" 
+            style={{ minWidth: '160px', fontWeight: '500' }}
+            value={selectedCategory} 
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          >
+            <option value="all">All Categories</option>
+            {categories.map(cat => (
+              <option key={cat} value={cat}>{cat}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+
       {/* KPI Cards */}
       <div className="row g-3 mb-4">
         {[
           { label: 'Total Books', value: stats.total, icon: <Book size={20}/>, color: 'primary' },
           { label: 'Read Books', value: `${stats.read} (${stats.percent}%)`, icon: <CheckCircle size={20}/>, color: 'success' },
           { label: 'Pages Read', value: `${stats.readPages.toLocaleString()} / ${stats.totalPages.toLocaleString()}`, icon: <FileText size={20}/>, color: 'info' },
-          { label: 'Countries', value: stats.countryCount, icon: <Globe size={20}/>, color: 'warning' },
+          { 
+            label: 'Countries', 
+            value: stats.countryCount, 
+            icon: <Globe size={20}/>, 
+            color: 'warning',
+            action: (
+              <button 
+                className="btn btn-sm btn-outline-warning d-flex align-items-center gap-1 px-2 py-1"
+                onClick={handleExportCountryStats}
+                title="Export country stats CSV"
+                style={{ fontSize: '0.7rem', fontWeight: 600 }}
+              >
+                <Download size={12} />
+                <span>CSV</span>
+              </button>
+            )
+          },
           { label: 'Regions', value: stats.regionCount, icon: <Compass size={20}/>, color: 'danger' },
           { label: 'Languages', value: stats.languageCount, icon: <Languages size={20}/>, color: 'secondary' },
         ].map((kpi, i) => (
           <div key={i} className="col-12 col-sm-6 col-lg-4">
             <div className="card shadow-sm border-0 h-100 p-3">
-              <div className="d-flex align-items-center gap-3">
-                <div className={`bg-${kpi.color} bg-opacity-10 text-${kpi.color} p-3 rounded`}>
-                  {kpi.icon}
+              <div className="d-flex align-items-center justify-content-between w-100 gap-3">
+                <div className="d-flex align-items-center gap-3">
+                  <div className={`bg-${kpi.color} bg-opacity-10 text-${kpi.color} p-3 rounded`}>
+                    {kpi.icon}
+                  </div>
+                  <div>
+                    <p className="text-muted small mb-0 fw-bold text-uppercase">{kpi.label}</p>
+                    <h4 className="fw-bold mb-0">{kpi.value}</h4>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-muted small mb-0 fw-bold text-uppercase">{kpi.label}</p>
-                  <h4 className="fw-bold mb-0">{kpi.value}</h4>
-                </div>
+                {kpi.action && (
+                  <div>
+                    {kpi.action}
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -317,7 +415,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
           <div className="d-flex align-items-center gap-2">
             <button 
               className="btn btn-sm btn-outline-primary fw-semibold d-flex align-items-center gap-2"
-              onClick={() => onOpenStatsReport && onOpenStatsReport(books)}
+              onClick={() => onOpenStatsReport && onOpenStatsReport(filteredBooks)}
             >
               <FileText size={14} />
               <span>Generate Statistics Report</span>

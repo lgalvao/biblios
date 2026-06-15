@@ -30,7 +30,7 @@ describe('CountryFlag', () => {
     vi.spyOn(dataUtils, 'getCountryCode').mockReturnValue('BR');
     vi.spyOn(dataUtils, 'getCountryFlag').mockReturnValue('🇧🇷');
     
-    const { container } = render(<div><CountryFlag countryName="Brazil" /></div>);
+    render(<div><CountryFlag countryName="Brazil" /></div>);
     const img = screen.getByRole('img');
     
     // Simular erro de carregamento

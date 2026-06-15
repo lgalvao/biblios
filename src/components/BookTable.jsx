@@ -254,141 +254,57 @@ export default function BookTable({
       
       {/* Controls */}
       <div className="card-header bg-white border-bottom p-3">
-        <div className="row g-2 align-items-center">
-          <div className="col-12 col-md-4 col-lg-3">
-            <div className="d-flex flex-column gap-1">
-              <div className="input-group input-group-sm">
-                <span className="input-group-text bg-light border-end-0 text-muted">
-                  <Search size={14} />
-                </span>
-                <input 
-                  type="text" 
-                  className="form-control border-start-0 bg-light" 
-                  placeholder="Search library..." 
-                  value={search}
-                  onChange={(e) => onSearchChange(e.target.value)}
-                />
-                {search && (
-                  <button className="btn btn-outline-secondary border-start-0" onClick={() => onSearchChange('')}>
-                    <X size={14} />
-                  </button>
-                )}
-              </div>
-              <div className="form-check form-switch m-0 d-flex align-items-center gap-1" style={{ minHeight: 'auto' }}>
-                <input 
-                  className="form-check-input cursor-pointer" 
-                  type="checkbox" 
-                  role="switch" 
-                  id="searchAllFieldsSwitch"
-                  checked={searchAllFields}
-                  onChange={(e) => setSearchAllFields(e.target.checked)}
-                  style={{ width: '1.6em', height: '0.8em', marginTop: 0 }}
-                />
-                <label 
-                  className="form-check-label small text-muted cursor-pointer user-select-none" 
-                  htmlFor="searchAllFieldsSwitch"
-                  style={{ fontSize: '0.75rem', fontWeight: 500 }}
-                >
-                  All fields
-                </label>
-              </div>
-            </div>
-          </div>
-          <div className="col-6 col-md-2 col-lg-1">
-            <select className="form-select form-select-sm bg-light" value={filterRead} onChange={(e) => setFilterRead(e.target.value)}>
-              <option value="all">Reading</option>
-              <option value="read">Read</option>
-              <option value="unread">Unread</option>
-            </select>
-          </div>
-          <div className="col-6 col-md-2 col-lg-1">
-            <select className="form-select form-select-sm bg-light" value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)}>
-              <option value="all">Category</option>
-              <option value="Novel">Novel</option>
-              <option value="Novella">Novella</option>
-              <option value="Stories">Stories</option>
-              <option value="Essays">Essays</option>
-              <option value="Memoir">Memoir</option>
-            </select>
-          </div>
-          <div className="col-6 col-md-2 col-lg-1">
-            <select className="form-select form-select-sm bg-light" value={filterTag} onChange={(e) => setFilterTag(e.target.value)}>
-              <option value="all">All Tags</option>
-              {tags.map(t => <option key={t} value={t}>{t}</option>)}
-            </select>
-          </div>
-          <div className="col-12 col-md-4 col-lg-2">
-            <div className="input-group input-group-sm">
-              <select className="form-select form-select-sm bg-light border-end-0" value={filterPagesDir} onChange={(e) => setFilterPagesDir(e.target.value)}>
-                <option value="all">Any Pages</option>
-                <option value="under">Shorter than</option>
-                <option value="over">Longer than</option>
-                <option value="between">Between</option>
-              </select>
-              {filterPagesDir === 'between' ? (
-                <>
-                  <input 
-                    type="number" 
-                    className="form-control form-control-sm bg-light" 
-                    placeholder="Min"
-                    style={{ maxWidth: '60px' }}
-                    value={filterPagesVal} 
-                    onChange={(e) => setFilterPagesVal(e.target.value)} 
-                  />
-                  <input 
-                    type="number" 
-                    className="form-control form-control-sm bg-light border-start-0" 
-                    placeholder="Max"
-                    style={{ maxWidth: '60px' }}
-                    value={filterPagesValMax} 
-                    onChange={(e) => setFilterPagesValMax(e.target.value)} 
-                  />
-                </>
-              ) : (
-                filterPagesDir !== 'all' && (
-                  <input 
-                    type="number" 
-                    className="form-control form-control-sm bg-light" 
-                    placeholder="Pages"
-                    style={{ maxWidth: '75px' }}
-                    value={filterPagesVal} 
-                    onChange={(e) => setFilterPagesVal(e.target.value)} 
-                  />
-                )
+        {/* Row 1: Search and Actions */}
+        <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-3">
+          {/* Search and switch group */}
+          <div className="d-flex align-items-center gap-3 flex-wrap">
+            <div className="input-group input-group-sm" style={{ minWidth: '240px', maxWidth: '320px' }}>
+              <span className="input-group-text bg-light border-end-0 text-muted">
+                <Search size={14} />
+              </span>
+              <input 
+                type="text" 
+                className="form-control border-start-0 bg-light" 
+                placeholder="Search library..." 
+                value={search}
+                onChange={(e) => onSearchChange(e.target.value)}
+              />
+              {search && (
+                <button className="btn btn-outline-secondary border-start-0 bg-light" onClick={() => onSearchChange('')}>
+                  <X size={14} />
+                </button>
               )}
             </div>
+            <div className="form-check form-switch m-0 d-flex align-items-center gap-1.5">
+              <input 
+                className="form-check-input cursor-pointer" 
+                type="checkbox" 
+                role="switch" 
+                id="searchAllFieldsSwitch"
+                checked={searchAllFields}
+                onChange={(e) => setSearchAllFields(e.target.checked)}
+                style={{ width: '1.6em', height: '0.8em', marginTop: 0 }}
+              />
+              <label 
+                className="form-check-label small text-muted cursor-pointer user-select-none" 
+                htmlFor="searchAllFieldsSwitch"
+                style={{ fontSize: '0.75rem', fontWeight: 500 }}
+              >
+                All fields
+              </label>
+            </div>
           </div>
-          <div className="col-6 col-md-2 col-lg-2">
-            <select className="form-select form-select-sm bg-light" value={filterContinent} onChange={(e) => setFilterContinent(e.target.value)}>
-              <option value="all">All Continents</option>
-              {continents.map(c => <option key={c} value={c}>{c}</option>)}
-            </select>
-          </div>
-          <div className="col-6 col-md-2 col-lg-2">
-            <select className="form-select form-select-sm bg-light" value={filterRegion} onChange={(e) => setFilterRegion(e.target.value)}>
-              <option value="all">All Regions</option>
-              {regions.map(r => <option key={r} value={r}>{r}</option>)}
-            </select>
-          </div>
-          <div className="col-6 col-md-2 col-lg-2">
-            <select 
-              className="form-select form-select-sm bg-light" 
-              value={selectedLanguage || 'all'} 
-              onChange={(e) => onLanguageFilterChange(e.target.value === 'all' ? '' : e.target.value)}
-            >
-              <option value="all">All Languages</option>
-              {languages.map(l => <option key={l} value={l}>{l}</option>)}
-            </select>
-          </div>
-          <div className="col-6 col-md-4 col-lg-2 d-flex align-items-center justify-content-end gap-2">
+
+          {/* Export button and count badge */}
+          <div className="d-flex align-items-center gap-2">
             <div className="position-relative" ref={dropdownRef}>
               <button 
-                className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1"
+                className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-1.5"
                 onClick={() => setShowExportDropdown(!showExportDropdown)}
                 title="Export"
               >
                 <Download size={14} />
-                <span className="d-none d-lg-inline">Export</span>
+                <span>Export</span>
               </button>
               {showExportDropdown && (
                 <ul className="dropdown-menu show position-absolute end-0 mt-1 shadow-sm" style={{ zIndex: 1000, minWidth: '120px' }}>
@@ -432,7 +348,112 @@ export default function BookTable({
                 </ul>
               )}
             </div>
-            <span className="badge bg-primary rounded-pill">{filteredBooks.length} Books</span>
+            <span className="badge bg-primary px-2.5 py-1.5" style={{ fontSize: '0.75rem', fontWeight: 600 }}>
+              {filteredBooks.length} Books
+            </span>
+          </div>
+        </div>
+
+        {/* Row 2: Grid of Filter Select Dropdowns */}
+        <div className="row g-2">
+          {/* Status Select */}
+          <div className="col-6 col-md-3 col-lg">
+            <select className="form-select form-select-sm bg-light" value={filterRead} onChange={(e) => setFilterRead(e.target.value)}>
+              <option value="all">Reading</option>
+              <option value="read">Read</option>
+              <option value="unread">Unread</option>
+            </select>
+          </div>
+
+          {/* Category Select */}
+          <div className="col-6 col-md-3 col-lg">
+            <select className="form-select form-select-sm bg-light" value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)}>
+              <option value="all">Category</option>
+              <option value="Novel">Novel</option>
+              <option value="Novella">Novella</option>
+              <option value="Stories">Stories</option>
+              <option value="Essays">Essays</option>
+              <option value="Memoir">Memoir</option>
+            </select>
+          </div>
+
+          {/* Tag Select */}
+          <div className="col-6 col-md-3 col-lg">
+            <select className="form-select form-select-sm bg-light" value={filterTag} onChange={(e) => setFilterTag(e.target.value)}>
+              <option value="all">All Tags</option>
+              {tags.map(t => <option key={t} value={t}>{t}</option>)}
+            </select>
+          </div>
+
+          {/* Continent Select */}
+          <div className="col-6 col-md-3 col-lg">
+            <select className="form-select form-select-sm bg-light" value={filterContinent} onChange={(e) => setFilterContinent(e.target.value)}>
+              <option value="all">All Continents</option>
+              {continents.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+
+          {/* Region Select */}
+          <div className="col-6 col-md-3 col-lg">
+            <select className="form-select form-select-sm bg-light" value={filterRegion} onChange={(e) => setFilterRegion(e.target.value)}>
+              <option value="all">All Regions</option>
+              {regions.map(r => <option key={r} value={r}>{r}</option>)}
+            </select>
+          </div>
+
+          {/* Language Select */}
+          <div className="col-6 col-md-3 col-lg">
+            <select 
+              className="form-select form-select-sm bg-light" 
+              value={selectedLanguage || 'all'} 
+              onChange={(e) => onLanguageFilterChange(e.target.value === 'all' ? '' : e.target.value)}
+            >
+              <option value="all">All Languages</option>
+              {languages.map(l => <option key={l} value={l}>{l}</option>)}
+            </select>
+          </div>
+
+          {/* Pages Range Filter */}
+          <div className="col-12 col-md-6 col-lg-3">
+            <div className="input-group input-group-sm">
+              <select className="form-select form-select-sm bg-light border-end-0" value={filterPagesDir} onChange={(e) => setFilterPagesDir(e.target.value)}>
+                <option value="all">Any Pages</option>
+                <option value="under">Shorter than</option>
+                <option value="over">Longer than</option>
+                <option value="between">Between</option>
+              </select>
+              {filterPagesDir === 'between' ? (
+                <>
+                  <input 
+                    type="number" 
+                    className="form-control form-control-sm bg-light" 
+                    placeholder="Min"
+                    style={{ maxWidth: '60px' }}
+                    value={filterPagesVal} 
+                    onChange={(e) => setFilterPagesVal(e.target.value)} 
+                  />
+                  <input 
+                    type="number" 
+                    className="form-control form-control-sm bg-light border-start-0" 
+                    placeholder="Max"
+                    style={{ maxWidth: '60px' }}
+                    value={filterPagesValMax} 
+                    onChange={(e) => setFilterPagesValMax(e.target.value)} 
+                  />
+                </>
+              ) : (
+                filterPagesDir !== 'all' && (
+                  <input 
+                    type="number" 
+                    className="form-control form-control-sm bg-light" 
+                    placeholder="Pages"
+                    style={{ maxWidth: '75px' }}
+                    value={filterPagesVal} 
+                    onChange={(e) => setFilterPagesVal(e.target.value)} 
+                  />
+                )
+              )}
+            </div>
           </div>
         </div>
 
