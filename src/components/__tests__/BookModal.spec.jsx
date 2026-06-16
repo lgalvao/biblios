@@ -305,7 +305,7 @@ describe('BookModal Component tests', () => {
     expect(languageInput.value).toBe('');
   });
 
-  it('define a categoria como Novella se a contagem de páginas for menor ou igual a 150, e Novel caso contrário', () => {
+  it('não altera a categoria automaticamente quando o número de páginas é alterado', () => {
     render(<BookModal {...defaultProps} />);
 
     const pagesInput = screen.getByLabelText(/Pages/i);
@@ -313,16 +313,20 @@ describe('BookModal Component tests', () => {
 
     expect(categorySelect.value).toBe('');
 
-    // Insere 150 páginas -> Novella
+    // Insere 150 páginas -> continua vazio
     fireEvent.change(pagesInput, { target: { value: '150' } });
+    expect(categorySelect.value).toBe('');
+
+    // Insere 151 páginas -> continua vazio
+    fireEvent.change(pagesInput, { target: { value: '151' } });
+    expect(categorySelect.value).toBe('');
+
+    // Seleciona categoria manualmente para 'Novella'
+    fireEvent.change(categorySelect, { target: { value: 'Novella' } });
     expect(categorySelect.value).toBe('Novella');
 
-    // Insere 151 páginas -> Novel
-    fireEvent.change(pagesInput, { target: { value: '151' } });
-    expect(categorySelect.value).toBe('Novel');
-
-    // Insere 50 páginas -> Novella
-    fireEvent.change(pagesInput, { target: { value: '50' } });
+    // Insere 500 páginas -> a categoria deve continuar sendo 'Novella'
+    fireEvent.change(pagesInput, { target: { value: '500' } });
     expect(categorySelect.value).toBe('Novella');
   });
 

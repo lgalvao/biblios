@@ -277,7 +277,7 @@ function App() {
 
   // 4. Export CSV Utility
   const handleExportCSV = (bookList = books, filename = 'data.csv') => {
-    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description'];
+    const headers = ['Title', 'Author', 'Year', 'Country', 'Region', 'Continent', 'Read', 'OriginalLanguage', 'Pages', 'Description', 'Tags', 'Category'];
     const csvRows = [headers.join(',')];
     
     bookList.forEach(b => {
@@ -291,7 +291,9 @@ function App() {
         b.read ? '1' : '',
         escapeCSVField(b.originalLanguage),
         escapeCSVField(b.pages),
-        escapeCSVField(b.description)
+        escapeCSVField(b.description),
+        escapeCSVField(b.tags ? b.tags.join(';') : ''),
+        escapeCSVField(b.category)
       ];
       csvRows.push(row.join(','));
     });

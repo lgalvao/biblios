@@ -101,11 +101,6 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
 
           if (match.number_of_pages_median && !pages) {
             setPages(String(match.number_of_pages_median));
-            if (match.number_of_pages_median <= 150) {
-              setCategory('Novella');
-            } else {
-              setCategory('Novel');
-            }
           }
 
           if (match.language && match.language.length > 0 && !originalLanguage.trim()) {
@@ -197,11 +192,6 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                         const resolvedPages = pages || (match.number_of_pages_median ? String(match.number_of_pages_median) : '');
                         if (!resolvedPages && volInfo.pageCount) {
                           setPages(String(volInfo.pageCount));
-                          if (volInfo.pageCount <= 150) {
-                            setCategory('Novella');
-                          } else {
-                            setCategory('Novel');
-                          }
                         }
                       }
                     }
@@ -255,16 +245,6 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
 
   const handlePagesChange = (val) => {
     setPages(val);
-    if (val !== '') {
-      const pageNum = parseInt(val, 10);
-      if (!isNaN(pageNum)) {
-        if (pageNum <= 150) {
-          setCategory('Novella');
-        } else {
-          setCategory('Novel');
-        }
-      }
-    }
   };
 
   const geo = getGeoInfo(country);
@@ -501,6 +481,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                     <option value="">Select Category</option>
                     <option value="Novel">Novel</option>
                     <option value="Novella">Novella</option>
+                    <option value="Nonfiction">Nonfiction</option>
                     <option value="Stories">Stories</option>
                     <option value="Essays">Essays</option>
                     <option value="Memoir">Memoir</option>

@@ -286,7 +286,8 @@ export const mapCsvToBooks = (rows) => {
     lang: headers.indexOf('originallanguage'),
     pages: headers.indexOf('pages'),
     desc: headers.indexOf('description'),
-    tags: headers.indexOf('tags')
+    tags: headers.indexOf('tags'),
+    category: headers.indexOf('category')
   };
 
   return rows.slice(1)
@@ -308,7 +309,7 @@ export const mapCsvToBooks = (rows) => {
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
         tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : [],
-        category: (isNovelException(row[mapping.title]) || (mapping.pages !== -1 && row[mapping.pages] && parseInt(row[mapping.pages], 10) > 150)) ? 'Novel' : 'Novella'
+        category: mapping.category !== -1 && row[mapping.category] ? row[mapping.category].trim() : ''
       };
     });
 };
@@ -412,19 +413,9 @@ export const repairBooksList = (loadedBooks, referenceData) => {
       }
     }
 
-    // New: Calculate category based on pages and exceptions
-    const pagesNum = parseInt(updated.pages, 10);
-    const isException = isNovelException(updated.title);
-    const newCategory = (isException || pagesNum > 150) ? 'Novel' : 'Novella';
-    
-    if (isException && updated.category !== 'Novel') {
-      updated.category = 'Novel';
+    if (updated.category === undefined) {
+      updated.category = '';
       isUpdated = true;
-    } else if (!updated.category) {
-      if (updated.category !== newCategory) {
-        updated.category = newCategory;
-        isUpdated = true;
-      }
     }
 
     if (isUpdated) {
@@ -543,7 +534,7 @@ export const parseBatchText = (text) => {
         region: geo.region,
         continent: geo.continent,
         pages: parseInt(pages, 10),
-        category: (isNovelException(title) || parseInt(pages, 10) > 150) ? 'Novel' : 'Novella',
+        category: '',
         originalLanguage: translateLanguageToEnglish(language.trim()),
         read: false,
         description: `A book from ${country.trim()}.`,

@@ -149,7 +149,8 @@ const localDatabasePlugin = () => {
         lang: headers.indexOf('originallanguage'),
         pages: headers.indexOf('pages'),
         desc: headers.indexOf('description'),
-        tags: headers.indexOf('tags')
+        tags: headers.indexOf('tags'),
+        category: headers.indexOf('category')
       };
 
       const books = rows.slice(1).filter(row => row[mapping.title] && row[mapping.author]).map((row, idx) => ({
@@ -165,7 +166,7 @@ const localDatabasePlugin = () => {
         pages: mapping.pages !== -1 && row[mapping.pages] ? parseInt(row[mapping.pages], 10) || '' : '',
         description: mapping.desc !== -1 ? row[mapping.desc]?.trim() || '' : '',
         tags: mapping.tags !== -1 && row[mapping.tags] ? row[mapping.tags].split(';').map(t => t.trim()).filter(Boolean) : [],
-        category: (isNovelException(row[mapping.title]) || (mapping.pages !== -1 && row[mapping.pages] && parseInt(row[mapping.pages], 10) > 150)) ? 'Novel' : 'Novella'
+        category: (mapping.category !== -1 && row[mapping.category] && row[mapping.category].trim()) ? row[mapping.category].trim() : ((isNovelException(row[mapping.title]) || (mapping.pages !== -1 && row[mapping.pages] && parseInt(row[mapping.pages], 10) > 150)) ? 'Novel' : 'Novella')
       }));
 
       fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
@@ -206,7 +207,7 @@ const localDatabasePlugin = () => {
           fs.writeFileSync(jsonPath, JSON.stringify(books, null, 2), 'utf-8');
 
           // 2. Overwrite data.csv (with UTF-8 BOM)
-          const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description", "Tags"];
+          const headers = ["Title", "Author", "Year", "Country", "Region", "Continent", "Read", "OriginalLanguage", "Pages", "Description", "Tags", "Category"];
           const csvRows = [headers.join(',')];
           
           books.forEach(b => {
@@ -221,7 +222,8 @@ const localDatabasePlugin = () => {
               escapeCSVField(b.originalLanguage),
               escapeCSVField(b.pages),
               escapeCSVField(b.description),
-              escapeCSVField(b.tags ? b.tags.join(';') : '')
+              escapeCSVField(b.tags ? b.tags.join(';') : ''),
+              escapeCSVField(b.category)
             ];
             csvRows.push(row.join(','));
           });

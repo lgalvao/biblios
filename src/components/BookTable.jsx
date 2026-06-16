@@ -371,6 +371,7 @@ export default function BookTable({
               <option value="all">Category</option>
               <option value="Novel">Novel</option>
               <option value="Novella">Novella</option>
+              <option value="Nonfiction">Nonfiction</option>
               <option value="Stories">Stories</option>
               <option value="Essays">Essays</option>
               <option value="Memoir">Memoir</option>
