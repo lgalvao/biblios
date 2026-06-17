@@ -544,4 +544,38 @@ describe('BookModal Component tests', () => {
 
     fetchSpy.mockRestore();
   });
+
+  it('handles batch add and sets Category if selected in the category dropdown', () => {
+    const onSaveMock = vi.fn();
+    render(<BookModal {...defaultProps} onSave={onSaveMock} />);
+
+    // Switch to Batch mode
+    const batchButton = screen.getByRole('button', { name: /Batch Add/i });
+    fireEvent.click(batchButton);
+
+    // Paste batch text
+    const batchTextarea = screen.getByPlaceholderText(/Paste your books here.../i);
+    fireEvent.change(batchTextarea, {
+      target: {
+        value: `The Hobbit by J.R.R. Tolkien (1937, United Kingdom), 310 p., English`
+      }
+    });
+
+    // Select category 'Nonfiction'
+    const categorySelect = screen.getByLabelText(/Category/i);
+    fireEvent.change(categorySelect, { target: { value: 'Nonfiction' } });
+
+    // Click submit
+    const addBatchButton = screen.getByRole('button', { name: /Add Batch/i });
+    fireEvent.click(addBatchButton);
+
+    expect(onSaveMock).toHaveBeenCalledTimes(1);
+    expect(onSaveMock).toHaveBeenCalledWith([
+      expect.objectContaining({
+        title: 'The Hobbit',
+        author: 'J.R.R. Tolkien',
+        category: 'Nonfiction'
+      })
+    ]);
+  });
 });

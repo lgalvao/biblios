@@ -71,7 +71,9 @@ const localDatabasePlugin = () => {
         'turkmenistan': 'Turkmenistan',
         'uzbekistan': 'Uzbekistan',
         'czech republic': 'Czechia',
-        'guinea bissau': 'Guinea-Bissau'
+        'guinea bissau': 'Guinea-Bissau',
+        'rome': 'Italy',
+        'st. lucia': 'Saint Lucia'
       };
 
       const initialContent = {

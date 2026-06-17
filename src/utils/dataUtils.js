@@ -70,7 +70,9 @@ const defaultAliases = {
   'uzbekistan': 'Uzbekistan',
   'czech republic': 'Czechia',
   'guinea bissau': 'Guinea-Bissau',
-  'são tomé and príncipe': 'Sao Tome and Principe'
+  'são tomé and príncipe': 'Sao Tome and Principe',
+  'rome': 'Italy',
+  'st. lucia': 'Saint Lucia'
 };
 
 export const updateGeoschemeData = (customGeoscheme, customAliases) => {

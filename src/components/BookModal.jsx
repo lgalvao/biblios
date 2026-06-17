@@ -5,6 +5,7 @@ import { Download } from 'lucide-react';
 export default function BookModal({ book, onSave, onClose, books = [], authors = [], languages = [], tags: tagsList = [] }) {
   const [mode, setMode] = useState('single'); // 'single' or 'batch'
   const [batchText, setBatchText] = useState('');
+  const [batchCategory, setBatchCategory] = useState('');
   const [title, setTitle] = useState(book?.title || '');
   const [author, setAuthor] = useState(book?.author || '');
   const [year, setYear] = useState(book?.year || '');
@@ -283,7 +284,13 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
 
     if (mode === 'batch') {
       setError('');
-      const parsedBooks = parseBatchText(batchText);
+      let parsedBooks = parseBatchText(batchText);
+      if (batchCategory) {
+        parsedBooks = parsedBooks.map(b => ({
+          ...b,
+          category: batchCategory
+        }));
+      }
       if (parsedBooks.length === 0) {
         setError('No valid books found in batch text. Please check the format.');
         return;
@@ -411,6 +418,18 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                 </div>
               ) : (
                 <div className="animate-fade">
+                  <div className="mb-3 text-start" style={{ maxWidth: '300px' }}>
+                    <label htmlFor="batch-category" className="form-label small fw-bold text-muted text-uppercase">Category</label>
+                    <select id="batch-category" className="form-select" value={batchCategory} onChange={e => setBatchCategory(e.target.value)}>
+                      <option value="">Select Category (Auto-detect)</option>
+                      <option value="Novel">Novel</option>
+                      <option value="Novella">Novella</option>
+                      <option value="Nonfiction">Nonfiction</option>
+                      <option value="Stories">Stories</option>
+                      <option value="Essays">Essays</option>
+                      <option value="Memoir">Memoir</option>
+                    </select>
+                  </div>
                   <label className="form-label small fw-bold text-muted text-uppercase">Batch Text Input</label>
                   <p className="small text-muted mb-2">
                     Format: <code>Title by Author (Year, Country), Pages p., Language</code><br/>
