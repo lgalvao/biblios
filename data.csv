@@ -1,4 +1,7 @@
 ﻿Title,Author,Year,Country,Region,Continent,Read,OriginalLanguage,Pages,Description,Tags,Category
+Selected Essays,George Orwell,1945,UK,Northern Europe,Europe,1,English,400,,,Nonfiction
+Six Walks in the Fictional Woods,Umberto Eco,1994,Italy,Southern Europe,Europe,,Italian,160,A book from Italy.,,
+Mimesis,Erich Auerbach,1946,Germany,Western Europe,Europe,,German,600,A book from Germany.,,Nonfiction
 The Diary of Lady Murasaki,Murasaki Shikibu,1010,Japan,Eastern Asia,Asia,1,Japanese,100,A book from Japan.,,Nonfiction
 The Confessions of Lady Nijo,Lady Nijo,1307,Japan,Eastern Asia,Asia,,Japanese,280,A book from Japan.,,Nonfiction
 The Travels,Ibn Battuta,1355,Morocco,Northern Africa,Africa,,Arabic,800,A book from Morocco.,,Nonfiction
@@ -14,18 +17,14 @@ Reveries of the Solitary Walker,Jean-Jacques Rousseau,1782,France,Western Europe
 The Interesting Narrative,Olaudah Equiano,1789,Nigeria,Western Africa,Africa,,English,250,A book from Nigeria/UK.,,Nonfiction
 The Waste Books,Georg Christoph Lichtenberg,1799,Germany,Western Europe,Europe,,German,400,A book from Germany.,,Nonfiction
 Italian Journey,Goethe,1817,Germany,Western Europe,Europe,,German,450,A book from Germany.,,Nonfiction
-Selected Letters,John Keats,1821,UK,Northern Europe,Europe,,English,640,A book from UK.,,Nonfiction
 Facundo,Domingo Faustino Sarmiento,1845,Argentina,South America,South America,,Spanish,300,A book from Argentina.,,Nonfiction
 Essays,Ralph Waldo Emerson,1844,USA,Northern America,North America,,English,400,A book from USA.,,Nonfiction
 The Painter of Modern Life,Charles Baudelaire,1863,France,Western Europe,Europe,,French,80,A book from France.,,Nonfiction
-The Memoirs,Hector Berlioz,1870,France,Western Europe,Europe,,French,744,A book from France.,,Nonfiction
-Specimen Days,Walt Whitman,1882,USA,Northern America,North America,,English,350,A book from USA.,,Nonfiction
 The Gay Science,Friedrich Nietzsche,1882,Germany,Western Europe,Europe,,German,300,A book from Germany.,,Nonfiction
 Essays and Aphorisms,Arthur Schopenhauer,1851,Germany,Western Europe,Europe,,German,250,A book from Germany.,,Nonfiction
 Rebellion in the Backlands,Euclides da Cunha,1902,Brazil,South America,South America,,Portuguese,600,A book from Brazil.,,Nonfiction
 Our America and Other Writings,Jose Marti,1891,Cuba,Caribbean,North America,,Spanish,200,A book from Cuba.,,Nonfiction
 The Souls of Black Folk,W.E.B. Du Bois,1903,USA,Northern America,North America,,English,250,A book from USA.,,Nonfiction
-The American Scene,Henry James,1907,USA,Northern America,North America,,English,450,A book from USA.,,Nonfiction
 Civilization and Its Discontents,Sigmund Freud,1930,Austria,Western Europe,Europe,,German,100,A book from Austria.,,Nonfiction
 In the Ruins,Zabel Yessayan,1911,Armenia,Western Asia,Asia,,Armenian,200,A book from Armenia.,,Nonfiction
 Dawn Blossoms Plucked at Dusk,Lu Xun,1928,China,Eastern Asia,Asia,,Mandarin,130,A book from China.,,Nonfiction
@@ -41,17 +40,14 @@ Memoirs of Prison,Graciliano Ramos,1953,Brazil,South America,South America,,Port
 Child of the Dark,Carolina Maria de Jesus,1960,Brazil,South America,South America,,Portuguese,190,A book from Brazil.,,Nonfiction
 Too Much of Life: Complete Chronicles,Clarice Lispector,1984,Brazil,South America,South America,,Portuguese,550,A book from Brazil.,,Nonfiction
 The Labyrinth of Solitude,Octavio Paz,1950,Mexico,Central America,North America,,Spanish,250,A book from Mexico.,,Nonfiction
-Selected Nonfictions,Jorge Luis Borges,1952,Argentina,South America,South America,,Spanish,500,A book from Argentina.,,Nonfiction
+Collected Nonfictions,Jorge Luis Borges,1952,Argentina,South America,South America,,Spanish,500,A book from Argentina.,,Nonfiction
 Night,Elie Wiesel,1960,Romania,Eastern Europe,Europe,,French,120,A book from Romania.,,Nonfiction
 The Copenhagen Trilogy,Tove Ditlevsen,1971,Denmark,Northern Europe,Europe,,Danish,380,A book from Denmark.,,Nonfiction
 The Journals,Max Frisch,1971,Switzerland,Western Europe,Europe,,German,400,A book from Switzerland.,,Nonfiction
 Walks,Robert Walser,1917,Switzerland,Western Europe,Europe,,German,100,A book from Switzerland.,,Nonfiction
-Selected Essays,T.S. Eliot,1953,USA,Northern America,North America,,English,350,A book from USA.,,Nonfiction
-To the Finland Station,Edmund Wilson,1940,USA,Northern America,North America,,English,500,A book from USA.,,Nonfiction
-Hiroshima,John Hersey,1946,USA,Northern America,North America,,English,200,A book from USA.,,Nonfiction
+Hiroshima,John Hersey,1946,USA,Northern America,North America,1,English,200,A book from USA.,,Nonfiction
 The Way to Rainy Mountain,N. Scott Momaday,1969,USA,Northern America,North America,,English,100,A book from USA.,,Nonfiction
 Silent Spring,Rachel Carson,1962,USA,Northern America,North America,,English,368,A book from USA.,,Nonfiction
-The Necessary Angel,Wallace Stevens,1951,USA,Northern America,North America,,English,180,A book from USA.,,Nonfiction
 Dancing at the Edge of the World,Ursula K. Le Guin,1989,USA,Northern America,North America,,English,320,A book from USA.,,Nonfiction
 The Peregrine,J.A. Baker,1967,UK,Northern Europe,Europe,,English,190,A book from UK.,,Nonfiction
 A Time of Gifts,Patrick Leigh Fermor,1977,UK,Northern Europe,Europe,,English,400,A book from UK.,,Nonfiction
@@ -1173,7 +1169,7 @@ Lanark,Alasdair Gray,1981,UK,Northern Europe,Europe,,English,560,"ReviewThe best
 Sunset Song,Lewis Grassic Gibbon,1932,UK,Northern Europe,Europe,,English,288,"Set in the harsh, beautiful farming country of the Mearns in northeast Scotland, this classic modernist novel follows Chris Guthrie, a sensitive young woman torn between her love for English education and her deep, primal connection to the Scottish land. The narrative traces the devastating impact of World War I, which destroys the traditional, tight-knit farming community and claims the lives of Chris's husband and friends. Written in a unique, lyrical prose that infuses English with the rhythms of Scots dialect, the novel is a touching, elegiac tribute to a vanished rural way of life.",,Novel
 Strange Case of Dr Jekyll and Mr Hyde,Robert Louis Stevenson,1886,UK,Northern Europe,Europe,1,English,130,"Stevenson's classic gothic masterpiece follows Gabriel John Utterson, a London lawyer who investigates the bizarre, violent activities of a cruel man named Edward Hyde, who has a mysterious, absolute hold over Utterson's client, the brilliant scientist Dr. Henry Jekyll. Through Jekyll's final, tragic confession, the narrative exposes the doctor's scientific creation of a chemical potion that isolates his own dark, animalistic instincts into a separate physical entity. The novel is a brilliant, profound investigation into the duality of human nature, Victorian hypocrisy, and the limits of science.",,Novella
 The Private Memoirs of a Justified Sinner,James Hogg,1824,UK,Northern Europe,Europe,,English,261,"This dark, chilling psychological masterpiece is structured in two parts: an objective editor's narrative followed by the private memoirs of Robert Wringhim. Robert, raised under strict Calvinist doctrine, is convinced by a mysterious stranger named Gil-Martin that he is one of the 'elect' predestined for heaven, and therefore cannot commit sin. Consequently, he embarks on a series of brutal, self-righteous murders, slowly realizing that Gil-Martin is the devil himself. Through Robert's terrifying spiral into madness, the novel delivers a powerful, gothic critique of religious fanaticism, double consciousness, and moral self-delusion.",,Novel
-So Long a Letter,Mariama Ba,1979,Senegal,Western Africa,Africa,,French,120,,,Memoir
+So Long a Letter,Mariama Ba,1979,Senegal,Western Africa,Africa,,French,120,,,Nonfiction
 The Beggars’ Strike,Aminata Sow Fall,1979,Senegal,Western Africa,Africa,,French,118,"Set in a fictional West African city, this sharp political satire begins when a government official, Mour Ndiaye, decides to clear the streets of beggars to boost foreign tourism. In response, the beggars organize a strike, refusing to take alms and retreating to a city suburb. The strike throws the city's wealthy citizens into a panic, as they realize they cannot fulfill their religious duties or secure good luck without giving charity. The novel exposes the hypocrisy, greed, and spiritual emptiness of the post-colonial ruling class.",,Novella
 "Murambi, the Book of Bones",Boubacar Boris Diop,2000,Senegal,Western Africa,Africa,,French,224,"Set in the immediate aftermath of the 1994 Rwandan genocide, this devastating novel follows Jessica, a woman who returns to Rwanda to find her family, and Cornelius, an exiled writer who returns to his hometown of Murambi. As Cornelius uncovers the horrific complicity of his own father in the slaughter at a local technical school, the narrative pieces together the testimonies of survivors, perpetrators, and bystanders. The novel is a powerful, urgent meditation on memory, guilt, and the difficulty of reconstructing a shattered society.",,Novel
 Ambiguous Adventure,Cheikh Hamidou Kane,1961,Senegal,Western Africa,Africa,,French,172,"The celebrated classic by a groundbreaking figure in African literature addresses a critical contemporary issue—the collision of Islamic African values and Western culture.Hailed by Chinua Achebe as one of the greatest African novels ever written, this long-unavailable classic tells the tale of young Samba Diallo, a devout pupil in a Koranic school in Senegal whose parents send him to Paris to study philosophy.But unknown to Samba, it is a desperate attempt by his parents to better understand the French colonial forces transforming their traditional way of life. Instead, for Samba, it seems an exciting adventure, and once in France he excels at his new studies and is delighted by his new marvelous comprehension and total communion with the Western world.Soon, though, he finds himself torn between the materialistic secularism and isolation of French civilization and the deeper spiritual influences of his homeland. As Samba puts it: I have become the two.Written in an elegant, lyrical prose, Ambiguous Adventure is a masterful expression of the immigrant experience and the repercussions of colonialism, and a great work of literature about the uneasy relationship between Islamic Africa and the West—a relationship more important today than ever before.",,Novel
@@ -1367,7 +1363,7 @@ The Dead Lake,Hamid Ismailov,2011,Uzbekistan,Central Asia,Asia,1,English,128,"A 
 The Hostage,Zayd Mutee Dammaj,1984,Yemen,Western Asia,Asia,,English,164,,,Novel
 Confessions,St. Augustine,400,Algeria,Northern Africa,Africa,,Latin,300,A book from Algeria/Roman Empire.,,Nonfiction
 The Symposium,Plato,370 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Nonfiction
-Phaedo,Plato,360 BC,Greece,Southern Europe,Europe,,Ancient Greek,100,A book from Greece.,,Nonfiction
+Phaedrus,Plato,370 BC,Greece,Southern Europe,Europe,,Ancient Greek,100,A book from Greece.,,Nonfiction
 The Pillow Book,Sei Shonagon,1002,Japan,Eastern Asia,Asia,,Japanese,300,A book from Japan.,,Nonfiction
 Essays in Idleness,Yoshida Kenko,1332,Japan,Eastern Asia,Asia,,Japanese,200,A book from Japan.,,Nonfiction
 Tosa Diary,Ki no Tsurayuki,935,Japan,Eastern Asia,Asia,,Japanese,60,A book from Japan.,,Nonfiction
@@ -1395,13 +1391,9 @@ Autobiographies,W.B. Yeats,1926,Ireland,Northern Europe,Europe,,English,500,A bo
 An Only Child,Frank O'Connor,1961,Ireland,Northern Europe,Europe,,English,280,A book from Ireland.,,Nonfiction
 A Room of One's Own,Virginia Woolf,1929,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Nonfiction
 Goodbye to All That,Robert Graves,1929,UK,Northern Europe,Europe,,English,350,A book from UK.,,Nonfiction
-Testament of Youth,Vera Brittain,1933,UK,Northern Europe,Europe,,English,600,A book from UK.,,Nonfiction
-The Road to Wigan Pier,George Orwell,1937,UK,Northern Europe,Europe,1,English,230,A book from UK.,,Nonfiction
 Homage to Catalonia,George Orwell,1938,UK,Northern Europe,Europe,1,English,250,A book from UK.,,Nonfiction
 "Speak, Memory",Vladimir Nabokov,1951,USA,Northern America,North America,,English,250,A book from USA/Russia.,,Nonfiction
 Let Us Now Praise Famous Men,James Agee,1941,USA,Northern America,North America,,English,480,A book from USA.,,Nonfiction
-Dust Tracks on a Road,Zora Neale Hurston,1942,USA,Northern America,North America,,English,300,A book from USA.,,Nonfiction
-A Moveable Feast,Ernest Hemingway,1964,USA,Northern America,North America,1,English,216,A book from USA.,,Nonfiction
 The Autobiography of Malcolm X,Malcolm X,1965,USA,Northern America,North America,1,English,460,A book from USA.,,Nonfiction
 Black Boy,Richard Wright,1945,USA,Northern America,North America,,English,300,A book from USA.,,Nonfiction
 The Noise of Time,Osip Mandelstam,1925,Russia,Eastern Europe,Europe,,Russian,150,A book from Russia.,,Nonfiction
@@ -1433,13 +1425,10 @@ Report to Greco,Nikos Kazantzakis,1961,Greece,Southern Europe,Europe,,Greek,530,
 Open Papers,Odysseas Elytis,1974,Greece,Southern Europe,Europe,,Greek,280,A book from Greece.,,Nonfiction
 The Words,Jean-Paul Sartre,1964,France,Western Europe,Europe,,French,250,A book from France.,,Nonfiction
 Manhood,Michel Leiris,1939,France,Western Europe,Europe,,French,180,A book from France.,,Nonfiction
-A Lover's Discourse,Roland Barthes,1977,France,Western Europe,Europe,,French,240,A book from France.,,Nonfiction
 Camera Lucida,Roland Barthes,1980,France,Western Europe,Europe,,French,110,A book from France.,,Nonfiction
 Memoirs of a Dutiful Daughter,Simone de Beauvoir,1958,France,Western Europe,Europe,,French,380,A book from France.,,Nonfiction
 The War: A Memoir,Marguerite Duras,1985,France,Western Europe,Europe,,French,180,A book from France.,,Nonfiction
 Childhood,Nathalie Sarraute,1983,France,Western Europe,Europe,,French,250,A book from France.,,Nonfiction
-Dear Departed,Marguerite Yourcenar,1974,France,Western Europe,Europe,,French,350,A book from France/Belgium.,,Nonfiction
-Pedigree,Patrick Modiano,2005,France,Western Europe,Europe,,French,150,A book from France.,,Nonfiction
 A Man's Place,Annie Ernaux,1983,France,Western Europe,Europe,,French,100,A book from France.,,Nonfiction
 The Years,Annie Ernaux,2008,France,Western Europe,Europe,,French,240,A book from France.,,Nonfiction
 Things I've Been Silent About,Azar Nafisi,2008,Iran,Southern Asia,Asia,,English,350,A book from Iran/USA.,,Nonfiction
@@ -1492,8 +1481,6 @@ I Know Why the Caged Bird Sings,Maya Angelou,1969,USA,Northern America,North Ame
 Slouching Towards Bethlehem,Joan Didion,1968,USA,Northern America,North America,,English,238,A book from USA.,,Nonfiction
 Against Interpretation,Susan Sontag,1966,USA,Northern America,North America,,English,304,A book from USA.,,Nonfiction
 In Cold Blood,Truman Capote,1966,USA,Northern America,North America,1,English,343,A book from USA.,,Nonfiction
-Patrimony,Philip Roth,1991,USA,Northern America,North America,,English,238,A book from USA.,,Nonfiction
-Giving Up the Ghost,Hilary Mantel,2003,UK,Northern Europe,Europe,,English,240,A book from UK.,,Nonfiction
 The Snow Leopard,Peter Matthiessen,1978,USA,Northern America,North America,,English,338,A book from USA.,,Nonfiction
 My Life,Marc Chagall,1922,France,Western Europe,Europe,,French,200,"Marc Chagall, one of the twentieth century's most popular artists, grew up in a close-knit, bustling Russian-Jewish community, the son of a herring seller. In his colourful, dreamlike autobiography, written as he was about to leave his homeland for good in 1922, he vividly brings to life the memories and places that fed into his unique work, from his shtetl childhood to revolutionary Russia and Belle Èpoque Paris.
 
@@ -1502,7 +1489,6 @@ Filled with Chagall's own evocative illustrations, My Life is as warm, joyful an
 'Chagall writes as whimsically as he paints: lovingly ofother people, humorously and lovingly of himself' Daily Mail
 
 'Anyone who likes Chagall's paintings will enjoy this book:the work of an unteachable, unspoiled folk artist' Evening Standard",,Nonfiction
-A Childhood: The Biography of a Place,Harry Crews,1978,USA,Northern America,North America,,English,180,A book from USA.,,Nonfiction
 The Histories,Herodotus,430 BC,Greece,Southern Europe,Europe,,Ancient Greek,700,A book from Greece.,,Nonfiction
 Lives,Plutarch,100,Greece,Southern Europe,Europe,,Ancient Greek,1000,A book from Greece.,,Nonfiction
 Meditations,Marcus Aurelius,180,Rome,Southern Europe,Europe,,Ancient Greek,250,A book from Rome.,,Nonfiction
@@ -1525,7 +1511,6 @@ Letters,Vincent van Gogh,1890,Netherlands,Western Europe,Europe,,Dutch/French,80
 My Reminiscences,Rabindranath Tagore,1912,India,Southern Asia,Asia,,Bengali,250,A book from India.,,Nonfiction
 Autobiography of an Unknown Indian,Nirad C. Chaudhuri,1951,India,Southern Asia,Asia,,English,500,A book from India.,,Nonfiction
 Diary 1920,Isaac Babel,1920,Russia,Eastern Europe,Europe,,Russian,150,A book from Russia.,,Nonfiction
-Notebooks,Albert Camus,1962,France,Western Europe,Europe,,French,400,A book from France.,,Nonfiction
 The Pleasures of Exile,George Lamming,1960,Barbados,Caribbean,North America,,English,230,A book from Barbados.,,Nonfiction
 What the Twilight Says,Derek Walcott,1998,St. Lucia,Caribbean,North America,,English,100,A book from St. Lucia.,,Nonfiction
 Notes from the Hyena's Belly,Nega Mezlekia,2000,Ethiopia,Eastern Africa,Africa,,English,338,A book from Ethiopia.,,Nonfiction
