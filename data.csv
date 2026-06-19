@@ -1,6 +1,26 @@
 ﻿Title,Author,Year,Country,Region,Continent,Read,OriginalLanguage,Pages,Description,Tags,Category
+Seven Interpretive Essays on Peruvian Reality,Jose Carlos Mariategui,1928,Peru,South America,South America,,Spanish,300,A book from Peru.,,Nonfiction
+Operation Massacre,Rodolfo Walsh,1957,Argentina,South America,South America,,Spanish,250,A book from Argentina.,,Nonfiction
+My Past and Thoughts,Alexander Herzen,1867,Russia,Eastern Europe,Europe,,Russian,900,A book from Russia.,,Nonfiction
+* A Writer’s Diary,Fyodor Dostoevsky,1881,Russia,Eastern Europe,Europe,,Russian,700,A book from Russia.,,Nonfiction
+* The Gulag Archipelago,Aleksandr Solzhenitsyn,1973,Russia,Eastern Europe,Europe,,Russian,500,A book from Russia.,,Nonfiction
+* A Writer at War,Vasily Grossman,1945,Russia,Eastern Europe,Europe,,Russian,350,A book from Russia.,,Nonfiction
+* The Italics Are Mine,Nina Berberova,1969,Russia,Eastern Europe,Europe,,Russian,600,A book from Russia.,,Nonfiction
+The Little Virtues,Natalia Ginzburg,1962,Italy,Southern Europe,Europe,,Italian,160,,,Nonfiction
+Eichmann in Jerusalem,Hannah Arendt,1963,Germany,Western Europe,Europe,,English,300,A book from Germany.,,
+The Diaries of Victor Klemperer,Victor Klemperer,1955,Germany,Western Europe,Europe,,German,800,A book from Germany.,,Nonfiction
+Still Alive,Ruth Kluger,1992,Austria,Western Europe,Europe,,German,220,A book from Austria.,,Nonfiction
+Poetry and Truth,Goethe,1814,Germany,Western Europe,Europe,,German,600,A book from Germany.,,Nonfiction
+Berlin Childhood around 1900,Walter Benjamin,1950,Germany,Western Europe,Europe,,German,150,A book from Germany.,,Nonfiction
+Minima Moralia,Theodor Adorno,1951,Germany,Western Europe,Europe,,German,250,A book from Germany.,,Nonfiction
+Tristes Tropiques,Claude Levi-Strauss,1955,France,Western Europe,Europe,,French,400,A book from France.,,
+The Living Mountain,Nan Shepherd,1977,UK,Northern Europe,Europe,,English,120,A book from UK.,,
+Pilgrim at Tinker Creek,Annie Dillard,1974,USA,Northern America,North America,,English,300,A book from USA.,,
+Zami: A New Spelling of My Name,Audre Lorde,1982,USA,Northern America,North America,,English,260,A book from USA.,,Nonfiction
+The Narrative of Sojourner Truth,Sojourner Truth,1850,USA,Northern America,North America,,English,120,,,Nonfiction
+Testament of Youth,Vera Brittain,1933,UK,Northern Europe,Europe,,English,688,,,Nonfiction
 Selected Essays,George Orwell,1945,UK,Northern Europe,Europe,1,English,400,,,Nonfiction
-Six Walks in the Fictional Woods,Umberto Eco,1994,Italy,Southern Europe,Europe,,Italian,160,A book from Italy.,,
+Six Walks in the Fictional Woods,Umberto Eco,1994,Italy,Southern Europe,Europe,,Italian,160,A book from Italy.,,Novel
 Mimesis,Erich Auerbach,1946,Germany,Western Europe,Europe,,German,600,A book from Germany.,,Nonfiction
 The Diary of Lady Murasaki,Murasaki Shikibu,1010,Japan,Eastern Asia,Asia,1,Japanese,100,A book from Japan.,,Nonfiction
 The Confessions of Lady Nijo,Lady Nijo,1307,Japan,Eastern Asia,Asia,,Japanese,280,A book from Japan.,,Nonfiction
@@ -21,11 +41,9 @@ Facundo,Domingo Faustino Sarmiento,1845,Argentina,South America,South America,,S
 Essays,Ralph Waldo Emerson,1844,USA,Northern America,North America,,English,400,A book from USA.,,Nonfiction
 The Painter of Modern Life,Charles Baudelaire,1863,France,Western Europe,Europe,,French,80,A book from France.,,Nonfiction
 The Gay Science,Friedrich Nietzsche,1882,Germany,Western Europe,Europe,,German,300,A book from Germany.,,Nonfiction
-Essays and Aphorisms,Arthur Schopenhauer,1851,Germany,Western Europe,Europe,,German,250,A book from Germany.,,Nonfiction
 Rebellion in the Backlands,Euclides da Cunha,1902,Brazil,South America,South America,,Portuguese,600,A book from Brazil.,,Nonfiction
 Our America and Other Writings,Jose Marti,1891,Cuba,Caribbean,North America,,Spanish,200,A book from Cuba.,,Nonfiction
 The Souls of Black Folk,W.E.B. Du Bois,1903,USA,Northern America,North America,,English,250,A book from USA.,,Nonfiction
-Civilization and Its Discontents,Sigmund Freud,1930,Austria,Western Europe,Europe,,German,100,A book from Austria.,,Nonfiction
 In the Ruins,Zabel Yessayan,1911,Armenia,Western Asia,Asia,,Armenian,200,A book from Armenia.,,Nonfiction
 Dawn Blossoms Plucked at Dusk,Lu Xun,1928,China,Eastern Asia,Asia,,Mandarin,130,A book from China.,,Nonfiction
 Wild Grass,Lu Xun,1927,China,Eastern Asia,Asia,,Mandarin,120,A book from China.,,Nonfiction
@@ -33,7 +51,6 @@ Native Life in South Africa,Sol Plaatje,1916,South Africa,Southern Africa,Africa
 The Days,Taha Hussein,1929,Egypt,Northern Africa,Africa,,Arabic,300,A book from Egypt.,,Nonfiction
 In Praise of Shadows,Junichiro Tanizaki,1933,Japan,Eastern Asia,Asia,,Japanese,75,A book from Japan.,,Nonfiction
 The Sea Does Not Reach Naples,Anna Maria Ortese,1953,Italy,Southern Europe,Europe,,Italian,200,A book from Italy.,,Nonfiction
-War Diary,Carlo Emilio Gadda,1955,Italy,Southern Europe,Europe,,Italian,200,A book from Italy.,,Nonfiction
 Six Memos for the Next Millennium,Italo Calvino,1988,Italy,Southern Europe,Europe,,Italian,185,A book from Italy.,,Nonfiction
 Travels in Hyperreality,Umberto Eco,1986,Italy,Southern Europe,Europe,,Italian,250,A book from Italy.,,Nonfiction
 Memoirs of Prison,Graciliano Ramos,1953,Brazil,South America,South America,,Portuguese,600,A book from Brazil.,,Nonfiction
@@ -43,7 +60,6 @@ The Labyrinth of Solitude,Octavio Paz,1950,Mexico,Central America,North America,
 Collected Nonfictions,Jorge Luis Borges,1952,Argentina,South America,South America,,Spanish,500,A book from Argentina.,,Nonfiction
 Night,Elie Wiesel,1960,Romania,Eastern Europe,Europe,,French,120,A book from Romania.,,Nonfiction
 The Copenhagen Trilogy,Tove Ditlevsen,1971,Denmark,Northern Europe,Europe,,Danish,380,A book from Denmark.,,Nonfiction
-The Journals,Max Frisch,1971,Switzerland,Western Europe,Europe,,German,400,A book from Switzerland.,,Nonfiction
 Walks,Robert Walser,1917,Switzerland,Western Europe,Europe,,German,100,A book from Switzerland.,,Nonfiction
 Hiroshima,John Hersey,1946,USA,Northern America,North America,1,English,200,A book from USA.,,Nonfiction
 The Way to Rainy Mountain,N. Scott Momaday,1969,USA,Northern America,North America,,English,100,A book from USA.,,Nonfiction
@@ -1381,7 +1397,6 @@ Narrative of the Life of Frederick Douglass,Frederick Douglass,1845,USA,Northern
 The Education of Henry Adams,Henry Adams,1907,USA,Northern America,North America,,English,500,A book from USA.,,Nonfiction
 Confession,Leo Tolstoy,1882,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Nonfiction
 Inferno,August Strindberg,1897,Sweden,Northern Europe,Europe,,Swedish,250,A book from Sweden.,,Nonfiction
-Ecce Homo,Friedrich Nietzsche,1908,Germany,Western Europe,Europe,,German,150,A book from Germany.,,Nonfiction
 Either/Or,Soren Kierkegaard,1843,Denmark,Northern Europe,Europe,,Danish,800,A book from Denmark.,,Nonfiction
 De Profundis,Oscar Wilde,1905,Ireland,Northern Europe,Europe,,English,100,A book from Ireland/UK.,,Nonfiction
 The Book of Disquiet,Fernando Pessoa,1982,Portugal,Southern Europe,Europe,,Portuguese,300,A book from Portugal.,,Nonfiction
@@ -1402,10 +1417,6 @@ Childhood,Maxim Gorky,1913,Russia,Eastern Europe,Europe,,Russian,300,A book from
 The World of Yesterday,Stefan Zweig,1942,Austria,Western Europe,Europe,,German,500,A book from Austria.,,Nonfiction
 A Sorrow Beyond Dreams,Peter Handke,1972,Austria,Western Europe,Europe,,German,110,A book from Austria.,,Nonfiction
 Gathering Evidence,Thomas Bernhard,1975–82,Austria,Western Europe,Europe,,German,500,A book from Austria.,,Nonfiction
-Letters to a Young Poet,Rainer Maria Rilke,1929,Austria,Western Europe,Europe,,German,80,A book from Austria/Germany.,,Nonfiction
-Illuminations,Walter Benjamin,1950,Germany,Western Europe,Europe,,German,272,"Illuminations contains the most celebrated work of Walter Benjamin, one of the most original and influential thinkers of the 20th Century: 'The Work of Art in the Age of Mechanical Reproduction', ‘The Task of the Translator’ and 'Theses on the Philosophy of History', as well as essays on Kafka, storytelling, Baudelaire, Brecht's epic theatre, Proust and an anatomy of his own obsession, book collecting.
-
-This now legendary volume offers the best possible access to Benjamin’s singular and significant achievement, while Hannah Arendt’s introduction reveals how his life and work are a prism to his times.",,Nonfiction
 One-Way Street,Walter Benjamin,1928,Germany,Western Europe,Europe,,German,100,A book from Germany.,,Nonfiction
 Letters to Milena,Franz Kafka,1952,Czechia,Eastern Europe,Europe,,German,300,A book from Bohemia/Austria.,,Nonfiction
 Diaries,Franz Kafka,1923,Czechia,Eastern Europe,Europe,,German,500,A book from Bohemia/Austria.,,Nonfiction
