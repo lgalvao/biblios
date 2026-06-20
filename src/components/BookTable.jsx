@@ -17,11 +17,12 @@ export default function BookTable({
   onLanguageFilterChange,
   selectedAuthor,
   onAuthorFilterChange,
+  selectedCategory = 'all',
+  onCategoryFilterChange = () => {},
   onShowToast,
   onOpenStatsReport
 }) {
   const [filterRead, setFilterRead] = useState('all');
-  const [filterCategory, setFilterCategory] = useState('all');
   const [filterContinent, setFilterContinent] = useState('all');
   const [filterRegion, setFilterRegion] = useState('all');
   const [filterTag, setFilterTag] = useState('all');
@@ -100,7 +101,6 @@ export default function BookTable({
       );
 
       const matchesRead = filterRead === 'all' || (filterRead === 'read' ? b.read : !b.read);
-      const matchesCategory = filterCategory === 'all' || b.category === filterCategory;
       const matchesContinent = filterContinent === 'all' || b.continent === filterContinent;
       const matchesRegion = filterRegion === 'all' || b.region === filterRegion;
       const matchesTag = filterTag === 'all' || (b.tags && b.tags.includes(filterTag));
@@ -128,9 +128,9 @@ export default function BookTable({
         }
       }
 
-      return matchesSearch && matchesRead && matchesCategory && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
+      return matchesSearch && matchesRead && matchesContinent && matchesRegion && matchesTag && matchesFilterCountry && matchesFilterLang && matchesFilterAuthor && matchesPages;
     });
-  }, [books, search, searchAllFields, filterRead, filterCategory, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
+  }, [books, search, searchAllFields, filterRead, filterContinent, filterRegion, filterTag, selectedCountry, selectedLanguage, selectedAuthor, filterPagesDir, filterPagesVal, filterPagesValMax]);
 
   const exportCSV = () => {
     const headers = ['Title', 'Author', 'Pages', 'Country'];
@@ -365,18 +365,7 @@ export default function BookTable({
             </select>
           </div>
 
-          {/* Category Select */}
-          <div className="col-6 col-md-3 col-lg">
-            <select className="form-select form-select-sm bg-light" value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)}>
-              <option value="all">Category</option>
-              <option value="Novel">Novel</option>
-              <option value="Novella">Novella</option>
-              <option value="Nonfiction">Nonfiction</option>
-              <option value="Stories">Stories</option>
-              <option value="Essays">Essays</option>
-              <option value="Memoir">Memoir</option>
-            </select>
-          </div>
+
 
           {/* Tag Select */}
           <div className="col-6 col-md-3 col-lg">
@@ -519,10 +508,10 @@ export default function BookTable({
               </span>
             )}
 
-            {filterCategory !== 'all' && (
+            {selectedCategory !== 'all' && (
               <span className="badge border border-primary text-primary d-flex align-items-center gap-2 py-2 px-3">
-                CATEGORY: {filterCategory.toUpperCase()}
-                <X size={14} className="cursor-pointer text-danger" onClick={() => setFilterCategory('all')} />
+                CATEGORY: {selectedCategory.toUpperCase()}
+                <X size={14} className="cursor-pointer text-danger" onClick={() => onCategoryFilterChange('all')} />
               </span>
             )}
 
@@ -554,7 +543,7 @@ export default function BookTable({
               onLanguageFilterChange('');
               onAuthorFilterChange('');
               setFilterRead('all');
-              setFilterCategory('all');
+              onCategoryFilterChange('all');
               setFilterContinent('all');
               setFilterRegion('all');
               setFilterTag('all');
@@ -702,7 +691,7 @@ export default function BookTable({
                       className="category-link" 
                       onClick={(e) => { 
                         e.stopPropagation(); 
-                        setFilterCategory(b.category); 
+                        onCategoryFilterChange(b.category); 
                       }}
                     >
                       {b.category || '-'}

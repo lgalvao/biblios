@@ -65,12 +65,22 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
   const [selectedAuthor, setSelectedAuthor] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('all');
+
+  const uniqueCategories = useMemo(() => {
+    return [...new Set(books.map(b => b.category).filter(Boolean))].sort();
+  }, [books]);
+
+  const filteredBooks = useMemo(() => {
+    if (selectedCategory === 'all') return books;
+    return books.filter(b => b.category === selectedCategory);
+  }, [books, selectedCategory]);
 
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
   const [statsBooksList, setStatsBooksList] = useState([]);
 
   const handleOpenStatsModal = (booksToReport) => {
-    setStatsBooksList(booksToReport || books);
+    setStatsBooksList(booksToReport || filteredBooks);
     setIsStatsModalOpen(true);
   };
 
@@ -387,21 +397,42 @@ function App() {
       </header>
 
       {/* Navigation Pills */}
-      <ul className="nav nav-pills mb-4 gap-2 bg-light p-1 rounded border shadow-sm">
-        {['list', 'dashboard', 'map', 'mappings'].map(tab => (
-          <li key={tab} className="nav-item">
-            <button 
-              className={`nav-link text-uppercase fw-bold px-3 py-2 ${activeTab === tab ? 'active' : 'text-muted'}`}
-              style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}
-              onClick={() => {
-                setActiveTab(tab);
-              }}
-            >
-              {tab === 'list' ? 'Library' : tab === 'map' ? 'Atlas' : tab === 'dashboard' ? 'Dashboard' : 'Atlas Editor'}
-            </button>
-          </li>
-        ))}
-      </ul>
+      {/* Navigation Pills & Global Category Selector */}
+      <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4 bg-light p-2 rounded border shadow-sm">
+        <ul className="nav nav-pills gap-2 border-0 bg-transparent p-0 m-0">
+          {['list', 'dashboard', 'map', 'mappings'].map(tab => (
+            <li key={tab} className="nav-item">
+              <button 
+                className={`nav-link text-uppercase fw-bold px-3 py-2 ${activeTab === tab ? 'active' : 'text-muted'}`}
+                style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}
+                onClick={() => {
+                  setActiveTab(tab);
+                }}
+              >
+                {tab === 'list' ? 'Library' : tab === 'map' ? 'Atlas' : tab === 'dashboard' ? 'Dashboard' : 'Atlas Editor'}
+              </button>
+            </li>
+          ))}
+        </ul>
+
+        <div className="d-flex align-items-center gap-2 px-2">
+          <label htmlFor="global-category-filter" className="small fw-bold text-muted text-uppercase mb-0 text-nowrap" style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}>
+            Category:
+          </label>
+          <select 
+            id="global-category-filter"
+            className="form-select form-select-sm bg-body border-0 shadow-sm" 
+            style={{ minWidth: '160px', fontWeight: '500', height: '36px' }}
+            value={selectedCategory} 
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          >
+            <option value="all">All Categories</option>
+            {uniqueCategories.map(cat => (
+              <option key={cat} value={cat}>{cat}</option>
+            ))}
+          </select>
+        </div>
+      </div>
 
       {/* Main Content Area */}
       <main className="animate-fade">
@@ -430,10 +461,10 @@ function App() {
             </div>
           ) : (
             <div>
-              {activeTab === 'dashboard' && <Dashboard books={books} onOpenStatsReport={handleOpenStatsModal} />}
+              {activeTab === 'dashboard' && <Dashboard books={filteredBooks} onOpenStatsReport={handleOpenStatsModal} />}
               {activeTab === 'list' && (
                 <BookTable 
-                  books={books} 
+                  books={filteredBooks} 
                   onToggleRead={handleToggleRead}
                   onEditBook={(book) => { setEditingBook(book); setIsModalOpen(true); }}
                   onDeleteBook={handleDeleteBook}
@@ -446,11 +477,13 @@ function App() {
                   onLanguageFilterChange={setSelectedLanguage}
                   selectedAuthor={selectedAuthor}
                   onAuthorFilterChange={setSelectedAuthor}
+                  selectedCategory={selectedCategory}
+                  onCategoryFilterChange={setSelectedCategory}
                   onShowToast={showToast}
                   onOpenStatsReport={handleOpenStatsModal}
                 />
               )}
-              {activeTab === 'map' && <MapView books={books} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
+              {activeTab === 'map' && <MapView books={filteredBooks} onToggleRead={handleToggleRead} onExportFilteredCSV={handleExportCSV} />}
               {activeTab === 'mappings' && (
                 <MappingsEditor 
                   onSyncSuccess={() => showToast("Region mappings saved and synced successfully!", "success")}

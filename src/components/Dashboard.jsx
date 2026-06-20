@@ -5,19 +5,10 @@ import { normalizeForSearch } from '../utils/dataUtils';
 import CountryFlag from './CountryFlag';
 
 export default function Dashboard({ books, onOpenStatsReport }) {
-  const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchQuery] = useState('');
 
-  // Extract all categories dynamically from books
-  const categories = useMemo(() => {
-    return [...new Set(books.map(b => b.category).filter(Boolean))].sort();
-  }, [books]);
-
-  // Filter books list based on category
-  const filteredBooks = useMemo(() => {
-    if (selectedCategory === 'all') return books;
-    return books.filter(b => b.category === selectedCategory);
-  }, [books, selectedCategory]);
+  // books list is already pre-filtered based on selected category in App.jsx
+  const filteredBooks = books;
 
   // 1. Basic Stats & KPI Data
   const stats = useMemo(() => {
@@ -267,7 +258,7 @@ export default function Dashboard({ books, onOpenStatsReport }) {
   return (
     <div className="animate-fade">
       
-      {/* Category Filter Controls */}
+      {/* Library Dashboard Header */}
       <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-4 bg-light p-3 rounded border shadow-sm">
         <div className="d-flex align-items-center gap-2">
           <Book className="text-primary" size={20} />
@@ -275,24 +266,6 @@ export default function Dashboard({ books, onOpenStatsReport }) {
             <h5 className="fw-bold mb-0" style={{ fontSize: '1rem' }}>Library Dashboard</h5>
             <p className="small text-muted mb-0" style={{ fontSize: '0.75rem' }}>Visual statistics of your book collection</p>
           </div>
-        </div>
-        
-        <div className="d-flex align-items-center gap-2">
-          <label htmlFor="dashboard-category-filter" className="small fw-bold text-muted text-uppercase mb-0" style={{ fontSize: '0.75rem', letterSpacing: '0.05em' }}>
-            Category:
-          </label>
-          <select 
-            id="dashboard-category-filter"
-            className="form-select form-select-sm bg-light" 
-            style={{ minWidth: '160px', fontWeight: '500' }}
-            value={selectedCategory} 
-            onChange={(e) => setSelectedCategory(e.target.value)}
-          >
-            <option value="all">All Categories</option>
-            {categories.map(cat => (
-              <option key={cat} value={cat}>{cat}</option>
-            ))}
-          </select>
         </div>
       </div>
 
