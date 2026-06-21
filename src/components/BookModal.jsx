@@ -427,13 +427,13 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                       <option value="Nonfiction">Nonfiction</option>
                       <option value="Stories">Stories</option>
                       <option value="Essays">Essays</option>
-                      <option value="Memoir">Memoir</option>
+                      <option value="Drama">Drama</option>
                     </select>
                   </div>
                   <label className="form-label small fw-bold text-muted text-uppercase">Batch Text Input</label>
                   <p className="small text-muted mb-2">
-                    Format: <code>Title by Author (Year, Country), Pages p., Language</code><br/>
-                    Example: <code>The Crying of Lot 49 by Thomas Pynchon (1966, USA), 152 p., English</code>
+                    Format: <code>Title by Author (Country, Year), Pages p., Language</code><br/>
+                    Example: <code>The Crying of Lot 49 by Thomas Pynchon (USA, 1966), 152 p., English</code>
                   </p>
                   <textarea 
                     className="form-control font-monospace" 
@@ -503,7 +503,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                     <option value="Nonfiction">Nonfiction</option>
                     <option value="Stories">Stories</option>
                     <option value="Essays">Essays</option>
-                    <option value="Memoir">Memoir</option>
+                    <option value="Drama">Drama</option>
                   </select>
                 </div>
                 <div className="col-12 col-md-6">

@@ -1,8 +1,301 @@
 ﻿Title,Author,Year,Country,Region,Continent,Read,OriginalLanguage,Pages,Description,Tags,Category
+The Oresteia,Aeschylus,458 BC,Greece,Southern Europe,Europe,,Ancient Greek,200,A book from Greece.,,Drama
+The Persians,Aeschylus,472 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Seven Against Thebes,Aeschylus,467 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Prometheus Bound,Aeschylus,430 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Oedipus Rex,Sophocles,429 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Antigone,Sophocles,441 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Oedipus at Colonus,Sophocles,401 BC,Greece,Southern Europe,Europe,1,Ancient Greek,90,A book from Greece.,,Drama
+Philoctetes,Sophocles,409 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Ajax,Sophocles,442 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Medea,Euripides,431 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Hippolytus,Euripides,428 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Trojan Women,Euripides,415 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Electra,Euripides,413 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Iphigenia at Aulis,Euripides,405 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Bacchae,Euripides,405 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Alcestis,Euripides,438 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Helen,Euripides,412 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Lysistrata,Aristophanes,411 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+The Clouds,Aristophanes,423 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Frogs,Aristophanes,405 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Wasps,Aristophanes,422 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Plays and Fragments,Menander,300 BC,Greece,Southern Europe,Europe,,Ancient Greek,300,A book from Greece.,,Drama
+Hercules Furens,Seneca,54,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+Medea,Seneca,60,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+Thyestes,Seneca,62,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+Amphitryon,Plautus,190 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+The Brothers Menaechmus,Plautus,190 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+The Swaggering Soldier,Plautus,205 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+The Pot of Gold,Plautus,195 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+The Brothers,Terence,160 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+The Girl from Andros,Terence,166 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+Phormio,Terence,161 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+The Recognition of Sakuntala,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,120,A book from India.,,Drama
+Vikrama and Urvashi,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
+The Little Clay Cart,Shudraka,400,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Drama
+The Dream of Vasavadatta,Bhasa,300,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
+The Pledge of Yaugandharayana,Bhasa,300,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
+The Injustice to Dou E,Guan Hanqing,1280,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
+The Orphan of Zhao,Ji Junxiang,1300,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
+The Romance of the Western Chamber,Wang Shifu,1300,China,Eastern Asia,Asia,,Mandarin,200,A book from China.,,Drama
+The Chalk Circle,Li Qianfu,1300,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
+The Peony Pavilion,Tang Xianzu,1598,China,Eastern Asia,Asia,,Mandarin,300,A book from China.,,Drama
+The Peach Blossom Fan,Kong Shangren,1699,China,Eastern Asia,Asia,,Mandarin,250,A book from China.,,Drama
+Thunderstorm,Cao Yu,1934,China,Eastern Asia,Asia,,Mandarin,120,A book from China.,,Drama
+The Other Shore,Gao Xingjian,1986,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
+Atsumori,Zeami,1400,Japan,Eastern Asia,Asia,,Japanese,40,A book from Japan.,,Drama
+The Damask Drum,Zeami,1400,Japan,Eastern Asia,Asia,,Japanese,40,A book from Japan.,,Drama
+The Love Suicides at Sonezaki,Chikamatsu Monzaemon,1703,Japan,Eastern Asia,Asia,,Japanese,80,A book from Japan.,,Drama
+The Battles of Coxinga,Chikamatsu Monzaemon,1715,Japan,Eastern Asia,Asia,,Japanese,100,A book from Japan.,,Drama
+The Treasury of Loyal Retainers,"Takeda Izumo II, Miyoshi Shoraku and Namiki Senryu",1748,Japan,Eastern Asia,Asia,,Japanese,250,A book from Japan.,,Drama
+The Dybbuk,S. Ansky,1914,Russia,Eastern Europe,Europe,,Yiddish,100,A book from Russia.,,Drama
+The People of the Cave,Tawfiq al-Hakim,1933,Egypt,Northern Africa,Africa,,Arabic,120,A book from Egypt.,,Drama
+Scheherazade,Tawfiq al-Hakim,1934,Egypt,Northern Africa,Africa,,Arabic,100,A book from Egypt.,,Drama
+The Perplexed Sultan,Tawfiq al-Hakim,1960,Egypt,Northern Africa,Africa,,Arabic,100,A book from Egypt.,,Drama
+The Tree Climber,Tawfiq al-Hakim,1962,Egypt,Northern Africa,Africa,,Arabic,100,A book from Egypt.,,Drama
+Rituals of Signs and Transformations,Saadallah Wannous,1994,Syria,Western Asia,Asia,,Arabic,120,A book from Syria.,,Drama
+Act of the Ship of Hell,Gil Vicente,1517,Portugal,Southern Europe,Europe,,Portuguese,80,A book from Portugal.,,Drama
+Fuenteovejuna,Lope de Vega,1619,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
+Punishment without Revenge,Lope de Vega,1631,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
+The Trickster of Seville,Tirso de Molina,1630,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
+Life Is a Dream,Pedro Calderon de la Barca,1635,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
+The Mayor of Zalamea,Pedro Calderon de la Barca,1636,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
+The Great Theatre of the World,Pedro Calderon de la Barca,1655,Spain,Southern Europe,Europe,,Spanish,80,A book from Spain.,,Drama
+Blood Wedding,Federico Garcia Lorca,1933,Spain,Southern Europe,Europe,1,Spanish,80,A book from Spain.,,Drama
+Yerma,Federico Garcia Lorca,1934,Spain,Southern Europe,Europe,,Spanish,80,A book from Spain.,,Drama
+The House of Bernarda Alba,Federico Garcia Lorca,1936,Spain,Southern Europe,Europe,1,Spanish,80,A book from Spain.,,Drama
+Auto da Compadecida,Ariano Suassuna,1955,Brazil,South America,South America,1,Portuguese,120,A book from Brazil.,,Drama
+Wedding Dress,Nelson Rodrigues,1943,Brazil,South America,South America,,Portuguese,100,A book from Brazil.,,Drama
+The Asphalt Kiss,Nelson Rodrigues,1960,Brazil,South America,South America,,Portuguese,100,A book from Brazil.,,Drama
+The Promise,Dias Gomes,1960,Brazil,South America,South America,,Portuguese,120,A book from Brazil.,,Drama
+The Night of the Assassins,Jose Triana,1965,Cuba,Caribbean,North America,,Spanish,100,A book from Cuba.,,Drama
+Information for Foreigners,Griselda Gambaro,1973,Argentina,South America,South America,,Spanish,150,A book from Argentina.,,Drama
+Death and the Maiden,Ariel Dorfman,1990,Chile,South America,South America,,Spanish,80,A book from Chile.,,Drama
+Doctor Faustus,Christopher Marlowe,1592,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+Edward II,Christopher Marlowe,1593,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+Tamburlaine,Christopher Marlowe,1587,UK,Northern Europe,Europe,,English,160,A book from UK.,,Drama
+The Jew of Malta,Christopher Marlowe,1590,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+Volpone,Ben Jonson,1606,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+The Alchemist,Ben Jonson,1610,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+Bartholomew Fair,Ben Jonson,1614,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+A Midsummer Night’s Dream,William Shakespeare,1595,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Romeo and Juliet,William Shakespeare,1597,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
+Henry IV Parts I and II,William Shakespeare,1598,UK,Northern Europe,Europe,,English,250,A book from UK.,,Drama
+Much Ado About Nothing,William Shakespeare,1599,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+As You Like It,William Shakespeare,1599,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Hamlet,William Shakespeare,1601,UK,Northern Europe,Europe,1,English,160,A book from UK.,,Drama
+Twelfth Night,William Shakespeare,1601,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+Measure for Measure,William Shakespeare,1604,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
+Othello,William Shakespeare,1604,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
+King Lear,William Shakespeare,1606,UK,Northern Europe,Europe,,English,140,A book from UK.,,Drama
+Macbeth,William Shakespeare,1606,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Antony and Cleopatra,William Shakespeare,1607,UK,Northern Europe,Europe,1,English,140,A book from UK.,,Drama
+Coriolanus,William Shakespeare,1608,UK,Northern Europe,Europe,,English,140,A book from UK.,,Drama
+The Tempest,William Shakespeare,1611,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+The Winter’s Tale,William Shakespeare,1611,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+She Stoops to Conquer,Oliver Goldsmith,1773,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
+The Rivals,Richard Sheridan,1775,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
+The School for Scandal,Richard Sheridan,1777,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
+The Importance of Being Earnest,Oscar Wilde,1895,Ireland,Northern Europe,Europe,1,English,80,A book from Ireland.,,Drama
+Lady Windermere’s Fan,Oscar Wilde,1892,Ireland,Northern Europe,Europe,1,English,100,A book from Ireland.,,Drama
+An Ideal Husband,Oscar Wilde,1895,Ireland,Northern Europe,Europe,1,English,100,A book from Ireland.,,Drama
+Salome,Oscar Wilde,1891,Ireland,Northern Europe,Europe,1,French,80,A book from Ireland.,,Drama
+Riders to the Sea,J.M. Synge,1904,Ireland,Northern Europe,Europe,,English,40,A book from Ireland.,,Drama
+The Playboy of the Western World,J.M. Synge,1907,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
+Pygmalion,George Bernard Shaw,1913,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
+Saint Joan,George Bernard Shaw,1923,Ireland,Northern Europe,Europe,1,English,160,A book from Ireland.,,Drama
+Major Barbara,George Bernard Shaw,1905,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
+Man and Superman,George Bernard Shaw,1903,Ireland,Northern Europe,Europe,,English,180,A book from Ireland.,,Drama
+Heartbreak House,George Bernard Shaw,1919,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
+Juno and the Paycock,Sean O’Casey,1924,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
+Cathleen ni Houlihan,W.B. Yeats,1902,Ireland,Northern Europe,Europe,,English,40,A book from Ireland.,,Drama
+Purgatory,W.B. Yeats,1938,Ireland,Northern Europe,Europe,,English,40,A book from Ireland.,,Drama
+Waiting for Godot,Samuel Beckett,1953,Ireland,Northern Europe,Europe,,French,100,A book from Ireland.,,Drama
+Endgame,Samuel Beckett,1957,Ireland,Northern Europe,Europe,1,French,80,A book from Ireland.,,Drama
+Happy Days,Samuel Beckett,1961,Ireland,Northern Europe,Europe,,English,80,A book from Ireland.,,Drama
+Translations,Brian Friel,1980,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
+Dancing at Lughnasa,Brian Friel,1990,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
+Hay Fever,Noel Coward,1925,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Private Lives,Noel Coward,1930,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Blithe Spirit,Noel Coward,1941,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+The Birthday Party,Harold Pinter,1958,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+The Caretaker,Harold Pinter,1960,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+The Homecoming,Harold Pinter,1965,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Betrayal,Harold Pinter,1978,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+Rosencrantz and Guildenstern Are Dead,Tom Stoppard,1966,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
+Arcadia,Tom Stoppard,1993,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
+Top Girls,Caryl Churchill,1982,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+Cloud Nine,Caryl Churchill,1979,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
+Le Cid,Pierre Corneille,1637,France,Western Europe,Europe,,French,120,A book from France.,,Drama
+Horace,Pierre Corneille,1640,France,Western Europe,Europe,,French,120,A book from France.,,Drama
+Cinna,Pierre Corneille,1641,France,Western Europe,Europe,,French,120,A book from France.,,Drama
+Andromache,Jean Racine,1667,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+Phedre,Jean Racine,1677,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+Tartuffe,Moliere,1664,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
+Don Juan,Moliere,1665,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+The Misanthrope,Moliere,1666,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+The School for Wives,Moliere,1662,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+The Miser,Moliere,1668,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
+The Imaginary Invalid,Moliere,1673,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
+The Marriage of Figaro,Pierre de Beaumarchais,1784,France,Western Europe,Europe,,French,120,A book from France.,,Drama
+The Barber of Seville,Pierre de Beaumarchais,1775,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+Cyrano de Bergerac,Edmond Rostand,1897,France,Western Europe,Europe,,French,160,A book from France.,,Drama
+No Exit,Jean-Paul Sartre,1944,France,Western Europe,Europe,,French,60,A book from France.,,Drama
+Caligula,Albert Camus,1944,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
+The Maids,Jean Genet,1947,France,Western Europe,Europe,,French,80,A book from France.,,Drama
+The Balcony,Jean Genet,1956,France,Western Europe,Europe,,French,120,A book from France.,,Drama
+The Chairs,Eugene Ionesco,1952,France/Romania,Western Asia,Asia,1,French,80,A book from France/Romania.,,Drama
+The Lesson,Eugene Ionesco,1951,France/Romania,Western Asia,Asia,1,French,60,A book from France/Romania.,,Drama
+Rhinoceros,Eugene Ionesco,1959,France/Romania,Western Asia,Asia,1,French,100,A book from France/Romania.,,Drama
+Art,Yasmina Reza,1994,France,Western Europe,Europe,,French,80,A book from France.,,Drama
+God of Carnage,Yasmina Reza,2006,France,Western Europe,Europe,,French,80,A book from France.,,Drama
+Nathan the Wise,Gotthold Ephraim Lessing,1779,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+Faust Part I,Goethe,1808,Germany,Western Europe,Europe,,German,180,A book from Germany.,,Drama
+Faust Part II,Goethe,1832,Germany,Western Europe,Europe,,German,250,A book from Germany.,,Drama
+The Robbers,Friedrich Schiller,1781,Germany,Western Europe,Europe,,German,160,A book from Germany.,,Drama
+Don Carlos,Friedrich Schiller,1787,Germany,Western Europe,Europe,,German,180,A book from Germany.,,Drama
+Wallenstein,Friedrich Schiller,1799,Germany,Western Europe,Europe,,German,350,A book from Germany.,,Drama
+Mary Stuart,Friedrich Schiller,1800,Germany,Western Europe,Europe,,German,160,A book from Germany.,,Drama
+Danton’s Death,Georg Buechner,1835,Germany,Western Europe,Europe,,German,100,A book from Germany.,,Drama
+Woyzeck,Georg Buechner,1837,Germany,Western Europe,Europe,,German,80,A book from Germany.,,Drama
+The Weavers,Gerhart Hauptmann,1892,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+The Rats,Gerhart Hauptmann,1911,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+Spring Awakening,Frank Wedekind,1891,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+Earth Spirit,Frank Wedekind,1895,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+Pandora’s Box,Frank Wedekind,1904,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+The Threepenny Opera,Bertolt Brecht,1928,Germany,Western Europe,Europe,,German,100,A book from Germany.,,Drama
+Mother Courage and Her Children,Bertolt Brecht,1939,Germany,Western Europe,Europe,1,German,120,A book from Germany.,,Drama
+Life of Galileo,Bertolt Brecht,1943,Germany,Western Europe,Europe,1,German,120,A book from Germany.,,Drama
+The Good Person of Szechwan,Bertolt Brecht,1943,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+The Caucasian Chalk Circle,Bertolt Brecht,1944,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+The Resistible Rise of Arturo Ui,Bertolt Brecht,1941,Germany,Western Europe,Europe,,German,100,A book from Germany.,,Drama
+Marat/Sade,Peter Weiss,1963,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
+The Last Days of Mankind,Karl Kraus,1922,Austria,Western Europe,Europe,,German,800,A book from Austria.,,Drama
+La Ronde,Arthur Schnitzler,1897,Austria,Western Europe,Europe,,German,100,A book from Austria.,,Drama
+Professor Bernhardi,Arthur Schnitzler,1912,Austria,Western Europe,Europe,,German,120,A book from Austria.,,Drama
+The Vast Domain,Arthur Schnitzler,1911,Austria,Western Europe,Europe,,German,120,A book from Austria.,,Drama
+The Visit,Friedrich Duerrenmatt,1956,Switzerland,Western Europe,Europe,,German,100,A book from Switzerland.,,Drama
+The Physicists,Friedrich Duerrenmatt,1962,Switzerland,Western Europe,Europe,1,German,100,A book from Switzerland.,,Drama
+A Doll’s House,Henrik Ibsen,1879,Norway,Northern Europe,Europe,1,Norwegian,100,A book from Norway.,,Drama
+Ghosts,Henrik Ibsen,1881,Norway,Northern Europe,Europe,,Norwegian,100,A book from Norway.,,Drama
+An Enemy of the People,Henrik Ibsen,1882,Norway,Northern Europe,Europe,,Norwegian,120,A book from Norway.,,Drama
+The Wild Duck,Henrik Ibsen,1884,Norway,Northern Europe,Europe,,Norwegian,120,A book from Norway.,,Drama
+Hedda Gabler,Henrik Ibsen,1890,Norway,Northern Europe,Europe,1,Norwegian,100,A book from Norway.,,Drama
+The Master Builder,Henrik Ibsen,1892,Norway,Northern Europe,Europe,1,Norwegian,120,A book from Norway.,,Drama
+Peer Gynt,Henrik Ibsen,1867,Norway,Northern Europe,Europe,,Norwegian,180,A book from Norway.,,Drama
+The Father,August Strindberg,1887,Sweden,Northern Europe,Europe,,Swedish,100,A book from Sweden.,,Drama
+Miss Julie,August Strindberg,1888,Sweden,Northern Europe,Europe,1,Swedish,80,A book from Sweden.,,Drama
+A Dream Play,August Strindberg,1901,Sweden,Northern Europe,Europe,,Swedish,100,A book from Sweden.,,Drama
+The Ghost Sonata,August Strindberg,1907,Sweden,Northern Europe,Europe,,Swedish,80,A book from Sweden.,,Drama
+The Seagull,Anton Chekhov,1896,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
+Uncle Vanya,Anton Chekhov,1898,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Drama
+Three Sisters,Anton Chekhov,1901,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Drama
+The Cherry Orchard,Anton Chekhov,1904,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
+The Inspector General,Nikolai Gogol,1836,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
+Boris Godunov,Alexander Pushkin,1831,Russia,Eastern Europe,Europe,,Russian,120,A book from Russia.,,Drama
+The Storm,Alexander Ostrovsky,1859,Russia,Eastern Europe,Europe,,Russian,120,A book from Russia.,,Drama
+The Forest,Alexander Ostrovsky,1871,Russia,Eastern Europe,Europe,,Russian,120,A book from Russia.,,Drama
+The Bedbug,Vladimir Mayakovsky,1929,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Drama
+R.U.R.,Karel Capek,1920,Czechia,Eastern Europe,Europe,,Czech,100,A book from Czechia.,,Drama
+Tango,Slawomir Mrozek,1964,Poland,Eastern Europe,Europe,,Polish,100,A book from Poland.,,Drama
+The Wedding,Witold Gombrowicz,1948,Poland,Eastern Europe,Europe,,Polish,160,A book from Poland.,,Drama
+Six Characters in Search of an Author,Luigi Pirandello,1921,Italy,Southern Europe,Europe,1,Italian,100,A book from Italy.,,Drama
+Henry IV,Luigi Pirandello,1922,Italy,Southern Europe,Europe,1,Italian,100,A book from Italy.,,Drama
+"Right You Are, If You Think So",Luigi Pirandello,1917,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
+The Servant of Two Masters,Carlo Goldoni,1745,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
+La Locandiera,Carlo Goldoni,1753,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
+Turandot,Carlo Gozzi,1762,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
+Accidental Death of an Anarchist,Dario Fo,1970,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
+Our Town,Thornton Wilder,1938,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+Machinal,Sophie Treadwell,1928,USA,Northern America,North America,1,English,100,A book from USA.,,Drama
+A Raisin in the Sun,Lorraine Hansberry,1959,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+Long Day’s Journey into Night,Eugene O’Neill,1956,USA,Northern America,North America,,English,180,A book from USA.,,Drama
+Death of a Salesman,Arthur Miller,1949,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+The Crucible,Arthur Miller,1953,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+A Streetcar Named Desire,Tennessee Williams,1947,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+The Glass Menagerie,Tennessee Williams,1944,USA,Northern America,North America,1,English,100,A book from USA.,,Drama
+Cat on a Hot Tin Roof,Tennessee Williams,1955,USA,Northern America,North America,,English,120,A book from USA.,,Drama
+Who’s Afraid of Virginia Woolf?,Edward Albee,1962,USA,Northern America,North America,,English,120,A book from USA.,,Drama
+Fences,August Wilson,1985,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+The Piano Lesson,August Wilson,1987,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+Buried Child,Sam Shepard,1978,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
+Glengarry Glen Ross,David Mamet,1984,USA,Northern America,North America,1,English,110,A book from USA.,,Drama
+Angels in America: Millennium Approaches,Tony Kushner,1991,USA,Northern America,North America,,English,150,A book from USA.,,Drama
+Angels in America: Perestroika,Tony Kushner,1992,USA,Northern America,North America,,English,160,A book from USA.,,Drama
+Topdog/Underdog,Suzan-Lori Parks,2001,USA,Northern America,North America,,English,120,A book from USA.,,Drama
+Blood Knot,Athol Fugard,1961,South Africa,Southern Africa,Africa,,English,100,A book from South Africa.,,Drama
+“Master Harold”…and the Boys,Athol Fugard,1982,South Africa,Southern Africa,Africa,,English,100,A book from South Africa.,,Drama
+Sizwe Banzi Is Dead,"Athol Fugard, John Kani and Winston Ntshona",1972,South Africa,Southern Africa,Africa,,English,80,A book from South Africa.,,Drama
+Death and the King’s Horseman,Wole Soyinka,1975,Nigeria,Western Africa,Africa,,English,100,A book from Nigeria.,,Drama
+The Lion and the Jewel,Wole Soyinka,1959,Nigeria,Western Africa,Africa,,English,100,A book from Nigeria.,,Drama
+Anowa,Ama Ata Aidoo,1970,Ghana,Western Africa,Africa,,English,80,A book from Ghana.,,Drama
+Hayavadana,Girish Karnad,1971,India,Southern Asia,Asia,,Kannada,80,A book from India.,,Drama
+Tughlaq,Girish Karnad,1964,India,Southern Asia,Asia,,Kannada,100,A book from India.,,Drama
+The Lord Chandos Letter and Other Writings,Hugo von Hofmannsthal,1902,Austria,Western Europe,Europe,,German,150,A book from Austria.,,Nonfiction
+On the Sublime,Longinus,100,Ancient Greece,Southern Europe,Europe,,Ancient Greek,150,A book from Ancient Greece.,,Novella
+The Conspiracy of Catiline and The Jugurthine War,Sallust,40 BC,Ancient Rome,Southern Europe,Europe,,Latin,250,A book from Ancient Rome.,,Nonfiction
+The Consolation of Philosophy,Boethius,524,Italy,Southern Europe,Europe,,Latin,180,A book from Italy.,,Nonfiction
+On Duties,Cicero,44 BC,Ancient Rome,Southern Europe,Europe,,Latin,200,A book from Ancient Rome.,,Nonfiction
+The Fall of the Roman Republic,Plutarch,100,Ancient Greece,Southern Europe,Europe,,Ancient Greek,368,"A book from Ancient Greece, 100.",,Nonfiction
+The Rise and Fall of Athens,Plutarch,100,Ancient Greece,Southern Europe,Europe,,Ancient Greek,318,A book from Ancient Greece.,,Nonfiction
+Reflections on the Revolution in France,Edmund Burke,1790,UK,Northern Europe,Europe,,English,250,A book from UK.,,Nonfiction
+The Tibetan Book of the Dead,Anonymous,1300,Tibet,Eastern Asia,Asia,,Tibetan,250,A book from 1300.,,Nonfiction
+The Cloud of Unknowing,Anonymous,1375,UK,Northern Europe,Europe,,Middle English,150,A book from UK.,,Nonfiction
+The Decline and Fall of the Roman Empire,Edward Gibbon,1776,UK,Northern Europe,Europe,,English,1200,A book from UK.,,Nonfiction
+The Interpretation of Dreams,Sigmund Freud,1899,Austria,Western Europe,Europe,,German,600,A book from Austria.,,Nonfiction
+"Black Skin, White Masks",Frantz Fanon,1952,Martinique,Caribbean,North America,,French,220,A book from Martinique.,,Nonfiction
+The Second Sex,Simone de Beauvoir,1949,France,Western Europe,Europe,,French,978,A book from 1949.,,Nonfiction
+Mencius,Mencius,300 BC,China,Eastern Asia,Asia,,Classical Chinese,300,A book from China.,,Novel
+Orientalism,Edward Said,1978,Palestine,Western Asia,Asia,,English,350,A book from Palestine.,,Novel
+Pedagogy of the Oppressed,Paulo Freire,1968,Brazil,South America,South America,,Portuguese,180,A book from Brazil.,,Nonfiction
+The Masters and the Slaves,Gilberto Freyre,1933,Brazil,South America,South America,,Portuguese,600,A book from Brazil.,,Nonfiction
+In an Antique Land,Amitav Ghosh,1992,India,Southern Asia,Asia,,English,400,,,Nonfiction
+The Book of Misers,al-Jahiz,868,Iraq,Western Asia,Asia,,Arabic,300,A book from Iraq.,,Nonfiction
+The Wretched of the Earth,Frantz Fanon,1961,Martinique,Caribbean,North America,,French,250,A book from Martinique/Algeria.,,Nonfiction
+Black Elk Speaks,Black Elk and John G. Neihardt,1932,USA,Northern America,North America,,English,300,A book from USA.,,Nonfiction
+"I, Rigoberta Menchú",Rigoberta Menchu and Elisabeth Burgos-Debray,1983,Guatemala,Central America,Central America,,Spanish,300,A book from Guatemala.,,Nonfiction
+A Vindication of the Rights of Woman,Mary Wollstonecraft,1792,UK,Northern Europe,Europe,,English,300,A book from UK.,,Nonfiction
+The Peloponnesian War,Thucydides,400 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,600,A book from Ancient Greece.,,Nonfiction
+The Last Days of Socrates,Plato,399 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,256,A book from Ancient Greece.,,Nonfiction
+The Persian Expedition,Xenophon,370 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,350,A book from Ancient Greece.,,Nonfiction
+The Twelve Caesars,Suetonius,121,Ancient Rome,Southern Europe,Europe,,Latin,400,A book from Ancient Rome.,,Nonfiction
+The Gallic War,Julius Caesar,50 BC,Ancient Rome,Southern Europe,Europe,,Latin,300,A book from Ancient Rome.,,Nonfiction
+Selected Letters,Cicero,44 BC,Ancient Rome,Southern Europe,Europe,,Latin,400,A book from Ancient Rome.,,Nonfiction
+Ecclesiastical History of the English People,Bede,731,UK,Northern Europe,Europe,,Latin,400,A book from UK.,,Nonfiction
+Genesis,Anonymous,500 BC,Ancient Israel,Western Asia,Asia,,Hebrew,80,A book from Ancient Israel.,,Nonfiction
+The Analects,Confucius,475 BC,China,Eastern Asia,Asia,,Classical Chinese,150,A book from China.,,Nonfiction
+The Sayings of the Desert Fathers,Anonymous,500,Byzantium,Southern Europe,Europe,,Ancient Greek,250,A book from Byzantium.,,Nonfiction
+The Upanishads,Anonymous,700 BC,India,Southern Asia,Asia,,Sanskrit,300,A book from India.,,Nonfiction
+The Arthashastra,Kautilya,300 BC,India,Southern Asia,Asia,,Sanskrit,500,A book from India.,,Nonfiction
+The Instruction of Ptahhotep,Anonymous,2350 BC,Ancient Egypt,Northern Africa,Africa,,Middle Egyptian,60,A book from Ancient Egypt.,,Nonfiction
+Lives of the Artists,Giorgio Vasari,1568,Italy,Southern Europe,Europe,,Italian,600,A book from Italy.,,Nonfiction
+The Voyage of the Beagle,Charles Darwin,1839,UK,Northern Europe,Europe,,English,500,A book from UK.,,Nonfiction
+The Travels,Marco Polo and Rustichello da Pisa,1298,Italy,Southern Europe,Europe,,Old French / Franco-Italian,350,A book from Italy.,,Nonfiction
+The Book of the City of Ladies,Christine de Pizan,1405,France,Western Europe,Europe,,French,300,A book from France.,,Nonfiction
+The Life of Milarepa,Tsangnyon Heruka,1488,Tibet,Eastern Asia,Asia,,Tibetan,300,A book from Tibet.,,Nonfiction
+Popol Vuh,Anonymous,1550,Guatemala,Central America,Central America,,Mayan,250,A book from Mayan Empire.,,Nonfiction
+Revelations of Divine Love,Julian of Norwich,1395,UK,Northern Europe,Europe,,Middle English,250,A book from UK.,,Nonfiction
+The Prince,Niccolo Machiavelli,1532,Italy,Southern Europe,Europe,1,Italian,120,A book from Italy.,,Nonfiction
+A World Apart,Gustaw Herling-Grudzinski,1951,Poland,Eastern Europe,Europe,,Polish,300,A book from Poland.,,Nonfiction
+A Short Account of the Destruction of the Indies,Bartolome de las Casas,1552,Spain,Southern Europe,Europe,1,Spanish,150,A book from Spain.,,Nonfiction
+The True History of the Conquest of New Spain,Bernal Diaz del Castillo,1568,Mexico,Central America,North America,,Spanish,600,A book from Mexico.,,Nonfiction
+Chronicle of the Narváez Expedition,Alvar Nunez Cabeza de Vaca,1542,Spain,Southern Europe,Europe,,Spanish,150,A book from Spain.,,Nonfiction
+Royal Commentaries of the Incas,Inca Garcilaso de la Vega,1609,Peru,South America,South America,,Spanish,600,A book from Peru.,,Nonfiction
+"Hydriotaphia, Urn Burial",Thomas Browne,1658,UK,Northern Europe,Europe,,English,100,A book from UK.,,Nonfiction
+The Ring of the Dove,Ibn Hazm,1022,Spain,Southern Europe,Europe,,Arabic,300,A book from Al-Andalus/.,,Nonfiction
+The Autumn of the Middle Ages,Johan Huizinga,1919,Netherlands,Western Europe,Europe,,Dutch,500,A book from Netherlands.,,Nonfiction
+Maxims,Francois de La Rochefoucauld,1665,France,Western Europe,Europe,,French,150,A book from France.,,Nonfiction
+Danube,Claudio Magris,1986,Italy,Southern Europe,Europe,,Italian,400,A book from Italy.,,Nonfiction
+In Patagonia,Bruce Chatwin,1977,UK,Northern Europe,Europe,,English,200,A book from UK.,,Nonfiction
+The Fire Next Time,James Baldwin,1963,USA,Northern America,North America,,English,120,A book from US.,,Nonfiction
+Father and Son,Edmund Gosse,1907,UK,Northern Europe,Europe,,English,250,A book from UK.,,Nonfiction
+Concerning the Spiritual in Art,Wassily Kandinsky,1911,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Novella
+Father and Son,Edmund Gosse,1907,UK,Northern Europe,Europe,,English,250,A book from UK.,,Novel
 The Memoirs of Glückel of Hameln,Gluckel of Hameln,1719,Germany,Western Europe,Europe,,Yiddish,300,A book from Germany.,,Nonfiction
 A Question of Heroes,Nick Joaquin,1977,Philippines,South-Eastern Asia,Asia,,English,300,A book from Philippines.,,Nonfiction
-Selected Records of the Grand Historian,Sima Qian,-91,China,Eastern Asia,Asia,,Mandarin,500,,,Nonfiction
-Zhuangzi,Zhuangzi,-300,China,Eastern Asia,Asia,,Mandarin,300,,,Nonfiction
+Selected Records of the Grand Historian,Sima Qian,91 BC,China,Eastern Asia,Asia,,Classical Chinese,500,,,Nonfiction
+Zhuangzi,Zhuangzi,300 BC,China,Eastern Asia,Asia,,Classical Chinese,300,,,Nonfiction
 Hōjōki,Kamo no Chomei,1212,Japan,Eastern Asia,Asia,,Japanese,50,A book from Japan.,,Nonfiction
 Dawn Blossoms Plucked at Dusk,Lu Xun,1928,China,Eastern Asia,Asia,,Mandarin,130,A book from China.,,Nonfiction
 Annihilation of Caste,B.R. Ambedkar,1936,India,Southern Asia,Asia,,English,120,A book from India.,,Nonfiction
@@ -15,11 +308,6 @@ Decolonising the Mind,Ngugi wa Thiong’o,1986,Kenya,Eastern Africa,Africa,,Engl
 The Colonizer and the Colonized,Albert Memmi,1957,Tunisia,Northern Africa,Africa,,French,180,A book from Tunisia.,,Nonfiction
 This Blinding Absence of Light,Tahar Ben Jelloun,2001,Morocco,Northern Africa,Africa,,French,200,A book from Morocco.,,Novel
 Long Walk to Freedom,Nelson Mandela,1994,South Africa,Southern Africa,Africa,1,English,650,A book from South Africa.,,Nonfiction
-Echoes of an Autobiography,Naguib Mahfouz,1994,Egypt,Northern Africa,Africa,,Arabic,120,A book from Egypt.,,Nonfiction
-Black and Female,Tsitsi Dangarembga,2022,Zimbabwe,Eastern Africa,Africa,,English,160,A book from Zimbabwe.,,Nonfiction
-Cockroaches,Scholastique Mukasonga,2006,Rwanda,Eastern Africa,Africa,1,French,165,"Imagine being born into a world where everything about you--the shape of your nose, the look of your hair, the place of your birth--designates you as an undesirable, an inferior, a menace, no better than a cockroach, something to be driven away and ultimately exterminated. Imagine being thousands of miles away while your family and friends are brutally and methodically slaughtered. Imagine being entrusted by your parents with the mission of leaving everything you know and finding some way to survive, in the name of your family and your people.
-
-Scholastique Mukasonga's Cockroaches is the story of growing up a Tutsi in Hutu-dominated Rwanda--the story of a happy child, a loving family, all wiped out in the genocide of 1994. A vivid, bitterwsweet depiction of family life and bond in a time of immense hardship, it is also a story of incredible endurance, and the duty to remember that loss and those lost while somehow carrying on. Sweet, funny, wrenching, and deeply moving, Cockroaches is a window onto an unforgettable world of love, grief, and horror.",,Nonfiction
 The Unwomanly Face of War,Svetlana Alexievich,1983,Belarus,Eastern Europe,Europe,,Russian,357,"""Why, having stood up for and held their own place in a once absolutely male world, have women not stood up for their history? A whole world is hidden from us. Their war remains unknown... I want to write the history of that war. A women's history.""
 
 In the late 1970s, Svetlana Alexievich set out to write her first book, The Unwomanly Face of War, when she realized that she grew up surrounded by women who had fought in the Second World War but whose stories were absent from official narratives. Travelling thousands of miles, she spent years interviewing hundreds of Soviet women - captains, tank drivers, snipers, pilots, nurses and doctors - who had experienced the war on the front lines, on the home front and in occupied territories.
@@ -30,9 +318,7 @@ Kaputt,Curzio Malaparte,1944,Italy,Southern Europe,Europe,,Italian,437,"Curzio M
 Sent by an Italian paper during World War II to cover the fighting on the Eastern Front, Malaparte secretly wrote this terrifying report from the abyss, which became an international bestseller when it was published after the war. Telling of the siege of Leningrad, of glittering dinner parties with Nazi leaders, and of trains disgorging bodies in war-devastated Romania, Malaparte paints a picture of humanity at its most depraved.
 
 Kaputt is an insider’s dispatch from the world of the enemy that is as hypnotically fascinating as it is disturbing.",,Nonfiction
-Letters on England,Voltaire,1734,France,Western Europe,Europe,,French,176,"Also known as the Lettres anglaises ou philosophiques, Voltaire's response to his exile in England offered the French public of 1734 a panoramic view of British culture. Perceiving them as a veiled attack against the ancien regime, however, the French government ordered the letters burned and Voltaire persecuted.",,Nonfiction
 The Life of Samuel Johnson,James Boswell,1790,UK,Northern Europe,Europe,,English,1245,"In Boswell's Life of Samuel Johnson, one of the towering figures of English literature is revealed with unparalleled immediacy and originality, in a biography to which we owe much of our knowledge of the man himself. Through a series of richly detailed anecdotes, Johnson emerges as a sociable figure, vigorously engaging and fencing with great contemporaries such as Garrick, Goldsmith, Burney and Burke, and of course with Boswell himself. Yet anxieties and obsessions also darkened Johnson's private hours, and Boswell's attentiveness to every facet of Johnson's character makes this biography as moving as it is entertaining.",,Nonfiction
-Shah of Shahs,Ryszard Kapuscinski,1982,Poland,Eastern Europe,Europe,,Polish,176,"Shah of Shahs depicts the final years of the Shah in Iran, and is a compelling meditation on the nature of revolution and the devastating results of fear. Here, Kapuscinski describes the tyrannical monarch, who, despite his cruel oppression of the Iranian people, sees himself as the father of a nation, who can turn a backward country into a great power - a vain hope that proves a complete failure. Yet even as Iran becomes a 'behemoth of riches' and as the Shah lives like a European billionaire, its people live in a climate of fear, terrorized by the secret police. Told with intense power and feeling, Kapuscinski portrays the inevitable build-up to revolution - a cataclysmic upheaval that delivered Iran into the rule of the Ayatollah Khomeini.",,Nonfiction
 The Tanners,Robert Walser,1907,Switzerland,Western Europe,Europe,,German,350,"The Tanners, Robert Walser’s amazing 1907 novel of twenty chapters, is now presented in English for the very first time, by the award-winning translator Susan Bernofsky. Three brothers and a sister comprise the Tanner family—Simon, Kaspar, Klaus, and Hedwig: their wanderings, meetings, separations, quarrels, romances, employment and lack of employment over the course of a year or two are the threads from which Walser weaves his airy, strange and brightly gorgeous fabric. “Walser’s lightness is lighter than light,” as Tom Whalen said in Bookforum: “buoyant up to and beyond belief, terrifyingly light.”
 
 
@@ -47,8 +333,7 @@ A Writer’s Diary,Fyodor Dostoevsky,1881,Russia,Eastern Europe,Europe,,Russian,
 The Gulag Archipelago,Aleksandr Solzhenitsyn,1973,Russia,Eastern Europe,Europe,,Russian,500,A book from Russia.,,Nonfiction
 A Writer at War,Vasily Grossman,1945,Russia,Eastern Europe,Europe,,Russian,350,A book from Russia.,,Nonfiction
 The Italics Are Mine,Nina Berberova,1969,Russia,Eastern Europe,Europe,,Russian,600,A book from Russia.,,Nonfiction
-The Little Virtues,Natalia Ginzburg,1962,Italy,Southern Europe,Europe,,Italian,160,,,Nonfiction
-Eichmann in Jerusalem,Hannah Arendt,1963,Germany,Western Europe,Europe,,English,300,A book from Germany.,,Novel
+Eichmann in Jerusalem,Hannah Arendt,1963,Germany,Western Europe,Europe,1,English,300,A book from Germany.,,Nonfiction
 The Diaries of Victor Klemperer,Victor Klemperer,1945,Germany,Western Europe,Europe,,German,800,A book from Germany.,,Nonfiction
 Still Alive,Ruth Kluger,1992,Austria,Western Europe,Europe,,German,220,A book from Austria.,,Nonfiction
 Poetry and Truth,Goethe,1814,Germany,Western Europe,Europe,,German,600,A book from Germany.,,Nonfiction
@@ -56,7 +341,6 @@ Berlin Childhood around 1900,Walter Benjamin,1950,Germany,Western Europe,Europe,
 Minima Moralia,Theodor Adorno,1951,Germany,Western Europe,Europe,,German,250,A book from Germany.,,Nonfiction
 Tristes Tropiques,Claude Levi-Strauss,1955,France,Western Europe,Europe,,French,400,A book from France.,,Nonfiction
 The Living Mountain,Nan Shepherd,1977,UK,Northern Europe,Europe,,English,120,A book from UK.,,Nonfiction
-Pilgrim at Tinker Creek,Annie Dillard,1974,USA,Northern America,North America,,English,300,A book from USA.,,Novel
 Zami: A New Spelling of My Name,Audre Lorde,1982,USA,Northern America,North America,,English,260,A book from USA.,,Nonfiction
 The Narrative of Sojourner Truth,Sojourner Truth,1850,USA,Northern America,North America,,English,120,,,Nonfiction
 Testament of Youth,Vera Brittain,1933,UK,Northern Europe,Europe,,English,688,,,Nonfiction
@@ -72,13 +356,9 @@ The Baburnama,Babur,1530,Uzbekistan,Central Asia,Asia,,Chagatai Turkish,600,A bo
 The Life of Teresa of Ávila,Teresa of Avila,1565,Spain,Southern Europe,Europe,,Spanish,400,A book from Spain.,,Nonfiction
 Essays,Francis Bacon,1625,UK,Northern Europe,Europe,,English,200,A book from UK.,,Nonfiction
 Pensées,Blaise Pascal,1670,France,Western Europe,Europe,,French,368,"Blaise Pascal, the precociously brilliant contemporary of Descartes, was a gifted mathematician and physicist, but it is his unfinished apologia for the Christian religion upon which his reputation now rests. The Penseés is a collection of philosohical fragments, notes and essays in which Pascal explores the contradictions of human nature in pscyhological, social, metaphysical and - above all - theological terms. Mankind emerges from Pascal's analysis as a wretched and desolate creature within an impersonal universe, but who can be transformed through faith in God's grace.",,Nonfiction
-Selected Letters,Madame de Sevigne,1696,France,Western Europe,Europe,,French,300,A book from France.,,Nonfiction
-Lives of the Poets,Samuel Johnson,1781,UK,Northern Europe,Europe,,English,800,A book from UK.,,Nonfiction
 The Interesting Narrative,Olaudah Equiano,1789,Nigeria,Western Africa,Africa,,English,250,A book from Nigeria/UK.,,Nonfiction
 The Waste Books,Georg Christoph Lichtenberg,1799,Germany,Western Europe,Europe,,German,400,A book from Germany.,,Nonfiction
 Facundo,Domingo Faustino Sarmiento,1845,Argentina,South America,South America,,Spanish,300,A book from Argentina.,,Nonfiction
-Essays,Ralph Waldo Emerson,1844,USA,Northern America,North America,,English,400,A book from USA.,,Nonfiction
-The Painter of Modern Life,Charles Baudelaire,1863,France,Western Europe,Europe,,French,128,"Poet, aesthete and hedonist, Baudelaire was also one of the most groundbreaking art critics of his time. Here he explores beauty, fashion, dandyism, the purpose of art and the role of the artist, and describes the painter who, for him, expresses most fully the drama of modern life.",,Nonfiction
 The Gay Science,Friedrich Nietzsche,1882,Germany,Western Europe,Europe,,German,300,A book from Germany.,,Nonfiction
 Rebellion in the Backlands,Euclides da Cunha,1902,Brazil,South America,South America,,Portuguese,560,"Written by a former army lieutenant, civil engineer, and journalist, Backlands is Euclides da Cunha's vivid and poignant portrayal of Brazil's infamous War of Canudos. The deadliest civil war in Brazilian history, the conflict during the 1890s was between the government and the village of Canudos in the northeastern state of Bahia, which had been settled by 30,000 followers of the religious zealot Antonio Conselheiro. Far from just an objective retelling, da Cunha's story shows both the significance of this event and the complexities of Brazilian society.",,Nonfiction
 Selected Writings,Jose Marti,1891,Cuba,Caribbean,North America,,Spanish,200,"José Martí (1853-1895) is the most renowned political and literary figure in the history of Cuba. A poet, essayist, orator, statesman, abolitionist, and the martyred revolutionary leader of Cuba's fight for independence from Spain, Martí lived in exile in New York for most of his adult life, earning his living working as a foreign correspondent. Throughout the 1880s and early 1890s, Martí's were the eyes through which much of Latin America saw the United States. His impassioned, kaleidoscopic evocations of that period in U.S. history, the assassination of James Garfield, the opening of the Brooklyn Bridge, the execution of the Chicago anarchists, the lynching of the Italians in New Orleans, and much more, bring it rushing back to life.
@@ -95,8 +375,6 @@ Nothing evokes the calm and nuance of the traditional Japanese aesthetic more pr
 ‘Tanazaki suggests an attitude of appreciation and mindfulness, especially mindfulness of beauty, as central to life lived well’ AC Grayling, Guardian",,Nonfiction
 The Sea Does Not Reach Naples,Anna Maria Ortese,1953,Italy,Southern Europe,Europe,,Italian,200,A book from Italy.,,Nonfiction
 Six Memos for the Next Millennium,Italo Calvino,1988,Italy,Southern Europe,Europe,,Italian,185,A book from Italy.,,Nonfiction
-Travels in Hyperreality,Umberto Eco,1986,Italy,Southern Europe,Europe,,Italian,250,A book from Italy.,,Nonfiction
-Infância,Graciliano Ramos,1945,Brazil,South America,South America,,Portuguese,352,"Infância retrata os primórdios da vida de Graciliano Ramos, um dos maiores autores da literatura nacional, em um novo projeto gráfico.Literário e autobiográfico, Infância retrata as memórias de Graciliano Ramos dos tempos de menino até a adolescência no interior de Alagoas, ao mesmo tempo que acompanha sua formação como leitor e os primeiros passos como autor. Os textos, relatos independentes elaborados entre 1936 e 1944, não foram escritos na ordem em que se encontram organizados neste volume, o que confere à narrativa um tom folhetinesco típico da narrativa oral. A poética das memórias une a hesitação do narrador ao cuidadoso trabalho de refino do texto, que é característico de Graciliano Ramos, evidenciando porque ele é um dos maiores autores brasileiros de todos os tempos.",,Nonfiction
 Child of the Dark,Carolina Maria de Jesus,1960,Brazil,South America,South America,,Portuguese,190,A book from Brazil.,,Nonfiction
 Too Much of Life,Clarice Lispector,1984,Brazil,South America,South America,,Portuguese,550,A book from Brazil.,,Nonfiction
 The Labyrinth of Solitude,Octavio Paz,1950,Mexico,Central America,North America,,Spanish,250,A book from Mexico.,,Nonfiction
@@ -110,12 +388,10 @@ Selected Non-Fictions presents more than 160 of these astonishing writings, from
 Night,Elie Wiesel,1960,Romania,Eastern Europe,Europe,1,French,120,A book from Romania.,,Nonfiction
 The Copenhagen Trilogy,Tove Ditlevsen,1971,Denmark,Northern Europe,Europe,,Danish,380,A book from Denmark.,,Nonfiction
 Hiroshima,John Hersey,1946,USA,Northern America,North America,1,English,200,A book from USA.,,Nonfiction
-The Way to Rainy Mountain,N. Scott Momaday,1969,USA,Northern America,North America,,English,100,A book from USA.,,Stories
+The Way to Rainy Mountain,N. Scott Momaday,1969,USA,Northern America,North America,,English,100,A book from USA.,,Nonfiction
 Silent Spring,Rachel Carson,1962,USA,Northern America,North America,,English,368,A book from USA.,,Nonfiction
-Dancing at the Edge of the World,Ursula K. Le Guin,1989,USA,Northern America,North America,,English,320,A book from USA.,,Nonfiction
 The Peregrine,J.A. Baker,1967,UK,Northern Europe,Europe,,English,190,A book from UK.,,Nonfiction
 A Time of Gifts,Patrick Leigh Fermor,1977,UK,Northern Europe,Europe,,English,400,A book from UK.,,Nonfiction
-The Imam and the Indian,Amitav Ghosh,2002,India,Southern Asia,Asia,,English,350,A book from India.,,Nonfiction
 Istanbul,Orhan Pamuk,2003,Turkey,Western Asia,Asia,,Turkish,350,A book from Turkey.,,Nonfiction
 Out of Place,Edward Said,1999,Palestine,Western Asia,Asia,,English,320,A book from Palestine.,,Nonfiction
 These Voices That Besiege Me,Assia Djebar,1999,Algeria,Northern Africa,Africa,,French,200,A book from Algeria.,,Nonfiction
@@ -124,7 +400,6 @@ Country of My Skull,Antjie Krog,1998,South Africa,Southern Africa,Africa,,Englis
 The Return,Hisham Matar,2016,Libya,Northern Africa,Africa,,English,250,A book from Libya.,,Nonfiction
 In My Father's Court,Isaac Bashevis Singer,1966,Poland,Eastern Europe,Europe,,Yiddish,307,A book from Poland/USA.,,Nonfiction
 The Sabbath,Abraham Joshua Heschel,1951,USA,Northern America,North America,,English,100,A book from Poland/USA.,,Nonfiction
-Writing in the Dark,David Grossman,2008,Israel,Western Asia,Asia,,Hebrew,130,A book from Israel.,,Nonfiction
 Chernobyl Prayer,Svetlana Alexievich,1997,Belarus,Eastern Europe,Europe,,Russian,304,"'Desperately important and impossible to put down. It is timeless. . . what shines clear from the testimonies is love - love which can make you do the most spectacular things ' Sheena Patel, Observer
 
 '- A new translation of Voices from Chernobyl based on the revised version -
@@ -176,7 +451,7 @@ The Cloven Viscount,Italo Calvino,1962,Italy,Southern Europe,Europe,1,Italian,10
 The Lake of the Bees,Theodor Storm,1891,Germany,Western Europe,Europe,,German,120,"Described by the author himself as a “pearl of German poetry,” The Lake of the Bees is one of his earliest novellas. In it, he explores the bittersweet sorrow of memory. An old man looks back on his life and remembers Elizabeth—the only woman he ever loved. The two of them had shared their childhood, shared their summer holidays and family picnics. Yet somehow all had been lost—the joy, excitement, and hope slowly replaced by the melancholy, resignation, and inertia that comes from broken dreams. Now, at the end of his life, he is left only with the knowledge of what might have been. Theodor Storm is a leading figure of German Poetic Realism; his novellas are some of the finest in German literature.",,Novella
 Notes of a Desolate Man,Chu T'ien-wen,1999,Taiwan,Eastern Asia,Asia,,English,184,,,Novel
 Sanatorium Under the Sign of the Hourglass,Bruno Schulz,1937,Poland,Eastern Europe,Europe,,German,200,A book from Poland.,,Stories
-The Old Woman and the River,Ismail Fahd Ismail,2015,Kuwait,Western Asia,Asia,,Arabic,161,"After the ceasefire in 1988, the devastation to the landscape of Iraq wrought by the longest war of the twentieth century—the Iran-Iraq War—becomes visible. Eight years of fighting have turned nature upside down, with vast wastelands being left behind. In southeastern Iraq, along the shores of the Shatt al-Arab River, the groves of date palm trees have withered. No longer bearing fruit, their leaves have turned a bright yellow. There, Iraqi forces had blocked the entry points of the river’s tributaries and streams, preventing water from flowing to the trees and vegetation. Yet, surveying this destruction from the sky, a strip of land bursting with green can be seen. Beginning from the Shatt al-Arab River and reaching to the fringes of the western desert, several kilometers wide, it appears as a lush oasis of some kind. The secret of this fertility, sustaining villages and remaining soldiers, is unclear. But it is said that one old woman is responsible for this lifeline.",,Novel
+The Old Woman and the River,Ismail Fahd Ismail,2015,Kuwait,Western Asia,Asia,,Arabic,161,"After the ceasefire in 1988, the devastation to the landscape of Iraq wrought by the longest war of the twentieth century—the Iran-Iraq War��becomes visible. Eight years of fighting have turned nature upside down, with vast wastelands being left behind. In southeastern Iraq, along the shores of the Shatt al-Arab River, the groves of date palm trees have withered. No longer bearing fruit, their leaves have turned a bright yellow. There, Iraqi forces had blocked the entry points of the river’s tributaries and streams, preventing water from flowing to the trees and vegetation. Yet, surveying this destruction from the sky, a strip of land bursting with green can be seen. Beginning from the Shatt al-Arab River and reaching to the fringes of the western desert, several kilometers wide, it appears as a lush oasis of some kind. The secret of this fertility, sustaining villages and remaining soldiers, is unclear. But it is said that one old woman is responsible for this lifeline.",,Novel
 The Gambler,Fyodor Dostoevsky,1867,Russia,Eastern Europe,Europe,,Russian,188,"In this dark and compelling short novel, Dostoevsky tells the story of Alexey Ivanovitch, a young tutor working in the household of an imperious Russian general. Alexey tries to break through the wall of the established order in Russia, but instead becomes mired in the endless downward spiral of betting and loss. His intense and inescapable addiction is accentuated by his affair with the General’s cruel yet seductively adept niece, Polina. In The Gambler, Dostoevsky reaches the heights of drama with this stunning psychological portrait.",,Novel
 Poor Folk,Fyodor Dostoevsky,1846,Russia,Eastern Europe,Europe,,Russian,144,A book from Russia.,,Novella
 The Double Death of Quincas Water-Bray,Jorge Amado,1961,Brazil,South America,South America,,Portuguese,96,A book from Brazil.,,Novella
@@ -248,7 +523,6 @@ The Mezzanine,Nicholson Baker,1988,USA,Northern America,North America,,English,1
 Train Dreams,Denis Johnson,2002,USA,Northern America,North America,,English,116,A book from USA.,,Novella
 Foster,Claire Keegan,2010,Ireland,Northern Europe,Europe,,English,96,A book from Ireland.,,Novella
 Small Things Like These,Claire Keegan,2021,Ireland,Northern Europe,Europe,,English,128,A book from Ireland.,,Novella
-The Employees,Olga Ravn,2018,Denmark,Northern Europe,Europe,1,Danish,136,A book from Denmark.,,Novella
 The Walk,Robert Walser,1917,Switzerland,Western Europe,Europe,,German,88,"A pseudo-biographical ""stroll"" through town and countryside rife with philosophic musings, The Walk has been hailed as the masterpiece of Walser's short prose. Walking features heavily in his writing, but nowhere else is it as elegantly considered. Without walking, ""I would be dead,"" Walser explains, ""and my profession, which I love passionately, would be destroyed. Because it is on walks that the lore of nature and the lore of the country are revealed, charming and graceful, to the sense and eyes of the observant walker."" The Walk was the first piece of Walser's work to appear in English, and the only one translated before his death. However, Walser heavily revised his most famous novella, altering nearly every sentence, rendering the baroque tone of his tale into something more spare.",,Novella
 The Enchanted Wanderer,Nikolai Leskov,1873,Russia,Eastern Europe,Europe,,Russian,144,A book from Russia.,,Novella
 Villon’s Wife,Osamu Dazai,1947,Japan,Eastern Asia,Asia,,Japanese,93,A book from Japan.,,Stories
@@ -319,7 +593,7 @@ The Girls of Slender Means,Muriel Spark,1963,UK,Northern Europe,Europe,,English,
 The Queue,Basma Abdel Aziz,2013,Egypt,Northern Africa,Africa,,Arabic,224,A book from Egypt.,,Novel
 The Shrouded Woman,Maria Luisa Bombal,1938,Chile,South America,South America,,Spanish,176,A book from Chile.,,Novel
 Son of a Thief,Manuel Rojas,1951,Chile,South America,South America,,Spanish,320,A book from Chile.,,Novel
-Ways of Going Home,Alejandro Zambra,2011,Chile,South America,South America,,Spanish,160,A book from Chile.,,Novel
+Ways of Going Home,Alejandro Zambra,2011,Chile,South America,South America,1,Spanish,160,A book from Chile.,,Novel
 The Remainder,Alia Trabucco Zeran,2015,Chile,South America,South America,,Spanish,256,A book from Chile.,,Novel
 The Serious Game,Hjalmar Soderberg,1912,Sweden,Northern Europe,Europe,,Swedish,288,A book from Sweden.,,Novel
 The People of Hemsö,August Strindberg,1887,Sweden,Northern Europe,Europe,,Swedish,176,A book from Sweden.,,Novel
@@ -344,7 +618,6 @@ Adrian Leverkuhn, a former theological student who has become a composer, enters
 The Conformist,Alberto Moravia,1951,Italy,Southern Europe,Europe,,Italian,320,A book from Italy.,,Novel
 Rubè,Giuseppe Antonio Borgese,1921,Italy,Southern Europe,Europe,,Italian,400,A book from Italy.,,Novel
 The Things We Used to Say,Natalia Ginzburg,1969,Italy,Southern Europe,Europe,,Italian,288,A book from Italy.,,Novel
-The Viceroys,Federico De Roberto,1894,Italy,Southern Europe,Europe,,Italian,672,A book from Italy.,,Novel
 Touba and the Meaning of Night,Shahrnush Parsipur,1989,Iran,Southern Asia,Asia,,Persian,367,A book from Iran.,,Novel
 The Tale of Hansuli Turn,Tarashankar Bandyopadhyay,1951,India,Southern Asia,Asia,,Bengali,405,A book from India.,,Novel
 A Dream in Polar Fog,Yuri Rytkheu,1970,Russia,Eastern Europe,Europe,,Russian,337,A book from /Russia.,,Novel
@@ -392,14 +665,13 @@ Physics of Sorrow will appeal to fans of Dave Eggers, Tom McCarthy, and Dubravka
 Beatus Ille,Antonio Munoz Molina,1986,Spain,Southern Europe,Europe,,Spanish,302,A book from Spain.,,Novel
 The Beautiful Things That Heaven Bears,Dinaw Mengestu,2007,Ethiopia,Eastern Africa,Africa,,English,228,A book from Ethiopia.,,Novel
 The Murderess,Alexandros Papadiamantis,1903,Greece,Southern Europe,Europe,,Greek,151,A book from Greece.,,Novel
-Drifting Cities,Stratis Tsirkas,1965,Greece,Southern Europe,Europe,,Greek,740,A book from Greece.,,Novel
 Ion,Liviu Rebreanu,1920,Romania,Eastern Europe,Europe,,Romanian,408,A book from Romania.,,Novel
 The Hallipa Concert,Hortensia Papadat-Bengescu,1938,Romania,Eastern Europe,Europe,,Romanian,320,A book from Romania.,,Novel
 The Disconnected,Oguz Atay,1972,Turkey,Western Asia,Asia,,Turkish,714,"The Disconnected was the first book of Oguz Atay (1934-1977), and was before its time. First published in 1972 it was a cult book among younger writers, but he never saw a second printing before his premature death. Since it was reprinted in 1984 it has gone through more than 70 editions, and is widely reckoned to be the most important book in modern Turkish literature.
 
 “My life was a game, but I wanted it to be taken seriously,” says Selim, the anti-hero of the novel. But the game has a terrible end with his suicide, and his friend Turgut’s quest to understand this is the story of the book. He meets friends whom Selim had kept separate from each other, he finds documents in a kaleidoscopic variety of styles, sometimes hugely funny, sometimes very moving, as Selim rails against the ugliness of his world whether in satire or in a howl of anguish, taking refuge in words and loneliness.
 
-Under layers of fantasy is the central concept of the Disconnected, tutunamayanlar, literally ‘those who cannot hold on’, poor souls among whom he counts himself, whose sole virtue is that they do not fit into society as it is constituted. He will be their messiah, at whose second coming they will change places with the comfortable of the world. Confronted with this Turgut sees the faultline in his conventional middle class life, and that he too is one of the Disconnected: he takes a train into Anatolia and ‘vanishes’.What could have been a bleak vision of alienation is transformed by the power of language and the imagination.",,Novel
+Under layers of fantasy is the central concept of the Disconnected, tutunamayanlar, literally ‘those who cannot hold on’, poor souls among whom he counts himself, whose sole virtue is that they do not fit into society as it is constituted. He will be their messiah, at whose second coming they will change places with the comfortable of the world. Confronted with this Turgut sees the faultline in his conventional middle class life, and that he too is one of the Disconnected: he takes a train into Anatolia and ‘vanishes���.What could have been a bleak vision of alienation is transformed by the power of language and the imagination.",,Novel
 Les Vigiles,Tahar Djaout,1991,Algeria,Northern Africa,Africa,,French,182,A book from Algeria.,,Novel
 The Discovery of Heaven,Harry Mulisch,1992,Netherlands,Western Europe,Europe,,Dutch,730,A book from Netherlands.,,Novel
 The Twin,Gerbrand Bakker,2006,Netherlands,Western Europe,Europe,,Dutch,343,A book from Netherlands.,,Novel
@@ -412,26 +684,21 @@ Nightwood,Djuna Barnes,1936,USA,Northern America,North America,,English,235,A bo
 The White Tiger,Aravind Adiga,2008,India,Southern Asia,Asia,,English,321,A book from India.,,Novel
 Americanah,Chimamanda Ngozi Adichie,2013,Nigeria,Western Africa,Africa,,English,477,A book from Nigeria.,,Novel
 The Doll,Boleslaw Prus,1890,Poland,Eastern Europe,Europe,,Polish,750,A book from Poland.,,Novel
-Tom Jones,Henry Fielding,1749,UK,Northern Europe,Europe,,English,832,A book from England.,,Novel
 The Mill on the Floss,George Eliot,1860,UK,Northern Europe,Europe,,English,518,A book from England.,,Novel
 The Secret Agent,Joseph Conrad,1907,UK,Northern Europe,Europe,,English,254,A book from England.,,Novel
 Women in Love,D.H. Lawrence,1920,UK,Northern Europe,Europe,,English,498,A book from England.,,Novel
-A Passage to India,E.M. Forster,1924,UK,Northern Europe,Europe,,English,362,A book from England.,,Novel
 The House of Mirth,Edith Wharton,1905,USA,Northern America,North America,,English,351,A book from USA.,,Novel
 Light in August,William Faulkner,1932,USA,Northern America,North America,,English,512,A book from USA.,,Novel
 Call It Sleep,Henry Roth,1934,USA,Northern America,North America,,English,462,A book from USA.,,Novel
 The Golovlyov Family,Mikhail Saltykov-Shchedrin,1880,Russia,Eastern Europe,Europe,,Russian,304,A book from Russia.,,Novel
 The Gift,Vladimir Nabokov,1938,Russia,Eastern Europe,Europe,,Russian,378,A book from Russia.,,Novel
 The Life of Arseniev,Ivan Bunin,1939,Russia,Eastern Europe,Europe,,Russian,270,A book from Russia.,,Novel
-Quiet Flows the Don,Mikhail Sholokhov,1940,Russia,Eastern Europe,Europe,,Russian,1520,A book from Russia.,,Novel
 Pushkin House,Andrei Bitov,1978,Russia,Eastern Europe,Europe,,Russian,360,A book from Russia.,,Novel
 The Human Beast,Emile Zola,1890,France,Western Europe,Europe,,French,386,A book from France.,,Novel
 The Man Without Qualities,Robert Musil,1930,Austria,Western Europe,Europe,,German,1130,A book from Austria.,,Novel
 The Green Henry,Gottfried Keller,1854,Switzerland,Western Europe,Europe,,German,602,A book from Switzerland.,,Novel
-The Betrothed,Alessandro Manzoni,1827,Italy,Southern Europe,Europe,,Italian,720,A book from Italy.,,Novel
 O Ateneu,Raul Pompeia,1888,Brazil,South America,South America,,Portuguese,192,A book from Brazil.,,Novel
 Quincas Borba,Machado de Assis,1891,Brazil,South America,South America,,Portuguese,264,A book from Brazil.,,Novel
-Angústia,Graciliano Ramos,1936,Brazil,South America,South America,,Portuguese,232,A book from Brazil.,,Novel
 Incidente em Antares,Erico Verissimo,1971,Brazil,South America,South America,,Portuguese,332,A book from Brazil.,,Novel
 La Región más Transparente,Carlos Fuentes,1958,Mexico,Central America,North America,,Spanish,371,A book from Mexico.,,Novel
 Adán Buenosayres,Leopoldo Marechal,1948,Argentina,South America,South America,,Spanish,600,A book from Argentina.,,Novel
@@ -440,7 +707,6 @@ Glosa,Juan Jose Saer,1986,Argentina,South America,South America,,Spanish,267,A b
 Noticias del Imperio,Fernando del Paso,1987,Mexico,Central America,North America,,Spanish,669,A book from Mexico.,,Novel
 The Family Mashber,Der Nister,1939,Ukraine,Eastern Europe,Europe,,Yiddish,636,A book from USSR.,,Novel
 To the End of the Land,David Grossman,2008,Israel,Western Asia,Asia,,Hebrew,592,A book from Israel.,,Novel
-Mister Mani,A.B. Yehoshua,1989,Israel,Western Asia,Asia,,Hebrew,369,A book from Israel.,,Novel
 Life with a Star,Jiri Weil,1949,Czechia,Eastern Europe,Europe,,Czech,216,A book from Czechia.,,Novel
 The Wishing Tree,Konstantine Gamsakhurdia,1956,Georgia,Western Asia,Asia,,Georgian,520,A book from Georgia.,,Novel
 Tobacco,Dimitar Dimov,1951,Bulgaria,Eastern Europe,Europe,,Bulgarian,480,A book from Bulgaria.,,Novel
@@ -448,7 +714,6 @@ The Rock of Sisyphus,Hrant Matevosyan,1975,Armenia,Western Asia,Asia,,Armenian,2
 Sanshiro,Natsume Soseki,1908,Japan,Eastern Asia,Asia,,Japanese,256,A book from Japan.,,Novel
 A Dark Night’s Passing,Shiga Naoya,1937,Japan,Eastern Asia,Asia,,Japanese,404,A book from Japan.,,Novel
 The Key,Junichiro Tanizaki,1956,Japan,Eastern Asia,Asia,,Japanese,183,A book from Japan.,,Novel
-Life and Death Are Wearing Me Out,Mo Yan,2006,China,Eastern Asia,Asia,,Mandarin,560,A book from China.,,Novel
 The Scholars,Wu Jingzi,1750,China,Eastern Asia,Asia,,Mandarin,670,A book from China.,,Novel
 Turkish Delight,Jan Wolkers,1969,Netherlands,Western Europe,Europe,,Dutch,192,A book from Netherlands.,,Novel
 The Sorrow of Belgium,Hugo Claus,1983,Belgium,Western Europe,Europe,,Dutch,608,A book from Belgium.,,Novel
@@ -488,7 +753,6 @@ Alamut,Vladimir Bartol,1938,Slovenia,Southern Europe,Europe,,Slovenian,384,A boo
 Ifigenia,Teresa de la Parra,1924,Venezuela,South America,South America,,Spanish,350,A book from Venezuela.,,Novel
 País portátil,Adriano Gonzalez Leon,1968,Venezuela,South America,South America,,Spanish,320,A book from Venezuela.,,Novel
 Casas muertas,Miguel Otero Silva,1955,Venezuela,South America,South America,,Spanish,300,A book from Venezuela.,,Novel
-In the United States of Africa,Abdourahman Waberi,2006,Djibouti,Eastern Africa,Africa,,French,128,A book from Djibouti.,,Novella
 The Scents of Marie-Claire,Habib Selmi,2008,Tunisia,Northern Africa,Africa,,Arabic,144,A book from Tunisia.,,Novella
 A Tunisian Tale,Hassouna Mosbahi,1952,Tunisia,Northern Africa,Africa,,Arabic,160,A book from Tunisia.,,Novel
 Alindarka’s Children,Alhierd Bacharevic,2014,Belarus,Eastern Europe,Europe,,Russian,184,A book from Belarus.,,Novel
@@ -715,7 +979,6 @@ Dancing Lessons for the Advanced in Age,Bohumil Hrabal,1964,Czechia,Eastern Euro
 The Fall of the King,Johannes V. Jensen,1900,Denmark,Northern Europe,Europe,,Danish,237,,,Novel
 Havoc,Tom Kristensen,1930,Denmark,Northern Europe,Europe,,Danish,547,,,Novel
 Niels Lyhne,J. P. Jacobsen,1880,Denmark,Northern Europe,Europe,,Danish,243,"An award-winning translation of the influential Danish master Niels Lyhne is an aspiring poet, torn between romanticism and realism, faith and reason. Through his relationships with six women—including his young widowed aunt, a seductive free spirit, and his passionate cousin who marries his friend—his search for purpose becomes a yielding to disillusionment. One of Danish literature's greatest novels, with nods to Kierkegaard and a protagonist some critics have compared to Hamlet, Jacobsen's masterpiece has at its center a young man who faces the anguish of the human condition but cannot find comfort in the Christian faith. Tiina Nunnally's award-winning translation offers readers a chance to experience anew a writer deeply revered by Rilke, Ibsen, Mann, and Hesse.",,Novel
-Lucky Per,Henrik Pontoppidan,1904,Denmark,Northern Europe,Europe,,Danish,664,"This monumental Danish Bildungsroman follows Per Sidenius, a deeply ambitious young man from a strict, conservative clergyman family who escapes his provincial upbringing to become an engineer in Copenhagen. Per dreams of a colossal canal and harbor project that will modernize Denmark, and rises through high society by marrying into a wealthy Jewish family. However, Per's pride, existential dread, and deep-seated religious guilt eventually sabotage his ambitions, leading him to abandon his wealth and retreat to a quiet, solitary life as a country road inspector, exploring the true nature of happiness.",,Novel
 The Faces,Tove Ditlevsen,1968,Denmark,Northern Europe,Europe,,Danish,152,,,Novel
 Passage of Tears,Abdourahman Waberi,2009,Djibouti,Eastern Africa,Africa,,French,224,,,Novel
 Wide Sargasso Sea,Jean Rhys,1966,Dominica,Caribbean,North America,,English,189,"Jean Rhys's reputation was made upon the publication of this passionate and heartbreaking novel, in which she brings into the light one of fiction's most mysterious characters: the madwoman in the attic from Charlotte Brontë's Jane Eyre. A sensual and protected young woman, Antoinette Cosway grows up in the lush natural world of the Caribbean. She is sold into marriage to the coldhearted and prideful Rochester, who succumbs to his need for money and his lust. Yet he will make her pay for her ancestors' sins of slaveholding, excessive drinking, and nihilistic despair by enslaving her as a prisoner in his bleak English home. In this best-selling novel Rhys portrays a society so driven by hatred, so skewed in its sexual relations, that it can literally drive a woman out of her mind.",,Novel
@@ -1077,7 +1340,7 @@ Signs Preceding the End of the World,Yuri Herrera,2009,Mexico,Central America,No
 No One Will See Me Cry,Cristina Rivera Garza,1999,Mexico,Central America,North America,,Spanish,240,,,Novel
 Farabeuf,Salvador Elizondo,1965,Mexico,Central America,North America,,Spanish,176,,,Novel
 The Empty Book,Josefina Vicens,1958,Mexico,Central America,North America,,Spanish,123,,,Novella
-Balún Canán,Rosario Castellanos,1957,Mexico,Central America,North America,,Spanish,291,"Em Balún Canán, Rosario Castellanos reconstrói o Chiapas pós-revolucionário a partir do olhar de uma menina que tenta compreender as tensões que atravessam sua família e a sociedade à sua volta. Filha de latifundiários em decadência, ela testemunha o choque entre indígenas e ladinos, a imposição brutal do patriarcado e o esfacelamento de um mundo sustentado por privilégios e violências históricas. À medida que a reforma agrária avança e as hierarquias tradicionais se desestabilizam, emergem conflitos políticos, crenças mágicas, abusos, silenciamentos e pequenas revelações íntimas que moldam sua visão ética do mundo. Castellanos tece um romance de formação marcado por crítica social, lirismo e profunda empatia pelas personagens indígenas, revelando as cicatrizes coloniais que ainda estruturam a vida no sul do México. Rosario Castellanos (1925–1974) foi uma das vozes centrais da literatura mexicana do século XX. Escritora, poeta, ensa��sta e diplomata, destacou-se por abordar temas como gênero, colonialidade e conflitos culturais no sul do México, especialmente em Chiapas. Sua obra — que inclui Balún Canán, Oficio de tinieblas, contos, poemas e ensaios fundamentais — combina rigor intelectual, sensibilidade e crítica social. Pioneira do feminismo latino-americano, Castellanos tornou-se referência incontornável na discussão sobre identidade, poder e a condição das mulheres no México.",,Novel
+Balún Canán,Rosario Castellanos,1957,Mexico,Central America,North America,,Spanish,291,"Em Balún Canán, Rosario Castellanos reconstrói o Chiapas pós-revolucionário a partir do olhar de uma menina que tenta compreender as tensões que atravessam sua família e a sociedade à sua volta. Filha de latifundiários em decadência, ela testemunha o choque entre indígenas e ladinos, a imposi��ão brutal do patriarcado e o esfacelamento de um mundo sustentado por privilégios e violências históricas. À medida que a reforma agrária avança e as hierarquias tradicionais se desestabilizam, emergem conflitos políticos, crenças mágicas, abusos, silenciamentos e pequenas revelações íntimas que moldam sua visão ética do mundo. Castellanos tece um romance de formação marcado por crítica social, lirismo e profunda empatia pelas personagens indígenas, revelando as cicatrizes coloniais que ainda estruturam a vida no sul do México. Rosario Castellanos (1925–1974) foi uma das vozes centrais da literatura mexicana do século XX. Escritora, poeta, ensa��sta e diplomata, destacou-se por abordar temas como gênero, colonialidade e conflitos culturais no sul do México, especialmente em Chiapas. Sua obra — que inclui Balún Canán, Oficio de tinieblas, contos, poemas e ensaios fundamentais — combina rigor intelectual, sensibilidade e crítica social. Pioneira do feminismo latino-americano, Castellanos tornou-se referência incontornável na discussão sobre identidade, poder e a condição das mulheres no México.",,Novel
 Aura,Carlos Fuentes,1962,Mexico,Central America,North America,1,Spanish,145,"Felipe Montero is employed in the house of an aged widow to edit her deceased husband's memoirs. There Felipe meets her beautiful green-eyed niece, Aura. His passion for Aura and his gradual discovery of the true relationship between the young woman and her aunt propel the story to its extraordinary conclusion.",,Novella
 The Death of Artemio Cruz,Carlos Fuentes,1962,Mexico,Central America,North America,,Spanish,307,"Immerse yourself in the extraordinary life of Artemio Cruz, a powerful newspaper magnate and land baron, as he navigates the blurred boundaries between dreams, memories, and reality. On his deathbed, Cruz's thoughts flit among pivotal moments crafted by renowned author Carlos Fuentes, offering glimpses into a world of magical realism. Author Carlos Fuentes manipulates the ensuing kaleidoscope of images with dazzling inventiveness, layering memory upon memory, from Cruz's heroic campaigns during the Mexican Revolution, through his relentless climb from poverty to wealth, to his uneasy death. Perhaps Fuentes's masterpiece, The Death of Artemio Cruz is a haunting voyage into the soul of modern Mexico.",,Novel
 The Book of Lamentations,Rosario Castellanos,1962,Mexico,Central America,North America,,Spanish,368,"Meticulously reconstructing a nineteenth-century Tzotzil Mayan rebellion in the highlands of Chiapas, this powerful novel explores the deep, historical wounds of racial and gender oppression in Mexico. The plot centers on Catalina Díaz Puiljá, a childless Tzotzil woman who becomes a powerful, spiritual prophetess, creating clay idols and leading her people in an armed revolt against the wealthy, abusive white landowners. Castellanos's rich, realistic prose dissects the complex power dynamics of the region, delivering a brilliant, tragic critique of systemic racism, land dispossession, and the marginalization of indigenous women.",,Novel
@@ -1300,7 +1563,7 @@ Death in Spring,Merce Rodoreda,1986,Spain,Southern Europe,Europe,,Catalan,150,"C
 The Seven Moons of Maali Almeida,Shehan Karunatilaka,2022,Sri Lanka,Southern Asia,Asia,,English,400,"Colombo, 1990. Maali Almeida—war photographer, gambler, and closet queen—has woken up dead in what seems like a celestial visa office. His dismembered body is sinking in the serene Beira Lake and he has no idea who killed him. In a country where scores are settled by death squads, suicide bombers, and hired goons, the list of suspects is depressingly long, as the ghouls and ghosts with grudges who cluster round can attest. But even in the afterlife, time is running out for Maali. He has seven moons to contact the man and woman he loves most and lead them to the photos that will rock Sri Lanka.Ten years after his prize-winning novel Chinaman established him as one of Sri Lanka’s foremost authors, Shehan Karunatilaka is back with a “thrilling satire” (Economist) and rip-roaring state-of-the-nation epic that offers equal parts mordant wit and disturbing, profound truths.",,Novel
 Funny Boy,Shyam Selvadurai,1994,Sri Lanka,Southern Asia,Asia,,English,314,"In this remarkable debut novel, a boy’s bittersweet passage to maturity and sexual awakening is set against escalating political tensions in Sri Lanka, during the seven years leading up to the 1983 riots. Arjie Chelvaratnam is a Tamil boy growing up in an extended family in Colombo. It is through his eyes that the story unfolds and we meet a delightful, sometimes eccentric cast of characters. Arjie’s journey from the luminous simplicity of childhood days into the more intricately shaded world of adults – with its secrets, its injustices, and its capacity for violence – is a memorable one, as time and time again the true longings of the human heart are held against the way things are.",,Novel
 The Way of the Lotus,Martin Wickramasinghe,1956,Sri Lanka,Southern Asia,Asia,,English,173,"This landmark modern Sinhalese novel follows Aravinda, a sensitive, quiet intellectual who rejects the material ambitions and conventional success urged by his middle-class family. Aravinda retreats to a solitary life of asceticism, dedicating himself to self-reflection and the pursuit of spiritual peace, drawing inspiration from Buddhist philosophy. Through Aravinda's tragic, quiet decline and his relationships with those who try to save him, the novel conducts a profound, melancholic investigation into the conflict between material progress and spiritual integrity.",,Novel
-The Wedding of Zein,Tayeb Salih,1962,Sudan,Northern Africa,Africa,,Arabic,169,"“The Wedding of Zein” unfolds in the same village on the upper Nile where Tayeb Salih’s tragic masterpiece Season of Migration to the North is set. Here, however, the story that emerges through the overlapping, sometimes contradictory voices of the villagers is comic. Zein is the village idiot, and everyone in the village is dumbfounded when the news goes around that he will be getting married—Zein the freak, Zein who burst into laughter the moment he was born and has kept women and children laughing ever since, Zein who lost all his teeth at six and whose face is completely hairless, Zein married at last? Zein’s particular role in the life of the village has been the peculiar one of falling in love again and again with girls who promptly marry another man. It would be unheard of for him to get married himself. In Tayeb Salih’s wonderfully agile telling, the story of how this miracle came to be is one that engages the tensions that exist in the village, or indeed in any community: tensions between the devout and the profane, the poor and the propertied, the modern and the traditional. In the end, however, Zein’s ridiculous good luck augurs an ultimate reconciliation, opening a prospect of a world made whole. Salih’s classic novella appears here with two of his finest short stories, “The Doum Tree of Wad Hamid” and “A Handful of Dates.”",,Novel
+The Wedding of Zein,Tayeb Salih,1962,Sudan,Northern Africa,Africa,,Arabic,169,"“The Wedding of Zein” unfolds in the same village on the upper Nile where Tayeb Salih’s tragic masterpiece Season of Migration to the North is set. Here, however, the story that emerges through the overlapping, sometimes contradictory voices of the villagers is comic. Zein is the village idiot, and everyone in the village is dumbfounded when the news goes around that he will be getting married—Zein the freak, Zein who burst into laughter the moment he was born and has kept women and children laughing ever since, Zein who lost all his teeth at six and whose face is completely hairless, Zein married at last? Zein��s particular role in the life of the village has been the peculiar one of falling in love again and again with girls who promptly marry another man. It would be unheard of for him to get married himself. In Tayeb Salih’s wonderfully agile telling, the story of how this miracle came to be is one that engages the tensions that exist in the village, or indeed in any community: tensions between the devout and the profane, the poor and the propertied, the modern and the traditional. In the end, however, Zein’s ridiculous good luck augurs an ultimate reconciliation, opening a prospect of a world made whole. Salih’s classic novella appears here with two of his finest short stories, “The Doum Tree of Wad Hamid” and “A Handful of Dates.”",,Novel
 Season of Migration to the North,Tayeb Salih,1966,Sudan,Northern Africa,Africa,,Arabic,169,"After years of study in Europe, the young narrator of Season of Migration to the North returns to his village along the Nile in the Sudan. It is the 1960s, and he is eager to make a contribution to the new postcolonial life of his country. Back home, he discovers a stranger among the familiar faces of childhood—the enigmatic Mustafa Sa’eed. Mustafa takes the young man into his confidence, telling him the story of his own years in London, of his brilliant career as an economist, and of the series of fraught and deadly relationships with European women that led to a terrible public reckoning and his return to his native land. But what is the meaning of Mustafa��s shocking confession? Mustafa disappears without explanation, leaving the young man—whom he has asked to look after his wife—in an unsettled and violent no-man’s-land between Europe and Africa, tradition and innovation, holiness and defilement, and man and woman, from which no one will escape unaltered or unharmed. Season of Migration to the North is a rich and sensual work of deep honesty and incandescent lyricism. In 2001 it was selected by a panel of Arab writers and critics as the most important Arab novel of the twentieth century.",,Novel
 The Translator,Leila Aboulela,1999,Sudan,Northern Africa,Africa,,English,196,,,Novel
 The Cost of Sugar,Cynthia McLeod,1987,Suriname,South America,South America,,Dutch,288,,,Novel
@@ -1433,9 +1696,9 @@ A Walk in the Night,Alex La Guma,1962,South Africa,Southern Africa,Africa,,Engli
 The Sand Fish,Maha Gargash,2009,United Arab Emirates,Western Asia,Asia,,English,320,,,Novel
 The Dead Lake,Hamid Ismailov,2011,Uzbekistan,Central Asia,Asia,1,English,128,"A haunting Russian tale about the environmental legacy of the Cold War. Yerzhan grows up in a remote part of Soviet Kazakhstan where atomic weapons are tested. As a young boy he falls in love with the neighbour's daughter and one evening, to impress her, he dives into a forbidden lake. The radioactive water changes Yerzhan. He will never grow into a man. While the girl he loves becomes a beautiful woman. ------ Why Peirene chose to publish this book: 'Like a Grimm's fairy tale, this story transforms an innermost fear into an outward reality. We witness a prepubescent boy's secret terror of not growing up into a man. We also wander in a beautiful, fierce landscape unlike any other we find in Western literature. And by the end of Yerzhan's tale we are awe-struck by our human resilience in the face of catastrophic, man-made, follies.",,Novella
 The Hostage,Zayd Mutee Dammaj,1984,Yemen,Western Asia,Asia,,English,164,,,Novel
-Confessions,St. Augustine,400,Algeria,Northern Africa,Africa,,Latin,300,A book from Algeria/Roman Empire.,,Nonfiction
-The Symposium,Plato,-370,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Nonfiction
-Phaedrus,Plato,-370,Greece,Southern Europe,Europe,,Ancient Greek,100,A book from Greece.,,Nonfiction
+Confessions,St. Augustine,400,Ancient Rome,Southern Europe,Europe,,Latin,300,A book from Algeria/Roman Empire.,,Nonfiction
+The Symposium,Plato,370 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Nonfiction
+Phaedrus,Plato,370 BC,Greece,Southern Europe,Europe,,Ancient Greek,100,A book from Greece.,,Nonfiction
 The Pillow Book,Sei Shonagon,1002,Japan,Eastern Asia,Asia,,Japanese,300,A book from Japan.,,Nonfiction
 Essays in Idleness,Yoshida Kenko,1332,Japan,Eastern Asia,Asia,,Japanese,200,A book from Japan.,,Nonfiction
 Six Chapters of a Floating Life,Shen Fu,1809,China,Eastern Asia,Asia,,Mandarin,176,"Six Records of a Floating Life (1809) is an extraordinary blend of autobiography, love story and social document written by a man who was educated as a scholar but earned his living as a civil servant and art dealer. In this intimate memoir, Shen Fu recounts the domestic and romantic joys of his marriage to Yün, the beautiful and artistic girl he fell in love with as a child. He also describes other incidents of his life, including how his beloved wife obtained a courtesan for him and reflects on his travels through China. Shen Fu's exquisite memoir shows six parallel 'layers' of one man's life, loves and career, with revealing glimpses into Chinese society of the Ch'ing Dynasty.",,Nonfiction
@@ -1443,14 +1706,12 @@ Essays,Michel de Montaigne,1580,France,Western Europe,Europe,,French,1200,A book
 The Life of Benvenuto Cellini,Benvenuto Cellini,1728,Italy,Southern Europe,Europe,,Italian,500,A book from Italy.,,Nonfiction
 Confessions,Jean-Jacques Rousseau,1782,France,Western Europe,Europe,,French,600,A book from France/Switzerland.,,Nonfiction
 Memoirs from Beyond the Grave,Francois-Rene de Chateaubriand,1849,France,Western Europe,Europe,,French,462,A book from France.,,Nonfiction
-Illuminations,Arthur Rimbaud,1886,France,Western Europe,Europe,,French,100,A book from France.,,Nonfiction
 Confessions of an English Opium-Eater,Thomas De Quincey,1821,UK,Northern Europe,Europe,,English,200,A book from UK.,,Nonfiction
 Walden,Henry David Thoreau,1854,USA,Northern America,North America,,English,350,A book from USA.,,Nonfiction
 Narrative of the Life of Frederick Douglass,Frederick Douglass,1845,USA,Northern America,North America,,English,150,A book from USA.,,Nonfiction
 The Education of Henry Adams,Henry Adams,1907,USA,Northern America,North America,,English,500,A book from USA.,,Nonfiction
 Confession,Leo Tolstoy,1882,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Nonfiction
 Inferno,August Strindberg,1897,Sweden,Northern Europe,Europe,,Swedish,250,A book from Sweden.,,Nonfiction
-Either/Or,Soren Kierkegaard,1843,Denmark,Northern Europe,Europe,,Danish,800,A book from Denmark.,,Nonfiction
 De Profundis,Oscar Wilde,1905,Ireland,Northern Europe,Europe,,English,100,A book from Ireland/UK.,,Nonfiction
 The Book of Disquiet,Fernando Pessoa,1982,Portugal,Southern Europe,Europe,,Portuguese,300,A book from Portugal.,,Nonfiction
 The Islandman,Tomas O Criomhthain,1929,Ireland,Northern Europe,Europe,,Irish,250,A book from Ireland.,,Nonfiction
@@ -1478,13 +1739,10 @@ The Emperor,Ryszard Kapuscinski,1978,Poland,Eastern Europe,Europe,,Polish,192,"A
 Dossier K,Imre Kertesz,2006,Hungary,Eastern Europe,Europe,,Hungarian,200,A book from Hungary.,,Nonfiction
 Signs by the Roadside,Ivo Andric,1976,Bosnia,Southern Europe,Europe,,Serbo-Croatian,280,A book from Bosnia/Yugoslavia.,,Nonfiction
 Markings,Dag Hammarskjold,1963,Sweden,Northern Europe,Europe,,Swedish,250,A book from Sweden.,,Nonfiction
-Report to Greco,Nikos Kazantzakis,1961,Greece,Southern Europe,Europe,,Greek,530,A book from Greece.,,Nonfiction
 The Words,Jean-Paul Sartre,1964,France,Western Europe,Europe,,French,250,A book from France.,,Nonfiction
 Manhood,Michel Leiris,1939,France,Western Europe,Europe,,French,180,A book from France.,,Nonfiction
 Camera Lucida,Roland Barthes,1980,France,Western Europe,Europe,,French,110,A book from France.,,Nonfiction
 Memoirs of a Dutiful Daughter,Simone de Beauvoir,1958,France,Western Europe,Europe,,French,380,A book from France.,,Nonfiction
-The War: A Memoir,Marguerite Duras,1985,France,Western Europe,Europe,,French,180,A book from France.,,Nonfiction
-A Man's Place,Annie Ernaux,1983,France,Western Europe,Europe,,French,100,A book from France.,,Nonfiction
 The Years,Annie Ernaux,2008,France,Western Europe,Europe,,French,240,A book from France.,,Nonfiction
 The Harem Years,Huda Sha'arawi,1981,Egypt,Northern Africa,Africa,,Arabic,200,A book from Egypt.,,Nonfiction
 A Daughter of Isis,Nawal El Saadawi,1999,Egypt,Northern Africa,Africa,,Arabic,300,A book from Egypt.,,Nonfiction
@@ -1500,7 +1758,6 @@ When Heaven and Earth Changed Places,Le Ly Hayslip,1989,Vietnam,South-Eastern As
 Wild Swans,Jung Chang,1991,China,Eastern Asia,Asia,,English,600,A book from China/UK.,,Nonfiction
 Life and Death in Shanghai,Nien Cheng,1986,China,Eastern Asia,Asia,,English,500,A book from China/USA.,,Nonfiction
 This House of Grief,Helen Garner,2014,Australia,Australia and New Zealand,Oceania,,English,306,A book from Australia.,,Nonfiction
-Unreliable Memoirs,Clive James,1980,Australia,Australia and New Zealand,Oceania,,English,240,A book from Australia/UK.,,Nonfiction
 My Place,Sally Morgan,1987,Australia,Australia and New Zealand,Oceania,,English,350,A book from Australia.,,Nonfiction
 The Diary of a Young Girl,Anne Frank,1947,Netherlands,Western Europe,Europe,1,Dutch,340,A book from Netherlands/Germany.,,Nonfiction
 An Interrupted Life,Etty Hillesum,1981,Netherlands,Western Europe,Europe,,Dutch,360,A book from Netherlands.,,Nonfiction
@@ -1536,8 +1793,7 @@ Filled with Chagall's own evocative illustrations, My Life is as warm, joyful an
 'Chagall writes as whimsically as he paints: lovingly ofother people, humorously and lovingly of himself' Daily Mail
 
 'Anyone who likes Chagall's paintings will enjoy this book:the work of an unteachable, unspoiled folk artist' Evening Standard",,Nonfiction
-The Histories,Herodotus,-430,Greece,Southern Europe,Europe,,Ancient Greek,700,A book from Greece.,,Nonfiction
-Lives,Plutarch,100,Greece,Southern Europe,Europe,,Ancient Greek,1000,A book from Greece.,,Nonfiction
+The Histories,Herodotus,430 BC,Greece,Southern Europe,Europe,,Ancient Greek,700,A book from Greece.,,Nonfiction
 Meditations,Marcus Aurelius,180,Ancient Rome,Southern Europe,Europe,,Ancient Greek,250,A book from Rome.,,Nonfiction
 Letters from a Stoic,Seneca,65,Ancient Rome,Southern Europe,Europe,,Latin,352,"For several years of his turbulent life, in which he was dogged by ill health, exile and danger, Seneca was the guiding hand of the Roman Empire. This selection of Seneca's letters shows him upholding the ideals of Stoicism – the wisdom of the self-possessed person immune to life's setbacks – while valuing friendship and courage, and criticizing the harsh treatment of slaves and the cruelties in the gladiatorial arena. The humanity and wit revealed in Seneca's interpretation of Stoicism is a moving and inspiring declaration of the dignity of the individual mind.",,Nonfiction
 Letters,Pliny the Younger,100,Ancient Rome,Southern Europe,Europe,,Latin,400,A book from Rome.,,Nonfiction
@@ -1554,7 +1810,6 @@ The Anatomy of Melancholy,Robert Burton,1621,UK,Northern Europe,Europe,,English,
 New Science,Giambattista Vico,1725,Italy,Southern Europe,Europe,,Italian,500,A book from Italy.,,Nonfiction
 The Diary of Samuel Pepys,Samuel Pepys,1669,UK,Northern Europe,Europe,,English,1152,A book from England.,,Nonfiction
 The Memoirs of Lady Hyegyong,Lady Hyegyong,1805,Korea,Eastern Asia,Asia,,Korean,350,A book from Korea.,,Nonfiction
-Letters,Gustave Flaubert,1880,France,Western Europe,Europe,,French,600,A book from France.,,Nonfiction
 Zibaldone,Giacomo Leopardi,1832,Italy,Southern Europe,Europe,,Italian,900,A book from Italy.,,Nonfiction
 Letters,Vincent van Gogh,1890,Netherlands,Western Europe,Europe,,Dutch,800,A book from Netherlands.,,Nonfiction
 My Reminiscences,Rabindranath Tagore,1912,India,Southern Asia,Asia,,Bengali,250,A book from India.,,Nonfiction

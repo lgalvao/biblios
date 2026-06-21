@@ -14,7 +14,8 @@ import {
   getGeoInfo,
   getCountryCode,
   getCountryFlag,
-  updateGeoschemeData
+  updateGeoschemeData,
+  parseYear
 } from '../dataUtils';
 import originalGeoscheme from '../../../un-geoscheme-subregions-countries.json';
 
@@ -330,6 +331,65 @@ describe('Data Utilities', () => {
       expect(sorted[0].title).toBe('Valid');
       expect(sorted[1].title).toBe('Invalid');
     });
+
+    it('should sort BC years correctly', () => {
+      const bcBooks = [
+        { title: 'A', year: '100' },
+        { title: 'B', year: '370 BC' },
+        { title: 'C', year: '300 BC' },
+        { title: 'D', year: '400' }
+      ];
+      const sorted = sortBooks(bcBooks, 'year', 'asc');
+      expect(sorted[0].year).toBe('370 BC');
+      expect(sorted[1].year).toBe('300 BC');
+      expect(sorted[2].year).toBe('100');
+      expect(sorted[3].year).toBe('400');
+    });
+
+    it('should sort BC years correctly in descending order', () => {
+      const bcBooks = [
+        { title: 'A', year: '100' },
+        { title: 'B', year: '370 BC' },
+        { title: 'C', year: '300 BC' },
+        { title: 'D', year: '400' }
+      ];
+      const sorted = sortBooks(bcBooks, 'year', 'desc');
+      expect(sorted[0].year).toBe('400');
+      expect(sorted[1].year).toBe('100');
+      expect(sorted[2].year).toBe('300 BC');
+      expect(sorted[3].year).toBe('370 BC');
+    });
+  });
+
+  describe('parseYear', () => {
+    it('should parse simple positive year numbers', () => {
+      expect(parseYear('2023')).toBe(2023);
+      expect(parseYear(2023)).toBe(2023);
+      expect(parseYear(' 100 ')).toBe(100);
+    });
+
+    it('should parse BC years as negative numbers', () => {
+      expect(parseYear('370 BC')).toBe(-370);
+      expect(parseYear('300 BC')).toBe(-300);
+      expect(parseYear('400 BC')).toBe(-400);
+      expect(parseYear('44 B.C.')).toBe(-44);
+      expect(parseYear('500 bce')).toBe(-500);
+      expect(parseYear('2350 b.c.e.')).toBe(-2350);
+    });
+
+    it('should parse AD/CE years as positive numbers', () => {
+      expect(parseYear('100 AD')).toBe(100);
+      expect(parseYear('2023 CE')).toBe(2023);
+    });
+
+    it('should handle null, empty or invalid values', () => {
+      expect(parseYear(null)).toBeNull();
+      expect(parseYear(undefined)).toBeNull();
+      expect(parseYear('')).toBeNull();
+      expect(parseYear('   ')).toBeNull();
+      expect(parseYear('Unknown')).toBeNull();
+      expect(parseYear('abc')).toBeNull();
+    });
   });
 
   describe('getGeoInfo', () => {
@@ -435,8 +495,8 @@ describe('Data Utilities', () => {
 
   describe('parseBatchText', () => {
     it('should parse batch text format correctly', () => {
-      const text = `The Crying of Lot 49 by Thomas Pynchon (1966, USA), 152 p., English
-Farabeuf by Salvador Elizondo (1965, Mexico), 176 p., Spanish`;
+      const text = `The Crying of Lot 49 by Thomas Pynchon (USA, 1966), 152 p., English
+Farabeuf by Salvador Elizondo (Mexico, 1965), 176 p., Spanish`;
       const result = parseBatchText(text);
       expect(result).toHaveLength(2);
       expect(result[0]).toMatchObject({
@@ -458,14 +518,55 @@ Farabeuf by Salvador Elizondo (1965, Mexico), 176 p., Spanish`;
     });
 
     it('should support flexible page formats (xxx p, xxxp, xxxp.)', () => {
-      const text = `Book One by Author A (2000, USA), 150 p, English
-Book Two by Author B (2001, Spain), 200p, Spanish
-Book Three by Author C (2002, France), 250p., French`;
+      const text = `Book One by Author A (USA, 2000), 150 p, English
+Book Two by Author B (Spain, 2001), 200p, Spanish
+Book Three by Author C (France, 2002), 250p., French`;
       const result = parseBatchText(text);
       expect(result).toHaveLength(3);
       expect(result[0].pages).toBe(150);
       expect(result[1].pages).toBe(200);
       expect(result[2].pages).toBe(250);
+    });
+
+    it('should parse historical years (BC, 2-3 digits) and be resilient to bullet points and page formats', () => {
+      const text = `The Peloponnesian War by Thucydides (Greece, 400 BC), 600 p, Ancient Greek
+The Twelve Caesars by Suetonius (Ancient Rome, 121), 400 p, Latin
+- Genesis by Anonymous (Ancient Israel, 500 BC), 80 p, Hebrew
+1. The Gospel According to Mark by Anonymous (Ancient Israel, 70), 60 p, Greek`;
+      const result = parseBatchText(text);
+      expect(result).toHaveLength(4);
+      expect(result[0]).toMatchObject({
+        title: 'The Peloponnesian War',
+        author: 'Thucydides',
+        year: '400 BC',
+        country: 'Greece',
+        pages: 600,
+        originalLanguage: 'Ancient Greek'
+      });
+      expect(result[1]).toMatchObject({
+        title: 'The Twelve Caesars',
+        author: 'Suetonius',
+        year: '121',
+        country: 'Ancient Rome',
+        pages: 400,
+        originalLanguage: 'Latin'
+      });
+      expect(result[2]).toMatchObject({
+        title: 'Genesis',
+        author: 'Anonymous',
+        year: '500 BC',
+        country: 'Ancient Israel',
+        pages: 80,
+        originalLanguage: 'Hebrew'
+      });
+      expect(result[3]).toMatchObject({
+        title: 'The Gospel According to Mark',
+        author: 'Anonymous',
+        year: '70',
+        country: 'Ancient Israel',
+        pages: 60,
+        originalLanguage: 'Greek'
+      });
     });
 
     it('should return empty array for empty input', () => {

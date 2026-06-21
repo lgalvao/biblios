@@ -73,6 +73,12 @@ const localDatabasePlugin = () => {
         'czech republic': 'Czechia',
         'guinea bissau': 'Guinea-Bissau',
         'rome': 'Italy',
+        'ancient rome': 'Italy',
+        'ancient greece': 'Greece',
+        'ancient egypt': 'Egypt',
+        'byzantium': 'Greece',
+        'ancient israel': 'Israel',
+        'tibet': 'China',
         'st. lucia': 'Saint Lucia'
       };
 

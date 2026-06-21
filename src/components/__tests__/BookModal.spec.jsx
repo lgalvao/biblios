@@ -345,7 +345,7 @@ describe('BookModal Component tests', () => {
     const batchTextarea = screen.getByPlaceholderText(/Paste your books here.../i);
     fireEvent.change(batchTextarea, {
       target: {
-        value: `Dom Casmurro by Machado de Assis (1899, Brazil), 256 p., Portuguese\nThe Hobbit by J.R.R. Tolkien (1937, United Kingdom), 310 p., English\nThe Hobbit by J.R.R. Tolkien (1937, United Kingdom), 310 p., English`
+        value: `Dom Casmurro by Machado de Assis (Brazil, 1899), 256 p., Portuguese\nThe Hobbit by J.R.R. Tolkien (United Kingdom, 1937), 310 p., English\nThe Hobbit by J.R.R. Tolkien (United Kingdom, 1937), 310 p., English`
       }
     });
 
@@ -397,7 +397,7 @@ describe('BookModal Component tests', () => {
     // Paste batch text containing a duplicate book (Dom Casmurro)
     fireEvent.change(screen.getByPlaceholderText(/Paste your books here.../i), {
       target: {
-        value: `Dom Casmurro by Machado de Assis (1899, Brazil), 256 p., Portuguese`
+        value: `Dom Casmurro by Machado de Assis (Brazil, 1899), 256 p., Portuguese`
       }
     });
     
@@ -414,6 +414,52 @@ describe('BookModal Component tests', () => {
         author: 'Machado de Assis'
       })
     ]);
+  });
+
+  it('handles batch adding the user second book list successfully without duplicates', () => {
+    const onSaveMock = vi.fn();
+    render(<BookModal {...defaultProps} onSave={onSaveMock} />);
+
+    // Switch to Batch mode
+    const batchButton = screen.getByRole('button', { name: /Batch Add/i });
+    fireEvent.click(batchButton);
+
+    const batchTextarea = screen.getByPlaceholderText(/Paste your books here.../i);
+    fireEvent.change(batchTextarea, {
+      target: {
+        value: `The Peloponnesian War by Thucydides (Ancient Greece, 400 BC), 600 p, Ancient Greek
+The Last Days of Socrates by Plato (Ancient Greece, 399 BC), 256 p, Ancient Greek
+The Persian Expedition by Xenophon (Ancient Greece, 370 BC), 350 p, Ancient Greek
+The Twelve Caesars by Suetonius (Ancient Rome, 121), 400 p, Latin
+The Gallic War by Julius Caesar (Ancient Rome, 50 BC), 300 p, Latin
+Selected Letters by Cicero (Ancient Rome, 44 BC), 400 p, Latin
+Ecclesiastical History of the English People by Bede (UK, 731), 400 p, Latin
+Genesis by Anonymous (Ancient Israel, 500 BC), 80 p, Hebrew
+The Analects by Confucius (China, 475 BC), 150 p, Classical Chinese
+The Sayings of the Desert Fathers by Anonymous (Byzantium, 500), 250 p, Greek
+The Upanishads by Anonymous (India, 700 BC), 300 p, Sanskrit
+The Arthashastra by Kautilya (India, 300 BC), 500 p, Sanskrit
+The Instruction of Ptahhotep by Anonymous (Ancient Egypt, 2350 BC), 60 p, Middle Egyptian
+The Gospel According to Mark by Anonymous (Ancient Israel, 70), 60 p, Greek`
+      }
+    });
+
+    const addBatchButton = screen.getByRole('button', { name: /Add Batch/i });
+    fireEvent.click(addBatchButton);
+
+    expect(onSaveMock).toHaveBeenCalledTimes(1);
+    const savedBooks = onSaveMock.mock.calls[0][0];
+    expect(savedBooks).toHaveLength(14);
+    expect(savedBooks[0]).toMatchObject({
+      title: 'The Peloponnesian War',
+      author: 'Thucydides',
+      year: '400 BC',
+      country: 'Ancient Greece',
+      region: 'Southern Europe',
+      continent: 'Europe',
+      pages: 600,
+      originalLanguage: 'Ancient Greek'
+    });
   });
 
   it('calls Open Library API and autofills fields when clicking Fetch Metadata', async () => {
@@ -557,7 +603,7 @@ describe('BookModal Component tests', () => {
     const batchTextarea = screen.getByPlaceholderText(/Paste your books here.../i);
     fireEvent.change(batchTextarea, {
       target: {
-        value: `The Hobbit by J.R.R. Tolkien (1937, United Kingdom), 310 p., English`
+        value: `The Hobbit by J.R.R. Tolkien (United Kingdom, 1937), 310 p., English`
       }
     });
 

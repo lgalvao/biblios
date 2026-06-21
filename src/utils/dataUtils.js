@@ -72,6 +72,12 @@ const defaultAliases = {
   'guinea bissau': 'Guinea-Bissau',
   'são tomé and príncipe': 'Sao Tome and Principe',
   'rome': 'Italy',
+  'ancient rome': 'Italy',
+  'ancient greece': 'Greece',
+  'ancient egypt': 'Egypt',
+  'tibet': 'China',
+  'byzantium': 'Greece',
+  'ancient israel': 'Israel',
   'st. lucia': 'Saint Lucia'
 };
 
@@ -445,6 +451,38 @@ export const repairBooksList = (loadedBooks, referenceData) => {
 };
 
 /**
+ * Parses a year string supporting BC/BCE suffixes and returns a numeric year representation.
+ * BC/BCE years are returned as negative numbers (e.g. "370 BC" -> -370).
+ */
+export const parseYear = (yearStr) => {
+  if (yearStr === null || yearStr === undefined) return null;
+  const str = String(yearStr).trim();
+  if (str === '') return null;
+
+  // Pattern: Optional negative/positive sign, followed by number, optionally followed by BC/BCE suffix
+  const match = str.match(/^(-?\d+)\s*(bc|b\.c\.|bce|b\.c\.e\.)?$/i);
+  if (match) {
+    const num = parseInt(match[1], 10);
+    const isBc = !!match[2];
+    return isBc ? -Math.abs(num) : num;
+  }
+
+  // Support AD/CE suffix explicitly
+  const matchAd = str.match(/^(\d+)\s*(ad|ce|a\.d\.|c\.e\.)?$/i);
+  if (matchAd) {
+    return parseInt(matchAd[1], 10);
+  }
+
+  // Fallback to searching digits
+  const digitsMatch = str.match(/(-?\d+)/);
+  if (digitsMatch) {
+    return parseInt(digitsMatch[0], 10);
+  }
+
+  return null;
+};
+
+/**
  * Ordena uma lista de livros com base em uma coluna e direção.
  * Suporta ordenação numérica e de string, lidando com valores nulos.
  */
@@ -469,6 +507,26 @@ export const sortBooks = (books, sortColumn, sortDirection) => {
     if (isEmptyA && isEmptyB) return 0;
     if (isEmptyA) return sortDirection === 'asc' ? 1 : -1;
     if (isEmptyB) return sortDirection === 'asc' ? -1 : 1;
+
+    if (sortColumn === 'year') {
+      const yearA = parseYear(aVal);
+      const yearB = parseYear(bVal);
+      const hasA = yearA !== null;
+      const hasB = yearB !== null;
+
+      if (hasA && hasB) {
+        return sortDirection === 'asc' ? yearA - yearB : yearB - yearA;
+      }
+      if (!hasA && !hasB) {
+        const strA = String(aVal).toLowerCase().trim();
+        const strB = String(bVal).toLowerCase().trim();
+        if (strA < strB) return sortDirection === 'asc' ? -1 : 1;
+        if (strA > strB) return sortDirection === 'asc' ? 1 : -1;
+        return 0;
+      }
+      if (!hasA) return sortDirection === 'asc' ? 1 : -1;
+      if (!hasB) return sortDirection === 'asc' ? -1 : 1;
+    }
 
     // Try parsing as numbers if both are numeric
     const numA = Number(aVal);
@@ -497,8 +555,8 @@ export const sortBooks = (books, sortColumn, sortDirection) => {
  */
 export const formatMDExport = (books) => {
   const sorted = [...books].sort((a, b) => {
-    const yearA = parseInt(a.year, 10) || 0;
-    const yearB = parseInt(b.year, 10) || 0;
+    const yearA = parseYear(a.year) ?? 0;
+    const yearB = parseYear(b.year) ?? 0;
     return yearA - yearB;
   });
   return sorted
@@ -519,14 +577,14 @@ export const formatMDExport = (books) => {
 export const parseBatchText = (text) => {
   if (!text) return [];
   
-  const lines = text.split('\n').filter(line => line.trim() !== '');
+  const lines = text.split(/\r?\n/).filter(line => line.trim() !== '');
   const books = [];
-  const regex = /^(.+?)\s+by\s+(.+?)\s+\((\d{4}),\s+(.+?)\),\s+(\d+)\s*[pP]\.?,\s+(.+)$/;
+  const regex = /^\s*(?:[-*+•]|\d+\.)?\s*(.+)\s+by\s+([^(]+?)\s+\(([^,]+?),\s*(.+?)\),\s*(\d+)\s*(?:pages|page|p|pgs)?\.?\s*,\s*(.+)$/i;
 
   lines.forEach(line => {
     const match = line.trim().match(regex);
     if (match) {
-      const [, title, author, year, country, pages, language] = match;
+      const [, title, author, country, year, pages, language] = match;
       const geo = getGeoInfo(country);
       books.push({
         title: title.trim(),

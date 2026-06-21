@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ResponsiveContainer, Cell, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { Book, CheckCircle, Compass, Globe, Languages, FileText, Search, Download } from 'lucide-react';
-import { normalizeForSearch } from '../utils/dataUtils';
+import { normalizeForSearch, parseYear } from '../utils/dataUtils';
 import CountryFlag from './CountryFlag';
 
 export default function Dashboard({ books, onOpenStatsReport }) {
@@ -85,10 +85,9 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       '2000+': 0
     };
     filteredBooks.forEach(b => {
-      const yrMatch = String(b.year || '').match(/\d+/);
-      const yr = yrMatch ? parseInt(yrMatch[0], 10) : null;
+      const yr = parseYear(b.year);
       
-      if (!yr || yr < 1850) eras['Pre-1850']++;
+      if (yr === null || yr < 1850) eras['Pre-1850']++;
       else if (yr < 1875) eras['1850-1874']++;
       else if (yr < 1900) eras['1875-1899']++;
       else if (yr < 1925) eras['1900-1924']++;
@@ -138,11 +137,12 @@ export default function Dashboard({ books, onOpenStatsReport }) {
       if (b.originalLanguage) data.language[b.originalLanguage] = (data.language[b.originalLanguage] || 0) + 1;
       
       // Century
-      const yrMatch = String(b.year || '').match(/\d+/);
-      if (yrMatch) {
-        const yr = parseInt(yrMatch[0], 10);
-        const century = Math.floor((yr - 1) / 100) + 1;
-        const centuryLabel = `${century}${getOrdinal(century)} Century`;
+      const yr = parseYear(b.year);
+      if (yr !== null && yr !== 0) {
+        const isBc = yr < 0;
+        const absYr = Math.abs(yr);
+        const century = Math.floor((absYr - 1) / 100) + 1;
+        const centuryLabel = `${century}${getOrdinal(century)} Century${isBc ? ' BC' : ''}`;
         data.century[centuryLabel] = (data.century[centuryLabel] || 0) + 1;
       } else {
         data.century['Unknown'] = (data.century['Unknown'] || 0) + 1;

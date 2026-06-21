@@ -117,7 +117,8 @@ describe('Dashboard Component tests', () => {
       { id: 5, year: '2100', title: '21st', author: 'A' }, // 21st Century
       { id: 6, year: '2200', title: '22nd', author: 'A' }, // 22nd Century
       { id: 7, year: '2300', title: '23rd', author: 'A' }, // 23rd Century
-      { id: 8, year: 'Unknown', title: 'U', author: 'A' }
+      { id: 8, year: 'Unknown', title: 'U', author: 'A' },
+      { id: 9, year: '370 BC', title: 'BC Book', author: 'A' } // 4th Century BC
     ];
     render(<Dashboard books={centuryBooks} />);
     expect(screen.getByText('1st Century')).toBeInTheDocument();
@@ -128,6 +129,7 @@ describe('Dashboard Component tests', () => {
     expect(screen.getByText('22nd Century')).toBeInTheDocument();
     expect(screen.getByText('23rd Century')).toBeInTheDocument();
     expect(screen.getByText('Unknown')).toBeInTheDocument();
+    expect(screen.getByText('4th Century BC')).toBeInTheDocument();
   });
 
   it('normaliza países do Reino Unido, agrupa Américas e mescla Ásia e Oceania', () => {

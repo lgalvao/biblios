@@ -1,5 +1,5 @@
 import { jsPDF } from 'jspdf';
-import { normalizeToASCII } from './dataUtils';
+import { normalizeToASCII, parseYear } from './dataUtils';
 
 // Converte número de século para numeral romano em Inglês
 const seculoParaRomano = (num) => {
@@ -31,13 +31,15 @@ const seculoParaRomano = (num) => {
 
 // Extrai o século a partir da string do ano
 const obterSeculoDoAno = (anoStr) => {
-  if (!anoStr) return 'Unknown Century';
-  const match = String(anoStr).match(/\d+/);
-  if (!match) return 'Unknown Century';
-  const ano = parseInt(match[0], 10);
-  if (isNaN(ano) || ano <= 0) return 'Unknown Century';
-  const seculo = Math.floor((ano - 1) / 100) + 1;
-  return seculoParaRomano(seculo);
+  const yr = parseYear(anoStr);
+  if (yr === null || yr === 0) return 'Unknown Century';
+  
+  const isBc = yr < 0;
+  const absYr = Math.abs(yr);
+  const seculo = Math.floor((absYr - 1) / 100) + 1;
+  const romano = seculoParaRomano(seculo);
+  
+  return isBc ? `${romano} BC` : romano;
 };
 
 /**

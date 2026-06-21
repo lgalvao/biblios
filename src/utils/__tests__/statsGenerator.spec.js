@@ -168,6 +168,20 @@ describe('statsGenerator', () => {
       ]);
     });
 
+    it('should handle BC years correctly and group them as Roman numerals with BC suffix', () => {
+      const bcBooks = [
+        { year: '370 BC' },
+        { year: '300 BC' },
+        { year: '45 BC' }
+      ];
+      const stats = calculateStats(bcBooks);
+      expect(stats.byCentury).toEqual([
+        { label: 'I Century BC', count: 1 },
+        { label: 'III Century BC', count: 1 },
+        { label: 'IV Century BC', count: 1 }
+      ]);
+    });
+
     it('should group by author and only include authors with more than one book', () => {
       const stats = calculateStats(testBooks);
       // Machado de Assis has 2 books. Other authors have 1 book, so they should be excluded.
