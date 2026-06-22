@@ -1,27 +1,62 @@
 ﻿Title,Author,Year,Country,Region,Continent,Read,OriginalLanguage,Pages,Description,Tags,Category
-The Oresteia,Aeschylus,458 BC,Greece,Southern Europe,Europe,,Ancient Greek,200,A book from Greece.,,Drama
-The Persians,Aeschylus,472 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Seven Against Thebes,Aeschylus,467 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Prometheus Bound,Aeschylus,430 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Oedipus Rex,Sophocles,429 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-Antigone,Sophocles,441 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-Oedipus at Colonus,Sophocles,401 BC,Greece,Southern Europe,Europe,1,Ancient Greek,90,A book from Greece.,,Drama
-Philoctetes,Sophocles,409 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Ajax,Sophocles,442 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-Medea,Euripides,431 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-Hippolytus,Euripides,428 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-The Trojan Women,Euripides,415 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Electra,Euripides,413 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Iphigenia at Aulis,Euripides,405 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-The Bacchae,Euripides,405 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Alcestis,Euripides,438 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-Helen,Euripides,412 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-Lysistrata,Aristophanes,411 BC,Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
-The Clouds,Aristophanes,423 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-The Frogs,Aristophanes,405 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-The Wasps,Aristophanes,422 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
-Plays and Fragments,Menander,300 BC,Greece,Southern Europe,Europe,,Ancient Greek,300,A book from Greece.,,Drama
-Hercules Furens,Seneca,54,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
+Betrayal in the City,Francis Imbuga,1976,Kenya,Eastern Africa,Africa,,English,100,A book from Kenya.,,Drama
+The Dilemma of a Ghost,Ama Ata Aidoo,1964,Ghana,Western Africa,Africa,,English,50,A book from Ghana.,,Drama
+Woza Albert!,Percy Mtwa,1981,South Africa,Southern Africa,Africa,,English,80,A book from South Africa.,,Drama
+Kinjeketile,Ebrahim Hussein,1969,Tanzania,Eastern Africa,Africa,,Swahili,50,A book from Tanzania.,,Drama
+Parentheses of Blood,Sony Labou Tansi,1981,Congo DRC,Middle Africa,Africa,,French,62,A book from DR Congo.,,Drama
+Barranca abajo,Florencio Sanchez,1905,Uruguay,South America,South America,,Spanish,120,A book from Uruguay.,,Drama
+Paper Flowers,Egon Wolff,1970,Chile,South America,South America,,Spanish,78,A book from Chile.,,Drama
+At the Right Hand of God the Father,Enrique Buenaventura,1958,Colombia,South America,South America,,Spanish,80,A book from Colombia.,,Drama
+Death of Yazdgerd,Bahram Beyzaie,1979,Iran,Southern Asia,Asia,,Persian,120,A book from Iran.,,Drama
+The Ballad of Ali of Keshan,Haldun Taner,1964,Turkey,Western Asia,Asia,,Turkish,160,A book from Turkey.,,Drama
+The Impostor,Rodolfo Usigli,1938,Mexico,Central America,North America,,Spanish,120,A book from Mexico.,,Drama
+Felipe Ángeles,Elena Garro,1967,Mexico,Central America,North America,,Spanish,120,A book from Mexico.,,Drama
+Between Villa and a Naked Woman,Sabina Berman,1993,Mexico,Central America,North America,,Spanish,100,A book from Mexico.,,Drama
+Summer of the Seventeenth Doll,Ray Lawler,1955,Australia,Australia and New Zealand,Oceania,,English,136,A book from Australia.,,Drama
+Away,Michael Gow,1986,Australia,Australia and New Zealand,Oceania,,English,80,A book from Australia.,,Drama
+The Pohutukawa Tree,Bruce Mason,1960,New Zealand,Australia and New Zealand,Oceania,,English,77,A book from New Zealand.,,Drama
+Richard II,William Shakespeare,1595,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+Richard III,William Shakespeare,1593,UK,Northern Europe,Europe,,English,140,A book from UK.,,Drama
+A Portrait of the Artist as Filipino,Nick Joaquin,1950,Philippines,South-Eastern Asia,Asia,,English,120,A book from Philippines.,,Drama
+Les Belles-soeurs,Michel Tremblay,1968,Canada,Northern America,North America,,French,120,A book from Canada.,,Drama
+The Gods Are Not to Blame,Ola Rotimi,1968,Nigeria,Western Africa,Africa,,English,80,A book from Nigeria.,,Drama
+The Lady Aoi,Yukio Mishima,1954,Japan,Eastern Asia,Asia,,Japanese,60,A book from Japan.,,Drama
+The Merchant of Venice,William Shakespeare,1600,UK,Northern Europe,Europe,1,English,100,,,Drama
+Julius Caesar,William Shakespeare,1599,UK,Northern Europe,Europe,,English,100,,,Drama
+Twilight Crane,Junji Kinoshita,1949,Japan,Eastern Asia,Asia,,Japanese,80,A book from Japan.,,Drama
+I Will Marry When I Want,Ngugi wa Thiong'o,1977,Kenya,Eastern Africa,Africa,,English,100,A book from Kenya.,,Drama
+The Marriage of Anansewa,Efua Sutherland,1975,Ghana,Western Africa,Africa,,English,80,A book from Ghana.,,Drama
+Emily of Emerald Hill,Stella Kon,1984,Singapore,South-Eastern Asia,Asia,,English,80,A book from Singapore.,,Drama
+The Coffin Is Too Big for the Hole,Kuo Pao Kun,1985,Singapore,South-Eastern Asia,Asia,,English,50,A book from Singapore.,,Drama
+The Post Office,Rabindranath Tagore,1912,India,Southern Asia,Asia,,Bengali,80,A book from India.,,Drama
+Nagamandala,Girish Karnad,1988,India,Southern Asia,Asia,,Kannada,100,A book from India.,,Drama
+The Glembays,Miroslav Krleza,1929,Croatia,Southern Europe,Europe,,Croatian,140,A book from Croatia.,,Drama
+The Wedding,Stanislaw Wyspianski,1901,Poland,Eastern Europe,Europe,,Polish,140,A book from Poland.,,Drama
+Antigone,Jean Anouilh,1944,France,Western Europe,Europe,,French,80,A book from France.,,Drama
+for colored girls who have considered suicide,Ntozake Shange,1976,USA,Northern America,North America,,English,80,A book from USA.,,Drama
+How I Learned to Drive,Paula Vogel,1997,USA,Northern America,North America,,English,100,A book from USA.,,Drama
+The Oresteia,Aeschylus,458 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,200,A book from Greece.,,Drama
+The Persians,Aeschylus,472 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Seven Against Thebes,Aeschylus,467 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Oedipus Rex,Sophocles,429 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Antigone,Sophocles,441 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Oedipus at Colonus,Sophocles,401 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,90,A book from Greece.,,Drama
+Philoctetes,Sophocles,409 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Ajax,Sophocles,442 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Medea,Euripides,431 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Hippolytus,Euripides,428 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+The Trojan Women,Euripides,415 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Electra,Euripides,413 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Iphigenia at Aulis,Euripides,405 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Bacchae,Euripides,405 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Alcestis,Euripides,438 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Helen,Euripides,412 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+Lysistrata,Aristophanes,411 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,80,A book from Greece.,,Drama
+The Clouds,Aristophanes,423 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Frogs,Aristophanes,405 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+The Wasps,Aristophanes,422 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Drama
+Plays and Fragments,Menander,300 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,300,A book from Greece.,,Drama
+Hercules Furens,Seneca,54,Ancient Rome,Southern Europe,Europe,1,Latin,80,A book from Ancient Rome.,,Drama
 Medea,Seneca,60,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
 Thyestes,Seneca,62,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
 Amphitryon,Plautus,190 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
@@ -30,30 +65,26 @@ The Swaggering Soldier,Plautus,205 BC,Ancient Rome,Southern Europe,Europe,,Latin
 The Pot of Gold,Plautus,195 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
 The Brothers,Terence,160 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
 The Girl from Andros,Terence,166 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
-Phormio,Terence,161 BC,Ancient Rome,Southern Europe,Europe,,Latin,80,A book from Ancient Rome.,,Drama
 The Recognition of Sakuntala,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,120,A book from India.,,Drama
 Vikrama and Urvashi,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
 The Little Clay Cart,Shudraka,400,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Drama
 The Dream of Vasavadatta,Bhasa,300,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
-The Pledge of Yaugandharayana,Bhasa,300,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
-The Injustice to Dou E,Guan Hanqing,1280,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
-The Orphan of Zhao,Ji Junxiang,1300,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
-The Romance of the Western Chamber,Wang Shifu,1300,China,Eastern Asia,Asia,,Mandarin,200,A book from China.,,Drama
-The Chalk Circle,Li Qianfu,1300,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
-The Peony Pavilion,Tang Xianzu,1598,China,Eastern Asia,Asia,,Mandarin,300,A book from China.,,Drama
-The Peach Blossom Fan,Kong Shangren,1699,China,Eastern Asia,Asia,,Mandarin,250,A book from China.,,Drama
-Thunderstorm,Cao Yu,1934,China,Eastern Asia,Asia,,Mandarin,120,A book from China.,,Drama
+The Injustice to Dou E,Guan Hanqing,1280,China,Eastern Asia,Asia,,Chinese,100,A book from China.,,Drama
+The Orphan of Zhao,Ji Junxiang,1300,China,Eastern Asia,Asia,,Chinese,100,A book from China.,,Drama
+The Romance of the Western Chamber,Wang Shifu,1300,China,Eastern Asia,Asia,,Chinese,200,A book from China.,,Drama
+The Chalk Circle,Li Qianfu,1300,China,Eastern Asia,Asia,,Chinese,100,,,Drama
+The Peony Pavilion,Tang Xianzu,1598,China,Eastern Asia,Asia,,Chinese,300,A book from China.,,Drama
+The Peach Blossom Fan,Kong Shangren,1699,China,Eastern Asia,Asia,,Chinese,250,A book from China.,,Drama
+Thunderstorm,Cao Yu,1934,China,Eastern Asia,Asia,,Chinese,120,A book from China.,,Drama
 The Other Shore,Gao Xingjian,1986,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
 Atsumori,Zeami,1400,Japan,Eastern Asia,Asia,,Japanese,40,A book from Japan.,,Drama
-The Damask Drum,Zeami,1400,Japan,Eastern Asia,Asia,,Japanese,40,A book from Japan.,,Drama
 The Love Suicides at Sonezaki,Chikamatsu Monzaemon,1703,Japan,Eastern Asia,Asia,,Japanese,80,A book from Japan.,,Drama
 The Battles of Coxinga,Chikamatsu Monzaemon,1715,Japan,Eastern Asia,Asia,,Japanese,100,A book from Japan.,,Drama
-The Treasury of Loyal Retainers,"Takeda Izumo II, Miyoshi Shoraku and Namiki Senryu",1748,Japan,Eastern Asia,Asia,,Japanese,250,A book from Japan.,,Drama
+The Treasury of Loyal Retainers,Miyoshi Shoraku,1748,Japan,Eastern Asia,Asia,,Japanese,250,A book from Japan.,,Drama
 The Dybbuk,S. Ansky,1914,Russia,Eastern Europe,Europe,,Yiddish,100,A book from Russia.,,Drama
 The People of the Cave,Tawfiq al-Hakim,1933,Egypt,Northern Africa,Africa,,Arabic,120,A book from Egypt.,,Drama
 Scheherazade,Tawfiq al-Hakim,1934,Egypt,Northern Africa,Africa,,Arabic,100,A book from Egypt.,,Drama
 The Perplexed Sultan,Tawfiq al-Hakim,1960,Egypt,Northern Africa,Africa,,Arabic,100,A book from Egypt.,,Drama
-The Tree Climber,Tawfiq al-Hakim,1962,Egypt,Northern Africa,Africa,,Arabic,100,A book from Egypt.,,Drama
 Rituals of Signs and Transformations,Saadallah Wannous,1994,Syria,Western Asia,Asia,,Arabic,120,A book from Syria.,,Drama
 Act of the Ship of Hell,Gil Vicente,1517,Portugal,Southern Europe,Europe,,Portuguese,80,A book from Portugal.,,Drama
 Fuenteovejuna,Lope de Vega,1619,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
@@ -63,10 +94,10 @@ Life Is a Dream,Pedro Calderon de la Barca,1635,Spain,Southern Europe,Europe,,Sp
 The Mayor of Zalamea,Pedro Calderon de la Barca,1636,Spain,Southern Europe,Europe,,Spanish,120,A book from Spain.,,Drama
 The Great Theatre of the World,Pedro Calderon de la Barca,1655,Spain,Southern Europe,Europe,,Spanish,80,A book from Spain.,,Drama
 Blood Wedding,Federico Garcia Lorca,1933,Spain,Southern Europe,Europe,1,Spanish,80,A book from Spain.,,Drama
-Yerma,Federico Garcia Lorca,1934,Spain,Southern Europe,Europe,,Spanish,80,A book from Spain.,,Drama
+Yerma,Federico Garcia Lorca,1934,Spain,Southern Europe,Europe,1,Spanish,80,A book from Spain.,,Drama
 The House of Bernarda Alba,Federico Garcia Lorca,1936,Spain,Southern Europe,Europe,1,Spanish,80,A book from Spain.,,Drama
 Auto da Compadecida,Ariano Suassuna,1955,Brazil,South America,South America,1,Portuguese,120,A book from Brazil.,,Drama
-Wedding Dress,Nelson Rodrigues,1943,Brazil,South America,South America,,Portuguese,100,A book from Brazil.,,Drama
+Wedding Dress,Nelson Rodrigues,1943,Brazil,South America,South America,1,Portuguese,100,A book from Brazil.,,Drama
 The Asphalt Kiss,Nelson Rodrigues,1960,Brazil,South America,South America,,Portuguese,100,A book from Brazil.,,Drama
 The Promise,Dias Gomes,1960,Brazil,South America,South America,,Portuguese,120,A book from Brazil.,,Drama
 The Night of the Assassins,Jose Triana,1965,Cuba,Caribbean,North America,,Spanish,100,A book from Cuba.,,Drama
@@ -85,15 +116,15 @@ Henry IV Parts I and II,William Shakespeare,1598,UK,Northern Europe,Europe,,Engl
 Much Ado About Nothing,William Shakespeare,1599,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
 As You Like It,William Shakespeare,1599,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 Hamlet,William Shakespeare,1601,UK,Northern Europe,Europe,1,English,160,A book from UK.,,Drama
-Twelfth Night,William Shakespeare,1601,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+Twelfth Night,William Shakespeare,1601,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 Measure for Measure,William Shakespeare,1604,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
 Othello,William Shakespeare,1604,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
-King Lear,William Shakespeare,1606,UK,Northern Europe,Europe,,English,140,A book from UK.,,Drama
+King Lear,William Shakespeare,1606,UK,Northern Europe,Europe,1,English,140,A book from UK.,,Drama
 Macbeth,William Shakespeare,1606,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 Antony and Cleopatra,William Shakespeare,1607,UK,Northern Europe,Europe,1,English,140,A book from UK.,,Drama
 Coriolanus,William Shakespeare,1608,UK,Northern Europe,Europe,,English,140,A book from UK.,,Drama
 The Tempest,William Shakespeare,1611,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
-The Winter’s Tale,William Shakespeare,1611,UK,Northern Europe,Europe,,English,120,A book from UK.,,Drama
+The Winter’s Tale,William Shakespeare,1611,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
 She Stoops to Conquer,Oliver Goldsmith,1773,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
 The Rivals,Richard Sheridan,1775,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
 The School for Scandal,Richard Sheridan,1777,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
@@ -103,38 +134,35 @@ An Ideal Husband,Oscar Wilde,1895,Ireland,Northern Europe,Europe,1,English,100,A
 Salome,Oscar Wilde,1891,Ireland,Northern Europe,Europe,1,French,80,A book from Ireland.,,Drama
 Riders to the Sea,J.M. Synge,1904,Ireland,Northern Europe,Europe,,English,40,A book from Ireland.,,Drama
 The Playboy of the Western World,J.M. Synge,1907,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
-Pygmalion,George Bernard Shaw,1913,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
+Pygmalion,George Bernard Shaw,1913,Ireland,Northern Europe,Europe,1,English,120,A book from Ireland.,,Drama
 Saint Joan,George Bernard Shaw,1923,Ireland,Northern Europe,Europe,1,English,160,A book from Ireland.,,Drama
 Major Barbara,George Bernard Shaw,1905,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
 Man and Superman,George Bernard Shaw,1903,Ireland,Northern Europe,Europe,,English,180,A book from Ireland.,,Drama
 Heartbreak House,George Bernard Shaw,1919,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
 Juno and the Paycock,Sean O’Casey,1924,Ireland,Northern Europe,Europe,,English,120,A book from Ireland.,,Drama
 Cathleen ni Houlihan,W.B. Yeats,1902,Ireland,Northern Europe,Europe,,English,40,A book from Ireland.,,Drama
-Purgatory,W.B. Yeats,1938,Ireland,Northern Europe,Europe,,English,40,A book from Ireland.,,Drama
-Waiting for Godot,Samuel Beckett,1953,Ireland,Northern Europe,Europe,,French,100,A book from Ireland.,,Drama
+Waiting for Godot,Samuel Beckett,1953,Ireland,Northern Europe,Europe,1,French,100,A book from Ireland.,,Drama
 Endgame,Samuel Beckett,1957,Ireland,Northern Europe,Europe,1,French,80,A book from Ireland.,,Drama
-Happy Days,Samuel Beckett,1961,Ireland,Northern Europe,Europe,,English,80,A book from Ireland.,,Drama
+Happy Days,Samuel Beckett,1961,Ireland,Northern Europe,Europe,1,English,80,A book from Ireland.,,Drama
 Translations,Brian Friel,1980,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
 Dancing at Lughnasa,Brian Friel,1990,Ireland,Northern Europe,Europe,,English,100,A book from Ireland.,,Drama
 Hay Fever,Noel Coward,1925,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 Private Lives,Noel Coward,1930,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 Blithe Spirit,Noel Coward,1941,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 The Birthday Party,Harold Pinter,1958,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
-The Caretaker,Harold Pinter,1960,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
+The Caretaker,Harold Pinter,1960,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 The Homecoming,Harold Pinter,1965,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
-Betrayal,Harold Pinter,1978,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
 Rosencrantz and Guildenstern Are Dead,Tom Stoppard,1966,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
 Arcadia,Tom Stoppard,1993,UK,Northern Europe,Europe,1,English,120,A book from UK.,,Drama
 Top Girls,Caryl Churchill,1982,UK,Northern Europe,Europe,,English,100,A book from UK.,,Drama
 Cloud Nine,Caryl Churchill,1979,UK,Northern Europe,Europe,1,English,100,A book from UK.,,Drama
 Le Cid,Pierre Corneille,1637,France,Western Europe,Europe,,French,120,A book from France.,,Drama
-Horace,Pierre Corneille,1640,France,Western Europe,Europe,,French,120,A book from France.,,Drama
 Cinna,Pierre Corneille,1641,France,Western Europe,Europe,,French,120,A book from France.,,Drama
 Andromache,Jean Racine,1667,France,Western Europe,Europe,,French,100,A book from France.,,Drama
 Phedre,Jean Racine,1677,France,Western Europe,Europe,,French,100,A book from France.,,Drama
 Tartuffe,Moliere,1664,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
 Don Juan,Moliere,1665,France,Western Europe,Europe,,French,100,A book from France.,,Drama
-The Misanthrope,Moliere,1666,France,Western Europe,Europe,,French,100,A book from France.,,Drama
+The Misanthrope,Moliere,1666,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
 The School for Wives,Moliere,1662,France,Western Europe,Europe,,French,100,A book from France.,,Drama
 The Miser,Moliere,1668,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
 The Imaginary Invalid,Moliere,1673,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
@@ -145,11 +173,10 @@ No Exit,Jean-Paul Sartre,1944,France,Western Europe,Europe,,French,60,A book fro
 Caligula,Albert Camus,1944,France,Western Europe,Europe,1,French,100,A book from France.,,Drama
 The Maids,Jean Genet,1947,France,Western Europe,Europe,,French,80,A book from France.,,Drama
 The Balcony,Jean Genet,1956,France,Western Europe,Europe,,French,120,A book from France.,,Drama
-The Chairs,Eugene Ionesco,1952,France/Romania,Western Asia,Asia,1,French,80,A book from France/Romania.,,Drama
-The Lesson,Eugene Ionesco,1951,France/Romania,Western Asia,Asia,1,French,60,A book from France/Romania.,,Drama
-Rhinoceros,Eugene Ionesco,1959,France/Romania,Western Asia,Asia,1,French,100,A book from France/Romania.,,Drama
-Art,Yasmina Reza,1994,France,Western Europe,Europe,,French,80,A book from France.,,Drama
-God of Carnage,Yasmina Reza,2006,France,Western Europe,Europe,,French,80,A book from France.,,Drama
+The Chairs,Eugene Ionesco,1952,France,Western Europe,Europe,1,French,80,A book from France/Romania.,,Drama
+The Lesson,Eugene Ionesco,1951,France,Western Europe,Europe,1,French,60,A book from France/Romania.,,Drama
+Rhinoceros,Eugene Ionesco,1959,France,Western Europe,Europe,1,French,100,A book from France/Romania.,,Drama
+Art,Yasmina Reza,1994,France,Western Europe,Europe,1,French,80,A book from France.,,Drama
 Nathan the Wise,Gotthold Ephraim Lessing,1779,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
 Faust Part I,Goethe,1808,Germany,Western Europe,Europe,,German,180,A book from Germany.,,Drama
 Faust Part II,Goethe,1832,Germany,Western Europe,Europe,,German,250,A book from Germany.,,Drama
@@ -160,7 +187,6 @@ Mary Stuart,Friedrich Schiller,1800,Germany,Western Europe,Europe,,German,160,A 
 Danton’s Death,Georg Buechner,1835,Germany,Western Europe,Europe,,German,100,A book from Germany.,,Drama
 Woyzeck,Georg Buechner,1837,Germany,Western Europe,Europe,,German,80,A book from Germany.,,Drama
 The Weavers,Gerhart Hauptmann,1892,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
-The Rats,Gerhart Hauptmann,1911,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
 Spring Awakening,Frank Wedekind,1891,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
 Earth Spirit,Frank Wedekind,1895,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
 Pandora’s Box,Frank Wedekind,1904,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
@@ -169,18 +195,16 @@ Mother Courage and Her Children,Bertolt Brecht,1939,Germany,Western Europe,Europ
 Life of Galileo,Bertolt Brecht,1943,Germany,Western Europe,Europe,1,German,120,A book from Germany.,,Drama
 The Good Person of Szechwan,Bertolt Brecht,1943,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
 The Caucasian Chalk Circle,Bertolt Brecht,1944,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
-The Resistible Rise of Arturo Ui,Bertolt Brecht,1941,Germany,Western Europe,Europe,,German,100,A book from Germany.,,Drama
 Marat/Sade,Peter Weiss,1963,Germany,Western Europe,Europe,,German,120,A book from Germany.,,Drama
 The Last Days of Mankind,Karl Kraus,1922,Austria,Western Europe,Europe,,German,800,A book from Austria.,,Drama
 La Ronde,Arthur Schnitzler,1897,Austria,Western Europe,Europe,,German,100,A book from Austria.,,Drama
-Professor Bernhardi,Arthur Schnitzler,1912,Austria,Western Europe,Europe,,German,120,A book from Austria.,,Drama
-The Vast Domain,Arthur Schnitzler,1911,Austria,Western Europe,Europe,,German,120,A book from Austria.,,Drama
+Professor Bernhardi,Arthur Schnitzler,1912,Austria,Western Europe,Europe,1,German,120,A book from Austria.,,Drama
 The Visit,Friedrich Duerrenmatt,1956,Switzerland,Western Europe,Europe,,German,100,A book from Switzerland.,,Drama
 The Physicists,Friedrich Duerrenmatt,1962,Switzerland,Western Europe,Europe,1,German,100,A book from Switzerland.,,Drama
 A Doll’s House,Henrik Ibsen,1879,Norway,Northern Europe,Europe,1,Norwegian,100,A book from Norway.,,Drama
 Ghosts,Henrik Ibsen,1881,Norway,Northern Europe,Europe,,Norwegian,100,A book from Norway.,,Drama
 An Enemy of the People,Henrik Ibsen,1882,Norway,Northern Europe,Europe,,Norwegian,120,A book from Norway.,,Drama
-The Wild Duck,Henrik Ibsen,1884,Norway,Northern Europe,Europe,,Norwegian,120,A book from Norway.,,Drama
+The Wild Duck,Henrik Ibsen,1884,Norway,Northern Europe,Europe,1,Norwegian,120,A book from Norway.,,Drama
 Hedda Gabler,Henrik Ibsen,1890,Norway,Northern Europe,Europe,1,Norwegian,100,A book from Norway.,,Drama
 The Master Builder,Henrik Ibsen,1892,Norway,Northern Europe,Europe,1,Norwegian,120,A book from Norway.,,Drama
 Peer Gynt,Henrik Ibsen,1867,Norway,Northern Europe,Europe,,Norwegian,180,A book from Norway.,,Drama
@@ -189,8 +213,8 @@ Miss Julie,August Strindberg,1888,Sweden,Northern Europe,Europe,1,Swedish,80,A b
 A Dream Play,August Strindberg,1901,Sweden,Northern Europe,Europe,,Swedish,100,A book from Sweden.,,Drama
 The Ghost Sonata,August Strindberg,1907,Sweden,Northern Europe,Europe,,Swedish,80,A book from Sweden.,,Drama
 The Seagull,Anton Chekhov,1896,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
-Uncle Vanya,Anton Chekhov,1898,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Drama
-Three Sisters,Anton Chekhov,1901,Russia,Eastern Europe,Europe,,Russian,100,A book from Russia.,,Drama
+Uncle Vanya,Anton Chekhov,1898,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
+Three Sisters,Anton Chekhov,1901,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
 The Cherry Orchard,Anton Chekhov,1904,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
 The Inspector General,Nikolai Gogol,1836,Russia,Eastern Europe,Europe,1,Russian,100,A book from Russia.,,Drama
 Boris Godunov,Alexander Pushkin,1831,Russia,Eastern Europe,Europe,,Russian,120,A book from Russia.,,Drama
@@ -203,30 +227,30 @@ The Wedding,Witold Gombrowicz,1948,Poland,Eastern Europe,Europe,,Polish,160,A bo
 Six Characters in Search of an Author,Luigi Pirandello,1921,Italy,Southern Europe,Europe,1,Italian,100,A book from Italy.,,Drama
 Henry IV,Luigi Pirandello,1922,Italy,Southern Europe,Europe,1,Italian,100,A book from Italy.,,Drama
 "Right You Are, If You Think So",Luigi Pirandello,1917,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
-The Servant of Two Masters,Carlo Goldoni,1745,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
+The Servant of Two Masters,Carlo Goldoni,1745,Italy,Southern Europe,Europe,1,Italian,100,A book from Italy.,,Drama
 La Locandiera,Carlo Goldoni,1753,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
 Turandot,Carlo Gozzi,1762,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
 Accidental Death of an Anarchist,Dario Fo,1970,Italy,Southern Europe,Europe,,Italian,100,A book from Italy.,,Drama
 Our Town,Thornton Wilder,1938,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 Machinal,Sophie Treadwell,1928,USA,Northern America,North America,1,English,100,A book from USA.,,Drama
 A Raisin in the Sun,Lorraine Hansberry,1959,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
-Long Day’s Journey into Night,Eugene O’Neill,1956,USA,Northern America,North America,,English,180,A book from USA.,,Drama
+Long Day’s Journey into Night,Eugene O’Neill,1956,USA,Northern America,North America,1,English,180,A book from USA.,,Drama
 Death of a Salesman,Arthur Miller,1949,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 The Crucible,Arthur Miller,1953,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 A Streetcar Named Desire,Tennessee Williams,1947,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 The Glass Menagerie,Tennessee Williams,1944,USA,Northern America,North America,1,English,100,A book from USA.,,Drama
 Cat on a Hot Tin Roof,Tennessee Williams,1955,USA,Northern America,North America,,English,120,A book from USA.,,Drama
-Who’s Afraid of Virginia Woolf?,Edward Albee,1962,USA,Northern America,North America,,English,120,A book from USA.,,Drama
+Who’s Afraid of Virginia Woolf?,Edward Albee,1962,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 Fences,August Wilson,1985,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 The Piano Lesson,August Wilson,1987,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 Buried Child,Sam Shepard,1978,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 Glengarry Glen Ross,David Mamet,1984,USA,Northern America,North America,1,English,110,A book from USA.,,Drama
 Angels in America: Millennium Approaches,Tony Kushner,1991,USA,Northern America,North America,,English,150,A book from USA.,,Drama
 Angels in America: Perestroika,Tony Kushner,1992,USA,Northern America,North America,,English,160,A book from USA.,,Drama
-Topdog/Underdog,Suzan-Lori Parks,2001,USA,Northern America,North America,,English,120,A book from USA.,,Drama
+Topdog/Underdog,Suzan-Lori Parks,2001,USA,Northern America,North America,1,English,120,A book from USA.,,Drama
 Blood Knot,Athol Fugard,1961,South Africa,Southern Africa,Africa,,English,100,A book from South Africa.,,Drama
 “Master Harold”…and the Boys,Athol Fugard,1982,South Africa,Southern Africa,Africa,,English,100,A book from South Africa.,,Drama
-Sizwe Banzi Is Dead,"Athol Fugard, John Kani and Winston Ntshona",1972,South Africa,Southern Africa,Africa,,English,80,A book from South Africa.,,Drama
+Sizwe Banzi Is Dead,Athol Fugard,1972,South Africa,Southern Africa,Africa,,English,80,A book from South Africa.,,Drama
 Death and the King’s Horseman,Wole Soyinka,1975,Nigeria,Western Africa,Africa,,English,100,A book from Nigeria.,,Drama
 The Lion and the Jewel,Wole Soyinka,1959,Nigeria,Western Africa,Africa,,English,100,A book from Nigeria.,,Drama
 Anowa,Ama Ata Aidoo,1970,Ghana,Western Africa,Africa,,English,80,A book from Ghana.,,Drama
@@ -253,8 +277,8 @@ The Masters and the Slaves,Gilberto Freyre,1933,Brazil,South America,South Ameri
 In an Antique Land,Amitav Ghosh,1992,India,Southern Asia,Asia,,English,400,,,Nonfiction
 The Book of Misers,al-Jahiz,868,Iraq,Western Asia,Asia,,Arabic,300,A book from Iraq.,,Nonfiction
 The Wretched of the Earth,Frantz Fanon,1961,Martinique,Caribbean,North America,,French,250,A book from Martinique/Algeria.,,Nonfiction
-Black Elk Speaks,Black Elk and John G. Neihardt,1932,USA,Northern America,North America,,English,300,A book from USA.,,Nonfiction
-"I, Rigoberta Menchú",Rigoberta Menchu and Elisabeth Burgos-Debray,1983,Guatemala,Central America,Central America,,Spanish,300,A book from Guatemala.,,Nonfiction
+Black Elk Speaks,Black Elk,1932,USA,Northern America,North America,,English,300,A book from USA.,,Nonfiction
+"I, Rigoberta Menchú",Rigoberta Mench,1983,Guatemala,Central America,Central America,,Spanish,300,A book from Guatemala.,,Nonfiction
 A Vindication of the Rights of Woman,Mary Wollstonecraft,1792,UK,Northern Europe,Europe,,English,300,A book from UK.,,Nonfiction
 The Peloponnesian War,Thucydides,400 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,600,A book from Ancient Greece.,,Nonfiction
 The Last Days of Socrates,Plato,399 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,256,A book from Ancient Greece.,,Nonfiction
@@ -263,7 +287,7 @@ The Twelve Caesars,Suetonius,121,Ancient Rome,Southern Europe,Europe,,Latin,400,
 The Gallic War,Julius Caesar,50 BC,Ancient Rome,Southern Europe,Europe,,Latin,300,A book from Ancient Rome.,,Nonfiction
 Selected Letters,Cicero,44 BC,Ancient Rome,Southern Europe,Europe,,Latin,400,A book from Ancient Rome.,,Nonfiction
 Ecclesiastical History of the English People,Bede,731,UK,Northern Europe,Europe,,Latin,400,A book from UK.,,Nonfiction
-Genesis,Anonymous,500 BC,Ancient Israel,Western Asia,Asia,,Hebrew,80,A book from Ancient Israel.,,Nonfiction
+Genesis,Anonymous,500 BC,Ancient Israel,Western Asia,Asia,1,Hebrew,80,A book from Ancient Israel.,,Nonfiction
 The Analects,Confucius,475 BC,China,Eastern Asia,Asia,,Classical Chinese,150,A book from China.,,Nonfiction
 The Sayings of the Desert Fathers,Anonymous,500,Byzantium,Southern Europe,Europe,,Ancient Greek,250,A book from Byzantium.,,Nonfiction
 The Upanishads,Anonymous,700 BC,India,Southern Asia,Asia,,Sanskrit,300,A book from India.,,Nonfiction
@@ -423,7 +447,7 @@ Thérèse and Isabelle,Violette Leduc,1967,France,Western Europe,Europe,,French,
 
 Violette Leduc (1907–1972) has been referred to as ""France's greatest unknown writer."" Admired by Jean Genet, Nathalie Sarraute, and Albert Camus, Leduc was championed by Simone de Beauvoir when she published her scandalous autobiography La Batarde (1964).",,Novel
 The Golden Pot,E.T.A. Hoffmann,1814,Germany,Western Europe,Europe,,German,128,,,Novella
-Daphnis and Chloe,Longus,150,Greece,Southern Europe,Europe,,und,128,"A tender novel describing eager and inept young love, Daphnis and Chloe tells the story of a baby boy and girl who are discovered separately, two years apart, alone and exposed on a Greek mountainside. Taken in by a goatherd and a shepherd respectively, and raised near the town of Mytilene, they grow to maturity unaware of one another's existence - until the mischievous god of love, Eros, creates in them a sudden overpowering desire for one another. A masterpiece among early Greek romances, attracting both high praise and moral disapproval, this work has proved an enduringly fertile source of inspiration for musicians, writers and artists from Henry Fielding to Jean-Baptiste-Camille Corot and Maurice Ravel. Longus transforms familiar themes from the romance genre - including pirates, dreams, and the supernatural - into a virtuoso love story that is rich in insight, humorous and ironical in its treatment of human sexual experience.",,Novella
+Daphnis and Chloe,Longus,150,Ancient Greece,Southern Europe,Europe,,und,128,"A tender novel describing eager and inept young love, Daphnis and Chloe tells the story of a baby boy and girl who are discovered separately, two years apart, alone and exposed on a Greek mountainside. Taken in by a goatherd and a shepherd respectively, and raised near the town of Mytilene, they grow to maturity unaware of one another's existence - until the mischievous god of love, Eros, creates in them a sudden overpowering desire for one another. A masterpiece among early Greek romances, attracting both high praise and moral disapproval, this work has proved an enduringly fertile source of inspiration for musicians, writers and artists from Henry Fielding to Jean-Baptiste-Camille Corot and Maurice Ravel. Longus transforms familiar themes from the romance genre - including pirates, dreams, and the supernatural - into a virtuoso love story that is rich in insight, humorous and ironical in its treatment of human sexual experience.",,Novella
 White Nights,Fyodor Dostoevsky,1848,Russia,Eastern Europe,Europe,1,Russian,113,"White Nights is a short story by Fyodor Dostoevsky that was published in 1848. Set in St. Petersburg, it is the story of a young man fighting his inner restlessness. A light and tender narrative, it delves into the torment and guilt of unrequited love. Both protagonists suffer from a deep sense of alienation that initially brings them together. A blend of romanticism and realism, the story appeals gently to the senses and feelings.",,Novella
 The Double,Fyodor Dostoevsky,1957,Russia,Eastern Europe,Europe,1,Russian,144,"A lonely government clerk - shy, awkward, blundering - finds himself pursued by a mysterious stranger. Somehow he looks familiar. In fact, he realizes, he looks exactly like him. He even has the same name. But, unlike him, he is charming and confident. Soon the stranger starts insinuating himself into his life. He works at his office, stays at his apartment, ingratiates himself with his colleagues. No one seems surprised. Who is he? What does he want? Is he a double, or something darker altogether?
 
@@ -1697,8 +1721,8 @@ The Sand Fish,Maha Gargash,2009,United Arab Emirates,Western Asia,Asia,,English,
 The Dead Lake,Hamid Ismailov,2011,Uzbekistan,Central Asia,Asia,1,English,128,"A haunting Russian tale about the environmental legacy of the Cold War. Yerzhan grows up in a remote part of Soviet Kazakhstan where atomic weapons are tested. As a young boy he falls in love with the neighbour's daughter and one evening, to impress her, he dives into a forbidden lake. The radioactive water changes Yerzhan. He will never grow into a man. While the girl he loves becomes a beautiful woman. ------ Why Peirene chose to publish this book: 'Like a Grimm's fairy tale, this story transforms an innermost fear into an outward reality. We witness a prepubescent boy's secret terror of not growing up into a man. We also wander in a beautiful, fierce landscape unlike any other we find in Western literature. And by the end of Yerzhan's tale we are awe-struck by our human resilience in the face of catastrophic, man-made, follies.",,Novella
 The Hostage,Zayd Mutee Dammaj,1984,Yemen,Western Asia,Asia,,English,164,,,Novel
 Confessions,St. Augustine,400,Ancient Rome,Southern Europe,Europe,,Latin,300,A book from Algeria/Roman Empire.,,Nonfiction
-The Symposium,Plato,370 BC,Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Nonfiction
-Phaedrus,Plato,370 BC,Greece,Southern Europe,Europe,,Ancient Greek,100,A book from Greece.,,Nonfiction
+The Symposium,Plato,370 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Nonfiction
+Phaedrus,Plato,370 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,100,A book from Greece.,,Nonfiction
 The Pillow Book,Sei Shonagon,1002,Japan,Eastern Asia,Asia,,Japanese,300,A book from Japan.,,Nonfiction
 Essays in Idleness,Yoshida Kenko,1332,Japan,Eastern Asia,Asia,,Japanese,200,A book from Japan.,,Nonfiction
 Six Chapters of a Floating Life,Shen Fu,1809,China,Eastern Asia,Asia,,Mandarin,176,"Six Records of a Floating Life (1809) is an extraordinary blend of autobiography, love story and social document written by a man who was educated as a scholar but earned his living as a civil servant and art dealer. In this intimate memoir, Shen Fu recounts the domestic and romantic joys of his marriage to Yün, the beautiful and artistic girl he fell in love with as a child. He also describes other incidents of his life, including how his beloved wife obtained a courtesan for him and reflects on his travels through China. Shen Fu's exquisite memoir shows six parallel 'layers' of one man's life, loves and career, with revealing glimpses into Chinese society of the Ch'ing Dynasty.",,Nonfiction
@@ -1793,7 +1817,7 @@ Filled with Chagall's own evocative illustrations, My Life is as warm, joyful an
 'Chagall writes as whimsically as he paints: lovingly ofother people, humorously and lovingly of himself' Daily Mail
 
 'Anyone who likes Chagall's paintings will enjoy this book:the work of an unteachable, unspoiled folk artist' Evening Standard",,Nonfiction
-The Histories,Herodotus,430 BC,Greece,Southern Europe,Europe,,Ancient Greek,700,A book from Greece.,,Nonfiction
+The Histories,Herodotus,430 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,700,A book from Greece.,,Nonfiction
 Meditations,Marcus Aurelius,180,Ancient Rome,Southern Europe,Europe,,Ancient Greek,250,A book from Rome.,,Nonfiction
 Letters from a Stoic,Seneca,65,Ancient Rome,Southern Europe,Europe,,Latin,352,"For several years of his turbulent life, in which he was dogged by ill health, exile and danger, Seneca was the guiding hand of the Roman Empire. This selection of Seneca's letters shows him upholding the ideals of Stoicism – the wisdom of the self-possessed person immune to life's setbacks – while valuing friendship and courage, and criticizing the harsh treatment of slaves and the cruelties in the gladiatorial arena. The humanity and wit revealed in Seneca's interpretation of Stoicism is a moving and inspiring declaration of the dignity of the individual mind.",,Nonfiction
 Letters,Pliny the Younger,100,Ancient Rome,Southern Europe,Europe,,Latin,400,A book from Rome.,,Nonfiction
