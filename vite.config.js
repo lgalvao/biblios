@@ -23,6 +23,13 @@ const NOVEL_EXCEPTIONS = new Set([
   'crick crack monkey'
 ]);
 
+const cleanYear = (yearStr) => {
+  if (!yearStr) return '';
+  let cleaned = String(yearStr).trim().replace(/^[cC]\.?\s*/, '');
+  cleaned = cleaned.replace(/\s*[bB]\.?[cC]\.?\s*$/, ' BC');
+  return cleaned.trim();
+};
+
 const isNovelException = (title) => {
   if (!title) return false;
   const normalized = title.toLowerCase().trim().replace(/[,']/g, '');
@@ -165,7 +172,7 @@ const localDatabasePlugin = () => {
         id: idx + 1,
         title: row[mapping.title]?.trim() || '',
         author: row[mapping.author]?.trim() || '',
-        year: mapping.year !== -1 ? row[mapping.year]?.trim() || '' : '',
+        year: mapping.year !== -1 ? cleanYear(row[mapping.year]) : '',
         country: mapping.country !== -1 ? row[mapping.country]?.trim() || '' : '',
         region: mapping.region !== -1 ? row[mapping.region]?.trim() || '' : '',
         continent: mapping.continent !== -1 ? row[mapping.continent]?.trim() || '' : '',

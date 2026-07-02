@@ -624,4 +624,27 @@ The Gospel According to Mark by Anonymous (Ancient Israel, 70), 60 p, Greek`
       })
     ]);
   });
+
+  it('permite selecionar a nova categoria "Long verse" no modo individual e batch', () => {
+    const onSaveMock = vi.fn();
+    render(<BookModal {...defaultProps} onSave={onSaveMock} />);
+
+    // Verifica se 'Long verse' está presente nas opções do select individual
+    const categorySelect = screen.getByLabelText(/Category/i);
+    const options = Array.from(categorySelect.options).map(o => o.value);
+    expect(options).toContain('Long verse');
+
+    // Seleciona a categoria 'Long verse'
+    fireEvent.change(categorySelect, { target: { value: 'Long verse' } });
+    expect(categorySelect.value).toBe('Long verse');
+
+    // Alterna para o modo Batch
+    const batchButton = screen.getByRole('button', { name: /Batch Add/i });
+    fireEvent.click(batchButton);
+
+    // O dropdown de batch de categoria deve ter 'Long verse'
+    const batchCategorySelect = screen.getByLabelText(/Category/i);
+    const batchOptions = Array.from(batchCategorySelect.options).map(o => o.value);
+    expect(batchOptions).toContain('Long verse');
+  });
 });

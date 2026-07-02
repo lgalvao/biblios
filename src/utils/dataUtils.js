@@ -451,6 +451,16 @@ export const repairBooksList = (loadedBooks, referenceData) => {
 };
 
 /**
+ * Normaliza e limpa a string do ano, removendo prefixos como 'c.' e padronizando o sufixo 'BC'.
+ */
+export const cleanYear = (yearStr) => {
+  if (yearStr === null || yearStr === undefined) return '';
+  let cleaned = String(yearStr).trim().replace(/^[cC]\.?\s*/, '');
+  cleaned = cleaned.replace(/\s*[bB]\.?[cC]\.?\s*$/, ' BC');
+  return cleaned.trim();
+};
+
+/**
  * Parses a year string supporting BC/BCE suffixes and returns a numeric year representation.
  * BC/BCE years are returned as negative numbers (e.g. "370 BC" -> -370).
  */
@@ -589,7 +599,7 @@ export const parseBatchText = (text) => {
       books.push({
         title: title.trim(),
         author: normalizeToASCII(author.trim()),
-        year: year.trim(),
+        year: cleanYear(year.trim()),
         country: country.trim(),
         region: geo.region,
         continent: geo.continent,

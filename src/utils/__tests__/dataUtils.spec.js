@@ -15,7 +15,8 @@ import {
   getCountryCode,
   getCountryFlag,
   updateGeoschemeData,
-  parseYear
+  parseYear,
+  cleanYear
 } from '../dataUtils';
 import originalGeoscheme from '../../../un-geoscheme-subregions-countries.json';
 
@@ -389,6 +390,28 @@ describe('Data Utilities', () => {
       expect(parseYear('   ')).toBeNull();
       expect(parseYear('Unknown')).toBeNull();
       expect(parseYear('abc')).toBeNull();
+    });
+  });
+
+  describe('cleanYear', () => {
+    it('deve remover o prefixo "c." ou "c. " de anos', () => {
+      expect(cleanYear('c. 1000')).toBe('1000');
+      expect(cleanYear('c.400')).toBe('400');
+      expect(cleanYear('C. 550')).toBe('550');
+      expect(cleanYear('c. 1200 BC')).toBe('1200 BC');
+    });
+
+    it('deve normalizar sufixos BC / B.C.', () => {
+      expect(cleanYear('370 B.C.')).toBe('370 BC');
+      expect(cleanYear('c. 400 b.c.')).toBe('400 BC');
+      expect(cleanYear('200 BC')).toBe('200 BC');
+    });
+
+    it('deve lidar com valores vazios ou nulos', () => {
+      expect(cleanYear(null)).toBe('');
+      expect(cleanYear(undefined)).toBe('');
+      expect(cleanYear('')).toBe('');
+      expect(cleanYear('   ')).toBe('');
     });
   });
 

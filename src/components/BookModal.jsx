@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getGeoInfo, allCountries, allRegions, allContinents, parseBatchText } from '../utils/dataUtils';
+import { getGeoInfo, allCountries, allRegions, allContinents, parseBatchText, cleanYear } from '../utils/dataUtils';
 import { Download } from 'lucide-react';
 
 export default function BookModal({ book, onSave, onClose, books = [], authors = [], languages = [], tags: tagsList = [] }) {
@@ -340,7 +340,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
       id: book?.id || null,
       title: title.trim(),
       author: author.trim(),
-      year: year.trim(),
+      year: cleanYear(year),
       country: country.trim(),
       region: region.trim(),
       continent,
@@ -428,6 +428,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                       <option value="Stories">Stories</option>
                       <option value="Essays">Essays</option>
                       <option value="Drama">Drama</option>
+                      <option value="Long verse">Long verse</option>
                     </select>
                   </div>
                   <label className="form-label small fw-bold text-muted text-uppercase">Batch Text Input</label>
@@ -504,6 +505,7 @@ export default function BookModal({ book, onSave, onClose, books = [], authors =
                     <option value="Stories">Stories</option>
                     <option value="Essays">Essays</option>
                     <option value="Drama">Drama</option>
+                    <option value="Long verse">Long verse</option>
                   </select>
                 </div>
                 <div className="col-12 col-md-6">

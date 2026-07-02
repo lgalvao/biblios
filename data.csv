@@ -1,4 +1,139 @@
 ﻿Title,Author,Year,Country,Region,Continent,Read,OriginalLanguage,Pages,Description,Tags,Category
+Enuma Elish,Anonymous,1100 BC,Iraq,Western Asia,Asia,,Akkadian,80,A book from Iraq.,,Long verse
+The Epic of Gilgamesh,Anonymous,2100 BC,Iraq,Western Asia,Asia,1,Akkadian,128,A book from Iraq.,,Long verse
+Atrahasis,Anonymous,1700 BC,Iraq,Western Asia,Asia,,Akkadian,160,A book from Iraq.,,Long verse
+The Book of Job,Anonymous,500 BC,Israel,Western Asia,Asia,,Hebrew,64,A book from Israel.,,Long verse
+The Iliad,Homer,750 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,560,A book from Greece.,,Long verse
+The Odyssey,Homer,725 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,400,A book from Greece.,,Long verse
+Theogony,Hesiod,700 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Long verse
+Works and Days,Hesiod,700 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,80,A book from Greece.,,Long verse
+Argonautica,Apollonius of Rhodes,250 BC,Ancient Greece,Southern Europe,Europe,,Ancient Greek,320,A book from Greece.,,Long verse
+De Rerum Natura,Lucretius,55 BC,Rome,Southern Europe,Europe,,Latin,320,A book from Rome.,,Long verse
+The Aeneid,Virgil,19 BC,Rome,Southern Europe,Europe,1,Latin,384,A book from Rome.,,Long verse
+Metamorphoses,Ovid,8,Rome,Southern Europe,Europe,,Latin,560,A book from Rome.,,Long verse
+Pharsalia,Lucan,65,Rome,Southern Europe,Europe,,Latin,400,A book from Rome.,,Long verse
+Thebaid,Statius,92,Rome,Southern Europe,Europe,,Latin,480,A book from Rome.,,Long verse
+Dionysiaca,Nonnus,450,Egypt,Northern Africa,Africa,,Ancient Greek,960,A book from Egypt.,,Long verse
+The Mahabharata,Anonymous,400,India,Southern Asia,Asia,,Sanskrit,1800,A book from India.,,Long verse
+Bhagavad Gita,Vyasa,200 BC,India,Southern Asia,Asia,1,Sanskrit,120,A book from India.,,Long verse
+Ramayana,Valmiki,300 BC,India,Southern Asia,Asia,,Sanskrit,480,A book from India.,,Long verse
+Buddhacarita,Asvaghosa,100,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
+Raghuvamsa,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
+Birth of the War God,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Long verse
+The Cloud Messenger,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,80,A book from India.,,Long verse
+Cilappatikaram,Ilango Adigal,500,India,Southern Asia,Asia,,Tamil,320,A book from India.,,Long verse
+Manimekalai,Sattanar,600,India,Southern Asia,Asia,,Tamil,320,A book from India.,,Long verse
+Kiratarjuniya,Bharavi,550,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
+Shishupala Vadha,Magha,700,India,Southern Asia,Asia,,Sanskrit,320,A book from India.,,Long verse
+Gita Govinda,Jayadeva,1170,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Long verse
+Krishna: The Beautiful Legend of God,Anonymous,900,India,Southern Asia,Asia,,Sanskrit,560,A book from India.,,Long verse
+Ramcharitmanas,Goswami Tulsidas,1574,India,Southern Asia,Asia,,Awadhi,960,A book from India.,,Long verse
+A Tale of Wonder,Srivara,1450,Kashmir,,,,Sanskrit,320,A book from Kashmir.,,Long verse
+Savitri,Sri Aurobindo,1950,India,Southern Asia,Asia,,English,800,A book from India.,,Long verse
+Li Sao,Qu Yuan,300 BC,China,Eastern Asia,Asia,,Classical Chinese,80,A book from China.,,Long verse
+The Song of Everlasting Sorrow,Bai Juyi,806,China,Eastern Asia,Asia,,Classical Chinese,40,A book from China.,,Long verse
+The Tale of Kieu,Nguyen Du,1820,Vietnam,South-Eastern Asia,Asia,,Vietnamese,224,A book from Vietnam.,,Long verse
+I La Galigo,Anonymous,1400,Indonesia,South-Eastern Asia,Asia,,Bugis,300,A book from Indonesia.,,Long verse
+Ramakien,Anonymous,1797,Thailand,South-Eastern Asia,Asia,,Thai,400,A book from Thailand.,,Long verse
+Reamker,Anonymous,1600,Cambodia,South-Eastern Asia,Asia,,Khmer,280,A book from Cambodia.,,Long verse
+Beowulf,Anonymous,1000,England,Northern Europe,Europe,,Old English,128,A book from England.,,Long verse
+The Song of Roland,Anonymous,1100,France,Western Europe,Europe,,Old French,160,A book from France.,,Long verse
+El Cid,Anonymous,1200,Spain,Southern Europe,Europe,,Old Spanish,160,A book from Spain.,,Long verse
+The Nibelungenlied,Anonymous,1200,Germany,Western Europe,Europe,,Middle High German,384,A book from Germany.,,Long verse
+Parzival,Wolfram von Eschenbach,1210,Germany,Western Europe,Europe,,Middle High German,448,A book from Germany.,,Long verse
+Tristan,Gottfried von Strassburg,1210,Germany,Western Europe,Europe,,Middle High German,384,A book from Germany.,,Long verse
+Erec and Enide,Chretien de Troyes,1170,France,Western Europe,Europe,,Old French,120,A book from France.,,Long verse
+"Lancelot, the Knight of the Cart",Chretien de Troyes,1180,France,Western Europe,Europe,,Old French,128,A book from France.,,Long verse
+"Yvain, the Knight of the Lion",Chretien de Troyes,1180,France,Western Europe,Europe,,Old French,128,A book from France.,,Long verse
+"Perceval, the Story of the Grail",Chretien de Troyes,1190,France,Western Europe,Europe,,Old French,160,A book from France.,,Long verse
+The Romance of the Rose,Jean de Lorris and Jean de Meun,1275,France,Western Europe,Europe,,Old French,512,A book from France.,,Long verse
+Sir Gawain and the Green Knight,Anonymous,1400,England,Northern Europe,Europe,,Middle English,128,A book from England.,,Long verse
+Pearl,Anonymous,1400,England,Northern Europe,Europe,,Middle English,80,A book from England.,,Long verse
+Piers Plowman,William Langland,1387,England,Northern Europe,Europe,,Middle English,384,A book from England.,,Long verse
+The Canterbury Tales,Geoffrey Chaucer,1400,England,Northern Europe,Europe,,Middle English,544,A book from England.,,Long verse
+Troilus and Criseyde,Geoffrey Chaucer,1385,England,Northern Europe,Europe,,Middle English,368,A book from England.,,Long verse
+The Divine Comedy,Dante Alighieri,1321,Italy,Southern Europe,Europe,1,Italian,752,A book from Italy.,,Long verse
+Orlando Innamorato,Matteo Maria Boiardo,1495,Italy,Southern Europe,Europe,,Italian,760,A book from Italy.,,Long verse
+Orlando Furioso,Ludovico Ariosto,1532,Italy,Southern Europe,Europe,,Italian,688,A book from Italy.,,Long verse
+Jerusalem Delivered,Torquato Tasso,1581,Italy,Southern Europe,Europe,,Italian,480,A book from Italy.,,Long verse
+The Faerie Queene,Edmund Spenser,1596,England,Northern Europe,Europe,,English,1248,A book from England.,,Long verse
+Paradise Lost,John Milton,1667,England,Northern Europe,Europe,,English,384,A book from England.,,Long verse
+Os Lusiadas,Luis de Camoes,1572,Portugal,Southern Europe,Europe,,Portuguese,256,A book from Portugal.,,Long verse
+The Knight in the Panther Skin,Shota Rustaveli,1200,Georgia,Western Asia,Asia,,Georgian,288,A book from Georgia.,,Long verse
+The Tale of Igor's Campaign,Anonymous,1185,Ukraine,Eastern Europe,Europe,,Old East Slavic,64,A book from Ukraine.,,Long verse
+The Mountain Wreath,Petar II Petrovic-Njegos,1847,Montenegro,Southern Europe,Europe,,Serbian,128,A book from Montenegro.,,Long verse
+Osman,Ivan Gundulic,1621,Croatia,Southern Europe,Europe,,Croatian,480,A book from Croatia.,,Long verse
+The Death of Smail-aga Cengic,Ivan Mazuranic,1846,Croatia,Southern Europe,Europe,,Croatian,96,A book from Croatia.,,Long verse
+The Baptism on the Savica,France Preseren,1836,Slovenia,Southern Europe,Europe,,Slovenian,48,A book from Slovenia.,,Long verse
+Kalevala,Elias Lonnrot,1849,Finland,Northern Europe,Europe,,Finnish,680,A book from Finland.,,Long verse
+Kalevipoeg,Friedrich Reinhold Kreutzwald,1861,Estonia,Northern Europe,Europe,,Estonian,256,A book from Estonia.,,Long verse
+Lacplesis,Andrejs Pumpurs,1888,Latvia,Northern Europe,Europe,,Latvian,176,A book from Latvia.,,Long verse
+The Seasons,Kristijonas Donelaitis,1818,Lithuania,Northern Europe,Europe,,Lithuanian,128,A book from Lithuania.,,Long verse
+Pan Tadeusz,Adam Mickiewicz,1834,Poland,Eastern Europe,Europe,,Polish,384,A book from Poland.,,Long verse
+Forefathers' Eve,Adam Mickiewicz,1832,Poland,Eastern Europe,Europe,,Polish,464,A book from Poland.,,Long verse
+Eugene Onegin,Alexander Pushkin,1833,Russia,Eastern Europe,Europe,,Russian,240,A book from Russia.,,Long verse
+Ruslan and Lyudmila,Alexander Pushkin,1820,Russia,Eastern Europe,Europe,,Russian,128,A book from Russia.,,Long verse
+The Bronze Horseman,Alexander Pushkin,1833,Russia,Eastern Europe,Europe,,Russian,64,A book from Russia.,,Long verse
+The Demon,Mikhail Lermontov,1842,Russia,Eastern Europe,Europe,,Russian,128,A book from Russia.,,Long verse
+Haidamaky,Taras Shevchenko,1841,Ukraine,Eastern Europe,Europe,,Ukrainian,112,A book from Ukraine.,,Long verse
+Faust,Johann Wolfgang von Goethe,1832,Germany,Western Europe,Europe,,German,464,A book from Germany.,,Long verse
+Don Juan,Lord Byron,1824,England,Northern Europe,Europe,,English,784,A book from England.,,Long verse
+Childe Harold's Pilgrimage,Lord Byron,1818,England,Northern Europe,Europe,,English,320,A book from England.,,Long verse
+Endymion,John Keats,1818,England,Northern Europe,Europe,,English,128,A book from England.,,Long verse
+Prometheus Unbound,Percy Bysshe Shelley,1820,England,Northern Europe,Europe,,English,160,A book from England.,,Long verse
+The Prelude,William Wordsworth,1850,England,Northern Europe,Europe,,English,288,A book from England.,,Long verse
+Idylls of the King,Alfred Tennyson,1885,England,Northern Europe,Europe,,English,384,A book from England.,,Long verse
+Aurora Leigh,Elizabeth Barrett Browning,1856,England,Northern Europe,Europe,,English,432,A book from England.,,Long verse
+The Ring and the Book,Robert Browning,1868,England,Northern Europe,Europe,,English,624,A book from England.,,Long verse
+The Legend of the Centuries,Victor Hugo,1883,France,Western Europe,Europe,,French,560,A book from France.,,Long verse
+Anabase,Saint-John Perse,1924,France,Western Europe,Europe,,French,128,A book from France.,,Long verse
+The Waste Land,T. S. Eliot,1922,England,Northern Europe,Europe,,English,64,A book from England.,,Long verse
+Four Quartets,T. S. Eliot,1943,England,Northern Europe,Europe,,English,64,A book from England.,,Long verse
+The Bridge,Hart Crane,1930,USA,Northern America,North America,,English,128,A book from USA.,,Long verse
+The Cantos,Ezra Pound,1968,USA,Northern America,North America,,English,824,A book from USA.,,Long verse
+Paterson,William Carlos Williams,1963,USA,Northern America,North America,,English,320,A book from USA.,,Long verse
+The Odyssey: A Modern Sequel,Nikos Kazantzakis,1938,Greece,Southern Europe,Europe,,Greek,824,A book from Greece.,,Long verse
+Aniara,Harry Martinson,1956,Sweden,Northern Europe,Europe,,Swedish,224,A book from Sweden.,,Long verse
+Autobiography of Red,Anne Carson,1998,Canada,Northern America,North America,,English,160,A book from Canada.,,Long verse
+The Golden Gate,Vikram Seth,1986,India,Southern Asia,Asia,,English,307,A book from India.,,Long verse
+Fredy Neptune,Les Murray,1998,Australia,Australia and New Zealand,Oceania,,English,272,A book from Australia.,,Long verse
+Omeros,Derek Walcott,1990,Saint Lucia,Caribbean,North America,,English,320,A book from Saint Lucia.,,Long verse
+Another Life,Derek Walcott,1973,Saint Lucia,Caribbean,North America,,English,160,A book from Saint Lucia.,,Long verse
+Notebook of a Return to the Native Land,Aime Cesaire,1939,Martinique,Caribbean,North America,,French,80,A book from Martinique.,,Long verse
+Altazor,Vicente Huidobro,1931,Chile,South America,South America,,Spanish,96,A book from Chile.,,Long verse
+Canto General,Pablo Neruda,1950,Chile,South America,South America,,Spanish,560,A book from Chile.,,Long verse
+La Araucana,Alonso de Ercilla,1589,Chile,South America,South America,,Spanish,600,A book from Chile.,,Long verse
+Martin Fierro,Jose Hernandez,1872,Argentina,South America,South America,,Spanish,280,A book from Argentina.,,Long verse
+Tabare,Juan Zorrilla de San Martin,1888,Uruguay,South America,South America,,Spanish,192,A book from Uruguay.,,Long verse
+Morte e Vida Severina,Joao Cabral de Melo Neto,1955,Brazil,South America,South America,1,Portuguese,96,A book from Brazil.,,Long verse
+O Guesa,Sousandrade,1884,Brazil,South America,South America,,Portuguese,360,A book from Brazil.,,Long verse
+I-Juca-Pirama,Goncalves Dias,1851,Brazil,South America,South America,,Portuguese,32,A book from Brazil.,,Long verse
+The Conference of the Birds,Farid od-Din Attar,1177,Iran,Southern Asia,Asia,,Persian,256,A book from Iran.,,Long verse
+Masnavi,Rumi,1273,Afghanistan,Southern Asia,Asia,,Persian,1200,A book from Afghanistan.,,Long verse
+Shahnameh,Abolqasem Ferdowsi,1010,Iran,Southern Asia,Asia,,Persian,960,A book from Iran.,,Long verse
+Garshaspnameh,Asadi Tusi,1066,Iran,Southern Asia,Asia,,Persian,464,A book from Iran.,,Long verse
+Vis and Ramin,Fakhruddin Asad Gurgani,1050,Iran,Southern Asia,Asia,,Persian,576,A book from Iran.,,Long verse
+Khosrow and Shirin,Nizami Ganjavi,1180,Azerbaijan,Western Asia,Asia,,Persian,320,A book from Azerbaijan.,,Long verse
+Layli and Majnun,Nizami Ganjavi,1188,Azerbaijan,Western Asia,Asia,,Persian,240,A book from Azerbaijan.,,Long verse
+The Seven Beauties,Nizami Ganjavi,1197,Azerbaijan,Western Asia,Asia,,Persian,320,A book from Azerbaijan.,,Long verse
+The Book of Alexander,Nizami Ganjavi,1202,Azerbaijan,Western Asia,Asia,,Persian,480,A book from Azerbaijan.,,Long verse
+Yusuf and Zulaikha,Jami,1483,Afghanistan,Southern Asia,Asia,,Persian,320,A book from Afghanistan.,,Long verse
+Kutadgu Bilig,Yusuf Balasaghuni,1069,Kyrgyzstan,Central Asia,Asia,,Karakhanid Turkic,420,A book from Kyrgyzstan.,,Long verse
+The Book of Dede Korkut,Anonymous,1500,Turkey,Western Asia,Asia,,Oghuz Turkic,240,A book from Turkey.,,Long verse
+Koroghlu,Anonymous,1700,Azerbaijan,Western Asia,Asia,,Azerbaijani,360,A book from Azerbaijan.,,Long verse
+Daredevils of Sassoun,Anonymous,900,Armenia,Western Asia,Asia,,Armenian,280,A book from Armenia.,,Long verse
+Epic of Manas,Anonymous,1700,Kyrgyzstan,Central Asia,Asia,,Kyrgyz,800,A book from Kyrgyzstan.,,Long verse
+The Memorial Feast for Kokotoy Khan,Saghimbay Orozbaq Uulu,1910,Kyrgyzstan,Central Asia,Asia,,Kyrgyz,336,A book from Kyrgyzstan.,,Long verse
+Alpamysh,Anonymous,1000,Uzbekistan,Central Asia,Asia,,Uzbek,360,A book from Uzbekistan.,,Long verse
+Epic of King Gesar,Anonymous,1200,Tibet,Eastern Asia,Asia,,Tibetan,600,A book from Tibet.,,Long verse
+The Incomparable Festival,Mir Yar Ali Jan Sahib,1775,India,Southern Asia,Asia,,Urdu,320,A book from India.,,Long verse
+Sunjata,Anonymous,1200,Mali,Western Africa,Africa,,Manding,180,A book from Mali.,,Long verse
+The Mwindo Epic,Anonymous,1900,DR Congo,Middle Africa,Africa,,Nyanga,180,A book from DR Congo.,,Long verse
+The Ozidi Saga,Anonymous,1900,Nigeria,Western Africa,Africa,,Ijaw,320,A book from Nigeria.,,Long verse
+The Epic of Askia Mohammed,Anonymous,1500,Mali,Western Africa,Africa,,Songhay,160,A book from Mali.,,Long verse
+The Epic of Silamaka and Poullori,Anonymous,1800,Mali,Western Africa,Africa,,Fulfulde,160,A book from Mali.,,Long verse
+Ibonia,Anonymous,1600,Madagascar,Eastern Africa,Africa,,Malagasy,160,A book from Madagascar.,,Long verse
+Song of Lawino,Okot p'Bitek,1966,Uganda,Eastern Africa,Africa,,Acholi,128,A book from Uganda.,,Long verse
 Betrayal in the City,Francis Imbuga,1976,Kenya,Eastern Africa,Africa,,English,100,A book from Kenya.,,Drama
 The Dilemma of a Ghost,Ama Ata Aidoo,1964,Ghana,Western Africa,Africa,,English,50,A book from Ghana.,,Drama
 Woza Albert!,Percy Mtwa,1981,South Africa,Southern Africa,Africa,,English,80,A book from South Africa.,,Drama
@@ -69,13 +204,13 @@ The Recognition of Sakuntala,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,120
 Vikrama and Urvashi,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
 The Little Clay Cart,Shudraka,400,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Drama
 The Dream of Vasavadatta,Bhasa,300,India,Southern Asia,Asia,,Sanskrit,100,A book from India.,,Drama
-The Injustice to Dou E,Guan Hanqing,1280,China,Eastern Asia,Asia,,Chinese,100,A book from China.,,Drama
-The Orphan of Zhao,Ji Junxiang,1300,China,Eastern Asia,Asia,,Chinese,100,A book from China.,,Drama
-The Romance of the Western Chamber,Wang Shifu,1300,China,Eastern Asia,Asia,,Chinese,200,A book from China.,,Drama
-The Chalk Circle,Li Qianfu,1300,China,Eastern Asia,Asia,,Chinese,100,,,Drama
-The Peony Pavilion,Tang Xianzu,1598,China,Eastern Asia,Asia,,Chinese,300,A book from China.,,Drama
-The Peach Blossom Fan,Kong Shangren,1699,China,Eastern Asia,Asia,,Chinese,250,A book from China.,,Drama
-Thunderstorm,Cao Yu,1934,China,Eastern Asia,Asia,,Chinese,120,A book from China.,,Drama
+The Injustice to Dou E,Guan Hanqing,1280,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
+The Orphan of Zhao,Ji Junxiang,1300,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
+The Romance of the Western Chamber,Wang Shifu,1300,China,Eastern Asia,Asia,,Mandarin,200,A book from China.,,Drama
+The Chalk Circle,Li Qianfu,1300,China,Eastern Asia,Asia,,Mandarin,100,,,Drama
+The Peony Pavilion,Tang Xianzu,1598,China,Eastern Asia,Asia,,Mandarin,300,A book from China.,,Drama
+The Peach Blossom Fan,Kong Shangren,1699,China,Eastern Asia,Asia,,Mandarin,250,A book from China.,,Drama
+Thunderstorm,Cao Yu,1934,China,Eastern Asia,Asia,,Mandarin,120,A book from China.,,Drama
 The Other Shore,Gao Xingjian,1986,China,Eastern Asia,Asia,,Mandarin,100,A book from China.,,Drama
 Atsumori,Zeami,1400,Japan,Eastern Asia,Asia,,Japanese,40,A book from Japan.,,Drama
 The Love Suicides at Sonezaki,Chikamatsu Monzaemon,1703,Japan,Eastern Asia,Asia,,Japanese,80,A book from Japan.,,Drama
@@ -1262,7 +1397,7 @@ See Under: Love,David Grossman,1986,Israel,Western Asia,Asia,,Hebrew,458,,,Novel
 Badenheim 1939,Aharon Appelfeld,1978,Israel,Western Asia,Asia,,Hebrew,146,,,Novella
 My Michael,Amos Oz,1968,Israel,Western Asia,Asia,,Hebrew,252,,,Novel
 Only Yesterday,S.Y. Agnon,1945,Israel,Western Asia,Asia,,Hebrew,688,,,Novel
-Zeno’s Conscience,Italo Svevo,1923,Italy,Southern Europe,Europe,,Italian,433,"“Svevo’s masterpiece . . . [in] a fresh translation by the dean of Italian literary translators.” –_Los Angeles Times_“An excellent new rendering [of a] marvellous and original book.”–James Wood, London Review of Books “A masterpiece, a novel overflowing with human truth in all its murkiness, laughter and terror, a book as striking and relevant today as when it was first published, and a book that is in every good way–its originality included–like life.” –Claire Messud, _The New Republic_��Hilarious. . . . Effortlessly inventive and eerily prescient. . . . William Weaver . . . updates the novelist’s idiosyncratic prose with great affection.” –_The Atlantic Monthly_“An event in modern publishing. For the first time, I believe, in English, we get the true, dark music, the pewter tints, of Svevo��s great last novel. . . . [Svevo is] a master.” –Joan Acocella, _The New Yorker_“[An] exhilarating and utterly original novel. . . . Weaver’s version strikes one as excellent.” –P. N. Furbank, _Literary Review_“One of the great comic novels of the twentieth century. . . . [Svevo is] perhaps _the most significant Italian modernist novelist.” –The Times Literary Supplement_“[A] neglected masterpiece. Seventy-five years old, the novel feels entirely modern.” –_The Boston Globe_“A reason for celebration. . . . If you have never read Svevo, do so as soon as you can. He is beautiful and important.” –_New Statesman_“One of the indispensable 20th-century novels. . . . A revolutionary book, and arguably (in fact, probably) the finest of all Italian novels.” –_Kirkus Reviews_“No one has done more to make modern Italian literature available in English than William Weaver. . . . [His new translation is] scrupulously accurate.” –_Anniston Star_Product DescriptionLong hailed as a seminal work of modernism in the tradition of Joyce and Kafka, and now available in a supple new English translation, Italo Svevo’s charming and splendidly idiosyncratic novel conducts readers deep into one hilariously hyperactive and endlessly self-deluding mind. The mind in question belongs to Zeno Cosini, a neurotic Italian businessman who is writing his confessions at the behest of his psychiatrist. Here are Zeno��s interminable attempts to quit smoking, his courtship of the beautiful yet unresponsive Ada, his unexpected–and unexpectedly happy–marriage to Ada’s homely sister Augusta, and his affair with a shrill-voiced aspiring singer. Relating these misadventures with wry wit and a perspicacity at once unblinking and compassionate, Zeno’s Conscience_ _is a miracle of psychological realism.",,Novel
+Zeno’s Conscience,Italo Svevo,1923,Italy,Southern Europe,Europe,,Italian,433,"“Svevo’s masterpiece . . . [in] a fresh translation by the dean of Italian literary translators.��� –_Los Angeles Times_“An excellent new rendering [of a] marvellous and original book.”–James Wood, London Review of Books “A masterpiece, a novel overflowing with human truth in all its murkiness, laughter and terror, a book as striking and relevant today as when it was first published, and a book that is in every good way–its originality included–like life.” –Claire Messud, _The New Republic_��Hilarious. . . . Effortlessly inventive and eerily prescient. . . . William Weaver . . . updates the novelist’s idiosyncratic prose with great affection.” –_The Atlantic Monthly_“An event in modern publishing. For the first time, I believe, in English, we get the true, dark music, the pewter tints, of Svevo��s great last novel. . . . [Svevo is] a master.” –Joan Acocella, _The New Yorker_“[An] exhilarating and utterly original novel. . . . Weaver’s version strikes one as excellent.” –P. N. Furbank, _Literary Review_“One of the great comic novels of the twentieth century. . . . [Svevo is] perhaps _the most significant Italian modernist novelist.” –The Times Literary Supplement_“[A] neglected masterpiece. Seventy-five years old, the novel feels entirely modern.” –_The Boston Globe_“A reason for celebration. . . . If you have never read Svevo, do so as soon as you can. He is beautiful and important.” –_New Statesman_“One of the indispensable 20th-century novels. . . . A revolutionary book, and arguably (in fact, probably) the finest of all Italian novels.” –_Kirkus Reviews_“No one has done more to make modern Italian literature available in English than William Weaver. . . . [His new translation is] scrupulously accurate.” –_Anniston Star_Product DescriptionLong hailed as a seminal work of modernism in the tradition of Joyce and Kafka, and now available in a supple new English translation, Italo Svevo’s charming and splendidly idiosyncratic novel conducts readers deep into one hilariously hyperactive and endlessly self-deluding mind. The mind in question belongs to Zeno Cosini, a neurotic Italian businessman who is writing his confessions at the behest of his psychiatrist. Here are Zeno��s interminable attempts to quit smoking, his courtship of the beautiful yet unresponsive Ada, his unexpected–and unexpectedly happy–marriage to Ada’s homely sister Augusta, and his affair with a shrill-voiced aspiring singer. Relating these misadventures with wry wit and a perspicacity at once unblinking and compassionate, Zeno’s Conscience_ _is a miracle of psychological realism.",,Novel
 The Days of Abandonment,Elena Ferrante,2002,Italy,Southern Europe,Europe,,Italian,192,,,Novel
 The House on the Medlar Tree,Giovanni Verga,1881,Italy,Southern Europe,Europe,,Italian,280,,,Novel
 Conversations in Sicily,Elio Vittorini,1941,Italy,Southern Europe,Europe,,Italian,208,A book from Italy.,,Novel
