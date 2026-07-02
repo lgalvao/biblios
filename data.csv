@@ -1,7 +1,29 @@
 ﻿Title,Author,Year,Country,Region,Continent,Read,OriginalLanguage,Pages,Description,Tags,Category
+Buddhacarita,Asvaghosa,100,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
+Manimekalai,Sattanar,600,India,Southern Asia,Asia,,Tamil,320,A book from India.,,Long verse
+Pearl,Anonymous,1400,England,Northern Europe,Europe,,Middle English,80,A book from England.,,Long verse
+Khosrow and Shirin,Nizami Ganjavi,1180,Azerbaijan,Western Asia,Asia,,Persian,320,A book from Azerbaijan.,,Long verse
+The Seven Beauties,Nizami Ganjavi,1197,Azerbaijan,Western Asia,Asia,,Persian,320,A book from Azerbaijan.,,Long verse
+The Burda,Al-Busiri,1290,Egypt,Northern Africa,Africa,,Arabic,49,A book from Egypt.,,Long verse
+The Solitudes,Luis de Gongora,1613,Spain,Southern Europe,Europe,,Spanish,160,A book from Spain.,,Long verse
+First Dream,Sor Juana Ines de la Cruz,1692,Mexico,Central America,North America,,Spanish,64,A book from Mexico.,,Long verse
+The Rape of the Lock,Alexander Pope,1714,England,Northern Europe,Europe,,English,80,A book from England.,,Long verse
+Beauty and Love,Seyh Galib,1783,Turkey,Western Asia,Asia,,Ottoman Turkish,240,A book from Turkey.,,Long verse
+Hermann and Dorothea,Johann Wolfgang von Goethe,1797,Germany,Western Europe,Europe,,German,160,A book from Germany.,,Long verse
+In Parenthesis,David Jones,1937,UK,Northern Europe,Europe,,English,224,A book from Wales.,,Long verse
+The Anathemata,David Jones,1952,UK,Northern Europe,Europe,,English,240,A book from Wales.,,Long verse
+The Axion Esti,Odysseas Elytis,1959,Greece,Southern Europe,Europe,,Greek,112,A book from Greece.,,Long verse
+Helen in Egypt,H.D.,1961,USA,Northern America,North America,,English,320,A book from USA.,,Long verse
+Briggflatts,Basil Bunting,1966,UK,Northern Europe,Europe,,English,96,A book from England.,,Long verse
+The Book of Nightmares,Galway Kinnell,1971,USA,Northern America,North America,,English,88,A book from USA.,,Long verse
+The Maximus Poems,Charles Olson,1975,USA,Northern America,North America,,English,660,A book from USA.,,Long verse
+The Changing Light at Sandover,James Merrill,1982,USA,Northern America,North America,,English,560,A book from USA.,,Long verse
+Garbage,A. R. Ammons,1993,USA,Northern America,North America,,English,128,A book from USA.,,Long verse
 Enuma Elish,Anonymous,1100 BC,Iraq,Western Asia,Asia,,Akkadian,80,A book from Iraq.,,Long verse
 The Epic of Gilgamesh,Anonymous,2100 BC,Iraq,Western Asia,Asia,1,Akkadian,128,A book from Iraq.,,Long verse
-Atrahasis,Anonymous,1700 BC,Iraq,Western Asia,Asia,,Akkadian,160,A book from Iraq.,,Long verse
+Atrahasis,Anonymous,1700 BC,Iraq,Western Asia,Asia,,Akkadian,160,"The Epic of Atrahasis is the fullest Mesopotamian account of the Great Flood, but it offers more. The conditions immediately after the Creation, when the Lower Gods have to work very hard, and complain. 
+
+The text is known from several versions: two were written by Assyrian scribes (one in the Assyrian, one in the Babylonian dialect), a third one (on three tablets) was written during the reign of king Ammi-saduqa of Babylonia (1647-1626 BCE). Parts are quoted in Tablet XI of the Epic of Gilgameš; other influences are in the Babylonian History by Berossus.",,Long verse
 The Book of Job,Anonymous,500 BC,Israel,Western Asia,Asia,,Hebrew,64,A book from Israel.,,Long verse
 The Iliad,Homer,750 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,560,A book from Greece.,,Long verse
 The Odyssey,Homer,725 BC,Ancient Greece,Southern Europe,Europe,1,Ancient Greek,400,A book from Greece.,,Long verse
@@ -13,42 +35,40 @@ The Aeneid,Virgil,19 BC,Rome,Southern Europe,Europe,1,Latin,384,A book from Rome
 Metamorphoses,Ovid,8,Rome,Southern Europe,Europe,,Latin,560,A book from Rome.,,Long verse
 Pharsalia,Lucan,65,Rome,Southern Europe,Europe,,Latin,400,A book from Rome.,,Long verse
 Thebaid,Statius,92,Rome,Southern Europe,Europe,,Latin,480,A book from Rome.,,Long verse
-Dionysiaca,Nonnus,450,Egypt,Northern Africa,Africa,,Ancient Greek,960,A book from Egypt.,,Long verse
+Dionysiaca,Nonnus,450,Egypt,Northern Africa,Africa,,Ancient Greek,960,"Nonnos of Panopolis in Egypt, who lived in the fifth century of our era, composed the last great epic poem of antiquity. The ""Dionysiaca,"" in 48 books, has for its chief theme the expedition of Dionysus against the Indians; but the poet contrives to include all the adventures of the god (as well as much other mythological lore) in a narrative which begins with chaos in heaven and ends with the apotheosis of Ariadne's crown. The wild ecstasy inspired by the god is certainly reflected in the poet's style, which is baroque, extravagant, and unrestrained. It seems that Nonnos was in later years converted to Christianity, for in marked contrast to the ""Dionysiaca,"" a poem dealing unreservedly with classical myths and redolent of a pagan outlook, there is extant and ascribed to him a hexameter paraphrase of the Gospel of John.",,Long verse
 The Mahabharata,Anonymous,400,India,Southern Asia,Asia,,Sanskrit,1800,A book from India.,,Long verse
 Bhagavad Gita,Vyasa,200 BC,India,Southern Asia,Asia,1,Sanskrit,120,A book from India.,,Long verse
 Ramayana,Valmiki,300 BC,India,Southern Asia,Asia,,Sanskrit,480,A book from India.,,Long verse
-Buddhacarita,Asvaghosa,100,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
 Raghuvamsa,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
-Birth of the War God,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Long verse
 The Cloud Messenger,Kalidasa,400,India,Southern Asia,Asia,,Sanskrit,80,A book from India.,,Long verse
-Cilappatikaram,Ilango Adigal,500,India,Southern Asia,Asia,,Tamil,320,A book from India.,,Long verse
-Manimekalai,Sattanar,600,India,Southern Asia,Asia,,Tamil,320,A book from India.,,Long verse
-Kiratarjuniya,Bharavi,550,India,Southern Asia,Asia,,Sanskrit,240,A book from India.,,Long verse
-Shishupala Vadha,Magha,700,India,Southern Asia,Asia,,Sanskrit,320,A book from India.,,Long verse
+Cilappatikaram: The Tale of an Anklet,Ilango Adigal,500,India,Southern Asia,Asia,,Tamil,320,"‘Men and women of Maturai of the four temples! I curse this city. Its king erred in killing the man I loved’
+
+One of the world's masterpieces, The Cilappatikaram (5th century ce) by Ilanko Atikal is India's finest epic in a language other than Sanskrit. It spells out in unforgettable verse the problems that humanity has been wrestling with for a long time: love, war, evil, fate and death.
+
+The Tale of an Anklet is the love story of Kovalan and Kannaki. Originating in Tamil mythology, the compelling tale of Kannaki—her love, her feats and triumphs, and her ultimate transformation to goddess—follows the conventions of Tamil poetry and is told in three phases: the erotic, the heroic and the mythic. This epic ranks with the Ramayana and the Mahabharata as one of the great classics of Indian literature",,Long verse
+Arjuna and the Hunter,Bharavi,550,India,Southern Asia,Asia,,Sanskrit,240,"Kirātārjunīya, or Arjuna and the Hunter, is one of the great court epics of the Sanskrit literary canon. Written by the sixth-century poet Bharavi, it is also the first and most remarkable reinterpretation of a pivotal episode in the Mahābhārata, India’s ancient epic. The warrior Arjuna travels to the Himalayas to perform penance and win a boon from the god Shiva that will help his brothers, the Pandavas, overcome their enemies in righteous war. Appearing in the guise of a hunter, Shiva tests Arjuna’s courage in combat, ultimately reveals himself, and bestows upon the hero an invincible weapon.
+
+In Bharavi’s hands, the episode is turned into a masterful contemplation of heroic action, ethical conduct, ascetic discipline, and religious devotion—core values in India’s classical civilization and enduring themes in Indian literature. But the poem’s fame rests above all on its aesthetic achievement. With its elegant, epigrammatic verse, powerful imagery, dramatic speeches, and vivid descriptions, Arjuna and the Hunter, will dazzle and move contemporary readers no less powerfully than its first courtly connoisseurs.",,Long verse
+The Killing of Shishupala,Magha,700,India,Southern Asia,Asia,,Sanskrit,320,"Magha’s The Killing of Shishupala, written in the seventh century, is a celebrated example of the Sanskrit genre known as mahākāvya, or great poem. This adaptation from the epic Mahābhārata tells the story of Shishupala, who disrupts Yudhishthira’s coronation by refusing to honor Krishna, the king’s principal ally and a manifestation of divinity. When Shishupala challenges Krishna to combat, he is immediately beheaded.
+
+Magha, who was likely a court poet in western India, draws on the rich stylistic resources of Sanskrit poetry to imbue his work with unparalleled sophistication. He expands the narrative’s cosmic implications through elaborate depictions of the natural world and intense erotic sensuality, mixing myth and classical erudition with scenes of political debate and battlefield slaughter. Krishna is variously portrayed as refined prince, formidable warrior, and incarnation of the god Vishnu protecting the world from demonic threat.",,Long verse
 Gita Govinda,Jayadeva,1170,India,Southern Asia,Asia,,Sanskrit,160,A book from India.,,Long verse
 Krishna: The Beautiful Legend of God,Anonymous,900,India,Southern Asia,Asia,,Sanskrit,560,A book from India.,,Long verse
 Ramcharitmanas,Goswami Tulsidas,1574,India,Southern Asia,Asia,,Awadhi,960,A book from India.,,Long verse
 A Tale of Wonder,Srivara,1450,Kashmir,,,,Sanskrit,320,A book from Kashmir.,,Long verse
-Savitri,Sri Aurobindo,1950,India,Southern Asia,Asia,,English,800,A book from India.,,Long verse
-Li Sao,Qu Yuan,300 BC,China,Eastern Asia,Asia,,Classical Chinese,80,A book from China.,,Long verse
 The Song of Everlasting Sorrow,Bai Juyi,806,China,Eastern Asia,Asia,,Classical Chinese,40,A book from China.,,Long verse
 The Tale of Kieu,Nguyen Du,1820,Vietnam,South-Eastern Asia,Asia,,Vietnamese,224,A book from Vietnam.,,Long verse
-I La Galigo,Anonymous,1400,Indonesia,South-Eastern Asia,Asia,,Bugis,300,A book from Indonesia.,,Long verse
-Ramakien,Anonymous,1797,Thailand,South-Eastern Asia,Asia,,Thai,400,A book from Thailand.,,Long verse
 Reamker,Anonymous,1600,Cambodia,South-Eastern Asia,Asia,,Khmer,280,A book from Cambodia.,,Long verse
 Beowulf,Anonymous,1000,England,Northern Europe,Europe,,Old English,128,A book from England.,,Long verse
-The Song of Roland,Anonymous,1100,France,Western Europe,Europe,,Old French,160,A book from France.,,Long verse
+The Song of Roland,Anonymous,1100,France,Western Europe,Europe,1,Old French,160,A book from France.,,Long verse
 El Cid,Anonymous,1200,Spain,Southern Europe,Europe,,Old Spanish,160,A book from Spain.,,Long verse
 The Nibelungenlied,Anonymous,1200,Germany,Western Europe,Europe,,Middle High German,384,A book from Germany.,,Long verse
 Parzival,Wolfram von Eschenbach,1210,Germany,Western Europe,Europe,,Middle High German,448,A book from Germany.,,Long verse
 Tristan,Gottfried von Strassburg,1210,Germany,Western Europe,Europe,,Middle High German,384,A book from Germany.,,Long verse
-Erec and Enide,Chretien de Troyes,1170,France,Western Europe,Europe,,Old French,120,A book from France.,,Long verse
 "Lancelot, the Knight of the Cart",Chretien de Troyes,1180,France,Western Europe,Europe,,Old French,128,A book from France.,,Long verse
-"Yvain, the Knight of the Lion",Chretien de Troyes,1180,France,Western Europe,Europe,,Old French,128,A book from France.,,Long verse
 "Perceval, the Story of the Grail",Chretien de Troyes,1190,France,Western Europe,Europe,,Old French,160,A book from France.,,Long verse
-The Romance of the Rose,Jean de Lorris and Jean de Meun,1275,France,Western Europe,Europe,,Old French,512,A book from France.,,Long verse
+The Romance of the Rose,Jean de Lorris,1275,France,Western Europe,Europe,,Old French,512,A book from France.,,Long verse
 Sir Gawain and the Green Knight,Anonymous,1400,England,Northern Europe,Europe,,Middle English,128,A book from England.,,Long verse
-Pearl,Anonymous,1400,England,Northern Europe,Europe,,Middle English,80,A book from England.,,Long verse
 Piers Plowman,William Langland,1387,England,Northern Europe,Europe,,Middle English,384,A book from England.,,Long verse
 The Canterbury Tales,Geoffrey Chaucer,1400,England,Northern Europe,Europe,,Middle English,544,A book from England.,,Long verse
 Troilus and Criseyde,Geoffrey Chaucer,1385,England,Northern Europe,Europe,,Middle English,368,A book from England.,,Long verse
@@ -58,28 +78,27 @@ Orlando Furioso,Ludovico Ariosto,1532,Italy,Southern Europe,Europe,,Italian,688,
 Jerusalem Delivered,Torquato Tasso,1581,Italy,Southern Europe,Europe,,Italian,480,A book from Italy.,,Long verse
 The Faerie Queene,Edmund Spenser,1596,England,Northern Europe,Europe,,English,1248,A book from England.,,Long verse
 Paradise Lost,John Milton,1667,England,Northern Europe,Europe,,English,384,A book from England.,,Long verse
-Os Lusiadas,Luis de Camoes,1572,Portugal,Southern Europe,Europe,,Portuguese,256,A book from Portugal.,,Long verse
+The Lusiads,Luis de Camoes,1572,Portugal,Southern Europe,Europe,,Portuguese,256,"First published in 1572, The Lusiads is one of the greatest epic poems of the Renaissance, immortalizing Portugal's voyages of discovery with an unrivalled freshness of observation.
+
+At the centre of The Lusiads is Vasco da Gama's pioneer voyage via southern Africa to India in 1497-98. The first European artist to cross the equator, Camoes's narrative reflects the novelty and fascination of that original encounter with Africa, India and the Far East. The poem's twin symbols are the Cross and the Astrolabe, and its celebration of a turning point in mankind's knowledge of the world unites the old map of the heavens with the newly discovered terrain on earth. Yet it speaks powerfully, too, of the precariousness of power, and of the rise and decline of nationhood, threatened not only from without by enemies, but from within by loss of integrity and vision.",,Long verse
 The Knight in the Panther Skin,Shota Rustaveli,1200,Georgia,Western Asia,Asia,,Georgian,288,A book from Georgia.,,Long verse
 The Tale of Igor's Campaign,Anonymous,1185,Ukraine,Eastern Europe,Europe,,Old East Slavic,64,A book from Ukraine.,,Long verse
-The Mountain Wreath,Petar II Petrovic-Njegos,1847,Montenegro,Southern Europe,Europe,,Serbian,128,A book from Montenegro.,,Long verse
-Osman,Ivan Gundulic,1621,Croatia,Southern Europe,Europe,,Croatian,480,A book from Croatia.,,Long verse
-The Death of Smail-aga Cengic,Ivan Mazuranic,1846,Croatia,Southern Europe,Europe,,Croatian,96,A book from Croatia.,,Long verse
+The Mountain Wreath,Petar II Petrovic-Njegos,1847,Montenegro,Southern Europe,Europe,,Serbian,128,"The Mountain Wreath (Serbian: Gorski vijenac) is a poem and a play, a masterpiece of Serbian literature, written by Montenegrin Prince-Bishop and poet Petar II Petrovic-Njegos.
+Njegos wrote The Mountain Wreath during 1846 in Cetinje and published it the following year after the printing in an Armenian monastery in Vienna. It is a modern epic written in verse as a play, thus combining three of the major modes of literary expression.
+Set in 18th-century Montenegro, the poem deals with attempts of Njegos's ancestor Danilo to regulate relations among the region's warring tribes. Written as a series of fictitious scenes in the form of dialogues and monologues, the poem opens with Metropolitan Danilo's vision of the spread of Turkish power in Europe. Torn by inner conflict he sees that the struggle is inevitable, but dreads the issues.
+Starting as a poetic vision it develops into a political-historical drama that expands into a wreath of epic depictions of Montenegrin life, including feasts, gatherings, customs, beliefs, and the struggle to survive the Ottoman oppression. With a strong philosophical basis in its 2819 verses The Mountain Wreath depicts three distinct, opposing civilizations: the heroic-patriarchal classic Montenegro, the oriental-islamic Ottoman Empire and the west-European Venetian civilization.
+The poem is constructed around a single, allegedly historical event, that took place on a particular Christmas Day in the early 1700s, during Metropolitan Danilo's rule: the mass execution of Montenegrins who had converted to Islam, known as ""The Inquisition of the Turkicized"" (Istraga Poturica). Despite the difficulty of proving that an event of such magnitude and in such manner as described by Njegos ever took place in Montenegro, the poem's main theme is a subject of significant political and ideological debate. Recently published History of Montenegro tells us that such an event initiated by Metropolitan Danilo occurred in 1707, but was highly localized in character, happening only in Ceklici clan, one of over twenty tribes of Old Montenegro.
+The fact that Njegos used this event only as a general framework, without bothering about the exact historical data, underscores his concern with an issue that preoccupied him throughout his entire life and which was in line with Romantic thought: the struggle against Ottoman domination. He subjects the entire plot and all characters to this central idea.",,Long verse
 The Baptism on the Savica,France Preseren,1836,Slovenia,Southern Europe,Europe,,Slovenian,48,A book from Slovenia.,,Long verse
 Kalevala,Elias Lonnrot,1849,Finland,Northern Europe,Europe,,Finnish,680,A book from Finland.,,Long verse
-Kalevipoeg,Friedrich Reinhold Kreutzwald,1861,Estonia,Northern Europe,Europe,,Estonian,256,A book from Estonia.,,Long verse
-Lacplesis,Andrejs Pumpurs,1888,Latvia,Northern Europe,Europe,,Latvian,176,A book from Latvia.,,Long verse
-The Seasons,Kristijonas Donelaitis,1818,Lithuania,Northern Europe,Europe,,Lithuanian,128,A book from Lithuania.,,Long verse
 Pan Tadeusz,Adam Mickiewicz,1834,Poland,Eastern Europe,Europe,,Polish,384,A book from Poland.,,Long verse
-Forefathers' Eve,Adam Mickiewicz,1832,Poland,Eastern Europe,Europe,,Polish,464,A book from Poland.,,Long verse
 Eugene Onegin,Alexander Pushkin,1833,Russia,Eastern Europe,Europe,,Russian,240,A book from Russia.,,Long verse
 Ruslan and Lyudmila,Alexander Pushkin,1820,Russia,Eastern Europe,Europe,,Russian,128,A book from Russia.,,Long verse
 The Bronze Horseman,Alexander Pushkin,1833,Russia,Eastern Europe,Europe,,Russian,64,A book from Russia.,,Long verse
 The Demon,Mikhail Lermontov,1842,Russia,Eastern Europe,Europe,,Russian,128,A book from Russia.,,Long verse
-Haidamaky,Taras Shevchenko,1841,Ukraine,Eastern Europe,Europe,,Ukrainian,112,A book from Ukraine.,,Long verse
-Faust,Johann Wolfgang von Goethe,1832,Germany,Western Europe,Europe,,German,464,A book from Germany.,,Long verse
+Faust,Goethe,1832,Germany,Western Europe,Europe,,German,464,A book from Germany.,,Long verse
 Don Juan,Lord Byron,1824,England,Northern Europe,Europe,,English,784,A book from England.,,Long verse
 Childe Harold's Pilgrimage,Lord Byron,1818,England,Northern Europe,Europe,,English,320,A book from England.,,Long verse
-Endymion,John Keats,1818,England,Northern Europe,Europe,,English,128,A book from England.,,Long verse
 Prometheus Unbound,Percy Bysshe Shelley,1820,England,Northern Europe,Europe,,English,160,A book from England.,,Long verse
 The Prelude,William Wordsworth,1850,England,Northern Europe,Europe,,English,288,A book from England.,,Long verse
 Idylls of the King,Alfred Tennyson,1885,England,Northern Europe,Europe,,English,384,A book from England.,,Long verse
@@ -87,8 +106,8 @@ Aurora Leigh,Elizabeth Barrett Browning,1856,England,Northern Europe,Europe,,Eng
 The Ring and the Book,Robert Browning,1868,England,Northern Europe,Europe,,English,624,A book from England.,,Long verse
 The Legend of the Centuries,Victor Hugo,1883,France,Western Europe,Europe,,French,560,A book from France.,,Long verse
 Anabase,Saint-John Perse,1924,France,Western Europe,Europe,,French,128,A book from France.,,Long verse
-The Waste Land,T. S. Eliot,1922,England,Northern Europe,Europe,,English,64,A book from England.,,Long verse
-Four Quartets,T. S. Eliot,1943,England,Northern Europe,Europe,,English,64,A book from England.,,Long verse
+The Waste Land,T. S. Eliot,1922,USA,Northern America,North America,,English,64,A book from England.,,Long verse
+Four Quartets,T. S. Eliot,1943,USA,Northern America,North America,,English,64,A book from England.,,Long verse
 The Bridge,Hart Crane,1930,USA,Northern America,North America,,English,128,A book from USA.,,Long verse
 The Cantos,Ezra Pound,1968,USA,Northern America,North America,,English,824,A book from USA.,,Long verse
 Paterson,William Carlos Williams,1963,USA,Northern America,North America,,English,320,A book from USA.,,Long verse
@@ -96,7 +115,7 @@ The Odyssey: A Modern Sequel,Nikos Kazantzakis,1938,Greece,Southern Europe,Europ
 Aniara,Harry Martinson,1956,Sweden,Northern Europe,Europe,,Swedish,224,A book from Sweden.,,Long verse
 Autobiography of Red,Anne Carson,1998,Canada,Northern America,North America,,English,160,A book from Canada.,,Long verse
 The Golden Gate,Vikram Seth,1986,India,Southern Asia,Asia,,English,307,A book from India.,,Long verse
-Fredy Neptune,Les Murray,1998,Australia,Australia and New Zealand,Oceania,,English,272,A book from Australia.,,Long verse
+Fredy Neptune,Les Murray,1998,Australia,Australia and New Zealand,Oceania,,English,272,"When German-Australian sailor Friedrich ""Fredy"" Boettcher is shanghaied aboard a German Navy battleship at the outbreak of World War I, the sight of frenzied mobs burning Armenian women to death in Turkey causes him, through moral shock, to lose his sense of touch. This mysterious disability, which he knows he must hide, is both protection and curse, as he orbits the high horror and low humor of a catastrophic age.Told in a blue-collar English that regains freshness by eschewing the mind-set of literary language, Fredy's picaresque life-as, perhaps, the only Nordic Superman ever-is deep-dyed in layers of irony and attains a mind-inverting resolution.",,Long verse
 Omeros,Derek Walcott,1990,Saint Lucia,Caribbean,North America,,English,320,A book from Saint Lucia.,,Long verse
 Another Life,Derek Walcott,1973,Saint Lucia,Caribbean,North America,,English,160,A book from Saint Lucia.,,Long verse
 Notebook of a Return to the Native Land,Aime Cesaire,1939,Martinique,Caribbean,North America,,French,80,A book from Martinique.,,Long verse
@@ -104,35 +123,25 @@ Altazor,Vicente Huidobro,1931,Chile,South America,South America,,Spanish,96,A bo
 Canto General,Pablo Neruda,1950,Chile,South America,South America,,Spanish,560,A book from Chile.,,Long verse
 La Araucana,Alonso de Ercilla,1589,Chile,South America,South America,,Spanish,600,A book from Chile.,,Long verse
 Martin Fierro,Jose Hernandez,1872,Argentina,South America,South America,,Spanish,280,A book from Argentina.,,Long verse
-Tabare,Juan Zorrilla de San Martin,1888,Uruguay,South America,South America,,Spanish,192,A book from Uruguay.,,Long verse
 Morte e Vida Severina,Joao Cabral de Melo Neto,1955,Brazil,South America,South America,1,Portuguese,96,A book from Brazil.,,Long verse
-O Guesa,Sousandrade,1884,Brazil,South America,South America,,Portuguese,360,A book from Brazil.,,Long verse
-I-Juca-Pirama,Goncalves Dias,1851,Brazil,South America,South America,,Portuguese,32,A book from Brazil.,,Long verse
 The Conference of the Birds,Farid od-Din Attar,1177,Iran,Southern Asia,Asia,,Persian,256,A book from Iran.,,Long verse
 Masnavi,Rumi,1273,Afghanistan,Southern Asia,Asia,,Persian,1200,A book from Afghanistan.,,Long verse
 Shahnameh,Abolqasem Ferdowsi,1010,Iran,Southern Asia,Asia,,Persian,960,A book from Iran.,,Long verse
-Garshaspnameh,Asadi Tusi,1066,Iran,Southern Asia,Asia,,Persian,464,A book from Iran.,,Long verse
+Garshaspnameh,Asadi Tusi,1066,Iran,Southern Asia,Asia,,Persian,464,"Composed in 1066 but only now translated into English, the Garšāspnāme by ʿAlī ben Aḥmad Asadī Ṭūsī is a Persian epic that interprets Avestan and earlier Indo-European myths for the Islamic peoples of Mediaeval Iran and Afghanistan.
+
+The “Book of Garšāsp” is a story taking readers on a picaresque adventure throughout the known world. Combining a violent odyssey with enlightening discourses on the nature of the universe, Asadī’s masterpiece follows the Iranian hero Garšāsp on his exploits from India to Byzantium, and from Tunisia to China. This is an enthralling saga filled with dragons, conquests, princesses, and magic.",,Long verse
 Vis and Ramin,Fakhruddin Asad Gurgani,1050,Iran,Southern Asia,Asia,,Persian,576,A book from Iran.,,Long verse
-Khosrow and Shirin,Nizami Ganjavi,1180,Azerbaijan,Western Asia,Asia,,Persian,320,A book from Azerbaijan.,,Long verse
 Layli and Majnun,Nizami Ganjavi,1188,Azerbaijan,Western Asia,Asia,,Persian,240,A book from Azerbaijan.,,Long verse
-The Seven Beauties,Nizami Ganjavi,1197,Azerbaijan,Western Asia,Asia,,Persian,320,A book from Azerbaijan.,,Long verse
 The Book of Alexander,Nizami Ganjavi,1202,Azerbaijan,Western Asia,Asia,,Persian,480,A book from Azerbaijan.,,Long verse
-Yusuf and Zulaikha,Jami,1483,Afghanistan,Southern Asia,Asia,,Persian,320,A book from Afghanistan.,,Long verse
-Kutadgu Bilig,Yusuf Balasaghuni,1069,Kyrgyzstan,Central Asia,Asia,,Karakhanid Turkic,420,A book from Kyrgyzstan.,,Long verse
+Yusuf and Zulaikha,Jami,1483,Afghanistan,Southern Asia,Asia,,Persian,320,"A romantic tale that, as sheer gripping entertainment, bears comparison with the finest in any age or country. Described in the Qur'an as ""the most beautiful of stories,"" the romance of Yusuf and Zulaikha is a theme to which Eastern poets have constantly returned. Undoubtedly in Jami's deeply moving and thought-provoking version it finds its finest expression.",,Long verse
 The Book of Dede Korkut,Anonymous,1500,Turkey,Western Asia,Asia,,Oghuz Turkic,240,A book from Turkey.,,Long verse
-Koroghlu,Anonymous,1700,Azerbaijan,Western Asia,Asia,,Azerbaijani,360,A book from Azerbaijan.,,Long verse
 Daredevils of Sassoun,Anonymous,900,Armenia,Western Asia,Asia,,Armenian,280,A book from Armenia.,,Long verse
-Epic of Manas,Anonymous,1700,Kyrgyzstan,Central Asia,Asia,,Kyrgyz,800,A book from Kyrgyzstan.,,Long verse
 The Memorial Feast for Kokotoy Khan,Saghimbay Orozbaq Uulu,1910,Kyrgyzstan,Central Asia,Asia,,Kyrgyz,336,A book from Kyrgyzstan.,,Long verse
-Alpamysh,Anonymous,1000,Uzbekistan,Central Asia,Asia,,Uzbek,360,A book from Uzbekistan.,,Long verse
-Epic of King Gesar,Anonymous,1200,Tibet,Eastern Asia,Asia,,Tibetan,600,A book from Tibet.,,Long verse
 The Incomparable Festival,Mir Yar Ali Jan Sahib,1775,India,Southern Asia,Asia,,Urdu,320,A book from India.,,Long verse
 Sunjata,Anonymous,1200,Mali,Western Africa,Africa,,Manding,180,A book from Mali.,,Long verse
-The Mwindo Epic,Anonymous,1900,DR Congo,Middle Africa,Africa,,Nyanga,180,A book from DR Congo.,,Long verse
-The Ozidi Saga,Anonymous,1900,Nigeria,Western Africa,Africa,,Ijaw,320,A book from Nigeria.,,Long verse
-The Epic of Askia Mohammed,Anonymous,1500,Mali,Western Africa,Africa,,Songhay,160,A book from Mali.,,Long verse
-The Epic of Silamaka and Poullori,Anonymous,1800,Mali,Western Africa,Africa,,Fulfulde,160,A book from Mali.,,Long verse
-Ibonia,Anonymous,1600,Madagascar,Eastern Africa,Africa,,Malagasy,160,A book from Madagascar.,,Long verse
+The Mwindo Epic,Anonymous,1900,Congo DRC,Middle Africa,Africa,,Nyanga,180,"The feats of the hero Mwindo are glorified in this epic work, sung and narrated in a Bantu language and acted out by a member of the Nyanga tribe in the remote forest regions of what is now the Democratic Republic of the Congo. Beautifully structured and richly poetic, the epic is in prose form, interspersed with song and proverbs in verse. As an example of the classic tradition of oral folk literature, the tale provides profound insights into the social structure, values, and cosmology of this African people.",,Long verse
+The Epic of Askia Mohammed,Anonymous,1500,Mali,Western Africa,Africa,,Songhay,160,"Askia Mohammed is the most famous leader in the history of the Songhay Empire, which reached its apogee during his reign in 1493-1528. Songhay, approximately halfway between the present-day cities of Timbuktu in Mali and Niamey in Niger, became a political force beginning in 1463, under the leadership of Sonni Ali Ber. By the time of his death in 1492, the foundation had been laid for the development under Askia Mohammed of a complex system of administration, a well-equipped army and navy, and a network of large government-owned farms. The present rendition of the epic was narrated by the griot (or jesere) Nouhou Malio over two evenings in Saga, a small town on the Niger River, two miles downstream from Niamey. The text is a word-for-word translation from Nouhou Malio's oral performance.",,Long verse
+Ibonia,Anonymous,1600,Madagascar,Eastern Africa,Africa,,Malagasy,160,"Ibonia: Epic of Madagascar is a discovery: the first English translation of the major work of Malagasy oral literature, recorded in 1877 from an anonymous bard by a Norwegian missionary and translated by Lee Haring, who was called ""the pre-eminent American scholar of Malagasy verbal art"" by Research in African Literatures. Ibonia is the epic tale of the birth and exploits of a royal hero. His mother, a queen of heroic caliber, is barren until she consults a diviner, who brings about the hero's conception. An unusual birth and precocious strength prepare the hero to go in quest of his betrothed, who has been abducted. Such tests of worth as combat with a crocodile, supernatural aid, and a victorious struggle with her abductor prove him a true epic hero worthy of ruling his people.",,Long verse
 Song of Lawino,Okot p'Bitek,1966,Uganda,Eastern Africa,Africa,,Acholi,128,A book from Uganda.,,Long verse
 Betrayal in the City,Francis Imbuga,1976,Kenya,Eastern Africa,Africa,,English,100,A book from Kenya.,,Drama
 The Dilemma of a Ghost,Ama Ata Aidoo,1964,Ghana,Western Africa,Africa,,English,50,A book from Ghana.,,Drama
@@ -979,7 +988,7 @@ People in the Room,Norah Lange,1950,Argentina,South America,South America,,Spani
 On Heroes and Tombs,Ernesto Sabato,1961,Argentina,South America,South America,,Spanish,480,,,Novel
 Carpentaria,Alexis Wright,2006,Australia,Australia and New Zealand,Oceania,,English,517,"Hailed as a ""literary sensation"" by The New York Times Book Review, Carpentaria is the luminous award-winning novel by Australian Aboriginal writer and activist Alexis Wright.Alexis Wright employs mysticism, stark reality, and pointed imagination to re-create the land and the Aboriginal people of Carpentaria.In the sparsely populated northern Queensland town of Desperance, loyalties run deep and battle lines have been drawn between the powerful Phantom family, leaders of the Westend Pricklebush people, and Joseph Midnight's renegade Eastend mob, and their disputes with the white officials of neighboring towns. Steeped in myth and magical realism, Wright's hypnotic storytelling exposes the heartbreaking realities of Aboriginal life.By turns operatic and everyday, surreal and sensational, the novel teems with extraordinary, larger-than-life characters. From the outcast savior Elias Smith, religious zealot Mossie Fishman, and murderous mayor Bruiser to activist Will Phantom and Normal Phantom, ruler of the family, these unforgettable characters transcend their circumstances and challenge assumptions about the downtrodden ""other."" Trapped between politics and principle, past and present, the indigenous tribes fight to protect their natural resources, sacred sites, and above all, their people.",,Novel
 Cloudstreet,Tim Winton,1991,Australia,Australia and New Zealand,Oceania,,English,426,"Hailed as a classic, Tim Winton's masterful family saga is both a paean to working-class Australians and an unflinching examination of the human heart's capacity for sorrow, joy, and endless gradations in between. An award-winning work, Cloudstreet exemplifies the brilliant ability of fiction to captivate and inspire.Struggling to rebuild their lives after being touched by disaster, the Pickle family, who've inherited a big house called Cloudstreet in a suburb of Perth, take in the God-fearing Lambs as tenants. The Lambs have suffered their own catastrophes, and determined to survive, they open up a grocery on the ground floor. From 1944 to 1964, the shared experiences of the two overpopulated clans -- running the gamut from drunkenness, adultery, and death to resurrection, marriage, and birth -- bond them to each other and to the bustling, haunted house in ways no one could have anticipated.",,Novel
-The Children’s Bach,Helen Garner,1984,Australia,Australia and New Zealand,Oceania,,English,176,"Helen Garner has been a literary institution in Australia for decades. Her perfectly formed novels embodied Australia’s tumultuous 70s and 80s, and her incisive nonfiction evokes the keen eye of the New Journalists. dubbed her “the Joan Didion of Australia.” Now, the beloved work that solidified her place among the masters of modern international letters, is available in a new US edition.follows Dexter and Athena Fox, a husband and wife who live with their two sons in the inner suburbs of early-1980s Melbourne. Dexter is gregarious, opinionated, and old fashioned. Athena is a dutiful wife and mother, stoic yet underestimated. Though their son’s disability strains the family at times, they appear to lead otherwise happy lives.But when a friend from Dexter’s past resurfaces, she and her cast of beguiling companions reveal another world to Dexter and Athena: a bohemian underground, unbound by routine and driven by desire, where choice seems to exist independent of consequence. And as Athena delves deeper into this other kind of life, the tenuous bonds that hold the Fox family together begin to fray.Painted on a small canvas and with a subtle musical backdrop, is “a jewel” among Garner’s revered catalog (Ben Lerner), a finely etched masterpiece that weighs the burdens of commitment against the costs of liberation.",,Novel
+The Children’s Bach,Helen Garner,1984,Australia,Australia and New Zealand,Oceania,,English,176,"Helen Garner has been a literary institution in Australia for decades. Her perfectly formed novels embodied Australia’s tumultuous 70s and 80s, and her incisive nonfiction evokes the keen eye of the New Journalists. dubbed her “the Joan Didion of Australia.” Now, the beloved work that solidified her place among the masters of modern international letters, is available in a new US edition.follows Dexter and Athena Fox, a husband and wife who live with their two sons in the inner suburbs of early-1980s Melbourne. Dexter is gregarious, opinionated, and old fashioned. Athena is a dutiful wife and mother, stoic yet underestimated. Though their son’s disability strains the family at times, they appear to lead otherwise happy lives.But when a friend from Dexter’s past resurfaces, she and her cast of beguiling companions reveal another world to Dexter and Athena: a bohemian underground, unbound by routine and driven by desire, where choice seems to exist independent of consequence. And as Athena delves deeper into this other kind of life, the tenuous bonds that hold the Fox family together begin to fray.Painted on a small canvas and with a subtle musical backdrop, is “a jewel�� among Garner’s revered catalog (Ben Lerner), a finely etched masterpiece that weighs the burdens of commitment against the costs of liberation.",,Novel
 Visitants,Randolph Stow,1979,Australia,Australia and New Zealand,Oceania,,English,188,"I want to die. I do not want to be mad…It is like my body is a house, and some visitor has come, and attacked the person who lived there.After an Australian patrol officer commits suicide on a remote New Guinea island in 1959, five witnesses are called to a government inquiry. Each has a disturbing story to tell: strand by strand, the mystery of the officer’s past is unravelled. But what of other visitants, like the unidentified flying object and the cargo cult it has inspired on the island? Informed by Randolph Stow’s experiences, Visitants is an original, astonishing investigation of colonialism.",,Novel
 The Plains,Gerald Murnane,1982,Australia,Australia and New Zealand,Oceania,,English,115,"On their vast estates, the landowning families of the plains have preserved a rich and distinctive culture. Obsessed with their own habitat and history, they hire artisans, writers and historians to record in minute detail every aspect of their lives, and the nature of their land. A young film-maker arrives on the plains, hoping to make his own contribution to the elaboration of this history. In a private library he begins to take notes for a film, and chooses the daughter of his patron for a leading role.Twenty years later, he begins to tell his haunting story of life on the plains. As his story unfolds, the novel becomes, in the words of Murray Bail, 'a mirage of landscape, memory, love and literature itself'.",,Novella
 Tirra Lirra by the River,Jessica Anderson,1978,Australia,Australia and New Zealand,Oceania,,English,143,"One of Australia’s most celebrated novels: one woman’s journey from Australia to LondonNora Porteous, a witty, ambitious woman from Brisbane, returns to her childhood home at age seventy. Her life has taken her from a failed marriage in Sydney to freedom in London; she forged a modest career as a seamstress and lived with two dear friends through the happiest years of her adult life.At home, the neighborhood children she remembers have grown into compassionate adults. They help to nurse her back from pneumonia, and slowly let her in on the dark secrets of the neighborhood in the years that have lapsed.With grace and humor, Nora recounts her desire to escape, the way her marriage went wrong, the vanity that drove her to get a facelift, and one romantic sea voyage that has kept her afloat during her dark years. Her memory is imperfect, but the strength and resilience she shows over the years is nothing short of extraordinary. A book about the sweetness of escape, and the mix of pain and acceptance that comes with returning home.",,Novella
