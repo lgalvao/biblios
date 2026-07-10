@@ -99,7 +99,9 @@ export const codeToCountries = {
     "Switzerland"
   ],
   "ci": [
-    "Ivory Coast"
+    "Ivory Coast",
+    "Cote d'Ivoire",
+    "Côte d'Ivoire"
   ],
   "cl": [
     "Chile"
@@ -180,10 +182,13 @@ export const codeToCountries = {
     "Gabon"
   ],
   "gb": [
+    "United Kingdom",
+    "UK",
     "England",
     "Scotland",
     "Wales",
-    "Northern Ireland"
+    "Northern Ireland",
+    "United Kingdom of Great Britain and Northern Ireland"
   ],
   "gd": [
     "Grenada"
@@ -656,6 +661,8 @@ export const countryToCode = {
   "Israel": "il",
   "Italy": "it",
   "Ivory Coast": "ci",
+  "Cote d'Ivoire": "ci",
+  "Côte d'Ivoire": "ci",
   "Jamaica": "jm",
   "Japan": "jp",
   "Jordan": "jo",
@@ -751,6 +758,9 @@ export const countryToCode = {
   "Turkmenistan": "tm",
   "USA": "us",
   "Uganda": "ug",
+  "UK": "gb",
+  "United Kingdom": "gb",
+  "United Kingdom of Great Britain and Northern Ireland": "gb",
   "Ukraine": "ua",
   "United Arab Emirates": "ae",
   "Uruguay": "uy",

@@ -735,6 +735,7 @@ const countryToCode = {
   'north korea': 'KP',
   'south korea': 'KR',
   'kyrgyzstan': 'KG',
+  'laos': 'LA',
   'latvia': 'LV',
   'lebanon': 'LB',
   'lesotho': 'LS',
